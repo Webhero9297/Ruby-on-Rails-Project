@@ -1,0 +1,13 @@
+db:
+  image: mongo:2.4
+  ports:
+    - "27017:27017"
+web:
+  build: .
+  command: bundle exec rails s
+  volumes:
+    - .:/intervac
+  ports:
+    - "3000:3000"
+  links:
+    - db
