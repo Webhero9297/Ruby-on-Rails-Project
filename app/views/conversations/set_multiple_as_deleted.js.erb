@@ -1,0 +1,12 @@
+function render_table() {
+    $('#conversation-table').replaceWith("<%= escape_javascript(render(partial: 'conversations/conversations_table')) %>");
+}
+
+<% @deleted_conversations.each do |conversation| %>
+    $("#conversation-<%= conversation.id %>").css({"background-color": "#F8F8CF"}).fadeOut('slow', function() {
+        $(this).remove();
+        <% if conversation == @deleted_conversations.last %>
+            render_table();
+        <% end %>
+    });
+<% end %>

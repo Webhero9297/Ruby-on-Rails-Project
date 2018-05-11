@@ -1,0 +1,21 @@
+<% section_image 'section-image-5' %>
+<div class="row">
+    <div class="wide">
+        <h1 class="top-header left">
+            <span class="top-header-label"><%= t('users.confirmations.new.header') %></span>
+        </h1>
+        <%= render(partial: '/users/shared/resource_error_message', locals: {resource: resource}) %>
+
+        <%= form_for(resource, :as => resource_name, :url => confirmation_path(resource_name), :html => { :method => :post, class: 'form-vertical'}) do |f| %>
+            <fieldset>
+                <%= f.label( :email, t('users.confirmation.your_email_address') ) %>
+                <%= f.email_field( :email, class: 'w50', placeholder: t('form.placeholder.email_address_you_use_for_intervac') ) %>
+            </fieldset>
+
+            <fieldset class="form-actions">
+                <%= f.button(t('button.resend_instructions'), class: 'btn blue') %>
+                <%= link_to(t('button.cancel'), login_url, class: 'btn btn-link') %>
+            </fieldset>
+        <% end %>
+    </div>
+</div>

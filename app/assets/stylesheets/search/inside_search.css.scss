@@ -1,0 +1,492 @@
+@import 'mixins';
+.sidebar {
+  width: 300px;
+  float:left;
+  #listing-finder {
+    text-transform: uppercase;
+  }
+  #txt-member-name {
+    text-transform: capitalize;
+  }
+}
+
+h2.sidebar-header {
+  margin: 0 0 4px 0;
+  padding: 0;
+  font-size: 11px;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.new-filter {
+  font-size: 11px;
+  color: black;
+  display:none;
+  margin-bottom: 0;
+  background-color: #F7EFC9;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.label-new-filter {
+  display: inline-block;
+}
+
+.label-new-filter:hover + .new-filter {
+  display:inline-block;
+}
+
+span.count {
+  margin-right: 10px;
+}
+
+.main-content {
+  margin-left: 320px;
+    min-height: 600px;
+}
+
+
+#location-label{
+  font-size: 15px;
+  font-weight: normal;
+  color: #454545;
+}
+
+/* Pagination overides */
+.top-pagination{
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  .pagination{
+    margin-bottom: 0;
+    line-height: 0;
+    margin-top: 0;
+  }
+
+  ul > li > a{
+    border-bottom: 0;
+  }
+
+  ul > li:last-child > a{
+    @include border-radius-corners(0, 3px, 0, 0);
+  }
+
+  ul > li:first-child > a{
+    @include border-radius-corners(3px, 0, 0, 0);
+  }
+}
+
+/* Pagination overrides end */
+
+.filter-list{
+  margin: 8px 0 10px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.accordion-body{
+  background-color: #fdf9ec;
+}
+
+.accordion-toggle {
+  padding: 8px !important;
+}
+
+.accordion-heading {
+  a.accordion-toggle i.icon-plus {
+    opacity: 0.25;
+  }
+  a.accordion-toggle:hover .icon-plus {
+    opacity: 1;
+  }
+}
+
+
+.search-options-header{
+  padding: 0 0 4px 4px;
+  margin: 0 10px 10px 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #454545;
+}
+
+
+
+.search-chosen-filters{
+  padding: 10px 0 10px 0;
+  margin: 0 10px 10px 10px;
+  font-size: 15px;
+  font-weight: normal;
+  border-top: 1px solid #dddddd;
+  color: #454545;
+}
+
+#result-plate{
+    background-color: #f8f0ce;
+    border: 1px solid #dfd1c4;
+    padding: 0 10px 10px 0;
+    margin-bottom: 20px;
+    float: left;
+    @include box-sizing;
+    @include border-radius(3px);
+}
+
+#plate-map{
+  background: #505050 image-url('low_contrast_linen.png') 0 0;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 600px;
+    @include box-sizing;
+    @include border-radius(3px);
+}
+
+#google-map-canvas{
+  height: 100%;
+    width: 100%;
+    img { max-width: none; }
+}
+
+.result-card {
+    background: $white;
+    float: left;
+    margin: 10px 0 0 10px;
+    padding: 5px 10px;
+    position: relative;
+    width: 270px;
+    @include border-radius(3px);
+    border: 1px solid #d1c4b8;
+}
+
+/* should use float-right instead of position absolute.
+it would work better when more icons are added */
+.result-card-favorite {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.result-card-contacted {
+    float: right;
+    margin-right: 40px;
+}
+
+.result-card-location {
+    height: 50px;
+}
+
+.result-card-location-link {
+    text-decoration: none;
+
+    &:visited {
+        color: $purple;
+        text-decoration: none;
+        .result-card-city,
+        .result-card-country {
+            color: $purple;
+        }
+    }
+
+    &:hover {
+        color: $green;
+        text-decoration: none;
+        .result-card-city,
+        .result-card-country {
+            color: $green;
+        }
+    }
+}
+
+.result-card-city {
+    color: $black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.result-card-country {
+    color: $dark-grey;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.result-card-photo {
+    width: 270px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.result-card-image {
+    width: 270px;
+    height: auto;
+}
+
+.result-card-headline {
+    color: #ffffff;
+    background: #000000;
+    opacity: 0.8;
+    position: absolute;
+    width: 262px;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    padding: 2px 4px;
+    display: none;
+}
+
+.many-exchanges {
+  display: none;
+}
+
+.result-card-exchange-dates {
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    margin: 4px 0;
+    overflow: hidden;
+    text-align: center;
+
+    > span {
+        white-space: nowrap;
+    }
+    &:hover {
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      .many-exchanges {
+        display: block;
+      }
+      .chosen-date {
+        display: none;
+      }
+    }
+}
+
+.result-card-capacity {
+    display: table;
+    margin: 0 0 6px 0;
+    padding: 0;
+    width: 100%;
+
+    > li {
+        border-right: 1px solid #dddddd;
+        display: table-cell;
+        list-style: none;
+        padding: 0 0 6px 0;
+        margin: 0;
+        text-align: center;
+        overflow: hidden;
+
+
+        &:last-child {
+            border: 0;
+        }
+
+        > img {
+            display: inline-block;
+        }
+
+        > span {
+            display: inline-block;
+            margin-left: 4px;
+            vertical-align: bottom;
+        }
+    }
+}
+
+.result-card-data-container {
+    position: relative;
+    width: 270px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto 12px auto;
+}
+
+.result-card-property-info,
+.result-card-wish-list {
+    background-color: $white;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+
+.result-card-property-info {
+    z-index: 999;
+}
+
+.result-card-wish-list {
+    z-index: 998;
+}
+
+.result-card-properties {
+    td:nth-child(2n) {
+        font-weight: 600;
+    }
+}
+
+.result-card-properties .wish-list-row {
+    font-weight: 600;
+}
+
+.result-card-flip-link {
+    float: left;
+}
+
+.result-card-view-link {
+    float: right;
+    &:visited {
+        color: $purple;
+    }
+}
+
+/*
+.result-listing-card:nth-child(3n+1){
+  clear: left;
+}
+*/
+.info-window{
+    border:2px solid black;
+    margin-top: 8px;
+    background:#fff;
+    color:#222;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding: .5em 1em;
+    @include border-radius(2px);
+    @include box-shadow(0, 0, 8px, #444);
+
+  .info-window-city{
+    font-size: 14px;
+    color: $black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+  }
+  .info-window-country{
+    font-size: 12px;
+    color: $dark-grey;
+    font-weight: bold;
+  }
+
+  .info-window-photo-container{
+    width: 170px;
+    height: 114px;
+    overflow: hidden;
+    position: relative;
+
+  }
+  .info-window-photo{
+    width: 170px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .contacted-user {
+          text-align: center;
+          color: green;
+  }
+
+  .link-container{
+    width: 130px;
+    text-align: right;
+    display: inline-block;
+  }
+
+}
+
+
+.destination-search-wrapper {
+  width: 70%;
+}
+
+
+/* MAP SEARCH */
+
+.map-view-button {
+  margin-bottom: -30px;
+  margin-left: 20px;
+}
+
+#pac-input {
+  display: none;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 0 11px 0 13px;
+  width: 400px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 300;
+  text-overflow: ellipsis;
+  @include border-radius(2px);
+  @include box-shadow(0,2px,6px,rgba(0, 0, 0, 0.3));
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+  margin-left: -1px;
+  padding-left: 14px;  /* Regular padding-left + 1. */
+  width: 401px;
+}
+
+#pac-input .notfound {
+  border-color: #e86850;
+  margin-left: -1px;
+  padding-left: 14px;
+  width: 401px;
+}
+
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0 11px;
+}
+
+#type-selector label {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.checkbox.inline.adults + .checkbox.inline.adults {
+  margin-left: 5px;
+}
+
+.map-view-link {
+  float: right;
+  font-size: 16px;
+}
+
+
+.destination-search-holder {
+  display: inline-block;
+  margin-right: 40px;
+  vertical-align: top;
+}
+
+.goto-listing-container {
+  position: relative;
+  width: 100%;
+  input {
+    width: 90%;
+    z-index: 1;
+    padding-right: 0;
+  }
+  button {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+  }
+}
+
+
+.clear {
+  clear: both;
+}

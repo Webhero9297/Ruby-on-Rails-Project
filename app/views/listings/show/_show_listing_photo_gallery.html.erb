@@ -1,0 +1,36 @@
+<div class="mt-slider">
+    <button type="button" data-mt-slider="button-left" class="mt-slider-btn-left"></button>
+    <button type="button" data-mt-slider="button-right" class="mt-slider-btn-right"></button>
+    <div class="mt-slider-view">
+        <div class="mt-slider-content">
+            <% if @main_photo.blank? %>
+                <div class="mt-slider-slide">
+                    <%= image_tag('photos-coming-soon-458.jpg', width: 458, height: 333, alt: 'No photos', class: 'mt-slider-image', id: 'main-photo') %>
+                </div>
+            <% else %>
+                <%= render(partial: 'listings/show/show_listing_photo_gallery_slide', locals: {photo: @main_photo}) %>
+            <% end %>
+            <% @listing_images.each do |image| %>
+                <%= render(partial: 'listings/show/show_listing_photo_gallery_slide', locals: {photo: image}) %>
+            <% end %>
+            <% @profile_images.each do |image| %>
+                <%= render(partial: 'listings/show/show_listing_photo_gallery_slide', locals: {photo: image}) %>
+            <% end %>
+        </div>
+    </div>
+    <div class="mt-slider-thumbs">
+        <div class="mt-slider-thumbs-content">
+            <% if @main_photo.blank? %>
+                <%= image_tag('photos-coming-soon-458.jpg', width: 80, height: 80, alt: 'No photos', :'data-imgsrc' => '/assets/photos-coming-soon-458.jpg', class: 'photo-gallery-item-image mt-slider-thumb') %>
+            <% else %>
+                <%= image_tag(@main_photo.image.size_60, width: 80, height: 80, alt: truncate_alt_text(@main_photo.caption), :'data-imgsrc' => @main_photo.image.size_458, class: 'photo-gallery-item-image mt-slider-thumb') %>
+            <% end %>
+            <% @listing_images.each do |image| %>
+                <%= image_tag(image.image.size_60, width: 80, height: 80, alt: truncate_alt_text(image.caption), :'data-imgsrc' => image.image.size_458, class: 'photo-gallery-item-image mt-slider-thumb') %>
+            <% end %>
+            <% @profile_images.each do |image| %>
+                <%= image_tag(image.image.size_60, width: 80, height: 80, alt: truncate_alt_text(image.caption), :'data-imgsrc' => image.image.size_458, class: 'photo-gallery-item-image mt-slider-thumb') %>
+            <% end %>
+        </div>
+    </div>
+</div>

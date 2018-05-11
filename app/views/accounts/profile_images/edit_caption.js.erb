@@ -1,0 +1,1 @@
+$('p#caption-<%= @profile_image.id %>').replaceWith("<%= escape_javascript(render( partial: 'accounts/profile_images/caption_form', object: @profile_image, as: 'image', locals: {account: @account})) %>");

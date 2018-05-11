@@ -1,0 +1,78 @@
+<div class="row-fluid">
+  <div class="span12">
+    <%= render(partial: '/listing/locations/find_location_form', locals:{address_field_id: 'location-address-field'}) %>
+
+    <%= form_for(@listing, url: listing_location_url(@listing), remote: true, html: {id: 'location-form', class: 'form-horizontal listing'}) do |f| %>
+      <% if @listing.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+          <ul>
+            <% @listing.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <fieldset class="button-create-listing">
+        <%= f.button(t('button.save_changes'), id: 'btn-primary-listing', class: 'btn btn-primary') -%>
+        <%= link_to(t('global.cancel'), cancel_listing_location_url(@listing), remote: true) %>
+
+        <%= f.hidden_field(:lat, id: 'listing-location-lat') %>
+        <%= f.hidden_field(:lng, id: 'listing-location-lng') %>
+
+        <%= f.hidden_field(:street, id: 'listing-street') %>
+        <%= f.hidden_field(:postal_town, id: 'listing-postal-town') %>
+        <%= f.hidden_field(:postal_code, id: 'listing-postal-code') %>
+        <%= f.hidden_field(:state, id: 'listing-state') %>
+        <%= f.hidden_field(:state_long, id: 'listing-state-long') %>
+        <%= f.hidden_field(:country, id: 'listing-country') %>
+        <%= f.hidden_field(:country_code, id: 'listing-country-code') %>
+        <%= f.hidden_field(:google_formatted_address, id: 'listing-formatted-address') %>
+      </fieldset>
+    <% end %>
+
+    <div id="map-canvas" class="listings-map" data-load="listings#edit"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+var google_map = Object.create(GOOGLE_MAP);
+$('form#listing-location').submit(function(event) {
+  event.preventDefault();
+  var address = $('input#location-address-field').val();
+  var geocoder = new google.maps.Geocoder();
+  geocoder.geocode({"address":address }, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK && results.length > 0) {
+      var place = results[0];
+      LOCATION.update_location(place.geometry.location);
+      LOCATION.marker.setPosition(place.geometry.location)
+        LOCATION.listner_dragend(marker);
+
+      if (place.geometry.viewport) {
+        google_map.map.fitBounds(place.geometry.viewport);
+      } else {
+        google_map.map.setCenter(place.geometry.location);
+        google_map.map.setZoom(17);
+      }
+    }
+  });
+});
+
+
+
+if($('div#map-canvas[data-load="listings#edit"]').length > 0) {
+  place_edit(get_coordinates());
+  var address = $('input#listing-formatted-address').val();
+  $('input#location-address-field').val(address);
+}
+
+</script>

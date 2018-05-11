@@ -1,0 +1,77 @@
+@media print {
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	.header {
+		margin: 0;
+		padding: 0;
+	}
+
+	.footer {
+		margin: 0;
+		padding: 0;
+	}
+
+	#page {
+		width: 19cm;
+		margin: 1cm 1cm 0 1cm;
+		min-height: 1cm;
+	}
+
+	div#receipt {
+		font-size: 11pt;
+		margin-bottom: 0;
+		
+		h1.page-header {
+			font-size: 16pt;
+			font-weight: normal;
+		}
+		
+		h2.section-header {
+			font-size: 12pt;
+			font-weight: bold;
+		}
+		
+		.btn,
+		.alert {
+			display: none;
+		}
+	}
+
+	.dl-horizontal {
+	  *zoom: 1;
+	}
+
+	.dl-horizontal:before,
+	.dl-horizontal:after {
+	  display: table;
+	  line-height: 0;
+	  content: "";
+	}
+
+	.dl-horizontal:after {
+	  clear: both;
+	}
+
+	.dl-horizontal dt {
+	  float: left;
+	  width: 160px;
+	  overflow: hidden;
+	  clear: left;
+	  text-align: right;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+	}
+
+	.dl-horizontal dd {
+	  margin-left: 180px;
+	}
+	
+	div#mcafee {
+		display: none;
+	}
+	
+}

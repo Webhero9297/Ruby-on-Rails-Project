@@ -1,0 +1,38 @@
+.dashboard-switcher {
+    display: block;
+    background-color: #252525;
+    text-align: center;
+    color: $white;
+
+    .link-switch {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 0 10px;
+        color: $white;
+        &:hover {
+            color: $light-orange;
+        }
+    }
+    .active {
+        background-color: $orange;
+        &:hover {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    .switched-user {
+        color: $white;
+        display: inline-block;
+        padding-right: 26px;
+        border-right: 1px solid #ccc;
+    }
+    .account-info{
+        margin: 0px;
+        padding-bottom: 10px;
+        strong{
+            letter-spacing: 1px;
+        }
+    }
+
+}

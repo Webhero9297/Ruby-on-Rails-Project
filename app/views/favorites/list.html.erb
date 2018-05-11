@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="span3">
+        <%= render(partial: 'favorites/favorites_sidebar_menu') %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content" id="multi-message-content">
+
+                <h1 class="plate-header"><%= t('favorites.header.contact_multiple_favorites') %></h1>
+
+                <%= render(partial: 'multi_recipient_form', locals: {subject: @subject, body_text: @body_text, user_account: current_user.account}) %>
+
+                <p><%= t('favorites.contact_multiple_information') %></p>
+
+                <% if @favorite_listings.empty? %>
+                <div class="alert alert-info">
+                    <p class="alert-message"><%= t('accounts.favorites.alert_message') %></p>
+                </div>
+                <%- else -%>
+                    <%= render(partial: 'favorite_listing_row', collection: @favorite_listings, as: :listing, locals: {notes: @favorite_notes}) %>
+                <% end -%>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    mark_selected_favorites();
+    <%= render(partial: 'message_templates/message_template_selector_script.js.erb') %>
+</script>

@@ -1,0 +1,54 @@
+@import "mixins";
+
+.button {
+    display: inline-block;
+    color: $blue;
+    background-color: $white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 14px;
+    @include box-sizing;
+    text-align: center;
+    &.large {
+        font-size: 16px;
+        padding: 9px 18px;
+    }
+    &.full {
+        width: 100%;
+    }
+    &:active {
+        color: $white;
+        background-color: $light-orange;
+    }
+    
+}
+
+.button-green {
+    color: $white;
+    background-color: $green;
+    &:active {
+        background-color: $light-blue;       
+    }
+}
+
+.button-blue {
+    color: $white;
+    background-color: $blue;
+    &:active {
+        background-color: $light-blue;       
+    }
+}
+
+.button-yellow-green {
+    color: $white;
+    background-color: #a3c953;
+    &:active {
+        background-color: $light-blue;       
+    }
+}
+
+input[type="submit"],
+button {
+    cursor: pointer;
+}

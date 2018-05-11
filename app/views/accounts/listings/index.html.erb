@@ -1,0 +1,44 @@
+<% body_id 'listings' %>
+<% if @listings.count != 0 -%>
+
+  <%= render('accounts/listings/listings_list_menu') %>
+  
+  <% if @active_listing.errors.any? %>
+    <div class="row-fluid">
+      <div class="span12">
+        <div id="error_explanation">
+          <h2><%= pluralize(@active_listing.errors.count, "error") %> <%= t('listings.error.from_become_active') %>:</h2>
+
+          <ul>
+            <% @active_listing.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  
+  <% if flash[:info] -%>
+  <div class="alert alert-danger">
+    <p class="alert-message"><strong>Oops!</strong> <%= t('listings.alert.message.danger.hotlist') %></p>
+  </div>
+  <% end -%>
+  
+  <section class="row">
+    <div class="span12">
+      <% @listings.each do |listing| %>
+      <div class="listing">
+        <%= render( partial: 'listings/listing_overview', object: listing, as: 'listing', locals: {:page => 'index'} ) %>
+      </div>
+      <% end %>
+    </div>
+  </section>
+  
+<% else %>
+<section class="row">
+  <div class="span12">
+    <%= render( partial: 'member/listings/first_listing') %>
+  </div>
+</section>
+<% end -%>

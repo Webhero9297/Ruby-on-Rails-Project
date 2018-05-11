@@ -1,0 +1,81 @@
+@import "mixins";
+
+.plate {
+	width: 100%;
+	background-color: #f8f0ce;
+	float: left;
+	border: 1px solid #dfd1c4;
+	@include border-radius();
+}
+
+.group {
+	margin: 10px;
+	padding-top: 20px;
+	background-color: $white;
+	border: 1px solid #d1c4b8;
+	@include border-radius();
+	
+	> h1 {
+		padding: 0  0 4px 10px;
+		margin: 0 10px 10px 10px;
+		font-size: 18px;
+		font-weight: normal;
+		border-bottom: 1px solid #F5A200;
+		color: #454545;
+		small{
+		  font-size: 16px;
+		  font-style: italic;
+		}
+	}
+	
+	div.content {
+		padding: 0 20px 20px 20px;
+	}
+}
+
+.plate-header {
+	padding: 0  0 4px 4px;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	font-weight: normal;
+	border-bottom: 1px solid #F5A200;
+	color: #454545;
+}
+
+.plate-section-header {
+	padding: 0  0 0 4px;
+	margin: 0 0 10px 0;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 22px;
+	border-bottom: 1px solid $blue;
+	color: #454545;	
+}
+
+.plate-content {
+	background-color: $white;
+	border: 1px solid #dedede;
+	padding: 20px;
+	margin: 10px;
+	@include border-radius();
+}
+
+.plate-edit-button {
+	margin-bottom: 10px;
+}
+
+.plate-section {
+	margin: 0 -20px 20px -20px;	
+	padding: 0 20px 20px 20px;
+}
+
+.plate .section-header {
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.section-edit-btn {
+	margin-bottom: 20px;
+}

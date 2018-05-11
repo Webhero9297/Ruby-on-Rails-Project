@@ -1,0 +1,32 @@
+<article>
+  <% if order.transactions.empty? then %>
+  <div class="alert alert-info">
+    <p class="alert-message"><%= t('payment.price_plan.alert.message.there_are_no_transaction_details_available') %></p>
+  </div>
+  <% else %>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Transaction ID</th>
+        <th>Amount</th>
+        <th>Currency</th>
+        <th>Status</th>
+        <th>Type</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% order.transactions.each do |transaction| %>
+      <tr>
+        <td><%= transaction.params['transaction_id'] %></td>
+        <td><%= transaction.params['gross_amount'] %></td>
+        <td><%= transaction.params['gross_amount_currency_id'] %></td>
+        <td><%= transaction.params['payment_status'] %></td>
+        <td><%= transaction.params['transaction_type'] %></td>
+        <td><%= transaction.params['payment_date'] %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <% end %>
+</article>

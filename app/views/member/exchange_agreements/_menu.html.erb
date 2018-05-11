@@ -1,0 +1,18 @@
+<% body_id 'exchanges' %>
+<section class="mb20">
+  <%= render(partial: 'dashboards/member_home') %>
+</section>
+<section>
+  <nav class="section-nav" role="secondary">
+    <ul class="nav nav-tabs nav-stacked nav-sidebar">
+      <% highlight_current_link(:class => 'active') do |n| -%>
+      <%= n.li_link_to(t(content_tag('i','', class: 'icon-chevron-right') + t('menu.ongoing')), member_exchange_agreements_path) %>
+      <%= n.li_link_to(t(content_tag('i','', class: 'icon-chevron-right') + t('menu.future_vacations')) + ' ' + content_tag('span',ExchangeAgreement.by_owner(current_user.account.id).future.count(),class: 'badge badge-success'), future_member_exchange_agreements_path) %>
+      <%= n.li_link_to(t(content_tag('i','', class: 'icon-chevron-right') + t('menu.past_agreements')), past_member_exchange_agreements_path) %>
+      <%= n.li_link_to(t(content_tag('i','', class: 'icon-chevron-right') + t('menu.cancelled_agreements')), cancelled_member_exchange_agreements_path) %>
+      <%= n.li_link_to(t(content_tag('i','', class: 'icon-chevron-right') + t('menu.references')), references_member_exchange_agreements_path) %>
+      <%= n.li_link_to(t(content_tag('i','', class: 'icon-chevron-right') + t('menu.tips_checklists')), member_exchange_documents_path) %>
+      <% end -%>
+    </ul>
+  </nav>
+</section>

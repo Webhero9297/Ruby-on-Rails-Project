@@ -1,0 +1,20 @@
+<% page_title '' %>
+<% page_description '' %>
+<% page_keywords '' %>
+
+<div class="row">
+  <div class="span12">
+    <div class="box">
+      <article>
+      <h1 class="box"><%= t('login.facebook_login_information') %></h1>
+
+      <div class="alert">
+      <p class="alert-message"><%= t('facebook.alert.message.there_is_no_matching_email_with_your_intervac_account') %></p>
+      </div>
+
+      <p><%= t('login.login_and_connect_your_facebook_account_with_intervac') %></p>
+      <p><%= link_to(t('button.log_in_to_intervac'), login_url) %></p>    
+      </article>
+    </div>
+  </div>
+</div>

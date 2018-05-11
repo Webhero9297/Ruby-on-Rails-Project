@@ -1,0 +1,43 @@
+@import "mixins";
+
+.agent-countries-wrapper {
+    position: relative;
+    height: 650px;
+}
+
+.agent-countries {
+    margin: 0 0 2em 0;
+    border-top: 1px solid $light-grey;
+    border-left: 1px solid $light-grey;
+    float: left;
+}
+
+.agent-country {
+    border-bottom: 1px solid $light-grey;
+    border-right: 1px solid $light-grey;
+    float: left;
+}
+
+.agent-country-link {
+    color: #222222;
+    display: block;
+    float: left;
+    height: 3em;
+    margin: 0;
+    padding: 0.625em 1.25em;
+    text-decoration: none;
+    width: 13.5em;
+    &:hover {
+        color: #18670f;
+        background-color: #e8feee;
+        text-decoration: none;
+    }
+}
+
+.agent-country-name {
+    display: inline-block;
+    @include rem('font-size', 0.875rem);
+    vertical-align: middle;
+    width: 9em;
+}
+

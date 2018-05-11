@@ -1,0 +1,79 @@
+<% body_id 'translations' %>
+<div class="row-fluid">
+  <div class="span12">
+    <p> <%= link_to(content_tag('i','', class: 'icon-arrow-left') + ' ' + "Back to translations", admin_translations_url, class: 'btn') %> </p>
+    <h1 class="page-header"><%= t('button.create_new_locale') %></h1>
+  </div>
+</div>
+<div class="row-fluid">
+  <div class="span9 well">
+    <h4>Use this form to clone an existing locale. Ie if you need a special english in France.</h4>
+    <div class="span4">
+      <%= form_tag(admin_clone_locale_url, :method => "post", :class => "form-vertical" ) do %>
+      <fieldset>
+        <%= label_tag(:from_locale, "From locale:") %>
+        <%= select_tag(:from_locale, options_for_select(@locales.collect{|v| [v,v]})) %>
+      </fieldset>
+      <fieldset>
+        <%- if  @countries.count  > 1 -%>
+        <%= label_tag(:for_country, "For country:") %>
+        <%= select_tag(:for_country, options_for_select(@countries.collect{|v| [t(v['msgid']),v['short']]})) %>
+        <%- else -%>
+        <%= hidden_field_tag(:for_country, @countries.first['short']) %>
+        <%- end -%>
+      </fieldset>
+      <fieldset class="form-actions">
+        <%= button_tag('Create locale', :class => 'btn', :disabled => false, :disable_with => t('button.please_wait')) %>
+      </fieldset>
+      <% end %>
+    </div>
+    <div class="span4">
+      <dl>
+        <dt>From locale</dt>
+        <dd>The language you want to copy the translations from.</dd>
+        <dt>To country</dt>
+        <dd>If you are managing more than one country you can choose for which country the new language is for.</dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span9 well">
+    <h4>Use this form to create a complete new locale. Make sure all info is correct as no validation against country codes will be done.</h4>
+    <div class="span4">
+      <%= form_tag(admin_create_locale_url, :method => "post", :class => "form-vertical" ) do %>
+      <fieldset>
+        <%= label_tag(:new_locale, "New locale (fr_AF):") %>
+        <%= text_field_tag(:new_locale) %>
+        <%= label_tag(:new_locale_msgid, "New locale msgid (langauge.french):") %>
+        <%= text_field_tag(:new_locale_msgid) %>
+        <%= label_tag(:new_locale_short, "New locale short (fr):") %>
+        <%= text_field_tag(:new_locale_short) %>
+        <%= label_tag(:new_locale_name, "New locale name in english (French):") %>
+        <%= text_field_tag(:new_locale_name) %>
+      </fieldset>
+      <fieldset>
+        <%- if  @countries.count  > 1 -%>
+        <%= label_tag(:for_country, "For country:") %>
+        <%= select_tag(:for_country, options_for_select(@all_countries.collect{|v| [t(v['msgid']),v['short']]})) %>
+        <%- else -%>
+        <%= hidden_field_tag(:for_country, @all_countries.first['short']) %>
+        <%- end -%>
+      </fieldset>
+      <fieldset class="form-actions">
+        <%= button_tag('Create locale', :class => 'btn', :disabled => false, :disable_with => t('button.please_wait')) %>
+      </fieldset>
+      <% end %>
+    </div>
+    <div class="span4">
+      <dl>
+        <dt>From locale</dt>
+        <dd>The language you want to copy the translations from.</dd>
+        <dt>To country</dt>
+        <dd>If you are managing more than one country you can choose for which country the new language is for.</dd>
+      </dl>
+    </div>
+  </div>
+</div>
+

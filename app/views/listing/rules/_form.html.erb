@@ -1,0 +1,34 @@
+<%= form_for(@listing, url: listing_rule_url(@listing), remote: true, html: {id: 'rules-form', class: 'form-vertical'}) do |f| %>
+  <% if @listing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+      <ul>
+        <% @listing.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <h2 class="plate-section-header"><%= t('listings.allow_disallow_children') %></h2>
+  <fieldset>
+    <ul class="unstyled">
+      <li><%= label_tag('listing_children_tag.children_welcome', radio_button_tag('listing[children]', 'tag.children_welcome', @listing.property_details.include?('tag.children_welcome')) + t('listing.children_welcome'), class: 'radio') %></li>
+      <li><%= label_tag('listing_children_tag.no_small_children', radio_button_tag('listing[children]', 'tag.no_small_children', @listing.property_details.include?('tag.no_small_children')) + t('listing.children_not_welcome'), class: 'radio') %></li>
+    </ul>
+  </fieldset>
+
+  <h2 class="plate-section-header"><%= t('listings.allow_disallow_pets') %></h2>
+  <fieldset>
+    <ul class="unstyled">
+      <li><%= label_tag('listing_pets_tag.pets_welcome', radio_button_tag('listing[pets]', 'tag.pets_welcome', @listing.property_details.include?('tag.pets_welcome')) + t('listing.pets_welcome'), class: 'radio') %></li>
+      <li><%= label_tag('listing_pets_tag.no_pets', radio_button_tag('listing[pets]', 'tag.no_pets', @listing.property_details.include?('tag.no_pets')) + t('listing.pets_not_welcome'), class: 'radio') %></li>
+    </ul>
+
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_rule_url(@listing), remote: true, class: 'btn btn-link') %>
+  </fieldset>
+<% end %>

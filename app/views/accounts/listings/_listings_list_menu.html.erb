@@ -1,0 +1,8 @@
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to('Listings', account_listings_url(current_user.account.id)) %>
+    <%= n.li_link_to('Statistics', statistics_account_listings_url(current_user.account)) %>
+    <% end %>
+  </ul>
+</nav>

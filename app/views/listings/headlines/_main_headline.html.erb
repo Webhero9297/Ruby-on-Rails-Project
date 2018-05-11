@@ -1,0 +1,6 @@
+<article id="headline-placeholder">
+  <h1 class="headline"><%= listing.headline %></h1>
+  <div class="mb10">
+    <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_listing_headlines_path(listing), remote: true, class: 'btn btn-small') %>
+  </div>
+</article>

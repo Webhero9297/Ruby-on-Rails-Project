@@ -1,0 +1,41 @@
+<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h2>Translations for <%= @locale %></h2>
+</div>
+
+<%= form_tag(agent_translation_url(@translation[:_id]), :method => "put", :class => "form-vertical translation-form modal-form" ) do %>
+  <div class="modal-body" id="modal-content">
+    <div class="alert alert-info">
+      After saving, reload/refresh the page to see your changes.
+    </div>
+      <fieldset>
+        <label class="mb20"><%= @default_translations.where(msgid: @translation[:msgid]).first.get_value%></label>
+        <%= text_area_tag(:value, @translation.get_value, {:id => nil, :class=>'input-xxlarge translation', :rows=>5}) %>
+        <%= hidden_field_tag(:id, @translation[:_id]) %>
+        <p><a href="#" rel="<%= @translation[:msgid].gsub('.', '-') %>" class="show-help">Show msgid</a></p>
+        <p id="<%= @translation[:msgid].gsub('.', '-') %>" class="translation-help hidden">
+          <em><%= @translation[:msgid] %></em>
+        </p>
+        <p><strong>Placeholders: </strong><em><%= @translation[:field_codes] %></em></p>
+      </fieldset>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Close</a>
+    <%= button_tag(t('button.save_changes'), class: 'btn btn-primary') %>
+  </div>
+<% end %>
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+     $('a.show-help').click( function(event){
+         event.preventDefault();
+         var link = $(this);
+         var target = $('p#'+link.attr('rel'));
+         target.toggleClass('hidden');
+         if(target.is(':hidden')){
+             link.text('Show msgid');
+             return;
+         }
+         link.text('Hide msgid');
+     });
+  });
+</script>

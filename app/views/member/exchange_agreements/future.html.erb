@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="span3">
+    <%= render( partial: 'menu') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('exchange_agreements.header.future_exchange_agreements') %></h1>
+        <% if @exchange_agreements.empty? %>
+          <div class="alert alert-info">
+            <p class="alert-message"><%= t('exchange_agreements.alert.message.you_do_not_have_any_agreed_exchange_agreements') %></p>
+          </div>
+        <% elsif current_user.account.is_expired? %>
+          <% if current_user.account.is_expired_for_less_than_30_days?  %>
+            <div class="alert alert-warning">
+              <p class="alert-message"><%= t('exchange_agreements.alert.message.membership_expired_30_days', {:EA_ACCESS_LIMIT_DATE =>  l(current_user.account.current_expires_at + 30.days, format: '%d %B', locale: I18n.locale) })%></p>
+            </div>
+            <%= render(partial: 'future_agreement') %>
+          <% else %>
+            <div class="alert alert-danger">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <p class="alert-message"><%= t('exchange_agreements.alert.message.membership_expired') %></p>
+              <%= link_to(t('link.renew_membership'), renew_subscriptions_url, class: 'btn-link') %>
+            </div>
+          <% end %>
+        <% else %>
+          <%= render(partial: 'future_agreement') %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

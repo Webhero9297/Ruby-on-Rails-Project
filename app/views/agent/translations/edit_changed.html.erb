@@ -1,0 +1,36 @@
+<% body_id 'translations' %>
+<%= render :partial => 'tab-menu'%>
+
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('translations.header.you_are_now_editing') %>  <%= @locale %></h1>
+        <% if @translations.length == 0 %>
+          <div class="alert">
+            <p>'Hurray! There are no changed translations!'</p>
+          </div>
+        <% end %>
+        <div id="search-results">
+          <%= render :partial => 'edit-forms'%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+     $('a.show-help').click( function(event){
+         event.preventDefault();
+         var link = $(this);
+         var target = $('p#'+link.attr('rel'));
+         target.toggleClass('hidden');
+         if(target.is(':hidden')){
+             link.text('Show msgid');
+             return;
+         }
+         link.text('Hide msgid');
+     });
+  });
+</script>

@@ -1,0 +1,108 @@
+<% body_id 'dashboard' %>
+<section class="row">
+    <div class="span12">
+        <div class="plate">
+            <div class="plate-content">
+                <div class="alert alert-info">
+                    <p class="alert-message"><%= t('dashboard.alerts.need_more_details_to_create_listing') %></p></div>
+                <h1 class="plate-header"><%= t('dashboards.progress.header.membership_profile_completeness') %></h1>
+                <%= render(partial: 'layouts/progress_bar', :locals => {:progress => @account.get_progress}) %>
+                <%= form_for(@valid_guide_profile, :url => save_guide_profile_address_url) do |f| %>
+
+                    <% if @valid_guide_profile.errors.any? %>
+                        <section id="error-explanation" class="alert alert-danger">
+                            <h1 class="alert-heading"><%= @valid_guide_profile.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped') %>
+                                :</h1>
+                            <ul class="error-explanation">
+                                <% @valid_guide_profile.errors.full_messages.each do |msg| %>
+                                    <li><%= msg %></li>
+                                <% end %>
+                            </ul>
+                        </section>
+                    <% end %>
+
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <p><%= t('payment.verify_contact_information') %></p>
+                            <fieldset>
+                                <%= f.label(:birthdate, t('global.birthdate')) %>
+                                <div class="input-append">
+                                  <%= f.text_field(:birthdate, value: '', id: 'birthdate', class: "date", readonly: "readonly") %>
+                                </div>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:address, t('global.address')) %>
+                                <%= f.text_field(:address, size: '52', class: 'span12') %>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:postal_town, t('global.city')) %>
+                                <%= f.text_field(:postal_town, size: '52', class: 'span12') %>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:postal_code, class: 'optional') do %>
+                                    <%= t('global.postal_code') -%>
+                                    <span>(<%= t('global.optional') -%>)</span>
+                                <% end %>
+                                <%= f.text_field(:postal_code, size: '52', class: 'span12') %>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:county, class: 'optional') do %>
+                                    <%= t('global.state') -%>
+                                    <span>(<%= t('global.optional') -%>)</span>
+                                <% end %>
+                                <%= f.text_field(:county, size: '52', class: 'span12') %>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:telephone, t('global.telephone')) %>
+                                <%= f.text_field(:telephone, size: '52', class: 'span12') %>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:mobile, t('gobal.mobile_phone')) %>
+                                <%= f.text_field(:mobile, size: '52', class: 'span12') %>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:time_zone, t('global.time_zone')) %>
+                                <%= f.time_zone_select(:time_zone, ActiveSupport::TimeZone.all) %>
+                            </fieldset>
+                        </div>
+
+                        <div class="span6">
+                            <p><%= t('dashboards.info.text.select_comfortable_communication_languages') %></p>
+                            <fieldset>
+                                <ul class="unstyled">
+                                    <% @languages.each do |language| %>
+                                        <li>
+                                            <%= label_tag("lang-#{language.short}", class: "checkbox") do %>
+                                                <%= check_box_tag("valid_guide_profile[spoken_languages][]", language.msgid, @account.profile.spoken_languages.include?(language.msgid), id: "lang-#{language.short}", class: "checkbox") %>
+                                                <%= t(language.msgid) %>
+                                            <% end %>
+                                        </li>
+                                    <% end -%>
+                                </ul>
+                            </fieldset>
+                        </div>
+                    </div>
+
+                    <fieldset class="form-actions clear-both">
+                        <%= hidden_field_tag('redirect', 'guide_languages') %>
+                        <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+                    </fieldset>
+                <% end %>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+  jQuery(document).ready(function($) {
+    setup_birthdate();
+  });
+</script>

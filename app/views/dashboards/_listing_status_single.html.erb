@@ -1,0 +1,12 @@
+<article class="row-fluid">
+	<section class="span3">
+        <p><%= link_to(get_main_photo(listing, size: 170, class: 'listing-status-photo'), preview_listing_path(listing)) %></p>
+        <p class="center"><%= link_to(t('global.view'), preview_listing_path(listing), class: 'btn btn-small') %></p>
+	</section>
+	<section class="span9">
+        <p><%= t('global.last_updated') %>: <strong><%= standard_date_time(listing.last_updated, current_user.account.time_zone, '%F %R') %></strong></p>
+        <div id="listing-availability-container">
+            <%= render( partial: 'listings/availability_and_hotlist_actions', locals: {listing: listing}) %>
+        </div>
+	</section>
+</article>

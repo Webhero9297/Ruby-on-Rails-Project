@@ -1,0 +1,8 @@
+<%= form_for(@new_reference, url: create_reference_member_exchange_agreements_url, method: :post, remote: true) do |f| %>
+    <%= hidden_field_tag('is_request', true) %>
+    <div class="input-append">
+        <%= f.label(:listing_number_2, t('exchange_agreement.partner_listing_number')) %>
+        <%= f.text_field(:listing_number_2, :placeholder => t('listings.label.listing_number'), class: 'input', id: 'listing-finder') %>
+        <%= f.button(t('button.send_request'), class: 'btn btn-primary') %>
+    </div>
+<% end %>

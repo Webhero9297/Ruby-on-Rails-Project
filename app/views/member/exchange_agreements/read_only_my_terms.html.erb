@@ -1,0 +1,191 @@
+<% body_id 'exchanges' %>
+
+<div class="row">
+    <div class="span3">
+        <%= render(partial: 'menu') %>
+    </div>
+    <div class="span9">
+        <div class="mb20">
+            <%= link_to(t('button.back'), overview_member_exchange_agreement_path(@exchange_agreement), class: 'btn') %>
+            <% if @member_agreement.all_terms_accepted? %>
+              <%= link_to(t('button.unlock'), edit_member_exchange_agreement_path(@exchange_agreement), class: 'btn btn-danger pull-right', confirm: _('Are you sure? If you edit your terms, your partner needs to accept them again.')) %>
+            <% end %>
+        </div>
+        <div class="plate">
+            <div class="plate-content">
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h1 class="plate-header"><%= t('exchange_agreements.header.read_only_my_terms') %></h1>
+                    </div>
+                </div>
+
+
+                <div class="row-fluid">
+                    <section class="span12">
+                        <h1 class="exchange-agreement">
+                            <%= t('exchange_agreement.header.my_details') %>
+                            (<%= @member_agreement.listing_number %>)
+                        </h1>
+
+                        <div class="exchange-contact">
+                            <span class="name"><%= @member.contact.name %></span>
+                            <span class="address"><%= @member.contact.address %></span>
+                <span class="postal"><%= @member.contact.postal_code %> <%= @member.contact.postal_town %>
+                    , <%= @member.contact.county %></span>
+                            <span class="phone"><%= @member.contact.telephone %></span>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreements.header.holiday_dates') %></h2>
+                        <% if @member_agreement.start_date.nil? or @member_agreement.end_date.nil? %>
+                          <div class="label-holder">
+                              <span class="label label-warning"><%= t('exchange_agreements.label.your_partner_has_not_specified_any_dates') %></span>
+                          </div>
+                        <% else %>
+                          <div class="row-fluid">
+                              <div class="span6">
+                                  <span class="pseudo-label"><%= t('global.from') %></span>
+                                  <span class="holiday-date"><%= exchange_date(@member_agreement.start_date) %></span>
+                              </div>
+                              <div class="span6">
+                                  <span class="pseudo-label"><%= t('global.to') %></span>
+                                  <span class="holiday-date"><%= exchange_date(@member_agreement.end_date) %></span>
+                              </div>
+                          </div>
+                        <% end %>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreements.header.exchange_participants') %></h2>
+                        <% if @member_agreement.participants.nil? %>
+                          <div class="label-holder">
+                              <span class="label label-warning"><%= t('exchange_agreements.label.your_partner_has_not_added_any_participants') %></span>
+                          </div>
+                        <% else %>
+                          <table class="table">
+                              <thead>
+                              <tr>
+                                  <th><%= t('global.name') %></th>
+                                  <th><%= t('global.age') %></th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              <% @member_agreement.participants.each do |participant| %>
+                                <tr>
+                                    <td><%= participant['name'] %></td>
+                                    <td><%= participant['age'] %></td>
+                                </tr>
+                              <% end %>
+                              </tbody>
+                          </table>
+                        <% end %>
+                    </div>
+                </div>
+
+                <div class="row-fluid exchange-term">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreements.about_my_cars') %></h2>
+
+                        <div class="terms">
+                            <%= markdown(if_empty_term(@member_agreement.car_exchange.value, t('exchange_agreements.you_left_this_empty'))) %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid exchange-term">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreements.auto_insurance') %></h2>
+
+                        <div class="alert alert-info">
+                            <p class="alert-message">
+                                <%= label_tag('not_in_use', check_box_tag('not_in_use[]', false, @member_agreement.has_car_insurance, disabled: 'disabled') + t('exchange_agreements.label.auto_insurance_in_place'), class: 'checkbox') %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid exchange-term">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_long_distance_calls') %></h2>
+
+                        <div class="terms">
+                            <%= markdown(if_empty_term(@member_agreement.long_distance_calls.value, t('exchange_agreements.you_left_this_empty'))) %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid exchange-term">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.special_cleaning_requests') %></h2>
+
+                        <div class="terms">
+                            <%= markdown(if_empty_term(@member_agreement.cleaning.value, t('exchange_agreements.you_left_this_empty'))) %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid exchange-term">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_keys_to_my_partners_home') %></h2>
+
+                        <div class="terms">
+                            <%= markdown(if_empty_term(@member_agreement.key_exchange.value, t('exchange_agreements.you_left_this_empty'))) %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid exchange-term">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_my_partners_pets') %></h2>
+
+                        <div class="terms">
+                            <%= markdown(if_empty_term(@member_agreement.pets.value, t('exchange_agreements.you_left_this_empty'))) %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid exchange-term">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('exchange_agreement.other_special_requests') %></h2>
+
+                        <div class="terms">
+                            <%= markdown(if_empty_term(@member_agreement.other.value, t('exchange_agreements.you_left_this_empty'))) %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span12">
+                        <h2 class="exchange-agreement"><%= t('global.stipulations') %></h2>
+                        <%= label_tag('not_in_use', class: 'checkbox') do %>
+                          <%= check_box_tag('not_in_use[]', false, @member_agreement.guests_allowed, disabled: 'disabled') %>
+                          <%= t('exchange_agreement.guests_welcome', {NAME: @partner.contact.name}) %>
+                        <% end %>
+
+                        <%= label_tag('not_in_use', class: 'checkbox') do %>
+                          <%= check_box_tag('not_in_use[]', false, @member_agreement.use_linen, disabled: 'disabled') %>
+                          <%= t('exchange_agreement.can_use_linen', {NAME: @partner.contact.name}) %>
+                        <% end %>
+
+                        <%= label_tag('not_in_use', class: 'checkbox') do %>
+                          <%= check_box_tag('not_in_use[]', false, @member_agreement.pets_allowed, disabled: 'disabled') %>
+                          <%= t('exchange_agreement.can_bring_pets', {NAME: @partner.contact.name}) %>
+                        <% end %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear pt10">
+            <%= link_to(t('button.back'), overview_member_exchange_agreement_path(@exchange_agreement), class: 'btn') %>
+        </div>
+    </div>
+</div>
+
+
+

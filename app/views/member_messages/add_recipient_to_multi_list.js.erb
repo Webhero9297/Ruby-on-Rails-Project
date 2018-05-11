@@ -1,0 +1,3 @@
+$('#multi-recipient-list').append('<%= escape_javascript(render(partial: "multi_recipient", locals: {listing: @listing})) %>');
+$('#favorite-card-<%= @listing.id.to_s %>').css({'background-color' : '#dbf7d6'}).fadeOut(400);
+$('#missing-recipients').remove();

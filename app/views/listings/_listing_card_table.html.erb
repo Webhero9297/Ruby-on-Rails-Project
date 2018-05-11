@@ -1,0 +1,34 @@
+<table class="listing-card table table-striped table-condensed">
+  <tr>
+    <td class="setting"><%= t('maximum_stay') %>:</td>
+    <td class="value"><%= length_of_stay(listing) %></td>
+  </tr>
+  <tr>
+    <td class="setting"><%= t('details.family.adults') %>:</td>
+    <td class="value"><%= listing.account.profile.number_of_adults %></td>
+  </tr>
+  <tr>
+    <td class="setting"><%= t('details.family.children') %>:</td>
+    <td class="value"><%= listing.account.profile.number_of_children -%></td>
+  </tr>
+  <tr>
+    <td class="setting"><%= t('tag.use_exchange_of_car') %>:</td>
+    <td class="value"><%= yes_or_no(listing, 'tag.use_exchange_of_car') %></td>
+  </tr>
+  <tr>
+    <td class="setting"><%= t('tag.non_smoking') %>:</td>
+    <td class="value"><%= yes_or_no(listing, 'tag.non_smoking') -%></td>
+  </tr>
+  <tr>
+    <td class="setting"><%= t('tag.pet_care') %>:</td>
+    <td class="value"><%= yes_or_no(listing, 'tag.pet_care') %></td>
+  </tr>
+  <tr>
+    <td class="setting"><%= t('tag.free_internet_access') %>:</td>
+    <td class="value"><%= yes_or_no(listing, 'tag.free_internet_access') %></td>
+  </tr>
+  <tr>
+    <td class="setting"><%= t('tag.computer_available') %>:</td>
+    <td class="value"><%= yes_or_no(listing, 'tag.computer_available') %></td>
+  </tr>
+</table>

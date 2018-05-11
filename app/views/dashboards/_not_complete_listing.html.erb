@@ -1,0 +1,5 @@
+<div class="alert">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <%= markdown(t('dashboard.listing_not_completed')) %>
+    <p><%= link_to(t('button.complete_listing'), listing_guide_overview_url(listing)) %></p>
+</div>

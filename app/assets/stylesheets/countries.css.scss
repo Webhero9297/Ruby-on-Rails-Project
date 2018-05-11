@@ -1,0 +1,35 @@
+@import "mixins";
+div.choose-country {
+    float: left;
+    background-color: $white;
+}
+.purr {
+  position: fixed;
+  color: #ffffff;
+  top: 30px;
+  right: 300px;
+  padding: 20px;
+  background-color: rgba(44,44,44,0.9);
+  border: solid 2px #000000;
+  @include border-radius;
+  &:first-letter { text-transform: uppercase };
+}
+
+
+ul#locales {
+	@include list-reset;
+	margin-bottom: 20px;
+	float: left;
+	li {
+		width: 206px;
+		padding-left: 20px;
+		float: left;
+		display: inline;
+	}
+	label {
+		padding: 5px;
+		&:hover {
+			color: $hover-green;
+		}
+	} 
+}

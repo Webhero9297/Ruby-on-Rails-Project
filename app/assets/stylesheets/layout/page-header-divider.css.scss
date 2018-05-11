@@ -1,0 +1,38 @@
+.page-header-divider {
+    background: transparent image-url('page-header-stripes.png') repeat-x 0 50%;
+    clear: both;
+    margin-bottom: 1em;
+    text-align: center;
+
+    &.representative-page {
+        margin-top: 1em;
+    }
+}
+
+.page-header-divider-label {
+    background-color: $white;
+    color: $orange;
+    display: inline-block;
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    padding: 0 0.875em;
+
+    &.h1 {
+        @include rem(font-size, 2rem);
+    }
+
+    &.h2 {
+        @include rem(font-size, 1.4rem);
+    }
+
+    @include respond-to(mid-screens) {
+        &.h1 {
+            @include rem(font-size, 3rem);
+        }
+
+        &.h2 {
+            @include rem(font-size, 2rem);
+        }
+    }
+}

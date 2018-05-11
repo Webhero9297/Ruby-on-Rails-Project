@@ -1,0 +1,108 @@
+.membership-badge-icon {
+    display: inline-block;
+    vertical-align: middle;
+    &.bronze {
+        color: #cd7f32;
+    }
+
+    &.silver {
+        color: #c0c0c0;
+    }
+
+    &.gold {
+        color: #ffd700;
+    }
+
+    &.platinum {
+        color: #e5e4e2;
+    }
+
+    &.ready {
+        color: #fe5a1d;
+    }
+
+    &.hot {
+        color: #e30022;
+    }
+
+    &.trial {
+        color: #46c0ab;
+    }
+
+    &:before {
+        content: '\e801';
+        display: inline-block;
+        font-family: "fontello";
+        font-size: 3em;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        margin-right: 0.2em;
+        text-align: center;
+        text-transform: none;
+        speak: none;
+    }
+}
+
+.membership-badge-label {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: bold;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.listing-masthead {
+    position: relative;
+}
+
+.membership-badge-container {
+    display: inline-block;
+    margin-bottom: 1em;
+    text-align: right;
+    width: 49%;
+    float: right;
+    margin-top: -20px;
+
+
+    .member-since{
+      font-family: Verdana, Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 10px;
+      margin-bottom:0;
+    }
+    .member-since-year{
+      float:left;
+      font-size:20px;
+      line-height: 14px;
+    }
+    .member-text{
+      float:right;
+    }
+}
+
+.membership-badge {
+    display: inline-block;
+}
+
+.membership-badge-corner {
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px rgba(0,0,0, 0.5);
+    height: 42px;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 0;
+    width: 31px;
+    img {
+      margin: 0;
+    }
+}
+.member-badge {
+  height: 42px;
+  width: 31px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}

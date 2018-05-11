@@ -1,0 +1,78 @@
+<%= form_for([@country, @price_plan], html: {id: 'new-price-plan', class: 'well form-vertical'}) do |f| %>
+<% if @price_plan.errors.any? %>
+<div id="error_explanation">
+  <h2><%= pluralize(@price_plan.errors.count, "error") %> prohibited this price plan from being saved:</h2>
+  <ul>
+    <% @price_plan.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+    <% end %>
+  </ul>
+</div>
+<% end %>
+
+<fieldset>
+  <h2 class="section-header">Price plan details</h2>
+  
+  <div class="control-group">
+    <%= f.label(:name, class: 'control-label') %>
+    <div class="controls">
+      <%= f.text_field(:name, class: 'input-xxlarge') %>
+      <p class="help-block"><%= t('payment.price_plans.name_help') %></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label(:base_price, class: 'control-label') %>
+    <div class="controls">
+      <%= f.text_field(:base_price, class: 'input-small') %>
+    </div>
+    <p class="help-block"><%= t('payment.help.block.specify_monthly_number_that_calculats_yearly_fee') %></p>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label(:renewal_price, class: 'control-label') %>
+    <div class="controls">
+      <%= f.text_field(:renewal_price, class: 'input-small') %>
+    </div>
+    <p class="help-block"><%= t('payment.price_plan.help.block.rebated_price_for_early_renewal') %></p>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label(:duration, 'Duration and periodicity', class: 'control-label') %>
+    <div class="controls">
+      <%= f.text_field(:duration, class: 'input-mini') %>
+      <%= f.select(:periodicity, [['Years', 'years'], ['Days', 'days']], {}) %>
+    </div>
+    <p class="help-block"><%= t('payment.price_plans.length_and_periodicity_help') %></p>
+  </div>
+
+  <div class="control-group">
+    <%= f.label(:ref_id, 'Reference ID (Optional)', class: 'control-label') %>
+    <div class="controls">
+      <% if @price_plan.ref_id.nil? %>
+        <%= f.text_field(:ref_id, class: 'input-xlarge') %>
+      <% else %>
+        <%= f.text_field(:ref_id, disabled: 'disabled', class: 'input-large') %>
+      <% end %>
+    </div>
+    <p class="help-block">Unique identifier across environments. Once set, it should never be changed. If you need to change it contact support.</p>
+  </div>
+  
+  <% if current_user.has_role(:admin) %>
+  <div class="control-group">
+    <%= f.label(:kind, 'Price plan type', class: 'control-label') %>
+    <div class="controls">
+      <%= f.select(:kind, [['Free plan', 'free'], ['Paid plan', 'paid']], {}) %>
+    </div>
+    <p class="help-block"><%= t('payment.price_plans.paid_and_free_help') %></p>
+  </div>
+  <% else %>
+    <%= f.hidden_field(:kind, value: 'paid') %>
+  <% end %>
+</fieldset>
+
+<fieldset class="form-actions">
+  <%= f.button(t("Save"), class: 'btn btn-primary') %>
+  <%= link_to(t("Cancel"), country_price_plans_url(@country), class: 'cancel') %>
+</fieldset>
+<% end %>

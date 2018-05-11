@@ -1,0 +1,24 @@
+div.listings-map {
+	width: 100%;
+	height: 400px;
+	border: 2px solid grey;
+}
+
+
+
+div#map-canvas label {
+    width: auto;
+}
+
+div#map-canvas img {
+    max-width: none;
+}
+
+div#location-map img{
+    max-width:none
+}
+
+.map-visibility{
+	font-size: 14px;
+	padding: 5px;
+}

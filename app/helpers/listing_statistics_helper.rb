@@ -1,0 +1,2 @@
+module ListingStatisticsHelper
+end

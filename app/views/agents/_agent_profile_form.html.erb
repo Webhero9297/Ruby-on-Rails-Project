@@ -1,0 +1,56 @@
+<%= form_for(@user, url: agent_path, html: {class: 'well', role: 'form'}) do |f| %>
+    <%= f.fields_for @user.agent_profile do |profile| %>
+        <div class="row-fluid">
+            <div class="span6">
+                <fieldset>
+                    <%= profile.label(:name, 'Name - Overrides your user profile name.') %>
+                    <%= profile.text_field(:name, class: 'span12') %>
+
+                    <%= profile.label(:address, 'Address') %>
+                    <%= profile.text_field(:address, class: 'span12') %>
+
+                    <%= profile.label(:postal_town, 'Postal town') %>
+                    <%= profile.text_field(:postal_town, class: 'span12') %>
+
+                    <%= profile.label(:postal_code, 'Postal code') %>
+                    <%= profile.text_field(:postal_code, class: 'span12') %>
+
+                    <%= profile.label(:country, 'Country') %>
+                    <%= profile.text_field(:country, class: 'span12') %>
+                </fieldset>
+            </div>
+
+            <div class="span6">
+                <fieldset>
+                    <%= profile.label(:telephone, 'Telephone') %>
+                    <%= profile.text_field(:telephone, class: 'span12') %>
+
+                    <%= profile.label(:mobile, 'Mobile') %>
+                    <%= profile.text_field(:mobile, class: 'span12') %>
+
+                    <%= profile.label(:fax, 'Fax') %>
+                    <%= profile.text_field(:fax, class: 'span12') %>
+
+                    <%= profile.label(:email, 'Email') %>
+                    <%= profile.text_field(:email, class: 'span12') %>
+
+                    <%= profile.label(:website, 'Web site') %>
+                    <%= profile.text_field(:website, class: 'span12') %>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span12">
+                <fieldset>
+                    <%= profile.label(:office_hours, 'Office hours') %>
+                    <%= profile.text_area(:office_hours, rows: 10, cols: 56, class: 'span12') %>
+                </fieldset>
+
+                <fieldset>
+                    <%= f.button(t('button.save_changes'), class: 'btn btn-primary') %>
+                </fieldset>
+            </div>
+        </div>
+    <% end %>
+<% end -%>

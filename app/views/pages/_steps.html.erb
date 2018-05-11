@@ -1,0 +1,38 @@
+<div class="header-info">
+  <h2><%=t('homepage.header.title')%></h2>
+  <p class="header-description">
+    <%=t('homepage.header.text')%>
+  </p>
+  <p><%=t('pages.header.this_is_how_it_works')%></p> 
+  <div class="dots"></div>
+  <div class="row header-info-steps">
+    <%= link_to searches_index_path, class: 'step-link' do %>
+      <span class="col-sm-3 col-xs-12">
+        <span class="icon"><i class="fa fa-home"></i></span>
+        <span class="description"><%=t('homepage.header.step1')%></span>
+      </span>
+    <% end %>
+    <%= link_to price_plans_path, class: 'step-link' do %>
+      <span class="col-sm-3 col-xs-12">
+        <span class="icon"><i class="fa fa-group"></i></span>
+        <span class="description"><%=t('homepage.header.step2')%></span>
+      </span>
+    <% end %>
+    <%= link_to price_plans_path, class: 'step-link' do %>
+      <span class="col-sm-3 col-xs-12">
+        <span class="icon"><i class="fa fa-comments"></i></span>
+        <span class="description"><%=t('homepage.header.step3')%></span>
+      </span>
+    <% end %>
+    <%= link_to price_plans_path, class: 'step-link' do %>
+      <span class="col-sm-3 col-xs-12">
+        <span class="icon"><i class="fa fa-exchange"></i></span>
+        <span class="description"><%=t('homepage.header.step4')%></span>
+      </span>
+    <% end %>
+  </div>
+</div>
+<%= link_to(price_plans_path, class: 'free-trail-button') do %>
+  <%= t('homepage.free_membership_button') %><i class="fa fa-arrow-circle-right"></i>
+<% end %>
+<p class="small-caption"><%=t('homepage.header.cta_caption')%></span>

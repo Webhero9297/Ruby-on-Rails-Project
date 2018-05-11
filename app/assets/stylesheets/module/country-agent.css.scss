@@ -1,0 +1,71 @@
+.country-agents {
+    display: none;
+}
+
+.country-agent {
+    border: 8px solid #e2e2e2;
+    background-color: $white;
+    clear: both;
+    margin-bottom: 1em;
+    min-height: 600px;
+    padding: 1em;
+    @include row;
+}
+
+.country-agent-image {
+    background-color: $white;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    padding: 0.75em;
+    margin-bottom: 1em;
+}
+
+.country-agent-name {
+    display: block;
+    font-size: 0.875em;
+    margin-bottom: 1em;
+}
+
+.country-agent-profile {
+    @include span-columns(4);
+    text-align: center;
+}
+
+.country-agent-information {
+    @include span-columns(8);
+}
+
+.country-agent-information h2 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.country-agent-information ul {
+    margin-bottom: 2em;
+    > li {
+        font-size: 0.875em;
+        list-style: none;
+        margin-bottom: 0.5em;
+    }
+}
+
+.agent-drop-zone-wrapper {
+    position: relative;
+}
+
+.agent-drop-zone {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4000;
+    width: 100%;
+}
+
+.country-agent-section {
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    float: left;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}

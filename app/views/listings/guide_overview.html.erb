@@ -1,0 +1,286 @@
+<% body_id 'listings' %>  
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'dashboards/member_home') %>
+  </div>
+
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <%= form_for(@valid_guide_listing, url: listing_save_guide_overview_url(@listing), html: {class: 'form-vertical'}) do |f| %>
+
+          <% if @valid_guide_listing.errors.any? %>
+            <section id="error-explanation" class="alert alert-danger">
+              <h1 class="alert-heading"><%= @valid_guide_listing.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped')%>:</h1>
+              <ul class="error-explanation">
+                <% @valid_guide_listing.errors.full_messages.each do |msg| %>
+                  <li><%= msg %></li>
+                <% end %>
+              </ul>
+            </section>
+          <% end %>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <h1 class="plate-header"><%= t('listings.header.listings_essentials') %></h1>
+
+              <div class="control-group">
+                <%= f.label(:headline, t('listing.guide.label.headline'), for: 'listing-headline', class: 'control-label') %>
+                <div class="controls">
+                  <%= f.text_field(:headline, id: 'listing-headline', placeholder: t('listing.guide.placeholder.headline'), class: 'input-xxlarge') %>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <%= f.label(:description, t('listing.guide.label.description'), for: 'listing-description', class: 'control-label') %>
+                <div class="controls">
+                  <%= f.text_area(:description, id: 'listing-description', cols: 72, rows: 6, class: 'input-xxlarge') %>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <%= f.label(:property_type, t('listing.guide.label.property_type'), for: 'listing-property-type', class: 'control-label') %>
+                <div class="controls">
+                  <%= f.select(:property_type, options_for_select(@house_types.collect {|c| [ t(c.msgid), c.msgid ] },  @listing.property_type), id: 'listing-property-type', prompt: t('select.kind_of_home')) %>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <%= f.label(:sleeping_capacity, t('listings.label.sleeping_capacity'), for: 'listing-sleeping-capacity', class: 'control-label') %>
+                <div class="controls">
+                  <%= f.select(:sleeping_capacity, options_for_select((1..20).to_a, @listing.sleeping_capacity), id: 'listing-sleeping-capacity', prompt: t('select.sleeping_capacity')) %>
+                </div>
+              </div>
+
+              <div class="control-group">
+                <%= f.label(:environment, t('listing.guide.label.environment'), for: 'listing-environment', class: 'control-label') %>
+                <div class="controls">
+                  <%= f.select(:environment, @environments.collect {|p| [ t(p.msgid), p.msgid ] }, prompt: t('select.environment') ,id: 'listing-environment') %>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <h1 class="plate-section-header"><%= t('listings.children_and_pets') %></h1>
+              <div class="control-group">
+                <%= label_tag('children', t('listings.children_welcome'), class: 'control-label') %>
+                <div class="controls">
+                  <%= label_tag('children-yes', class: 'radio inline') do %>
+                    <%= f.radio_button(:children, 'tag.children_welcome', id: 'children-yes') %>
+                    <%= t('sitewide.opinion.yes') %>
+                  <% end %>
+
+                  <%= label_tag('children-no', class: 'radio inline') do %>
+                    <%= f.radio_button(:children, 'tag.no_small_children', id: 'children-no') %>
+                    <%= t('global.no') %>
+                  <% end %>
+                </div>
+              </div>
+
+              <div class="control-group mb20">
+                <%= label_tag('pets', t('listings.pets_welcome'), class: 'control-label') %>
+                <div class="controls">
+                  <%= label_tag('pets-yes', class: 'radio inline') do %>
+                    <%= f.radio_button(:pets, 'tag.pets_welcome', id: 'pets-yes') %>
+                    <%= t('sitewide.opinion.yes') %>
+                  <% end %>
+
+                  <%= label_tag('pets-no', class: 'radio inline') do %>
+                    <%= f.radio_button(:pets, 'tag.no_pets', id: 'pets-no') %>
+                    <%= t('global.no') %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <h1 class="plate-section-header"><%= t('listings.header.get_started_add_property_address') %></h1>
+
+              <%= render(partial: 'listing/locations/find_location_form', locals: {address_field_id: 'location-address-field'}) %>
+
+              <%= form_for([:member, @listing], html: {id: 'listing-form', class: 'form-inline'}) do |f| %>
+                <% if @listing.errors.any? %>
+                  <div id="error_explanation">
+                    <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+                    <ul>
+                      <% @listing.errors.messages.each_value do |msg| %>
+                        <li><%= msg[0] %></li>
+                      <% end %>
+                    </ul>
+                  </div>
+                <% end %>
+                <fieldset class="button-create-listing">
+                  <%= f.button(t('Save address'), id: 'btn-primary-listing', class: 'btn btn-primary') -%>
+                  <%= f.hidden_field(:lat, id: 'listing-location-lat') %>
+                  <%= f.hidden_field(:lng, id: 'listing-location-lng') %>
+                  <%= f.hidden_field(:street, id: 'listing-street') %>
+                  <%= f.hidden_field(:postal_town, id: 'listing-postal-town') %>
+                  <%= f.hidden_field(:postal_code, id: 'listing-postal-code') %>
+                  <%= f.hidden_field(:state, id: 'listing-state') %>
+                  <%= f.hidden_field(:state_long, id: 'listing-state-long') %>
+                  <%= f.hidden_field(:country, id: 'listing-country') %>
+                  <%= f.hidden_field(:country_code, id: 'listing-country-code') %>
+                  <%= f.hidden_field(:google_formatted_address, id: 'listing-formatted-address') %>
+                </fieldset>
+              <% end %>
+
+
+              <div id="map-canvas" class="listings-map" data-load="listings#new"></div>
+            </div>
+          </div>       
+
+
+          <div class="row-fluid">
+            <div class="span12">
+              <h1 class="plate-section-header"><%= t('listings.images.header.main_photo') %></h1>
+              <div class="control-group">
+                <%= f.label('main-photo', t('listing.guide.label.upload_main_photo'), class: 'control-label') %>
+                <div class="controls">
+
+                  <% if @listing.get_main_photo.nil? or @uploaded_photo == false %>
+                    <% if @uploaded_photo then %>
+                      <%= image_tag(@listing.get_main_photo.image.size_170, width: 170, alt:'') %>
+                      <%= f.hidden_field(:main_photo, value: true, id: 'main-photo-field') %>
+                    <% else %>
+                      <div class="main-image-uploader well">
+                        <p class="image-uploader"><%= t('accounts.profile.help.text.upload_photos') %></p>
+                        <%= image_tag('upload-pointer.png', alt: '', class: 'upload-pointer') %>
+                        <button id="main-photo-upload" class="btn btn-success pluploader" data-category="home" data-token="<%= form_authenticity_token %>" data-url="<%= upload_main_photo_listing_images_url(@listing) %>"><i class="icon-upload icon-white"></i><%= t('button.upload_main_photo') %></button>
+                      </div>
+                      <%= f.hidden_field(:main_photo, value: false, id: 'main-photo-field') %>
+                    <% end %>
+                  <% else %>
+                    <%= image_tag(@listing.get_main_photo.image.size_170, width: 170, alt:'') %>
+                    <%= f.hidden_field(:main_photo, value: true, id: 'main-photo-field') %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <fieldset class="form-actions">
+            <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+            <%= link_to(t('button.cancel'), member_dashboard_path, class: 'btn btn-link cancel') %>
+          </fieldset>
+        <% end %>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+jQuery(document).ready(function($) {
+  $('.pluploader').each(function(){
+    main_photo_upload(this);
+  });
+
+
+  function main_photo_upload(element) {
+
+    var button = $(element);
+
+    var uploader = new plupload.Uploader({
+      runtimes : 'html5,flash,html4',
+      browse_button : button.attr('id'),
+      max_file_size : '10mb',
+      url : button.attr('data-url'),
+      multipart: true,
+      multipart_params: {
+        "authenticity_token" : button.attr('data-token'),
+        "category" : button.attr('data-category'),
+        "format" : 'js'
+      },
+      flash_swf_url: "/assets/plupload/plupload.flash.swf"
+    });
+
+    uploader.bind('FilesAdded', function(up, files) {
+      up.refresh();
+      button.siblings('img.upload-pointer:first').attr('src','/assets/spinner.gif');
+      setTimeout( function(){
+        uploader.start();
+      }, 500);
+    });
+
+    uploader.bind('Init', function(up, params) {
+    });
+
+    uploader.bind('FileUploaded', function(up, file, response) {
+      if($('#image-message').length > 0) {
+        $('#image-message').remove();
+      }
+      var json_response = $.parseJSON(response.response);
+      if(json_response.error) {
+        button.parent().parent().prepend('<div id="image-message" class="alert alert-danger">'+json_response.image+'</div>');
+        button.siblings('img.upload-pointer:first').attr('src','/assets/upload-pointer.png');
+        return;
+      }
+      button.parent().html(json_response.html);
+      $('#main-photo-field').val(true);
+
+    });
+
+    uploader.init();
+
+  }
+
+  setup_exchange_dates();
+
+});
+</script>
+
+
+
+<script type="text/javascript" charset="utf-8">
+var google_map = Object.create(GOOGLE_MAP);
+$('form#listing-location').submit(function(event) {
+  event.preventDefault();
+  var address = $('input#location-address-field').val();
+  var geocoder = new google.maps.Geocoder();
+  geocoder.geocode({"address":address }, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK && results.length > 0) {
+      var place = results[0];
+      LOCATION.update_location(place.geometry.location);
+      LOCATION.marker.setPosition(place.geometry.location);
+      LOCATION.listner_dragend(marker);
+
+      if (place.geometry.viewport) {
+        google_map.map.fitBounds(place.geometry.viewport);
+      } else {
+        google_map.map.setCenter(place.geometry.location);
+        google_map.map.setZoom(17);
+      }
+    }
+  });
+});
+
+if($('div#map-canvas[data-load="listings#new"]').length > 0) {
+
+  var address = $('input#listing-formatted-address').val();
+  if(address.length > 0){
+    place_edit(get_coordinates());
+    $('input#location-address-field').val(address);
+
+    if($('input#listing-street').val().length < 2 || $('input#listing-postal-town').val().length < 2){
+      var alert_info = '<div class="alert alert-info"><strong>Warning!</strong> Address needs to be more specific. Either move the marker or type in a better address.</div>';    
+      $('p.help-block').html(alert_info);
+    }else{
+      var alert_success = '<div class="alert alert-success"><%= t('listings.new.nice_work_valid_address') %></div>';
+      $('p.help-block').html(alert_success);
+    }
+  }else{
+    place_new();
+  }
+}
+$('#btn-primary-listing').hide();
+</script>

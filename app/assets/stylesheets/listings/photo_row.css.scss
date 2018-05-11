@@ -1,0 +1,145 @@
+@import 'mixins';
+
+.photo-row-box,
+.photo-row-box-large {
+    float: left;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    @include box-sizing;
+}
+
+.photo-row-box-large {
+    padding: 0;
+    border: 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.photo-row {
+    border: 1px solid #d9d9d9;
+    float: left;
+    margin: 0 10px 10px 0;
+    position: relative;
+}
+
+.photo-row-img {
+    z-index: 900;
+}
+
+.photo-row-img,
+.photo-row-img-large {
+    background-color: $white;
+    display: block;
+    padding: 10px;
+}
+
+.photo-row-img-large {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+
+.photo-row-large {
+    background-color: $white;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-bottom: 0;
+}
+
+.photo-row-img-caption {
+    position: absolute;
+    margin: 0;
+    padding: 5px;
+    color: #454545;
+    background-color: #fff;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+}
+
+.photo-row-large-caption {
+    margin: 0;
+    padding: 4px 12px 0 12px;
+    text-align: center;
+}
+
+.photo-row-view {
+    float: left;
+}
+
+.photo-row-link-large,
+.photo-row-link-large-top {
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.photo-row-link-large-top {
+    border: 0;
+    margin-bottom: 0;
+}
+
+// 480px
+@media only screen and (min-width: 480px) {
+    
+}
+
+// 600px
+@media only screen and (min-width: 600px) {
+    .photo-row {
+        height: 128px;
+        overflow: hidden;
+    }
+
+    .photo-row-img {
+        height: 107px;
+    }
+}
+
+// 768px
+@media only screen and (min-width: 768px) {
+    .photo-row {
+        height: 121px;
+        overflow: hidden;
+    }
+
+    .photo-row-img {
+        height: 100px;
+    }
+}
+
+// 992px
+@media only screen and (min-width: 992px) {
+    .photo-row {
+        height: 128px;
+        overflow: hidden;
+    }
+
+    .photo-row-img {
+        height: 108px;
+    }
+}
+
+// 1179px
+@media only screen and (min-width: 1200px) {
+    .photo-row {
+        height: 136px;
+        overflow: hidden;
+    }
+
+    .photo-row-img {
+        height: 114px;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intervac Home Exchange - <%= content_for?(:title) ? yield(:title) : "The original home exchange service" %></title>
+    <meta name="description" content="<%= content_for?(:meta_description) ? yield(:meta_description) : "The original home exchange service. Helping people exchange homes for their holidays all over the world since 1953. Home swap holidays - authentic and cheaper than apartment rental." %>"/>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="google-site-verification" content="5Se5ljsBtzO9WLREhKoxv2oEotHCEBJgQaKqVGGMNUA"/>
+    <meta name="bitly-verification" content="e4730fbb8fa8"/>
+    <%= render(partial: '/layouts/open_graph_tags') %>
+    <link rel="canonical" href="https://www.intervac-homeexchange.com<%= request.original_fullpath %>"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <%= stylesheet_link_tag "application", :media => "all" %>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGe-s8HNb_69rUJAk92C-30AhzBZDsSJc&v=3&libraries=places,geometry&language=en" type="text/javascript"></script>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <%= stylesheet_link_tag "ie-fallback", :media => "all" %>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <%= render(partial: '/layouts/google_analytics') %>
+    <%= render(partial: '/layouts/hotjar') %>
+    <%= render(partial: '/layouts/livechat') %>
+</head>
+<body id="<%= yield_or_default(:body_id, 'page') -%>">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    <%= render(partial: 'layouts/dashboards/inline_notifications') %>
+    <%= render(partial: 'layouts/dashboard_switcher') %>
+    <%= render(partial: 'layouts/menus/header_user_actions') %>
+
+    <header class="site-header">
+        <div class="site-masthead">
+            <%= link_to(root_path, class: 'logotype-link') do %>
+                <%= image_tag("intervac-home-exchange.png", alt: 'Intervac Home Exchange', class: "logotype-image", width: 195, height: 39) %>
+                <span class="logotype-tag-line">The original home exchange service</span>
+            <% end %>
+            <% if current_user.nil? %>
+              <%= link_to(price_plans_path, class: 'free-trail-button visible-lg visible-md') do %>
+                <%= t('homepage.free_membership_button') %><i class="fa fa-arrow-circle-right"></i>
+              <% end %>
+            <% end %>
+
+            <div class="fb-like facebook-button"
+              data-href="https://www.facebook.com/IntervacHomeexchange/"
+              data-width="235"
+              data-action="like"
+              data-show-faces="true"
+              data-share="true">
+            </div>
+        </div>
+
+        <div class="site-header-body<%= yield_or_default(:section_image, '') -%>">
+          <%= render(partial: 'layouts/menus/site_menu') %>
+          <%= content_for :site_header_body_content %>
+        </div>
+    </header>
+
+    <div class="site-content">
+        <div class="<%= yield_or_default(:site_container_class, 'container') -%>">
+            <%= yield %>
+        </div>
+    </div>
+
+    <%= render(partial: 'layouts/site_footer') %>
+
+    <%= render(partial: 'layouts/menus/mobile_menu') %>
+
+    <%= render(partial: 'cookie_information_bars/cookie_information') %>
+
+    <script type="text/javascript">
+        $("#language-menu-button, .language-menu-link").click(function(event) {
+            if(!$(this).hasClass('language-menu-link')) {
+                event.preventDefault();
+            }
+            $( "#language-menu-list" ).slideToggle( "fast");
+        });
+
+        $("#sub-menu-button").click(function(event) {
+            if(!$(this).hasClass('sub-menu-items')) {
+                event.preventDefault();
+            }
+            $( "#sub-menu-items" ).slideToggle( "fast");
+        });
+
+        $('div#notification').animate({top: "+=100"}, 300).delay(3000).animate({top: "-120"}, 300, function(event) {
+            $(this).remove();
+        });
+    </script>
+    <% if is_translating? %>
+        <script type="text/javascript" charset="utf-8">
+            jQuery(document).ready(function($) {
+                $('i.translations-edit').click(edit_public_translation);
+            });
+        </script>
+    <% end %>
+
+    <script>
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '293',
+                width: '520',
+                videoId: 'zXFRpEXWfcY'
+            });
+        }
+    </script>
+</body>
+</html>

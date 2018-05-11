@@ -1,0 +1,30 @@
+.logotype-link {
+    color: $black;
+    display: block;
+    margin: 1em auto;
+    width: 13.929em;
+    text-align: center;
+
+    &:visited {
+        color: $black;
+    }
+	
+    @include respond-to(wide-screens) {
+        float: left;
+    }
+}
+
+.logotype-image {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+
+    @include respond-to(wide-screens) {
+        margin: 0;
+    }
+}
+
+.logotype-tag-line {
+    font-size: 0.6875em;
+    margin-left: 0.5em;
+}

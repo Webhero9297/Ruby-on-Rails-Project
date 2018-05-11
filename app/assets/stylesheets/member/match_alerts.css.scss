@@ -1,0 +1,16 @@
+@import "mixins";
+.label-keyword{
+	display: inline-block;
+	padding: 3px 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	@include border-radius(3px);
+	background-color: #fdf9ec; 
+	border: 1px solid #ebdccd;
+	color: #523312;
+	font-size: 12px;
+}
+
+.match-alert-explanation p{
+	font-size: 16px;
+}

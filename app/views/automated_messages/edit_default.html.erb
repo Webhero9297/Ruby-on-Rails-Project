@@ -1,0 +1,64 @@
+<% body_id 'translations' %>
+
+<%= render(locals: {header: "Editing default message #{@automated_message.name}"}, layout: '/layouts/modules/single_page_plate') do %>
+    <%= form_for(@automated_message, url: update_default_automated_message_path, html: {id: 'automated-message-form'}) do |f| %>
+        <% if @automated_message.errors.any? %>
+            <section id="error-explanation" class="alert alert-danger">
+                <h1 class="alert-heading"><%= pluralize(@automated_message.errors.count, "error") %> from being saved</h1>
+                <ul class="error-explanation">
+                    <% @automated_message.errors.full_messages.each do |msg| %>
+                        <li><%= msg %></li>
+                    <% end %>
+                </ul>
+            </section>
+        <% end %>
+
+        <fieldset>
+            <%= f.label(:kind, 'Kind of message', for: 'message-kind') %>
+            <%= f.select(:kind, @message_types, { :prompt => 'Select message kind' }, {id: 'message-kind', class: 'form-control'}) %>
+
+            <div id="message-section" class="mb20">
+                <%= f.label(:subject, 'Message subject - Only used on the mail subject header, not in the actual message body', for: 'message-subject') %>
+                <%= f.text_field(:subject, class: 'span12', id: 'message-subject') %>
+
+                <%= f.label(:message, 'Message body content - Markdown is supported', for: 'message-body') %>
+                <%= f.text_area(:message, rows: 16, class: 'span12', id: 'message-body') %>
+
+                <button type="button" class="btn" id="btn-preview">Preview message</button>
+            </div>
+
+            <h2 class="plate-section-header">Placeholders available for this message. Additional placeholders have to be requested by the board.</h2>
+            <p id="placeholders" class="alert alert-info"><%= @placeholders %></p>
+        </fieldset>
+
+        <fieldset>
+            <h2 class="plate-section-header">Send out settings</h2>
+            <%= f.label(:days, 'Number of days before or after the event the message should be sent', for: 'message-days') %>
+            <%= f.text_field(:days, maxlength: 3, class: 'span1', id: 'message-days') %>
+        </fieldset>
+
+        <fieldset>
+            <h2 class="plate-section-header">Should agents receive a email copy of the message?</h2>
+            <%= f.label(:send_copy_to_agent, for: 'send-copy-true', class: 'radio') do %>
+                <%= f.radio_button(:send_copy_to_agent, true, id: 'send-copy-true') %>
+                yes
+            <% end %>
+
+            <%= f.label(:send_copy_to_agent, for: 'send-copy-false', class: 'radio') do %>
+                <%= f.radio_button(:send_copy_to_agent, false, id: 'send-copy-false') %>
+                no
+            <% end %>
+        </fieldset>
+
+        <fieldset>
+            <%= f.submit('Save', class: 'btn btn-primary') %>
+            <%= link_to('Cancel', show_default_automated_messages_path, class: 'btn btn-link') %>
+            <%= hidden_field_tag('automated_message[countries][]', 'default') %>
+        </fieldset>
+    <%- end -%>
+<% end %>
+
+<script type="text/javascript">
+    automated_messages_kind();
+    automated_messages_preview_actions();
+</script>

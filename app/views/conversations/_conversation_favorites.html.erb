@@ -1,0 +1,31 @@
+<% if @favorite_listings.empty? %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="alert alert-info">
+      <strong><%= t('dashboard.phrases.hello_there') %></strong> <%= t('dashboards.alert.message.you_have_no_favorites') %>
+    </div>
+    <%= link_to(t('dashboard.phrases.get_started'), searches_index_path, class: 'btn btn-primary') %>
+  </div>
+</div>
+<%- else -%>
+<div class="row-fluid">
+  <div class="span12">
+    <%= render(partial: 'favorites/favorites_card', collection: @favorite_listings, as: :listing, locals: {notes: @favorite_notes}) %>
+  </div>
+</div>
+<% end -%>
+
+<script type="text/javascript" charset="utf-8">
+  activate_bookmarks();
+
+  $('#message-selector-btn').on('click', function(event) {
+        event.preventDefault();
+        $('#contact-messages').removeClass('is-hidden').addClass('is-visible');
+    });
+
+    $('#contact-messages').on('click', '#close-contact-messages', function(event) {
+        event.preventDefault();
+        $('#contact-messages').removeClass('is-visible').addClass('is-hidden');
+    });
+    
+</script>

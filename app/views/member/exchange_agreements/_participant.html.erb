@@ -1,0 +1,11 @@
+<tr id="participant<%= @rand_id %>">
+  <td>
+    <%= text_field_tag('agreement[participants][][name]', '', class: 'input-xlarge', maxlength: '40') %>
+  </td>
+  <td>
+    <%= text_field_tag('agreement[participants][][age]', '', class: 'input-mini', maxlength: '3') %>
+  </td>
+  <td>
+    <%= link_to(content_tag('i','', class: 'icon-trash icon-white'), remove_participant_member_exchange_agreements_url(participant: @rand_id), class: 'btn btn-mini btn-danger', remote: true, method: :delete) %>
+  </td>
+</td>

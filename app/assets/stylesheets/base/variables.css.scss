@@ -1,0 +1,25 @@
+$black: #000000;
+$dark-blue: #008fec;
+$light-blue: #43a9ec;
+$orange: #e9600f;
+$white: #ffffff;
+$light-yellow: #f7efc9;
+$yellow: #ffb628;
+$dark-grey: #4a483c;
+
+$green: #0dbb98;
+$dark-green: #0ca183;
+
+$text_color: #534741;
+$standard_gray: #cccccc;
+
+@font-face {
+    font-family: 'fontello';
+    src: url('/fonts/fontello.eot?78298877');
+    src: url('/fonts/fontello.eot?78298877#iefix') format('embedded-opentype'),
+    url('/fonts/fontello.woff?78298877') format('woff'),
+    url('/fonts/fontello.ttf?78298877') format('truetype'),
+    url('/fonts/fontello.svg?78298877#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

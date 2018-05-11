@@ -1,0 +1,14 @@
+<div class="alert alert-warning">
+  <%= t('admin.agents.new.alert_message') %>
+</div>
+
+<p><%= t('admin.info.simply_find_by_email_address') %></p>
+
+<%= form_tag(fetch_user_agents_path, method: 'get', remote: true, id: 'new-agent-form', class: 'well form-inline is-inline') do %>
+  <fieldset>
+    <%= text_field_tag('email', '', size: '82', maxlength: '128', placeholder: 'Enter user e-mail', class: 'input-xxlarge') %>
+    <%= submit_tag("Find user", class: 'btn btn-primary') %>
+  </fieldset>
+<% end %>
+
+<div id="new-agent"></div>

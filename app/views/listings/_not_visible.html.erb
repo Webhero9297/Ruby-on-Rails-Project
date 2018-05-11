@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="wide">
+        <h1 class="page-content-header">
+            <span class="page-content-header-label"><%= t('listing.header.not_available') %></span>
+        </h1>
+
+        <%= markdown(t('listing.info.not_available')) %>
+
+        <ul class="bullet-list">
+            <li><%= markdown_strip_p(t('listing.has_been_set_invisible.bullet')) %></li>
+            <li><%= markdown_strip_p(t('listing.is_inactive.bullet')) %></li>
+            <li><%= markdown_strip_p(t('listing.membership_expired.bullet')) %></li>
+            <li><%= markdown_strip_p(t('listing.has_been_removed.bullet')) %></li>
+        </ul>
+
+        <%= link_to(t('global.search'), searches_index_path, class: 'btn xl blue') %>
+    </div>
+</div>

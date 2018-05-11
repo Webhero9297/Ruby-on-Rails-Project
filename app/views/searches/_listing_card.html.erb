@@ -1,0 +1,106 @@
+<div class="result-card">
+  <%- if user_signed_in? -%>
+    <span class="result-card-favorite">
+      <%= act_as_favorite_new(listing, @favorites) %>
+    </span>
+  <%- end -%>
+
+  <%- if user_signed_in? && had_interaction?(current_user, listing) -%>
+    <span class="result-card-contacted">
+      <%= image_tag('check.png') %>
+    </span>
+  <%- end -%>
+
+  <div class="result-card-location">
+    <%= link_to(listing_path(listing), class: 'result-card-location-link') do %>
+      <h2 class="result-card-city"><%= truncate(listing.city_and_country_headline.first, length: 13) %></h2>
+      <span class="result-card-country"><%= listing.city_and_country_headline.last %></span>
+    <% end %>
+  </div>
+
+  <div class="result-card-photo">
+    <div class="membership-badge-corner">
+      <%= membership_badge(listing, false) %>
+    </div>
+    <% if listing.get_main_photo %>
+      <%= link_to(image_tag(listing.get_main_photo.image.size_458, width: 254, alt: listing.get_main_photo.caption, class: 'result-card-image'), listing_path(listing), class: 'result-card-photo-link') %>
+    <% else %>
+      <%= link_to(image_tag('photos-coming-soon-230.jpg', width: 254, alt: '', class: 'result-card-image'), listing_path(listing), class: 'result-card-photo-link') %>
+    <% end %>
+    <div class="result-card-headline"><%= listing.headline %></div>
+  </div>
+
+  <div class="result-card-exchange-dates">
+    <% if listing.open_for_exchange %>
+      <% if listing.concat_exchange_dates.nil? %>
+        <span><%= t('listings.label.no_exchange_dates_available') %></span>
+      <% else %>
+        <% if listing.exchange_dates.count > 1 %>
+          <span class="chosen-date">
+            <%= listing.concat_exchange_dates %> (<%= listing.exchange_dates.get_longest_duration %>)
+          </span>
+          <%= link_to listing_path(listing) do %>
+            <span class="many-exchanges"><%= t('listings.label.several_periods') %></span>
+          <% end %>
+        <% else %>
+          <span><%= listing.concat_exchange_dates %> (<%= listing.exchange_dates.get_longest_duration %>)</span>
+        <% end %>
+      <% end %>
+    <% else %>
+      <span><%= t('listing.label.not_available_for_exchange') %></span>
+    <% end %>
+  </div>
+
+  <ul class="result-card-capacity">
+    <li title="<%= t('listings.label.sleeping_capacity') %>">
+      <%= image_tag('beds.png', alt: listing.sleeping_capacity) %>
+      <span><%= listing.sleeping_capacity %></span>
+    </li>
+    <li title="<%= t('global.adults') %>">
+      <%= image_tag('adults.png', alt: listing.account.profile.number_of_adults) %>
+      <span><%= listing.account.profile.number_of_adults %></span>
+    </li>
+    <li title="<%= t('global.children') %>">
+      <%= image_tag('children.png', alt: listing.account.profile.number_of_children) %>
+      <span><%= listing.account.profile.number_of_children %></span>
+    </li>
+  </ul>
+
+  <div class="result-card-data-container">
+    <div class="result-card-property-info" data-stack="<%= listing.listing_number %>-property-info">
+      <table class="table table-condensed result-card-properties">
+        <tbody>
+          <tr>
+            <td><%= t('tag.use_exchange_of_car') %>:</td>
+            <td><%= listing.property_details.include?('tag.use_exchange_of_car') ? t('global.yes') : t('global.no') %></td>
+          </tr>
+          <tr>
+            <td><%= t('tag.non_smoking') %>:</td>
+            <td><%= listing.property_details.include?('tag.non_smoking') ? t('global.yes') : t('global.no') %></td>
+          </tr>
+          <tr>
+            <td><%= t('tag.pet_care_wanted') %>:</td>
+            <td><%= listing.property_details.include?('tag.pet_care_wanted') ? t('global.yes') : t('global.no') %></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="result-card-wish-list" data-stack="<%= listing.listing_number %>-wish-list">
+      <table class="table table-condensed result-card-properties">
+        <tbody>
+          <%= display_wishlist_codes(listing.account_wish_lists) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <%- if @have_wishlist -%>
+    <a href="#" class="result-card-flip-link property-info" data-link="flip-link" data-listing="<%= listing.listing_number %>">
+      <%= t('listing_card.destinations') %>
+    </a>
+  <%- end -%>
+
+  <%= link_to("#{t('global.view')} #{listing.listing_number}", listing_path(listing), class: 'result-card-view-link') %>
+
+</div>

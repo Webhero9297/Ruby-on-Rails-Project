@@ -1,0 +1,24 @@
+<%= form_tag(search_member_filters_path, method: 'get', remote: true, format: :js, id: 'find-member-form', class: 'form-inline well') do %>
+  <%= label_tag('query', 'Search member') %>
+  <div class="input-append">
+    <%= text_field_tag('query', '', size: '82', maxlength: '128', placeholder: 'Family ID, Name, Listing number or Primary email', class: 'span8') %>
+    <%= button_tag("Find", class: 'btn btn-primary') %>
+    <button id="clear-result" class="btn btn-default" data-url="<%= @clear_url %>" type="button">Clear</button>
+  </div>
+
+  <%= hidden_field_tag('filter', @filter) %>
+  <% @country_codes.each do |country_code| %>
+    <%= hidden_field_tag('country_codes[]', country_code) %>
+  <% end %>
+  <%= hidden_field_tag('direction', @direction) %>
+  <%= hidden_field_tag('sort_on', @sort_on) %>
+<% end %>
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      $('button#clear-result').click(function(event) {
+          event.preventDefault();
+          $('input#query').val('');
+          $("a#all-members").trigger('click');
+      });
+  });
+</script>

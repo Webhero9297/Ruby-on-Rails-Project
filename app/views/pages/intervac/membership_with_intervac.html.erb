@@ -1,0 +1,54 @@
+<% body_id 'about-intervac' %>
+<% page_title t('visinfo_membership_with_intervac.page.headline') %>
+<% page_description t('visinfo_membership_with_intervac.page.headline') + " - " + t('visinfo_membership_with_intervac.trial_membership.headline') %>
+<% page_keywords t('seo.keyword_set.visinfo.membership_with_intervac') %>
+<% section_image 'section-image-10' %>
+
+
+<div class="row">
+  <%= render(:partial => 'pages/intervac/sub_menu') %>
+  <article class="page-content">
+
+    <h1 class="page-content-header">
+      <span class="page-content-header-label"><%= t('visinfo_membership_with_intervac.page.headline') %></span>
+    </h1>
+
+    <h2><%= t('visinfo_membership_with_intervac.trial_membership.headline') %></h2>
+    <p><%= t('visinfo_membership_with_intervac.trial_membership.text', :number => length_of_trial_membership) %></p>
+
+    <h2><%= t('visinfo_membership_with_intervac.site_features.headline') %></h2>
+    <p><%= t('visinfo_membership_with_intervac.your_listing.text') %></p>
+
+    <h3><%= t('visinfo_membership_with_intervac.text_and_photos.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.text_and_photos.text') %></p>
+
+    <h3><%= t('visinfo_membership_with_intervac.map.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.map.text') %></p>
+
+    <h3><%= t('visinfo_membership_with_intervac.search_facilities.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.search_facilities.text') %></p>
+    <ul class="article">
+      <li><%= t('visinfo_membership_with_intervac.search_facilities_list.country') %></li>
+      <li><%= t('visinfo_membership_with_intervac.search_facilities_list.region') %></li>
+      <li><%= t('visinfo_membership_with_intervac.search_facilities_list.exchange_dates') %></li>
+      <li><%= t('visinfo_membership_with_intervac.search_facilities_list.sleeping_accomodation') %></li>
+      <li><%= t('visinfo_membership_with_intervac.search_facilities_list.family') %></li>
+      <li><%= t('visinfo_membership_with_intervac.search_facilities_list.combination') %></li>
+    </ul>
+
+    <h3><%= t('visinfo_membership_with_intervac.reverse_search.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.reverse_search.text') %></p>
+
+    <h3><%= t('visinfo_membership_with_intervac.messages.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.messages.messages_text') %></p>
+
+    <h3><%= t('visinfo_membership_with_intervac.member_favorites.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.member_favorites.text') %></p>
+
+    <h3><%= t('visinfo_membership_with_intervac.match_alert.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.match_alert.text') %></p>
+
+    <h3><%= t('visinfo_membership_with_intervac.hotlist.headline') %></h3>
+    <p><%= t('visinfo_membership_with_intervac.hotlist.text') %></p>
+  </article>
+</div>

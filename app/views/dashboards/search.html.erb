@@ -1,0 +1,22 @@
+<% body_id 'searches' %>
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to('Search', dashboard_search_url) %>
+    <%= n.li_link_to('Map search', '#') %>
+    <%= n.li_link_to('Hot list', '#') %>
+    <% end -%>
+  </ul>
+</nav>
+
+<div class="row-fluid">
+  <div class="span12">
+    <%= render( partial: 'listings/listing_card', collection: @listings, as: 'listing' ) %>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    <%= paginate @listings %>
+  </div>
+</div>

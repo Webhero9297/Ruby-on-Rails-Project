@@ -1,0 +1,36 @@
+<% if @account.has_listing? %>
+
+  <% if @account.awaiting_access %>
+    <% if @account.is_restricted %>
+      <%= render(partial: 'dashboards/awaiting_activation') %>
+    <% elsif @account.is_trial_subscription %>
+      <%= render(partial: 'dashboards/awaiting_activation_of_upgrade') %>
+    <% end %>
+  <% else %>
+    <%= render(partial: 'payment/subscriptions/renew_alert', locals: {account: @account}) %>
+
+    <% if @account.is_trial_subscription and not has_expired(@account) then %>
+      <%= render(partial: 'payment/subscriptions/upgrade_alert') %>
+    <% end %>
+  <% end %>
+
+  <%= render(partial: 'dashboards/exchange_request_approvals') if @exchange_approval_requests %>
+
+  <% unless @exchange_activities.empty? %>
+    <%= render(partial: 'dashboards/exchange_updates', locals: {exchange_activities: @exchange_activities}) %>
+  <% end %>
+
+  <% if @account.time_zone.nil? %>
+    <%= render(partial: 'time_zones/time_zone_notice', locals: {account: @account}) %>
+  <% end %>
+
+  <% unless @profile_progress.is_complete? %>
+    <%= render(partial: 'accounts/accounts/account_profile_progress', locals: {profile_progress: @profile_progress, account: @account}) %>
+  <% end %>
+
+<% else %>
+  <p><%= t('dashboard.info.before_creating_a_listing') %></p>
+  <p>
+      <%= link_to(content_tag('i', '', class: 'icon-plus icon-white') + ' ' + t('button.create_listing'), new_member_listing_path, class: "btn btn-success") -%>
+  </p>
+<% end %>

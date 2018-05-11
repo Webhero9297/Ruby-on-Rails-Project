@@ -1,0 +1,65 @@
+<%= markdown(t('account.match_alert.description')) %>
+
+<ul>
+    <% if @min_duration.present? %>
+        <li><%= t('search_results.min_duration', {:WEEKS => @min_duration}) %></li>
+    <% end %>
+
+    <%- if @hotlist -%>
+        <li><%= markdown_strip_p(t('search_result.explanation.hotlist')) %></li>
+    <%- end -%>
+
+    <%- if @reversed and user_signed_in? -%>
+        <li><%= markdown_strip_p(t('search_result.explanation.reversed', {:COUNTRY => display_users_listing_locations(current_user, "")})) %></li>
+    <%- end -%>
+
+    <%- @languages_array.to_a.each do |filter| %>
+      <li><%= "#{t('filters.languages_spoken')}: #{t(filter)}" %></li>
+    <% end %>
+
+    <%- if @earliest_date -%>
+    <li>
+      <%= markdown_strip_p(t('search_result.explanation.earliest_date', {:EARLIEST_DATE => local_date(@earliest_date.to_date)})) %>
+
+      <%- if @latest_date -%>
+        <%= markdown_strip_p(t('search_result.explanation.date_span', {:LATEST_DATE => local_date(@latest_date.to_date)})) %>
+      <%- end -%>
+    </li>
+    <%- else -%>
+      <%- if @latest_date -%>
+        <li><%= markdown_strip_p(t('search_result.explanation.latest_date', {:LATEST_DATE => standard_date(@latest_date)})) %></li>
+      <%- end -%>
+    <%- end -%>
+
+    <%- if @capacity -%>
+        <li><%= t('search_results.at_least_beds', {:CAPACITY => @capacity}) %></li>
+    <%- end -%>
+
+    <%- if @adults -%>
+        <li><%= t('search_results.at_least_adults', {:ADULTS => @adults}) %></li>
+    <%- end -%>
+
+    <%- if @children -%>
+        <li><%= t('search_results.with_or_without_children', {:WITH_OR_WITHOUT => t(@children)}) %></li>
+    <%- end -%>
+
+    <% if @pets %>
+        <li><%= t('search_results.with_or_without_pets', {:WITH_OR_WITHOUT => t(@pets)}) %></li>
+    <% end %>
+
+    <% if @ee %>
+        <li><%= t('filters.experienced_exchangers') %></li>
+    <% end %>
+</ul>
+
+<h2 class="section-header"><%= t('account.header.following_destinations') %></h2>
+<p id="locations" class="mt10 pl10">
+    <%= render(partial: 'locations', locals: {destinations: @destinations}) %>
+</p>
+
+<h2 class="section-header"><%= t('account.header.with_the_following_properties') %></h2>
+<p class="mt10 pl10">
+    <%- [@house_filters, @house_type_filters, @exchange_type_filters, @environment_filters, @surroundings].flatten.each do |filter| %>
+        <span class="label-keyword"><%= t(filter) %></span>
+    <% end %>
+</p>

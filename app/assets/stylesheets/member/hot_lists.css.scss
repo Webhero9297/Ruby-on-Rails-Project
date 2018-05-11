@@ -1,0 +1,14 @@
+@import "mixins";
+
+section.listing-card.hotlist {
+	height: 350px;
+}
+
+section.listing-card div.card-photo {
+	margin-bottom: 20px;	
+}
+
+section.listing-card img.card-photo {
+	display: block;
+	border: 1px solid $light-grey;
+}

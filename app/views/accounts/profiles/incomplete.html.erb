@@ -1,0 +1,41 @@
+<%= render(partial: '/accounts/accounts/menu', locals: {account: @account}) %>
+
+<div class="row">
+  <div class="span12">
+
+    <h1 class="page-header"><%= t('accounts.header.incomplete_header') %></h1>
+    
+    <p><%= t('accounts.profiles.incomplete.account_owner_has_not_completed_the_final_registration') %></p>
+    
+    <p><%= t('accounts.label.sign_in_count') %>: <%= @account.users.first.sign_in_count %></p>
+
+  </div>
+</div>
+
+
+<div class="row mb40">
+  <div class="span12">
+    
+    <% if permitted_to?(:new, :accounts_transfers) then %>
+      <div class="row mb40">
+        <div class="span12">
+          <h1 class="page-header"><%= t('accounts.account_transfer') %></h1>
+          <p><%= t('account.text.info.transfer_account_from_one_country_to_another') %></p>
+          <p><%= link_to('Transfer account', new_account_transfer_url(@account), class: 'btn btn-warning') %></p>
+        </div>
+      </div>
+    <% end %>
+
+
+    <% if permitted_to?(:terminate, :accounts_accounts) and current_user.account != @account then %>
+      <div class="row">
+        <div class="span12">
+          <h1 class="page-header"><%= t('accounts.account_termination') %></h1>
+          <p><%= t('accounts.phrases.terminate_warning_with_no_recover') %></p>
+          <p><%= link_to('Terminate account', terminate_account_url(@account), class: 'btn btn-danger', confirm: t('account.confirm_termination')) %></p>
+        </div>
+      </div>
+    <% end %>
+    
+  </div>
+</div>

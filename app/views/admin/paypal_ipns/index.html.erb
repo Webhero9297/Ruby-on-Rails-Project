@@ -1,0 +1,63 @@
+<%= render(partial: 'admin/statistics/menu') %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Intervac PayPal IPN Log</h1>
+        <table class="table table-bordered table-condensed">
+          <thead>
+            <tr>
+              <th><%= t('admin.label.logs_this_month') %></th>
+              <th><%= t('admin.label.logs_this_year') %></th>
+              <th><%= t('admin.paypal.total_nr_of_logs') %></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><%= PaypalIpnLog.number_of_logs('month') %></td>
+              <td><%= PaypalIpnLog.number_of_logs('year') %></td>
+              <td><%= PaypalIpnLog.number_of_logs %></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="mb40">
+          <%= link_to(content_tag('i','', class: 'icon-download-alt') + ' ' + t('button.download_logs') + "(xml)", download_admin_paypal_ipns_url(format: 'xml'), class: 'btn') %>
+          <%= link_to(content_tag('i','', class: 'icon-download-alt') + ' ' + t('button.download_logs') + "(csv)", download_admin_paypal_ipns_url(format: 'csv'), class: 'btn') %>
+        </div>
+
+        <table class="table table-bordered table-condensed">
+          <thead>
+            <tr>
+              <th><%= t('admin.paypal.transaction_id') %></th>
+              <th><%= t('global.amount') %></th>
+              <th><%= t('global.item') %></th>
+              <th><%= t('sitewide.country') %></th>
+              <th><%= t('payment.status') %></th>
+              <th><%= t('payment.pending_reason') %></th>
+              <th><%= t('payment.label.receiver_email') %></th>
+              <th><%= t('payment.payer_email') %></th>
+              <th><%= t('admin.label.logged_at') %></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @paypal_ipns.each do |ipn| %>
+            <tr>
+              <td><%= link_to(ipn.params_data['txn_id'], admin_paypal_ipn_url(ipn.id)) %></td>
+              <td><%= ipn.params_data['mc_gross'] %> <%= ipn.params_data['mc_currency'] %></td>
+              <td><%= ipn.params_data['transaction_subject'] %></td>
+              <td><%= ipn.params_data['residence_country'] %></td>
+              <td><%= ipn.params_data['payment_status'] %></td>
+              <td><%= ipn.params_data['pending_reason'] %></td>
+              <td><%= ipn.params_data['receiver_email'] %></td>
+              <td><%= ipn.params_data['payer_email'] %></td>
+              <td><%= ipn.created_at %></td>
+            </tr>
+            <% end %>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+</div>

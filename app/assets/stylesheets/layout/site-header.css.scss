@@ -1,0 +1,309 @@
+.site-header {
+    background-color: $white;
+    border-top: 6px solid $orange;
+}
+
+.site-masthead {
+    @include outer-container();
+    padding: 0 1em;
+    @include media(1120px) {
+        padding: 0;
+    }
+}
+
+.section-image {
+    background-image: image-url('pages/what-is-homeexchange.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include respond-to(wide-screens) {
+        height: 350px;
+    }
+}
+
+.free-trail-button:link,
+.free-trail-button:hover,
+.free-trail-button:active,
+.free-trail-button:visited {
+	position: relative;
+	display: block;
+	border-radius: 5px;
+	background-color: $orange;
+	color: $white;
+	font-size: 1em;
+	height: 2.857em;
+	width: 280px;
+	text-align: center;
+	line-height: 2.857em;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	overflow: hidden;
+	i {
+		height: 2.857em;
+		line-height: 2.857em;
+		float: right;
+		display: inline-block;
+	}
+}
+.site-masthead {
+	.free-trail-button:link,
+	.free-trail-button:hover,
+	.free-trail-button:active,
+	.free-trail-button:visited {
+		margin: 1.525em 0 0 1em;
+		float: right;
+	}
+}
+.site-content {
+	.free-trail-button:link,
+	.free-trail-button:hover,
+	.free-trail-button:active,
+	.free-trail-button:visited {
+		@include respond-to(handhelds) {
+			width: 100%;
+		}
+		@media only screen and (min-width: 321px) and (max-width: 767px) {
+			width: 80%;
+		}
+	}
+}
+
+.small-caption {
+	position: relative;
+	font-family: "Georgia", sans-serif;
+	font-style: italic;
+	font-size: 11px;
+	text-align: center;
+	line-height: 25px;
+	color: $white;
+}
+
+.site-header-body {
+	position: relative;
+	color: $white;
+    &:before {
+    	// background: rgba( 0,0,0,0.5 );
+    	content: '';
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    }
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ),
+      image-url('sea-background.jpg') no-repeat 50% 0;
+    background-size: cover;
+    border-top: 4px solid $dark-blue;
+    border-bottom: 4px solid $dark-blue;
+
+	&.section-image-none {
+        background-image: none;
+        height: auto;
+    }
+
+    &.section-border {
+        background-image: none;
+        border-top: 0;
+        border-bottom: 1px solid #cccccc;
+        height: auto;
+    }
+
+    &.section-image-collapse {
+        background-position: 50% 50%;
+        height: auto;
+    }
+
+    &.section-image-1 {
+        @extend .section-image;
+        background-image: image-url('pages/what-is-homeexchange.jpg');
+    }
+
+    &.section-image-2 {
+        @extend .section-image;
+        background-image: image-url('pages/visinfo_benefits_of_home_exchange.jpg');
+        background-position: 50% bottom;
+    }
+
+    &.section-image-3 {
+        @extend .section-image;
+        background-image: image-url('pages/visinfo_thinking_about_home_exchange.jpg');
+        background-position: 50% 0;
+    }
+
+    &.section-image-4 {
+        @extend .section-image;
+        background-image: image-url('pages/exchange-checklist.jpg');
+    }
+
+    &.section-image-5 {
+        @extend .section-image;
+        background-image: image-url('pages/visinfo_tips_for_new_members.jpg');
+    }
+
+    &.section-image-6 {
+        @extend .section-image;
+        background-image: image-url('pages/1.jpg');
+    }
+
+    &.section-image-7 {
+        @extend .section-image;
+        background-image: image-url('pages/visinfo_facts_about_intervac.jpg');
+    }
+
+    &.section-image-8 {
+        @extend .section-image;
+        background-image: image-url('pages/checklist.jpg');
+    }
+
+    &.section-image-9 {
+        @extend .section-image;
+        background-image: image-url('pages/home-exchange-national-representatives.jpg');
+    }
+
+    &.section-image-10 {
+        @extend .section-image;
+        background-image: image-url('pages/whats-next-tour.jpg');
+    }
+
+    &.section-image-11 {
+        @extend .section-image;
+        background-image: image-url('pages/visinfo_secure_exchanges.jpg');
+    }
+
+    &.section-image-12 {
+        @extend .section-image;
+        background-image: image-url('pages/visinfo_words_from_our_members.jpg');
+    }
+
+    &.section-image-13 {
+        @extend .section-image;
+        background-image: image-url('pages/said-about-intervac-in-press.jpg');
+    }
+
+    &.section-image-14 {
+        @extend .section-image;
+        background-image: image-url('pages/you-have-been-logged-out.jpg');
+    }
+
+    &.section-image-15 {
+        @extend .section-image;
+        background-image: image-url('pages/tips.jpg');
+    }
+
+    &.section-image-16 {
+        @extend .section-image;
+        background-image: image-url('pages/facebook-competition.jpg');
+        background-position: 50% 0;
+    }
+
+}
+
+.header-info {
+	margin-bottom: 30px;
+	.dots {
+		position: absolute;
+		display: block;
+		width: 32px;
+		margin: 52px 9px;
+		height: 232px;
+		background: radial-gradient(circle, #cccccc 0%, transparent 0%), radial-gradient(circle, #cccccc 15%, transparent 17%) 0em 0em;
+		background-size: 2em 1.2em;
+		@include respond-to( mid-screens ){
+			position: relative;
+		    display: none;
+		    width: 72%;
+		    margin: -35px auto;
+		    height: 20px;
+		    background: radial-gradient(circle, white 10%, transparent 10%), radial-gradient(circle, white 4%, transparent 6%) 2.143em 4.143em;
+		}
+	    @include respond-to( mid-screens ){
+	    	display: block;
+	    	background-size: 1.586em 7.143em;
+	    }
+	    @include respond-to( wide-screens ) {
+	   		background-size: 1.2em 7.143em;
+	   	}
+	}
+	p,
+	h2 {
+		color: $orange;
+		text-align: center;
+		font-family: "Georgia", sans-serif;
+		@include respond-to( mid-screens ){
+			color: $white;
+		}
+	}
+	h2 {
+		font-size: 1.429em;
+		@include respond-to( mid-screens ){
+			font-size: 3.429em;
+			margin-top: 1em;
+		}
+	}
+	p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1em;
+		line-height: 1.286em;
+		color: $black;
+		@include respond-to( mid-screens ){
+			margin-bottom: 80px;
+			color: $white;
+		}
+	}
+
+        .header-description {
+          margin-bottom: 10px;
+        }
+
+	.header-info-steps {
+		.step-link {
+			display: block;
+		}
+		.icon {
+			display: block;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			margin: 0 20px 44px 0;
+			background: $dark-blue;
+			border-radius: 25px;
+			color: $white;
+			text-align: center;
+			font-size: 1.714em;
+			float: left;
+			@include respond-to( mid-screens ){
+				margin: 0 auto 20px auto;
+				float: none;
+				background: $white;
+				color: $dark-blue;
+			}
+		}
+		.description {
+			display: block;
+			font-size: 1.286em;
+			font-family: "Georgia", sans-serif;
+			font-style: italic;
+			text-align: center;
+			line-height: 50px;
+			width: 100%;
+			color: $white;
+			text-decoration: none;
+			@include respond-to( mid-screens ){
+				float: left;
+				line-height: auto;
+			}
+			@media only screen and (max-width: 991px) {
+				font-size: 1em;
+			}
+		}
+	}
+}
+
+.facebook-button {
+  margin-top: 0.8em;
+  float: right;
+}

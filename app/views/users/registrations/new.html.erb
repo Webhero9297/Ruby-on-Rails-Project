@@ -1,0 +1,27 @@
+<% body_id 'signup' %>
+<% section_image 'section-image-collapse' %>
+
+<div class="row">
+  <div class="wide">
+
+    <h1 class="top-header">
+      <span class="top-header-label"><%= t('users.registrations.new.header') %></span>
+    </h1>
+    <div class="row">
+      <div class="registration">
+        <div class="alert alert-info">
+          <p class="alert-message price-plan-holder">
+          <% if @promotion_code.present? %>
+            <%= markdown(t("signup.alert.rebatedprice", {:PRICE_PLAN_NAME => "**#{@price_plan.name}**", :PRICE => "**#{float_price(@promotion_code.discounted_price)}**", :CURRENCY => "**#{@price_plan.country.currency}**"} )) %>
+          <% else %>
+            <%= markdown( t('signup.alert.fullprice', {:PRICE_PLAN_NAME => "**#{@price_plan.name}**", :PRICE => "**#{float_price(@price_plan.base_price)}**", :CURRENCY => "**#{@price_plan.country.currency}**"}) ) %>
+          <% end %>
+          </p>
+        </div>
+
+        <%= render( partial: 'users/registrations/registration_form') %>
+      </div>
+      <%= render( partial: 'users/registrations/national_representative') %>
+    </div>
+  </div>
+</div>

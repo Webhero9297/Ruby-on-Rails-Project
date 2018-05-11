@@ -1,0 +1,38 @@
+<%= form_tag(multi_member_message_path, method: :post, class: 'form-vertical', id: "multi-message-form", remote: true) do |f| %>
+    <% if @conversation.errors.any? %>
+        <section id="error-explanation" class="alert alert-danger">
+            <h1 class="alert-heading"><%= @conversation.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped')%>:</h1>
+            <ul class="error-explanation">
+                <% @conversation.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                <% end %>
+            </ul>
+        </section>
+    <% end %>
+
+    <fieldset>
+        <strong><%= t('global.recipients') %></strong>
+        <ul id="multi-recipient-list">
+            <% @recipients.each do |recipient| %>
+                <%= render(partial: 'member_messages/multi_recipient', locals: {listing: recipient}) %>
+            <% end %>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <%= label_tag('subject', t('global.subject'), for: 'message-subject') %>
+        <%= text_field_tag('subject', subject, size: 100, id: 'message-subject', class: 'contact-message-subject') %>
+    </fieldset>
+
+    <fieldset>
+        <%= render(partial: 'message_templates/message_template_selector', locals: {message_templates: user_account.message_templates, input_class: 'span3'}) %>
+    </fieldset>
+
+    <fieldset>
+        <%= label_tag(:body, t('global.message'), for: 'message-body') %>
+        <%= text_area_tag("body_text", body_text, cols: 72, rows: 8, id: 'message-body', class: 'contact-message-body', :'data-class' => 'message-template-target') -%>
+    </fieldset>
+
+    <fieldset>
+        <%= button_tag(t('conversations.send_message'), class: 'btn btn-primary', disable_with: t('conversation.button.sending_message')) %>
+    </fieldset>
+<% end %>

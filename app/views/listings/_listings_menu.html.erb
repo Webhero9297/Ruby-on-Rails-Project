@@ -1,0 +1,38 @@
+<% body_id 'listings' %>
+<% if permitted_to?(:index, :agent_dashboards) and session[:dashboard] == 'admin' or session[:dashboard] == 'agent' %>
+<div class="row">
+  <div class="span12">
+    <%= render(partial: 'layouts/editing_listing_alert', locals: {listing: listing}) %>
+  </div>
+</div>
+<% end %>
+
+<div class="row">
+  <div class="span12">
+    <p>
+      <span class="masthead"><%= t('listings.masthead.your_listing_in')%>: <strong><%= listing.postal_town %>, <%= listing.country %></strong> is</span>
+      <% if listing.is_valid_for_public then %>
+        <% if listing.active === true %>
+        <span class="badge badge-success"><%= t('global.active') %></span>
+        <% else %>
+        <span class="badge badge-warning"><%= t('global.inactive') %></span> <%= t('listings.badge.enable_your_listing_for_public_view') %>
+        <% end %>
+      <% else %>
+      <span class="badge badge-important"><%= t('global.invalid') %></span> <%= t('listings.badge.please_check_the') %> <%= link_to('Overview', overview_listing_url(listing)) %>
+      <% end %>
+    </p>
+  </div>
+</div>
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs">
+  <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to(t('global.overview'), overview_listing_url(listing)) %>
+    <%= n.li_link_to(t('global.description'), edit_listing_description_url(listing)) %>
+    <%= n.li_link_to(t('global.photos'), listing_images_url(listing)) %>
+    <%= n.li_link_to(t('global.settings'), edit_listing_property_setting_url(listing)) %>
+    <%= n.li_link_to(t('global.surroundings'), edit_listing_surrounding_url(listing)) %>
+    <%= n.li_link_to(t('global.exchange_dates'), listing_exchange_dates_url(listing)) %>
+    <%= n.li_link_to(t('global.location'), edit_listing_location_url(listing)) %>
+  <% end -%>
+  </ul>
+</nav>

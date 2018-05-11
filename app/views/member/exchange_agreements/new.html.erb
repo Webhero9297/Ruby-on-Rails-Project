@@ -1,0 +1,74 @@
+<% body_id 'exchanges' %>
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'menu') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t("exchange_agreement.header.start_new_exchange_agreement") %></h1>
+        <div class="alert alert-info">
+          <p class="alert-message"><%= t('member_home.register_agreement.free_membership') %></p>
+        </div>
+
+        <div class="alert alert-warning">
+          <%= markdown(t('exchange_agreement.legal')) %>
+        </div>
+
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a href="#home" data-toggle="tab"><%= t('exchange_agreement.tab.find_partner_listing_number') %></a>
+          </li>
+          <li>
+            <a href="#profile" data-toggle="tab"><%= t('exchange_agreement.tab.choose_from_favorites') %></a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="home">
+            <%= render(partial: 'find_listing_by_number') %>
+          </div>
+          <div class="tab-pane" id="profile">
+            <h2 class="plate-section-header mb10"><%= t('exchange_agreement.choose.favorite') %></h2>
+            <%= render(partial: 'favorite_listing_row', locals: {listings: @favorites}) %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% if current_user.account.listings.searchable.count > 1 %>
+  <div class="modal hide fade" id="multiple-listings-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="myModalLabel"><%= t('exchange_agreement.header.multiple_listings') %></h3>
+    </div>
+    <div class="modal-body">
+      <%= markdown(t('exchange_agreement.text.info_multiple_listings')) %>
+      <% current_user.account.listings.searchable.each do |l| %>
+        <div>
+          <h4><span class="postal-town"><%= l.postal_town %></span>,
+            <span class="country"><%= t(l.country) %></span> (<%= l.listing_number %>)</h4>
+          <%= form_tag(member_exchange_agreements_url, method: :post, id: 'agreement-member', class: "form-horizontal") do %>
+            <%= hidden_field_tag(:member_listing_id, l.id) %>
+            <%= hidden_field_tag(:partner_listing_id, '', id: nil) %>
+            <%= button_tag(t("exchange_agreement.button.with_listing"), class: "btn btn-small") %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" data-dismiss="modal" aria-hidden="true"><%= t('global.close') %></button>
+    </div>
+  </div>
+<%- end -%>
+
+<script type="text/javascript" charset="utf-8">
+$('.tab-content').on('submit', 'form.multiple', function (event) {
+  event.preventDefault();
+  var partner = $(this).find('input[name=partner_listing_id]').val();
+  $("input[name=partner_listing_id]").val(partner);
+  $("#multiple-listings-modal").modal('show');
+});
+</script>

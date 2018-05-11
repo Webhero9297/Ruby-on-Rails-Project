@@ -1,0 +1,19 @@
+<% if not images.blank? %>
+  <div class="photo-row-box" id="photo-row-<%=category %>">
+    <% images.each do |image| %>
+      <div class="photo-row">
+        <%= image_tag(image.image.size_170, height: 80, alt: image.caption, class: 'photo-row-img') %>
+        <p class="photo-row-img-caption"><%= image.caption.blank? ? t('listing.image.no_caption') : image.caption %></p>
+      </div>
+    <% end %>
+    <div class="photo-row-view">
+      <% if ['home', 'surrounding'].include?(category) %>
+          <%= link_to(t('button.view_large_images'), get_listing_images_path(listing, 'large', category), remote: true, class: 'btn btn-success') %>
+      <% end %>
+
+      <% if ['lifestyle', 'family'].include?(category) %>
+          <%= link_to(t('button.view_large_images'), get_account_profiles_images_path(profile.account.id, 'large', category), remote: true, class: 'btn btn-success') %>
+      <% end %>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,13 @@
+<%= render(partial: 'user_settings_header', locals: {page_header: t('users.header.change_your_email')}) %>
+
+
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'user_settings_menu') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: '/users/users/email_form', locals: {user: @user, section_id: 'user-email', header: t('users.header.change_email')}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+$('#<%= params[:id] %>').remove();
+<% if @account.profile.wish_list_destinations.count == 0 -%>
+$('#wish-list-items').html("<%= escape_javascript(render(partial: '/accounts/wish_lists/empty')) %>");
+<% end %>

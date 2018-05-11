@@ -1,0 +1,1 @@
+<%= markdown(@message.message % @placeholders.merge(:FEEDBACK_LINK => link_to('Home exchange feedback', external_domain_link(edit_exchange_feedback_path(@exchange_feedback, auth_token: @user.authentication_token))))) %>

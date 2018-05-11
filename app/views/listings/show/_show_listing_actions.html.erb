@@ -1,0 +1,15 @@
+<div class="listing-actions">
+    <%- if user_signed_in? and show_for_member(@listing.account_id, current_user.account_id) -%>
+        <% if permitted_to?(:create, :conversations) && !has_expired(current_user.account) && (!@listing.is_expired || @listing.open_past_listing) && current_user.account.listings.any? %>
+          <%= link_to(content_tag('i','', class: 'icon-envelope') + ' ' + t('listings.contact_member'), '#', class: 'btn blue', id: 'send-msg-btn', :'data-listing-id' => @listing.id.to_s) %>
+        <% end %>
+        <% if @listing.is_expired && !@listing.open_past_listing %>
+          <%= account_status_badge(@listing.is_expired) %>
+        <% end %>
+        <% if current_user.account.listings.none? %>
+          <%= content_tag('span', t('alert.message.no_listing'), class: 'badge badge-important') %>
+        <% end %>
+        <%= act_as_favorite(@listing, true, false) %>
+    <%- end -%>
+    <%= link_to(t('global.print'), '#', class: 'btn white print-btn') %>
+</div>

@@ -1,0 +1,39 @@
+<% body_id 'dashboard' %>
+
+<div class="row">
+  <div class="span12">
+    <h1 class="page-header"><%= t('missing_photos.heading') %></h1>
+    <p><%= t('mising_photos.intro') %></p>
+    <% @listings.each do |listing| %>
+    	<% images =  listing.get_images_by_category(['hidden']) %>
+    		<% if images.count > 0 %>
+    			<h4 class="page-header"><%= listing.listing_number %>
+    		<% end %>
+    	</h4>
+    	<%= form_tag(missing_photos_update_path, method: 'post') do %>
+    	<ul class="unstyled">
+    		<% images =  listing.get_images_by_category(['hidden']) %>
+				<% images.each do |image| %>
+    		<li>
+    			<%= image_tag(image.image.size_170, width: 170, height: 128, alt: image.caption) %>
+    			<ul class="pager">
+  					<li><label class="radio"><%= radio_button_tag("photo[#{image.id}]", 'add', false, id: image.id, class: "check-box inline") %>Add photo</label></li>
+  					<li><label class="radio"><%= radio_button_tag("photo[#{image.id}]", 'delete', false, id: image.id, class: "check-box inline") %>Delete photo</label></li>
+  					<li><label class="radio"><%= radio_button_tag("photo[#{image.id}]", 'undecided', false, id: image.id, class: "check-box inline") %>Decide later</label></li>
+					</ul>
+    		</li>
+    		<% end %>
+    	</ul>
+	    	<% if images.count > 0 %>
+	    		<%= hidden_field_tag('listing_id', listing.id) %>
+	    		<%= submit_tag(t('button.save_changes'), class: 'btn btn-primary btn-save') %>
+	    	<% end %>
+    	<% end %>
+    <% end %>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    $('#check_all').on("click", function(){ $('input[type="checkbox"]').click(); });
+  });
+</script>

@@ -1,0 +1,91 @@
+<% if @country.accept_av_solutions %>
+<div class="row">
+  <div class="span12">
+    <div class="well">
+      <h2 class="section-header"><%= t('registration.credit_card_options') %></h2>
+      <% if not @country.accept_av_solutions_text.empty? %>
+      <div><%= markdown(@country.accept_av_solutions_text) %></div>
+      <% end %>
+      <p class="no-space"><%= link_to(t('global.with_credit_card'), french_payment_setup_order_path(@order), class: 'btn btn-primary') %></p>
+    </div>
+  </div>
+</div>
+<% end %>
+
+
+<% if @country.accept_sage_pay %>
+<div class="row">
+  <div class="span12">
+    <div class="well">
+      <h2 class="section-header"><%= t('registration.credit_card_options') %></h2>
+      <% if not @country.accept_sage_pay_text.empty? %>
+      <div><%= markdown(@country.accept_sage_pay_text) %></div>
+      <% end %>
+      <p class="no-space"><%= link_to(t('global.with_credit_card'), sage_pay_setup_order_path(@order), class: 'btn btn-primary') %></p>
+    </div>
+  </div>
+</div>
+<% end %>
+
+
+<% if @country.accept_paypal %>
+<div class="row">
+  <div class="span12">
+    <div class="well">  
+      <h2 class="section-header"><%= t('registration.credit_card_options') %></h2>
+      <% if not @country.accept_paypal_text.empty? %>
+      <div><%= markdown(@country.accept_paypal_text) %></div>
+      <% end %>
+      <div class="is-inline mr40 align-top">
+        <%= link_to(t('global.with_credit_card'), express_order_url(@order), class: 'btn btn-primary') %>
+      </div>
+      <div class="is-inline">
+        <ul class="credit-cards">
+          <li>
+            <%= image_tag('cards/visa1.gif', :alt => t('application.page3.payment_options.visa_alt')) %>
+          </li>
+          <li>
+            <%= image_tag('cards/mastercard1.gif', :alt => t('application.page3.payment_options.mastercard_alt')) %>
+          </li>
+          <li>
+            <%= image_tag('cards/amex1.gif', :alt => t('application.page3.payment_options.amex_alt')) %>
+          </li>
+          <li>
+            <%= image_tag('cards/paypal.gif', :alt => t('payment.pay_with_paypal_account')) %>
+          </li>
+        </ul>
+        <p class="no-space"><%= t('payment.you_can_pay_with_the_following_credit_cards') %></p>
+      </div>
+    </div>
+  </div>
+</div>
+<% end %>
+
+
+<% if @country.accept_invoice %>
+<div class="row">
+  <div class="span12">
+    <div class="well">
+      <h2 class="section-header"><%= t('registration.offline_payment_options') %></h2>
+      <% if not @country.accept_invoice_text.empty? %>
+      <div><%= markdown(@country.accept_invoice_text) %></div>
+      <% end %>
+      <p class="no-space"><%= link_to(t('button.with_invoice'), invoice_order_url(@order), class: 'btn btn-primary') %></p>
+    </div>
+  </div>
+</div>
+<% end %>
+
+<% if @country.accept_generic_offline %>
+<div class="row">
+  <div class="span12">
+    <div class="well">
+      <h2 class="section-header"><%= t('registration.offline_payment_options') %></h2>
+      <% if not @country.accept_generic_offline_text.empty? %>
+      <div><%= markdown(@country.accept_generic_offline_text) %></div>
+      <% end %>
+      <p class="no-space"><%= link_to(@country.accept_generic_offline_button_text, generic_offline_payment_confirmation_order_path(@order), class: 'btn btn-primary') %></p>
+    </div>
+  </div>
+</div>
+<% end %>

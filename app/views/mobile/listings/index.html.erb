@@ -1,0 +1,15 @@
+<% if user_signed_in? %>
+    <% content_for(:back_button) do %>
+        <%= link_to(t('global.home'), mobile_start_path, class: 'button ml10', :'data-spinner' => 'spinner') %>
+    <% end %>
+<% end %>
+
+<%= form_tag('', method: :get, class: 'mb20', id: 'search-form', remote: true) do %>
+    <fieldset>
+        <%= label_tag('destination-country', "#{t('mobile.listings.search.destination.text')}:") %>
+        <%= select_tag("dc", options_for_select(@countries), prompt: 'Select country', id: 'destination-country', class: 'dropdown') %>
+    </fieldset>
+<% end %>
+
+<%= render(partial: 'listings_listview', locals: {listings: @listings}) %>
+<%= render(partial: 'listview_pagination', locals: {listings: @listings}) %>

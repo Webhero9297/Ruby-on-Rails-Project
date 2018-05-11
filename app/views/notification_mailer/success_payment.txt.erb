@@ -1,0 +1,18 @@
+The order <%= @order.order_number %> has been paid
+Price plan: <%= text_if_missing(@price_plan.name) %>
+Duration: <%= text_if_missing(@price_plan.duration)%> <%= text_if_missing(@price_plan.periodicity) %>
+Amount: <%= text_if_missing("%.2f" % @order.total_amount) %> <%= text_if_missing(@order.currency) %>
+Order number: <%= text_if_missing(@order.order_number) %>
+<% if not @order.promotion_code.blank? %>
+  Promotion code: <%= text_if_missing(@order.promotion_code) %>
+<% end %>
+
+<% unless @listings.blank? %>
+    <% @listings.each do |listing| %>
+        Listing number: <%= listing.listing_number %>
+    <% end %>
+<% end %>
+
+Paid by
+Name: <%= @user.name %>
+Email: <%= @user.email %>

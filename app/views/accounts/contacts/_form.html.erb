@@ -1,0 +1,95 @@
+<%= form_for(@account.contact, :url => account_contacts_url(@account), method: :put, remote: true, :html => {id: 'contact-form'}) do |f| %>
+
+    <% if @account.contact.errors.any? %>
+        <section id="error-explanation" class="alert alert-danger">
+            <h1 class="alert-heading"><%= @account.contact.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped') %>:</h1>
+            <ul class="error-explanation">
+                <% @account.contact.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                <% end %>
+            </ul>
+        </section>
+    <% end %>
+
+    <div class="row-fluid">
+        <div class="span6">
+            <div>
+                <label><%= t('accounts.account_number') %></label>
+                <%= text_field_tag('account_number', @account.account_number, class: 'span12', readonly: 'readonly', disabled: 'disabled') %>
+            </div>
+
+            <fieldset>
+                <%= f.label(:name, t('accounts.label.first_last_name')) %>
+                <%= f.text_field(:name, size: '52', class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:birthdate, t('global.birthdate')) %>
+                <div class="input-append">
+                  <%= f.text_field(:birthdate, value: @account.contact.birthdate.try(:strftime, "%Y-%m-%d"), id: 'birthdate', class: "date") %>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:address, t('global.address')) %>
+                <%= f.text_field(:address, size: '52', class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:postal_town, t('global.city')) %>
+                <%= f.text_field(:postal_town, size: '52', class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:postal_code, t('global.postal_code')) %>
+                <%= f.text_field(:postal_code, size: '52', class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:county, t('global.state')) %>
+                <%= f.text_field(:county, size: '52', class: 'span12') %>
+            </fieldset>
+        </div>
+
+        <div class="span6">
+            <fieldset>
+                <%= f.label(:telephone, t('account.contact.label.telephone') + @country.calling_code) %>
+                <%= f.text_field(:telephone, size: '52', class: 'span12', placeholder: "#{@country.calling_code} (0)4 543 435") %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:mobile, t('accounts.contact.label.mobile') + @country.calling_code) %>
+                <%= f.text_field(:mobile, size: '52', class: 'span12', placeholder: "+#{@country.calling_code} (0)41 54 34 35") %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:fax, t('accounts.contacts.label.fax_remember_to_add_country_prefix') + @country.calling_code) %>
+                <%= f.text_field(:fax, size: '52', class: 'span12', placeholder: "+#{@country.calling_code} (0)41 54 34 35") %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:email, t('user.label.email_always_same_as_primary')) %>
+                <%= f.text_field(:email, size: '52', class: 'span12', disabled: 'disabled') %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:skype, t('global.skype')) %>
+                <%= f.text_field(:skype, size: '52', class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+                <%= f.label(:website, t('global.website')) %>
+                <%= f.text_field(:website, size: '52', class: 'span12') %>
+            </fieldset>
+        </div>
+    </div>
+    <fieldset>
+        <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+        <%= link_to(t('global.cancel'), cancel_account_contacts_path(@account), class: 'btn btn-link', remote: true) %>
+        <%= f.hidden_field(:contact_page, value: true) %>
+    </fieldset>
+<% end %>
+
+<script>
+  setup_birthdate();
+</script>

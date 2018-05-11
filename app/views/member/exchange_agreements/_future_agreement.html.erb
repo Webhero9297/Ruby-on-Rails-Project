@@ -1,0 +1,34 @@
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th><%= t('global.my_listing') %></th>
+      <th><%= t('global.partner_listing') %></th>
+      <th><%= t('exchange_agreement.signed') %></th>
+      <th><%= t('global.view') %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @exchange_agreements.each do |exchange_agreement| %>
+      <% exchange_agreement.agreements.each do |agreement| %>
+        <% if agreement.owner == current_user.account.id  %>
+          <%
+              my_agreement = agreement
+          partner_agreement = exchange_agreement.get_other_agreement(agreement)
+        %>
+        <tr>
+          <td><%= my_agreement.listing_number %></td>
+          <td><%= link_to(partner_agreement.listing_number, listing_path(partner_agreement.listing_id)) %></td>
+          <td><%= standard_date_time(exchange_agreement.get_activity_for_account('exchange_agreement.signed', current_user.account_id).created_at) rescue nil %></td>
+          <td>
+            <%=
+              if !current_user.account.is_expired? || exchange_agreement.created_at < current_user.account.current_expires_at
+                link_to(t('global.view'), member_exchange_agreement_path(exchange_agreement))
+              end
+            %>
+          </td>
+        </tr>
+        <% end %>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>

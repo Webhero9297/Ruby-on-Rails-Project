@@ -1,0 +1,53 @@
+<% body_id 'signup' %>
+<% section_image 'section-image-collapse' %>
+
+<div class="row">
+    <div class="wide">
+        <h1 class="top-header">
+            <span class="top-header-label"><%= t('registrations.price_plans.header.membership_plans') %></span>
+        </h1>
+
+        <p><%= t('payment.you_can_pay_with_credit_card_paypayl_invoice') %></p>
+
+        <% if @no_promotion_code %>
+            <div class="alert">
+                <%= t('price_plans.promtion_code_no_longer_valid_verify_your_code') %>
+            </div>
+        <% end %>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <td><%= t('global.name') %></td>
+                    <td><%= t('global.duration') %></td>
+                    <td colspan="2"><%= t('global.price') %></td>
+                </tr>
+            </thead>
+            <tbody>
+                <% @price_plans.each do |price_plan| %>
+                    <tr>
+                        <td><%= price_plan.name %></td>
+                        <td><%= price_plan.duration %> <%= price_plan.periodicity %></td>
+                        <td><%= float_price(price_plan.base_price) %> <%= price_plan.country.currency %></td>
+                        <td style="text-align: right;">
+                            <%= link_to(t('global.select'), signup_plan_url(price_plan), class: 'btn green') %>
+                        </td>
+                    </tr>
+                <% end %>
+                <% if has_promotion_code(@price_plans) %>
+                    <tr>
+                        <td>
+                            <%= t('payment.promotional_offer') %>
+                        </td>
+                        <td colspan="3" style="text-align: right;">
+                            <%= form_tag(promotion_code_price_plans_url, method: :post, class: 'form-inline') do %>
+                                <%= label_tag('promotion_code', t('payment.promotion_codes.label.fill_out_your_promotion_code')) %>
+                                <%= text_field_tag('promotion_code', '', class: 'w40') %>
+                                <%= button_tag(t('button.redeem'), type: 'submit', class: 'btn green', style: 'vertical-align: 5px') %>
+                            <% end %>
+                        </td>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+    </div>
+</div>

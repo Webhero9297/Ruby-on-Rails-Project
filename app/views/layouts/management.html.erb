@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intervac Home Exchange - <%= content_for?(:title) ? yield(:title) : "Dashboard" %></title>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <%= stylesheet_link_tag "management", media: 'screen' %>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGe-s8HNb_69rUJAk92C-30AhzBZDsSJc&v=3&libraries=places,geometry&language=en" type="text/javascript"></script>
+    <%= javascript_include_tag "management" %>
+
+    <%= csrf_meta_tags %>
+</head>
+<body <%= yield(:body_id) ? "id=\"#{yield(:body_id)}\"".html_safe : 'id="page"' -%>>
+    <%= render(partial: 'layouts/dashboards/inline_notifications') %>
+    <header class="site-header">
+        <div class="masthead">
+            <%= link_to(image_tag('intervac-home-exchange.png', alt: 'Intervac Home Exchange', class: 'logotype-image'), '/', class: 'logotype-link') %>
+            <div class="masthead-actions">
+                <% if current_user.roles.length > 1 then %>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dashboards <b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li>
+                                <%= link_to('Public pages', management_member_dashboard_path) %>
+                            </li>
+                            <li>
+                                <%= link_to('Member dashboard', management_member_dashboard_path) %>
+                            </li>
+                            <% has_role?(:agent) do %>
+                                <li>
+                                    <%= link_to('Agent dashboard', management_agent_dashboard_path) %>
+                                </li>
+                            <% end -%>
+                            <% has_role?(:admin) do %>
+                                <li>
+                                    <%= link_to('Admin dashboard', management_admin_dashboard_path) %>
+                                </li>
+                            <% end -%>
+                        </ul>
+                    </div>
+                <% end %>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Languages <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        <%= languages_for_country %>
+                    </ul>
+                </div>
+                <%= link_to(t('button.log_out'), logout_url, class: 'log-out-link') %>
+            </div>
+        </div>
+        <% if session[:dashboard] == 'admin' %>
+            <%= render(partial: 'layouts/menus/admin') %>
+        <% elsif session[:dashboard] == 'agent' %>
+            <%= render(partial: 'layouts/menus/agent') %>
+        <% end %>
+    </header>
+
+    <div class="site-content container-fluid">
+        <%= yield %>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="footer-content">
+                    <p>Copyright &copy; <%= Time.now.year %> Intervac International. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function($) {
+                // Shows and hides the notifactions
+                if($('div#notification').length != 0) {
+                  $('div#notification').animate({top: "+=100"}, 300).delay(3000).animate({top: "-120"}, 300, function(event) {
+                    $(this).remove();
+                });
+              }
+          });
+    </script>
+</body>
+</html>

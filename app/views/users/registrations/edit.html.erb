@@ -1,0 +1,25 @@
+<h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+  <%= render(partial: '/users/shared/resource_error_message', locals: {resource: resource}) %>
+
+  <fieldset><%= f.label :email %><br />
+  <%= f.email_field :email %></fieldset>
+
+  <fieldset><%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+  <%= f.password_field :password %></fieldset>
+
+  <fieldset><%= f.label :password_confirmation %><br />
+  <%= f.password_field :password_confirmation %></fieldset>
+
+  <fieldset><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+  <%= f.password_field :current_password %></fieldset>
+
+  <fieldset><%= f.button "Update" %></fieldset>
+<% end %>
+
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= link_to "Cancel my account", registration_path(resource_name), :confirm => t('global.are_you_sure'), :method => :delete %>.</p>
+
+<%= link_to "Back", :back %>

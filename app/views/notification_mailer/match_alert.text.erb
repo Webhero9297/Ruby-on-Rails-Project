@@ -1,0 +1,8 @@
+You have some new matches!
+
+Below are a new list of listings that was found matching your search criteria. Listings only sent once.
+
+<% @listings.each do |listing| %>
+  <%= listing.listing_number %> <%= t('global.sleeps') %>: <%= listing.sleeping_capacity %>, <%= listing.postal_town %>, <%= t(listing.country) %> <%= external_domain_link(listing_path(listing)) %>
+
+<% end %>

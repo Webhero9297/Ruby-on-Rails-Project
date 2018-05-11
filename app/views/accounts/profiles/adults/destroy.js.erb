@@ -1,0 +1,2 @@
+$('#adults-table').replaceWith('<%= escape_javascript(render(partial: "/accounts/profiles/adults/adults_table", locals: {account: @account, profile: @account.profile})) %>');
+$('#nr-of-adults').text(<%= @account.profile.adults.count() %>);

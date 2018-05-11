@@ -1,0 +1,7 @@
+<section id="message-preview" class="message-preview">
+    <article>
+        <h1 class="page-header"><%= preview_message[:subject] %></h1>
+        <%= markdown(preview_message[:body] % @placeholders) %>
+    </article>
+    <%= link_to('Close preview', '#', class: 'btn', id: 'btn-close-preview') %>
+</section>

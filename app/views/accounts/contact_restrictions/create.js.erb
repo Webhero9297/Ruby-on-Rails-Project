@@ -1,0 +1,2 @@
+$('div.contact-restrictions-placeholder').html("<%= escape_javascript(render(partial: 'accounts/contact_restrictions/placeholder', locals: {header: t('account.header.contact_restrictions'), section_id: 'contact-restrictionxrs'}, layout: '/layouts/modules/plate_section')) %>");
+$('.cancel-contact-restrictions').replaceWith("<%= escape_javascript(link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_contact_restrictions_url(@account, format: :js), remote: true, class: 'cancel-edit-contact-restrictions')) %>");

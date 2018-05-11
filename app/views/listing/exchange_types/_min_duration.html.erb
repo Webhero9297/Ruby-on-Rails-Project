@@ -1,0 +1,8 @@
+<section id="exchange-type-duration">
+    <div class="mb10">
+        <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_duration_listing_exchange_type_url(@listing),remote: true, class: 'btn btn-small', id: 'btn-edit-min-duration') %>
+    </div>
+    <article>
+      <%= "#{listing.max_duration} #{t('global.weeks')}" unless listing.max_duration.nil?  %> 
+    </article>
+</section>

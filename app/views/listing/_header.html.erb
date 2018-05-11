@@ -1,0 +1,53 @@
+<% if not listing.is_valid_and_has_future_dates %>
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="missing-params">
+      <% if active_listing.is_missing_field(:headline) then %>
+        <li>
+          <%= t('listings.progress.label.headline') %>
+        </li>
+      <% end %>
+      <% if active_listing.is_missing_field(:description) then %>
+        <li>
+          <%= t('listings.label.describe_your_listing') %>
+        </li>
+      <% end %>
+      <% if active_listing.is_missing_field(:property_type) then %>
+        <li>
+          <%= t('listings.label.what_kind_of_property_is_your_home') %>
+        </li>
+      <% end %>
+      <% if active_listing.is_missing_field(:sleeping_capacity) then %>
+        <li>
+          <%= t('listings.progress.how_many_people_can_sleep_in_your_home') %>
+        </li>
+      <% end %>
+      <% if active_listing.is_missing_field(:children_preferences) then %>
+        <li>
+          <%= t('listings.children_welcome') %>
+        </li>
+      <% end %>
+      <% if active_listing.is_missing_field(:pets_preferences) then %>
+        <li>
+          <%= t('listings.pets_welcome') %>
+        </li>
+      <% end %>
+      <% if active_listing.is_missing_field(:main_photo) then %>
+        <li>
+          <%= t('listings.text.info.show_the_best_side_of_your_home') %>
+        </li>
+      <% end %>
+      <% if active_listing.is_missing_field(:exchange_dates) then %>
+        <li>
+          <%= t('listings.progress.missing_exchange_dates') %>
+        </li>
+      <% elsif not listing.has_future_exchange_dates %>
+        <li>
+          <%= t('listings.progress.old_exchange_dates') %>
+        </li>
+      <% end %>
+
+    </ul>
+  </div>
+</div>
+<% end %>

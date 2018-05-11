@@ -1,0 +1,15 @@
+.registration {
+    @include span-columns(8);
+}
+
+.registration-country-residence {
+    margin-bottom: 1em;
+}
+
+.registration-fields {
+    input[type="text"].w80,
+    input[type="password"].w80,
+    input[type="email"].w80 {
+        width: 80%;
+    }
+}

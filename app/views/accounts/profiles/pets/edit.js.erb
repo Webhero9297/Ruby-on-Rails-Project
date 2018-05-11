@@ -1,0 +1,2 @@
+$('#new-pet-button').hide();
+$('#<%= @pet.id %>').replaceWith('<%= escape_javascript(render(partial: "/accounts/profiles/pets/edit_form")) %>');

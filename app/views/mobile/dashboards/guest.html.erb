@@ -1,0 +1,8 @@
+<article>
+    <h1 class="page-header"><%= t('mobile.guest_dashboard.headline') %></h1>
+    <p><%= t('mobile.guest_dashboard.introtext') %></p>
+
+    <p><%= link_to(t('global.view_listings'), mobile_listings_path, class: 'button button-blue full large', :'data-spinner' => 'spinner') %></p>
+
+    <p><%= link_to(t('button.login'), mobile_login_path, class: 'button button-green full', :'data-spinner' => 'spinner') %></p>
+</article>

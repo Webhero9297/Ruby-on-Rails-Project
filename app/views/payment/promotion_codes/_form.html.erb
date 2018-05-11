@@ -1,0 +1,69 @@
+<%= form_for([@country, @price_plan, @promotion_code], html: {id: 'new-promotion-code', class: 'well form-horizontal'}) do |f| %>
+<% if @promotion_code.errors.any? %>
+<div id="error_explanation">
+  <h2><%= pluralize(@promotion_code.errors.count, "error") %> prohibited these options from being saved:</h2>
+  <ul>
+    <% @promotion_code.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+    <% end %>
+  </ul>
+</div>
+<% end %>
+
+<fieldset>
+  <h2 class="section-header"><%= t('payment.promotion_code') %></h2>
+
+  <div class="control-group">
+    <%= f.label(:code, class: 'control-label') %>
+    <div class="controls">
+      <%= f.text_field(:code, class: 'input-xlarge') %>
+      <p class="help-block"><%= t('payment.promotion_codes.form.code_help') %></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label(:discounted_price, class: 'control-label') %>
+    <div class="controls">
+      <%= f.text_field(:discounted_price, class: 'input-xlarge') %> <%= @country.currency %>
+      <p class="help-block"><%= t('payment.promotion_codes.form.price_help') %></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label(:limit, class: 'control-label') %>
+    <div class="controls">
+        <%= f.text_field(:limit, class: 'input-mini') %>
+        <p class="help-block"><%= t('payment.promotion_codes.form.limit_help') %></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label(:end_date, class: 'control-label') %>
+    <div class="controls">
+      <div class="input-append">
+        <%= f.text_field(:end_date, class: 'input-xlarge', id: 'end-date', readonly: "readonly") %>
+      </div>
+      <p class="help-block"><%= t('payment.promotion_codes.form.date_help') %></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label(:description, class: 'control-label') %>
+    <div class="controls">
+      <%= f.text_area(:description, rows: 4, cols: 52, id: 'description', class: 'input-xlarge') %>
+    </div>
+  </div>
+
+</fieldset>
+
+<fieldset class="form-actions">
+  <%= f.button('Save', class: 'btn btn-primary') %>
+  <%= link_to('Cancel', country_price_plans_url(@country), class: 'cancel btn btn-link') %>
+</fieldset>
+<% end %>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+    promotion_code_date();
+  });
+</script>

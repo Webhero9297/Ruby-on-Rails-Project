@@ -1,0 +1,30 @@
+<%= form_for(@user, url: account_co_members_url(@account), remote: true, html: {id: 'family-member-form', class: 'form-vertical'}) do |f| %>
+  <% if @user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+        <ul>
+        <% @user.errors.messages.values.each do |msg| %>
+          <% msg.each do |m| %>
+            <li><%= t(m.to_s) %></li>
+          <% end %>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+  <fieldset>
+    <%= f.label :name, t('global.full_name') %>
+    <%= f.text_field :name, class: 'input-xxlarge' %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.label :email, t('global.email_address') %>
+    <%= f.email_field :email, class: 'input-xxlarge' %>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.hidden_field :roles, {name: 'roles[]', value: 'member'} %>
+
+    <%= f.button(t("button.invite"), class: 'btn btn-primary') %>
+    <%= link_to(t("button.cancel"), cancel_account_co_members_url(@account), remote: true, class: 'btn-link cancel') %>
+  </fieldset>
+<% end %>

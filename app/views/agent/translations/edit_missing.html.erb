@@ -1,0 +1,60 @@
+<% body_id 'translations' %>
+<%= render :partial => 'tab-menu'%>
+
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('translations.header.you_are_now_editing') %>  <%= @locale %></h1>
+        <%= form_tag(agent_translations_search_url, :method => 'get', :class => "form-inline", :remote => true) do %>
+          <label>Search for missing texts only</label>
+          <fieldset>
+            <%= text_field_tag :term, @term, :class => "input-xxlarge" %>
+            <%= button_tag "Search", :id => "submit", :name => "submit", :class => "btn btn-primary", type: "submit", :disabled => false, :disable_with => t('button.please_wait') %>
+          </fieldset>
+          <%= hidden_field_tag :locale, @locale %>
+          <%= hidden_field_tag :missing, true %>
+        <% end -%>
+
+        <% if @translations.length == 0 %>
+          <div class="alert">
+            <p>Hurray! There are no missing translations!</p>
+          </div>
+        <% end %>
+
+        <div id="search-results">
+          <%= render :partial => 'edit-forms'%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      if($('.translation-form').length != 0) {
+          $('.translation-form').submit(function(event) {
+              event.preventDefault();
+
+              the_form = $(this);
+              url = the_form.attr('action');
+              form_data = the_form.serialize();
+              $.post(url, form_data, function(data){
+              });
+          });
+      }
+
+
+     $('a.show-help').click( function(event){
+         event.preventDefault();
+         var link = $(this);
+         var target = $('p#'+link.attr('rel'));
+         target.toggleClass('hidden');
+         if(target.is(':hidden')){
+             link.text('Show msgid');
+             return;
+         }
+         link.text('Hide msgid');
+     });
+  });
+</script>

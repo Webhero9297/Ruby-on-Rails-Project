@@ -1,0 +1,2 @@
+$('#pets-form').replaceWith("<%= escape_javascript(render(partial: 'accounts/profiles/pets/pet', locals: {account: @account, pet: @pet})) %>");
+$('#new-pet-button').show();

@@ -1,0 +1,1 @@
+$('#multi-message-form').replaceWith("<%= escape_javascript(render(partial: 'favorites/multi_recipient_form', locals: {subject: @subject, body_text: @body_text, user_account: current_user.account})) %>");

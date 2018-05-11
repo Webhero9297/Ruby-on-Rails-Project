@@ -1,0 +1,18 @@
+<% if admin_session? %>
+  <% body_id 'countries' %>
+<% else %>
+  <% body_id 'payment' %>
+<% end %>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: '/payment/price_plans/price_plans_menu', locals: {country: @country, countries: @countries}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Create new price plan for <%= t(@country.msgid) %></h1>
+        <%= render(partial: 'form') %>
+      </div>
+    </div>
+  </div>
+</div>

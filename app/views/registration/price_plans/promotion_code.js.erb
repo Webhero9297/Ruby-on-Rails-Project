@@ -1,0 +1,14 @@
+<% if @promotion_code %>
+  var rebated_price = '<%= raw markdown(t("signup.alert.rebatedprice", {:PRICE_PLAN_NAME => "**#{@price_plan.name}**", :PRICE => "**#{float_price(@promotion_code.discounted_price)}**", :CURRENCY => "**#{@price_plan.country.currency}**"} )).strip %>';
+  $('.price-plan-holder').parent().html(rebated_price);
+  $('.promo-code-id').val('<%= @promotion_code.id %>');
+  $('.promo-code-form').find('.alert-danger').remove();
+  if ($('.promo-code-form').find('.alert-success').length < 1) {
+    $('.promo-code-form').append('<div class="alert alert-success" id="flash_alert"><%= t("registration.header.you_have_a_valid_promotion_code") %></div>');
+  }
+<% else %>
+  if ($('.promo-code-form').find('.alert-danger').length < 1) {
+    $('.promo-code-form').append('<div class="alert alert-danger" id="flash_alert"><%= t("price_plans.promtion_code_no_longer_valid_verify_your_code") %></div>');
+  }
+  $('.promo-code-form').find('.alert-success').remove();
+<% end %>

@@ -1,0 +1,56 @@
+@import "mixins";
+
+$red_light: #e25252;
+$green_light: #91d57a;
+
+.green-light,
+.red-light {
+    color: $white;
+    display: inline-block;
+    padding: 7px 14px;
+    vertical-align: middle;
+    @include border-radius(5px);
+}
+
+.red-light {
+    background-color: $red_light;
+    color: #520505;
+}
+
+.green-light {
+    background-color: $green_light;
+    color: #1e3f14;
+}
+
+.red-green-light-dot {
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.red-light-dot {
+    @extend .red-green-light-dot;
+    background-color: $red_light;
+}
+
+.green-light-dot {
+    @extend .red-green-light-dot;
+    background-color: $green_light;
+}
+
+.yellow-light-dot {
+    @extend .red-green-light-dot;
+    background-color: $yellow;
+}
+
+.red-green-light-dot-text {
+    font-size: 0.875em;
+}
+
+.green-red-light-box {
+    display: inline-block;
+    margin-bottom: 1em;
+    width: 49%;
+}

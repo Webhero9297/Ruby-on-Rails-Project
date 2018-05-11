@@ -1,0 +1,149 @@
+<% body_id 'countries' %>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: 'management_countries_menu', locals: {country: @country, countries: @countries}) %>
+  </div>
+
+  <div class="span9">
+    <div class="plate">
+      <section class="group">
+        <h1 class="page-header">Settings for <%= t(@country.msgid) %></h1>
+        <div class="content">
+        </div>
+      </section>
+
+      <section class="group">
+        <h1 class="page-header"><%= t('payment.paypal_email') %></h1>
+        <div class="content">
+          <%= link_to(content_tag('i','', class: 'icon-edit') + ' ' +t('global.edit'), '#', id: 'paypal_email_edit') %>
+        
+          <div id="paypal-email">
+            <span><%= best_in_place( @country, :paypal_email, :type => :input, 
+            :nil => "Click to set Paypal e-mail", 
+            :activator => '#paypal_email_edit', 
+            :ok_button => "Save") %></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="group">    
+        <h1><%= t('dashboards.default_currency') %></h1>
+        <div class="content">
+          <%= link_to(content_tag('i','', class: 'icon-edit') + ' ' +t('global.edit'), edit_currency_country_url(@country), remote: true, format: :js) %>
+          <div id="currency">
+            <%= @country.currency %>
+          </div>
+        </div>
+      </section>
+
+      <section class="group">
+        <h1>Country seller / merchant information</h1>
+        <div class="content">
+          <%= link_to(content_tag('i','', class: 'icon-edit') + ' ' +t('global.edit'), edit_country_merchant_information_url(@country), remote: true, format: :js, id: 'edit-merchant-information') %>
+
+          <div id="merchant-placeholder">
+            <%= render(partial: 'countries/merchant_informations/placeholder', object: @country.merchant_information, as: 'merchant_information') %>
+          </div>
+        </div>
+      </section>
+
+      <section class="group">
+        <h1><%= t('dashboards.default_language_and_locale') %></h1>
+        <div class="content">
+          <%= link_to(content_tag('i','', class: 'icon-edit') + ' ' +t('global.edit'), edit_default_locale_country_url(@country), remote: true, format: :js) %>
+
+          <div id="locale">
+            <%= @country.default_locale %>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="group">
+        <h1>Kind of country</h1>
+        <div class="content">
+          <%= link_to(content_tag('i','', class: 'icon-edit') + ' ' +t('global.edit'), edit_kind_country_url(@country), remote: true, format: :js) %>
+          <div id="kind">
+            <%= @country.kind == 'vip'  ? 'Agent country' : 'OC' %>
+          </div>
+        </div>
+      </section>
+
+      <section class="group">
+        <h1><%= t('global.agents') %></h1>
+        <div class="content">
+          <%= link_to(content_tag('i','', class: 'icon-edit') + ' ' +t('global.edit'), agents_path) %>
+
+          <ul class="unstyled">
+            <% @agents.each do |agent| %>
+            <li><%= agent.name %></li>
+            <% end %>
+          </ul>
+        </div>
+      </section>
+
+      <section class="group">
+        <h1><%= t('global.members') %></h1>
+        <div class="content">
+          <%= t('global.total') %> <strong><%= @accounts.count() %></strong>
+        </div>
+      </section>
+
+
+      <% if current_user.is_admin %>
+        <section class="group">
+          <h1><%= t('countries.header.change_available_locales') %></h1>
+          <div class="content">
+            <p><em>You need to check at least one in order to save!</em></p>
+            <%= form_for(@country, url: save_available_locales_country_path(@country)) do |f| %>
+              <ul id="locales">
+              <% @locales.each do |locale, msgid| %>
+                <li>
+                  <%= check_box_tag("locales[#{locale}][locale]", locale, @country.has_locale(locale), id: "lang-#{locale}", class: "check-box inline") %>
+                  <%= label_tag("locale-#{locale}", locale, class: "inline") %>
+                  <%= hidden_field_tag("locales[#{locale}][msgid]", msgid) %>
+                </li>
+              <% end -%>
+              </ul>
+            <div class="clear-both" style="clear: both;"></div>
+              <fieldset class="form-actions">
+                <%= f.button( "Save languages", class: 'btn btn-primary') %>
+              </fieldset>
+            <% end %>
+          </div>
+        </section>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  $('#content').on("click", '#cancel-locale', function(event) {
+    event.preventDefault();
+    $('#locale').text("<%= @country.default_locale %>");
+  });
+
+  $('#content').on("click", '#cancel-kind', function(event) {
+    event.preventDefault();
+    $('#kind').text("<%= @country.kind == 'vip'  ? 'Agent country' : 'OC' %>");
+  });
+  
+  $('#content').on("click", '#cancel-currency', function(event) {
+    event.preventDefault();
+    $('#currency').text("<%= @country.currency %>");
+  });
+  
+  $('#content').on("click", '#cancel-merchant-information', function(event) {
+    event.preventDefault();
+    $('div#merchant-placeholder').html("<%= escape_javascript(render(partial: '/countries/merchant_informations/placeholder', object: @country.merchant_information, as: 'merchant_information')) %>");
+  });
+  
+  /* Activating Best In Place */
+  $(".best_in_place").best_in_place();
+  $('#content').on('click', '#paypal_email_edit', function(event){
+      $('form.form_in_place :submit').addClass('btn')
+      $('form.form_in_place').addClass('form-inline')
+      $('form.form_in_place input[type="text"]').addClass('input-large');
+  });
+</script>

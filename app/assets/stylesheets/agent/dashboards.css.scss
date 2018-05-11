@@ -1,0 +1,11 @@
+// Place all the styles related to the agent/dashboards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+table.translation-stats td.first{
+    width: 20%;
+}
+
+table.translation-stats td.third{
+    width: 10%;
+    white-space:nowrap;
+}

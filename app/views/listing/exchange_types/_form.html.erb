@@ -1,0 +1,31 @@
+<%= form_for(@listing, url: listing_exchange_type_url(@listing), remote: true, html: {id: 'exchange-types-form'}) do |f| %>
+  <% if @listing.errors.any? %>
+  <section id="error_explanation">
+    <h1 class="section-header"><%= pluralize(@listing.errors.count, "error") %> stopped the exchange types from being saved:</h1>
+    <ul>
+      <% @listing.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </section>
+  <% end %>
+
+  <fieldset>
+    <ul class="unstyled">
+      <% @exchange_types.each do |exchange_type| %>
+        <li>
+          <%= hidden_field_tag("listing[exchange_types][#{exchange_type.msgid}]", false) %>
+          <%= label_tag("listing-tag-#{exchange_type.short}", class: 'checkbox') do %>
+          <%= check_box_tag("listing[exchange_types][#{exchange_type.msgid}]", true, @listing.exchange_types.include?(exchange_type.msgid), id: "listing-tag-#{exchange_type.short}", class: 'checkbox') %>
+          <%= t(exchange_type.msgid) %>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+  </fieldset>
+  
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_exchange_type_url(@listing), remote: true) %>
+  </fieldset>
+<% end %>

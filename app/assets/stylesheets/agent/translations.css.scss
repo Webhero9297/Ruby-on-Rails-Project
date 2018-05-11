@@ -1,0 +1,29 @@
+// Place all the styles related to the agent/conversations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+form.translation-form{
+    margin-bottom: 38px;
+    fieldset.form-actions{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+p.translation-help.hidden{
+    display:none;
+}
+
+form.modal-form{
+  margin:0;
+}
+
+div#translation-modal{
+  width: 600px
+}
+
+.translations-edit {
+    cursor: pointer;
+    &:hover {
+        background-color: yellow;
+    }
+}

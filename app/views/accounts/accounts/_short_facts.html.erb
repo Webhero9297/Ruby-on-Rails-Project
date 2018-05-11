@@ -1,0 +1,126 @@
+<div class="alert alert-info">
+  <strong>Member:</strong> <%= @account.contact.name %> - <%= @account.contact.email %> (<%= @account.account_number %>)
+</div>
+
+<div class="mb20">
+  <%= switch_to_user_link(member_dashboard_path, request.original_url, 'member', get_current_dashboard, @account.account_owner, class: 'btn btn-success') %>
+</div>
+
+<div class="row-fluid">
+  <div class="span7">
+    <table class="table table-condensed table-striped">
+      <thead>
+        <tr>
+          <th colspan="2">Short facts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Waiting for activation</td>
+          <td><%= yes_or_no_bool(@account.awaiting_access) %>
+              <% if @account.awaiting_access %>
+                 -  <%= link_to('Activate', awaiting_access_country_path(@account.get_country)) %>
+              <% end %>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Number of logins</td>
+          <td><%= @account_owner.sign_in_count %></td>
+        </tr>
+        
+        <tr>
+          <td>Last login</td>
+          <td><%= @account.last_login_at.nil? ? "Never logged in" : standard_date_time(@account.last_login_at, current_user.account.time_zone) %></td>
+        </tr>
+        
+        <tr>
+          <td>Member since</td>
+          <td class='refresh_joined_at'><%= standard_date(@account.joined_at) %></td>
+        </tr>
+        
+        <tr>
+          <td>Activated on</td>
+          <td><%= standard_date(@account.activated_at) %></td>
+        </tr>
+        
+        <tr>
+          <td>Membership type:</td>
+          <td><%= @subscription.name %> - <%= account_status_badge(@account.is_expired?) %></td>
+        </tr>
+        
+        <tr>
+          <td>Membership expires</td>
+          <td><%= standard_date(@subscription.expires_at) %></td>
+        </tr>
+
+        <tr>
+          <td>Nr of exchanges</td>
+          <td><%= @account.exchanges_made %></td>
+        </tr>
+        
+        </tr>
+          <td>Nr of listings</td>
+          <td><%= @account.listings.count() %> ( <%= @account.listing_numbers.join(', ') %> )</td>
+        </tr>
+
+        </tr>
+        <td>Nr of allowed listings</td>
+        <td id="short-nr-of-allowed-listings"><%= @account.nr_of_allowed_listings %></td>
+        </tr>
+        
+        <tr>
+          <td>Nr of favorites</td>
+          <td><%= @account.favorites.count() %></td>
+        </tr>
+        
+        <tr>
+          <td>Newsletter subscriber</td>
+          <td><%= yes_or_no_bool(@account.newsletter) %></td>
+        </tr>
+
+        <tr>
+          <td>Country</td>
+          <td><%= t(@account.get_country.msgid) rescue nil %></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <article>
+      <h2 class="plate-section-header">Member since</h2>
+      <p>Manually set the date this member first joined Intervac</p>
+      <%= form_for(@account, url: set_joined_at_account_path(@account),remote: true, html: {class: 'well form-inline is-inline joined_at_date'}) do |f| %>
+        <fieldset>
+          <div class="expiration-date">
+            <div class="input-append">
+              <%= f.text_field(:joined_at, value: exchange_input_date(@account.joined_at), id: 'joined_at', class: "date input-small", readonly: "readonly") %>
+            </div>
+         </div>
+          <%= f.button('Save date', class: 'btn btn-primary') %>
+        </fieldset>
+      <% end %>
+    </article>
+
+    <div class='ambassador-holder'>
+      <%= render 'ambassador_program' %>
+    </div>
+
+  </div>
+  <div class="span5">
+    <h2 class="plate-section-header">Table of contents</h2>
+    <ol class="toc">
+      <li><%= link_to('Short facts', '#short-facts') %></li>
+      <li><%= link_to('Membership listings', '#membership-listings') %></li>
+      <li><%= link_to('Contact information', '#contact-information') %></li>
+      <li><%= link_to('Membership subscriptions', '#membership-subscriptions') %></li>
+      <li><%= link_to('Exchange agreements', '#exchange-agreements') %></li>
+      <li><%= link_to('Transfer account', '#account-transfer') %></li>
+      <li><%= link_to('Hide account', '#hide-account') %></li>
+    </ol>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function ($) {
+        expiration_date();
+    });
+</script>

@@ -1,0 +1,6 @@
+$('#btn-new-adult').hide();
+if($('#no-adults').length != 0) {
+  $('#adults-table tbody').html('<tr id="new-adult-form"><td colspan="3"><%= escape_javascript(render(partial: "/accounts/profiles/adults/new_form")) %></td></tr>');  
+} else {
+  $('#adults-table tbody').append('<tr id="new-adult-form"><td colspan="3"><%= escape_javascript(render(partial: "/accounts/profiles/adults/new_form")) %></td></tr>');  
+}

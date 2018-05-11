@@ -1,0 +1,30 @@
+<p><%= link_to('Create agent', new_agent_path, class: 'btn btn-primary') %></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th style="width: 20%"><%= t('agent.agent_name') %></th>
+      <th style="width: 70%"><%= t('global.countries') %></th>
+      <th class="text-right" style="width: 10%">Active members</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @users.each do |agent| %>
+    <tr>
+      <td><%= link_to( agent.name, edit_agent_path(agent) ) %></td>
+      <td>
+        <% agent.agent_profile.agent_for.each_with_index do |country, index| %>
+          <% if agent.agent_profile.agent_for.count() != (index+1) then %>
+            <%= t(country['msgid']) %>,
+          <% else %>
+            <%= t(country['msgid']) %>
+          <% end %>
+        <% end %>
+      </td>
+      <td class="text-right">
+        <%= agent.agent_profile.active_members %>
+      </td>
+    </tr>
+    <% end -%>
+  </tbody>
+</table>

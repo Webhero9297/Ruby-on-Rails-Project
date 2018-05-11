@@ -1,0 +1,13 @@
+<div id="contact-restrictions">
+    <div class="mb10">
+        <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_contact_restrictions_url(@account), remote: true, class: 'btn btn-small cancel-edit-contact-restrictions') %>
+    </div>
+    <div id="edit-contact">
+        <div class="row-fluid">
+            <dl class="dl-horizontal">
+                <dt class='dt-more-width'><%= t('accounts.contact_restrictions.added_as_favorite') %></dt>
+                <dd><%= @account.contact_restrictions.try(:added_as_favorite) ? t('global.disallow') : t('global.allow') %></dd>
+            </dl>
+        </div>
+    </div>
+</div>

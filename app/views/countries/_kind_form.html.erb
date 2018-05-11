@@ -1,0 +1,5 @@
+<%= form_for(country, url: save_kind_country_url(country), html: {class: 'form-horizontal'}, remote: true, method: :put) do |f| -%>
+  <%= f.select(:kind, kinds, id: 'country-currency') %>
+  <%= f.button(t('button.save'), class: 'btn') %>
+  <%= link_to('Cancel', '#kind', id: 'cancel-kind') %>
+<% end -%>

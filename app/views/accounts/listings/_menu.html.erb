@@ -1,0 +1,22 @@
+<% body_id 'member-management' %>
+<div class="row-fluid">
+  <div class="span12">
+    <p class="masthead"><%= t('listings.editing_listing') %>: <%= listing.listing_number %> ( <%= account.contact.name %> - <%= account.account_number %> )</p>
+    <nav id="section-nav" role="secondary">
+      <ul class="nav nav-tabs">
+        <% highlight_current_link(:class => 'active') do |n| -%>
+        <%= n.li_link_to(t('global.overview'), account_listing_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('global.description'), edit_account_listing_description_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('global.description'), edit_listing_description_url(listing.id)) %>
+        <%= n.li_link_to(t('global.photos'), account_listing_photos_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('global.settings'), edit_account_listing_property_settings_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('global.facilities'), edit_account_listing_facilities_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('global.surroundings'), edit_account_listing_surroundings_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('global.exchange_dates'), account_listing_exchange_dates_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('visinfo_membership_with_intervac.search_facilities_list.exchange_types'), edit_account_listing_exchange_types_url(account.id, listing.id)) %>
+        <%= n.li_link_to(t('global.location'), edit_account_listing_location_url(account.id, listing.id)) %>
+        <% end -%>
+      </ul>
+    </nav>
+  </div>
+</div>

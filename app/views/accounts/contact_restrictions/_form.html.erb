@@ -1,0 +1,21 @@
+<%= form_for(@account.contact_restrictions || ContactRestriction.new, :url => account_contact_restrictions_url(@account), remote: true, :html => {id: 'contact-form'}) do |f| %>
+  <div class="row-fluid">
+      <div class="span6">
+          <fieldset>
+              <%= hidden_field_tag("contact_restrictions[added_as_favorite]", false) %>
+              <%= label_tag("account_restriction_added_as_favorite", class: 'checkbox') do %>
+                  <%= check_box_tag("contact_restrictions[added_as_favorite]", true, @account.contact_restrictions.try(:added_as_favorite), class: 'checkbox', id: "account_restriction_added_as_favorite") %>
+                  <%= t('accounts.contact_restrictions.disallow_adding_as_favorite') %>
+              <% end %>
+          </fieldset>
+      </div>
+  </div>
+  <fieldset>
+      <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+      <%= link_to(t('global.cancel'), cancel_account_contact_restrictions_path(@account), class: 'btn btn-link', remote: true) %>
+  </fieldset>
+<% end %>
+
+<script>
+  setup_birthdate();
+</script>

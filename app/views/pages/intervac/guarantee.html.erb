@@ -1,0 +1,22 @@
+<% body_id 'about-intervac' %>
+<% page_title t('pages.page_title.intervac_home_exchange_guarantee') %>
+<% page_description t('testimonials.page.headline') + " - " + t('testimonials.local_1.headline') %>
+<% page_keywords t('intervac, home, exchange, guarantee, ') %>
+<% section_image 'section-image-8' %>
+
+
+<div class="row">
+    <%= render(:partial => 'pages/intervac/sub_menu') %>
+    <article class="page-content">
+        <h1 class="page-content-header">
+          <span class="page-content-header-label"><%= t('guarantee.page.headline') %>*</span>
+        </h1>
+        <p><%= t('guarantee.page.guarantee_text') %></p>
+
+        <div class="alert">
+          <%= markdown(t('guarantee.page.requirements')) %>
+        </div>
+        <p>Intervac International <%= Time.now.year %></p>
+        <p><%= link_to(t('guarantee.page.signup_link_text'), price_plans_url, :title => t('login.apply_for_membership_title'), class: 'btn btn-primary btn-large') %></p>
+    </article>
+</div>

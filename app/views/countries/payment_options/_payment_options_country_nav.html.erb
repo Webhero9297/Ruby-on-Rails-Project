@@ -1,0 +1,10 @@
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs nav-stacked">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+      <%= n.li_link_to('Payment options', payment_options_overview_path) %>
+      <% countries.each do |country| %>
+        <%= n.li_link_to(t(country.msgid), edit_country_payment_options_path(country)) %>
+      <% end %>
+    <% end -%>
+  </ul>
+</nav>

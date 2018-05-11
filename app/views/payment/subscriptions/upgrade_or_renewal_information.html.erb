@@ -1,0 +1,44 @@
+<% body_id 'member-management' %>
+
+<div class="row-fluid mb10">
+  <div class="span12">
+    <%= link_to('Return to member home', member_dashboard_url, class: 'btn btn-primary') %>
+    <section class="group">
+      <h1>The upgrade or renewal was successful</h1>
+      <div class="content">
+      <p class="alert alert-success">You have upgraded the following accounts membership</p>
+      
+      <div class="mb40">
+        <%= render(partial: 'accounts/contacts/placeholder') %>
+      </div>
+
+      <h2 class="section-header">The new membership subscription</h2>
+        <dl class="dl-horizontal">
+            <dt><%= t('global.membership') %>:</dt>
+            <dd><%= @subscription.name %></dd>
+
+            <% if @subscription.renewal %>
+            <dt><%= t('global.renewed') %>:</dt>
+            <% else %>
+            <dt><%= t('global.created') %>:</dt>
+            <% end %>
+            <dd><%= standard_date(@subscription.created_at) %></dd>
+
+            <dt><%= t('global.expires') %>:</dt>
+            <dd><%= standard_date(@subscription.expires_at) %></dd>
+            <dt><%= t('global.duration') %>:</dt>
+            <dd><%= @subscription.duration %> <%= @subscription.periodicity %></dd>
+            <dt><%= t('global.kind') %>:</dt>
+            <dd><%= @subscription.kind %> <%= t('global.membership') %></dd>
+            
+            <% if not @subscription.promotion_code.blank? %>
+            <dt><%= t('payment.promotion_code') %>:</dt>
+            <dd><%= @subscription.promotion_code %></dd>
+            <% end %>
+
+        </dl>
+    </div>
+    </section>
+  </div>
+</div>
+    

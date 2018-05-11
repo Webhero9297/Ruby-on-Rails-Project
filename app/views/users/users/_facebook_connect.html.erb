@@ -1,0 +1,7 @@
+<div id="facebook">
+<% if @user['fb_graph_id'].nil? %>
+  <%= link_to(t('global.connect_with_facebook'), connect_facebook_graph_url, class: 'btn btn-primary btn-small') %>
+<% else %>
+  <p><%= t('global.connected_with_facebook') %></p>
+<% end %>
+</div>

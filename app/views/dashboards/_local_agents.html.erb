@@ -1,0 +1,34 @@
+<% unless @national_representative.empty? %>
+    <% @national_representative.each do |rep| %>
+        <article class="agent-container">
+            <div class="is-inline align-top mr20 hidden-phone">
+                <% if rep.agent_profile.profile_image != nil %>
+                    <%= image_tag(rep.agent_profile.profile_image.image.size_150, width: 150, alt: '', class: 'national-representative') %>
+                <% else %>
+                    <div style="width: 150px; height: 150px;">NO PHOTO</div>
+                <% end %>
+            </div>
+
+            <div class="is-inline align-top agent-short-info">
+                <ul class="national-representative">
+                    <li>
+                        <span class="name"><%= rep.agent_profile.name.blank? ? rep.name : rep.agent_profile.name %></span>
+                    </li>
+                    <li><%= rep.agent_profile.address %></li>
+                    <li>
+                        <%= rep.agent_profile.postal_code %>
+                        <%= rep.agent_profile.postal_town %>
+                    </li>
+                    <li><span><%= rep.agent_profile.country %></span></li>
+                    <li>
+                        <span><%= t('global.phone') %>:</span> <span><%= rep.agent_profile.telephone %></span>
+                    </li>
+                    <li>
+                        <span><%= t('global.email') %>:</span> <span><%= rep.agent_profile.email %></span>
+                    </li>
+                </ul>
+                <%= link_to(content_tag('i', '', class: 'icon-envelope') + ' ' +t('global.contact'), new_agent_contact_message_url, class: 'btn') %>
+            </div>
+        </article>
+    <% end -%>
+<% end -%>

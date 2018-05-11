@@ -1,0 +1,107 @@
+<article id="figure-block-<%= image.id %>" class="figure-block" data-listing="<%= listing.id %>" data-image="<%= image.id %>">
+    <div class="figure-block-photo">
+        <%= image_tag(image.image.size_170, height: 70, alt: image.caption, class: 'photo') %>
+    </div>
+
+    <div class="figure-block-text">
+        <div class="figure-block-visibility">
+            <% if image.main_photo %>
+                <span class="label label-success"><%= t('label.is_main_photo') %></span>
+            <% end %>
+
+            <% unless image.main_photo %>
+                <% if image.publicly_visible -%>
+                    <span class="label label-warning"><%= t('global.publicly_visible') %></span>
+                <% else -%>
+                    <span class="label label-info"><%= t('accounts.profile.not_publicly_visible') %></span>
+                <% end -%>
+            <% end -%>
+        </div>
+
+        <% unless image.caption.blank? -%>
+            <p class="figure-block-caption" id="caption-<%= image.id %>">
+                <%= image.caption %>
+            </p>
+        <% else -%>
+            <p class="figure-block-caption" id="caption-<%= image.id %>">
+                <em><%= t('listing.photo.no_caption') %></em>
+            </p>
+        <% end -%>
+
+        <% if image.category == 'home' %>
+            <% unless image.main_photo %>
+                <ul class="figure-block-action-list home">
+                    <li>
+                        <% if image.publicly_visible -%>
+                            <%= link_to(content_tag('i', '', class: 'icon-eye-close') + ' ' + t('button.set_private'), set_private_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                        <% else -%>
+                            <%= link_to(content_tag('i', '', class: 'icon-eye-open') + ' ' + t('button.set_public'), set_public_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                        <% end -%>
+                    </li>
+                    <li>
+                        <%= link_to(content_tag('i', '', class: 'icon-picture') + ' ' + t('button.use_as_main_photo'), set_as_main_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                    </li>
+                    <li>
+                        <%= link_to(content_tag('i', '', class: 'icon-arrow-left') + ' ' + t('button.rotate_left'), rotate_left_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                    </li>
+                </ul>
+                <ul class="figure-block-action-list home">
+                    <li>
+                        <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('button.edit_caption'), edit_caption_listing_image_path(listing.id, image.id), remote: true) %>
+                    </li>
+                    <li>
+                        <%= link_to(content_tag('i', '', class: 'icon-trash') + ' ' + t('button.delete'), listing_image_url(listing.id, image.id), method: :delete, remote: true, format: :js, confirm: 'Are you sure you want to delete this image?') %>
+                    </li>
+                    <li>
+                        <%= link_to(content_tag('i', '', class: 'icon-arrow-right') + ' ' + t('button.rotate_right'), rotate_right_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                    </li>
+                </ul>
+            <% else %>
+                <ul class="figure-block-action-list">
+                  <li>
+                      <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('button.edit_caption'), edit_caption_listing_image_path(listing.id, image.id), remote: true) %>
+                  </li>
+                </ul>
+                <ul class='figure-block-action-list home'>
+                  <li>
+                    <%= link_to([content_tag('i', '', class: 'icon-arrow-left'), t('button.rotate_left')].join(' ').html_safe, rotate_main_photo_left_listing_images_path(listing.id), remote: true, format: :js) %>
+                  </li>
+                </ul>
+                <ul class='figure-block-action-list home'>
+                  <li>
+                    <%= link_to([t('button.rotate_right'), content_tag('i', '', class: 'icon-arrow-right')].join(' ').html_safe, rotate_main_photo_right_listing_images_path(listing.id), remote: true, format: :js) %>
+                  </li>
+                </ul>
+            <% end %>
+        <% end %>
+
+        <% if image.category == 'surroundings' %>
+            <ul class="figure-block-action-list home">
+                <li>
+                    <% if image.publicly_visible -%>
+                        <%= link_to(content_tag('i', '', class: 'icon-eye-close') + ' ' + t('button.set_private'), set_private_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                    <% else -%>
+                        <%= link_to(content_tag('i', '', class: 'icon-eye-open') + ' ' + t('button.set_public'), set_public_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                    <% end -%>
+                </li>
+                <li>
+                    <%= link_to(content_tag('i', '', class: 'icon-arrow-left') + ' ' + t('button.rotate_left'), rotate_left_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                </li>
+            </ul>
+            <ul class="figure-block-action-list home">
+                <li>
+                    <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('button.edit_caption'), edit_caption_listing_image_path(listing.id, image.id), remote: true) %>
+                </li>
+                <li>
+                    <%= link_to(content_tag('i', '', class: 'icon-arrow-right') + ' ' + t('button.rotate_right'), rotate_right_listing_image_path(listing.id, image.id), remote: true, format: :js) %>
+                </li>
+            </ul>
+            <ul class="figure-block-action-list home">
+                <li>
+                    <%= link_to(content_tag('i', '', class: 'icon-trash') + ' ' + t('button.delete'), listing_image_url(listing.id, image.id), method: :delete, remote: true, format: :js, confirm: 'Are you sure you want to delete this image?') %>
+                </li>
+            </ul>
+        <% end %>
+    </div>
+    <div class="figure-block-sort"></div>
+</article>

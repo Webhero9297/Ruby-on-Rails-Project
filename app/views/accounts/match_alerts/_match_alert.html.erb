@@ -1,0 +1,6 @@
+<%= markdown(t('match_alert.text.alert_information_text')) %>
+<% if @account.match_alert.active %>
+    <%= render(partial: 'filters', locals: {section_id: 'match-alert'}) %>
+<% else %>
+    <%= link_to(t('button.activate_match_alert'), activate_account_match_alerts_path, class: 'btn btn-success') %>
+<% end %>

@@ -1,0 +1,19 @@
+<%= form_for(@pet, url: account_profiles_pets_url(@account), method: :post, remote: true, :html => {id: 'new-pet-form',class: 'form-inline'}) do |f| %>
+<% if @pet.errors.any? %>
+<section id="error-explanation" class="alert alert-danger">
+  <h1 class="alert-heading"><%= @pet.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped')%>:</h1>
+  <ul class="error-explanation">
+    <% @pet.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+    <% end %>
+  </ul>
+</section>
+<% end %>
+<fieldset>
+  <%= f.text_field(:kind, placeholder: 'Type of pet', class: 'input-xlarge') %>
+</fieldset>
+<fieldset class="form-actions">
+  <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+  <%= link_to(t('global.cancel'), '#cancel', class: 'cancel-new-pet') %>
+</fieldset>
+<% end %>

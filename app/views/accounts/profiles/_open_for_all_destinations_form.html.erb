@@ -1,0 +1,9 @@
+<div>
+<%= form_tag('/', id: 'open-for-all-destinations-form') do %>
+  <%= label_tag('open-for-all-destinations', class: 'checkbox') do -%>
+    <%= hidden_field_tag('account_id', @account.id) %>
+    <%= check_box_tag('open_for_all_destinations', true, @account.profile.open_for_all_destinations, id: 'open-for-all-destinations') %>
+    <%= t('exchangetype.open_for_all_offers') %>
+  <% end %>
+<% end %>
+</div>

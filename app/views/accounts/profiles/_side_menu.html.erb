@@ -1,0 +1,12 @@
+<div class="well" style="padding: 8px 0;">
+  <ul class="nav nav-list">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to(t('global.overview'), account_profiles_url(account)) %>
+    <%= n.li_link_to(t('global.adults'), account_profiles_adults_url(account)) %>
+    <%= n.li_link_to(t('global.children'), account_profiles_children_url(account)) %>
+    <%= n.li_link_to(t('global.pets'), account_profiles_pets_url(account)) %>
+    <%= n.li_link_to(t('global.presentation'), edit_account_profiles_presentations_url(account)) %>
+    <%= n.li_link_to(t('global.lifestyle'), edit_account_profiles_lifestyles_url(account)) %>
+    <% end -%>
+  </ul>
+</div>

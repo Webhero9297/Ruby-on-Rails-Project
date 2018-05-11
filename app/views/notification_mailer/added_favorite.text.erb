@@ -1,0 +1,14 @@
+<%= t('mailer.added_as_favorite.member_from', {:COUNTRY => t(@user_country) , :locale => @locale}) %>
+<%= t('mailer.added_as_favorite.your_listing_was_added', {:LISTING => @listing.listing_number , :locale => @locale}) %>
+
+<% @user.account.listings.each do |listing| %>
+    <%= listing.listing_number %>, <%= @user.name %>
+    <%= listing.postal_town %>, <%= t(listing.country, :locale => @locale) %>
+<% end %>
+
+<%= t('mailer.added_as_favorite.you_might_be_interested', {:LOGIN => t('button.login', :locale => @locale), :locale => @locale}) %>
+
+<%= t('mailer.added_as_favorite.automatic_message', :locale => @locale) %>
+<%= t('mailer.added_as_favorite.stop_notifications', :locale => @locale) %>
+<%= t('automated_messages.exchange_agreement.happy_exchange', :locale => @locale) %>
+<%= t('automated_messages.exchange_agreement.intervac_team', :locale => @locale) %>

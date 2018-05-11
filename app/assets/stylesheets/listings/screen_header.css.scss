@@ -1,0 +1,19 @@
+@import 'mixins';
+h1.screen-header {
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    border: 0;
+    margin: 14px 14px 0 14px;
+}
+
+.screen-header.affix {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: $white;
+    top: 0;
+    left: 0;
+    @include box-sizing;
+    z-index: 30000;
+}

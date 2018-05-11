@@ -1,0 +1,17 @@
+<section id="contact-messages-<%= listing.id.to_s %>" class="contact-messages is-hidden">
+    <div class="close-contact-message">
+        <button type="button" id="close-contact-messages-<%= listing.id.to_s %>" class="btn gray close-contact-message-btn" data-listing-id="<%= listing.id.to_s %>"><%= t('global.hide') %></button>
+    </div>
+    <div class="contact-message-options">
+        <span class="contact-message-button">
+            <%= link_to(t('global.exchange_request'), new_exchange_request_path(listing.account.id, listing), class: 'btn white', remote: true) %>
+        </span>
+        <p class="contact-message-info"><%= t('listing.exchange_request_description') %></p>
+    </div>
+  <div class="contact-message-options">
+        <span class="contact-message-button">
+            <%= link_to(t('global.conversation_message'), new_member_message_path(listing.account.id, listing), class: 'btn white', remote: true) %>
+        </span>
+        <p class="contact-message-info"><%= t('listing.conversation_message_description') %></p>
+    </div>
+</section>

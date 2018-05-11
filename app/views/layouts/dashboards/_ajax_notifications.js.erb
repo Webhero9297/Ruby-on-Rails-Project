@@ -1,0 +1,10 @@
+var notification_placeholder = $('#notifications');
+if(notification_placeholder) {
+    notification_placeholder.html("<%= escape_javascript(render(:partial => '/layouts/dashboards/inline_notifications')) %>");
+} else {
+    $('body').prepend("<%= escape_javascript(render(:partial => '/layouts/dashboards/inline_notifications')) %>");
+}
+$('div#notification').animate({top: "+=100"}, 300).delay(3000).animate({top: "-120"}, 300, function(event) {
+    $(this).remove();
+    <%= flash[:notice] = nil %>
+});

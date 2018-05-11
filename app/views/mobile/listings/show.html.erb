@@ -1,0 +1,6 @@
+<% body_id 'page-listing' %>
+<% content_for(:back_button) do %>
+  <%= link_to(t('global.back'), @back_url, class: 'button ml10', :'data-spinner' => 'spinner') %>
+<% end %>
+
+<%= render(partial: 'listing') %>

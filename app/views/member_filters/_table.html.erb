@@ -1,0 +1,21 @@
+<div id="result-placeholder">
+  <%= render(partial: '/member_filters/table_with_pagination', locals: {accounts: accounts}) %>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  $('#result-placeholder').on('click', 'th.sorter', function(event) {
+    var header = $(this);
+    event.preventDefault();
+
+    send_data = {
+        "sort": header.data('sort'),
+        "direction": header.data('direction'),
+        "country_codes": header.data('countryCodes'),
+        "filter": header.data('filter'),
+        "page": header.data('page'),
+        "query": header.data('query'),
+        "change_order": "yes"
+    }
+    $.get('<%= sort_member_filters_path(format: :js) %>',send_data, function(data) {});
+  });
+</script>

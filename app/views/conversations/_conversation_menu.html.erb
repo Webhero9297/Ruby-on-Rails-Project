@@ -1,0 +1,12 @@
+<% body_id 'messages' %>
+<div id="dashboard-sidebar" data-spy="affix" data-offset-top="140">
+  <% if dashboard_is?('member') %>
+    <section class="mb20">
+      <%= render(partial: 'dashboards/member_home') %>
+    </section>
+  <%- end -%>
+  <section>
+    <%= render(partial: 'conversations/conversations_navigation') %>
+    <%= render(partial: 'favorites/favorites_navigation') %>
+  </section>
+</div>

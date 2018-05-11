@@ -1,0 +1,14 @@
+<% body_id 'agent-management' %>
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs">
+  <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to('Contact details', edit_admin_member_contact_url(@account.id)) %>
+    <%= n.li_link_to('Family profile', edit_admin_member_profile_url(@account.id)) %>
+    <%= n.li_link_to('Photos', account_profile_profile_images_url) %>
+    <%= n.li_link_to('Spoken languages', edit_account_profile_spoken_language_url) %>
+    <%= n.li_link_to('Wish list', account_profile_wish_list_url) %>
+    <%= n.li_link_to('Family users', account_family_members_url) %>
+    <%= n.li_link_to('Billing', '#') %>
+  <% end -%>
+  </ul>
+</nav>

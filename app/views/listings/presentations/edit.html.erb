@@ -1,0 +1,80 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>
+<%= form_for(@listing, url: listing_description_url, html: {id: 'description-form'}) do |f| %>
+  <div class="row">
+    <div class="span12">
+      <h1 class="page-header"><%= t('listings.header.presentation_of_your_listing') %></h1>
+
+      <% if @listing.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+          <ul>
+            <% @listing.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span8">
+      <h2 class="section-header"><%= t('listings.header.short_description') %></h2>
+      <fieldset class="well">
+        <%= label_tag('listing-headline', 'The headline should be a short selling sentence of your home. You can not active your listing without a headline') %>
+        <%= text_field_tag('listing[property][headline]', @listing.headline, id: 'listing-headline', placeholder: 'Cozy suburbia home with pool', class: 'span7') %>
+
+        <%= label_tag('listing-description', 'The presentation should be between 100 and 1000 characters. You can not active your listing without a presentation') %>
+        <%= text_area_tag('listing[property][description]', @listing.description, id: 'listing-description', cols: 72, rows: 8, class: 'span7') %>
+      </fieldset>
+
+      <h2 class="section-header"><%= t('listings.allow_disallow_children') %></h2>
+      <fieldset class="well">
+        <%= label_tag('listing_children_tag.children_welcome', radio_button_tag('listing[children]', 'tag.children_welcome', @listing.property_details.include?('tag.children_welcome')) + 'Children are welcome' , class: 'radio') %>
+        <%= label_tag('listing_children_tag.no_small_children', radio_button_tag('listing[children]', 'tag.no_small_children', @listing.property_details.include?('tag.no_small_children')) + 'No small children' , class: 'radio') %>
+      </fieldset>
+      <h2 class="section-header"><%= t('listings.allow_disallow_pets') %></h2>
+      <fieldset class="well">
+        <%= label_tag('listing_pets_tag.pets_welcome', radio_button_tag('listing[pets]', 'tag.pets_welcome', @listing.property_details.include?('tag.pets_welcome')) + 'Bring your pets' , class: 'radio') %>
+        <%= label_tag('listing_pets_tag.no_pets', radio_button_tag('listing[pets]', 'tag.no_pets', @listing.property_details.include?('tag.no_pets')) + 'No pets please' , class: 'radio') %>
+      </fieldset>
+    </div>
+
+    <div class="span4">
+      <h2 class="section-header"><%= t('listings.header.property_type_capacity') %></h2>
+      <fieldset class="well">
+        <%= label_tag('listing-property-type', t('listing.label.property_type')) %>
+        <%= select_tag("listing[property][property_type]", options_for_select(@house_types.collect {|c| [ t(c.msgid), c.msgid ] },  @listing.property_type), id: 'listing-property-type', prompt: t('listing.prompt.house_type')) %>
+
+        <%= label_tag('listing-environment', t('listing.label.environment_setting')) %>
+        <%= select_tag('listing[property][environment]', options_for_select(@environments.collect {|p| [ t(p.msgid), p.msgid ] }, @listing.environment), id: 'listing-environment', prompt: t('listing.prompt.select_environment')) %>
+
+        <%= label_tag('listing-sleeping-capacity', t('listings.label.sleeping_capacity')) %>
+        <%= select_tag("listing[property][sleeping_capacity]", options_for_select((1..20).to_a, @listing.sleeping_capacity), id: 'listing-sleeping-capacity', prompt: t('listings.prompt.choose_sleeping_capacity')) %>
+
+        <%= label_tag('listing-bedrooms', t('listings.number_of_bedrooms')) %>
+        <%= select_tag("listing[property][bedrooms]", options_for_select((1..14).to_a, @listing.bedrooms), id: 'listing-bedrooms', prompt: t('listings.number_of_bedrooms')) %>
+
+        <%= label_tag('listing-bathrooms', t('listings.number_of_bathrooms')) %>
+        <%= select_tag("listing[property][bathrooms]", options_for_select((1..12).to_a, @listing.bathrooms), id: 'listing-bathrooms', prompt: t('listings.number_of_bathrooms')) %>
+      </fieldset>
+
+      <h2 class="section-header"><%= t('listings.header.house_attributes') %></h2>
+      <fieldset class="well">
+        <ul class="attributes">
+          <%= render(partial: '/member/listings/property_detail_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_attributes, listing: @listing} ) %>
+        </ul>
+        <%= label_tag('listing-floor', 'Floor (if applicable)') %>
+        <%= text_field_tag("listing[property][floor]", @listing.floor, id: 'listing-floor', placeholder: t('listing.floor_location'), class: 'input-large') %>
+      </fieldset>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+      <fieldset class="form-actions">
+        <%= f.button('Save presentation', class: 'btn btn-primary') %>
+      </fieldset>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,13 @@
+<% body_id 'listings' %>
+<% show_menu? ? section_image('section-image-none') : section_image('section-border') %>
+
+<div class="row pt2">
+    <div class="wide">
+        <%= link_to(request.referer, class: 'btn orange') do %>
+            <%= t('button.back') %>
+        <% end %>
+    </div>
+</div>
+
+<%= render(partial: 'listings/show/show_listing') %>
+<%= render(partial: 'listings/show/show_listing_scripts') %>

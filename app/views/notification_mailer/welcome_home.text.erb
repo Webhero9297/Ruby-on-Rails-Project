@@ -1,0 +1,1 @@
+<%= @message.message % @placeholders.merge(:FEEDBACK_LINK => external_domain_link(edit_exchange_feedback_path(@exchange_feedback, auth_token: @user.authentication_token))) %>

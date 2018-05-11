@@ -1,0 +1,2 @@
+$('tr#<%= @adult.id %>').replaceWith('<%= escape_javascript(render(partial: "/accounts/profiles/adults/adult", locals: {account: @account, adult: @adult})) %>');
+$('#btn-new-adult').show();

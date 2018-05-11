@@ -1,0 +1,11 @@
+<% if @accounts.length > 0 %>
+  $('#table-result').html("<%= escape_javascript(render(partial: '/accounts/accounts/table_rows', locals: {accounts: @accounts})) %>");
+  if($('div.pagination').length != 0) {
+    $('div.pagination').replaceWith("<%= escape_javascript(render(partial: 'pagination_ajax')) %>");
+  } else {
+    $("<%= escape_javascript(render(partial: 'pagination_ajax')) %>").insertAfter('table#member-table');
+  }
+<% else %>
+  $('table#member-table tbody').html("<%= escape_javascript(render(partial: 'empty_table_result')) %>");
+  $('div.pagination').remove();
+<% end %>

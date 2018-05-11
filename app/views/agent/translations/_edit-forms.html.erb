@@ -1,0 +1,33 @@
+<div class="row-fluid">
+  <div class="span12">
+    <% for t in @translations%>
+      <div class="row-fluid">
+        <div class="span8">
+        <%= form_tag(agent_translation_url(t[:_id]), :method => "put", :class => "form translation-form well", :remote => true ) do %>
+          <fieldset class="form-group">
+            <label><%= @default_translations.where(msgid: t[:msgid]).first.get_value %></label>
+            <%= text_area_tag(:value, t.get_value, {:id => nil, :class => 'span12 translation', :rows => 4}) %>
+            <%= hidden_field_tag(:id, t[:_id]) %>
+            <p id="<%= t[:msgid].gsub('.', '-') %>" class="translation-help hidden">
+              <em><%= t[:msgid] %></em>
+            </p>
+            <p><strong>Placeholders: </strong><em><%= t[:field_codes] %></em></p>
+            
+          </fieldset>
+          <fieldset class="form-actions">
+            <%= button_tag(t('button.save_changes'), class: 'btn') %>
+            <a href="#" rel="<%= t[:msgid].gsub('.', '-') %>" class="show-help">Show msgid</a>
+          </fieldset>
+          <% end %>
+        </div>
+        <div class="span4">
+          <h4><%= t('translations.header.formatting_options') %></h4>
+          <ul class="unstyled">
+            <li><em>_italics_</em></li>
+            <li><strong>*strong*</strong></li>
+          </ul>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

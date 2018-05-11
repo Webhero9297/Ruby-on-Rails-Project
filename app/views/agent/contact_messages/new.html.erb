@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="span3">
+        <section>
+            <%= render(partial: 'dashboards/member_home') %>
+        </section>
+    </div>
+
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+                <h1 class="page-header"><%= t('conversations.agent.contact_your_local_representative') %></h1>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <%= form_for(@conversation, url: agent_contact_messages_url, html: {id: 'message-form', class: 'form-vertical'}) do |f| %>
+                            <% if @conversation.errors.any? %>
+                                <div id="error_explanation">
+                                    <h2><%= pluralize(@conversation.errors.count, "error") %> prohibited this message from being
+                                        sent:</h2>
+                                    <ul>
+                                        <% @conversation.errors.full_messages.each do |msg| %>
+                                            <li><%= msg %></li>
+                                        <% end %>
+                                    </ul>
+                                </div>
+                            <% end %>
+
+                            <fieldset>
+                                <%= f.label(:subject, t('global.subject'), for: 'subject') %>
+                                <%= f.text_field(:subject, size: 100, id: 'subject', class: 'span12 text-field') %>
+                            </fieldset>
+
+                            <fieldset>
+                                <%= f.label(:body, t('global.message'), for: 'message') %>
+                                <%= text_area_tag("message[body]", @body, cols: 72, rows: 22, id: 'message', class: 'span12') -%>
+                            </fieldset>
+
+                            <fieldset class="form-actions">
+                                <%= f.button(t('conversations.send_message'), class: 'btn btn-primary', disable_with: t('conversation.button.sending_message')) %>
+                                <%= link_to(t('button.cancel'), member_dashboard_url, class: 'btn btn-link cancel') %>
+                                <%= hidden_field_tag('member_accounts[]', current_user.account.id, id: "member-accounts-#{current_user.account.id}") %>
+                                <% @national_representative.each do |rep| %>
+                                    <%= hidden_field_tag('member_accounts[]', rep.account.id, id: "member-accounts-#{rep.account.id}") %>
+                                <% end -%>
+                                <%= hidden_field_tag('kind', 'member_to_agent') %>
+                            </fieldset>
+                        <% end %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

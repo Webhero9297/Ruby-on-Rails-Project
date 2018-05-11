@@ -1,0 +1,4 @@
+$('<%= @favorites %>').css({"background-color": "#F8F8CF"}).delay(300).fadeOut('slow', function() {
+  $(this).remove();
+  location.reload();
+});

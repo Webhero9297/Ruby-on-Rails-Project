@@ -1,0 +1,56 @@
+<h1 class="page-header">Editing for locale <%= @locale %></h1>
+<div class="row-fluid">
+  <div class="span8">
+  <%= form_tag(agent_translation_url(@translation[:_id]), :method => "put", :class => "form-vertical translation-form well" ) do %>
+    <fieldset>
+      <label><%= @default_translations.where(msgid: @translation[:msgid]).first.get_value%></label>
+      <%= text_area_tag(:value, @translation.get_value, {:id => nil, :class=>'input-xxlarge translation', :rows=>4}) %>
+      <%= hidden_field_tag(:id, @translation[:_id]) %>
+      <p id="<%= @translation[:msgid].gsub('.', '-') %>" class="translation-help hidden">
+        <em><%= @translation[:msgid] %></em>
+      </p>
+      <p><strong>Placeholders: </strong><em><%= @translation[:field_codes] %></em></p>
+      
+    </fieldset>
+    <fieldset class="form-actions">
+      <%= button_tag(t('button.save_changes'), class: 'btn') %>
+      <a href="#" rel="<%= @translation[:msgid].gsub('.', '-') %>" class="show-help">Show msgid</a>
+    </fieldset>
+    <% end %>
+  </div>
+  <div class="span4">
+    <h4><%= t('translations.header.formatting_options') %></h4>
+    <ul class="unstyled">
+      <li><em>_italics_</em></li>
+      <li><strong>*strong*</strong></li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      if($('.translation-form').length != 0) {
+          $('.translation-form').submit(function(event) {
+              event.preventDefault();
+
+              the_form = $(this);
+              url = the_form.attr('action');
+              form_data = the_form.serialize();
+              $.post(url, form_data, function(data){
+              });
+          });
+      }
+
+
+     $('a.show-help').click( function(event){
+         event.preventDefault();
+         var link = $(this);
+         var target = $('p#'+link.attr('rel'));
+         target.toggleClass('hidden');
+         if(target.is(':hidden')){
+             link.text('Show msgid');
+             return;
+         }
+         link.text('Hide msgid');
+     });
+  });
+</script>

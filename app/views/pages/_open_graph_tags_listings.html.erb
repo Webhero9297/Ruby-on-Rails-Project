@@ -1,0 +1,7 @@
+<meta property="og:title" content="<%=  @listing.nearest_city.name.capitalize %>, <%= @listing.property_country.send(I18n.locale) %> - <%= t('pages.facebook.listings_presented_by_intervac') %>"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="<%= exchange_listing_url(@listing) %>"/>
+<meta property="og:image" content="http://www.intervac-homeexchange.com/images/modondo/intervac-home-exchange-open-graph.png"/>
+<meta property="og:site_name" content="Intervac Home Exchange"/>
+<meta property="fb:admins" content="<%= GRAPH['client_id'] %>"/>
+<meta property="og:description" content="<%= t('pages.facebook.description.intervac_home_exchange') %>"/>

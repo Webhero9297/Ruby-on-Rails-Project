@@ -1,0 +1,81 @@
+<article class="result-card">
+  <div class="card-header">
+    <% if listing.get_progress != 100 %>
+      <p><%= t('dashboard.progress.listing_completness') %>: <%= listing.get_progress.to_s %>%</p>
+      <%= render(partial: 'layouts/progress_bar', :locals => { :progress => listing.get_progress } ) %>
+    <% end %>
+    <h1 class="location"><span class="postal-town"><%= listing.postal_town %></span>, <span class="country"><%= t(listing.country) %></span> (<%= listing.listing_number %>)</h1>
+    <ul class="short-stats">
+      <li class="first"><%= t('global.sleeps') %> <%= listing.sleeping_capacity %></li>
+      <li><%= t('global.adults') %> <%= listing.account.profile.number_of_adults %></li>
+      <li><%= t('global.children') %> <%= listing.account.profile.number_of_children %></li>
+    </ul>
+  </div>
+  
+  <div class="information">
+    <div class="card-photo">
+      <% if listing.get_main_photo != nil %>
+      <%= link_to(image_tag(listing.get_main_photo.image.size_230, width: 190, alt: listing.get_main_photo.caption, class: 'card-photo'), listing_url(listing)) %>
+      <% else %>
+      <%= link_to(image_tag('photos-coming-soon-230.jpg', width: 190, alt: '', class: 'card-photo'), listing_url(listing)) %>
+      <% end %>
+      
+    </div>
+
+    <div class="description">
+      <h2><%= listing.headline %></h2>
+      <%= raw textilize(truncate(listing.description, length: 300)) %>
+    </div>
+  </div>
+  
+  <div class="exchange-dates">
+    <% if listing.exchange_dates.get_latest_period %>
+    <span class="dates<%= " valid" if has_valid_exchange_period(listing.exchange_dates.get_latest_period) %>"><span><%= standard_date(listing.exchange_dates.get_latest_period.earliest_date) -%><span> - </span><%= standard_date(listing.exchange_dates.get_latest_period.latest_date) -%></span></span>
+    <% else %>
+    <span class="dates"><%= t('listings.no_exchange_dates') %></span>
+    <% end %>
+  </div>
+  <div class="view-listing">
+    <%- if page == 'index' -%>
+    <div class="btn-group">
+      <% if listing.has_been_completed == false %>
+        <%= link_to(content_tag('i','', class: 'icon-exclamation-sign icon-white') + ' ' + t('dashboard.link.complete_listing'), listing_guide_overview_url(listing), title: t('dashboard.link.complete_listing'), class: 'btn btn-warning', id: listing.listing_number) %>
+      <% else %>
+        <%= link_to(content_tag('i','', class: 'icon-eye-open') + ' ' + t('button.edit_listing'), overview_listing_url(listing), title: t('button.edit_listing'), class: 'btn', id: listing.listing_number) %>
+      <% end %>
+    </div>
+    <%- elsif page == 'not_ready' -%>
+      <%= link_to( content_tag('i', '', class: 'icon-ok icon-white') + content_tag('span', t('button.enable_for_public_view')), '#', class: 'btn btn-success disabled listing', title: t('button.title.you_need_to_add_all_required_information_before_enable_listing')) %>
+    <%- else -%>
+    
+      <% if listing.is_in_hot_list %>
+        <%= link_to( content_tag('i','', class: 'icon-remove') + content_tag('span', t('button.remove_from_hotlist')), remove_member_hot_list_url(listing.id), class: 'btn' ) -%>
+      <% else %>
+        <%= link_to( content_tag('i','', class: 'icon-plus') + content_tag('span', t('listings.add_to_hotlist')), add_member_hot_list_url(listing.id), class: 'btn' ) -%>
+      <% end -%>
+      
+    
+      <% if permitted_to? [:enable, :disable], :member_listings %>
+        <% if @listing.active === true %>
+          <%= link_to( content_tag('i', '', class: 'icon-remove icon-white') + content_tag('span', t('button.disable_for_public_view')), disable_listing_url(@listing), class: 'btn btn-warning listing') %>
+        <% elsif not @listing.is_expired -%>
+          <%= link_to( content_tag('i', '', class: 'icon-ok icon-white') + content_tag('span', t('button.enable_for_public_view')), enable_listing_url(@listing), class: 'btn btn-success listing') %>
+        <% else %>
+          <%= link_to( content_tag('i', '', class: 'icon-ok icon-white') + content_tag('span', t('button.enable_for_public_view')), '#', class: 'btn btn-warning disabled listing', title: t('button.title.you_need_valid_subscription_before_activating_listing')) %>
+        <% end %>
+      <% else %>
+        <%= link_to( content_tag('i', '', class: 'icon-ok icon-white') + content_tag('span', t('button.enable_for_public_view')), '#', class: 'btn btn-warning disabled listing', title: t('button.title.membership_status_does_not_allow_enable_listing')) %>
+      <% end %>
+    <%- end -%>
+  </div>
+    
+  <%- if listing.display_tags.length > 0 -%>
+  <div class="attributes">
+    <ul>
+      <%- listing.display_tags.each do |tag| -%>
+        <li><span class="attribute"><%= t(tag) %></span></li>
+      <%- end -%>
+    </ul>
+  </div>
+  <%- end -%>
+</article>

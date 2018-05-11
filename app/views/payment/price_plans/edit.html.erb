@@ -1,0 +1,115 @@
+<% if admin_session? %>
+  <% body_id 'countries' %>
+<% else %>
+  <% body_id 'payment' %>
+<% end %>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: '/payment/price_plans/price_plans_menu', locals: {country: @country, countries: @countries}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+
+        <h1 class="plate-header"><%= t('global.editing') %>: <%= @price_plan.name %></h1>
+        
+        <div class="row-fluid">
+          <div class="span8">
+            <%= render(partial: 'form') %>
+          </div>
+          <div class="span4">
+            <section class="mb40">
+              <h3 class="section-header"><%= t('payment.header.set_as_default_price_plan') %></h3>
+
+              <% if @price_plan.kind == 'paid' then %>
+                <% if @price_plan.default == false then %>
+                  <%= link_to(content_tag('i','', class: 'icon-white icon-ok') + ' ' + 'Set as default', set_as_default_country_price_plan_url(@country, @price_plan), confirm: 'Do you really want to set this price plan as the default?', class: 'btn btn-success mb20') %>
+                  <div class="alert">
+                    <p class="alert-message"><%= t('payment.price_plan.default_price_plan_is_shown_on_price_plan_page') %></p>
+                  </div>
+                <% else %>
+                  <div class="alert">
+                    <p class="alert-message"><%= t('payment.alert.message.this_is_default_price_plan_only_one_plan_can_be_default') %></p>
+                  </div>
+                <% end %>
+              <% else %>
+                <div class="alert">
+                  <p class="alert-message"><%= t('payment.price_plans.alert.free_price_plans_can_not_be_set_as_default') %></p>
+                </div>
+              <% end %>
+            </section>
+
+            <section class="mb40">
+              <h3 class="section-header"><%= t('payment.activate_deactivate') %></h3>
+
+              <p><%= t('global.active') %>: <span class="label <%= "label-success" if @price_plan.active %>"><%= bool_to_word(@price_plan.active) %></span></p>
+
+              <% if @price_plan.kind == 'paid' %>
+                <% if has_more_than_one_paid_price_plan(@country.price_plans) then %>
+                  <% if has_more_than_one_active(@country.price_plans, 'paid') or @price_plan.active == false then %>
+                    <% if @price_plan.active then %>
+                      <%= link_to(content_tag('i','', class: 'icon-white icon-remove') + ' ' + 'Deactivate price plan', set_as_active_inactive_country_price_plan_url(@country, @price_plan), class: 'btn btn-warning mb20') %>
+                    <% else %>
+                      <%= link_to(content_tag('i','', class: 'icon-white icon-ok') + ' ' + 'Activate price plan', set_as_active_inactive_country_price_plan_url(@country, @price_plan), class: 'btn btn-success mb20') %>
+                    <% end %>
+                    <div class="alert alert-info">
+                      <p class="alert-message"><%= t('payment.price_plans.alert.message.you_can_activate_or_deactivate_a_plan_at_any_time') %></p>
+                    </div>
+                  <% else %>
+                    <div class="alert alert-info">
+                      <p class="alert-message"><%= t('payment.price_plan.alert.message.only_one_active_paid_price_plan_there_must_always_be_one_active_paid_plan') %></p>
+                    </div>
+                  <% end %>
+                <% else %>
+                  <div class="alert alert-info">
+                    <p class="alert-message"><%= t('payment.price_plan.alert.message.you_only_have_one_paid_plan_there_must_be_at_least_one_paid_plan') %></p>
+                  </div>
+                <% end %>
+              <% else %>
+                <% if has_more_than_one_free_price_plan(@country.price_plans) then %>
+                  <% if has_more_than_one_active(@country.price_plans, 'free') or @price_plan.active == false then %>
+                    <% if @price_plan.active then %>
+                      <%= link_to(content_tag('i','', class: 'icon-white icon-remove') + ' ' + 'Deactivate price plan', set_as_active_inactive_country_price_plan_url(@country, @price_plan), class: 'btn btn-warning mb20') %>
+                    <% else %>
+                      <%= link_to(content_tag('i','', class: 'icon-white icon-ok') + ' ' + 'Activate price plan', set_as_active_inactive_country_price_plan_url(@country, @price_plan), class: 'btn btn-success mb20') %>
+                    <% end %>
+                  <% else %>
+                <div class="alert">
+                  <p class="alert-message"><%= t('payment.alert.message.there_currently_is_only_one_active_free_plan') %></p>
+                </div>
+                <% end %>
+                <% else %>
+                  <div class="alert alert-info">
+                    <p class="alert-message"><%= t('payment.price_plan.alert.message.only_one_active_price_plan_there_must_always_be_one_active') %></p>
+                  </div>
+                <% end %>
+              <% end %>
+            </section>
+
+            <section>
+              <h3 class="section-header"><%= t('payment.header.delete_price_plan') %></h3>
+
+              <% if @price_plan.kind == 'paid' %>
+                <% if @price_plan.default == true then %>
+                  <div class="alert">
+                    <p><%= t('payment.price_plans.info.text.can_not_delete_a_default_price_plan') %></p>
+                  </div>
+                <% else %>
+                  <%= link_to(content_tag('i','', class: 'icon-white icon-trash') + ' ' + 'Delete price plan', country_price_plan_url(@country, @price_plan), method: :delete, confirm: 'Do you really want to delete this price plan?', class: 'btn btn-danger') %>
+                <% end %>
+              <% else %>
+                <% if has_more_than_one_free_price_plan(@country.price_plans) then %>
+                  <%= link_to(content_tag('i','', class: 'icon-white icon-trash') + ' ' + 'Delete price plan', country_price_plan_url(@country, @price_plan), method: :delete, confirm: 'Do you really want to delete this price plan?', class: 'btn btn-danger') %>
+                <% else %>
+                  <div class="alert alert-info">
+                    <p class="alert-message"><%= t('payment.price_plan.alert.message.you_only_have_one_free_plan_there_must_be_at_least_one_free_plan') %></p>
+                  </div>
+                <% end %>
+              <% end %>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

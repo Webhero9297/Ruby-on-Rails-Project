@@ -1,0 +1,323 @@
+<% body_id 'exchanges' %>
+<div class="row">
+  <div class="span3">
+    <%= render( partial: 'menu') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+
+        <div class="row-fluid">
+          <div class="span12">
+            <p><%= link_to(t('button.back'), overview_member_exchange_agreement_path(@exchange_agreement)) %></p>
+            <h1 class="plate-header"><%= t('exchange_agreement.edit.form.header') %>: <%= @member_agreement.listing_number %></h1>
+          </div>
+        </div>
+
+        <div class="row-fluid">
+          <%= form_for(@member_agreement, :url => member_exchange_agreement_url, :html => {id: 'exchange-agreement-form', class: 'form-vertical span12'}) do |f| %>
+          <div class="row-fluid">
+            <section class="span6 party">
+              <h2 class="plate-section-header"><%= t('exchange_agreement.header.my_details') %></h2>
+              <div class="exchange-contact">
+                <span class="name"><%= @member.contact.name %></span>
+                <span class="address"><%= @member.contact.address %></span>
+                <span class="postal"><%= @member.contact.postal_code %> <%= @member.contact.postal_town %>, <%= @member.contact.county %></span>
+                <% if @member_agreement.show_mobile %>
+                  <span class="phone"><%= @member.contact.telephone %></span>
+                <% end %>
+                <% if @member_agreement.show_email %>
+                  <span class="phone"><%= @member.contact.email %></span>
+                <% end %>
+              </div>
+              <fieldset>
+                <%= f.label(:show_mobile, f.check_box(:show_mobile) + t('exchange_agreement.label.show_my_partner_my_mobile_number'), class: 'checkbox') %>
+                <%= f.label(:show_email, f.check_box(:show_email) + t('exchange_agreement.label.show_my_partner_my_email_address'), class: 'checkbox') %>
+              </fieldset>
+            </section>
+            <section class="span6 party">
+              <h2 class="plate-section-header"><%= t('exchange_agreements.partner') %></h2>
+              <div class="exchange-contact">
+                <span class="name"><%= @partner.contact.name %></span>
+                <span class="address"><%= @partner.contact.address %></span>
+                <span class="postal"><%= @partner.contact.postal_code %> <%= @partner.contact.postal_town %>, <%= t(Country.get_by_short_code(@partner.country_short).msgid) %></span>
+                <% if @partner_agreement.show_mobile %>
+                  <span class="phone"><%= @partner.contact.telephone %></span>
+                <% end %>
+                <% if @partner_agreement.show_mobile %>
+                  <span class="phone"><%= @partner.contact.email %></span>
+                <% end %>
+              </div>
+            </section>
+          </div>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreements.header.holiday_dates') %></h2>
+              <div class="row-fluid">
+                <fieldset class="calendar span3">
+                  <%= f.label(:start_date, t('global.from'), class: 'inline') %>
+                  <div class="input-prepend inline">
+                    <span class="add-on"><i class="icon-calendar"></i></span>
+                    <%= f.text_field(:start_date, value: exchange_input_date(@member_agreement.start_date), id: 'start-date', class: "input-medium") %>
+                  </div>
+                </fieldset>
+                <fieldset class="calendar span3">
+                  <%= f.label(:end_date, t('global.to'), class: 'inline') %>
+                  <div class="input-prepend">
+                    <span class="add-on"><i class="icon-calendar"></i></span>
+                    <%= f.text_field(:end_date, value: exchange_input_date(@member_agreement.end_date), class: 'input-medium', id: 'end-date') %>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+
+          <% if @member_agreement.errors.size > 0 %>
+          <div class="row-fluid">
+            <div class="span6">
+              <div class="alert alert-danger">
+                <ul class="error-explanation unstyled">
+                <% @member_agreement.errors.full_messages.each do |msg| %>
+                  <li><%= msg %></li>
+                <% end %>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <% end %>
+
+
+          <div id="party-members" class="row-fluid">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreements.header.exchange_participants') %></h2>
+              <% if @member_agreement.participants.count == 0 %>
+                <p class="alert alert-warning"><%= t('exchange_agreement.alert.need_one_participant') %></p>
+              <% end %>
+              <p><%= link_to(content_tag('i','', class: 'icon-plus') + content_tag('span', t('exchange_agreements.add_participant')), add_participant_member_exchange_agreements_url, remote: true, method: :get, class: 'btn') %></p>
+
+              <table class="table table-condensed">
+                <thead>
+                  <tr>
+                    <th><%= t('global.name') %></th>
+                    <th colspan="2"><%= t('global.age') %></th>
+                  </tr>
+                </thead>
+                <tbody id="participants">
+                  <% @member_agreement.participants.each_with_index do |participant, index| %>
+                    <tr id="participant<%= index %>">
+                      <td>
+                        <%= text_field_tag('agreement[participants][][name]', participant['name'], class: 'input-xlarge', maxlength: '40') %>
+                      </td>
+                      <td>
+                        <%= text_field_tag('agreement[participants][][age]', participant['age'], class: 'input-mini', maxlength: '3') %>
+                      </td>
+                      <td>
+                        <%= link_to(content_tag('i','', class: 'icon-trash icon-white'), remove_participant_member_exchange_agreements_url(participant: index), class: 'btn btn-mini btn-danger', remote: true, method: :delete) %>
+                      </td>
+                    </tr>
+                  <% end %>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="row-fluid exchange-term">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreements.about_our_cars') %></h2>
+              <%= render( partial: 'approval_label', object: @member_agreement.car_exchange, as: 'term') %>
+              <%= f.fields_for :car_exchange, @member_agreement.car_exchange do |term| %>
+                <%= term.text_area(:value, rows: 12, class: 'span12 exchange-agreement' ) %>
+              <% end %>
+            </div>
+          </div>
+
+
+          <div class="row-fluid exchange-term">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreements.auto_insurance') %></h2>
+              <%= render( partial: 'approval_label', object: @member_agreement.car_exchange, as: 'term') %>
+              <div class="alert alert-info">
+                <%= f.label(:has_car_insurance, f.check_box(:has_car_insurance) + t('exchange_agreements.label.auto_insurance_in_place'), class: 'checkbox') %>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row-fluid exchange-term">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_long_distance_calls') %></h2>
+              <%= render( partial: 'approval_label', object: @member_agreement.long_distance_calls, as: 'term') %>
+              <%= f.fields_for :long_distance_calls, @member_agreement.long_distance_calls do |term| %>
+                <%= term.text_area(:value, rows: 12, class: 'span12 exchange-agreement') %>
+              <% end %>
+            </div>
+          </div>
+
+
+          <div class="row-fluid exchange-term">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreement.header.special_cleaning_requests') %></h2>
+              <%= render( partial: 'approval_label', object: @member_agreement.cleaning, as: 'term') %>
+              <%= f.fields_for :cleaning, @member_agreement.cleaning do |term| %>
+                <%= term.text_area(:value, rows: 12, class: 'span12 exchange-agreement') %>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="row-fluid exchange-term">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_keys_to_my_home') %></h2>
+              <%= render( partial: 'approval_label', object: @member_agreement.key_exchange, as: 'term') %>
+              <%= f.fields_for :key_exchange, @member_agreement.key_exchange do |term| %>
+                <%= term.text_area(:value, rows: 12, class: 'span12 exchange-agreement') %>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="row-fluid exchange-term">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_pets') %></h2>
+              <%= render( partial: 'approval_label', object: @member_agreement.pets, as: 'term') %>
+              <%= f.fields_for :pets, @member_agreement.pets do |term| %>
+                <%= term.text_area(:value, rows: 12, class: 'span12 exchange-agreement') %>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="row-fluid exchange-term">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('exchange_agreement.other_special_requests') %></h2>
+              <%= render( partial: 'approval_label', object: @member_agreement.other, as: 'term') %>
+              <%= f.fields_for :other, @member_agreement.other do |term| %>
+                <%= term.text_area(:value, rows: 12, class: 'span12 exchange-agreement') %>
+              <% end %>
+            </div>
+          </div>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <h2 class="exchange-agreement"><%= t('global.stipulations') %></h2>
+              <fieldset>
+                <%= f.label(:guests_allowed, f.check_box(:guests_allowed) + t('exchange_agreement.guests_welcome', {NAME: @partner.contact.name}), class: 'checkbox') %>
+                <%= f.label(:use_linen, f.check_box(:use_linen) + t('exchange_agreement.can_use_linen', {NAME: @partner.contact.name}), class: 'checkbox') %>
+                <%= f.label(:pets_allowed, f.check_box(:pets_allowed) + t('exchange_agreement.can_bring_pets', {NAME: @partner.contact.name}), class: 'checkbox') %>
+              </fieldset>
+            </div>
+          </div>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <fieldset class="form-actions">
+                <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+                <%= link_to(t('button.cancel'), member_exchange_agreements_url, class: 'btn') %>
+              </fieldset>
+            </div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+jQuery(document).ready(function($) {
+    if($('form#exchange-agreement-form').length != 0)
+    {
+        init_exchange_form();
+    }
+
+    $( "input#start-date" ).keydown(function(event){event.preventDefault(); return false;});
+    $( "input#start-date" ).datepicker({
+        firstDay: 1,
+        changeYear: true,
+        yearRange: '<%= @years %>',
+        maxDate: "+2Y",
+        dateFormat: 'yy-mm-dd',
+        minDate: new Date()
+    });
+
+    $( "input#end-date" ).keydown(function(event){event.preventDefault(); return false;});
+    $( "input#end-date" ).datepicker({
+        firstDay: 1,
+        changeYear: true,
+        yearRange: '<%= @years %>',
+        maxDate: "+2Y",
+        dateFormat: 'yy-mm-dd',
+        minDate: new Date(),
+        beforeShow: function(input, inst) {
+          var min_date = $("input#start-date").val();
+          $( "input#end-date" ).datepicker('option', 'minDate', min_date);
+        }
+      });
+
+
+    $("#ui-datepicker-div").wrap('<div class="calendar" />');
+    $("#ui-datepicker-div").css({'font-size' : '14px'});
+
+
+    /**
+    Validates partcipants name and age
+
+    @event submit
+    @return {Boolean}
+    **/
+    $('#exchange-agreement-form').submit(
+        function(event)
+        {
+            var errors = []; // Holds the error messages
+            var error_string = ''; // Holds the complete html for the alert box
+            $('#party-member-alert').remove(); // Clears the alert box if it exists
+
+            // Checks if any of the participant names are at least two letters, based on the short names like Jo or Yi or similar
+            $("#exchange-agreement-form input[name='agreement[participants][][name]']").each(
+                function()
+                {
+                    var input = $(this);
+                    if(input.val().length >= 2) {
+                        send_form = true;
+                    } else {
+                        errors.push('Participant name must be longer that 3 letters');
+                    }
+                }
+            );
+
+            // Checks that age is an actual number and is between 1 and 3 characters long.
+            $("#exchange-agreement-form input[name='agreement[participants][][age]']").each(function()
+                {
+                    var input = $(this);
+                    if(input.val().length > 3 || input.val().length < 1 ) {
+                        errors.push('Age can not be blank');
+                    }
+                    else if(isNaN(parseInt(input.val(), 10)))
+                    {
+                        errors.push("<%= t('error.age.must_be_number') %>");
+                    }
+                }
+            );
+
+            // Returns true and sends of the form of there are no errors
+            if(errors.length === 0)
+            {
+                return true;
+            }
+
+            // Builds the html for the alert box with the errors
+            error_string = '<div id="party-member-alert" class="alert alert-danger"><h2 class="alert-heading">Please correct the following:</h2><ul class="unstyled">';
+            for(error in errors) {
+                error_string += '<li>' + errors[error] + '</li>';
+            }
+            error_string += '</ul></div>';
+
+            $('#participants').prepend(error_string); // Prepends the alert box at the participant div no matter how many particpants the agreement has.
+            window.location.replace('#party-members'); // Makes the page jump to the participant section of the agreement page.
+            errors = []; // Resets the error message array
+
+            // Returns false and do not send the form if there are any error messages before the error message array reset.
+            return false;
+        }
+    );
+
+});
+</script>

@@ -1,0 +1,49 @@
+<% body_id 'home-exchange' %>
+<% page_title t('docs_new_member_tips.page.headline') %>
+<% page_description t('docs_new_member_tips.page.headline') + " - " + t('docs_new_member_tips.set_up_your_listing.headline')  %>
+<% page_keywords t('seo.keyword_set.visinfo.exchange_tips') %>
+<% section_image 'section-image-15' %>
+
+<div class="row">
+  <%= render(:partial => 'pages/exchange/sub_menu') %>
+  <article class="page-content">
+    <h1 class="page-content-header">
+      <span class="page-content-header-label"><%= t('docs_new_member_tips.page.headline') %></span>
+    </h1>
+
+    <h2><%= t('docs_new_member_tips.set_up_your_listing.headline') %></h2>
+    <p><%= t('docs_new_member_tips.set_up_your_listing.introtext') %></p>
+
+    <ol class="page">
+      <li><%= t('docs_new_member_tips.set_up_your_listing.list_go_login') %></li>
+      <li><%= t('docs_new_member_tips.set_up_your_listing.list_edit_listing') %></li>
+    </ol>
+
+    <h2><%= t('docs_new_member_tips.set_up_your_listing.destinations_wishlist_headline') %></h2>
+    <p><%= t('docs_new_member_tips.set_up_your_listing.list_destinations_wishlist') %></p>
+
+    <h2><%= t('docs_new_member_tips.set_up_your_listing.google_marker_headline') %></h2>
+    <p><%= t('docs_new_member_tips.set_up_your_listing.list_gmap_marker') %></p>
+
+    <h2><%= t('docs_new_member_tips.set_up_your_listing.text_and_photos_headline') %></h2>
+    <p><%= t('docs_new_member_tips.set_up_your_listing.list_additional_text_and_photos') %></p>
+
+    <h2><%= t('docs_new_member_tips.contact_partners.headline') %></h2>
+    <p><%= t('docs_new_member_tips.contact_partners.how_it_works') %></p>
+    <p><%= t('docs_new_member_tips.contact_partners.about_templates') %></p>
+    <ul class="article">
+      <li><%= t('docs_new_member_tips.contact_partners.contact_templates') %></li>
+      <li><%= t('docs_new_member_tips.contact_partners.answer_templates') %></li>
+      <li><%= t('docs_new_member_tips.contact_partners.tips_for_exchange_agreement') %></li>
+    </ul>
+
+    <h2><%= t('docs_new_member_tips.gathering_information.headline') %></h2>
+    <ul class="article">
+      <li><%= t('docs_new_member_tips.gathering_information.information_pack') %></li>
+      <li><%= t('docs_new_member_tips.gathering_information.local_charm') %></li>
+      <li><%= t('docs_new_member_tips.gathering_information.consider_your_home') %></li>
+      <li><%= t('docs_new_member_tips.gathering_information.insurance') %></li>
+      <li><%= t('docs_new_member_tips.gathering_information.cinema') %></li>
+    </ul>
+  </article>
+</div>

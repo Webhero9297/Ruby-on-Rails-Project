@@ -1,0 +1,74 @@
+<%= form_for(@listing, url: listing_property_detail_path(@listing), remote: true, html: {id: 'property-details-form', class: 'form-vertical'}) do |f| %>
+  <% if @listing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+      <ul>
+        <% @listing.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <fieldset>
+    <%= label_tag('listing-property-type', t('listing.label.property_type')) %>
+    <%= select_tag("listing[property][property_type]", options_for_select(@house_types.collect {|c| [ t(c.msgid), c.msgid ] },  @listing.property_type), id: 'listing-property-type') %>
+
+    <%= label_tag('listing-environment', t('listing.label.environment_setting')) %>
+    <%= select_tag('listing[property][environment]', options_for_select(@environments.collect {|p| [ t(p.msgid), p.msgid ] }, @listing.environment), id: 'listing-environment') %>
+
+    <%= label_tag('listing-sleeping-capacity', t('listings.label.sleeping_capacity')) %>
+    <%= select_tag("listing[property][sleeping_capacity]", options_for_select((1..20).to_a, @listing.sleeping_capacity), id: 'listing-sleeping-capacity') %>
+
+    <%= label_tag('listing-bedrooms', t('listings.number_of_bedrooms')) %>
+    <%= select_tag("listing[property][bedrooms]", options_for_select((1..14).to_a, @listing.bedrooms), id: 'listing-bedrooms', prompt: t('listings.number_of_bedrooms')) %>
+
+    <%= label_tag('listing-bathrooms', t('listings.number_of_bathrooms')) %>
+    <%= select_tag("listing[property][bathrooms]", options_for_select((1..12).to_a, @listing.bathrooms), id: 'listing-bathrooms', prompt: t('listings.number_of_bathrooms')) %>
+
+    <%= label_tag('listing-floor', t('listing.floor_location')) %>
+    <%= text_field_tag("listing[property][floor]", @listing.floor, id: 'listing-floor', placeholder: t('listing.floor_location'), class: 'input-large') %>
+
+    <%= label_tag('listing-living-area', t('listings.label.living_area')) %>
+    <%= number_field_tag("listing[property][living_area]", @listing.living_area, id: 'listing-living-area', placeholder: t('listings.label.living_area'), class: 'input-large') %>
+    <%= select_tag("listing[property][living_area_unit]", options_for_select(['m2','sq ft'],@listing.living_area_unit || 'm2'), id: 'listing-living-area-unit') %>
+    <div data-for="living-area">
+      <ul>
+        <li class='error must-be-number hidden'><%= t('listing.must_be_number') %></li>
+        <li class='error must-fill-unit hidden'><%= t('listing.must_fill_unit') %></li>
+      </ul>
+    </div>
+
+    <%= label_tag('listing-total-area', t('listings.label.total_area')) %>
+    <%= number_field_tag("listing[property][total_area]", @listing.total_area, id: 'listing-total-area', placeholder: t('listings.label.total_area'), class: 'input-large') %>
+    <%= select_tag("listing[property][total_area_unit]", options_for_select(['m2','sq ft'],@listing.total_area_unit || 'm2'), id: 'listing-total-area-unit') %>
+    <div data-for="total-area">
+      <ul>
+        <li class='error must-be-number hidden'><%= t('listing.must_be_number') %></li>
+        <li class='error must-fill-unit hidden'><%= t('listing.must_fill_unit') %></li>
+      </ul>
+    </div>
+
+    <%= label_tag('listing-indoor-properties', t('listings.label.indoor-properties')) %>
+    <ul class="unstyled">
+      <%= render(partial: '/member/listings/property_detail_filter', collection: order_property_details(@property_details, house_attributes_indoor), as: :property_detail, locals: {rules_filter: house_attributes_indoor, listing: @listing} ) %>
+    </ul>
+
+    <%= label_tag('listing-outdoor-properties', t('listings.label.outdoor-properties')) %>
+    <ul class="unstyled">
+      <%= render(partial: '/member/listings/property_detail_filter', collection: order_property_details(@property_details, house_attributes_outdoor), as: :property_detail, locals: {rules_filter: house_attributes_outdoor, listing: @listing} ) %>
+
+      <%= label_tag('listing-bicyles', t('listings.number_of_bicycles')) %>
+      <%= select_tag("listing[property][bicycles]", options_for_select((0..12).to_a, @listing.bicycles), id: 'listing-bicycles', prompt: t('listings.number_of_bicycles')) %>
+    </ul>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary send-form') %>
+    <%= link_to(t('global.cancel'), cancel_listing_property_detail_url(@listing), remote: true) %>
+  </fieldset>
+<% end %>
+
+<script>
+validate_area();
+</script>

@@ -1,0 +1,12 @@
+<% if resource.errors.any? %>
+    <section class="error-dialog">
+        <h1><%= resource.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped') %>:</h1>
+        <ul>
+            <% resource.errors.messages.values.each do |msg| %>
+                <% msg.each do |m| %>
+                    <li><%= t(m.to_s) %></li>
+                <% end %>
+            <% end %>
+        </ul>
+    </section>
+<%- end -%>

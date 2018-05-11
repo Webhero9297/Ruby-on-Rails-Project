@@ -1,0 +1,435 @@
+.price-plan-holder {
+    @include span-columns(6 of 12);
+}
+
+.price-plan {
+    color: $white;
+    text-align: center;
+    margin: 0 auto 2em;
+    width: 300px;
+}
+
+.price-plan-info {
+    background-color: #00B99B;
+    @include rem('padding', 3rem 1rem);
+}
+
+.price-plan-header {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.price-plan-button {
+    background-color: #272f36;
+    color: $white;
+    display: block;
+    font-weight: 400;
+    font-size: 1.25em;
+    @include rem('padding', 2rem 1rem);
+
+    &:hover {
+        background-color: $yellow;
+        color: $white;
+    }
+}
+
+.price-plan-note {
+    padding: 2em 1em;
+    border-bottom: 1px solid $standard_gray;
+    color: #454545;
+    font-size: 0.875em;
+    > strong {
+        font-size: 1.2em;
+        font-weight: 700;
+        margin-right: 4px;
+    }
+}
+
+.price-plan-details {
+    @include span-columns(10);
+    @include shift(1);
+}
+
+/* JDI */ 
+.tooltip-inner {
+	max-width: 150px;
+	white-space:pre-wrap;
+	@include border-radius( 5px );
+	padding: 10px 5px;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(189,189,189,0.65);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(189,189,189,0.65);
+	box-shadow: 0px 0px 10px 2px rgba(189,189,189,0.65);
+}
+.tooltip-arrow,
+.tooltip > .tooltip-inner {
+	color: $black;
+	background-color: $white;
+}
+.tooltip.in {
+	opacity: 1;
+}
+.tooltip {
+	margin-left: -50px;
+	z-index: 1050;
+}
+.tooltip.top .tooltip-arrow {
+	border-top-color: white;
+	background-color: transparent;
+	margin-left: 50px;
+}
+.plans {
+	display: block;
+
+  &.special_renewal {
+    text-align: center;
+
+    .special_badge {
+      width: 140px;
+      position: absolute;
+      margin-left: 35px;
+
+      @media only screen and (max-width: 991px) {
+        right: 5%;
+        width: 15%;
+        top: 45px;
+      }
+    }
+    .special_image {
+      width: 33%;
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &.left {
+        margin-right: 40px;
+      }
+
+      @media only screen and (max-width: 991px) {
+        width: 60%;
+        order: 3;
+        margin: 20px auto;
+
+        &.left {
+          margin-right: auto;
+        }
+      }
+    }
+    .plan-item {
+      float: none;
+      display: inline-block;
+      background-color: transparent;
+      padding-top: 0;
+      margin-top: 0;
+
+      .details {
+        margin-bottom: 10px;
+
+        .description-item {
+           text-align: left;
+           padding-left: 60px;
+           border-bottom: none;
+        }
+      }
+
+      .button {
+        background: #e9600f;
+        color: white;
+      }
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    .disclaimer {
+      font-weight: bold;
+      margin-bottom: 0;
+      order: 2;
+    }
+
+  }
+
+
+	@media only screen and (max-width: 991px) {
+	    display: flex;
+    	flex-direction: column;
+	}
+	.toggle-more {
+		.more-label {
+			display: inline-block;
+		}
+		.less-label {
+			display: none;
+		}  	
+	} 
+	&.more {
+		.plan-descriptions {
+			height: 820px;
+		}
+		a.plan-item span.details {
+			height: 440px;
+		}
+		 .plan-item .toggle-more {
+			.more-label {
+				display: none;
+			}
+			.less-label {
+				display: inline-block;
+			}
+			&:before {
+				@extend .fa-minus-circle;
+			}
+		}
+	}	
+	.plan-descriptions {
+		height: 290px;
+		padding: 200px 0 0 15px;
+		overflow: hidden;
+		@include transition(all 0.5s linear);
+		.description {
+			font-size: 0.786em;
+			border-bottom: solid 1px $standard_gray;
+			height: 30px;
+			line-height: 30px;
+			display: block;
+			.text {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				width: 85%;
+				float: left;
+				display: block;
+				p {
+					font-size: 1em;
+					padding: 0;
+					margin: 0;
+					line-height: 30px;
+				}
+			}
+			.info {
+				width: 15%;
+				float: left;
+				display: block;
+				i.fa {
+					color: $standard_gray;
+					padding-left: 10px;
+				}
+			}
+		}	
+	} 
+	a.plan-item {
+		@media only screen and (max-width: 991px) {
+			margin: 20px;
+	        &:nth-child(1) {
+	        	order: 3;
+	        }
+	        &:nth-child(2) {
+	        	order: 2;
+	        }
+	        &:nth-child(3) {
+	        	order: 1;
+	        }
+	    }
+    	@include border-radius( 5px );
+		background-color: #f5f5f5;
+		padding: 50px 0 20px 0;
+		text-decoration: none;
+		color: $black;
+		text-align: center;
+		margin-top: 10px;
+		overflow: hidden;
+		span.save,
+		span.toggle-more {
+			display: none;
+		}
+		span.save {
+			padding: 0 5px;
+		}
+		span.toggle-more {
+			margin: 20px 20px 0 20px;
+			line-height: 30px;
+			height: 30px;
+			font-weight: bold;
+			overflow: hidden;
+			&:before {
+				@extend .fa;
+				@extend .fa-plus-circle;
+				padding-right: 10px;
+				color: $black;
+			}
+			@media only screen and (max-width: 991px) {
+				&.toggle-more-handheld {
+					display: block;
+				}
+			}
+		}
+		@include respond-to( wide-screens ){
+			&:nth-child( 2 ){
+				@include border-radius( 5px 0 0 5px );
+			}
+			&:nth-child( 3 ){
+				border-left: solid 1px $white;
+				@include border-radius( 0 5px 5px 0 );
+			}
+		}
+		&:nth-child( 4 ){
+			margin-top: 0px;
+			padding-top: 55px;
+			padding-bottom: 35px;
+			background-color: $white;
+			-webkit-box-shadow: 0px 0px 10px 2px rgba(189,189,189,0.65);
+			-moz-box-shadow: 0px 0px 10px 2px rgba(189,189,189,0.65);
+			box-shadow: 0px 0px 10px 2px rgba(189,189,189,0.65);
+	
+			span.details {
+				margin-bottom: 0;
+			}
+			.price {
+				color: $green;
+			}
+			span.button {
+				background-color: $orange;
+				color: $white;
+				&:before {
+					@extend .fa;
+					@extend .fa-check;
+					padding-right: 10px;
+					color: $white;
+				}
+			}
+			span.save {
+				display: block;
+				position: absolute;
+				top: 20px;
+				right: 20px;
+				height: 25px;
+				line-height: 25px;
+				font-size: 0.786em;
+				color: $white;
+				background-color: $green;
+				@include border-radius( 5px );
+			}
+			span.toggle-more {
+				display: block;
+			}
+		}
+		.period,
+		.price {
+			margin: 0;
+			padding: 0;
+			font-size: 1em;
+			font-weight: bold;
+			line-height: 40px;
+			&.price {
+				font-size: 2.143em;
+			}
+		}
+		span.button {
+			margin: 10px 20px;
+			display: block;
+			@include border-radius( 5px );
+			background-color: $white;
+			color: $black;
+			font-size: 0.875em;
+			height: 40px;
+			line-height: 40px;
+			font-weight: bold;
+			white-space: nowrap;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+		    padding: 0 10px;
+		}
+		&:hover {
+			span.button {
+				background-color: $green;
+				color: $white;
+			}
+			background-color: #e0f2ee;
+		}
+		span.details {
+			display: block;
+			overflow: hidden;
+			height: 90px;
+			margin-bottom: 50px;
+			@include transition(all 0.5s linear);
+			@media only screen and (max-width: 991px) {
+				margin-bottom: 0;
+			}
+			.description-item {
+				height: 30px;
+				line-height: 30px;
+				display: block;
+				border-bottom: solid 1px $standard_gray;
+				i {
+					font-size: 0.929em;
+					height: 30px;
+					line-height: 30px;
+					display: inline-block;
+					color: $green;
+					&.fa-times-circle {
+						color: $orange;
+					}
+					&.fa-question-circle {
+						float: right;
+						color: $standard_gray;
+						margin-right: 20px;
+					}
+				}
+				p {
+					padding: 0;
+					margin: 0;
+					line-height: 20px;
+				}
+				@media only screen and (max-width: 991px) {
+					height: auto;
+					i.fa-check-circle,
+					i.fa-times-circle {
+						float: left;
+						margin-left: 20px;
+					}
+					span {
+						display: inline-block !important;
+						line-height: 20px;
+						padding: 5px 0 5px 10px;
+						width: calc( 100% - 80px );
+						font-size: 0.75em;
+						text-align: left;
+					}
+				}
+			} 
+		}
+	}
+}
+
+.usps {
+	@media only screen and (max-width: 991px) {
+		margin: 0;
+	}
+	span.usp {
+		display: block;
+		line-height: 40px;
+		/*height: 40px;*/
+		font-size: 0.875em;
+		&:before {
+			@extend .fa;
+			@extend .fa-check-circle;
+			padding-right: 20px;
+			color: $green;
+			font-size: 1.429em;
+		}
+	}
+	.usp-text {
+		margin-top: 25px;
+		text-align: center;
+		p {
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+
+.plans {
+   .disclaimer {
+     display: block;
+   }
+}

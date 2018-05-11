@@ -1,0 +1,11 @@
+<% filter_params = {country_codes: @country_codes, direction: @direction} %>
+<%= link_to('All', sort_member_filters_path(filter_params.merge({filter: 'all'})), remote: true, format: :js, class: "btn #{'active' if @filter == 'all'} spinner", id: 'all-members') %>
+<%= link_to('New', sort_member_filters_path(filter_params.merge({filter: 'new'})), remote: true, format: :js, class: "btn #{'active' if @filter == 'new'} spinner") %>
+<%= link_to('Active', sort_member_filters_path(filter_params.merge({filter: 'active'})), remote: true, format: :js, class: "btn #{'active' if @filter == 'active'} spinner") %>
+<%= link_to('Awaiting access', sort_member_filters_path(filter_params.merge({filter: 'awaiting_access'})), remote: true, format: :js, class: "btn #{'active' if @filter == 'awaiting_access'} spinner") %>
+<%= link_to('Expired', sort_member_filters_path(filter_params.merge({filter: 'expired'})), remote: true, format: :js, class: "btn #{'active' if @filter == 'expired'} spinner") %>
+<%= link_to('About to expire', sort_member_filters_path(filter_params.merge({filter: 'expires'})), direction: @direction, remote: true, format: :js, class: "btn #{'active' if @filter == 'expires'} spinner") %>
+<%= link_to('Recently activated', sort_member_filters_path(filter_params.merge({filter: 'activated',})), remote: true, format: :js, class: "btn #{'active' if @filter == 'activated'} spinner") %>
+<%= link_to('Recently renewed', sort_member_filters_path(filter_params.merge({filter: 'renewed'})), remote: true, format: :js, class: "btn #{'active' if @filter == 'renewed'} spinner") %>
+<%= link_to('Trial', sort_member_filters_path(filter_params.merge({filter: 'free'})), remote: true, format: :js, class: "btn #{'active' if @filter == 'free'} spinner") %>
+<%= link_to('No listing', sort_member_filters_path(filter_params.merge({filter: 'no_listing', })), remote: true, format: :js, class: "btn #{'active' if @filter == 'no_listing'} spinner") %>

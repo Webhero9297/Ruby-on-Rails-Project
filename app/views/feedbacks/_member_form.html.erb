@@ -1,0 +1,53 @@
+<%= form_for(@feedback, url: @url, html: {id: 'feedback-form', class: 'form-vertical well'}) do |f| %>
+    <% if @feedback.errors.any? %>
+        <section class="error-dialog">
+            <h1><%= pluralize(@feedback.errors.count, "error") %> prohibited the feedback from
+                being sent:</h1>
+            <ul>
+                <% @feedback.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                <% end %>
+            </ul>
+        </section>
+    <% end %>
+
+    <fieldset>
+        <% if user_signed_in? -%>
+            <%= f.hidden_field(:as_guest, value: false) -%>
+        <% else -%>
+            <%= f.hidden_field(:as_guest, value: true) -%>
+        <% end -%>
+
+        <%= f.hidden_field(:country_short, value: current_user.account.country_short) %>
+        <%= f.hidden_field(:name, value: current_user.name) %>
+        <%= f.hidden_field(:email, value: current_user.email) %>
+        <%= f.hidden_field(:account_id, value: current_user.account_id) %>
+        <%= f.hidden_field(:account_number, value: current_user.account.account_number) %>
+
+        <div class="field-section">
+            <%= f.label(:subject) do %>
+                <%= t('global.subject') %>
+                <span class="field-required">(<%= t('global.required') %>)</span>
+            <% end %>
+            <%= f.select :subject, available_subjects, {include_blank: t('sitewide.select_one')} %>
+        </div>
+
+        <div class="field-section">
+            <%= f.label(:page, t('form.label.page_url')) %>
+            <%= f.text_field(:page, placeholder: t('forms.placeholder.the_address_of_the_page'), class: 'input-xxlarge') %>
+        </div>
+
+        <div class="field-section">
+            <%= f.label(:message) do %>
+                <%= t('global.message') %>
+                <span class="field-required">(<%= t('global.required') %>)</span>
+            <% end %>
+            <%= f.text_area(:message, rows: 8, placeholder: t('feedback.required.write_short_message'), class: 'input-xxlarge') %>
+        </div>
+
+        <div class="form-actions">
+            <%= f.button(t('button.send_feedback'), class: 'btn btn-primary blue', disable_with: t('conversation.button.sending_message')) -%>
+            <%= link_to(t('button.cancel'), @cancel_url, class: 'btn btn-link') %>
+        </div>
+    </fieldset>
+<% end %>

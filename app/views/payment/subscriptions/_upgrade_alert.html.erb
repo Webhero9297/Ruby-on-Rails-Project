@@ -1,0 +1,13 @@
+<% if current_user.account.is_trial_subscription and has_expired(current_user.account) then %>
+  <div class="alert alert-info">
+    <p class="alert-message"><%= t('payment.subscriptions.alert.message.memerbship_has_expired_why_not_renew_membership_today') %></p>
+    <%= link_to(t('link.upgrade_membership'), upgrade_subscriptions_url, class: 'btn-link') %>
+  </div>
+<% end %>
+
+<% if current_user.account.is_trial_subscription and not has_expired(current_user.account) and time_for_upgrade(current_user.account) then %>
+  <div class="alert alert-info">
+    <p class="alert-message"><%= t('payment.subscriptions.alert.message.you_are_on_trail_membership_please_upgrade') %></p>
+    <%= link_to(t('link.upgrade_membership'), upgrade_subscriptions_url, class: 'btn-link') %>
+  </div>
+<% end %>

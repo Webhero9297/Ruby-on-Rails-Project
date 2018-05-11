@@ -1,0 +1,27 @@
+<%- if @exchange_dates.empty? -%>
+    <p><%= t('listings.exchange_dates_information') %></p>
+<%- else -%>
+    <table class="table">
+        <thead>
+            <tr>
+                <th><%= t('global.exchange_dates') %></th>
+                <th><%= t('global.duration') %></th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @exchange_dates.each do |exchange_date| %>
+                <tr>
+                    <td>
+                        <%= standard_date(exchange_date.earliest_date) -%> - <%= standard_date(exchange_date.latest_date) -%>
+                        <% if not exchange_date.note.blank? %>
+                            <p class="mb0"><em><small><%= exchange_date.note %></small></em></p>
+                        <% end %>
+                    </td>
+                    <td>
+                        <%= exchange_date.length_of_stay -%> <%= exchange_date.periodicity -%>
+                    </td>
+                </tr>
+            <% end %>
+        </tbody>
+    </table>
+<%- end -%>

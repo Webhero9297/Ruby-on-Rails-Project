@@ -1,0 +1,27 @@
+function validate_area() {
+  function hasError(condition, domError) {
+    condition ? domError.removeClass('hidden') : domError.addClass('hidden');
+    return condition;
+  }
+
+  function isFormInvalid() {
+    var totalArea = $('#listing-total-area').val();
+    var totalAreaUnit = $('#listing-total-area-unit').val();
+    var totalAreaErrorContainer = $("[data-for='total-area']");
+
+    var livingArea = $('#listing-living-area').val();
+    var livingAreaUnit = $('#listing-living-area-unit').val();
+    var livingAreaErrorContainer = $("[data-for='living-area']");
+
+    return hasError((totalArea.length > 0 && isNaN(totalArea)),            totalAreaErrorContainer.find('.must-be-number'))  ||
+           hasError((totalArea.length > 0 && totalAreaUnit.length < 1),    totalAreaErrorContainer.find('.must-fill-unit'))  ||
+           hasError((livingArea.length > 0 && isNaN(livingArea)),          livingAreaErrorContainer.find('.must-be-number')) ||
+           hasError((livingArea.length > 0 && livingAreaUnit.length < 1),  livingAreaErrorContainer.find('.must-fill-unit'));
+  }
+
+  $('.send-form').closest('form').on('submit', function(ev) {
+    if (isFormInvalid()) {
+      return false;
+    }
+  });
+}

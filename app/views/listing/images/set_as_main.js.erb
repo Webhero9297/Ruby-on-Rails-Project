@@ -1,0 +1,2 @@
+$('#figure-blocks').html("<%= escape_javascript(render( partial: '/listing/images/listing_image', collection: @listing_images, as: 'image', locals: {listing: @listing})) %>");
+<%= render(:partial => '/layouts/dashboards/ajax_notifications')%>

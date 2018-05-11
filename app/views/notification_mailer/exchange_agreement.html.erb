@@ -1,0 +1,12 @@
+<h1><%= t('automated_messages.exchange_agreement.header.updated_agreement') %></h1>
+
+<% if @has_rejected_terms %>
+<p><%= t('automated_messages.exchange_agreement.partner_has_updated_terms_with_rejections', {:PARTNER_NAME => @owner_account.contact.name, :PARTNER_LISTING_NUMBER => @owner_agreement.listing_number}) %></p>
+<% else %>
+<p><%= t('automated_messages.exchange_agreement.partner_has_updated_terms', {:PARTNER_NAME => @owner_account.contact.name, :PARTNER_LISTING_NUMBER => @owner_agreement.listing_number}) %></p>
+<% end %>
+
+<p><%= t('automated_messages.exchange_agreement.fill_out_your_terms.html_version', {:MEMBER_EXCHANGE_LINK => link_to(t('automated_messages.go_to_exchange_agreements'), external_domain_link(member_exchange_agreements_path))}) %></p>
+<p><%= t('automated_messages.exchange_agreement.have_questions.html_version', {:LOCAL_REPRESENTATIVE_LINK => link_to(t('automated_messages.contact.representative'), external_domain_link(local_representatives_path))}) %></p>
+<p><%= t('automated_messages.exchange_agreement.happy_exchange') %> <br />
+<%= t('automated_messages.exchange_agreement.intervac_team') %></p>

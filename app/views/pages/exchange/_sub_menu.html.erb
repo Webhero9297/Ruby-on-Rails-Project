@@ -1,0 +1,31 @@
+<section class="aside">
+  <nav role="navigation" class="sub-menu">
+    <%= link_to('Menu', '#', class: 'btn white drop-down sub-menu-button', id: 'sub-menu-button') %>
+    <ul class="sub-menu-items" id="sub-menu-items">
+      <% highlight_current_link(:class => 'sub-menu-link active') do |n| %>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_what_is_home_exchange.page.headline'), what_is_home_exchange_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_benefits_of_home_exchange.page.headline'), benefits_of_home_exchange_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_home_exchange_with_intervac.page.headline'), home_exchange_with_intervac_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_thinking_about_home_exchange.page.headline'), what_to_think_about_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('docs_prepare_for_guests.visinfo_checklist.headline'), home_exchange_checklist_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('docs_new_member_tips.page.headline'), exchange_tips_url, class: 'sub-menu-link') %>
+        </li>
+      <% end %>
+    </ul>
+  </nav>
+
+  <%= render(:partial => 'pages/trial_account_sidebox') %>
+  <%= render(:partial => 'pages/news_letter_sidebox') %>
+  <%= render(:partial => 'pages/feedback_sidebox') %>
+</section>

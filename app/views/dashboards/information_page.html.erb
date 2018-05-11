@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="span3">
+        <%= render(partial: 'dashboards/member_home') %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+                <h1 class="plate-header"><%= t('dashboard.header.invited_test_members') %></h1>
+                <%= markdown(t('dashboard.text.invited_test_members')) %>
+            </div>
+        </div>
+    </div>
+</div>

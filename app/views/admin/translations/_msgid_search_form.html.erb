@@ -1,0 +1,7 @@
+<%= form_tag(admin_translations_search_url, :method => 'get', :class => "form-inline") do %>
+    <%= hidden_field_tag(:locale, @locale) %>
+    <fieldset>
+        <%= text_field_tag(:term, @term, class: 'input-xxlarge', autocomplete: 'off') %>
+        <%= button_tag("Search", :id => "submit", :type => "submit", :class => "btn btn-primary", :disabled => false, :disable_with => t('button.please_wait')) %>
+    </fieldset>
+<% end -%>

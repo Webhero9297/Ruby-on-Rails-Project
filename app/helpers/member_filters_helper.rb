@@ -1,0 +1,2 @@
+module MemberFiltersHelper
+end

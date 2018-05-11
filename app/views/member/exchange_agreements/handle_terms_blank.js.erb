@@ -1,0 +1,1 @@
+$('#modal-<%= @term_name %>').find('p').first().after('<%= escape_javascript(render(partial: 'decline_message', locals: {term_name: @term_name})) %>');

@@ -1,0 +1,26 @@
+<%= form_for(@user.agent_profile, url: add_agent_to_country_agent_path(@user), method: 'put', remote: true, html: {id: 'country-assignment', class: 'form-inline well is-inline'}) do |f| %>
+  <fieldset class="form-group">
+    <%= label_tag('country-short', 'Assign agent to country:') %>
+    <%= select("agent_profile",'agent_for', @countries, {}, id: 'country-short', class: 'form-control') %>
+    <%= f.button('Assign country', class: 'btn btn-primary') %>
+  </fieldset>
+<% end -%>
+
+<% if @user.agent_profile.agent_for.empty? -%>
+  <div class="alert alert-warning">
+    <p class="alert-message">Agent is not assigned to country</p>
+  </div>
+<% end -%>
+<table id="assigned-countries" class="table table-striped">
+  <thead>
+    <tr>
+      <th class="span4"><%= t('sitewide.country') %></th>
+      <th class="span8"><%= t('global.remove') %></th>
+    </tr>
+  </thead>
+  <tbody class="countries">
+    <% @user.agent_profile.agent_for.each do |country| %>
+      <%= render( partial: 'assigned_country_row', locals: {country: country}) %>
+    <% end -%>
+  </tbody>
+</table>

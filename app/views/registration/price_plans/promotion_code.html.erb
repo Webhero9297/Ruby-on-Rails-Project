@@ -1,0 +1,31 @@
+<% body_id 'signup' %>
+<div class="row">
+  <div class="span12">
+    <section class="box">
+      <h1 class="box"><%= t('registration.header.you_have_a_valid_promotion_code') %></h1>
+      
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <td><%= t('global.name') %></td>
+            <td><%= t('global.duration') %></td>
+            <td><%= t('global.price') %></td>
+            <td colspan="2"><%= t('payment.label.discounted_price') %></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><%= @price_plan.name %></td>
+            <td><%= @price_plan.duration %> <%= @price_plan.periodicity %></td>
+            <td><strike><%= float_price(@price_plan.base_price) %> <%= @price_plan.country.currency %></strike></td>
+            <td><%= float_price(@promotion_code.discounted_price) %> <%= @price_plan.country.currency %></td>
+            <td style="text-align: right;"><%= link_to(t('global.select'), signup_plan_url(@price_plan, @promotion_code), class: 'btn btn-success') %></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <p><%= t('payment.you_can_pay_with_credit_card_paypayl_invoice') %></p>
+      
+    </section>
+  </div>
+</div>

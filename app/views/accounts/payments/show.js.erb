@@ -1,0 +1,5 @@
+if($('#subscription-details-<%= @subscription.id %>').length != 0) {
+  $('#subscription-details-<%= @subscription.id %>').remove();
+} else {
+  $('#subscription-<%= @subscription.id %>').after('<tr id="subscription-details-<%= @subscription.id %>"><td colspan="4"><%= escape_javascript(render(partial: "/accounts/payments/details", locals:{order: @order})) %></td></tr>');
+}

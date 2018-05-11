@@ -1,0 +1,9 @@
+<div class="listing-presentation">
+    <h2 class="listing-headline">
+        <%= @listing.headline %>
+    </h2>
+    <div class="listing-presentation-text">
+        <%= markdown(@listing.description) %>
+    </div>
+    <a href="#read-more" class="listing-presentation-btn"><%= t('button.read_more') %></a>
+</div>

@@ -1,0 +1,69 @@
+.header-user-actions {
+	text-align: right;
+	.language-menu {
+		margin: 0 1em 0 0;
+		width: auto;
+	    display: inline-block;
+		.btn.drop-down {
+			font-size: 0.857em;
+			line-height: 1.6em;
+			border: 0 none;
+			background-position: 0 40%;
+			padding-left: 1.429em;
+			color: #000;
+			-moz-box-shadow: none;
+	        -webkit-box-shadow: none;
+	        box-shadow: none;
+	        background-image: image-url('button-dropdown-black.png');
+		}
+	}
+	.btn.xl {
+		color: #000;
+		font-size: 0.857em;
+		line-height: 1.500em;
+		padding: 0.57142857em 0;
+		box-shadow: none;
+		&.orange {
+			color: #fff;
+			height: 1.714em;
+			line-height: 1.500em;
+			padding: 0 0.714em;
+			margin-right: 1em;
+		}
+		&.icon-user {
+			padding: 0.57142857em 0;
+		    box-shadow: none;
+		}
+		.fa {
+			padding-right: 0.571em;
+		}
+	}
+}
+/*
+.header-user-actions {
+    > a {
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    @include respond-to(mid-screens) {
+        > .btn {
+            display: inline-block;
+            margin-right: 2%;
+            width: 31%;
+        }
+    }
+
+    @include respond-to(wide-screens) {
+        margin-top: 1.5em;
+
+        > .btn {
+            margin-right: 0;
+            margin-left: 2em;
+            width: auto;
+        }
+
+        float: right;
+    }
+}
+*/

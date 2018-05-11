@@ -1,0 +1,14 @@
+<article id="figure-block-<%= image.id %>" class="figure-block" data-listing="<%= listing.id %>" data-image="<%= image.id %>">
+  <div class="figure-block-photo">
+    <%= image_tag(image.image.size_170, height: 70, alt: image.caption, class: 'photo') %>
+  </div>
+
+  <div class="figure-block-text">
+    <p><span class="label"><%= t('listings.images.header.main_photo') %></span> - <%= t('listing.main_photo.edit_main_photo') -%> <%= link_to(t('change_listing_menu.main_settings'), overview_listing_path(listing)) %></p>
+    <% if not image.caption.blank? -%>
+      <p class="figure-block-caption" id="caption-<%=image.id%>"><%= image.caption %></p>
+    <% else -%>
+      <p class="figure-block-caption" id="caption-<%=image.id%>"><em><%= t('listing.photo.no_caption') %></em></p>
+    <% end -%>
+  </div>
+</article>

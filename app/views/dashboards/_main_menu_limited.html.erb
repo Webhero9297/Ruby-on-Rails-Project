@@ -1,0 +1,10 @@
+<h1 class="section-nav-header no-border"><i class="icon-home"></i> <%= t('menu.member_home') %></h1>
+<nav class="section-nav" role="primary">
+  <ul class="nav nav-tabs nav-stacked">
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.search'), searches_index_url) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.contact_information'), account_contacts_path(current_user.account_id)) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.membership'), account_payments_url(current_user.account_id)) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.emails_logins'), user_path) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.time_zone'), account_time_zone_path(current_user.account_id)) %></li>
+  </ul>
+</nav>

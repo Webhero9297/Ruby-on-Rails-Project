@@ -1,0 +1,12 @@
+<% if @profile.lifestyle.visible or user_signed_in? %>
+    <% unless @profile.lifestyle.text.empty? %>
+        <div class="row">
+            <div class="wide">
+                <h2 class="page-header-divider">
+                    <span class="page-header-divider-label"><%= t('global.lifestyle') %></span>
+                </h2>
+                <%= markdown(strip_tags(@profile.lifestyle.text)) %>
+            </div>
+        </div>
+    <% end %>
+<% end %>

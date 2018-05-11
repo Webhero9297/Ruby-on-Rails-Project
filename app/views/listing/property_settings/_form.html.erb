@@ -1,0 +1,23 @@
+<%= form_for(@listing, url: listing_property_setting_url, remote: true, html: {id: 'property-settings-form', class: 'form-vertical'}) do |f| %>
+  <% if @listing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+      <ul>
+        <% @listing.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <fieldset>
+    <ul class="unstyled">
+      <%= render(partial: '/member/listings/property_detail_filter', collection: order_property_details(@property_details, house_attributes), as: :property_detail, locals: {rules_filter: house_attributes, listing: @listing} ) %>
+    </ul>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_property_setting_url(@listing), remote: true) %>
+  </fieldset>
+<% end %>

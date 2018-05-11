@@ -1,0 +1,5 @@
+<%= form_tag(search_agent_exchange_agreements_path, method: :get, class: 'form-inline') do %>
+  <%= text_field_tag('query', @query.nil? ? nil : @query, placeholder: 'listing number', autocomplete: 'off', class: 'input-xxlarge') %>
+  <%= submit_tag('Search', class: 'btn btn-primary') %>
+  <%= link_to('Clear', agent_exchange_agreements_path, class: 'btn') %>
+<% end -%>

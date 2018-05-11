@@ -1,0 +1,26 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>
+<section class="tab row">
+    <%= form_for(@listing_image, url: listing_image_url, html: {id: 'listing-image-form', class: 'well span4'}) do |f| %>
+        <div>
+          <%= image_tag(@listing_image.image.size_230, width: 290, height: 218, alt: @listing_image.caption) %>
+        </div>
+        
+        <fieldset>
+          <%= f.label(:caption, 'Image caption') %>
+          <%= f.text_area(:caption, cols: 62, rows: 4, class: 'span4') %>
+        </fieldset>
+    
+        <fieldset>
+          <%= f.label(:publicly_visible, f.check_box(:publicly_visible) + t('accounts.images.set_as_publicly_visible'), class: 'checkbox') %>
+          <%= f.label(:main_photo, f.check_box(:main_photo) + t('button.use_as_main_photo'), class: 'checkbox') %>
+        </fieldset>
+  
+      <fieldset class="form-actions">
+        <%= f.button('Save', class: 'btn btn-primary') %>
+        <%= link_to('Cancel', listing_images_url, class: 'cancel') %>
+      </fieldset>
+    <% end -%>
+  <div class="span4">
+    <%= link_to( content_tag('i','', class: 'icon-trash icon-white') + content_tag('span', t('button.delete_image')), listing_image_url(@listing, @listing_image), method: :delete, confirm: 'Are you sure you want to delete this image?', class: 'btn btn-danger') %>
+  </div>
+</section>

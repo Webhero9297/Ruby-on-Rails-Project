@@ -1,0 +1,10 @@
+<article class="photo">
+  <div class="photo-wrap">
+    <div class="photo">
+      <%= image_tag(main_photo.image.size_170, width: 170, height: 128, alt: main_photo.caption, class: 'photo') %>
+    </div>
+  </div>
+  <div class="center">
+    <span class="label label-success"><%= t('listings.images.header.main_photo') %></span>
+  </div>
+</article>

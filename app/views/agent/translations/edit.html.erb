@@ -1,0 +1,30 @@
+<% body_id 'translations' %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <p> <%= link_to(content_tag('i','', class: 'icon-arrow-left') + ' ' + "Back to locale #{@locale}", agent_translations_locale_url(@locale), class: 'btn') %> </p>
+        <h1 class="plate-header"><%= raw "You are now editing category <em>#{@category}</em> for locale <em>#{@locale}</em>" %></h1>
+        <div class='notifications top-left'></div>
+        <%= render :partial => 'edit-forms'%>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+
+     $('a.show-help').click( function(event){
+         event.preventDefault();
+         var link = $(this);
+         var target = $('p#'+link.attr('rel'));
+         target.toggleClass('hidden');
+         if(target.is(':hidden')){
+             link.text('Show msgid');
+             return;
+         }
+         link.text('Hide msgid');
+     });
+  });
+</script>

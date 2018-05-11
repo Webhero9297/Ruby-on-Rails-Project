@@ -1,0 +1,10 @@
+<div>
+<% if term.accepted_by_partner == true %>
+<span class="label label-success"><%= t('exchange_agreements.label.accepted_by_exchange_partner') %></span>
+<% elsif term.accepted_by_partner == false  -%>
+<span class="label label-warning"><%= t('exchange_agreements.declined_by_partner') %></span>
+<em><%= t('global.reason') %> <%= term.reason %> </em>
+<% else -%>
+<span class="label label-info"><%= t('exchange_agreements.not_accepted_by_exchange_partner') %>!</span>
+<% end -%>
+</div>

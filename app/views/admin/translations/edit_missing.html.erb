@@ -1,0 +1,45 @@
+<%= render(partial: 'tab_menu') %>
+<div class="plate">
+  <div class="plate-content">
+    <%= form_tag(admin_translations_search_url, :method => 'get', :class => "form-horizontal", :remote => true) do %>
+      <%= label_tag(:term, "Search for missing texts only") %>
+      <%= text_field_tag(:term, @term, :class => "input-xxlarge") %>
+      <%= hidden_field_tag(:locale, @locale) %>
+      <%= hidden_field_tag(:missing, true) %>
+      <%= button_tag("Search", :id => "submit", :name => "submit", :class => "btn btn-primary", :disabled => false, :disable_with => t('button.please_wait')) %>
+    <% end -%>
+
+    <div id="search-results">  
+      <%= render :partial => 'edit-forms'%>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      if($('.translation-form').length != 0) {
+          $('.translation-form').submit(function(event) {
+              event.preventDefault();
+
+              the_form = $(this);
+              url = the_form.attr('action');
+              form_data = the_form.serialize();
+              $.post(url, form_data, function(data){
+              });
+          });
+      }
+
+
+     $('a.show-help').click( function(event){
+         event.preventDefault();
+         var link = $(this);
+         var target = $('p#'+link.attr('rel'));
+         target.toggleClass('hidden');
+         if(target.is(':hidden')){
+             link.text('Show msgid');
+             return;
+         }
+         link.text('Hide msgid');
+     });
+  });
+</script>

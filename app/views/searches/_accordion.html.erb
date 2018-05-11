@@ -1,0 +1,354 @@
+<div class="accordion" id="filter-accordion">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"  href="#collapseOne">
+        <%= t('filters.house_filters') %>
+        <i class="icon-plus pull-right"></i>
+        <span id="house-filters-count" class="badge pull-right count">0</span>
+      </a>
+    </div>
+
+    <div id="collapseOne" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <h2 class="sidebar-header"><%= t('listings.label.sleeping_capacity') %></h2>
+        <% (1..6).each do |i| %>
+          <%= label_tag i, for: "id-capacity-#{i}", class: "checkbox inline" do %>
+            <%= check_box_tag("capacity", i, @capacity.to_i == i ? true : false, id: "id-capacity-#{i}",
+                            class: "radio-checkbox-capacity") %><%= i %>
+          <% end %>
+        <% end %>
+
+      <h2 class="sidebar-header mt20"><%= t('global.facilities') %></h2>
+      <ul class="unstyled mb20">
+        <% attributes_extras(property_details).each do |property_detail| %>
+          <li>
+            <%= label_tag(property_detail.short, for: "id-#{property_detail.msgid}",
+                          class: "checkbox label-new-filter") do %>
+              <%= check_box_tag("house_filters[]", property_detail.msgid,
+                                @house_filters.include?(property_detail.msgid),
+                                id: "id-#{property_detail.msgid}") %><%= t(property_detail.msgid) %>
+            <% end %>
+            <% if new_property_detail?(property_detail.msgid) %>
+              <p class="new-filter"><%= t('listings.label.new_property_detail') %></p>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+
+      <h2 class="sidebar-header"><%= t('listings.label.indoor-properties') %></h2>
+      <ul class="unstyled">
+        <% attributes_indoor(property_details).each do |property_detail| %>
+          <li>
+            <%= label_tag(property_detail.short, for: "id-#{property_detail.msgid}",
+                          class: "checkbox label-new-filter") do %>
+              <%= check_box_tag("house_filters[]", property_detail.msgid,
+                                @house_filters.include?(property_detail.msgid),
+                                id: "id-#{property_detail.msgid}") %><%= t(property_detail.msgid) %>
+            <% end %>
+            <% if new_property_detail?(property_detail.msgid) %>
+              <p class="new-filter"><%= t('listings.label.new_property_detail') %></p>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+
+      <h2 class="sidebar-header"><%= t('listings.label.outdoor-properties') %></h2>
+      <ul class="unstyled">
+        <% attributes_outdoor(property_details).each do |property_detail| %>
+          <li>
+            <%= label_tag(property_detail.short, for: "id-#{property_detail.msgid}",
+                          class: "checkbox label-new-filter") do %>
+              <%= check_box_tag("house_filters[]", property_detail.msgid,
+                                @house_filters.include?(property_detail.msgid),
+                                id: "id-#{property_detail.msgid}") %><%= t(property_detail.msgid) %>
+            <% end %>
+            <% if new_property_detail?(property_detail.msgid) %>
+              <p class="new-filter"><%= t('listings.label.new_property_detail') %></p>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+
+      <h2 class="sidebar-header"><%= t('listings.label.house_type') %></h2>
+      <ul class="unstyled">
+        <% house_types.each do |house_type| %>
+          <li>
+            <%= label_tag(house_type.short, for: "id-#{house_type.msgid}", class: "checkbox") do %>
+              <%= check_box_tag("house_type_filters[]", house_type.msgid,
+                                @house_type_filters.include?(house_type.msgid),
+                                id: "id-#{house_type.msgid}") %><%= t(house_type.msgid) %>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"  href="#collapseTwo">
+        <%= t('filters.exchange_filters') %>
+        <i class="icon-plus pull-right"></i>
+        <span id="exchange-filters-count" class="badge pull-right count">0</span>
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+
+        <%= render(partial: '/searches/date_filters') %>
+        <%= label_tag('min-duration', t('exchange_dates.length_of_stay')) %>
+        <%= number_field_tag(:min_duration, @min_duration.blank? ? nil : @min_duration,
+                             id: 'min-duration', min: 1, max: 52,
+                             class: 'travel-dates-filter half-row with-margin')%><%= t('global.weeks')%>
+        <h2 class="sidebar-header"><%= t('global.exchange_types') %></h2>
+        <ul class="unstyled">
+          <% exchange_types.each do |exchange_type| %>
+            <li>
+              <%= label_tag(exchange_type.short, for: "id-#{exchange_type.msgid}", class: "checkbox") do %>
+                <%= check_box_tag("exchange_type_filters[]", exchange_type.msgid,
+                                  @exchange_type_filters.include?(exchange_type.msgid),
+                                  id: "id-#{exchange_type.msgid}") %><%= t(exchange_type.msgid) %>
+              <% end %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"  href="#collapseThree">
+        <%= t('filters.environment_filters') %>
+        <i class="icon-plus pull-right"></i>
+        <span id="environment-filters-count" class="badge pull-right count">0</span>
+      </a>
+    </div>
+    <div id="collapseThree" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul class="unstyled">
+          <% environments.each do |environment| %>
+            <li>
+              <%= label_tag environment.short, for: "id-#{environment.msgid}", class: "checkbox" do %>
+                <%= check_box_tag("environment_filters[]", environment.msgid,
+                                  @environment_filters.include?(environment.msgid),
+                                  id: "id-#{environment.msgid}") %><%= t(environment.msgid) %>
+              <% end %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"  href="#collapseFour">
+        <%= t('filters.family_filters') %>
+        <i class="icon-plus pull-right"></i>
+        <span id="family-filters-count" class="badge pull-right count">0</span>
+      </a>
+    </div>
+    <div id="collapseFour" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <h2 class="sidebar-header"><%= t('filters.number_of_adults') %></h2>
+        <% (1..6).each do |i| %>
+          <%= label_tag i, for: "id-adults-#{i}", class: "adults checkbox inline" do %>
+            <%= check_box_tag("adults", i, @adults.to_i == i ? true : false, id: "id-adults-#{i}",
+                              class: "radio-checkbox-adults") %><%= i %>
+          <% end %>
+        <% end %>
+
+        <h2 class="sidebar-header mt20"><%= t('filters.children') %></h2>
+        <%= label_tag "with-children", for: "id-with-children", class: "checkbox inline" do %>
+          <%= check_box_tag("children", "with", @children == "with" ? true : false, id: "id-with-children",
+                            class: "radio-checkbox-children") %>
+          <%= t('filters.with_children') %>
+        <% end %>
+        <%= label_tag "without-children", for: "id-without-children", class: "checkbox inline" do %>
+          <%= check_box_tag("children", "without", @children == "without" ? true : false, id: "id-without-children",
+                            class: "radio-checkbox-children") %>
+          <%= t('filters.without_children') %>
+        <% end %>
+        <h2 class="sidebar-header mt20"><%= t('filters.pets') %></h2>
+        <%= label_tag "with-pets", for: "id-with-pets", class: "checkbox inline" do %>
+          <%= check_box_tag("pets", "with", @pets == "with" ? true : false, id: "id-with-pets",
+                            class: "radio-checkbox-pets") %>
+          <%= t('filters.with_pets') %>
+        <% end %>
+        <%= label_tag "without-pets", for: "id-without-pets", class: "checkbox inline" do %>
+          <%= check_box_tag("pets", "without", @pets == "without" ? true : false, id: "id-without-pets",
+                            class: "radio-checkbox-pets") %>
+          <%= t('filters.without_pets') %>
+        <% end %>
+        <h2 class="sidebar-header mt20"><%= t('filters.exchangers') %></h2>
+        <%= label_tag "experienced_exchangers", for: "id-ee", class: "checkbox inline" do %>
+          <%= check_box_tag("ee", true, @ee, id: "id-ee", class: "radio-checkbox-ee") %>
+          <%= t('filters.experienced_exchangers') %>
+        <% end %>
+        <h2 class="sidebar-header mt20"><%= t('filters.languages_spoken') %></h2>
+        <%= select_tag :spoken_languages, options_for_select(Language.all.order(:msgid,:asc).map{|l| [translate(l.msgid), l.msgid]}, @languages_array), multiple: true, class: 'select2', "data-placeholder" => t('filters.select_languages')%>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"  href="#collapseFive">
+        <%= t('filters.surroundings_filter') %>
+        <i class="icon-plus pull-right"></i>
+        <span id="surrounding-filters-count" class="badge pull-right count">0</span>
+      </a>
+    </div>
+    <div id="collapseFive" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <h2 class="sidebar-header"><%= t('filters.surroundings_filter') %></h2>
+        <ul class="unstyled">
+          <% surrounding_types.each do |surrounding_type| %>
+            <li>
+              <%= label_tag(surrounding_type[:msgid], for: "id-#{surrounding_type[:msgid]}", class: "checkbox") do %>
+                <%= check_box_tag("surroundings[]", surrounding_type[:short],
+                                  @surroundings.include?(surrounding_type[:short]),
+                                  id: "id-#{surrounding_type[:msgid]}") %><%= t(surrounding_type[:msgid]) %>
+              <% end %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"  href="#collapseSix">
+        <%= t('filters.last_minute_exchanges') %>
+        <i class="icon-plus pull-right"></i>
+        <span id="surrounding-filters-count" class="badge pull-right count">0</span>
+      </a>
+    </div>
+    <div id="collapseSix" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <h2 class="sidebar-header"><%= t('filters.hotlist') %></h2>
+        <ul class="unstyled">
+          <li>
+            <%= label_tag "hotlist", for: "id-hotlist", class: "checkbox" do %>
+              <%= check_box_tag("hotlist", "hotlist", @hotlist, id: "id-hotlist", class: "preference-filter") %>
+              <%= t('filters.hotlist_explanation') %>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"  href="#collapseSeven">
+        <%= t('filters.preferences') %>
+        <i class="icon-plus pull-right"></i>
+        <span id="preference-filters-count" class="badge pull-right count">0</span>
+      </a>
+    </div>
+    <div id="collapseSeven" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <%- if user_signed_in? -%>
+          <h2 class="sidebar-header"><%= t('filters.reversed_search') %></h2>
+          <ul class="unstyled">
+            <li>
+              <%= label_tag "reversed-search", for: "id-reversed-search", class: "checkbox inline" do %>
+                <%= check_box_tag("reversed", get_country_code(current_user), @reversed, id: "id-reversed-search",
+                                  class: "preference-filter") %>
+                <%= t('filters.reversed_search_explanation') %>
+              <% end %>
+
+              <%= select_tag :reversed_area,
+                    options_for_select([[t('global.city'), :city], [t('global.country'), :country],
+                                       [t('global.continent'), :continent]], @reversed_area),
+                    class: '', "data-placeholder" => t('filters.select_area') %>
+              <%= get_reversed_search_data(current_user) %>
+            </li>
+          </ul>
+        <%- end -%>
+
+        <% unless @open_for_exchange == "match_alert" %>
+          <h2 class="sidebar-header"><%= t('filters.exchange_filters') %></h2>
+          <ul class="unstyled">
+            <li>
+              <%= label_tag "availability", for: "id-availability", class: "checkbox" do %>
+                <%= check_box_tag("open_for_exchange", true, @open_for_exchange,
+                                  id: "id-availability", class: "preference-filter") %>
+                <%= t('listings.open_for_exchange') %>
+              <% end %>
+            </li>
+          </ul>
+        <% end %>
+
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+
+  <%= yield :saved_searches %>
+  <button class="btn btn-small btn-success mb10 mt10"><%= t('button.apply_filters') %></button>
+</div>
+
+<script type="text/javascript">
+  init_filter_counts();
+
+  var slct = $( ".select2" )
+
+  if (typeof slct.select2 == "function") {
+      slct.select2({
+         width: "100%"
+      });
+  }
+
+  $('.radio-checkbox-capacity').click(function (event) {
+    var checked = $(this).prop('checked');
+    $('.radio-checkbox-capacity').prop('checked', false);
+    $(this).prop('checked', checked);
+    return true;
+  });
+
+  $('.radio-checkbox-adults').click(function (event) {
+    var checked = $(this).prop('checked');
+    $('.radio-checkbox-adults').prop('checked', false);
+    $(this).prop('checked', checked);
+    return true;
+  });
+
+  $('.radio-checkbox-children').click(function (event) {
+    var checked = $(this).prop('checked');
+    $('.radio-checkbox-children').prop('checked', false);
+    $(this).prop('checked', checked);
+    return true;
+  });
+
+  $('.radio-checkbox-pets').click(function (event) {
+    var checked = $(this).prop('checked');
+    $('.radio-checkbox-pets').prop('checked', false);
+    $(this).prop('checked', checked);
+    return true;
+  });
+
+  $('.collapse').on('show', function(event){
+    $('a[href=#'+this.id+'] i').removeClass('icon-plus').addClass('icon-minus');
+  });
+
+  $('.collapse').on('hide', function(event){
+    $('a[href=#'+this.id+'] i').removeClass('icon-minus').addClass('icon-plus');
+  });
+
+  $('[data-send="save-search"]').click(function(event) {
+    event.preventDefault();
+    var form_data = $('#search-form').serialize();
+    $.post("/search/save", form_data, function(data) {});
+  });
+
+  $('[data-section="saved-searches"]').on('click', '[data-send="delete-search"]',function(event) {
+    event.preventDefault();
+    var search_id = $(this).data('id');
+    $.post("/search/delete", {"id": search_id}, function(data) {});
+  });
+</script>

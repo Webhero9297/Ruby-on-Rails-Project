@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="span3">
+  <section class="mb20">
+    <%= render(partial: 'dashboards/member_home') %>
+  </section>
+  <% if @account.match_alert.active %>
+    <%= render :layout => 'match_alert_filter_form' do %>
+        <button class="btn btn-small btn-success mb10"><%= t('button.apply_filters') %></button>
+        <%= link_to(t('button.clear_search'), clear_filters_account_match_alerts_url(@account), class: "btn btn-small pull-right", method: "delete") %>
+        <div class="clear"></div>
+        <%= render(layout: "searches/accordion", locals: {exchange_types: @exchange_types, environments: @environments, property_details: @property_details, house_types: @house_types, surrounding_types: @surrounding_types}) do %>
+      <% end %>
+    <% end %>
+    <hr/>
+    <%= link_to(t('button.disable_match_alert'), disable_account_match_alerts_path, class: 'btn btn-warning') %>
+  <% end %>
+  </div>
+
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: 'match_alert', locals: {section_id: 'match-alert', header: t('header.match_alert')}, layout: 'layouts/modules/plate_section') %>
+      <% if @account.match_alert.active %>
+        <%= render(partial: 'destinations', locals: {section_id: 'match-alert', header: t('header.edit_destinations')}, layout: 'layouts/modules/plate_section') %>
+      <% end %>
+    </div>
+  </div>
+</div>

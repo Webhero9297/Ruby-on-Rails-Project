@@ -1,0 +1,46 @@
+<% body_id 'translations' %>
+<%= render :partial => 'tab-menu'%>
+
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('translations.header.you_are_now_editing') %>  <%= @locale %></h1>
+
+        <%= form_tag(agent_translations_search_url, :method => 'get', :class => "form-inline", :remote => true) do %>
+          <fieldset>
+            <%= text_field_tag :term, @term, :class => "input-xxlarge" %>
+            <%= hidden_field_tag :locale, @locale %>
+            <%= button_tag "Search", :id => "submit", :name => "submit", :class => "btn btn-primary", :disabled => false, :disable_with => t('button.please_wait') %>
+          </fieldset>
+        <% end -%>
+
+        <div id="search-results">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Total</th>
+                <th>Missing</th>
+                <th>Progress</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @stats.each do |key| %>
+                <tr>
+                  <td>
+                    <%= link_to key[:category], agent_translations_category_and_locale_url(key[:category], key[:locale]) %>
+                  </td>
+                  <td><%= key[:total] %></td>
+                  <td><%= key[:missing] %></td>
+                  <td><%= progress(key[:missing], key[:total]) %>%</td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

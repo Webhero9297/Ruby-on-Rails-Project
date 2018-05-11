@@ -1,0 +1,40 @@
+<%= form_tag(@url_for, method: 'get', id: 'listing-destinations', class: 'form-horizontal') do %>
+  <%= hidden_field_tag('ne_lat', @ne_lat)%>
+  <%= hidden_field_tag('ne_lng', @ne_lng)%>
+  <%= hidden_field_tag('sw_lat', @sw_lat)%>
+  <%= hidden_field_tag('sw_lng', @sw_lng)%>
+  <%= hidden_field_tag('lat', @lat)%>
+  <%= hidden_field_tag('lng', @lng)%>
+  <%= hidden_field_tag('zoom', @zoom)%>
+  <%= hidden_field_tag('search_flag', 0, :id => 'search-flag')%>
+  <%= hidden_field_tag('earliest_date_form', @earliest_date, :id => 'earliest-date-input')%>
+  <%= hidden_field_tag('latest_date_form', @latest_date, :id => 'latest-date-input')%>
+  <%= hidden_field_tag('current_user_country',  (current_user && current_user.account.country_short) || '')%>
+  <div class="input-append address-field">
+    <%= label_tag('q', 'Enter your preferred holiday destination:', id: 'location-label') %>
+    <%= text_field_tag('q', @q, size: '82', maxlength: '255', placeholder: t('form.placeholder.country_city_or_region'), id: "address-field") %>
+    <%= button_tag(t('button.find'), class: 'btn btn-success', id: 'btn-address-field') %>
+  </div>
+  <p class="pt10"><%= link_to(t('button.clear_search'), @clear_url, class: 'btn btn-small') %></p>
+<% end %>
+
+<%# <p class="help-block"><strong>Example:</strong> France or Brazil or Provence</p> %>
+
+<script type="text/javascript" charset="utf-8">
+  $('form#listing-destinations').submit(function(event) {
+    submit_form();
+    return false;
+    
+      if( $('#search-flag').val() == 1){
+          return true;
+      }
+      submit_form();
+      return false;
+    });
+  
+  var do_submit = true;
+  activate_autocomplete(do_submit);
+  
+  $('input#address-field').focus();
+  
+</script>

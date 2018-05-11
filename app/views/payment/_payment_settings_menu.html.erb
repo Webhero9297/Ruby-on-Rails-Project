@@ -1,0 +1,14 @@
+<ul class="nav nav-tabs">
+  <% highlight_current_link(:class => 'active') do |n| -%>
+  <%= n.li_link_to('Price Plans', price_plans_country_path) %>
+  <%= n.li_link_to('Payment Info Texts', information_text_path) %>
+  <%= n.li_link_to('Automatic activation', automatic_activation_path) %>
+  <%= n.li_link_to('Awaiting activation', awaiting_account_activation_path) %>
+  <% if admin_session? %>
+    <%= n.li_link_to('Payment options', edit_country_payment_options_path(@country)) %>
+  <% else %>
+    <%= n.li_link_to('Payment options', payment_options_overview_path) %>
+  <% end %>
+  <%= n.li_link_to('Automated messages', automated_messages_path) %>
+  <% end -%>
+</ul>

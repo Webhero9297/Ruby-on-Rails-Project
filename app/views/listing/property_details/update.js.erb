@@ -1,0 +1,2 @@
+$('#btn-property-details').show();
+$('#property-details-form').replaceWith('<%= escape_javascript(render(partial: "/listing/property_details/placeholder", locals: {listing: @listing, property_details: @property_details})) %>');

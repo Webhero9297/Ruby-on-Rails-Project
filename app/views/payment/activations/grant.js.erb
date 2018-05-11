@@ -1,0 +1,4 @@
+$('#btn-activate-<%= @account.id %>').replaceWith("<%= escape_javascript(render(partial: 'placeholder_button_activating')) %>");
+$('#account-<%= @account.id %>').css({"background-color" : "#ffffcc"}).delay(1000).fadeOut(1000, function() {
+  $(this).replaceWith("<%= escape_javascript(render(partial: 'placeholder_activated')) %>");
+});

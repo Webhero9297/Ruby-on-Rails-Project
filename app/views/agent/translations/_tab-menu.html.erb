@@ -1,0 +1,17 @@
+<div class="row-fluid">
+  <div class="span12">
+    <p> <%= link_to(content_tag('i','', class: 'icon-arrow-left') + ' ' + 'Back to translations', agent_translations_url, class: 'btn btn-default') %> </p>
+    <%- if @is_cloned -%>
+    <% #link_to(t('translations.update_language_from_original'), agent_update_cloned_locale_path(@locale), class: 'btn btn-primary') %>
+    <%- end -%>
+    <nav id="section-nav" role="secondary">
+      <ul class="nav nav-tabs">
+        <% highlight_current_link(:class => 'active') do |n| -%>
+          <%= n.li_link_to(t('global.overview'), agent_translations_locale_url(:locale => @locale)) %>
+          <%= n.li_link_to('Missing translations', agent_translations_missing_url(@locale)) %>
+          <%= n.li_link_to('Changed translations', agent_translations_changed_url(@locale)) %>
+        <% end -%>
+      </ul>
+    </nav>
+  </div>
+</div>

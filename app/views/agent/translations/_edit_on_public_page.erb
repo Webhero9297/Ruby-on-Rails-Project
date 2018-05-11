@@ -1,0 +1,43 @@
+<div class="translations-box">
+    <h1 class="translations-box-header1">Translations for: <%= @locale %></h1>
+    <%= form_tag(agent_translation_url(@translation[:_id]), method: :put, class: "translations-box-form" ) do %>
+        <fieldset>
+            <label>
+                <%= @default_translations.where(msgid: @translation[:msgid]).first.get_value%>
+            </label>
+            <%= text_area_tag(:value, @translation.get_value, {id: nil, class: 'w100'}) %>
+            <%= hidden_field_tag(:id, @translation[:_id]) %>
+        </fieldset>
+
+        <div>
+            <h2 class="translations-box-header2">Msgid</h2>
+            <p>
+                <%= @translation[:msgid] %>
+            </p>
+        </div>
+
+        <% unless @translation[:field_codes] == "" %>
+            <div>
+                <h2 class="translations-box-header2">Placeholders</h2>
+                <p>
+                    <%= @translation[:field_codes] %>
+                </p>
+            </div>
+        <% end %>
+
+        <div class="row">
+            <div class="split">
+                <button class="btn yellow" data-action="close">Close</button>
+            </div>
+            <div class="split ra-form">
+                <button type="submit" class="btn blue">Save</button>
+            </div>
+        </div>
+    <% end %>
+</div>
+<script type="text/javascript">
+    $('[data-action="close"]').click(function(event) {
+        event.preventDefault();
+        $('.translations-box').remove();
+    });
+</script>

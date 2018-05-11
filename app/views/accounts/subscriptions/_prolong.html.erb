@@ -1,0 +1,3 @@
+<% permitted_to? :edit, :accounts_subscriptions do %>
+  <%= link_to(content_tag('i','', class: 'icon-time') + ' ' + t('billing.prolong_membership'), edit_account_subscription_url(@account, @subscription), class: 'btn') %>
+<% end %>

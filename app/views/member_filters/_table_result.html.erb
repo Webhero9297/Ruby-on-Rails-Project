@@ -1,0 +1,9 @@
+<tr>
+  <td>
+    <%= begin account.terminated ? account.contact.name + ' (terminated)' : link_to(account.contact.name, account_path(account.id)) rescue nil end %>
+  </td>
+  <td><%= account.contact.email %></td>
+  <td><%= account.country_short %></td>
+  <td><%= standard_date(account.current_expires_at, '%F') %></td>
+  <td><%= account.listing_numbers.empty? ? '' : account.listing_numbers.join('<br/>').html_safe %></td>
+</tr>

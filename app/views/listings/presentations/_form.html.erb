@@ -1,0 +1,23 @@
+<%= form_for(@listing, url: listing_presentations_path(@listing), remote:true, html: {id: 'description-form', class: 'form-vertical'}) do |f| %>
+  <% if @listing.errors.any? %>
+  <section id="error_explanation">
+    <h1><%= pluralize(@listing.errors.count, "error") %> prevented the presentation from being saved:</h1>
+    <ul>
+      <% @listing.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </section>
+  <% end %>
+
+  <fieldset>
+    <%= label_tag('listing-description', t('listing.home.label.presentation')) %>
+    <%= text_area_tag('listing[property][description]', @listing.description, id: 'listing-description', cols: 72, rows: 12, class: 'span12') %>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_presentations_path(@listing), remote: true) %>
+  </fieldset>
+<% end %>
+  

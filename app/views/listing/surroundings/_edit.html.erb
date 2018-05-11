@@ -1,0 +1,122 @@
+<%= form_for(@listing, url: listing_surrounding_url(@listing), html: {id: 'surroundings-form'}, remote: true) do |f| %>
+  <div class="row-fluid">
+    <div class="span12">
+
+      <div id="surrounding-map" class="mb20" data-lat="<%= @listing.lat %>" data-lng="<%= @listing.lng %>"></div>
+      <h2 class="section-header"><%= t('listings.surroundings.header.whats_around') %></h2>
+      <ul id="pins" class="unstyled">
+        <li><a id="golfing" class="pin" title="Golfing"><%= image_tag('golfing.png') %></a></li>
+        <li><a id="shopping" class="pin" title="Shopping"><%= image_tag('shopping.png') %></a></li>
+        <li><a id="forest" class="pin" title="Forest/woods"><%= image_tag('forest.png') %></a></li>
+        <li><a id="river" class="pin" title="River"><%= image_tag('river.png') %></a></li>
+        <li><a id="boating" class="pin" title="Boating"><%= image_tag('boating.png') %></a></li>
+        <li><a id="sea" class="pin" title="Sea"><%= image_tag('sea.png') %></a></li>
+        <li><a id="beach" class="pin" title="Beach"><%= image_tag('beach.png') %></a></li>
+        <li><a id="lake" class="pin" title="Lake"><%= image_tag('lake.png') %></a></li>
+        <li><a id="mountains" class="pin" title="Mountains"><%= image_tag('mountains.png') %></a></li>
+      </ul>
+      <p><%= t('listings.surroundings.click_on_icon_to_add_to_map') %></p>
+      <fieldset>
+        <table id="added-pins" class="table table-condensed">
+          <thead>
+            <tr>
+              <th><%= t('global.icon') %></th>
+              <th><%= t('global.name') %></th>
+              <th class="distance"><%= t('surroundings.label.distance') %></th>
+              <th>&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @listing.surroundings.each do |pin| %>
+              <tr>
+                <td><%= image_tag("#{pin['id']}.png") %></td>
+                <td>
+                  <input type="text" data-id="<%= pin['id']%>" class="input-xlarge type" name="pins[<%= pin['id']%>][name]" placeholder="<%= t('surroundings.placeholder.give_me_a_name') %>" value="<%= pin['name'] %>"/>
+                  <input type="hidden" name="pins[<%= pin['id']%>][distance]" class="distance" value="<%= pin['distance'] %>"/>
+                  <input type="hidden" name="pins[<%= pin['id']%>][lat]" class="lat" value="<%= pin['lat'] %>"/>
+                  <input type="hidden" name="pins[<%= pin['id']%>][lng]" class="lng" value="<%= pin['lng'] %>"/>
+                </td>
+                <td class="distance"><%= pin['distance'] %></td>
+                <td><a class="btn btn-small delete" href="<%= pin['id']%>"><i class="icon-trash"></i></a></td>
+              </tr>
+            <%- end -%>
+          </tbody>
+        </table>
+      </fieldset>
+    </div>
+  </div>
+
+  <% if @listing.errors.any? %>
+    <div class="row-fluid">
+      <div class="span12">
+        <div id="error_explanation">
+          <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+          <ul>
+            <% @listing.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save_changes'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_surrounding_url(@listing), remote: true) %>
+  </fieldset>
+
+<% end %>
+
+<script type="text/javascript" charset="utf-8">
+var surround_map = Object.create(GOOGLE_MAP);
+var property_position;
+var icons = { 'golfing':'/assets/golfing.png', 
+  'shopping': '/assets/shopping.png',
+  'forest':'/assets/forest.png',
+  'river':'/assets/river.png',
+  'boating':'/assets/boating.png',
+  'sea':'/assets/sea.png',
+  'beach':'/assets/beach.png',
+  'lake':'/assets/lake.png',
+  'mountains':'/assets/mountains.png'
+}
+var PINS = {
+  'items': {},
+  add_item: function(id, html, marker) {
+    this.items[id] = {'html':html, 'marker':marker};
+  },
+  get_item: function(id) {
+    return this.items[id];
+  },
+  set_distance: function(id, distance){
+    var item = this.items[id]['html'];
+    item.find('td.distance').html(distance);
+    item.find('input.distance').val(distance);
+  },
+  set_position: function(id, position){
+    var item = this.items[id]['html'];
+    item.find('input.lat').val(position.lat());
+    item.find('input.lng').val(position.lng());
+  },
+  remove_item: function(id){
+    delete this.items[id];
+  }
+}
+
+jQuery(document).ready(function($) {
+  // Add the house to the map
+  var surrounding_map = $('#surrounding-map');    
+  property_position = add_property_location( surround_map, {"lat": surrounding_map.attr('data-lat'), "lng": surrounding_map.attr('data-lng')});
+  //Activate tooltip and click event
+  $('a.pin').tooltip();
+  $('a.pin').click( add_pin );
+  // Add any saved pins to the map
+  var pins = $('table#added-pins tbody tr');
+  if( pins.length > 0 )
+    add_existing_pins(pins);
+  //Make sure we can remove them
+  $('#added-pins tbody').on('click','a.delete', remove_pin );
+});
+
+</script>

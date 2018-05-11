@@ -1,0 +1,20 @@
+<tr id="child-<%= child.id %>">
+  <td>
+    <%= child_age(child) %>
+  </td>
+  <td>
+    <%- if child['gender'] == 'girl' -%>
+      <%= t('global.girl') -%>
+    <%- end -%>
+
+    <%- if child['gender'] == 'boy' -%>
+      <%= t('global.boy') -%>
+    <%- end -%>
+  </td>
+  <td>
+    <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_profiles_child_url(account.id, child.id), remote: true) %>
+  </td>
+  <td>
+    <%= link_to(content_tag('i', '', class: 'icon-trash') + ' ' + t('global.remove'), account_profiles_child_url(account.id, child.id), remote: true, method: :delete, confirm: t('profile.confirm_child_deletion') ) %>
+  </td>
+</tr>

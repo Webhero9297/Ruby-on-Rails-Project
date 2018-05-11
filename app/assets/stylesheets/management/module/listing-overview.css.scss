@@ -1,0 +1,38 @@
+.listing-overview {
+    margin-bottom: 20px;
+}
+
+.listing-overview-section {
+    float: left;
+    margin-right: 40px;
+ }
+
+.listing-overview-section-photo {
+    width: 182px;
+ }
+
+ .listing-overview-photo {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0;
+    padding: 5px;
+ }
+
+.listing-overview-header {
+    font-size: 16px;
+    line-height: normal;
+    margin: 0 0 10px 6px;
+ }
+
+.listing-overview-sub-header {
+    font-size: 15px;
+    line-height: normal;
+    margin: 0 0 6px 0;
+    padding: 0;
+ }
+
+.listing-overview-actions {
+    clear: both;
+    padding: 10px 10px 40px 10px;
+    border-bottom: 1px solid #ccc;
+ }

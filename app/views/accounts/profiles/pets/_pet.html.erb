@@ -1,0 +1,11 @@
+<tr id="<%= pet.id %>">
+  <td>
+    <%= pet.kind %>
+  </td>
+  <td>
+    <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_profiles_pet_url(account.id, pet.id), remote: true) %>
+  </td>
+  <td>
+    <%= link_to(content_tag('i','', class: 'icon-trash') + ' ' + t('global.remove'), account_profiles_pet_url(account.id, pet.id), method: :delete, remote: true, confirm: t('profile.confirm_pet_deletion') ) %>
+  </td>
+</tr>

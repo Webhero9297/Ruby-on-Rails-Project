@@ -1,0 +1,5 @@
+<%= form_for(listing, url: update_caption_listing_main_photos_path(listing.id), html: {id: 'main-photo-caption-form'}, remote: true) do |f| %>
+  <%= f.text_field(:main_photo_caption, maxlength: 128, class: 'span12') %>
+  <%= f.submit(t('button.save'), class: 'btn btn-primary btn-small') %>
+  <%= link_to(t('button.cancel'), cancel_caption_listing_main_photos_path(listing.id), class: 'btn btn-link', remote: true) %>
+<% end %>

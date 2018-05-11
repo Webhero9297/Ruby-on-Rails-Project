@@ -1,0 +1,12 @@
+<% roles = current_user.roles %>
+<% account_roles = @account.get_owner.roles %>
+<% is_ambassador = account_roles.include?('ambassador') %>
+<% content_hash = { ambassador_true: ['This member is currently part of the Ambassador Program', 'Remove as Ambassador', 'btn-danger'],
+     ambassador_false: ['This member is not currently part of the Ambassador Program', 'Add as Ambassador', 'btn-primary'] }%>
+
+<article>
+    <h2 class="plate-section-header">Ambassador Program</h2>
+    <p><%= content_hash[:"ambassador_#{is_ambassador}"][0] %></p>
+    <%= link_to(content_hash[:"ambassador_#{is_ambassador}"][1], set_as_ambassador_account_path(@account), {class: "btn #{content_hash[:"ambassador_#{is_ambassador}"][2]}", method: :put, remote: true}) if roles.include?("admin")%>
+</article>
+

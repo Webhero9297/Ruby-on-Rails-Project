@@ -1,0 +1,53 @@
+<% body_id 'countries' %>
+<div class="row-fluid">
+    <div class="span3">
+        <%= render(partial: 'countries/management_menu', locals: {country: @country}) %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+
+                <h1 class="plate-header">Automated messages for <%= t(@country.msgid) %></h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Message kind</th>
+                            <th>Used by countries</th>
+                            <th>Agent gets copy</th>
+                            <th>Days before or after event</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% @messages.each do |message| %>
+                            <tr>
+                                <td><%= link_to(message.name, edit_for_country_automated_message_path(message, @country)) %></td>
+                                <td>
+                                    <% message.countries.each_index do |k| %>
+                                        <%= message.countries[k] %>
+                                    <% end %>
+                                </td>
+                                <td>
+                                    <% if message.send_copy_to_agent %>
+                                        Yes
+                                    <% else %>
+                                        No
+                                    <% end %>
+                                </td>
+                                <td>
+                                    <% if message.days == 0 %>
+                                        Instant
+                                    <% else %>
+                                        <%= message.days %> days
+                                    <% end %>
+                                </td>
+                                <td>
+                                    <%= link_to('Delete', destroy_for_country_automated_message_path(message, @country), method: :delete, confirm: 'Are you sure you want to delete this automated message?') %>
+                                </td>
+                            </tr>
+                        <% end %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

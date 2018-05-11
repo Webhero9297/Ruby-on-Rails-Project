@@ -1,0 +1,9 @@
+<%
+  dotClass = @listing.is_expired && @listing.open_past_listing ? 'yellow-light-dot' : (@listing.open_for_exchange && !@listing.is_expired ? 'green-light-dot' : "red-light-dot")
+  dotText = @listing.is_expired && @listing.open_past_listing ? 'listing.page.past_member' : (@listing.open_for_exchange && !@listing.is_expired ? 'listing.page.available_for_exchange' : 'listing.page.not_available_for_exchange')
+%>
+
+<div class="green-red-light-box">
+  <span class="<%= dotClass %>"></span>
+  <span class="red-green-light-dot-text"><%= t(dotText) %></span>
+</div>

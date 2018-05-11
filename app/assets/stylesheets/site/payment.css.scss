@@ -1,0 +1,9 @@
+@import "mixins";
+span.required {
+    display: inline-block;
+    font-size: 11px;
+    margin-left: 3px;
+    vertical-align: 5px;
+    font-style: italic;
+    color: $dark-grey;
+}

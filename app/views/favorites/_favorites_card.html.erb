@@ -1,0 +1,99 @@
+<div  class="favorite-card-row" id="favorite-card-<%= listing.id %>"
+      data-am='<%= !listing.account.is_expired? %>'
+      data-oe='<%= listing.open_for_exchange %>'
+      data-order-country='<%= listing.country_code %>'
+      data-order-sleeping-capacity='<%= listing.sleeping_capacity %>'
+      data-order-date-added='<%= current_user.account.favorites.where(listing_id: listing.id).first.created_at.to_i %>'>
+    <div class="favorite-card-actions">
+        <p><%= t('favorites.added_at') %></p>
+        <div class="favorite-card-date">
+            <span class="favorite-card-date-day"><%= notes[listing.id.to_s][:created_at].strftime('%d') %></span>
+            <span class="favorite-card-date-month"><%= notes[listing.id.to_s][:created_at].strftime('%b') %></span>
+            <span class="favorite-card-date-year"><%= notes[listing.id.to_s][:created_at].strftime('%Y') %></span>
+        </div>
+        <%= label_tag("favorite-select-#{listing.id}", class: 'favorite-card-select-label') do %>
+            <%= check_box_tag('favorites[]', listing.id, false, id: "favorite-select-#{listing.id}", class: 'favorite-card-select') %>
+        <% end %>
+        <%= link_to(content_tag('i','', class: 'icon-white icon-trash'), favorite_path(listing, list: true), remote: true, method: :delete, confirm: t('favorites.are_you_sure_you_want_to_delete'), class: 'btn btn-danger favorite-card-remove') %>
+    </div>
+
+    <article class="favorite-card">
+        <header class="favorite-card-header">
+            <h1 class="favorite-card-headline">
+                <% if listing.is_expired %>
+                    <%= "#{listing.listing_number} | #{listing.postal_town}, #{t(listing.country)}" %>
+                <% else %>
+                  <%= link_to("#{listing.listing_number} | #{listing.postal_town}, #{t(listing.country)}", listing_url(listing), title: t('view_listing.link_text'), class: 'favorite-card-link') %>
+                <% end %>
+            </h1>
+        </header>
+
+        <div class="favorite-card-info">
+            <div class="favorite-card-photo-wrapper">
+                <% if listing.get_main_photo %>
+                    <% if can_contact(current_user, listing) %>
+                        <%= link_to(image_tag(listing.get_main_photo.image.size_170, width: 90, alt: listing.get_main_photo.caption, class: 'favorite-card-photo'), listing_url(listing), class: 'favorite-card-photo-link') %>
+                    <% else %>
+                        <div class="favorite-card-photo-block"><%= image_tag(listing.get_main_photo.image.size_170, width: 90, alt: listing.get_main_photo.caption, class: 'favorite-card-photo') %></div>
+                    <% end %>
+                <% else %>
+                    <% if can_contact(current_user, listing) %>
+                        <%= link_to(image_tag('photos-coming-soon-230.jpg', width: 90, alt: '', class: 'favorite-card-photo'), listing_url(listing), class: 'favorite-card-photo-link') %>
+<%= "has expired: #{has_expired(current_user.account)}. listing: #{listing.is_expired}" %>
+                    <% else %>
+                        <div class="favorite-card-photo-block"><%= image_tag('photos-coming-soon-230.jpg', width: 90, alt: '', class: 'favorite-card-photo') %></div>
+                    <% end %>
+                <% end %>
+
+                <div class="favorite-card-exchange-dates">
+                  <% if listing.open_for_exchange %>
+                    <% if listing.concat_exchange_dates.nil? %>
+                      <span><%= t('listings.label.no_exchange_dates_available') %></span>
+                    <% else %>
+                      <span><%= listing.concat_exchange_dates %> (<%= listing.exchange_dates.get_longest_duration %>)</span>
+                    <% end %>
+                  <% else %>
+                    <span><%= t('listing.label.not_available_for_exchange') %></span>
+                  <% end %>
+                </div>
+
+                <%- if user_signed_in? && had_interaction?(current_user, listing) -%>
+                  <p class="contacted-user"><%= image_tag('check.png', width: 10) %> <%= t("search_results.already_contacted") %></p>
+                <% end %>
+
+                <% if can_contact(current_user, listing) %>
+                    <button class="btn btn-small btn-success message-selector-btn" data-listing-id="<%= listing.id.to_s %>"><i class="icon-envelope icon-white"></i> <%=t('global.contact')%></button>
+                <% else
+                  badge = "expired"
+                  title = ""
+                  if (listing.open_past_listing)
+                    badge = "past_member"
+                    title = t('conversation.past_member_can_still_receive')
+                  end
+                %>
+                    <%= custom_account_status_badge(badge, title) %>
+                <% end %>
+            </div>
+            <div class="favorite-card-info-wrapper">
+                <h2 class="favorite-card-listing-headline"><%= listing.headline %></h2>
+                <ul class="favorite-sub-headline-list">
+                    <li><%= t('global.sleeps') %>: <%= listing.sleeping_capacity %></li>
+                    <li><%= t('global.adults') %>: <%= listing.account_adults %></li>
+                    <li><%= t('global.children') %>: <%= listing.account_children %></li>
+                </ul>
+                <p class="favorite-card-listing-description"><%= truncate(markdown_strip_all(listing.description), length: 280).html_safe %></p>
+                <div class="favorite-card-listing-label-cloud">
+                    <%= render(partial: '/member/listings/listing_label_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_attributes, listing: listing} ) %>
+                    <%= render(partial: '/member/listings/listing_label_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_rules, listing: listing} ) %>
+                    <%= render(partial: '/member/listings/listing_label_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_extras, listing: listing} ) %>
+                </div>
+            </div>
+        </div>
+        <%= render(partial: 'listings/message_selector', locals: {listing: listing}) %>
+        <%= form_tag(favorite_url(notes[listing.id.to_s][:id]), method: 'put', remote: true, class: 'favorite-card-note') do %>
+            <%= label_tag("favorite-note-#{listing.id}", t('global.notes')) %>
+            <%= text_area_tag('favorite[note]', notes[listing.id.to_s][:note], rows: 6, cols: 42, class: 'favorite-card-textarea', id: "favorite-note-#{listing.id}") -%>
+            <%= button_tag(t('button.save'), class: 'btn btn-small btn-primary') %>
+        <% end %>
+    </article>
+</div>

@@ -1,0 +1,14 @@
+var current_listing_image = $('#figure-block-<%= params[:id] %>');
+if(current_listing_image.siblings('.figure-block').length == 0) {
+    current_listing_image.replaceWith("<%= escape_javascript(render( partial: '/listing/images/no_images')) %>");
+}
+current_listing_image.css({'background-color' : '#ffa', 'border-color' : '#ffa'}).delay(300).fadeOut(400, function(event) {
+  $(this).remove();
+});
+
+<% if @was_main_photo %>
+if($('article.photo').length > 0) {
+  $('div#main-photo-wrapper').html("<%= escape_javascript(render( partial: 'listing/images/no_main_photo')) %>");
+}
+<% end %>
+<%= render(:partial => '/layouts/dashboards/ajax_notifications')%>

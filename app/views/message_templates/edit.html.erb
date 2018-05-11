@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'conversations/conversation_menu') %>
+  </div>
+
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: 'message_template_form', locals: {section_id: 'edit-message-template', header: t('message_templates.header.edit_message_templates')}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

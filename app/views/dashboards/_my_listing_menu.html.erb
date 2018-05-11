@@ -1,0 +1,9 @@
+<% current_user.account.listings.each do |listing| %>
+<h1 class="section-nav-header no-border"><%= t('dashboards.header.my_listing') %> - <%= listing.listing_number %></h1>
+<nav class="section-nav" role="primary">
+  <ul class="nav nav-tabs nav-stacked">
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.view_my_listing'), preview_listing_path(listing)) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.change_my_listing'), overview_listing_url(listing), target: "_blank") %></li>
+  </ul>
+</nav>
+<% end %>

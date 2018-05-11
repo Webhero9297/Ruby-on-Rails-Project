@@ -1,0 +1,29 @@
+==============================================
+New French Payment
+==============================================
+
+Made by
+----------------------------------------------
+<%= @user.name %>
+<%= @user.email %>
+
+
+Order details
+----------------------------------------------
+Currency:       <%= @order.currency %>
+Order number:   <%= @order.order_number %>
+Promotion code: <%= @order.promotion_code %>
+Upgrade:        <%= @order.upgrade %>
+Renewal:        <%= @order.renewal %>
+State:          <%= @order.state %>
+Total amount:   <%= @order.total_amount %>
+Completed at:   <%= @order.completed_at %>
+Created at:     <%= @order.created_at %>
+IP address:     <%= @order.ip_address %>
+
+
+Price plan details
+----------------------------------------------
+Name: <%= @price_plan.name %>
+Duration: <%= @price_plan.duration %> <%= @price_plan.periodicity %>
+Kind: <%= @price_plan.kind %>

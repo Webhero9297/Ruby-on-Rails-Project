@@ -1,0 +1,29 @@
+.national-representative {
+    @include span-columns(12);
+    @include respond-to(mid-screens) {
+        @include span-columns(4);
+    }
+}
+
+.national-representative-header {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.national-representative-address {
+    font-size: 0.875em;
+}
+
+.national-representative-image {
+    border: 1px solid #cccccc;
+    display: block;
+    margin: 0 0 1em 0;
+    padding: 0.5em;
+}
+
+.national-representative-name {
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,12 @@
+<%= form_tag(sort_member_filters_path, method: 'get', id: 'admin-show-country-members-form', class: 'form-inline well', remote: true) do %>
+  <fieldset>
+    <%= label_tag('assigned-country', 'Show members for') %>
+    <div>
+      <%= select_tag("country_codes[]", options_for_select([['All countries', 'all']].concat(@dropdown_countries.collect{ |c| [t(c.msgid), c.short] })), :prompt => "Select country", id: 'assigned-country', class: 'span8') %>
+      <%= button_tag("Show", class: 'btn btn-primary') %>
+    </div>
+  </fieldset>
+  <%= hidden_field_tag('filter', @filter) %>
+  <%= hidden_field_tag('direction', @direction) %>
+  <%= hidden_field_tag('sort_on', @sort_on) %>
+<% end %>

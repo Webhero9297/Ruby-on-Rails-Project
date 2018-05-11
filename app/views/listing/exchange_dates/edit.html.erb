@@ -1,0 +1,7 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('exchange_dates.header.edit_exchange_period') %></h1>
+    <%= render('exchange_date_form') %>
+  </div>
+</div>

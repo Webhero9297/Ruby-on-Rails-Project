@@ -1,0 +1,45 @@
+<%= render('dashboards/membership-menu') %>
+<section class="tab">
+  <div class="row-fluid">
+    <div class="span12">
+      <h1 class="page-header">Your family and lifestyle photos</h1>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <section class="span12">
+      <h2 class="section-header border-top"><%= t('accounts.header.family_photos') %></h2>
+      <p>Family photos are not visible for guest users unless specifically set to public visible</p>        
+      <div id="family-images">
+        <% if @family_images.count == 0 -%>
+        <%= render( partial: 'no_images') %>
+        <% end -%>
+        <div class="image-uploader well">
+          <p class="image-uploader"><%= t('accounts.profile.upload_family_photos') %></p>
+          <%= image_tag('upload-pointer.png', alt: '', class: 'upload-pointer') %>
+          <button id="family-upload" class="btn btn-primary pluploader" data-category="family" data-token="<%= form_authenticity_token %>" data-url="<%= account_profile_profile_images_url %>"><i class="icon-upload icon-white"></i><%= t('button.select_images') %></button>
+        </div>
+        <%= render( partial: 'profile_image', collection: @family_images, as: 'image' ) %>
+      </div>
+    </section>
+  </div>
+
+
+  <div class="row-fluid">
+    <section class="span12">
+      <h2 class="section-header border-top">Lifestyle photos</h2>
+      <div id="lifestyle-images">
+        <% if @lifestyle_images.count == 0 -%>
+        <%= render( partial: 'no_images') %>
+        <% end -%>
+        <div class="image-uploader well">
+          <p class="image-uploader"><%= t('accounts.profile.upload_lifestyle_photos') %></p>
+          <%= image_tag('upload-pointer.png', alt: '', class: 'upload-pointer') %>
+          <button id="lifestyle-upload" class="btn btn-primary pluploader" data-category="lifestyle" data-token="<%= form_authenticity_token %>" data-url="<%= account_profile_profile_images_url %>"><i class="icon-upload icon-white"></i><%= t('button.select_images') %></button>
+        </div>
+        <%= render( partial: 'profile_image', collection: @lifestyle_images, as: 'image' ) %>
+      </div>
+    </section>
+  </div>
+
+</section>

@@ -1,0 +1,8 @@
+<section class="mb20">
+  <div class="alert alert-info"><p class="alert-message"><%= t('dashboard.alerts.need_more_details_to_create_listing') %></p></div>
+  <h2 class="section-header"><%= t('dashboards.progress.header.membership_profile_completeness') %></h2>
+  <%= render(partial: 'layouts/progress_bar', :locals => { :progress => @account.get_progress } ) %>
+  <%= render(partial: 'dashboards/profile_progress', object: valid_profile, as: 'valid_profile', locals: {account: @account}) %>
+</section>
+<%# TODO is this file even used? %>
+<%# Seems like it since a error was generated from it. %>

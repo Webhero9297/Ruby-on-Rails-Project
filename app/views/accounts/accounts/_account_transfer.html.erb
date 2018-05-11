@@ -1,0 +1,10 @@
+<p>Transfer this account from one country to another. This will change the agent connection as well.</p>
+<%= form_tag(management_transfer_path(@account), method: :put, class: 'form-inline well is-inline') do %>
+  <div class="control-group">
+    <%= label_tag(:country, 'Transfer to Agent country', class: 'control-label') %>
+    <div class="controls">
+      <%= select('agent', 'country', @countries, {:include_blank => 'Select country'}) %>
+      <%= button_tag('Transfer', class: 'btn btn-primary') %>
+    </div>
+  </div>
+<% end %>

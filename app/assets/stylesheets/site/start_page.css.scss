@@ -1,0 +1,159 @@
+@import "mixins";
+div.case-tag {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    img.case-tag {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        max-width: 441px;
+        min-width: 441px;
+        width: 441px;
+        height: 174px;
+    }
+    a.case-tag {
+        position: absolute;
+        top: 64px;
+        left: 40px;
+        color: $orange;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+}
+
+article#national-representative {
+    
+    div {
+        width: 50%;
+        float: left;
+        
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+        
+        p {
+            padding: 0;
+            margin: 0 0 10px 10px;
+        }
+    }
+}
+
+img.presentation {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+article.endorsement {
+    
+    div {
+        padding: 5px;
+        border: 1px solid $standard-grey;
+    }
+    
+    h3 {
+        color: $orange;
+        font-size: 16px;
+        font-weight: normal;
+        text-transform: none;
+    }
+    
+    blockquote {
+        padding: 0;
+        margin-bottom: 10px;
+        border: 0;
+        line-height: 19px;
+        font-size: 13px;
+        font-style: italic;
+    }
+    
+    p {
+        text-align: right;
+        font-style: italic;
+        line-height: normal;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+div.start-page {
+    div.span-col8 {
+        width: 66%;
+        margin-right: 0;
+        margin: 0;
+    }
+    
+    div.span-col4 {
+        width: 32%;
+        margin-right: 0;
+        margin-left: 2%;
+    }
+    
+    div.span-col {
+        float: left;
+        width: 32%;
+        margin: 0;
+    }
+    
+    div.middle {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+img.map {
+    width: 100%;
+    height: auto;
+}
+
+article.listing {
+    width: 100%;
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $light-grey;
+    
+    div.image {
+        width: 40%;
+        float: left;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    div.location {
+        width: 60%;
+        float: left;
+        
+        p {
+            margin-left: 10px;
+            line-height: normal;
+        }
+        
+        span {
+            display: block;
+        }
+        span.location {
+            font-weight: bold;
+        }
+        
+    }
+    
+}
+
+div#video-modal {
+    width: 640px;
+    height: 360px;
+    padding: 10px;
+    overflow: hidden;
+}

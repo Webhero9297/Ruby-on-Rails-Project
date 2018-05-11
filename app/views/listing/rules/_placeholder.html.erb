@@ -1,0 +1,15 @@
+<article id="listing-rules">
+  <h2 class="plate-section-header"><%= t('listings.allow_disallow_children') %></h2>
+  <% if @listing.property_details.include?('tag.children_welcome') %>
+    <p class="mb20 ml10"><strong><%= t('listing.children_welcome') %></strong></p>
+  <% else %>
+    <p class="mb20 ml10"><strong><%= t('listing.children_not_welcome') %></strong></p>
+  <% end %>
+  
+  <h2 class="plate-section-header"><%= t('listings.allow_disallow_pets') %></h2>
+  <% if @listing.property_details.include?('tag.pets_welcome') %>
+    <p class="ml10"><strong><%= t('listing.pets_welcome') %></strong></p>
+  <% else %>
+    <p class="ml10"><strong><%= t('listing.pets_not_welcome') %></strong></p>
+  <% end %>
+</article>

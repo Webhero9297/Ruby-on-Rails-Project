@@ -1,0 +1,8 @@
+<%= render(partial: 'tab_menu') %>
+<%= form_tag(admin_translations_search_url, :method => 'get', :class => "form") do %>
+  <%= text_field_tag :term %>
+  <%= hidden_field_tag :locale, @locale %>
+  <%= button_tag "Search", :id => "submit", :name => "submit", :class => "form_submit", :disabled => false, :disable_with => t('button.please_wait') %>
+<% end -%>
+
+<%= render :partial => 'search_results_row'%>

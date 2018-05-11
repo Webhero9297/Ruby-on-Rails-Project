@@ -1,0 +1,181 @@
+$bg-orange: #ff7300;
+/*$orange: #e05800;*/
+
+$orange: #E9600F;
+$light-orange: #f9a01b;
+$yellow: #ffcb08;
+$light-green: #5AB9A4;
+$green: #008A82;
+$blue: #0063AA;
+$light-blue: #5097C3;
+$soft-grey: #F2F0E7;
+
+$nav-hover: #963b00;
+$link-color: #0782aa;
+$link-hover: #268e1a;
+$hover-green: #268e1a;
+$header-color: #454545;
+$white: #ffffff;
+$black: #000000;
+$row-color-odd: #f3f6fa;
+$delete-link: #cc0033;
+$standard-grey: #cccccc;
+$light-grey: #e5e5e5;
+$dark-grey: #6a6a6a;
+$purple: #9e5bdb;
+
+$danger-background: #f2dede;
+$danger-color: #b94a48;
+$danger-border: #eed3d7;
+
+$success-text: #468847;
+$information-text: #3A87AD;
+$warning-text: #C09853;
+$focus-yellow: #fffeec;
+
+// Specific public pages colors
+$dark-blue: #008fec;
+
+@mixin list-reset {
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+@mixin sans-serif {
+	font-family: arial, sans-serif;
+}
+
+@mixin inset($size: 0 0 3px, $color: #656565) {
+	box-shadow: inset $size $color;
+	-webkit-box-shadow: inset $size $color;
+	-mox-box-shadow: inset $size $color;
+}
+
+@mixin float($direction: left) {
+	float: $direction;
+}
+
+@mixin border-radius($radius: 5px) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin border-radius-corners($topleft: 0, $topright: 0, $bottomright: 0, $bottomleft: 0) {
+	-webkit-border-top-right-radius : $topright;
+	-webkit-border-bottom-right-radius : $bottomright;
+	-webkit-border-bottom-left-radius : $bottomleft;
+	-webkit-border-top-left-radius : $topleft;
+	-moz-border-radius-topright : $topright;
+	-moz-border-radius-bottomright : $bottomright;
+	-moz-border-radius-bottomleft : $bottomleft;
+	-moz-border-radius-topleft : $topleft;
+	border-top-right-radius : $topright;
+	border-bottom-right-radius : $bottomright;
+	border-bottom-left-radius : $bottomleft;
+	border-top-left-radius : $topleft;
+}
+
+@mixin linear-gradient {
+	background-color: #fafafa;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+}
+
+@mixin delete-gradient {
+	background-image: linear-gradient(bottom, rgb(168,0,0) 45%, rgb(199,30,30) 72%);
+	background-image: -o-linear-gradient(bottom, rgb(168,0,0) 45%, rgb(199,30,30) 72%);
+	background-image: -moz-linear-gradient(bottom, rgb(168,0,0) 45%, rgb(199,30,30) 72%);
+	background-image: -webkit-linear-gradient(bottom, rgb(168,0,0) 45%, rgb(199,30,30) 72%);
+	background-image: -ms-linear-gradient(bottom, rgb(168,0,0) 45%, rgb(199,30,30) 72%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.45, rgb(168,0,0)), color-stop(0.72, rgb(199,30,30)));
+}
+
+@mixin button-hover {
+	color: $hover-green;
+	text-decoration: none;
+	background-color: $white;
+	background-image: none;
+	@include box-shadow(0, 0, 2px, #0782aa);
+}
+
+@mixin active-button {
+	color: $link-hover;
+	@include box-shadow-none;
+}
+
+@mixin box-shadow($y_cord: 1px, $x_cord: 1px, $spread: 3px, $color: #a9a9a9) {
+	-webkit-box-shadow: $y_cord $x_cord $spread $color;
+	-moz-box-shadow: $y_cord $x_cord $spread $color;
+	-o-box-shadow: $y_cord $x_cord $spread $color;
+	-ms-box-shadow: $y_cord $x_cord $spread $color;
+	box-shadow: $y_cord $x_cord $spread $color;
+}
+
+@mixin box-shadow2($y_cord: 1px, $x_cord: 1px, $dist: 5px, $spread: 3px, $color: #a9a9a9) {
+	-webkit-box-shadow: $y_cord $x_cord $dist $spread $color;
+	-moz-box-shadow: $y_cord $x_cord $dist $spread $color;
+	-o-box-shadow: $y_cord $x_cord $dist $spread $color;
+	-ms-box-shadow: $y_cord $x_cord $dist $spread $color;
+	box-shadow: $y_cord $x_cord $dist $spread $color;
+}
+
+@mixin text-shadow($h_shadow, $v_shadow, $blur, $color) {
+	text-shadow: $h_shadow $v_shadow $blur $color;
+}
+
+
+@mixin box-shadow-none {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	box-shadow: none;
+}
+
+@mixin alert-colors {
+	color: #b94a48;
+	background-color: #f2dede;
+	border: 1px solid #e67a6c;
+}
+
+@mixin box-sizing {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin transition($transition) {
+	-webkit-transition: $transition;  
+	-moz-transition:    $transition;
+	-ms-transition:     $transition; 
+	-o-transition:      $transition;  
+}
+
+@mixin rotate($deg: 0) {
+    /* Safari */
+    -webkit-transform: rotate(#{$deg}deg);
+
+    /* Firefox */
+    -moz-transform: rotate(#{$deg}deg);
+
+    /* IE */
+    -ms-transform: rotate(#{$deg}deg);
+
+    /* Opera */
+    -o-transform: rotate(#{$deg}deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}

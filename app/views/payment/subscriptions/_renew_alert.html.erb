@@ -1,0 +1,20 @@
+<% if time_for_renewal(account) %>
+  <div class="alert alert-warning">
+    <%= markdown( t('payment.subscriptions.alert.message.memerbship_about_expire_why_not_renew_membership_today', {:DAYS_UNTIL_EXPIRE => account.days_until_expire }) )%>
+    <%= link_to(t('link.renew_membership'), renew_subscriptions_url, class: 'btn-link') %>
+  </div>
+<% end %>
+
+<% if has_expired(account) %>
+  <div class="alert alert-danger">
+    <p class="alert-message"><%= t('payment.subscriptions.alert.message.memerbship_has_expired_why_not_renew_membership_today') %></p>
+    <%= link_to(t('link.renew_membership'), renew_subscriptions_url, class: 'btn-link') %>
+  </div>
+<% end %>
+
+<% if early_renewal(account) %>
+  <div class="alert alert-success">
+    <%= markdown(t('payment.subscriptions.alert.message.early_renewal', {:DAYS_UNTIL_EXPIRE => account.days_until_expire }))%>
+    <%= link_to(t('link.renew_membership'), renew_subscriptions_url, class: 'btn-link') %>
+  </div>
+<% end %>

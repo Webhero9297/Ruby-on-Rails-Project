@@ -1,0 +1,5 @@
+var favorite_card = $('#favorite-card-<%= @listing_id %>')
+favorite_card.css({'background-color' : '#F8F8CF'}).delay(300).fadeOut(400, function(event) {
+  $(this).remove();
+});
+<%= render(:partial => '/layouts/dashboards/ajax_notifications')%>

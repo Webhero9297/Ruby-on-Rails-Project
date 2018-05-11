@@ -1,0 +1,161 @@
+@import "mixins";
+div.countries {
+	width: 884px;
+	margin: 0 0 30px 0;
+	border-top: 1px solid $light-grey;
+	border-left: 1px solid $light-grey;
+	float: left;
+}
+
+div.country {
+	border-bottom: 1px solid $light-grey;
+	border-right: 1px solid $light-grey;
+	float: left;
+}
+
+a.country {
+	display: block;
+	width: 180px;
+	height: 32px;
+	margin: 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #222222;
+	float: left;
+	&.country:hover {
+		color: #18670f;
+		background-color: #e8feee;
+		text-decoration: none;
+	}
+}
+
+img.country-flag {
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+
+span.country-name {
+	display: inline-block;
+	padding: 0;
+	width: 124px;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+div.country-agents {
+	clear: both;
+}
+
+article.contact-agent {
+	width: 100%;
+	padding: 20px 0;
+	margin: 0;
+	border-top: 1px solid $light-grey;
+}
+
+
+h2.agent-country {
+	margin: 0 0 10px 34px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+div.contact-information {
+	margin-bottom: 20px;
+	line-height: 21px;
+}
+
+div.country-agent {
+	display: inline;
+	width: 240px;
+	margin-right: 20px;
+	text-align: center;
+	float: left;
+	padding-bottom: 20px;
+}
+
+div.country-agent-information {
+	display: inline;
+	float: left;
+	width: auto;
+	height: 320px;
+}
+
+ul.agent-contact-info {
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 14px;
+	}
+}
+
+img.contact-agent {
+	margin: 0 0 4px 0;
+	padding: 6px;
+	border: 1px solid #cccccc;
+}
+
+span.agent-name {
+	display: block;
+	margin: 0 0 14px 0;
+	font-size: 13px;
+}
+
+div.contact-button {
+	margin-bottom: 14px;
+}
+
+a.back-to-flags {
+	display: inline-block;
+	margin: 0 0 4px 0;
+	padding: 3px 3px 3px 24px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #999999;
+	&:hover {
+		color: #257b07;
+		text-decoration: underline;
+	}
+}
+
+
+ul.national-representative {
+	margin: 0 0 8px 0;
+	padding: 8px 0 0 0;
+	li {
+		margin: 0 0 4px 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+img.national-representative {
+	display: block;
+	margin: 0 0 6px 0;
+	padding: 0;
+	border: 1px solid #757575;
+}
+
+section#local-representative {
+	padding: 10px;
+	font-size: 13px;
+	border: 1px solid $light-grey;
+	h2 {
+		font-size: 15px;
+		font-weight: bold;
+	}
+	span {
+		font-size: 13px;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	div.countries {
+		width: 1105px;
+	}	
+}

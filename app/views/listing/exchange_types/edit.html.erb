@@ -1,0 +1,47 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>  
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('listings.header.set_your_exchange_types') %></h1>
+  </div>
+</div>
+
+<div class="row">
+
+  <%= form_for(@listing, url: member_listing_exchange_type_url, html: {id: 'listing-form', class: 'span12'}) do |f| %>
+    <% if @listing.errors.any? %>
+      <div id="error_explanation">
+        <h2 class="section-header"><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+        <ul>
+          <% @listing.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="row">
+      <div class="well span11">
+        <fieldset>
+          <ul class="attributes">
+            <% @exchange_types.each do |exchange_type| %>
+              <li>
+                <%= hidden_field_tag("listing[exchange_types][#{exchange_type.msgid}]", false) %>
+                <%= check_box_tag("listing[exchange_types][#{exchange_type.msgid}]", true, @listing.exchange_types.include?(exchange_type.msgid), id: "listing-tag-#{exchange_type.short}", class: 'checkbox') %>
+                <%= label_tag("listing-tag-#{exchange_type.short}", t(exchange_type.msgid)) %>
+              </li>
+            <% end %>
+          </ul>
+        </fieldset>
+      </div>
+    </div>
+
+    <div class="row-fluid">
+      <div class="span12">
+        <fieldset class="form-actions">
+          <%= f.button('Save exchange types', class: 'btn btn-primary') %>
+        </fieldset>
+      </div>
+    </div>
+  <% end %>
+
+</div>

@@ -1,0 +1,17 @@
+<%= form_for(@account, url: account_spoken_languages_url(@account), remote: true, html: {id: 'spoken-languages-form', class: 'form-vertical'}) do |f| %>
+  <fieldset>
+    <ul id="spoken-languages">
+    <% @languages.each do |language| %>
+        <li>
+          <%= check_box_tag("spoken_languages][]", language.msgid, @account.profile.spoken_languages.include?(language.msgid), id: "lang-#{language.short}", class: "check-box inline") %>
+          <%= label_tag("lang-#{language.short}", t(language.msgid), class: "inline") %>
+        </li>
+    <% end -%>
+    </ul>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_account_spoken_languages_url(@account), remote: true, class: 'btn btn-link') %>
+  </fieldset>
+<% end %>

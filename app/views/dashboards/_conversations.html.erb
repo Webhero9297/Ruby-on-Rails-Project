@@ -1,0 +1,6 @@
+<% if @unread_messages > 0 %>
+<section class="alert alert-info">
+  <h1 class="alert-heading"><%= t('global.messages') %></h1>
+  <p class="alert-message"><%= link_to(t('dashboards.alert.message.you_have', {:number_of_messages => @unread_messages}), conversations_url) %></p>
+</section>
+<% end -%>

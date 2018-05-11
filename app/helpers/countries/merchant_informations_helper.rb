@@ -1,0 +1,2 @@
+module Countries::MerchantInformationsHelper
+end

@@ -1,0 +1,12 @@
+<h2 class="sidebar-header"><%= t('search_results.listings.per_page') %></h2>
+<ul class="unstyled">
+  <li>
+    <% SearchesController::PER_PAGE.each do |per_page| %>
+      <%= label_tag "per_page", for: "id-#{per_page}", class:"radio" do %>
+        <%= radio_button_tag("per_page", per_page, SearchesController::PER_PAGE.first == per_page ? true : false,
+                             id: "id-#{per_page}", class: "preference-filter") %>
+                             <%= per_page %>
+      <% end %>
+    <% end %>
+  </li>
+</ul>

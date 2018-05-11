@@ -1,0 +1,5 @@
+<% if rules_filter.include?(property_detail.msgid) -%>
+  <% if listing.property_details.include?(property_detail.msgid) %>
+    <span class="listing-label"><%= t(property_detail.msgid) %></span>
+  <% end %>
+<% end -%>

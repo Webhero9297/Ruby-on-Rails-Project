@@ -1,0 +1,14 @@
+<% body_id 'countries' %>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: 'countries/management_menu', locals: {country: @country}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= @automated_message.name %></h1>
+        <%= render(partial: 'automated_messages_form_for_country') %>
+      </div>
+    </div>
+  </div>
+</div>

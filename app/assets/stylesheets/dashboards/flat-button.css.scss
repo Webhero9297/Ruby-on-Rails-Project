@@ -1,0 +1,87 @@
+@import 'base/variables';
+
+.flat-btn {
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-size: 14px;
+
+    &:focus {
+        outline: 0;
+    }
+
+    &.small {
+        font-size: 13px;
+        pading: 3px 9px;
+    }
+
+    &.xl {
+        font-size: 16px;
+        padding: 9px 18px;
+    }
+
+    &.green {
+        background-color: $green;
+        color: $white;
+        &:hover {
+            background-color: #0a9478;
+        }
+    }
+
+    &.yellow {
+        background-color: $yellow;
+        color: $white;
+
+        &:hover {
+            background-color: #ff9900;
+        }
+    }
+
+    &.blue {
+        background-color: $light-blue;
+        color: $white;
+
+        &:hover {
+            background-color: $dark-blue;
+        }
+    }
+
+    &.white {
+        border-color: #ccc;
+        color: #757575;
+
+        &:hover {
+            border-color: $dark-green;
+            color: $dark-green;
+        }
+    }
+
+    &.orange {
+        background-color: #FF8310;
+        color: $white;
+
+        &:hover {
+            background-color: #E95D00;
+        }
+    }
+
+    &.drop-down {
+        background-image: image-url('button-dropdown.png');
+        background-repeat: no-repeat;
+        background-position: 89% 50%;
+        padding-right: 34px;
+    }
+
+}

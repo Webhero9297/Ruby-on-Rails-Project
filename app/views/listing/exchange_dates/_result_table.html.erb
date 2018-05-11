@@ -1,0 +1,36 @@
+<% if @listing.exchange_dates.empty? -%>
+  <div class="alert alert-info">
+    <p class="alert-message"><%= t('exchange_dates.alert_message.why_not_add_some_dates') %></p>
+  </div>
+<% else -%>
+  <table id="exchange-dates" class="table table-striped">
+    <thead>
+      <tr>
+        <th class="dates"><%= t('exchange_dates.earliest_date') %></th>
+        <th class="dates"><%= t('exchange_dates.latest_date') %></th>
+        <th class="length-of-stay"><%= t('exchange_dates.label.length_of_stay') %></th>
+        <th class="notes"><%= t('global.notes') %></th>
+        <th class="action"><%= t('global.edit') %></th>
+        <th class="action"><%= t('global.remove') %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% listing.exchange_dates.each do |date| %>
+      <tr id="date-<%= date.id %>">
+        <td><%= exchange_date(date.earliest_date) %></td>
+        <td><%= exchange_date(date.latest_date) %></td>
+        <td><%= date.length_of_stay %> <%= t("global.#{date.periodicity}") %></td>
+        <td><% if date.note.blank? %>&nbsp;<% else %><a href="#" class="note-popover" data-placement="top" data-content="<%= date.note %>"><%= t('global.view') %></a><% end %></td>
+        <td><%= link_to( content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_listing_exchange_date_url(listing, date), remote: true) %></td>
+        <td><%= link_to(content_tag('i','', class: 'icon-trash') + ' ' + t('global.remove'), listing_exchange_date_url(listing, date), method: :delete, remote: true, confirm: t('exchange_dates.sure_you_want_to_delete_period')) %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+<% end -%>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('.note-popover').popover();
+});
+
+</script>

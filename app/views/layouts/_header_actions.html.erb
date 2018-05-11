@@ -1,0 +1,30 @@
+<div class="header-actions">
+  <ul class="header-action-menu">
+    <%- if user_signed_in? -%>
+      <li class="dropdown">
+        <a class="flat-btn xl white drop-down" data-toggle="dropdown" href="#" id="language-menu">
+          <%= t('global.language') %>
+        </a>
+        <ul class="dropdown-menu">
+          <%= languages_for_country %>
+        </ul>
+      </li>
+      <li>
+        <%= link_to(t('button.dashboard'), member_dashboard_path, class: 'flat-btn xl orange') %>
+      </li>
+      <li><%= link_to(t('button.log_out'), logout_path, class: 'flat-btn xl') %></li>
+    <%- else -%>
+      <li class="dropdown">
+        <a class="flat-btn xl white drop-down" data-toggle="dropdown" href="#" id="language-menu">
+          <%= t('global.language') %>
+        </a>
+        <ul class="dropdown-menu">
+          <%= languages_for_country %>
+        </ul>
+      </li>
+      <%= link_to(login_path, class: 'btn xl icon-user') do %>
+        <i class="fa fa-user"></i><%= t('navigation.header.login') %>
+    <% end %>
+  <% end %>
+  </ul>
+</div>

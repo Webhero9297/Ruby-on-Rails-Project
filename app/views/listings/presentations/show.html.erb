@@ -1,0 +1,22 @@
+<% body_id 'listings' %>
+<div class="row">
+    <div class="span3">
+        <%= render(partial: 'listings/change_my_listing_menu', locals: {listing: @listing}) %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <%= render(partial: '/layouts/modules/screen_header', locals: {header: "#{t('listing.home.photos_and_text_header')} - #{@listing.listing_number}", body_text: t('listings.home_photos_body_text')}) %>
+            <%= render(partial: "placeholder", locals: {listing: @listing, header: t('listings.home_description_text'), section_id: 'home-text'}, layout: '/layouts/modules/plate_section') %>
+            <%= render(partial: "home_figure_blocks", locals: {listing_images: @listing_images, listing: @listing, header: t('listing.home.photos_header'), section_id: 'home-images'}, layout: '/layouts/modules/plate_section') %>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('.pluploader').each(function () {
+            enable_image_upload(this);
+        });
+        enable_image_sorting('listing');
+    });
+</script>

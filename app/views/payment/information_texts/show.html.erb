@@ -1,0 +1,28 @@
+<% body_id 'payment' %>
+<div class="row-fluid">
+  <div class="span12">
+    <nav id="section-nav" role="secondary">
+      <%= render(partial: '/payment/payment_settings_menu') %>
+    </nav>
+  </div>
+</div>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Payment Information Texts</h1>
+        <p>Payment instructions for all kind of off-line payments. The text will be saved for all countries assigned to the agent. <strong>Leave empty if offline payment is not allowed.</strong></p>
+        
+        <%= form_tag('/payment/information/text', method: :put, html: {class: 'form-vertical'}) do %>
+          <fieldset class="form-group">
+            <%= text_area_tag('information_text', @info_text, rows: 12, cols: 52, class: 'span12') %>
+          </fieldset>
+
+          <fieldset class="form-actions">
+            <%= button_tag('Save text', class: 'btn btn-primary') %>
+          </fieldset>
+        <% end %>
+      </div>
+    </div> 
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div id="co-member-placeholder">
+  <div class="mb10">
+    <% if can_add_family_member(@account.id) %>
+    <p><%= link_to(content_tag('i','', class: 'icon-plus') + ' ' + t('accounts.co_member.label.invite_member'), new_account_co_member_url(@account), remote: true, class: 'btn btn-small') %></p>
+    <div class="alert alert-success">
+      <p class="alert-message"><%= t('accounts.add_co_member') %></p>
+    </div>
+    <% else -%>
+    <div class="alert alert-info">
+      <p class="alert-message"><%= t('accounts.profile.alert.message.limit_for_co_members') %></p>
+    </div>
+    <% end -%>
+  </div>
+  <table id="co-members-table" class="table">
+    <thead>
+      <tr>
+        <th><%= t('accounts.connected_family_members') %></th>
+        <th colspan="2"><%= t('accounts.account_role') %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @account.users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <% if user.id == @account.account_owner -%>
+          <td colspan="2"><%= t('global.owner') %></td>
+        <% else -%>
+          <td><%= t('accounts.label.family_user') %></td>
+          <td><%= link_to(content_tag('i','', class: 'icon-trash') + ' ' + 'Remove', account_co_member_path(@account, user.id), method: :delete, remote: true, confirm: t('profile.confirm_user_deletion')) %></td>
+        <% end %>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

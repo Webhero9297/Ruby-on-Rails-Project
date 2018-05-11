@@ -1,0 +1,21 @@
+<div class="info-window">
+  <h2 class="info-window-city"><%= listing.postal_town %></h2>
+  <span class="info-window-country"><%= region_display(listing) %></span>
+
+  <div class="info-window-photo-container">
+    <% if listing.get_main_photo %>
+      <%= link_to(image_tag(listing.get_main_photo.image.size_170, width: 170, alt: listing.get_main_photo.caption, class: "info-window-photo"), listing_url(listing)) %>
+    <% else %>
+      <%= link_to(image_tag('photos-coming-soon-230.jpg', width: 170, alt: '', class: "info-window-photo"), listing_url(listing)) %>
+    <% end %>
+  </div>
+
+  <p class="headline"><%= listing.headline %></p>
+  <div class="footer">
+    <%- if user_signed_in? && had_interaction?(current_user, listing) -%>
+      <p class="contacted-user"><%= image_tag('check.png', width: 10) %> <%= t("search_results.already_contacted") %></p>
+    <% end %>
+    <%= act_as_favorite(listing) %>
+    <span class="link-container"><%= link_to("#{t('global.view')} #{listing.listing_number}", listing_url(listing), target: :_blank) %></span>
+  </div>
+</div>

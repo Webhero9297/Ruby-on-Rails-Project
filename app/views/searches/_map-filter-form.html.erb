@@ -1,0 +1,12 @@
+<%= form_tag(searches_map_search_url, method: 'get', id: "search-form") do %>
+<%= hidden_field_tag('destination_form', @destination)%>
+<%= hidden_field_tag('ne_lat', @ne_lat)%>
+<%= hidden_field_tag('ne_lng', @ne_lng)%>
+<%= hidden_field_tag('sw_lat', @sw_lat)%>
+<%= hidden_field_tag('sw_lng', @sw_lng)%>
+<%= hidden_field_tag('lat', @lat)%>
+<%= hidden_field_tag('lng', @lng)%>
+<%= hidden_field_tag('zoom', @zoom)%>
+<%= hidden_field_tag('country_short', @country_short)%>
+	<%= yield %>
+<% end %>

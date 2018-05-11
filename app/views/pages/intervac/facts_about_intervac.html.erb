@@ -1,0 +1,35 @@
+<% body_id 'about-intervac' %>
+<% page_title t('visinfo_facts_about_intervac.page.headline') %>
+<% page_description t('visinfo_facts_about_intervac.page.headline') + " - " + t('visinfo_facts_about_intervac.page.subhead') %>
+<% page_keywords t('seo.keyword_set.visinfo.facts_about_intervac') %>
+<% section_image 'section-image-7' %>
+
+
+<div class="row">
+    <%= render(:partial => 'pages/intervac/sub_menu') %>
+    <article class="page-content">
+        <h1 class="page-content-header">
+            <span class="page-content-header-label">
+                <%= t('visinfo_facts_about_intervac.page.headline') %>
+            </span>
+        </h1>
+
+        <h2><%= t('visinfo_facts_about_intervac.page.subhead') %></h2>
+        <p><%= t('visinfo_facts_about_intervac.page.introtext') %></p>
+
+        <h2><%= t('visinfo_facts_about_intervac.cultural.headline') %></h2>
+        <p><%= t('visinfo_facts_about_intervac.intervac_history.text', :total_number_of_members => total_number_of_members) %></p>
+        <p><%= t('visinfo_facts_about_intervac.intervac_history.name') %></p>
+        <p><%= link_in_translation(t('visinfo_facts_about_intervac.intervac_around_the_world.text', :total_number_of_members => total_number_of_members, :number_of_agent_countries => number_of_agent_countries), representatives_url)  %></p>
+
+        <h2><%= t('visinfo_facts_about_intervac.our_members.headline') %></h2>
+        <p><%= t('visinfo_facts_about_intervac.our_members.text') %></p>
+
+        <h2><%= t('visinfo_facts_about_intervac.exchange_types.headline') %></h2>
+        <ul>
+            <li><%= t('visinfo_facts_about_intervac.exchange_types_list.home_exchange') %></li>
+            <li><%= t('visinfo_facts_about_intervac.exchange_types_list.bed_and_breakfast') %></li>
+            <li><%= t('visinfo_facts_about_intervac.exchange_types_list.rental') %></li>
+        </ul>
+    </article>
+</div>

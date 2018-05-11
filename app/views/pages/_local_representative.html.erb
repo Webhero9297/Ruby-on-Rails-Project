@@ -1,0 +1,9 @@
+<article id="local-representatives" class="mb40">
+    <div>
+        <h2 class="box"><%= t('homepage.national_representatives.headline') %></h2>
+        <p><%= t('homepage.national_representatives.text', :national_representative => national_representative, :agent_country_name => agent_country_name) %></p>
+        <%# get_agent_image_for_country(session[:visitor_country] ? session[:visitor_country] : 'OC') %>
+        <img src="/images/agent_photos/FR.jpg" width="120" height="120" alt="Kristina Caillaud" />
+    </div>
+    <%= link_to(t('homepage.national_representatives.button'), representatives_url, :title => t('homepage.national_representatives.button'), :id => 'representatives', :class => "btn btn-success") %>
+</article>

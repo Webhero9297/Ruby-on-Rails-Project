@@ -1,0 +1,2 @@
+module Agent::ConversationsHelper
+end

@@ -1,0 +1,34 @@
+<article>
+    <%= render(partial: 'listings/show/show_listing_header') %>
+    <div class="row mb3">
+        <section class="split">
+            <%= render(partial: 'listings/show/show_listing_photo_gallery') %>
+        </section>
+
+        <section class="split">
+            <%= render(partial: 'listings/show/show_listing_open_for_exchange') %>
+            <div class="membership-badge-container">
+                <%= membership_badge(@listing) %>
+                <% if @listing.account.joined_at.present? %>
+                  <div class='member-since'>
+                    <%= image_tag 'badges/calendar.png', class: 'calendar' %>
+                    <div class='member-text'>
+                      <p class='member-since'><%= t('badge.member_since') %></p>
+                      <span class='member-since-year'><%= @listing.account.joined_at.year %></span>
+                    </div>
+                  </div>
+                <% end %>
+            </div>
+            <%= render(partial: 'listings/show/show_listing_exchange_dates') %>
+            <%= render(partial: 'listings/show/show_listing_interaction_history_notification', locals: {last_interaction: @last_interaction}) if show_listing_interaction_history(@last_interaction, current_user, @listing) %>
+            <%= render(partial: 'listings/show/show_listing_actions') %>
+            <%= render(partial: 'listings/show/show_listing_presentation') %>
+        </section>
+    </div>
+
+    <div class="row">
+        <section class="wide">
+            <%= render(partial: 'listings/show/show_listing_tabs') %>
+        </section>
+    </div>
+</article>

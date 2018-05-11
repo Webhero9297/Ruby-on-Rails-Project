@@ -1,0 +1,2 @@
+$('div#contact-restrictions').html("<%= escape_javascript(render(partial: '/accounts/contact_restrictions/form')) %>");
+$('.cancel-edit-contact-restrictions').replaceWith("<%= escape_javascript(link_to(t('global.cancel'), "#", class: 'cancel-contact-restrictions')) %>");

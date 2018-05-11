@@ -1,0 +1,20 @@
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Upgrade a member from trial to full membership</h1>
+        <p>You are about to renew the membership subscription for <strong><%= @contact.name %> - <%= @contact.email %></strong></p>
+
+        <ul>
+          <% @account.listings.each do |listing| %>
+            <li><%= listing.listing_number %></li>
+          <%- end -%>
+        </ul>
+
+        <div>
+          <%= render(partial: 'upgrade_and_renewal_form') %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

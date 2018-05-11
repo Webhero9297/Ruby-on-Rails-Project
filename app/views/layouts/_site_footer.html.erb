@@ -1,0 +1,49 @@
+<footer class="site-footer">
+    <% if show_menu? %>
+        <div class="site-footer-body">
+            <div class="site-footer-col">
+                <h4 class="site-footer-header"><%= t('navigation.footer.contact_headline') %></h4>
+                <ul class="site-footer-list">
+                    <li><%= link_to(t('sitewide.continents.asia'), representatives_url(:anchor => 'asia'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('sitewide.continents.africa'), representatives_url(:anchor => 'africa'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('sitewide.continents.europe'), representatives_url(:anchor => 'europe'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('sitewide.continents.oceania'), representatives_url(:anchor => 'oceania'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('sitewide.continents.north_america'), representatives_url(:anchor => 'north-america'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('sitewide.continents.south_america'), representatives_url(:anchor => 'south-america'), class: 'site-footer-link') %></li>
+                </ul>
+            </div>
+            <div class="site-footer-col">
+                <h4 class="site-footer-header">intervac-homeexchange.com</h4>
+                <ul class="site-footer-list">
+                    <li><%= link_to(t('navigation.footer.start_page'), root_url, title: t('navigation.public_navigation.home_title'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('navigation.footer.listings'), searches_index_path, title: t('navigation.public_navigation.listings_title'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('navigation.footer.what_is_home_exchange'), what_is_home_exchange_url, title: t('navigation.public_navigation.what_is_home_exchange_title'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('navigation.footer.about_intervac'), facts_about_intervac_url, title: t('navigation.public_navigation.about_us_title'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('feedback.link_text'), new_feedback_url, title: t('sitewide.feedback.link_title'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('navigation.footer.intervac_blog'), 'http://blog.intervac-homeexchange.com', title: t('navigation.navigation.public_navigation.blog_title'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('navigation.footer.newsletter'), new_newsletter_path, title: t('navigation.footer.newsletter'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('navigation.footer.join_text'), price_plans_url, title: t('navigation.public_navigation.join_link_title'), class: 'site-footer-link') %></li>
+                </ul>
+            </div>
+            <div class="site-footer-col">
+                <h4 class="site-footer-header"><%= t('navigation.footer.legal_headline') %></h4>
+                <ul class="site-footer-list">
+                    <li><%= link_to(t('navigation.footer.terms_of_use'), terms_of_use_url, title: t('navigation.footer.terms_of_use_title'), class: 'site-footer-link') %></li>
+                    <li><%= link_to(t('navigation.footer.privacy_policy'), privacy_policy_url, title: t('navigation.footer.privacy_policy_title'), class: 'site-footer-link') %></li>
+                </ul>
+                <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+            </div>
+        </div>
+        <ul class="social-media">
+			<li><%= link_to('', 'https://www.facebook.com/IntervacHomeexchange', title: 'Facebook', class: 'facebook', :target => "_blank" ) %></li>
+			<li><%= link_to('', 'https://www.twitter.com/intervacblog', title: 'Twitter', class: 'twitter', :target => "_blank" ) %></li>
+			<li><%= link_to('', 'https://plus.google.com/+intervac', title: 'Google+', class: 'googleplus', :target => "_blank" ) %></li>
+			<li><%= link_to('', 'https://www.pinterest.com/intervacblog', title: 'Pinterest', class: 'pinterest', :target => "_blank" ) %></li>
+       	</ul>
+    <% end %>
+    <div class="site-footer-body">
+        <div class="copyright<%= show_menu? ? '' : ' no-border' -%>">
+            <span class="copyright-text">Copyright &copy; <%= Time.now.year %> Intervac International. All rights reserved.</span>
+        </div>
+    </div>
+</footer>

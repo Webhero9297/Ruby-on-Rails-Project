@@ -1,0 +1,27 @@
+@import "mixins";
+.listing-header {
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0 0 14px 0;
+    padding: 0 120px 6px 0;
+    border-bottom: 1px solid $light-orange;
+    color: #1297CA;
+}
+
+.listing-header-number {
+    font-size: 16px;
+}
+
+.listing-header-updated {
+    text-align: right;
+}
+
+.listing-section-header {
+    background-color: #ffd479;
+    color: #834809;
+    font-size: 14px;
+    padding: 6px 10px;
+    margin: 0 0 10px 0;
+    @include border-radius(3px);
+}

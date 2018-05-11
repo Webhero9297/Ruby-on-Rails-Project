@@ -1,0 +1,73 @@
+  <% if @automated_message.errors.any? %>
+    <section id="error-explanation" class="alert alert-danger">
+      <h1 class="alert-heading"><%= pluralize(@automated_message.errors.count, "error") %> from being saved</h1>
+      <ul class="error-explanation">
+      <% @automated_message.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </section>
+  <% end %>
+
+  <fieldset>
+    <%= f.label(:kind, 'Kind of message', for: 'message-kind') %>
+    <%= f.select(:kind, @message_types, { :prompt => 'Select message kind' }, {id: 'message-kind', class: 'form-control'}) %>
+
+    <div id="message-section">
+      <%= f.label(:subject, 'Message subject - Only used on the mail subject header, not in the actual message body', for: 'message-subject') %>
+      <%= f.text_field(:subject, class: 'span12', id: 'message-subject') %>
+
+      <%= f.label(:message, 'Message body content - Markdown is supported', for: 'message-body') %>
+      <%= f.text_area(:message, rows: 16, class: 'span12', id: 'message-body') %>
+
+      <button type="button" class="btn" id="btn-preview">Preview message</button>
+    </div>
+
+    <h2 class="section-header">Placeholders available for this message. Additional placeholders have to be requested by the board.</h2>
+    <p id="placeholders" class="alert alert-info"><%= @placeholders %></p>
+  </fieldset>
+
+  <fieldset>
+    <h2 class="section-header">Settings</h2>
+    <%= f.label(:days, 'Number of days before or after the event the message should be sent', for: 'message-days') %>
+    <%= f.text_field(:days, maxlength: 3, class: 'span1', id: 'message-days') %>
+  </fieldset>
+
+  <fieldset>
+    <h2 class="section-header">Should be used for the following countries</h2>
+    <p><button id="btn-select-all" class="btn btn-small" type="button">Select all countries</button> <button id="btn-deselect-all" class="btn btn-small" type="button">Deselect all countries</button></p>
+    <% @countries.each do |country| %>
+        <%= f.label(:countries, for: "country-#{country[1]}", class: 'checkbox') do %>
+            <%= check_box_tag('automated_message[countries][]', country[1], @automated_message.countries.include?(country[1]), id: "country-#{country[1]}", class: 'country-check-box') %>
+            <%= country[0] %>
+        <% end %>
+    <% end %>
+  </fieldset>
+
+  <fieldset>
+    <h2 class="section-header">Receive a email copy of the message</h2>
+    <%= f.label(:send_copy_to_agent, for: 'send-copy-true', class: 'radio') do %>
+      <%= f.radio_button(:send_copy_to_agent, true, id: 'send-copy-true') %>
+      yes
+    <% end %>
+
+    <%= f.label(:send_copy_to_agent, for: 'send-copy-false', class: 'radio') do %>
+      <%= f.radio_button(:send_copy_to_agent, false, id: 'send-copy-false') %>
+      no
+    <% end %>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.submit('Save', class: 'btn btn-primary') %>
+    <%- if agent_session? -%>
+      <%= link_to('Cancel', automated_messages_path) %>
+    <%- else -%>
+      <%= link_to('Cancel', for_country_automated_messages_path(@country)) %>
+    <%- end -%>
+  </fieldset>
+
+  <script type="text/javascript">
+      automated_messages_select_deselect();
+      automated_messages_kind();
+      automated_messages_preview_actions();
+  </script>

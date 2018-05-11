@@ -1,0 +1,30 @@
+
+<div class="row">
+  <div class="span12">
+
+    <h1 class="page-header"><%= t('accounts.header.incomplete_header') %></h1>
+    
+    <p><%= t('accounts.profiles.incomplete.account_owner_has_not_completed_the_final_registration') %></p>
+    
+    <% if permitted_to?(:terminate, :accounts_accounts) and current_user.account != @account then %>
+    <div class="row-fluid mb10">
+      <div class="span12">
+        <section class="group">
+        <h1><%= t('accounts.account_termination') %></h1>
+        <div class="content">
+          <div class="alert alert-info mt20">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Headsup!</strong> You can terminate this account because you're an agent.
+          </div>
+          <p><%= t('accounts.phrases.terminate_warning_with_no_recover') %></p>
+          <p><%= link_to('Terminate account', terminate_account_url(@account), class: 'btn btn-danger', confirm: t('account.confirm_termination')) %></p>
+        </div>
+        </section>
+      </div>
+    </div>
+    <% end %>
+
+  </div>
+</div>
+
+

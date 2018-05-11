@@ -1,0 +1,226 @@
+@import 'mixins';
+
+div.site {
+    div#search-result {
+        width: 65%;
+		float: right;
+    }
+}
+
+article.result-card {
+	position: relative;
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0 0 20px 0;
+	background-color: $white;
+	
+	clear: both;
+	
+	img.corner-tag {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+	span.listing-number {
+	    display: block;
+	    margin-top: 4px;
+	    font-size: 12px;
+	    color: $dark-grey;
+	}
+	
+	div.card-header {
+		padding: 10px 70px 0 10px;
+	}
+	
+	h1.location {
+		padding: 0;
+		margin: 0 10px 8px 0;
+		font-size: 15px;
+		text-transform: capitalize;
+		float: left;
+		color: $light-blue;
+		a {
+			&:hover {
+				color: $link-hover;
+				text-decoration: none;
+			}
+			&:visited {
+				color: $orange;
+			}
+		}
+		
+	}
+	
+	ul.short-stats {
+		margin: 0;
+		padding: 6px 0 0 0;
+		float: right;
+		li {
+			margin: 0;
+			padding: 0 10px;
+			list-style: none;
+			float: left;
+			font-size: 11px;
+			line-height: normal;
+			font-weight: bold;
+			border-left: 1px solid $standard-grey;
+			text-transform: uppercase;
+			&.first {
+				border: 0;
+			}
+			&.last {
+				padding-right: 0;
+			}
+		}
+	}
+	
+	div.information {
+		margin-bottom: 4px;
+		clear: both;
+		overflow: hidden;
+	}
+	    
+    div.exchange-dates {
+		width: 46%;
+		font-size: 12px;
+		margin-bottom: 8px;
+		font-weight: bold;
+		text-align: left;
+		float: left;
+		span.dates {
+			margin-left: 10px;
+			color: #959595;
+			&.valid {
+				color: #1b7f10;
+			}
+		}
+	}
+	
+	div.view-listing {
+		width: 46%;
+		float: right;
+		margin-right: 10px;
+		margin-bottom: 8px;
+		text-align: right;
+		div.btn-group {
+		    float: right;
+	    }
+		a.view-listing {
+			&:visited {
+				color: $orange;
+			}
+		}
+	}
+	
+	div.attributes {
+		margin: 0 10px;
+		padding: 6px 0;
+		border-top: 1px solid $light-grey;
+		clear: both;
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			display: inline;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			line-height: normal;
+			span.attribute {
+				font-size: 10px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: #858585;
+				display: inline-block;
+				padding: 4px 7px;
+				margin: 0 5px 5px 0;
+				background-color: #f2f2f2;
+				border-radius: 6px;
+				border: 1px solid #ededed;
+			}
+		}
+	}
+	
+    div.card-photo {
+		width: 206px;
+	    margin-left: 10px;
+	    margin-bottom: 10px;
+	    height: auto;
+	    float: left;
+		overflow: hidden;
+		
+		img.card-photo {
+		    display: block;
+		    margin: 0;
+		    padding: 0;
+		    width: 100%;
+		    height: auto;
+	    }
+		a.card-photo {
+			display: block;
+			border: 2px solid $white;
+			&:visited {
+				border-color: $orange;
+			}
+		}
+		
+	}
+    
+    
+	
+	div.description {
+		margin: 0 10px 0 230px;
+		h2 {
+			font-size: 14px;
+			font-weight: bold;
+		}
+		div.text {
+			height: 124px;
+			overflow: hidden;
+		}
+	}
+	
+}
+
+
+article.favorite-row{
+    
+    	h1.location {
+    		padding: 0;
+    		margin: 0 10px 8px 0;
+    		font-size: 15px;
+    		text-transform: capitalize;
+    		color: $light-blue;
+    	}
+      span.listing-number {
+      	    display: block;
+      	    margin-top: 4px;
+      	    font-size: 12px;
+      	    color: $dark-grey;
+      	}
+    	
+    	  div.card-photo {
+    		width: 90%;
+  	    margin-left: 5%;
+  	    margin-bottom: 5%;
+  	    height: auto;
+    		overflow: hidden;
+
+    		img.card-photo {
+    		    display: block;
+    		    margin: 0;
+    		    padding: 0;
+    		    width: 100%;
+    		    height: auto;
+    	    }
+    	}
+    	form{
+    	  text-align:center;
+    	}
+	
+}
+
+

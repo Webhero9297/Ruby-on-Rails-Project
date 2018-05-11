@@ -1,0 +1,42 @@
+@import "mixins";
+.listview {
+    margin: 0 0 20px 0;
+    padding: 0;
+    width: 100%;
+    @include box-sizing;
+}
+
+.listview-item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    background-color: #fafafa;
+    width: 100%;
+    border-top: 1px solid $standard-grey;
+}
+
+.listview-link {
+    display: block;
+    padding: 5px;
+    color: $black;
+    &:active {
+        background-color: #e7fff4;
+    }
+}
+
+.listview-image {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.listview-header {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.listview-text {
+    margin: 0;
+    padding: 0;
+}

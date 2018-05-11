@@ -1,0 +1,44 @@
+<% body_id 'translations' %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <%= link_to(content_tag('i','', class: 'icon-arrow-left') + ' ' + 'Back to translations', admin_translations_path, class: 'btn') %>
+        <%= link_to(content_tag('i','', class: 'icon-plus') + ' ' + 'Add translation', new_admin_translation_path, class: 'btn') %>
+        <h1 class="plate-header">New gettext strings</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Text</th>
+              <th>Location</th>
+              <th colspan="2">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @gettexts.each do |key| %>
+              <tr>
+                <td>
+                  <%= key.msgid %>
+                </td>
+                <td><%= key.location %></td>
+                <%- if key.added -%>
+                <td colspan="2">
+                    <em>Translation already added. Update your templates.</em>
+                </td>
+                <%- else -%>
+                <td>
+                    <%= link_to "Add translation", admin_translations_new_from_gettext_url(key.id) %>
+                </td>
+                <td>
+                  <%= link_to "Remove translation", admin_translations_delete_igettext_path(key.id), :confirm => "Do you really want to remove the translation." %>
+                </td>
+                <%- end -%>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+</div>

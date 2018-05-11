@@ -1,0 +1,8 @@
+<p><%= t('global.best_regards') %></p>
+<% @agents.each do |agent| %>
+<p>
+  <%= agent.agent_profile.name.blank? ? agent.name : agent.agent_profile.name %><br />
+  <%= agent.agent_profile.email %><br />
+  <%= agent.agent_profile.telephone %>
+</p>
+<% end %>

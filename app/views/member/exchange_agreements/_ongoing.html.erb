@@ -1,0 +1,36 @@
+<table class="table table-condensed table-custom">
+  <thead>
+    <tr>
+      <th><%= t('global.my_listing') %></th>
+      <th><%= t('global.partner_listing') %></th>
+      <th><%= t('global.updated_at') %></th>
+      <th><%= t('global.my_period_of_exchange') %></th>
+      <th><%= t('global.view') %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @exchange_agreements.each do |exchange_agreement| %>
+      <% exchange_agreement.agreements.each do |agreement| %>
+        <% if agreement.owner == current_user.account.id %>
+          <%  my_agreement = agreement %>
+          <% partner_agreement = exchange_agreement.get_other_agreement(agreement) %>
+          <tr>
+            <td><%= my_agreement.listing_number %></td>
+            <td><%= link_to(partner_agreement.listing_number, listing_path(partner_agreement.listing_id)) %></td>
+            <td><%= standard_date_time(exchange_agreement.updated_at, nil, "%b %d, %Y") %></td>
+            <td><%= standard_date_time(my_agreement.start_date, nil, "%b %d, %Y") %><br><%= standard_date_time(my_agreement.end_date, nil, "%b %d, %Y") %></td>
+            <td>
+              <%=
+                if partner(exchange_agreement).is_expired? and !partner(exchange_agreement).is_expired_for_less_than_30_days?
+                  content_tag(:p, t('exchange_agreements.alert.message.partner_is_expired'), class: 'alert-message')
+                elsif !current_user.account.is_expired? || current_user.account.is_expired_for_less_than_30_days?
+                  link_to(t('global.view'), overview_member_exchange_agreement_path(exchange_agreement))
+                end
+              %>
+            </td>
+          </tr>
+        <% end %>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>

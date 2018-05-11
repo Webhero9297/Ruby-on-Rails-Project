@@ -1,0 +1,128 @@
+@import "mixins";
+
+.figure-block {
+    padding: 6px 0 6px 6px;
+    border: 1px solid #ddd;
+    background-color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.figure-block-photo,
+.figure-block-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.figure-block-text {
+    display: inline-block;
+    width: 50%;
+}
+
+// 480px
+@media only screen and (min-width: 480px) {
+   .figure-block-text {
+        width: 50%;
+    }
+}
+
+// 600px
+@media only screen and (min-width: 600px) {
+    .figure-block-text {
+        width: 60%;
+    }
+}
+
+// 768px
+@media only screen and (min-width: 768px) {
+    .figure-block-text {
+        width: 315px;
+    }
+}
+
+// 992px
+@media only screen and (min-width: 992px) {
+    .figure-block-text {
+        width: 480px;
+    }
+}
+
+// 1179px
+@media only screen and (min-width: 1179px) {
+    .figure-block-text {
+        width: 648px;
+    }
+}
+
+.figure-block-sort {
+    display: inline-block;
+    margin-left: 20px;
+    width: 24px;
+    height: 70px;
+    background: transparent asset-url('move.png', image) no-repeat 0 50%;
+    cursor: move;
+    &:hover {
+        background: transparent asset-url('move-hover.png', image) no-repeat 100% 50%;
+    }
+}
+
+.figure-block-photo {
+    margin-right: 10px;
+}
+
+.figure-block-photo {
+    width: 80px;
+    height: auto;
+    &:hover {
+        cursor: move;
+    }
+}
+
+.figure-block-action-list {
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline;
+        margin: 0 20px 0 0;
+        list-style: none;
+    }
+
+    &.home {
+        display: inline-block;
+        margin: 0 40px 0 0;
+
+        li {
+            display: block;
+            margin: 0 0 4px 0;
+            padding: 0;
+            list-style: none;
+
+            > a {
+                display: inline-block;
+                padding: 2px;
+            }
+        }
+    }
+}
+
+.figure-block-caption {
+    margin: 0 0 4px 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.figure-block-visibility {
+    margin-bottom: 4px;
+}
+
+.figure-block-placeholder {
+    height: 90px;
+    margin-bottom: 10px;
+    background-color: #545454;
+    border: 1px solid #222;
+}
+
+.is-moving {
+    border-color: $white;
+    @include box-shadow(4px, 4px, 8px, #656565);
+}

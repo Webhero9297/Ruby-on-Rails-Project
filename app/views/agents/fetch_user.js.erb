@@ -1,0 +1,5 @@
+<% if not @user.nil? then %>
+  $('div#new-agent').html("<%= escape_javascript(render(partial: 'new_agent_form')) %>");
+<% else %>
+  $('div#new-agent').html("<%= escape_javascript(render(partial: 'no_user_found')) %>");
+<% end %>

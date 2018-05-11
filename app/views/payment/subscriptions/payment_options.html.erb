@@ -1,0 +1,24 @@
+<div class="row mb60">
+  <div class="span12">
+
+    <article>
+      <h1 class="page-header"><%= t('users.registrations.confirmation.membership_plan') %></h1>
+
+        <dl class="dl-horizontal">
+          <dt><%= t('global.name') %>:</dt>
+          <dd><%= @price_plan.name %></dd>
+          <dt><%= t('global.duration') %>:</dt>
+          <dd><%= @price_plan.duration %> <%= @price_plan.periodicity %></dd>
+          <dt><%= t('global.price') %>:</dt>
+          <dd><%= format_currency(@order.total_amount) %> <%= @price_plan.country.currency %></dd>
+        </dl>
+
+        <%= render(partial: '/payment/payment_alternatives') %>
+        
+
+        <% if @order.renewal or @order.upgrade %>
+          <%= link_to(t('payment.cancel_order'), cancelled_order_path, class: 'btn btn-danger') %>
+        <% end %>
+      </article>
+    </div>
+  </div>

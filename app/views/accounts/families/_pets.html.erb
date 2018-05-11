@@ -1,0 +1,17 @@
+<p class="section-edit-btn"><%= link_to(content_tag('i', '', class: 'icon-plus') + ' ' + t('accounts.add_pet'), new_account_profiles_pet_url(@account), class: 'btn btn-small', remote: true) %></p>
+<table id="pets-table" class="table table-condensed table-striped">
+  <thead>
+    <tr>
+      <th colspan="3"><%= t('accounts.label.kind_of_pet') %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% if @profile.pets.count() == 0 then %>
+      <%= render(partial: '/accounts/profiles/pets/placeholder') %>
+    <% else %>
+      <% @profile.pets.each do |pet| %>
+        <%= render(partial: '/accounts/profiles/pets/pet', locals: {account: @account, pet: pet}) %>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>

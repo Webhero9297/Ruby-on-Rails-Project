@@ -1,0 +1,161 @@
+<div class="row mb20">
+    <div class="span12">
+        <%= link_to('Account overview', account_path(@account, anchor: 'membership-subscriptions'), class: 'btn') %>
+    </div>
+</div>
+
+<%= render(locals: {header: 'Full subscription and order details'}, layout: '/layouts/modules/single_page_plate') do %>
+
+    <h2 class="plate-section-header">Subscription details</h2>
+
+    <dl class="dl-horizontal">
+        <dt>Name</dt>
+        <dd><%= @subscription.name %></dd>
+
+        <dt>Active</dt>
+        <dd><%= @subscription.active %></dd>
+
+        <dt>Expires</dt>
+        <dd><%= standard_date_time(@subscription.expires_at) %></dd>
+
+        <dt>Renewal</dt>
+        <dd><%= @subscription.renewal %></dd>
+
+        <dt>Upgrade</dt>
+        <dd><%= @subscription.upgrade %></dd>
+
+        <dt>Promotion code</dt>
+        <dd><%= @subscription.promotion_code.blank? ? 'Not available' : @subscription.promotion_code %></dd>
+
+        <dt>Kind</dt>
+        <dd><%= @subscription.kind %></dd>
+
+        <dt>Periodicity</dt>
+        <dd><%= @subscription.periodicity %></dd>
+
+        <dt>Duration</dt>
+        <dd><%= @subscription.duration %></dd>
+
+        <dt>Base price</dt>
+        <dd><%= @subscription.base_price.to_i %></dd>
+
+        <dt>Renewal price</dt>
+        <dd><%= @subscription.renewal_price.to_i %></dd>
+
+        <dt>Currency</dt>
+        <dd><%= @subscription.currency %></dd>
+
+        <dt>OrderID</dt>
+        <dd><%= @subscription.order_id %></dd>
+
+        <dt>Order number</dt>
+        <dd><%= @subscription.order_number %></dd>
+    </dl>
+
+
+    <% if @user %>
+        <h2 class="plate-section-header">Order made by</h2>
+        <dl class="dl-horizontal">
+            <dt>Name</dt>
+            <dd><%= @user.name %></dd>
+
+            <dt>Email</dt>
+            <dd><%= @user.email %></dd>
+        </dl>
+    <% end %>
+
+    <% if @agent %>
+        <h2 class="plate-section-header">Order made by</h2>
+        <dl class="dl-horizontal">
+            <dt>Name</dt>
+            <dd><%= @agent.name %></dd>
+
+            <dt>Email</dt>
+            <dd><%= @agent.email %></dd>
+        </dl>
+    <% end %>
+
+    <h2 class="plate-section-header">Order information</h2>
+    <dl class="dl-horizontal">
+        <dt>Order number</dt>
+        <dd><%= @order.order_number.blank? ? 'Not available' : @order.order_number %></dd>
+
+        <dt>Currency</dt>
+        <dd><%= @order.currency.to_i %></dd>
+
+        <dt>Amount</dt>
+        <dd><%= @order.total_amount.to_i %></dd>
+
+        <dt>State</dt>
+        <dd><%= @order.state %></dd>
+
+        <dt>Payment solution</dt>
+        <dd><%= @order.kind.blank? ? 'Not available' : @order.kind %></dd>
+
+        <dt>Renewal</dt>
+        <dd><%= @order.renewal %></dd>
+
+        <dt>Upgrade</dt>
+        <dd><%= @order.upgrade %></dd>
+
+        <dt>Subdomain used</dt>
+        <dd><%= @order.country_short %></dd>
+
+        <dt>Promotion code</dt>
+        <dd><%= @order.promotion_code.blank? ? 'Not available' : @order.promotion_code %></dd>
+
+        <dt>Unique payment ID</dt>
+        <dd><%= @order.unique_payment_id.blank? ? 'Not available' : @order.unique_payment_id %></dd>
+
+        <dt>PayPal payment token</dt>
+        <dd><%= @order.express_token.blank? ? 'Not available' : @order.express_token %></dd>
+
+        <dt>PayPal identifier</dt>
+        <dd><%= @order.express_payer_id.blank? ? 'Not available' : @order.express_payer_id %></dd>
+
+        <dt>Agent reciever</dt>
+        <dd><%= @order.express_subject.blank? ? 'Not available' : @order.express_subject %></dd>
+
+        <dt>Ip address</dt>
+        <dd><%= @order.ip_address.blank? ? 'Not available' : @order.ip_address %></dd>
+
+        <dt>Completed at</dt>
+        <dd><%= standard_date_time(@order.completed_at) %></dd>
+
+        <dt>Mail sent</dt>
+        <dd><%= @order.mail_sent %></dd>
+    </dl>
+
+    <% if @price_plan %>
+        <h2 class="plate-section-header">Price plan</h2>
+        <dl class="dl-horizontal">
+            <dt>Name</dt>
+            <dd><%= @price_plan.name %></dd>
+
+            <dt>Active</dt>
+            <dd><%= @price_plan.active %></dd>
+
+            <dt>Default</dt>
+            <dd><%= @price_plan.default %></dd>
+
+            <dt>Kind</dt>
+            <dd><%= @price_plan.kind %></dd>
+
+            <dt>Duration</dt>
+            <dd><%= @price_plan.duration %></dd>
+
+            <dt>Periodicity</dt>
+            <dd><%= @price_plan.periodicity %></dd>
+
+            <dt>Currency</dt>
+            <dd><%= @price_plan.country.currency %></dd>
+
+            <dt>Base price</dt>
+            <dd><%= @price_plan.base_price.to_i %></dd>
+
+            <dt>Renewal price</dt>
+            <dd><%= @price_plan.renewal_price.to_i %></dd>
+        </dl>
+    <% end %>
+<% end %>
+

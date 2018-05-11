@@ -1,0 +1,24 @@
+<% page_title t('pages.page_title.intervac_newsletter_activation') %>
+<% page_description t('pages.page_title.intervac_newsletter_activation')%>
+<% page_keywords t('newsletter activation') %>
+<% section_image 'section-image-7' %>
+
+<div class="row">
+    <article class="wide">
+        <h1 class="top-header left">
+            <span class="top-header-label"><%= t('newsletter.header.thank_you_for_subscribing') %></span>
+        </h1>
+        <% if @activation %>
+            <div class="alert alert-info">
+                <p class="alert-message"><strong><%= t('newsletter.alert.message.woo_hoo') %></strong> <%= t('newsletter.alert.message.your_newsletter_is_now_active') %></p>
+            </div>
+            <p><strong><%= t('global.phrases.have_a_really_nice_day') %></strong></p>
+        <% else %>
+            <div class="alert alert-warning">
+                <p class="alert-message"><strong><%= t('global.hello') %></strong> <%= t('newsletter.alert.message.already_activated_newsletter_subscription') %></p>
+            </div>
+
+            <p><strong><%= t('global.phrases.have_a_really_nice_day') %></strong></p>
+        <% end %>
+    </article>
+</div>

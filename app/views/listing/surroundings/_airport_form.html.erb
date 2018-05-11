@@ -1,0 +1,30 @@
+<%= form_for(@listing, url: update_airport_listing_surrounding_path(@listing), html: {id: 'surroundings-form'}, remote: true) do |f| %>
+  <% if @listing.errors.any? %>
+    <div class="row-fluid">
+      <div class="span12">
+        <div id="error_explanation">
+          <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+          <ul>
+            <% @listing.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  <div class="form_row">
+    <div class="half-row">
+      <%= label_tag('airport', t('listings.label.airport'), class: "half-row horizontal") %>
+      <%= f.text_field(:airport, class: 'input-block-level half-row horizontal', id: 'listing-surrounding') %>
+    </div>
+    <div class="half-row">
+      <%= label_tag('distance', t('listings.label.distance_with_units'), class: "half-row horizontal") %>
+      <%= f.text_field(:distance, class: 'input-block-level half-row horizontal', id: 'listing-surrounding') %>
+    </div>
+  </div>
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save_changes'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_airport_listing_surrounding_path(@listing), remote: true) %>
+  </fieldset>
+<% end %>

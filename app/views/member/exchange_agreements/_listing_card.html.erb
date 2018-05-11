@@ -1,0 +1,16 @@
+<article class="listing-card thumbnail">
+  <div class="listing-card-location">
+    <h1 class="location"><span><%= listing.postal_town %></span>, <span class="listing-card country"><%= listing.country %></span></h1>
+  </div>
+  
+  <div class="card-photo">
+    <% if listing.get_main_photo != nil %>
+      <%= link_to(image_tag(listing.get_main_photo.image.size_230, width: 290, alt: '', class: 'card-photo'), listing_path(listing)) %>
+    <% else %>
+      <%= link_to(image_tag('photos-coming-soon-230.jpg', width: 290, alt: '', class: 'card-photo'), listing_path(listing)) %>
+    <% end %>
+  </div>
+  
+  <%= render( partial: 'listings/listing_card_table', locals: {listing: listing}) %>
+    
+</article>

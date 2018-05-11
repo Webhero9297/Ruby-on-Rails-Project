@@ -1,0 +1,19 @@
+<p class="section-edit-btn"><%= link_to(content_tag('i', '', class: 'icon-plus') + ' ' + t('profile.add_child'), new_account_profiles_child_url(@account), remote: true, class: 'btn btn-small') %></p>
+<p><strong><%= t('profile.nr_children') %>: </strong> <span id="nr-of-children"><%= @profile.children.count() %></span></p>
+<table id="childrens-table" class="table table-condensed table-striped">
+  <thead>
+    <tr>
+      <th><%= t('global.age') %></th>
+      <th colspan="3"><%= t('global.gender') %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% if @profile.children.count() == 0 then %>
+    <%= render(partial: '/accounts/profiles/children/placeholder') %>
+    <% else %>
+      <% @profile.children.each do |child| %>
+      <%= render(partial: '/accounts/profiles/children/child', locals: {account: @account, child: child}) %>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>

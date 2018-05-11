@@ -1,0 +1,28 @@
+<section id="tag-cloud-filter" class="filter">
+  <h2><%= t('searches.filter_search') %></h2>
+  <ul class="tag-cloud">
+    <% features.each do |filter| %>
+      <% if filter['active'] %>
+        <li><a class="tag-cloud tag selected" href="<%=filter['msgid']%>"><i class="icon-minus-sign"></i> <%=t(filter['msgid'])%></a></li>
+      <% else %>
+        <li><a class="tag-cloud tag" href="<%=filter['msgid']%>"><i class="icon-plus-sign"></i> <%=t(filter['msgid'])%></a></li>
+      <% end %>
+    <% end %>
+    <% exchange_types.each do |filter| %>
+      <% if filter['active'] %>
+        <li><a class="tag-cloud exchange-type selected" href="<%=filter['msgid']%>"><i class="icon-minus-sign"></i> <%=t(filter['msgid'])%></a></li>
+      <% else %>
+        <li><a class="tag-cloud exchange-type" href="<%=filter['msgid']%>"><i class="icon-plus-sign"></i> <%=t(filter['msgid'])%></a></li>
+      <% end %>
+    <% end %>
+  </ul>
+</section>
+
+<script type="text/javascript" charset="utf-8">
+  $('a.tag-cloud').click(function() { 
+    $('#tag-cloud-filter').block({ 
+      message: '', 
+      showOverlay: true,
+    }); 
+  });
+</script>

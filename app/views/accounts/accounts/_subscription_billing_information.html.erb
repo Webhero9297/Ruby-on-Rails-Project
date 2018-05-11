@@ -1,0 +1,75 @@
+<% if not @subscriptions.empty? %>
+    <div class="row-fluid mb40">
+        <div class="span12">
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Subscription</th>
+                        <th>Purchased</th>
+                        <th colspan="2">Expires</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% @subscriptions.each do |subscription| %>
+                        <tr>
+                            <% if subscription.active == true then %>
+                                <td><i class="icon-star"></i> <%= subscription.name %></td>
+                            <% else %>
+                                <td><i class="icon-lock"></i> <%= subscription.name %></td>
+                            <% end %>
+                            <td><%= standard_date_time(subscription.created_at, current_user.account.time_zone) %></td>
+                            <td><%= standard_date(subscription.expires_at) %></td>
+                            <td><%= link_to('View full details', full_details_account_subscription_path(@account, subscription)) %></td>
+                        </tr>
+                    <% end %>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+<% else %>
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="alert alert-info">
+                <p class="alert-message">There are no transactions available</p>
+            </div>
+        </div>
+    </div>
+<% end %>
+
+<div class="row-fluid">
+    <div class="span6">
+        <%- if @subscription.is_trial? -%>
+            <h2 class="plate-section-header">Upgrade Membership</h2>
+
+            <p>Used to upgrade a trial membership to a full membership.</p>
+            <%= link_to('Upgrade', upgrade_account_subscriptions_path(@account), class: 'btn') %>
+        <%- else -%>
+            <h2 class="plate-section-header">Renew Membership</h2>
+
+            <p>Click the button to choose a membership plan for this member's renewal.</p>
+            <%= link_to('Renew', renew_account_subscriptions_path(@account), class: 'btn') %>
+        <%- end -%>
+    </div>
+    <div class="span6">
+        <h2 class="plate-section-header">Extend Membership</h2>
+
+        <p>Extend the member's current subscription period.</p>
+        <%= form_for(@subscription, url: account_subscription_path(@account, @subscription), html: {class: 'well form-inline is-inline'}) do |f| %>
+            <fieldset>
+                <div class="expiration-date">
+                    <div class="input-append">
+                        <%= f.text_field(:expires_at, value: exchange_input_date(@subscription.expires_at), id: 'expiration-date', class: "date input-small", readonly: "readonly") %>
+                    </div>
+                </div>
+                <%= f.button('Save date', class: 'btn btn-primary') %>
+            </fieldset>
+        <% end %>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function ($) {
+        expiration_date();
+    });
+</script>

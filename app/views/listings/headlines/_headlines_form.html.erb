@@ -1,0 +1,10 @@
+<%= form_for(@listing, url: listing_headlines_path(@listing), class: 'form-vertical', remote: true) do |f| -%>
+  <fieldset>
+      <%= f.text_field(:headline, size: 32, maxlength: 255, autocomplete: 'off', class: 'span12') %>
+  </fieldset>
+
+  <fieldset>
+    <%= f.submit(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_headlines_path(@listing), class: 'btn btn-link', remote: true) %>
+  </fieldset>
+<% end -%>

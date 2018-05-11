@@ -1,0 +1,13 @@
+<%= form_tag(member_find_partner_by_number_path, method: 'get', id: "go-to-listing", class: "find-member-form form-inline", remote: true) do %>
+  <%= label_tag('listing-finder', t('dashboard.search.label.search_by_listing_number')) %>
+  <fieldset>
+  <%= text_field_tag('listing_number', @listing_number, maxlength: '12', placeholder: t('text_field.placeholder.listing_number'), id: 'listing-finder', autocomplete: :off, class: 'input-large') %>
+  <%= button_tag(t('button.search'), class: 'btn btn-info') %>
+  </fieldset>
+<% end %>
+
+
+<h2 class="plate-section-header mb10"><%= t('global.header.search_results') %></h2>
+<div id="search-results">
+  <%= render(partial: 'search_results') %>
+</div>

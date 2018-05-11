@@ -1,0 +1,25 @@
+<% if exchange_agreement.is_signed_by(current_user.account.id) %>
+    <p><%= t('exchange_agreement.alert.signed_agreement_editing_info') %></p>
+    <%= link_to(t('global.view'), read_only_partner_terms_member_exchange_agreement_path(exchange_agreement), class: 'btn') %>
+<% else %>
+    <% if exchange_agreement.status == 'started' or exchange_agreement.status == 'ready_for_review' or exchange_agreement.status == 'negotiating' or exchange_agreement.status == 'accepted' or exchange_agreement.status == 'signed' %>
+        <% if not partner_agreement.sent? %>
+            <div class="alert alert-info">
+                <em><%= t('exchange_agreement.label.waiting_for_partner_to_send_terms') %></em>
+            </div>
+        <% elsif partner_agreement.all_terms_accepted? %>
+            <p>
+                <span class="label label-success"><%= t('exchange_agreement.terms_accepted') %></span>
+                <%= t('exchange_agreement.label.you_have_accepted_all_terms') %>
+            </p>
+            <%= link_to(t('exchange_agreement.review_terms_again'), view_partner_terms_member_exchange_agreement_path(exchange_agreement), class: 'btn') %>
+        <% end %>
+
+        <% if partner_agreement.is_ready_for_review? and partner_agreement.sent? and not partner_agreement.all_terms_accepted? %>
+            <p>
+                <%= t('exchange_agreement.text.review_and_accept_partner_terms') %>
+            </p>
+            <%= link_to(t('exchange_agreement.button.review_partner_terms'), view_partner_terms_member_exchange_agreement_path(exchange_agreement), class: 'btn btn-primary') %>
+        <% end %>
+    <% end %>
+<% end %>

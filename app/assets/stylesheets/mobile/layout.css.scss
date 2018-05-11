@@ -1,0 +1,25 @@
+@import "mixins";
+
+#content {
+    clear: both;
+    margin: 10px;
+    padding: 0;
+}
+
+.as-table {
+    display: table;
+    width: 100%;
+}
+
+.cell-25,
+.cell-50 {
+    display: table-cell;
+}
+
+.cell-25 {
+    width: 25%;
+}
+
+.cell-50 {
+    width: 50%;
+}

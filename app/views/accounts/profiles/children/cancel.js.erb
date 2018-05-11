@@ -1,0 +1,2 @@
+$('#child-<%= @child.id %>').replaceWith("<%= escape_javascript(render(partial: 'child', locals: {account: @account, child: @child})) %>");
+$('#new-child-button').show();

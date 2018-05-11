@@ -1,0 +1,32 @@
+<% body_id 'home-exchange' %>
+<% page_title t('visinfo_home_exchange_with_intervac.page.headline') %>
+<% page_description t('visinfo_home_exchange_with_intervac.page.headline') + " - " + t('visinfo_home_exchange_with_intervac.annual_exchanges.headline') %>
+<% page_keywords t('seo.keyword_set.visinfo.home_exchange_with_intervac') %>
+<% section_image 'section-image-6' %>
+
+<div class="row">
+    <%= render(:partial => 'pages/exchange/sub_menu') %>
+
+    <article class="page-content">
+        <h1 class="page-content-header">
+            <span class="page-content-header-label"><%= t('visinfo_home_exchange_with_intervac.page.headline') %></span>
+        </h1>
+
+        <p><%= t('visinfo_home_exchange_with_intervac.page.introtext') %></p>
+
+        <h2><%= t('visinfo_home_exchange_with_intervac.annual_exchanges.headline') %></h2>
+        <p><%= t('visinfo_home_exchange_with_intervac.annual_exchanges.text', :annual_number_of_exchanges => annual_number_of_exchanges) %></p>
+
+        <h2 class="article"><%= t('visinfo_home_exchange_with_intervac.database_mix.headline') %></h2>
+        <p><%= span_in_translation(t('visinfo_home_exchange_with_intervac.database_mix.text'), :italic => 'italic') %></p>
+
+        <h2><%= t('visinfo_home_exchange_with_intervac.second_generation.headline') %></h2>
+        <p><%= t('visinfo_home_exchange_with_intervac.second_generation.text', :number_of_years_in_business => number_of_years_in_business) %></p>
+
+        <h2><%= t('visinfo_home_exchange_with_intervac.personal_service.headline') %></h2>
+        <p><%= t('visinfo_home_exchange_with_intervac.personal_service.text') %></p>
+
+        <h2><%= t('visinfo_home_exchange_with_intervac.detailed_guidlines.headline') %></h2>
+        <p><%= t('visinfo_home_exchange_with_intervac.detailed_guidelines.text') %></p>
+    </article>
+</div>

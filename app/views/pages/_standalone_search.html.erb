@@ -1,0 +1,12 @@
+<div class="container standalone-search">
+    <div class="standalone-search-form">
+        <span class="standalone-search-label"><%= t('homepage.search.header') %></span>
+        <div>
+	        <%= text_field_tag('destination', @destination, maxlength: '255', placeholder: t('homepage.search.placeholder'), class: 'standalone-search-field', id: "destination") %>
+	        <button type="submit" class="btn-search">
+				<span>Search</span><i class="fa fa-search"></i>
+			</button>
+        </div>
+        <%= render :partial => "searches/destination-filter-form" %>
+    </div>
+</div>

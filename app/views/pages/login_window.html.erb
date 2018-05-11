@@ -1,0 +1,10 @@
+<div id="login-window">
+  <%= link_to('', '#', :class => "close-window") %>
+  <h1 class="default notice"><%= t("You must be logged in") %></h1>
+  
+  <p class="notice"><%= t("You must be logged on in order to ") %><span id="caption"></span>.</p>
+  
+  <%= link_to(t("Login"), login_url, :class => "notice") %>
+  <span class="notice">or</span>
+  <%= link_to(content_tag(:span, "Sign up"), price_plans_url, :class => "standard-button orange sign-up") %>
+</div>

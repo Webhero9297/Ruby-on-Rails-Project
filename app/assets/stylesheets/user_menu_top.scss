@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
+$color-main: #E9600F;
+$lora: "Lora", Georgia, serif;
+
+.lora_headline {
+	font-family: $lora;
+	font-weight: 700;
+	font-style: italic;
+}
+.lora_italic {
+	font-family: $lora;
+	font-weight: 400;
+	font-style: italic;
+}
+
+div#user-menu-wrapper {
+	width: 100%;
+	@include sans-serif;
+	position: absolute;
+	top: 0;
+	z-index: 4;
+	ul#user-menu {
+		@include list-reset;
+		background: #176ab4;
+		float: right;
+		margin: 0;
+		height: 32px;
+		padding: 9px 0 0px 15px;
+		li.usermenu-li {
+			margin: 0;
+			padding: 2px 0 0 0;
+			list-style-type: disc;
+			line-height: normal;
+			display: inline-block;
+			height: 20px;
+			margin-right: 20px;
+			position: relative;
+			.dropdown-menu {
+				height: auto;
+				a {
+					padding-left: 10px;
+				}
+			}
+			a {
+				margin: 0;
+				padding: 0;
+				font-size: 15px;
+				color: #fff;
+				font-weight: bold;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			.dropdown-menu a {
+				color: #000;
+			}
+			.dropdown-menu a:hover {
+				color: #fff;
+			}
+		}
+		li.current-user {
+			body#guide & {
+				display: none;
+			}
+		}
+		.icon-chevron-down {
+			display: inline-block;
+			width: 14px;
+			height: 14px;
+			margin-top: 1px;
+			line-height: 14px;
+			vertical-align: middle;
+			background: url('/assets/glyphicons-halflings-white.png') no-repeat -313px -121px;
+		}
+
+	}
+	#dashboard-switcher {
+		float: right;
+		margin: 0 20px 0 0;
+		a {
+			display: block;
+			float: left;
+			margin: 0;
+			padding: 5px 15px 0px 15px;
+			text-decoration: none;
+			line-height: normal;
+			height: 20px;
+			font-size: 11px;
+			font-weight: bold;
+			color: #fff;
+			background: #999;
+			&.active {
+				background: #f26722;
+				i {
+					display: inline-block;
+					width: 14px;
+					padding-right: 3px;
+					height: 14px;
+					margin: -1px 0 0 -5px;
+					line-height: 14px;
+					vertical-align: text-top;
+					background: url('/assets/glyphicons-halflings-white.png') no-repeat -286px 0px;
+				}
+			}
+			&.translate-switch {
+				margin-left: 5px;
+				width: 5px;
+				padding-left: 5px;
+				padding-right: 12px;
+			}
+			&.active.translate-switch {
+				width: 5px;
+				padding-left: 9px;
+				padding-right: 8px;
+				i {
+					display: inline-block;
+					width: 14px;
+					height: 14px;
+					margin-top: 1px;
+					line-height: 14px;
+					vertical-align: text-top;
+					background-image: url(/assets/glyphicons-halflings-white.png);
+					background-repeat: no-repeat;
+					background-position: -96px -72px;
+				}
+			}
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+div#public-menu-wrapper {
+	width: 80%;
+	float: right;
+	height: 99px;
+	line-height: 105px;
+	header.stuck & {
+		line-height: normal;
+		height: auto;
+		padding-top: 2px;
+		ul#public-menu {
+			vertical-align: middle;
+		}
+	}
+	ul#public-menu {
+		margin: 0;
+		text-align: center;
+		display: inline-block;
+		vertical-align: -26px;
+		line-height: normal;
+		li {
+			display: inline-block;
+			@extend .lora_headline;
+			font-size: 20px;
+			padding: 0 15px 3px 5px;
+			background: url('/assets/public-page/square-blue.png') no-repeat center right;	
+			& + li {
+				background-image: url('/assets/public-page/square-teal.png');
+			}
+			& + li + li {
+				background-image: url('/assets/public-page/square-orange.png');
+				body#start header.stuck & {
+					background-image: url('/assets/public-page/square-orange.png');
+				}
+				body#start & {
+					background-image: url('/assets/public-page/square-main.png');
+				}
+			}
+			& + li + li + li {
+				background: none!important;
+			}
+			a {
+				color: #fff;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			header.stuck & {
+				padding: 5px 15px 5px 5px;
+				font-size: 17px;
+			}
+		}
+	}
+}
+
+nav#dashboard-menu {
+	display: block;
+	width: 100%;
+	float: right;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:108px;
+	height: 36px;
+	background-color: $color-main;
+	z-index: 3;
+	@include inset(0 -1px 3px, rgba(0,0,0,0.2));
+	&.stuck {
+		position:fixed!important;
+		z-index: 3!important;
+		top: 0px;
+		overflow: hidden!important;
+		@include box-shadow(0, 2px, 4px, rgba(0,0,0,0.3));
+	}
+	body#start & {
+		display: none;
+	}
+	&.agent {
+		background: #0063aa;
+	}
+}
+
+@media (min-width: 1200px) {
+	.wrapper {
+		max-width: 1170px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+.wrapper {
+    max-width: 724px;
+  }
+  div#public-menu-wrapper {
+	width: 74%;
+}
+}
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: auto;
+  }
+}

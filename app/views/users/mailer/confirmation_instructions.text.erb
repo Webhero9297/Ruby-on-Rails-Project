@@ -1,0 +1,5 @@
+<%= t('message.welcome', {:email => @resource.name}) %>
+
+<%= external_domain_link(user_confirmation_path(:confirmation_token => @resource.confirmation_token)) %>
+
+<%= raw markdown(t('message.confirmation')) %>

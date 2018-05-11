@@ -1,0 +1,81 @@
+<article class="mb60 pb40 bb-gray">
+    <h1 class="plate-header"><%= price_plan.name %></h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th><%= t('global.active') %></th>
+                <th><%= t('global.kind') %></th>
+                <th><%= t('payment.base_price') %></th>
+                <th><%= t('payment.renewal_price') %></th>
+                <th colspan="2"><%= t('global.duration') %></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><%= price_plan.active %></td>
+                <td><%= price_plan.kind %></td>
+                <td><%= float_price(price_plan.base_price) %></td>
+                <td><%= float_price(price_plan.renewal_price) %></td>
+                <td><%= price_plan.duration %> <%= price_plan.periodicity %></td>
+                <td><%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('button.edit_price_plan'), edit_country_price_plan_url(country, price_plan)) %></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <% if price_plan.is_paid_plan? then %>
+        <div class="mb40">
+            <h3 class="section-header"><%= t('payment.header.promotion_codes') %> <%= t('for') %> <%= price_plan.name %></h3>
+            <% if price_plan.promotion_codes.empty? then %>
+                <div class="alert alert-info mt20">
+                    <p class="alert-message"><%= t('payment.price_plan.alert.message.there_are_no_promotion_codes_for_this_price_plan') %></p>
+                </div>
+            <% else %>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Codes</th>
+                            <th>Limit</th>
+                            <th>Usage</th>
+                            <th colspan="2">End date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% price_plan.promotion_codes.each do |promotion_code| %>
+                            <% unless promotion_code.archived %>
+                                <%= render(partial: 'payment/price_plans/promotion_table_row', locals: {promotion_code: promotion_code, country: country, price_plan: price_plan}) %>
+                            <% end %>
+                        <% end %>
+                    </tbody>
+                </table>
+
+                <table class="table archived-promotion-codes">
+                    <thead>
+                        <tr>
+                            <th>Archived codes</th>
+                            <th>Limit</th>
+                            <th>Usage</th>
+                            <th colspan="2">End date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% price_plan.promotion_codes.each do |promotion_code| %>
+                            <% if promotion_code.archived %>
+                                <%= render(partial: 'payment/price_plans/promotion_table_row', locals: {promotion_code: promotion_code, country: country, price_plan: price_plan}) %>
+                            <% end %>
+                        <% end %>
+                    </tbody>
+                </table>
+            <% end %>
+            <%= link_to(content_tag('i', '', class: 'icon-plus') + ' ' + 'Add promotion codes', new_country_price_plan_promotion_code_url(country, price_plan), class: 'btn') %>
+        </div>
+    <% else %>
+        <div class="alert alert-info">
+            <p class="alert-message"><%= t('payment.promotion_code.alert.message.not_available_for_free_plans') %></p>
+        </div>
+    <% end %>
+
+    <h2 class="plate-section-header">Country assignment</h2>
+    <%= link_to(content_tag('i', '', class: 'icon-plus') + ' ' + 'Assign to multiple countries', country_assignment_country_price_plan_url(country, price_plan), class: 'btn') %>
+
+</article>

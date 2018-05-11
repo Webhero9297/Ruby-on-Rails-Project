@@ -1,0 +1,60 @@
+/* Changes in this style file will only affect contact messages on the listing, for changing contact messages in favorites see listing/contact_messages */
+.contact-messages {
+    clear: both;
+    margin-bottom: 1.5em;
+
+    &.is-hidden {
+        display: none;
+    }
+
+    &.is-visible {
+        display: block;
+    }
+
+    .close-contact-message {
+        border-bottom: 1px solid $standard_gray;
+        @include rem('padding', 0.75rem 0);
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+.contact-message-options {
+    border-bottom: 1px solid $standard_gray;
+    @include rem('margin-bottom', 0.875rem);
+    @include rem('padding-bottom', 0.875rem);
+}
+
+.contact-message-button {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+.contact-message-info {
+    display: inline-block;
+    width: 63%;
+}
+
+.contact-message-subject,
+.contact-message-body {
+    width: 100%;
+}
+
+.contact-message-body {
+    @include rem('height', 18rem);
+}
+
+.contact-message-form {
+    border-bottom: 1px solid $standard_gray;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+    > h1 {
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid $standard_gray;
+    }
+}

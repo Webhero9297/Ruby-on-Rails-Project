@@ -1,0 +1,80 @@
+<% if country.continent.downcase == country_continent %>
+    <article class="country-agent" id="agent-<%= country.short.downcase %>">
+        <button type="button" class="country-agent-close btn blue"><%= t('global.close') %></button>
+        <h1 class="country-agent-header page-header-divider">
+            <span class="page-header-divider-label"><%= t(country.msgid) %></span>
+        </h1>
+        <%
+           # FIXME: weird code that needs to be removed from here
+           sorted = (agents[country.short.upcase]['agents'] rescue [])
+           sorted.sort_by! do |agent|
+             agent.agent_profile[:position]
+           end
+        %>
+        <%# agents[country.short.upcase]['agents'].each do |agent| %>
+        <% sorted.each do |agent| %>
+            <section class="country-agent-section">
+                <div class="country-agent-profile">
+                    <% if agent.agent_profile.profile_image != nil -%>
+                        <%= image_tag(agent.agent_profile.profile_image.image.size_150, width: 150, alt: agent.name, class: 'country-agent-image') %>
+                    <% else %>
+                        <%= image_tag('agent-profile.png', width: 150, alt: agent.name, class: 'country-agent-image') %>
+                    <% end -%>
+                    <span class="country-agent-name"><%= agent.agent_profile.name.blank? ? agent.name : agent.agent_profile.name %></span>
+
+                    <% unless agent.agent_profile.video.blank? -%>
+                        <div>
+                            <%= link_to(t('button.video_presentation'), "#{agent.agent_profile.video}&amp;autoplay=1", :title => 'Video presentation', :class => 'btn green') %>
+                        </div>
+                    <% end -%>
+
+                    <div>
+                        <%= link_to(t('contacts.contact_your_agent_link'), new_feedback_url, :title => t('contacts.contact_your_agent_link_title'), :class => 'btn green') %>
+                    </div>
+                </div>
+
+                <div class="country-agent-information">
+                    <% unless agent.agent_profile.office_hours.blank? -%>
+                        <div>
+                            <h2 class="country-agent-office-hours"><%= t('contacts.office_hours') -%></h2>
+                            <p><%= agent.agent_profile.office_hours.gsub(/\r\n/, '<br/>').html_safe %></p>
+                        </div>
+                    <% end -%>
+
+                    <ul class="country-agent-contact-info">
+                        <% unless agent.agent_profile.telephone.blank? -%>
+                            <li><span class="bold">Phone:</span> <%= agent.agent_profile.telephone %></li>
+                        <% end -%>
+
+                        <% unless agent.agent_profile.mobile.blank? -%>
+                            <li><span class="bold">Mobile:</span> <%= agent.agent_profile.mobile %></li>
+                        <% end -%>
+
+                        <% unless agent.agent_profile.fax.blank? -%>
+                            <li><span class="bold">Fax:</span> <%= agent.agent_profile.fax %></li>
+                        <% end -%>
+
+                        <li><span class="bold">E-mail:</span> <%= agent.agent_profile.email %></li>
+
+                        <% unless agent.agent_profile.website.blank? -%>
+                            <li><span class="bold">National site:</span> <%= agent.agent_profile.website %></li>
+                        <% else -%>
+                            <li><span class="bold">National site:</span> www.intervac-homeexchange.com</li>
+                        <% end -%>
+                    </ul>
+
+                    <h2><%= t('global.address') %></h2>
+                    <div class="contact-information">
+                        <p>
+                            <%= agent.agent_profile.address %>
+                            <br />
+                            <span><%= agent.agent_profile.postal_code %></span>, <span><%= agent.agent_profile.postal_town %></span>
+                            <br />
+                            <%= agent.agent_profile.country %>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        <% end %>
+    </article>
+<% end -%>

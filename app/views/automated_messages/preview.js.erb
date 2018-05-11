@@ -1,0 +1,2 @@
+$('#message-section').hide();
+$('#message-section').after("<%= escape_javascript(render(partial: 'preview', locals: {preview_message: @preview_message})) %>");

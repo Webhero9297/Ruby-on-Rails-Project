@@ -1,0 +1,53 @@
+<% if @price_plan.kind != "free" %>
+  <%= form_tag(promotion_code_price_plans_url, method: :post, class: 'form-inline promo-code-form', remote: true) do %>
+    <%= label_tag('promotion_code', t('payment.promotion_codes.label.fill_out_your_promotion_code')) %>
+    <%= text_field_tag('promotion_code', @promotion_code.try(:code), class: 'w40') %>
+    <%= hidden_field_tag('price_plan_id', @price_plan.id, class: 'w40') %>
+    <%= button_tag(t('button.redeem'), type: 'submit', class: 'btn green promo-code-submit', style: 'vertical-align: 5px') %>
+
+    <% if @promotion_code.present? %>
+      <div class="alert alert-success" id="flash_alert">
+        <%= t("registration.header.you_have_a_valid_promotion_code") %>
+      </div>
+    <% end %>
+  <% end %>
+<% end %>
+
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), html: {id: 'user-registration', class: 'form-horizontal'}) do |f| %>
+  <%= render(partial: '/users/shared/resource_error_message', locals: {resource: resource}) %>
+
+  <fieldset class="registration-fields">
+    <%= hidden_field_tag('account[price_plan]', @price_plan.id) %>
+    <%= hidden_field_tag('account[country_short]', @visitor_country.short) %>
+
+    <div class="registration-country-residence">
+      <strong><%= t('users.registrations.form.i_live_in') %> <%= t(@visitor_country.msgid) %></strong> -
+      <%= link_to( t('users.registrations.form.another_country'), choose_country_url) %>
+    </div>
+
+    <%= f.label(:name, t('users.registrations.form.name'), class: 'control-label' )%>
+    <%= f.text_field(:name, size: 42, maxlength: 60, class: 'w80', placeholder: t('global.first_last_name')) %>
+
+    <%= f.label(:email, t('users.registrations.form.email'), class: 'control-label' )%>
+    <%= f.email_field(:email, size: 42, maxlength: 128, class: 'w80', placeholder: 'your@email.com') %>
+
+    <%= f.label(:password, t('users.registrations.form.password'), class: 'control-label') %>
+    <%= f.password_field(:password, size: 42, maxlength: 32, class: 'w80') %>
+
+    <%= f.label(:password_confirmation, t('users.registrations.form.verify_password'), class: 'control-label') %>
+    <%= f.password_field(:password_confirmation, size: 42, maxlength: 32, class: 'w80') %>
+
+    <%= hidden_field_tag "account[promotion_code]", @promotion_code.try(:id), class: 'promo-code-id' %>
+
+    <%= label_tag('terms-and-conditions', class: "checkbox") do %>
+      <%= check_box_tag( 'user[terms_and_conditions]', 1, false, id: 'terms-and-conditions') %>
+      <%= t('users.accept_privacy_terms', {PRIVACY: link_to(t('button.privacy_policy'), terms_of_use_url), TERMS: link_to(t('button.terms_condition'), privacy_policy_url)}) %>
+    <% end %>
+
+  </fieldset>
+
+  <fieldset>
+    <%= f.button( t('button.sign_up'), class: 'btn xl blue') %>
+    <%= link_to( t('button.cancel'), price_plans_url, class: 'btn') %>
+  </fieldset>
+<% end %>

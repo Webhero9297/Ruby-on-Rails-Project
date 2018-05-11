@@ -1,0 +1,36 @@
+<% if admin_session? %>
+  <% body_id 'countries' %>
+<% else %>
+  <% body_id 'payment' %>
+<% end %>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: '/payment/price_plans/price_plans_menu', locals: {country: @country, countries: @countries}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('payment.promotion_codes.header.edit_promotion_code_for') %> <%= @price_plan.name %></h1>
+        <div class="row-fluid">
+          <div class="span8">
+            <%= render(partial: 'form') %>
+          </div>
+          <div class="span4">
+            <p><%= t('payment.add_promotion_help_text') %></p>
+            <% if @promotion_code.archived %>
+            <div class="alert alert-warning mb40">
+              <p class="alert-message"><%= t('payment.alert.message.this_promotion_code_has_been_archived') %></p>
+            </div>
+            <% else %>
+            <p><%= link_to(content_tag('i', '', class: 'icon-briefcase icon-white') + ' ' + t('payment.archive_code'), archive_country_price_plan_promotion_code_url(@country, @price_plan, @promotion_code), class: 'btn btn-warning', confirm: 'Are you sure that you want to archive this promotion code?') %></p>
+            <p class="mb40"><%= t('payment.promotion_codes.archive_code_help_text') %></p>
+            <% end %>
+            
+            <p><%= link_to(content_tag('i', '', class: 'icon-trash icon-white') + ' ' + t('button.delete_code'), country_price_plan_promotion_code_url(@country, @price_plan, @promotion_code), class: 'btn btn-danger', confirm: 'Are you sure that you want to delete this promotion code?', method: :delete) %></p>
+            <p><%= t('payment.promotion_codes.delete_code_help') %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

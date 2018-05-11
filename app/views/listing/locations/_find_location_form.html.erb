@@ -1,0 +1,6 @@
+<%= form_tag('#q', method: 'get', id: 'listing-location', class: 'form-horizontal') do %>
+  <%= label_tag('q', t('listing.label.verify_address'), id: 'location-label') %>
+  <%= text_field_tag('q', @contact_address, size: '82', maxlength: '255', placeholder: 'Enter the property address', id: address_field_id, class: 'input-xxlarge') %>
+  <%= button_tag(t('button.find'), class: 'btn btn-success') %>
+  <p class="help-block"><strong>Example:</strong> Strawberry road 11, Basket town, Sweden</p>
+<% end %>

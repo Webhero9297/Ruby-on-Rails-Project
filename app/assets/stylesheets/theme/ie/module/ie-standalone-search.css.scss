@@ -1,0 +1,15 @@
+.standalone-search-form {
+    border: 0;
+    display: inline-block;
+    margin-top: 8em;
+    width: 40em;
+}
+
+.standalone-search-label {
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+
+input[type="text"].standalone-search-field {
+    padding: 0.675em 1.125em;
+}

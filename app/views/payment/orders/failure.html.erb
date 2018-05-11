@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="span12">
+    <article>
+      <h1 class="page-header"><%= t('payment.orders.something_went_wrong') %></h1>
+      <p>We are sorry, but something went wrong and PayPal could not process your order.</p>
+      <p>Please keep the following information if there should be any doubts regarding this payment transaction.</p>
+      <div class="well">
+        <ul>
+          <li><strong>Order number:</strong> <%= @order.order_number ? @order.order_number : 'Not available' %></li>
+          <li><strong>Payment token:</strong> <%= @order.express_token ? @order.express_token : 'Not available'  %></li>
+          <% if not @order.transactions.last.nil? %>
+            <li><strong>CorrelationID:</strong> <%= @order.transactions.last.params['correlation_id'] ? @order.transactions.last.params['correlation_id'] : 'Not available' %></li>
+          <% end %>
+        </ul>
+      </div>
+      <p>You have the following options.</p>
+      <div class="well">
+        <h2 class="section-header">Try to pay again</h2>
+        <p>This will let you choose payment option again and try to complete the payment process. All information will be kept.</p>
+        <p><%= link_to('Try again', paid_plan_confirmation_path, class: 'btn btn-primary') %></p>
+      </div>
+
+      <div class="well">
+        <h2 class="section-header">Log out and try later</h2>
+        <p>This will log you out and let you try to complete your payment next time you log in. All information will be keept.</p>
+        <p><%= link_to('Try later', destroy_user_session_path, class: 'btn btn-primary') %></p>
+      </div>
+
+      <% if not @order.renewal and not @order.upgrade %>
+          <div class="well">
+              <h2 class="section-header">Cancel sign up and payment</h2>
+              <p>This will delete your current sign up process. All information will be deleted and you can register at a later time.</p>
+              <p><%= link_to(t('button.cancel'), cancel_signup_url(@account), class: 'btn btn-danger', confirm: t('registration.confirm_cancellation') ) %></p>
+          </div>
+      <% end %>
+
+
+    </article>
+  </div>
+</div>

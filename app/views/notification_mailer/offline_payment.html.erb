@@ -1,0 +1,43 @@
+<h1 class="bb"><%= t('billing.new_offline_payment') %></h1>
+<table>
+  <tr>
+    <td class="col1"><%= t('global.membership') %>:</td>
+    <td class="col2"><%= text_if_missing(@price_plan.name) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('global.duration') %>:</td>
+    <td class="col2"><%= text_if_missing(@price_plan.duration)%> <%= text_if_missing(@price_plan.periodicity) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('global.price') %>:</td>
+    <td class="col2"><%= text_if_missing("%.2f" % @order.total_amount) %> <%= text_if_missing(@order.currency) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('global.order_number') %>:</td>
+    <td class="col2"><%= @order.order_number %></td>
+  </tr>
+</table>
+
+<h2 class="bb"><%= t('global.buyer') %></h2>
+<table>
+  <tr>
+    <td class="col1"><%= t('listings.label.listing_number') %>:</td>
+    <td class="col2"><%= text_if_missing(@user.account.listings.map(&:listing_number).join(', ')) if @user.account.listings.any? %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('accounts.account_number') %>:</td>
+    <td class="col2"><%= text_if_missing(@user.account.account_number) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('global.name') %>:</td>
+    <td class="col2"><%= text_if_missing(@user.name) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('sitewide.country') %>:</td>
+    <td class="col2"><%= text_if_missing(@user.account.country_short) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('global.email') %>:</td>
+    <td class="col2"><%= text_if_missing(@user.account.contact.email) %></td>
+  </tr>
+</table>

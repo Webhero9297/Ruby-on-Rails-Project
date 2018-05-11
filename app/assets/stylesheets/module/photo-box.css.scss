@@ -1,0 +1,49 @@
+@import 'mixins';
+.photo-box {
+    margin-bottom: 40px;
+}
+
+.photo-box-img {
+  display: block;
+  margin: auto;
+  padding: 0;
+  max-width: 100%;
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.photo-box-content {
+    background-color: $white;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+    position: relative;
+    height: 458px;
+}
+
+.photo-box-content-listing {
+    margin-right: 4px;
+}
+
+.photo-box-caption {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    bottom: 20px;
+    height: 62px;
+    left: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 6px 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+    &.photo-box-main-photo {
+        height: auto;
+        overflow: visible;
+    }
+}

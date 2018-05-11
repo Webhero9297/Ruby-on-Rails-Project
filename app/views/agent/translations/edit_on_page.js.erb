@@ -1,0 +1,6 @@
+<% if @is_public %>
+    $('.dashboard-switcher').first().append("<%= escape_javascript(render(partial: 'edit_on_public_page')) %>");
+<% else %>
+    $('div#translation-modal').html("<%= escape_javascript(render(partial: 'edit_on_page')) %>");
+    $('#translation-modal').modal('show');
+<% end %>

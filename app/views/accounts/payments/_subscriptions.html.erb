@@ -1,0 +1,40 @@
+<% if not @subscriptions.empty? %>
+<div class="row-fluid">
+  <div class="span12" id="billing-details-container">
+    
+    <table class="table">
+      <thead>
+        <tr>
+          <th><%= t('global.subscriptions') %></th>
+          <th><%= t('global.purchased') %></th>
+          <th><%= t('global.expires') %></th>
+          <th><%= t('global.kind') %></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @subscriptions.each do |subscription| %>
+        <tr>
+          <% if subscription.active == true then %>
+          <td><i class="icon-star"></i> <%= subscription.name %></td>
+          <% else %>
+          <td><i class="icon-lock"></i> <%= subscription.name %></td>
+          <% end %>
+          <td><%= standard_date(subscription.created_at) %></td>
+          <td><%= standard_date(subscription.expires_at) %></td>
+          <td><%= subscription.kind %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+    
+  </div>
+</div>
+<% else %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="alert alert-info">
+      <p class="alert-message"><%= t('payments.alert.message.there_are_no_transactions_available') %></p>
+    </div>
+  </div>
+</div>
+<% end %>

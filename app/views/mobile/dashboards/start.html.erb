@@ -1,0 +1,25 @@
+<section>
+    <h1 class="page-header mb30 align-center"><%= t('mobile.dashboard.header') %></h1>
+    <nav>
+        <ul class="navigation-grid">
+            <li>
+                <%= link_to(mobile_listings_path, :'data-spinner' => 'spinner') do %>
+                    <%= image_tag('mobile-dashboard-listings.png', width: 152, height: 152, alt: t('global.view_listings')) %>
+                    <span>Listings</span>
+                <% end %>
+            </li>
+            <li>
+                <%= link_to(mobile_messages_path, :'data-spinner' => 'spinner') do %>
+                    <%= image_tag('mobile-dashboard-messages.png', width: 152, height: 152, alt: t('global.messages')) %>
+                    <span>Messages</span>
+                <% end %>
+            </li>
+            <li>
+                <%= link_to(mobile_favorites_path, :'data-spinner' => 'spinner') do %>
+                    <%= image_tag('mobile-dashboard-favorites.png', width: 152, height: 152, alt: t('global.favorites')) %>
+                    <span>Favorites</span>
+                <% end %>
+            </li>
+        </ul>
+    </nav>
+</section>

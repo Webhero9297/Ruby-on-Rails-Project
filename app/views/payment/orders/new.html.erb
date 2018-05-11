@@ -1,0 +1,19 @@
+<%= render('dashboards/membership-menu') %>
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('payment.header.renew_membership') %></h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="span12">
+    <article class="well">
+      
+      <%= form_for @order do |f| %>
+        <fieldset class="form-actions">
+          <%= f.button("Renew", class: 'btn btn-primary') %>
+        </fieldset>
+      <% end %>
+    </article>
+  </div>
+</div>

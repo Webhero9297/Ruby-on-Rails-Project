@@ -1,0 +1,5 @@
+<%= form_tag(list_agent_members_url, method: 'get', id: 'admin-show-country-members-form', class: 'form-horizontal well') do %>
+  <%= label_tag('assigned-country', 'Show members for') %>
+  <%= select("assigned_country",'country', @user.agent_profile.agent_for.collect {|c| [ t(c['msgid']), c['short'] ] }.sort, {:selected => @selected_country, :include_blank => 'All countries'}, id: 'assigned-country') %>
+  <%= button_tag("Show members", class: 'btn') %>
+<% end %>

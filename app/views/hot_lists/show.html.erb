@@ -1,0 +1,27 @@
+
+<div class="row">
+  <div class="span12 bg-white box-shadow">
+    <div class="box-inner">
+      <h1 class="box"><%= t('hot_list.header.listings_ready_for_exchange') %></h1>
+    </div>
+    
+    <div class="row">
+      <div class="span12">
+        <% if @listings.empty? %>
+        <div class="alert alert-info">
+          <p class="alert-message"><%= t('hotlist.alert_message') %></p>
+        </div>
+        <% else %>
+        <%= render( partial: 'listings/listing_card', collection: @listings, as: 'listing' ) %>
+        <% end -%>
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="span12">
+        <%= paginate @listings %>
+      </div>
+    </div>
+      
+  </div>
+</div>

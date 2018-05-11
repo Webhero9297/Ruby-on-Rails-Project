@@ -1,0 +1,218 @@
+<% body_id 'signup' %>
+<% section_image 'section-image-collapse' %>
+
+<div class="row">
+  <div class="wide">
+    <h1 class="top-header">
+      <span class="top-header-label"><%= t('application.plans_and_pricing.headline') %></span>
+    </h1>
+
+    <div class='country-residence'>
+      <p><%= t('application.plans_and_pricing.uspintro') %></p>
+      <p><%= t('application.page1.intro_text', {:number => length_of_trial_membership}) %></p>
+      <strong><%= t('users.registrations.form.i_live_in') %> <%= t(@visitor_country.msgid) %></strong>
+      <%= link_to( t('users.registrations.form.another_country'), choose_country_url) %>
+    </div>
+    <div class="row plans">
+      <div class="col-md-3 plan-descriptions hidden-sm hidden-xs">
+        <span class="details">
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.includes_photos_and_text') %>">
+              <%= t('application.price_comparison.includes_photos_and_text') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.includes_photos_and_text_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.able_to_send_proposals') %>">
+              <%= t('application.price_comparison.able_to_send_proposals') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.able_to_send_proposals_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.create_exchange_agreements') %>">
+              <%= t('application.price_comparison.create_exchange_agreements') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.create_exchange_agreements_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.unlimited_access') %>">
+              <%= t('application.price_comparison.unlimited_access') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.unlimited_access_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.access_to_contact_info') %>">
+              <%= t('application.price_comparison.access_to_contact_info') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.access_to_contact_info_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.assistance_from_local_organizer') %>">
+              <%= t('application.price_comparison.assistance_from_local_organizer') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.assistance_from_local_organizer_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.save_favorites') %>">
+              <%= t('application.price_comparison.save_favorites') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.save_favorites_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.receive_match_alerts') %>">
+              <%= t('application.price_comparison.receive_match_alerts') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.receive_match_alerts_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.view_listing_statistics') %>">
+              <%= t('application.price_comparison.view_listing_statistics') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.view_listing_statistics_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.new_message_notification') %>">
+              <%= t('application.price_comparison.new_message_notification') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.new_message_notification_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.receive_newsletter') %>">
+              <%= t('application.price_comparison.receive_newsletter') %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.receive_newsletter_more') %>"></i>
+            </span>
+          </span>
+          <span class="description">
+            <span class="text" data-toggle="tooltip" title="<%= t('application.price_comparison.for_new_members') %>">
+              <%= markdown(t('application.price_comparison.for_new_members')) %>
+            </span>
+            <span class="info">
+              <i class="fa fa-question-circle" data-toggle="tooltip" title="<%= t('application.price_comparison.for_new_members_more') %>"></i>
+            </span>
+          </span>
+        </span>
+
+      </div>
+      <a class="col-md-3 plan-item" href="<%= signup_plan_url(@trial_plan) %>">
+        <h3 class="period"><%= t('application.free_membership.headline', :NUMBER => length_of_trial_membership) %></h3>
+        <h2 class="price"><%= t('users.registrations.free') %></h2>
+        <span class="button"><%= t('users.plans_and_pricing.choose_plan') %></span>
+        <span class="details">
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i>
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.includes_photos_and_text') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.includes_photos_and_text_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.able_to_send_proposals') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.able_to_send_proposals_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-times-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.create_exchange_agreements') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.create_exchange_agreements_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.unlimited_access') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.unlimited_access_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-times-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.access_to_contact_info') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.access_to_contact_info_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.assistance_from_local_organizer') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.assistance_from_local_organizer_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.save_favorites') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.save_favorites_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.receive_match_alerts') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.receive_match_alerts_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.view_listing_statistics') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.view_listing_statistics_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.new_message_notification') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.new_message_notification_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.receive_newsletter') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.receive_newsletter_more') %>"></i>
+          </span>
+          <span class="description-item">
+            <i class="fa fa-check-circle"></i> 
+            <span class="hidden-md hidden-lg"><%= t('application.price_comparison.for_new_members') %> </span>
+            <i class="fa fa-question-circle hidden-md hidden-lg" data-toggle="tooltip" title="<%= t('application.price_comparison.for_new_members_more') %>"></i>
+          </span>
+
+          <span class="button"><%= t('users.plans_and_pricing.choose_plan') %></span>
+        </span>
+        <span class="toggle-more toggle-more-handheld">
+          <span class="more-label"><%= t('application.price_comparison.more') %></span>
+          <span class="less-label"><%= t('application.price_comparison.less') %></span>
+        </span>
+      </a>
+      <% @price_plans.each do |price_plan| %>
+        <%= render("price_plan_card", { price_plan: price_plan, renew: false }) %>
+      <% end %>
+    </div>
+
+    <h2 class="top-header">
+      <span class="top-header-label"><%= t('application.plans_and_pricing.usptitle') %></span>
+    </h2>
+    <div class="row usps">
+      <%= render(partial: 'pages/usps') %>
+      <div class="col-md-12 usp-text">
+        <p><%= t('application.plans_and_pricing.usptext') %></p>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $('#country-residence').on('change', function(event) {
+    window.location.replace('http://<%= Rails.application.config.main_domain %>/country/change/' + $(this).val());
+  });
+  $( document ).on( 'click', '.js-toggle-more', function( e ){
+    e.preventDefault();
+    $( '.plans' ).toggleClass( 'more' );
+  });
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+  });
+</script>

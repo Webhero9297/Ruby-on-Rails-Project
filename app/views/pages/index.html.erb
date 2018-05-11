@@ -1,0 +1,118 @@
+<% body_id 'home' %>
+
+<% content_for :site_header_body_content do %>
+  <div class="container hidden-xs">
+    <%= render(partial: 'pages/steps') %>
+  </div>
+  <%= render(partial: 'pages/standalone_search') %>
+<% end %>
+<div class="container visible-xs">
+  <%= render(partial: 'pages/steps') %>
+</div>
+<section class="page-section ups">
+  <h2 class="top-header">
+    <span class="top-header-label"><%= t('application.plans_and_pricing.usptitle') %></span>
+  </h2>
+  <div class="row usps">
+    <div class="col-md-12 usp-intro">
+      <p><%= t('application.plans_and_pricing.uspintro') %></p>
+    </div>
+    <%= render(partial: 'pages/usps') %>
+  </div>
+</section>
+
+<section class="page-section">
+  <h2 class="page-header-divider">
+    <span class="page-header-divider-label h2"><%= t('homepage.video.header') %></span>
+  </h2>
+
+  <div class="row">
+    <div class="split">
+      <p><%= t('homepage.video.text') %></p>
+    </div>
+    <div class="split">
+      <div class="video-wrapper">
+        <div id="player"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section">
+  <h2 class="page-header-divider">
+    <span class="page-header-divider-label h2"><%= t('homepage.listings.header') %></span>
+  </h2>
+  <%= render(partial: 'listings/listing_card_small', collection: @listings, as: :listing) %>
+</section>
+
+<section class="page-section">
+  <h2 class="page-header-divider">
+    <span class="page-header-divider-label h2"><%= t('homepage.unexpected_destinations.header') %></span>
+  </h2>
+  <% @oc_listings.each do |listing| %>
+    <article class="listing-card-small">
+      <%= link_to(listing_path(listing), class: 'listing-card-small-link') do %>
+        <% if listing.get_main_photo != nil %>
+          <%= image_tag(listing.get_main_photo.image.size_230, width: 230, alt: listing.get_main_photo.caption, class: 'listing-card-small-image') %>
+        <% else %>
+          <%= image_tag('photos-coming-soon-230.jpg', width: 230, alt: '', class: 'listing-card-small-image') %>
+        <% end %>
+        <h1 class="listing-card-small-header">
+          <%= listing.postal_town%>,
+          <span class="listing-card-small-country"><%=t(listing.country) %></span>
+        </h1>
+      <% end %>
+    </article>
+  <% end %>
+</section>
+
+<section class="page-section">
+  <article class="split">
+    <h1 class="page-header-divider">
+      <span class="page-header-divider-label h2"><%= t('homepage.become_an_ambassador.headline') %></span>
+    </h1>
+    <%= link_to('http://blog.intervac-homeexchange.com/our-history/our-ambassadors.html') do %>
+      <%= image_tag('homepage_ambassadors-grange-martins.png', alt: '', class: 'article-image') %>
+      <%= markdown(t('homepage.meet_our_ambassador.text')) %>
+    <% end %>
+  </article>
+  <article class="split">
+    <h1 class="page-header-divider">
+      <span class="page-header-divider-label h2"><%= t('homepage.tell_your_story.headline') %></span>
+    </h1>
+    <%= link_to('http://blog.intervac-homeexchange.com/tell-us-your-home-exchange-story.html') do %>
+      <%= image_tag('homepage_tell_your_story.png', alt: '', class: 'article-image') %>
+      <%= markdown(t('homepage.tell_your_story.text')) %>
+    <% end %>
+  </article>
+</section>
+
+<section class="page-section">
+  <article class="split">
+    <h1 class="page-header-divider">
+      <span class="page-header-divider-label h2"><%= t('homepage.bottom.left.header') %></span>
+    </h1>
+    <%=link_to(image_tag("photo-contest-2016.png", alt: '', class: 'article-image'), facebook_competition_path) %>
+    <%= markdown(t('homepage.bottom.left.text')) %>
+    <p class="text-center">
+    <%= link_to(image_tag('facebook.png', alt: 'Follow us on Facebook'), 'https://www.facebook.com/IntervacHomeexchange') %>
+    <%= link_to(image_tag('twitter.png', alt: 'Follow us on Twitter'), 'https://www.twitter.com/intervacblog') %>
+    <%= link_to(image_tag('google-plus.png', alt: 'Follow us on Pinterest'), 'https://plus.google.com/+intervac') %>
+    <%= link_to(image_tag('pinterest.png', alt: 'Follow us on Google+'), 'https://de.pinterest.com/intervacblog') %>
+    </p>
+  </article>
+  <article class="split">
+    <h1 class="page-header-divider">
+      <span class="page-header-divider-label h2"><%=t('homepage.national_representatives.headline')%></span>
+    </h1>
+    <%= link_to(image_tag("national-representatives-montage.png", alt: '', class: 'article-image'), representatives_path) %>
+    <%= markdown(t('homepage.bottom.right.text')) %>
+  </article>
+</section>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  init_destination_autocomplete();
+});
+</script>
+

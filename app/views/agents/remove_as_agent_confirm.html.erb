@@ -1,0 +1,6 @@
+<%= render(locals: {header: 'Remove as agent'}, layout: '/layouts/modules/single_page_plate') do %>
+
+    <p>Remove as agent will remove the agent profile and all the agent connections for a the user <strong><%= @user.name %></strong></p>
+    <%= link_to('Remove as agent', remove_as_agent_agent_path(@user), class: 'btn btn-danger', confirm: 'Are you sure you want to remove this agent?') %>
+    <%= link_to('Cancel', edit_agent_path(@user), class: 'btn btn-success') %>
+<% end %>

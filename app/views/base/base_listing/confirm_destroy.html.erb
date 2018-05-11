@@ -1,0 +1,17 @@
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Confirm listing deletion</h1>
+
+        <div class="alert alert-danger">
+          Are you sure you want to delete this listing? When a listing has been deleted none of the information can be restored.
+        </div>
+
+        <div class="inner-content">
+          <%= render(partial: '/listings/account_listing_overview', object: @listing, as: :listing) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

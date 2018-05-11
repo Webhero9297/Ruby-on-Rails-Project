@@ -1,0 +1,3 @@
+$('#listings-listview').html("<%= escape_javascript(render(partial: '/mobile/listings/listings_listview', locals: {listings: @listings})) %>");
+$('#listview-pagination').html("<%= escape_javascript(render(partial: '/mobile/listings/listview_pagination', locals: {listings: @listings})) %>");
+$('#listings-listview, #listview-pagination').trigger('create');

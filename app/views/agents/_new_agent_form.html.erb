@@ -1,0 +1,20 @@
+<% if @user.is_agent then %>
+<div class="alert alert-warning">
+    <p class="alert-message">User already assinged  as agent</p>
+</div>
+<% else %>
+  <%= form_for([@user, @agent_profile], url: agents_path, class: 'well') do |f| %>
+  
+    <div class="alert alert-danger">
+      <p class="alert-message"><%= t('admin.agents.upgrade_user_to_agent') %></p>
+    </div>
+  
+    <p><strong><%= @user.name %> - <%= @user.email %></strong></p>
+  
+    <fieldset>
+      <%= hidden_field_tag('user_id', @user.id) %>
+      <%= f.button('Upgrade to agent', class: 'btn btn-success') %>
+    </fieldset>
+  
+  <% end -%>
+<% end %>

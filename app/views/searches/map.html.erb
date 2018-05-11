@@ -1,0 +1,87 @@
+<div class="row-fluid">
+    <div class="span12">
+        <div class="sidebar">
+            <%- if user_signed_in? -%>
+              <div class="mb40">
+                  <%= render(partial: 'dashboards/member_home') %>
+              </div>
+            <%- end -%>
+
+            <div class="filters mt20">
+                <%= render :layout => 'map-filter-form' do %>
+                  <h1 class="search-options-header"><%= t('filters.search_options') %></h1>
+                  <button class="btn btn-small btn-success mb10"><%= t('button.apply_filters') %></button>
+                  <%= link_to(t('button.clear_search'), searches_map_search_url, class: "btn btn-small pull-right") %>
+                  <div class="clear"></div>
+                  <%= render(layout: "accordion", locals: {exchange_types: @exchange_types, environments: @environments, property_details: @property_details, house_types: @house_types, surrounding_types: @surrounding_types}) do %>
+                    <%- if user_signed_in? -%>
+                      <% content_for :saved_searches do %>
+                        <%= render(partial: "searches/saved_searches") %>
+                      <% end %>
+                    <%- end -%>
+                  <% end %>
+                <% end %>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="form-inline mb20 ml10">
+                <div class="input-group">
+                    <%= link_to(content_tag('i', '', class: 'icon-white icon-list') + ' ' + t('search_result.list_view'), searches_search_url(params), class: 'btn btn-primary mb20') %>
+                </div>
+
+                <div class="input-append">
+                    <%= text_field_tag('destination', @destination, placeholder: t('form.placeholder.country_city_or_region'), id: "destination", class: "input-xxlarge", autofocus: true) %>
+                    <%= button_tag(t('button.find'), class: 'btn btn-success', id: 'btn-destination-field') %>
+                </div>
+            </div>
+
+            <%= render(partial: 'searches/chosen_filters_list') %>
+
+            <div id="plate-map">
+                <%= render(partial: 'listing_map') %>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+  var google_map = Object.create(GOOGLE_MAP);
+  var map_settings = {map_canvas: "google-map-canvas", zoom: 2};
+  var lat = $('#lat').val();
+  var lng = $('#lng').val();
+  if (lat != 0 && lng != 0) {
+    map_settings.lat = lat;
+    map_settings.lng = lng;
+    map_settings.zoom = parseInt($('#zoom').val());
+  }
+
+  init_google_map(google_map, map_settings);
+
+  /*
+   var input = document.getElementById('pac-input');
+   init_map_autocomplete(input);
+   */
+
+  $.ajax({
+    'url': '/search/mapview-coords<%= @query_string %>',
+    'dataType': 'json',
+    'success': function (coords) {
+      show_markers(false, coords);
+    }
+  });
+
+
+  google.maps.event.addListenerOnce(google_map.map, 'idle', function () {
+    //$(input).show();
+    google.maps.event.addListener(google_map.map, 'idle', function () {
+      set_form_viewport_values(google_map.map);
+    });
+  });
+
+  init_destination_autocomplete();
+
+  $('#btn-destination-field').on('click', function (event) {
+    geocode_and_submit_manual_address($('#destination').val());
+  });
+</script>

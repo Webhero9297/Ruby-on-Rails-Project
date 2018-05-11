@@ -1,0 +1,2 @@
+$('#result-placeholder').html("<%= escape_javascript(render(partial: '/member_filters/table_with_pagination', locals: {accounts: @accounts})) %>");
+$('th[data-sort="<%= @sort_on %>"]').data("direction", "<%= @direction %>");

@@ -1,0 +1,12 @@
+<%= t('billing.new_sign_up') %>
+---------------------------------------------------------
+<%= t('global.membership') %>: <%= @price_plan.name %>
+<%= t('global.duration') %>: <%= @price_plan.duration%> <%= @price_plan.periodicity %>
+<%= t('global.price') %>: <%= "%.2f" % @order.total_amount %> <%= @order.currency %>
+
+<%= t('global.buyer') %>
+---------------------------------------------------------
+<%= t('global.account_id') %>: <%= @user.account.account_number %>
+<%= t('global.name') %>: <%= @user.account.contact.name %>
+<%= t('global.email') %>: <%= @user.account.contact.email %>
+<%= t('sitewide.country') %>: <%= t(@user.account.get_country.msgid) %>

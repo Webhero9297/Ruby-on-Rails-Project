@@ -1,0 +1,37 @@
+<%= render(layout: 'layouts/modules/page_plate')  do %>
+
+  <h1 class="plate-header">Change listing number</h1>
+
+  <% if @listing.valid? %>
+    <div class="alert alert-info">
+      Here you can manually change the listing number. Listing number must be unique in the database.
+    </div>
+
+    <div class="inner-content">
+      <% if @listing.errors.any? %>
+      <div class="alert alert-danger">
+        <ul class="error-explanation">
+          <% @listing.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+      <% end %>
+      <%= form_for(@listing, url: management_listing_number_path(@listing), html: {class: 'well form-inline is-inline'}) do |f| %>
+      <fieldset>
+        <%= f.text_field(:listing_number, value: @listing.listing_number, class: "input-small") %>
+        <%= f.button('Update listing number', class: 'btn btn-primary') %>
+      </fieldset>
+      <% end %>
+    </div>
+  <% else %>
+    <div class="alert alert-danger">
+        <strong>Only completed and valid listings can change their listing number. Please fix the information below first.</strong>
+        <ul class="error-explanation">
+          <% @listing.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+<% end %>

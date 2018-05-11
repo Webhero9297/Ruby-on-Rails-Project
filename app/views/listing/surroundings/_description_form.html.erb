@@ -1,0 +1,25 @@
+<%= form_for(@listing, url: update_description_listing_surrounding_path(@listing), html: {id: 'surroundings-form'}, remote: true) do |f| %>
+  <% if @listing.errors.any? %>
+    <div class="row-fluid">
+      <div class="span12">
+        <div id="error_explanation">
+          <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+          <ul>
+            <% @listing.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+  <fieldset>
+    <%= label_tag('listing-surrounding', t('listings.label.write_short_introduction_surrounding_area')) %>
+    <%= f.text_area(:surrounding, cols: 60, rows: 12, class: 'input-block-level', id: 'listing-surrounding') %>
+  </fieldset>
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save_changes'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_description_listing_surrounding_path(@listing), remote: true) %>
+  </fieldset>
+<% end %>

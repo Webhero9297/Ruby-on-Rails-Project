@@ -1,0 +1,55 @@
+<% body_id 'translations' %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Create a new translation from gettext</h1>
+
+        <% if @translations.errors.any? %>
+          <section id="error-explanation" class="alert alert-danger">
+            <h1 class="alert-heading"><%= pluralize(@translations.errors.count, "error") %> stopped the translation from being saved:</h1>
+            <ul class="error-explanation">
+              <% @translations.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+              <% end %>
+            </ul>
+          </section>
+          <%- if  @translations.errors.include?(:msgid) and not @translations[:msgid].blank? -%>
+          <section class="well">
+            <p>If you want to use the existing msgid, you can remove the translation</p>
+            <%= link_to "Remove translation", admin_translations_delete_igettext_path(@gettext.id), :class => "btn", :confirm => "Do you really want to remove the translation." %>
+          </section>
+          <% end %>
+        <% end %>
+       <%= form_for( @translations, url: admin_translations_url ) do |f| %>
+        <fieldset>
+          <%= f.label(:msgid, "Msgid") %>
+          <%= f.autocomplete_field(:msgid, admin_autocomplete_translations_msgid_admin_translations_path, class: 'input-xxlarge') %>
+          
+          <%= f.label(:value, "Translation") %>
+          <%= f.text_field(:value, :value => @gettext.msgid, class: 'input-xxlarge') %>
+          <%= f.label(:category, "Category") %>
+          <%= f.text_field(:category, :value => 'other', :class => "typeahead", :'data-source' => @categories.to_json) %>
+          
+          <%= f.label(:locale, "Locale") %>
+          <%= f.text_field(:locale, :value => 'en', :readonly => true, class: 'input-mini') %>
+          
+          <%= hidden_field_tag :gettext_id, @gettext.id %>
+        </fieldset>
+        <fieldset class="form-actions">
+          <%= f.button('Save', class: 'btn btn-primary') %>
+          <%= link_to( t('button.cancel'), admin_translations_show_gettexts_url, class: 'btn btn-link') %>
+        </fieldset>
+       <% end %>
+
+      </div>
+    </div>
+  </div>
+</div>
+  
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      setup_autocomplete_for_categories();
+  });
+</script>
+  

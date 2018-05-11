@@ -1,0 +1,68 @@
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('listing.add_as_favorite') %></h1>
+  </div>
+</div>
+
+
+<div class="row-fluid">
+  <div class="span12">
+
+    <article class="result-card">
+
+      <div class="card-header">
+        <h1 class="location"><span class="postal-town"><%= @listing.postal_town %></span>, <span class="country"><%= t(@listing.country) %></span></h1>
+      </div>
+
+      <div class="exchange-dates">
+        <% if @listing.exchange_dates.get_latest_period %>
+        <span class="dates"><span><%= standard_date(@listing.exchange_dates.get_latest_period.earliest_date) -%><span> - </span><%= standard_date(@listing.exchange_dates.get_latest_period.latest_date) -%></span></span>
+        <% else %>
+        <span class="dates"><%= t('listings.no_exchange_dates') %></span>
+        <% end %>
+      </div>
+
+      <div class="clear-both">
+        <%= membership_badge(@listing) %>
+        <% if @listing.get_main_photo != nil %>
+        <%= link_to(image_tag(@listing.get_main_photo.image.size_230, width: 290, height: 218, alt: @listing.get_main_photo.caption, class: 'card-photo'), listing_url(@listing)) %>
+        <% else %>
+        <%= link_to(image_tag('photos-coming-soon-230.jpg', width: 290, height: 218, alt: '', class: 'card-photo'), listing_url(@listing)) %>
+        <% end %>
+      </div>
+      
+      <%= render( partial: 'listings/listing_card_table', locals: {listing: @listing}) %>
+    </article>
+
+
+    <%= form_for(@favorite, html: {id: 'note-form', class: 'well form-vertical'}) do |f| %>
+    <% if @favorite.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@favorite.errors.count, "error") %> prohibited this conversation from being saved:</h2>
+      <ul>
+        <% @favorite.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+    <% end %>
+
+    <fieldset>
+      <%= f.label(:note, 'Note (Optional)', for: 'note') %>
+      <%= f.text_area(:note, rows: 8, cols: 50, id: 'note', class: 'span12') %>
+    </fieldset>
+
+    <fieldset>
+      <%= f.button(t('Save as favorite'), class: 'btn btn-primary') %>
+      <%= link_to('Cancel', listing_url(@listing), class: 'cancel') %>
+      <%= f.hidden_field(:listing_id, value: @listing.id) %>
+    </fieldset>
+    <% end %>
+  </div>
+
+</div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  activate_bookmarks();
+</script>

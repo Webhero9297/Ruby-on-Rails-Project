@@ -1,0 +1,5 @@
+<div>
+    <h2 class="section-header"><%= t('Cancel registration') %></h2>
+    <p><%= link_to(t('button.cancel'), cancel_signup_url(account_id), class: 'btn btn-danger', confirm: t('registration.confirm_cancellation') ) %></p>
+    <p><%= t('registration.cancellation_info') %></p>
+</div>

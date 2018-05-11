@@ -1,0 +1,21 @@
+<%= form_for(user, url: save_full_name_user_path, html: {class: 'form-vertical'}, remote: true) do |f| -%>
+  <fieldset>
+    <% if user.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(user.errors.count, "error") %> prohibited the name from being saved:</h2>
+  
+        <ul>
+        <% user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <%= f.label(:name, t('users.label.enter_name') ) %>
+    <%= f.text_field(:name, class: 'span12') %>
+  </fieldset>
+  <fieldset>
+    <%= f.button( t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to( t('button.cancel'), user_url, class: 'btn btn-link', id: "cancel-email") %>
+  </fieldset>
+<% end -%>

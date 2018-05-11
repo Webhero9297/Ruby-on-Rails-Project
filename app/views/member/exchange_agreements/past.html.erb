@@ -1,0 +1,48 @@
+<div class="row-fluid">
+    <div class="span3">
+        <%= render(partial: 'menu') %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+                <h1 class="plate-header"><%= t('exchange_agreement.header.past_exchange_agreements') %></h1>
+                <% if @exchange_agreements.empty? %>
+                  <div class="alert alert-info">
+                      <p class="alert-message"><%= t('exchange_agreements.alert.message.you_do_not_have_any_past_exchange_agreements') %></p>
+                  </div>
+                <% else %>
+                  <table class="table table-condensed">
+                      <thead>
+                      <tr>
+                          <th><%= t('global.my_listing') %></th>
+                          <th><%= t('global.partner_listing') %></th>
+                          <th><%= t('global.status') %></th>
+                          <th><%= t('global.view') %></th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <% @exchange_agreements.each do |exchange_agreement| %>
+                        <% exchange_agreement.agreements.each do |agreement| %>
+                          <% if agreement.owner == current_user.account.id %>
+                            <%
+                               my_agreement = agreement
+                               partner_agreement = exchange_agreement.get_other_agreement(agreement)
+                            %>
+                            <tr>
+                                <td><%= my_agreement.listing_number %></td>
+                                <td><%= link_to(partner_agreement.listing_number, listing_path(partner_agreement.listing_id)) %></td>
+                                <td><%= t(exchange_agreement.status) %> -
+                                    <em><%= standard_date_time(exchange_agreement.updated_at) rescue nil %></em></td>
+                                <td><%= link_to(t('global.view'), member_exchange_agreement_path(exchange_agreement)) %></td>
+                            </tr>
+                          <% end %>
+                        <% end %>
+                      <% end %>
+                      </tbody>
+                  </table>
+                <% end %>
+
+            </div>
+        </div>
+    </div>
+</div>

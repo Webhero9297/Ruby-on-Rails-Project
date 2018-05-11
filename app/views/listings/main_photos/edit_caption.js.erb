@@ -1,0 +1,6 @@
+$('#main-photo-manager-edit-btn').hide();
+if($('#main-photo-caption-form').length == 0) {
+  $('#main-photo-manager-action-list').append('<li id="main-photo-caption-form-item"><%= escape_javascript(render( partial: "main_photo_caption_form", locals: {listing: @listing})) %></li>');
+} else {
+  $('#main-photo-caption-form').replaceWith("<%= escape_javascript(render( partial: 'main_photo_caption_form', locals: {listing: @listing})) %>");
+}

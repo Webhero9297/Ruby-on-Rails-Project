@@ -1,0 +1,100 @@
+<% body_id 'dashboard' %>
+<%= render( partial: 'dashboard_menu' ) %>
+<section class="row-fluid">
+    <div class="span8">
+      <div class="mb40">
+        <%= render( partial: 'dashboards/unread_feedbacks') %>
+      
+        <%= render( partial: 'dashboards/conversations') %>
+      </div>
+      
+      <section id="statistics">
+        <h1 class="page-header">Account and member statistics</h1>
+                
+        <article>
+          <h1 class="page-header">Activations</h1>
+          <div id="stats-activated"></div>
+        </article>
+        <article>
+          <h1 class="page-header">Expirations</h1>
+          <div id="stats-expirations"></div>
+        </article>
+
+      </section>
+    </div>
+
+    <div class="span4">
+      <section class="mb20">
+        <h1 class="page-header">Number of members</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>Active</th>
+              <th>Expired</th>
+              <th>Trial</th>
+            </tr>
+          </thead>
+          <tbody>
+              <% @countries.each do |country| %>
+              <tr>
+                <td>
+                  <%= t(country.msgid) %>
+                </td>
+                <td>
+                  <% stats = country.member_stats() %>
+                  <%= stats[:active] %>
+                </td>
+                <td>
+                  <%= stats[:expired] %>
+                </td>
+                <td>
+                  <%= stats[:trial] %>
+                </td>
+                
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+        
+      </section>
+      
+      <section class="mb20">
+        <h1 class="page-header">Translations summary</h1>
+        <table class="table translation-stats">
+          <thead>
+            <tr>
+              <th>Language</th>
+              <th colspan="2">Progress</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @locale_stats.each do |stats| %>
+              <tr>
+                <td class="first">
+                  <%= link_to(stats[:locale], agent_translations_locale_url(:locale => stats[:locale]))%>
+                </td>
+                <td>
+                  <%= render(partial: 'layouts/progress_bar', :locals => { :progress => progress(stats[:missing], stats[:total]) } ) %>
+                </td>
+                <td class="third"><%= link_to( content_tag('i','',:class => 'icon-edit') + content_tag('span',t('Edit')), agent_translations_locale_url(:locale => stats[:locale]) )%></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+        
+      </section>
+
+
+      
+
+
+
+    </div>
+</section>
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+      load_agent_chart_data();
+  });
+</script>

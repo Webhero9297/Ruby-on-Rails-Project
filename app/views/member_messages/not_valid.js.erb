@@ -1,0 +1,3 @@
+$('#contact-message-plate-<%= @member_listing.id.to_s %>').replaceWith("<%= escape_javascript(render(partial: 'member_message_form')) %>");
+$('#contact-message-form-<%= @member_listing.id.to_s %>').show();
+<%= render(partial: 'message_templates/message_template_selector_script.js.erb') %>

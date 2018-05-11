@@ -1,0 +1,30 @@
+<h1 class="search-chosen-filters clear-left">
+    <%= markdown_strip_p(t('search_result.explanation.count', {:COUNT => format_count(@count)})) %>
+    <%- if @destination -%>
+      <%= markdown_strip_p(t('search_result.explanation.destination', {:DESTINATION => @destination})) %>
+    <%- end -%>
+
+    <%- if @hotlist -%>
+      <%= markdown_strip_p(t('search_result.explanation.hotlist')) %>
+    <%- end -%>
+
+    <%- if @reversed and user_signed_in? -%>
+      <%= markdown_strip_p(t('search_result.explanation.reversed', {:COUNTRY => display_users_listing_locations(current_user, @reversed_area)})) %>
+    <%- end -%>
+
+    <%- if @earliest_date -%>
+      <%= markdown_strip_p(t('search_result.explanation.earliest_date', {:EARLIEST_DATE => local_date(@earliest_date.to_date)})) %>
+
+      <%- if @latest_date -%>
+        <%= markdown_strip_p(t('search_result.explanation.date_span', {:LATEST_DATE => local_date(@latest_date.to_date)})) %>
+      <%- end -%>
+    <%- end -%>
+
+    <%- if not @earliest_date -%>
+      <%- if @latest_date -%>
+        <%= markdown_strip_p(t('search_result.explanation.latest_date', {:LATEST_DATE => standard_date(@latest_date)})) %>
+      <%- end -%>
+    <%- end -%>
+
+    <%= markdown_strip_p(t('search_result.explanation.order_by', {:ORDER => @order_by_hash[@order_by].try(:downcase)})) %>
+</h1>

@@ -1,0 +1,31 @@
+.testimonial {
+    margin-bottom: 2em;
+    padding: 2em;
+    border-bottom: 3px double $dark-blue;
+}
+
+.testimonial-header {
+    background: image-url('single-quote.png') no-repeat 0 0;
+    color: #454545;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+    @include rem('padding-left', 3.75rem);
+    @include rem('padding-top', 0.875rem);
+}
+
+.testimonial-quote {
+    margin: 0;
+    padding: 0;
+
+    > p {
+        font-style: italic;
+    }
+}
+
+.testimonial-citation {
+    display: block;
+    font-size: 0.875em;
+    margin-right: 2em;
+    text-align: right;
+}

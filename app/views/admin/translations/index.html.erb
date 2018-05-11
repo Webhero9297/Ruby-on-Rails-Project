@@ -1,0 +1,40 @@
+<% body_id 'translations' %>
+<%= render(locals: {header: 'Admin translations overview'}, layout: '/layouts/modules/single_page_plate') do %>
+    <div class="mb20">
+        <div class="btn-group">
+            <%= link_to( t('translations.add_translation'), new_admin_translation_url, class: 'btn') %>
+            <%= link_to( t('button.view_harvest_texts'), admin_translations_show_gettexts_url, class: 'btn') %>
+            <%= link_to( t('button.create_language'), admin_new_locale_url, class: 'btn') %>
+            <%= link_to( 'Automated messages', show_default_automated_messages_path, class: 'btn') %>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Total</th>
+                <th>Missing</th>
+                <th colspan="3">Progress</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @locale_stats.each do |stats| %>
+                <tr>
+                    <td>
+                        <%= link_to(stats[:locale], admin_translations_locale_url(:locale => stats[:locale]))%>
+                    </td>
+                    <td><%= stats[:total] %></td>
+                    <td><%= stats[:missing] %></td>
+                    <td><%= progress(stats[:missing], stats[:total]) %>%</td>
+                    <td>
+                        <%= link_to( content_tag('i','',:class => 'icon-edit') + content_tag('span',t('Edit')), admin_translations_locale_url(:locale => stats[:locale]) )%>
+                    </td>
+                    <td>
+                        <%= link_to( content_tag('i','',:class => 'icon-trash') + content_tag('span',t('Delete')), admin_translations_delete_locale_url(:locale => stats[:locale]), confirm: t('global.are_you_sure') )%>
+                    </td>
+                </tr>
+            <% end %>
+        </tbody>
+    </table>
+<% end %>

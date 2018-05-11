@@ -1,0 +1,19 @@
+<%= form_for(@adult, url: account_profiles_adult_url(@account, @adult), method: :put, remote: true, :html => {class: 'form-vertical'}) do |f| %>
+<% if @adult.errors.any? %>
+<section id="error-explanation" class="alert alert-danger">
+  <h1 class="alert-heading"><%= @adult.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped')%>:</h1>
+  <ul class="error-explanation">
+    <% @adult.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+    <% end %>
+  </ul>
+</section>
+<% end %>
+<fieldset>
+  <%= f.text_field(:occupation, class: 'input-xxlarge') %>
+</fieldset>
+<fieldset class="form-actions mt0">
+  <%= f.button(t('button.save'), placeholder: 'Occupation', class: 'btn btn-primary') %>
+  <%= link_to(t('global.cancel'), cancel_account_profiles_adults_path(@account), remote: true, format: :js) %>
+</fieldset>
+<% end %>

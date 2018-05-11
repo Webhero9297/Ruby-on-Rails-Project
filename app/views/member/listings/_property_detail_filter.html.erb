@@ -1,0 +1,10 @@
+<% if rules_filter.include?(property_detail.msgid) -%>
+  <li>
+    <%= hidden_field_tag("listing[property_details][#{property_detail.msgid}]", false) %>
+    <%= label_tag("listing-tag-#{property_detail.short}", class: 'checkbox') do %>
+      <%= check_box_tag("listing[property_details][#{property_detail.msgid}]", true, listing.property_details.include?(property_detail.msgid), id: "listing-tag-#{property_detail.short}", class: 'checkbox') %>
+      <%= t(property_detail.msgid) %>
+    <% end %>
+  </li>
+<% end -%>
+

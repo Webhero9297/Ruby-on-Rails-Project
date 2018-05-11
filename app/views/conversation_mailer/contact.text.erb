@@ -1,0 +1,42 @@
+<%# No indention for text messages %>
+
+<%= @message.conversation.subject %>
+
+-------------------------------------------------------------------
+<%= @message.body %>
+-------------------------------------------------------------------
+
+<%- if @message.kind == 'exchange_request' -%>
+<%= t('mailer.conversation.answer', :locale => @locale) %>
+
+<%= t('mailer.lets_talk', :locale => @locale) %>
+<%= t('mailer.description.interested', :locale => @locale) %>
+<%= external_domain_link(lets_talk_conversation_path(@message.conversation, @listing_owner.id)) %>
+
+<%= t('mailer.maybe_interested', :locale => @locale) %>
+<%= t('mailer.description.maybe_interested', :locale => @locale) %>
+<%= external_domain_link(maybe_interested_conversation_path(@message.conversation, @listing_owner.id)) %>
+
+<%= t('mailer.not_interested', :locale => @locale) %>
+<%= t('mailer.description.not_interested', :locale => @locale) %>
+<%= external_domain_link(not_interested_conversation_path(@message.conversation, @listing_owner.id)) %>
+
+<%- end -%>
+
+<%- if @message.conversation.kind == 'member_to_member' -%>
+<%= t('mailer.header.our_listing', :locale => @locale) %>
+-------------------------------------------------------------------
+<% @sender_account.listings.each do |listing| %>
+<%= listing.listing_number %>
+<%= listing.postal_town %>, <%= t(listing.country) %>
+<%= external_domain_link(listing_path(listing)) %>
+<% end %>
+<% end %>
+
+<% if @listing_owner.account.listings.first.open_past_listing #any of the listings would work because this is an account field %>
+  <%= t('mailer.old_listing_found', :locale => @locale) %>
+  <%= external_domain_link(hide_listing_conversation_path(@message.conversation, @listing_owner.id)) %>
+<% end %>
+
+<%= t('mailer.view_this_conversation_at_intervac', :locale => @locale) %>
+<%= external_domain_link(conversation_path(@message.conversation)) %>

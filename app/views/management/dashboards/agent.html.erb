@@ -1,0 +1,34 @@
+<% body_id 'dashboard' %>
+<%= render(locals: {header: "Agent dashboard"}, layout: '/layouts/modules/single_page_plate') do %>
+    <div class="row-fluid">
+        <div class="span8">
+            <% if @unread_messages > 0 %>
+                <%= render( partial: 'management/dashboards/agent_conversations') %>
+            <% end -%>
+
+            <section id="statistics">
+                <h2 class="plate-section-header">Membership statistics</h2>
+                <article class="mb60">
+                    <div id="stats-activated"></div>
+                </article>
+                <article>
+                    <div id="stats-expirations"></div>
+                </article>
+
+            </section>
+        </div>
+
+        <div class="span4">
+            <% if @missing_locales.length > 0 %>
+                <%= render( partial: 'management/dashboards/missing_translations') %>
+            <% end %>
+
+            <%= render( partial: 'management/dashboards/member_statistics') %>
+        </div>
+    </div>
+<% end %>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+      load_agent_chart_data();
+  });
+</script>

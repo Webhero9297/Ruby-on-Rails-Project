@@ -1,0 +1,21 @@
+<p>
+	<%= form_for(@profile, url: update_number_of_adults_account_profiles_path(@account), method: :put, remote: true, html: {class: 'form-inline'}) do |f| %>
+	<%= f.label(:number_of_adults, t('profile.nr_adults'), class: 'bold') %>:
+	<%= f.select(:number_of_adults, (1..10).to_a, {selected: @profile.number_of_adults}, {class: 'span1'}) %>
+	<% end %>
+</p>
+
+<p class="section-edit-btn">
+	<%= link_to(content_tag('i', '', class: 'icon-plus') + ' ' + t('accounts.profiles.add_occupation'), new_account_profiles_adult_url(@account), remote: true, class: 'btn btn-small') %>
+</p>  
+
+
+
+<%= render(partial: '/accounts/profiles/adults/adults_table', locals: {account: @account, profile: @profile}) %>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	add_change_event_for_adults();
+});
+</script>

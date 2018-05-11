@@ -1,0 +1,5 @@
+$('#<%= @item_id %>').remove();
+<% if @account.match_alert.locations.count == 0 -%>
+$('#match-alert-items').html("<%= escape_javascript(render(partial: 'empty')) %>");
+<% end %>
+$('#locations').html("<%= escape_javascript(render(partial: 'locations', locals: {destinations: @account.match_alert.locations})) %>");

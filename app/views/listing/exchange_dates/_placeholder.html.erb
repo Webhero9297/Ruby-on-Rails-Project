@@ -1,0 +1,4 @@
+<div id="exchange-dates-container">
+  <%= render(partial: '/listing/exchange_dates/result_table', locals: {listing: listing}) %>
+</div>
+<%= link_to(content_tag('i', '', class: 'icon-plus') + content_tag('span', t('exchange_dates.add_dates')), new_listing_exchange_date_url(listing), id: 'btn-add-exchange-date', class: "btn btn-small", remote: true) %>

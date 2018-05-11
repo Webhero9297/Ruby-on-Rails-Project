@@ -1,0 +1,34 @@
+<% body_id 'translations' %>
+
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Agent translations overview</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Language</th>
+              <th>Total</th>
+              <th>Missing</th>
+              <th colspan="2">Progress</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @locale_stats.each do |stats| %>
+            <tr>
+              <td>
+                <%= link_to(stats[:locale], agent_translations_locale_url(:locale => stats[:locale]))%>
+              </td>
+              <td><%= stats[:total] %></td>
+              <td><%= stats[:missing] %></td>
+              <td><%= progress(stats[:missing], stats[:total]) %>%</td>
+              <td><%= link_to( content_tag('i','',:class => 'icon-edit') + content_tag('span',t('Edit')), agent_translations_locale_url(:locale => stats[:locale]) )%></td>
+            </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

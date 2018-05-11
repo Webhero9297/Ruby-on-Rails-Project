@@ -1,0 +1,74 @@
+<% body_id 'search' %>
+<div class="sidebar">
+    <%- if user_signed_in? -%>
+      <div class="mb40">
+          <%= render(partial: 'dashboards/member_home') %>
+      </div>
+    <%- end -%>
+
+    <%= render :layout => 'searches/destination-filter-form' do %>
+      <h1 class="search-options-header"><%= t('filters.search_options') %></h1>
+      <button class="btn btn-small btn-success mb10"><%= t('button.apply_filters') %></button>
+      <%= link_to(t('button.clear_search'), searches_index_url, class: "btn btn-small pull-right") %>
+      <div class="clear"></div>
+      <%= render(layout: "searches/accordion", locals: {exchange_types: @exchange_types, environments: @environments, property_details: @property_details, house_types: @house_types, surrounding_types: @surrounding_types}) do %>
+        <%= render(partial: "searches/sorting") %>
+        <%= render(partial: "searches/per_page") %>
+        <%- if user_signed_in? -%>
+          <% content_for :saved_searches do %>
+            <%= render(partial: "searches/saved_searches") %>
+          <% end %>
+        <%- end -%>
+      <% end %>
+    <% end %>
+
+    <%= form_tag(searches_go_to_listing_path, method: 'get', id: "go-to-listing") do %>
+      <%= label_tag('listing-finder', t('searches.header.got_to_listing')) %>
+      <div class="input-append goto-listing-container">
+          <%= text_field_tag('listing_number', @listing_number, maxlength: '12', placeholder: t('text_field.placeholder.listing_number'), id: 'listing-finder', autocomplete: :off) %>
+          <%= button_tag(t('button.go'), class: 'btn btn-info') %>
+      </div>
+    <% end %>
+
+    <%- if user_signed_in? -%>
+      <%= form_tag(find_member_by_name_path, method: 'get', id: 'find-by-name') do %>
+        <%= label_tag('txt-member-name', t('dashboard.search.label.find_by_name')) %>
+        <div class="input-append goto-listing-container">
+            <%= text_field_tag('member_name', @member_name, id: 'txt-member-name', placeholder: t('text_field.placeholder.member_name'), autocomplete: 'off') %>
+            <%= button_tag(t('button.search'), class: 'btn btn-info') %>
+        </div>
+      <% end %>
+    <%- end -%>
+</div>
+
+<div class="main-content">
+    <div class="form-inline mb20 ml10">
+
+        <div class="input-group">
+            <%= link_to(content_tag('i', '', class: 'icon-white icon-map-marker')+ ' ' + t('search_result.map_view'), searches_map_search_url(params), class: 'btn btn-primary mb20') %>
+        </div>
+
+        <div class="input-append">
+            <%= text_field_tag('destination', @destination, placeholder: t('form.placeholder.country_city_or_region'), id: "destination", class: "input-xxlarge", autofocus: true) %>
+            <%= button_tag(t('button.find'), class: 'btn btn-success', id: 'btn-destination-field') %>
+        </div>
+    </div>
+    <%= render(partial: "searches/result_list", locals: {listings: @listings}) %>
+</div>
+<div class="clear"></div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    init_destination_autocomplete();
+
+    $('#btn-destination-field').on('click', function (event) {
+      geocode_and_submit_manual_address($('#destination').val());
+    });
+
+    $('.bookmark, .bookmarked').tooltip();
+
+    $('.help-link').on('click', function (event) {
+      event.preventDefault();
+    });
+  });
+</script>

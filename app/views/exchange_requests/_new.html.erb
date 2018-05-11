@@ -1,0 +1,48 @@
+<div class="mb40" id="contact-message-plate-<%= @member_listing.id.to_s %>">
+    <%= form_for(@conversation, url: exchange_request_path, html: {class: 'form-vertical contact-message-form ajax-file', id: "contact-message-form-#{@member_listing.id.to_s}"}, remote: true) do |f| %>
+        <h1 class="page-header">
+            <%= t('conversation.send_exchange_request_to') %> <%= @member_account.contact.name -%> (<%= @member_listing.listing_number -%>)
+        </h1>
+
+        <% if @conversation.errors.any? %>
+            <div id="error_explanation" class="error-dialog">
+                <h2>
+                    <%= pluralize(@conversation.errors.count, "error") %> <%= t('exchange_request.error.from_being_sent') %>:
+                </h2>
+                <ul>
+                    <% @conversation.errors.full_messages.each do |msg| %>
+                        <li><%= msg %></li>
+                    <% end %>
+                </ul>
+            </div>
+        <% end %>
+
+        <fieldset>
+            <%= f.label(:subject, t('global.subject'), for: 'message-subject') %>
+            <%= f.text_field(:subject, size: 100, id: 'message-subject', class: 'contact-message-subject') %>
+        </fieldset>
+
+        <fieldset>
+            <%= render(partial: 'message_templates/message_template_selector', locals: {message_templates: @user_account.message_templates, input_class: 'span3'}) %>
+        </fieldset>
+
+        <fieldset>
+            <%= f.label(:body, 'Message:', for: 'message-body') %>
+            <%= text_area_tag("message[body]", @body, cols: 72, rows: 12, id: 'message-body', class: 'contact-message-body', :'data-class' => 'message-template-target') -%>
+        </fieldset>
+
+        <div style="margin: 20px 0;">
+          <label for="file-attachment">
+            <i class="icon-file"></i> <%= t('conversation.text.attach_file_to_message') %>
+          </label>
+          <%= file_field_tag(:file, id: 'file-attachment') %>
+        </div>
+
+        <fieldset>
+            <%= f.button(t('conversations.send_message'), class: 'btn btn-primary blue', disable_with: t('conversation.button.sending_message')) %>
+            <%= link_to('Cancel', cancel_exchange_request_path(@member_listing.id), class: 'cancel', remote: true) %>
+            <%= hidden_field_tag('member_account_id', @member_account.id) %>
+            <%= hidden_field_tag('member_listing_id', @member_listing.id) %>
+        </fieldset>
+    <% end %>
+</div>

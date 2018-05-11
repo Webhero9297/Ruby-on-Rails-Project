@@ -1,0 +1,4 @@
+<tr id="country-<%= country['short'] %>">
+  <td><%= t(country['msgid']) %></td>
+  <td><%= link_to('Remove', remove_agent_from_country_agent_path(country_short: country['short']), method: :delete, remote: true, confirm: "Do you want to delete the agent from #{country['msgid']}", class: 'btn btn-danger btn-small') %></td>
+</tr>

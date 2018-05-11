@@ -1,0 +1,11 @@
+<% if @category == 'All missing translations'%>
+<p class="translation-help">
+  <em><%= @default_translations.where(msgid: t[:msgid]).first.get_value %></em>
+  <a href="#" class="show-help">Hide help</a>
+</p>
+<% else %>
+<p class="translation-help">
+  <em class="hidden"><%= @default_translations.where(msgid: t[:msgid]).first.get_value %></em>
+  <a href="#" class="show-help">Show help</a>
+</p>
+<% end %>

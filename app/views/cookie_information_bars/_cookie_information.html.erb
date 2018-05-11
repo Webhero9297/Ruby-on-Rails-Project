@@ -1,0 +1,9 @@
+<% if show_cookie_bar? %>
+    <div class="cookie-information">
+        <div class="container">
+            <p class="cookie-information-text"><%= t('notification.cookie_information.text') %></p>
+            <%= link_to(t('notification.cookie_information.link'), cookie_information_path, class: 'btn') %>
+            <%= link_to(t('notification.cookie_information.btn'), accept_cookies_path, remote: true, class: 'btn green cookie-information-btn') %>
+        </div>
+    </div>
+<% end %>

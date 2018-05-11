@@ -1,0 +1,5 @@
+<% if @user.account.subscriptions.count() > 1 then %>
+  <%= link_to(t('button.go_to_dashboard'), member_dashboard_url, class: 'btn btn-success') %>
+<% else %>
+  <%= link_to(t('button.get_started'), guide_profile_address_url, class: 'btn btn-success') %>
+<% end %>

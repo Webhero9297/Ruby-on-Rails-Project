@@ -1,0 +1,87 @@
+.standalone-search {
+	position: relative;
+    text-align: center;
+	padding: 0 10px;
+	@include respond-to(mid-screens) {
+		padding: 0 70px;
+	}
+}
+
+.standalone-search-form {
+    padding: 1.5em 0.625em 2em 0.625em;
+    display: block;
+
+    @include respond-to(wide-screens) {
+        border: 0;
+        /*display: inline-block;*/
+        /*margin-top: 8em;*/
+        /*width: 40em;*/
+    }
+}
+
+.standalone-search-label {
+    color: $white;
+    display: block;
+    font-size: 1.571em;
+	line-height: 1.714em;
+    padding: 0 0 10px 0;
+    text-align: left;
+    font-family: "Georgia", sans-serif;
+	font-style: italic;
+	@include respond-to(wide-screens) {
+        font-size: 1.3em;
+    }
+}
+
+input[type="text"].standalone-search-field {
+    border: 1px solid $white;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 1em;
+    display: block;
+    height: 2.571em;
+    line-height: 2.571em;
+    margin: 0 auto;
+    padding: 0 0.625em;
+    width: 100%;
+    -webkit-appearance: textfield;
+	border-radius: 5px;
+	&:focus {
+        border-color: $light-blue;
+        outline: 0;
+    }
+
+    @include respond-to(wide-screens) {
+        padding: 0.357em 1.125em;
+    }
+}
+
+button.btn-search {
+	position: absolute;
+	top: 0.165em;
+	right: 0.165em;
+	width: 174px;
+	height: 2.2em;
+	padding: 0 0.625em;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	border: 0 none;
+	background-color: $green;
+	outline: none;
+	span {
+		line-height: 2.2em;
+	}
+	.fa {
+	    float: right;
+	    height: 2.2em;
+	    line-height: 2.2em;
+	}
+	@include respond-to(handhelds) {
+		width: 2.2em;
+		span {
+			display: none;
+		}
+	}
+}

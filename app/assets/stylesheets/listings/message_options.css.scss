@@ -1,0 +1,28 @@
+.message-options {
+  text-align: left;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.message-option {
+  border-bottom: 1px solid #ddd;
+}
+
+.message-option-link {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.message-options-row,
+.contact-message-form {
+  display: none;
+}
+
+.message-option-desc {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 15px;
+  vertical-align: top;
+  width: 70%;
+}

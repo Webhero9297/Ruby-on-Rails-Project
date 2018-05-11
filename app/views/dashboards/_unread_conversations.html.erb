@@ -1,0 +1,6 @@
+<% if not number_of_unread_conversations(false).nil? %>
+<section class="alert alert-info">
+  <h1 class="alert-heading"><%= t('global.messages') %></h1>
+  <p class="alert-message"><%= t('dashboards.alert.message.you_have', {:number_of_messages =>number_of_unread_conversations(false)}) %></p>
+</section>
+<% end -%>

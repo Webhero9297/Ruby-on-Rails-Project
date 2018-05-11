@@ -1,0 +1,65 @@
+<% if not listing.account.nil? %>
+    <% if not listing.is_expired %>
+        <div class="favorite-card-row favorite-card-list" id="favorite-card-<%= listing.id %>">
+            <div class="favorite-card-actions">
+                <div class="favorite-card-date">
+                    <span class="favorite-card-date-day"><%= notes[listing.id.to_s][:created_at].strftime('%d') %></span>
+                    <span class="favorite-card-date-month"><%= notes[listing.id.to_s][:created_at].strftime('%b') %></span>
+                    <span class="favorite-card-date-year"><%= notes[listing.id.to_s][:created_at].strftime('%Y') %></span>
+                </div>
+                <div class="favorite-add-wrapper">
+                    <% if not listing.is_expired %>
+                        <%= link_to(content_tag('i','', class: 'icon-white icon-plus'), member_message_add_recipient_path(listing), remote: true, class: 'btn btn-primary add-recipient-btn') %>
+                    <% end %>
+                </div>
+                <%# link_to(content_tag('i','', class: 'icon-white icon-trash'), favorite_path(listing, list: true), remote: true, method: :delete, confirm: t('favorites.are_you_sure_you_want_to_delete'), class: 'btn btn-danger favorite-card-remove') %>
+            </div>
+
+
+            <article class="favorite-card">
+                <header class="favorite-card-header">
+                    <h1 class="favorite-card-headline">
+                        <% if listing.is_expired %>
+                            <%= "#{listing.listing_number} | #{listing.postal_town}, #{t(listing.country)}" %> <%= account_status_badge(listing.is_expired) %>
+                        <% else %>
+                          <%= link_to("#{listing.listing_number} | #{listing.postal_town}, #{t(listing.country)}", listing_url(listing), title: t('view_listing.link_text'), class: 'favorite-card-link') %>
+                        <% end %>
+                    </h1>
+                </header>
+
+                <div class="favorite-card-info">
+                    <div class="favorite-card-photo-wrapper">
+                        <% if listing.get_main_photo != nil %>
+                            <% if listing.is_expired %>
+                                <div class="favorite-card-photo-block"><%= image_tag(listing.get_main_photo.image.size_170, width: 90, alt: listing.get_main_photo.caption, class: 'favorite-card-photo') %></div>
+                            <% else %>
+                                <%= link_to(image_tag(listing.get_main_photo.image.size_170, width: 90, alt: listing.get_main_photo.caption, class: 'favorite-card-photo'), listing_url(listing), class: 'favorite-card-photo-link') %>
+                            <% end %>
+                        <% else %>
+                            <% if listing.is_expired %>
+                                <div class="favorite-card-photo-block"><%= image_tag('photos-coming-soon-230.jpg', width: 90, alt: '', class: 'favorite-card-photo') %></div>
+                            <% else %>
+                                <%= link_to(image_tag('photos-coming-soon-230.jpg', width: 90, alt: '', class: 'favorite-card-photo'), listing_url(listing), class: 'favorite-card-photo-link') %>
+                            <% end %>
+                        <% end %>
+                    </div>
+                    <div class="favorite-card-info-wrapper">
+                        <h2 class="favorite-card-listing-headline"><%= listing.headline %></h2>
+                        <ul class="favorite-sub-headline-list">
+                            <li><%= t('global.sleeps') %>: <%= listing.sleeping_capacity %></li>
+                            <li><%= t('global.adults') %>: <%= listing.account_adults %></li>
+                            <li><%= t('global.children') %>: <%= listing.account_children %></li>
+                        </ul>
+                        <div class="favorite-card-listing-label-cloud">
+                            <%= render(partial: '/member/listings/listing_label_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_attributes_indoor, listing: listing} ) %>
+                            <%= render(partial: '/member/listings/listing_label_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_attributes_outdoor, listing: listing} ) %>
+                            <%= render(partial: '/member/listings/listing_label_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_attributes, listing: listing} ) %>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    <% end %>
+<% else %>
+    <% send_oddity("It seems like this favorite listing does not have an account, listing: #{listing.id}") %>
+<% end %>

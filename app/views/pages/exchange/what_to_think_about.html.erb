@@ -1,0 +1,40 @@
+<% body_id 'home-exchange' %>
+<% page_title t('visinfo_thinking_about_home_exchange.page.headline') %>
+<% page_description t('visinfo_thinking_about_home_exchange.page.headline') + " - " + t('visinfo_thinking_about_home_exchange.perfect_partner.headline') %>
+<% page_keywords t('seo.keyword_set.visinfo.what_to_think_about') %>
+<% section_image 'section-image-3' %>
+
+<div class="row">
+    <%= render(:partial => 'pages/exchange/sub_menu') %>
+
+    <article class="page-content">
+        <h1 class="page-content-header">
+        <span class="page-content-header-label"><%= t('visinfo_thinking_about_home_exchange.page.headline') %></span>
+        </h1>
+
+        <p><%= t('visinfo_thinking_about_home_exchange.page.introtext') %></p>
+
+        <h2><%= t('visinfo_thinking_about_home_exchange.perfect_partner.headline') %></h2>
+        <p><%= t('visinfo_thinking_about_home_exchange.perfect_partner.text') %></p>
+
+        <h2><%= t('visinfo_thinking_about_home_exchange.equal_exchange.headline') %></h2>
+        <p><%= t('visinfo_thinking_about_home_exchange.equal_exchange.text') %></p>
+
+        <h2><%= t('visinfo_thinking_about_home_exchange.visit_my_area.headline') %></h2>
+        <p><%= t('visinfo_thinking_about_home_exchange.visit_my_area.text') %></p>
+
+        <h2><%= t('visinfo_thinking_about_home_exchange.exchange_cars.headline') %></h2>
+        <p><%= t('visinfo_thinking_about_home_exchange.exchange_cars.text') %></p>
+        <p><%= t('visinfo_thinking_about_home_exchange.exchange_cars.insurance_text') %></p>
+
+        <h2><%= t('visinfo_thinking_about_home_exchange.home_insurance.headline') %></h2>
+        <p><%= t('visinfo_thinking_about_home_exchange.home_insurance.text') %></p>
+
+        <h2><%= t('visinfo_thinking_about_home_exchange.special_needs.headline') %></h2>
+        <p><%= t('visinfo_thinking_about_home_exchange.special_needs.text') %></p>
+
+        <h2><%= t('visinfo_thinking_about_home_exchange.get_started.headline') %></h2>
+        <p><%= t('visinfo_thinking_about_home_exchange.get_started.text', :number => length_of_trial_membership) %></p>
+        <p><%= t('visinfo_thinking_about_home_exchange.get_started.about_listings') %></p>
+    </article>
+</div>

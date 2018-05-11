@@ -1,0 +1,18 @@
+<%= form_for(listing_image, url: listing_images_url, html: {id: 'listing-images-form', class: 'well form-inline', enctype: 'multipart/form-data'}) do |f| %>
+  <% if listing_image.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(listing_image.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+      <ul>
+        <% listing_image.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <fieldset>
+    <%= f.file_field(:image) %>
+    <%= f.button('Upload & save file', class: 'btn') %>
+    <%= hidden_field_tag('listing_image[category]', category) %>
+  </fieldset>
+<% end %>

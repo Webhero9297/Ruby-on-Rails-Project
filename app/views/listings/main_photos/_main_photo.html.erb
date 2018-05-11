@@ -1,0 +1,14 @@
+<div id="main-photo-box" class="photo-box">
+  <div class="photo-box-content">
+    <% if main_photo.blank? %>
+      <%= image_tag('photos-coming-soon-458.jpg', width: 458, height: 333, alt: 'No photos', class: 'photo-box-img') %>
+    <% else %>
+      <%= image_tag(main_photo.image.size_458, width: 458, height: 333, alt: main_photo.caption, class: 'photo-box-img') %>
+      <% if not main_photo.caption.blank? %>
+        <p class="photo-box-caption photo-box-main-photo">
+          <%= main_photo.caption.truncate(128) %>
+        </p>
+      <% end %>
+    <% end %>
+  </div>
+</div>

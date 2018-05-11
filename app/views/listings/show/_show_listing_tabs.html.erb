@@ -1,0 +1,85 @@
+<ul class="nav-tabs with-border">
+    <li class="nav-tab">
+        <%= link_to(t('global.info'), '#info', class: 'nav-tab-link active') %>
+    </li>
+
+    <% if show_listing_map(@listing) %>
+        <li class="nav-tab">
+            <%= link_to(t('global.neighbourhood'), '#map', class: 'nav-tab-link nav-tab-link-map') %>
+        </li>
+    <% end %>
+
+
+    <li class="nav-tab">
+        <%= link_to(t('global.family'), '#family', class: 'nav-tab-link') %>
+    </li>
+
+
+    <% if show_listing_presentation_section(@profile.lifestyle.text) %>
+        <li class="nav-tab">
+            <%= link_to(t('global.lifestyle'), '#lifestyle', class: 'nav-tab-link') %>
+        </li>
+    <% end %>
+
+    <li class="nav-tab">
+        <%= link_to(t('listings.header.related_listings'), '#related', class: 'nav-tab-link') %>
+    </li>
+
+    <% if show_listing_interaction_history(@last_interaction, current_user, @listing) %>
+        <li class="nav-tab">
+            <%= link_to(t('button.interaction_history'), '#interaction-history', class: 'nav-tab-link', id: 'interaction-history-link') %>
+        </li>
+    <% end %>
+</ul>
+
+<div class="tab-content with-border">
+    <section class="tab-pane active" id="info">
+        <%= render(partial: 'listings/public_listing_information') %>
+    </section>
+
+    <% if show_listing_map(@listing) %>
+        <section class="tab-pane" id="map">
+            <h2 class="page-header-divider">
+                <span class="page-header-divider-label"><%= t('listings.header.neighbourhood') %></span>
+            </h2>
+            <p> <%= "#{t('surroundings.nearest_airport')}: #{@listing.airport} - #{@listing.distance}" unless @listing.airport.nil? || @listing.airport.empty? %></p>
+            <div id="surrounding-map" data-lat="<%= @listing.lat %>" data-lng="<%= @listing.lng %>"></div>
+            <ul id="surrounding-pins" class="surrounding-pins">
+                <% @listing.surroundings.each do |pin| %>
+                    <li>
+                        <%= image_tag("#{pin['id']}.png", :title => pin['id'].capitalize, alt: pin['id']) %>
+                        <%= content_tag('span', "#{pin['name']} (#{pin['distance']} km)", class: 'pin-name pin', :'data-id' => pin['id'], :'data-lat' => pin['lat'], :'data-lng' => pin['lng']) %>
+                    </li>
+                <%- end -%>
+            </ul>
+            <%= markdown(@listing.surrounding) %>
+        </section>
+    <% end %>
+
+    <section class="tab-pane" id="family">
+        <%= render(partial: 'listings/public_listing_family') %>
+    </section>
+
+    <% if show_listing_presentation_section(@profile.lifestyle.text) %>
+        <section class="tab-pane" id="lifestyle">
+            <%= render(partial: 'listings/public_listing_lifestyle') %>
+        </section>
+    <% end %>
+
+    <section class="tab-pane" id="related">
+        <h2 class="page-header-divider">
+            <span class="page-header-divider-label"><%= t('listings.header.related_listings') %></span>
+        </h2>
+        <div class="row">
+            <div class="wide">
+                <%= render(partial: 'listings/listing_card_small', collection: @related_listings, as: :listing) %>
+            </div>
+        </div>
+    </section>
+
+    <% if show_listing_interaction_history(@last_interaction, current_user, @listing) %>
+        <section class="tab-pane" id="interaction-history">
+            <%= render(partial: 'listings/show/show_listing_interaction_history', locals: {last_interaction: @last_interaction}) %>
+        </section>
+    <% end %>
+</div>

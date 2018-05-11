@@ -1,0 +1,26 @@
+$('div#wish-list-button').replaceWith("<%= escape_javascript(render(partial: '/accounts/wish_lists/form')) %>");
+$('#wish-list-destination').focus();
+
+if($('#member-wish-list-form').length != 0) {
+
+  var send = false;
+
+  $('#member-wish-list-form').submit(function() {
+    if(send === false) {
+      return false;
+    }
+    return true;
+  });
+
+  google_map = GOOGLE_MAP;
+  google_map.autocomplete('wish-list-destination');
+  autocomplete = google_map.autocompleter;
+
+  google.maps.event.addListener(autocomplete, 'place_changed', function() {
+    var place = autocomplete.getPlace();
+    set_wish_list_values(place);
+    send = true;
+    $('#member-wish-list-form').submit();
+  });
+
+}

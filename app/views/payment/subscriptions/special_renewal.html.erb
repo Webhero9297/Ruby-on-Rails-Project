@@ -1,0 +1,24 @@
+<div class="plans special_renewal">
+  <h1 class="top-header"><span class="top-header-label"><%= t("price_plan.renewal_promotion")%></span></h1>
+  <% @price_plan = Country.first.price_plans.first %>
+  <a class="col-md-3 plan-item" href="<%= price_plans_url %>">
+    <p class="disclaimer"><%= t("price_plan.exclusive_offer.has_ended") %></p>
+    <p class="disclaimer"><%= t("price_plan.exclusive_offer.renew_special_code") %></p>
+    <p class="disclaimer"><%= t("price_plan.exclusive_offer.please_login") %></p>
+    <span class="button"><%= t('users.plans_and_pricing.renew_now') %></span>
+  </a>
+  <%= image_tag "special-renewal/special_badge.png", class: "special_badge"%>
+<br/>
+  <%= image_tag "special-renewal/special_left.jpg", class: "special_image left"%><%= image_tag "special-renewal/special_right.jpg", class: "special_image"%>
+</div>
+
+<div style="text-align: right;" class='finish-form hidden'>
+    <%= form_tag(price_plans_url, method: :get, class: 'form-inline') do %>
+    <% end %>
+</div>
+
+<script>
+  $('.special_renewal').on('click', function(e){
+    location.href = "<%= price_plans_url %>";
+  });
+</script>

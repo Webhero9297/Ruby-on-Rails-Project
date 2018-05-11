@@ -1,0 +1,26 @@
+.listing-thumbnails {
+    float: left;
+    width: 100%;
+    border-left: 1px solid #cccccc;
+}
+
+.listing-thumbnail-item {
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    &.active {
+        background-color: $yellow;
+    }
+}
+
+.listing-thumbnail-image {
+    background-color: $white;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    display: block;
+    width: 75px;
+    height: 75px;
+}

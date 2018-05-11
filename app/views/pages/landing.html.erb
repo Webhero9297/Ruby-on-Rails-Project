@@ -1,0 +1,100 @@
+<div class="mainContent landing">
+  <%= link_to(root_path, class: 'logotype-link') do %>
+      <%= image_tag("intervac-home-exchange.png", alt: 'Intervac Home Exchange', class: "logotype-image", width: 195, height: 39) %>
+      <span class="logotype-tag-line">The original home exchange service</span>
+  <% end %>
+
+  <div class="video-wrapper">
+    <div id="player"></div>
+  </div>
+
+  <h3 class='title'>The perfect home exchange for my holidays</h3>
+  <h3 class='sub-title'>How can I find it?</h3>
+
+  <div class="header-info">
+    <div class="row header-info-steps">
+      <%= link_to searches_index_path, class: 'step-link' do %>
+        <span class="col-sm-3 col-xs-12 arrowDiv first">
+          <span class="icon"><i class="fa fa-group"></i></span>
+          <span class="description"><%=t('landing.step1')%></span>
+        </span>
+      <% end %>
+      <%= link_to price_plans_path, class: 'step-link' do %>
+        <span class="col-sm-3 col-xs-12 arrowDiv">
+          <span class="icon"><i class="fa fa-home"></i></span>
+          <span class="description"><%=t('landing.step2')%></span>
+        </span>
+      <% end %>
+      <%= link_to price_plans_path, class: 'step-link' do %>
+        <span class="col-sm-3 col-xs-12 arrowDiv">
+          <span class="icon"><i class="fa fa-comments"></i></span>
+          <span class="description"><%=t('landing.step3')%></span>
+        </span>
+      <% end %>
+      <%= link_to price_plans_path, class: 'step-link' do %>
+        <span class="col-sm-3 col-xs-12 arrowDiv">
+          <span class="icon"><i class="fa fa-exchange"></i></span>
+          <span class="description"><%=t('landing.step4')%></span>
+        </span>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="wide">
+
+      <h1 class="top-header">
+        <span class="top-header-label trial-head"><%= t('landing.get_free_trial') %></span>
+      </h1>
+      <div class="row">
+        <div class="registration">
+          <%
+            resource = User.new
+            resource_name = :user
+          %>
+          <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), html: {id: 'user-registration', class: 'form-horizontal'}) do |f| %>
+            <%= render(partial: '/users/shared/resource_error_message', locals: {resource: resource}) %>
+
+            <fieldset class="registration-fields">
+              <%= hidden_field_tag('account[price_plan]', @price_plan.id) %>
+              <%= hidden_field_tag('account[country_short]', @visitor_country.short) %>
+
+              <%= f.label(:name, t('users.registrations.form.name'), class: 'control-label' )%>
+              <%= f.text_field(:name, size: 42, maxlength: 60, class: 'w80', placeholder: t('global.first_last_name')) %>
+
+              <%= f.label(:email, t('users.registrations.form.email'), class: 'control-label' )%>
+              <%= f.email_field(:email, size: 42, maxlength: 128, class: 'w80', placeholder: 'your@email.com') %>
+
+              <%= f.label(:password, t('users.registrations.form.password'), class: 'control-label') %>
+              <%= f.password_field(:password, size: 42, maxlength: 32, class: 'w80') %>
+
+              <%= f.label(:password_confirmation, t('users.registrations.form.verify_password'), class: 'control-label') %>
+              <%= f.password_field(:password_confirmation, size: 42, maxlength: 32, class: 'w80') %>
+
+              <%= hidden_field_tag "account[promotion_code]", @promotion_code.try(:id), class: 'promo-code-id' %>
+
+              <%= label_tag('terms-and-conditions', class: "checkbox", style: "display:none") do %>
+                <%= check_box_tag( 'user[terms_and_conditions]', 1, true, id: 'terms-and-conditions') %>
+                <%= t('users.accept_privacy_terms', {PRIVACY: link_to(t('button.privacy_policy'), terms_of_use_url), TERMS: link_to(t('button.terms_condition'), privacy_policy_url)}) %>
+              <% end %>
+
+            </fieldset>
+
+            <fieldset>
+              <%= f.button( t('button.sign_up'), class: 'btn xl blue') %>
+              <%= link_to( t('button.cancel'), price_plans_url, class: 'btn') %>
+            </fieldset>
+          <% end %>
+          <div class="alert alert-info">
+            <p class="alert-message price-plan-holder">
+              <%= markdown( t('landing.plan_info', {:PRICE_PLAN_NAME => "**#{@price_plan.name}**", :PRICE => "**#{float_price(@price_plan.base_price)}**", :CURRENCY => "**#{@price_plan.country.currency}**"}) ) %>
+            </p>
+          </div>
+        </div>
+        <h3 class="contact-us"><%= t('landing.contact_us') %></h3>
+        <%= render( partial: 'users/registrations/national_representative') %>
+      </div>
+    </div>
+  </div>
+
+</div>

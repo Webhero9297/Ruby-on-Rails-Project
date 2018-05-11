@@ -1,0 +1,46 @@
+<% if @feedbacks.empty? %>
+<div class="alert alert-info">
+  <p class="alert-message">There are no feedback messages for you</p>
+</div>
+<% else %>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Subject</th>
+      <th>From</th>
+      <th>Country</th>
+      <th>Created</th>
+      <th>Read</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @feedbacks.each do |feedback| %>
+    <tr>
+      <td>
+        <% if session[:dashboard] == 'admin' %>
+          <%= link_to(feedback.subject, admin_feedback_url(feedback)) %>
+        <% elsif session[:dashboard] == 'agent' %>
+          <%= link_to(feedback.subject, agent_feedback_url(feedback)) %>
+        <% end %>
+      </td>
+      <td>
+        <%= feedback.name %> (<%= feedback.email %>) - <strong><%= feedback.account_number.blank? ? t('feedback.visitor') : feedback.account_number %></strong>
+      </td>
+      <td>
+        <%= feedback.country_short.blank? ? 'Unknown' : feedback.country_short %>
+      </td>
+      <td>
+        <%= standard_date(feedback.created_at) %>
+      </td>
+      <td>
+        <% if feedback.read_by.include?(current_user.id) %>
+          <span class="label label-success">read</span>
+        <% else %>
+          <span class="label label-info">unread</span>
+        <% end %>
+      </td>
+    </tr>
+    <% end -%>
+  </tbody>
+</table>
+<% end %>

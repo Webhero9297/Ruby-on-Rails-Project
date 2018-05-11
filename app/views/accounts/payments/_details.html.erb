@@ -1,0 +1,28 @@
+<article class="mb40">
+  <dl class="dl-horizontal">
+    <dt><%= t('global.membership') %>:</dt>
+      <dd><%= @subscription.name %></dd>
+    <dt><%= t('global.duration') %>:</dt>
+      <dd><%= @subscription.duration %> <%= @subscription.periodicity %></dd>
+    <% if @subscription.renewal %>
+    <dt><%= t('global.renewed') %>:</dt>
+    <% else %>
+    <dt><%= t('global.created') %>:</dt>
+    <% end %>
+      <dd><%= standard_date(@subscription.created_at) %></dd>
+      
+    <dt><%= t('global.expires') %>:</dt>
+      <dd><%= standard_date(@subscription.expires_at) %></dd>
+    
+    <% if not @subscription.promotion_code.blank? %>
+    <dt><%= t('payment.promotion_code') %>:</dt>
+      <dd><%= @subscription.promotion_code %></dd>
+    <% end %>
+    
+    <dt><%= t('global.active') %>:</dt>
+      <dd><%= @subscription.active %></dd>
+    <dt><%= t('global.kind') %>:</dt>
+      <dd><%= @subscription.kind %> <%= t('global.membership') %></dd>
+  </dl>
+</article>
+<%= render(:partial => 'transactions', locals: {order: @order}) %>

@@ -1,0 +1,7 @@
+(function(){
+    var contact_message = $('#contact-messages-<%= @member_listing.id.to_s %>');
+    contact_message.before("<%= escape_javascript(render(partial: 'new')) %>");
+    $('#contact-message-form-<%= @member_listing.id.to_s %>').slideDown('slow');
+    contact_message.hide();
+    <%= render(partial: 'message_templates/message_template_selector_script') %>
+}());

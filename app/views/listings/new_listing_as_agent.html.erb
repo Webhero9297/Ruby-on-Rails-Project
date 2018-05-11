@@ -1,0 +1,17 @@
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Create a new or secondary listing</h1>
+        <p>You are about to create a new or secondary listing for membership <strong><%= @account.contact.name %> - <%= @account.contact.email %> (<%= @account.account_number %>)</strong>.</p>
+        <%= form_tag(account_create_listing_path(@account)) do %>
+          
+          <fieldset>
+            <%= hidden_field_tag('by_agent', true) %>
+            <%= submit_tag('Create listing', class: 'btn btn-primary') %>
+          </fieldset>
+        <% end -%>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<% body_id 'dashboard' %>
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to( t('global.overview'), member_dashboard_url) %>
+    <%= n.li_link_to( t('global.favorites'), favorites_url) %>
+    <%= n.li_link_to( t('dashboards.header.your_statistics'), listing_statistics_url) %>
+    <% end -%>
+  </ul>
+</nav>

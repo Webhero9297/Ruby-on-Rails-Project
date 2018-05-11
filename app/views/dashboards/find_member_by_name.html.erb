@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="span3">
+    <section>
+      <%= render(partial: 'dashboards/member_home') %>
+    </section>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <%= render(partial: "find_member", locals: {header: t('search.header.find_specific_member'), section_id: 'member-search'}) %>
+        <h1 class="plate-header"><%= t('dashboards.header.search_results', :MEMBER_NAME => @member_name) %></h1>
+        
+          <% if @results.empty? %>
+            <div class="alert alert-warning"><%= t('dashboards.notification.no_members_could_be_found', {:MEMBER_NAME => @member_name}) %></div>
+          <%- else -%>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th><%= t('global.name') %></th>
+                  <th><%= t('global.listings') %></th>
+                </tr>
+              </thead>
+              <tbody>
+                <% @results.each do |result| %>
+                  <% if result.listing_numbers.any? %>
+                    <tr>
+                      <td><%= result.contact.name %></td>
+                      <td>
+                        <% result.listing_numbers.each do |number| %>
+                          <%= link_to(number, listing_path(number)) %>
+                        <% end %>
+                      </td>
+                    </tr>
+                  <% end %>
+                <%- end -%>
+              </tbody>
+            </table>
+          <% end %>
+        </div>
+    </div>
+  </div>
+</div>

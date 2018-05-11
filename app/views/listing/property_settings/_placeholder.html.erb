@@ -1,0 +1,5 @@
+<table class="table table-striped table-bordered table-condensed" id="property-settings-list">
+  <tbody>
+    <%= render(partial: '/member/listings/output_property_filter', collection: order_property_details(property_details, house_attributes), as: :property_detail, locals: {rules_filter: house_attributes, listing: listing} ) %>
+  </tbody>
+</table>

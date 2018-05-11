@@ -1,0 +1,25 @@
+<% body_id 'listings' %>
+<div class="row">
+  <div class="span3">
+    <section class="mb20">
+      <%= render(partial: 'dashboards/member_home') %>
+    </section>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('statistics.header.time_zone_settings') %></h1>
+        <%= markdown(t('time_zone.description')) %>
+        <% if @account.time_zone.nil? %>
+            <div id="time-zone-message" class="alert alert-info">
+              <p class="alert-message"><%= t('statistics.message.please_set_your_time_zone') %></p>
+            </div>
+        <% end %>
+        <%= form_for(@account, url: account_time_zone_path(@account), method: :put, remote: true, html: {class: 'form-horizontal'}) do |f| -%>
+            <%= f.time_zone_select(:time_zone, ActiveSupport::TimeZone.all, prompt: t('time_zone.select_your_zone')) %>
+            <%= f.submit(t('button.save'), class: 'btn btn-primary') %>
+        <% end -%>
+      </div>
+    </div>
+  </div>
+</div>

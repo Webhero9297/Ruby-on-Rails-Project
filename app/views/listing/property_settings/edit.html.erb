@@ -1,0 +1,55 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>
+<section class="row">
+  <div class="span12">
+    <h1 class="page-header">Property settings</h1>
+    <%= form_for(@listing, url: listing_property_setting_url, html: {id: 'listing-form', class: 'form-vertical'}) do |f| %>
+      <% if @listing.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+          <ul>
+            <% @listing.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="row">
+        <div class="span4">
+          <h2 class="section-header"><%= t('listings.additional_services') %></h2>
+          <fieldset class="well">
+            <ul class="attributes">
+              <%= render(partial: '/member/listings/property_detail_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: house_extras, listing: @listing} ) %>
+            </ul>
+          </fieldset>
+        </div>
+
+        <div class="span4">
+          <h2 class="section-header"><%= t('listings.header.exchange_types_offered') %></h2>
+          <fieldset class="well">
+            <ul class="attributes">
+              <% @exchange_types.each do |exchange_type| %>
+                <li>
+                  <%= hidden_field_tag("listing[exchange_types][#{exchange_type.msgid}]", false) %>
+                  <%= label_tag("listing-tag-#{exchange_type.short}", class: 'checkbox') do %>
+                    <%= check_box_tag("listing[exchange_types][#{exchange_type.msgid}]", true, @listing.exchange_types.include?(exchange_type.msgid), id: "listing-tag-#{exchange_type.short}", class: 'checkbox') %>
+                    <%= t(exchange_type.msgid) %>
+                  <% end %>
+                </li>
+              <% end %>
+            </ul>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="row-fluid">
+        <div class="span12">
+          <fieldset class="form-actions">
+            <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+          </fieldset>
+        </div>
+      </div>
+
+    <% end %>
+  </div>
+</section>

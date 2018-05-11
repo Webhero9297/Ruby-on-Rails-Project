@@ -1,0 +1,14 @@
+<% section_image 'section-image-8' %>
+<div class="row">
+    <div class="wide">
+        <h1 class="top-header left">
+            <span class="top-header-label"><%= t('webfeedback.visitor.suggestions_headline') %></span>
+        </h1>
+
+        <% if user_signed_in? %>
+            <%= render( partial: 'member_form') %>
+        <% else %>
+            <%= render( partial: 'guest_form') %>
+        <% end %>
+    </div>
+</div>

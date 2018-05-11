@@ -1,0 +1,3 @@
+$('div#surroundings-container').html('<%= escape_javascript(render(partial: "/listing/surroundings/show", locals: {listing: @listing})) %>');
+$('a#btn-surroundings').show();
+surroundings_map();

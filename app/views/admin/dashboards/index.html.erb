@@ -1,0 +1,12 @@
+<% body_id 'dashboard' %>
+<section class="row">
+    <div class="span12">
+      
+      <%= render( partial: 'dashboards/conversations') %>
+      <%= render( partial: 'dashboards/unread_feedbacks') %>
+      
+      <section id="statistics">
+        <h1 class="level2"><%= t('dashboards.header.your_statistics') %></h1>
+      </section>
+    </div>
+</section>

@@ -1,0 +1,5 @@
+<h1><%= @feedback.subject %></h1>
+<p><strong>From:</strong> <%= @feedback.name %>, <strong>E-mail:</strong> <%= @feedback.email %> - <strong>As guest:</strong> <%= @feedback.as_guest %> <strong>Country: </strong> <%= t(@country.msgid, :locale => 'en') %></p>
+<p><%= @feedback.message %></p>
+<p><%= @feedback.page %></p>
+<p><strong>Browser agent used:</strong> <%= @feedback.browser_agent %></p>

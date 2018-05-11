@@ -1,0 +1,102 @@
+@import "mixins";
+.conversation-list {
+    margin: 0;
+    padding: 0;
+}
+
+.conversation-list-item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #ffe3be;
+}
+
+.conversation-link {
+    display: block;
+    padding: 8px;
+    &:active {
+        background-color: #e7fff4;
+    }
+}
+
+.conversation-date {
+    display: inline-block;
+    font-size: 12px;
+    color: $dark-grey;
+    margin-bottom: 4px;
+}
+
+.conversation-participants {
+    font-weight: bold;
+    color: $black;
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.conversation-subject {
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    color: $black;
+    margin-bottom: 4px;
+}
+
+.conversation-message-snippet {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #999;
+}
+
+.unread-message {
+    background-color: #f0f9ff;
+}
+
+.read-message {
+    background-color: #f8f8f8;
+    .conversation-participants {
+        color: #5f005f;
+    }
+}
+
+.message-subject {
+    font-size: 19px;
+    font-weight: normal;
+    border-bottom: 1px solid $standard-grey;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.message-user {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.message-right {
+    margin-left: 20%;
+    text-align: right;
+    .message-body {
+        background-color: $soft-grey;
+    }
+}
+
+.message-left {
+    text-align: left;
+    .message-body {
+        background-color: #e2f3ff;
+    }
+}
+
+.message-body {
+    width: 100%;
+    @include border-radius;
+    @include box-sizing;
+    padding: 10px;
+    margin-bottom: 10px;
+    p {
+        margin: 0 0 12px 0;
+        padding: 0;
+        line-height: 18px;
+    }
+}

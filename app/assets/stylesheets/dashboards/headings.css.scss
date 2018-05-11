@@ -1,0 +1,99 @@
+@import "mixins";
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: normal;
+}
+
+h1.page-header {
+	margin: 0 0 20px 0;
+	padding: 0 0 4px 0;
+	font-size: 16px;
+	font-weight: bold;
+	
+	&.border-top {
+		border-bottom: 0;
+		border-top: 1px solid #ddd;
+		padding: 8px 0 0 0;
+		margin: 0 0 10px 0;
+	}
+}
+
+
+div.page-action {
+    margin: 0 0 10px 0;
+	border-bottom: 1px solid $light-grey;
+	h1.page-header {
+	    margin: 5px 40px 6px 0;
+    	padding: 0;
+    	border: 0;
+    	float: left;
+    }
+    a {
+        margin-right: 40px;
+    }
+    &.no-margin {
+        margin: 0;
+    }
+}
+
+h1.level2 {
+    font-size: 16px;
+}
+
+h2.section-header {
+	font-size: 15px;
+	margin-bottom: 16px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid $standard-grey;
+	&.bordertop {
+		padding: 6px 0 0 2px;
+		border: 0;
+		border-top: 1px solid $standard-grey;
+	}
+}
+
+h3.section-header,
+h4.section-header,
+h5.section-header,
+h6.section-header {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	padding-bottom: 4px;
+	color: #454545;
+	border-bottom: 1px solid $standard-grey;
+}
+
+h5.section-header {
+    font-size: 11px;
+}
+
+h6.section-header {
+    font-size: 13px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+h1.no-margin,
+h2.no-margin {
+	margin: 0;
+}
+
+h3.header-label {
+	margin-bottom: 4px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+p.masthead {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $dark-grey;
+}
+
+h1.headline {
+  margin: 8px 0;
+  font-size: 19px;
+}

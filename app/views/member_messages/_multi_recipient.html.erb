@@ -1,0 +1,5 @@
+<li id="multi-list-recipient-<%= listing.id.to_s %>">
+    <%= "#{listing.listing_number} - #{listing.postal_town}, #{t(listing.country)}" %>
+    <%= link_to(t('global.remove'), member_message_remove_recipient_path(listing), remote: true) %>
+    <%= hidden_field_tag('listings[]', listing.id.to_s, id: "contact-listing-id-#{listing.id.to_s}") %>
+</li>

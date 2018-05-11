@@ -1,0 +1,17 @@
+<%= form_tag(account_wish_lists_url(@account), {id: 'member-wish-list-form', remote: true, class: 'form-vertical'}) do %>
+<fieldset>
+  <%= hidden_field_tag('destination[lat]', '', {id: 'lat'}) %>
+  <%= hidden_field_tag('destination[lng]', '', {id: 'lng'}) %>
+  <%= hidden_field_tag('destination[ne_lat]', '', {id: 'ne_lat'})%>
+  <%= hidden_field_tag('destination[ne_lng]', '', {id: 'ne_lng'})%>
+  <%= hidden_field_tag('destination[sw_lat]', '', {id: 'sw_lat'})%>
+  <%= hidden_field_tag('destination[sw_lng]', '', {id: 'sw_lng'})%>
+  <%= hidden_field_tag('destination[name]', '', {id: 'destination'}) %>
+  <%= hidden_field_tag('destination[country_code]', '', {id: 'country-code'}) %>
+  <%= text_field_tag('q', '', size: 52, maxlength: 128, placeholder: t('listing.placeholder.country_region_city'), id: 'wish-list-destination', class: 'input-xxlarge') %>
+</fieldset>
+<fieldset class="form-actions">
+  <%= button_tag(t('profile.add_destination'), class: 'btn btn-primary') %>
+  <%= link_to(t('global.cancel'), cancel_account_wish_lists_url(@account), remote: true) %>
+</fieldset>
+<% end %>

@@ -1,0 +1,103 @@
+fieldset {
+    margin-bottom: 0.875rem;
+}
+
+label {
+    display: block;
+    margin: 0 0 0.25em 0;
+    @include rem('font-size', 0.875rem);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    background-color: $white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: #454545;
+    display: inline-block;
+    font-size: 0.875em;
+    font-weight: 400;
+    @include rem('height', 2.375rem);
+    @include rem('margin', 0 0 0.75rem 0);
+    padding: 0.4em 0.7em;
+    vertical-align: middle;
+
+    &.w10 {
+        width: 10%;
+    }
+
+    &.w20 {
+        width: 20%;
+    }
+
+    &.w30 {
+        width: 30%;
+    }
+
+    &.w40 {
+        width: 40%;
+    }
+
+    &.w50 {
+        width: 50%;
+    }
+
+    &.w60 {
+        width: 60%;
+    }
+
+    &.w70 {
+        width: 70%;
+    }
+
+    &.w80 {
+        width: 80%;
+    }
+
+    &.w90 {
+        width: 90%;
+    }
+
+    &.w100 {
+        width: 100%;
+    }
+
+    &.inline {
+        vertical-align: top;
+    }
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    @include rem('height', 10rem);
+}
+
+.field-section {
+    margin-bottom: 1em;
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+    }
+}
+
+.field-required {
+    font-size: 0.875em;
+}
+
+.field-captcha {
+    height: 240px;
+}
+
+.recaptchatable #recaptcha_response_field {
+    height: auto !important;
+    border-radius: 0;
+}
+
+.ra-form {
+    text-align: right;
+}

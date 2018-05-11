@@ -1,0 +1,2 @@
+module Base::BaseListingHelper
+end

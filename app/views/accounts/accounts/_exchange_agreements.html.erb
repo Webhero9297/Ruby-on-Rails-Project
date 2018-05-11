@@ -1,0 +1,12 @@
+<%= render(partial: '/agent/exchange_agreements/exchange_agreements_table', locals: {exchange_agreements: @exchange_agreements}) %>
+
+<section id="nr-of-exchanges">
+  <h2 class="plate-section-header">Number of exchanges</h2>
+  <p>Manually set the number of exchanges for a member. This number does not have to be the same as the number of exchange agreements.</p>
+  <%= form_tag(set_nr_of_exchanges_account_path, method: :put, remote: true, class: 'form-horizontal') do %>
+    <fieldset>
+      <%= text_field_tag('exchanges_made', @account.exchanges_made, class: 'input-small', id: 'exchanges-made-field') %>
+      <%= submit_tag('Save', class: 'btn btn-primary') %>
+    </fieldset>
+  <% end %>
+</section>

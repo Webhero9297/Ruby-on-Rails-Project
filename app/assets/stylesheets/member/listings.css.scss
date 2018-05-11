@@ -1,0 +1,84 @@
+@import "mixins";
+
+article.thumbnail {
+	margin-bottom: 10px;
+	h1.location {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 6px;
+	}
+}
+
+div.listing {
+	div.edit {
+		text-align: center;
+	}
+}
+
+form#description-form {
+	margin-bottom: 20px;
+}
+
+div.availability-dates, {
+	width: 250px;
+	float: left;
+}
+
+ul.periodicity {
+	@include list-reset;
+	margin-bottom: 20px;
+	li {
+		display: inline;
+		margin-right: 20px;
+	}
+}
+
+ul.periodicity label,
+ul.periodicity input {
+	display: inline-block;
+}
+
+fieldset.availability-dates {
+	margin-bottom: 20px;
+}
+
+fieldset.button-create-listing {
+	margin-bottom: 20px;
+}
+
+ul.attributes {
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0 0 8px 0;
+		list-style: none;
+	}
+	input,
+	label {
+		display: inline-block;
+		cursor: pointer;
+	}
+}
+
+ul.listing-requirements li{
+	margin: 8px 0;
+	padding: 4px 0;
+}
+
+ul.missing-params {
+    margin: 0;
+    padding: 0;
+    li {
+        margin: 0 0 10px 0;
+        padding: 10px;
+        list-style: none;
+        background-color: #fef7d9;
+        border: 1px solid #f1dcbb;
+        @include border-radius;
+    }
+}
+
+
+.btn.disabled {
+  pointer-events: none;
+}

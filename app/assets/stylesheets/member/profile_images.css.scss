@@ -1,0 +1,62 @@
+@import "mixins";
+
+form#profile-images-form {
+	margin-bottom: 20px;
+}
+
+fieldset.upload {
+	padding: 0 0 10px 0;
+}
+
+div.photos {
+	min-width: 800px;
+	margin-bottom: 30px;
+	clear: left;
+	float: left;
+}
+
+section.photo {
+	width: 182px;
+	margin-right: 20px;
+	font-size: 12px;
+	float: left;
+}
+
+div.photo-wrap {
+	margin-bottom: 8px;
+	padding: 10px;
+	background-color: #f5f5f5;
+	float: left;
+	@include box-shadow;
+}
+
+span.category {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 4px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.caption {
+	margin: 3px 0;
+	padding: 0;
+	font-size: 12px;
+	color: #454545;
+	line-height: normal;
+}
+
+div.photo {
+	border: 1px solid $standard-grey;
+	background-color: $white;
+}
+
+div.visibility {
+	text-align: center;
+}
+
+textarea.caption {
+	width: 400px;
+	height: 40px;
+	font-size: 12px;
+}

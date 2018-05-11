@@ -1,0 +1,34 @@
+<div class="row-fluid">
+  <div class="span12">
+    <%= form_for(@message_template, class: 'form-vertical') do |f| %>
+      <% if @message_template.errors.any? %>
+          <section id="error_explanation">
+            <h1><%= t('message_template.header.error.message') %></h1>
+            <ul>
+              <% @message_template.errors.messages.values.each do |msg| %>
+                <% msg.each do |m| %>
+                  <li><%= t(m.to_s) %></li>
+                <% end %>
+              <% end %>
+            </ul>
+          </section>
+      <% end %>
+      
+      <fieldset>
+        <%= f.label(:name, t('message_template.label.name_of_template'),  for: 'msg-template-name') %>
+        <%= f.text_field(:name, class: 'span12', id: 'msg-template-name') %>
+
+        <%= f.label(:subject, t('message_template.label.message_subject'), for: 'msg-template-subject') %>
+        <%= f.text_field(:subject, class: 'span12', id: 'msg-template-subject') %>
+
+        <%= f.label(:body, t('message_template.label.message_body_text'), for: 'msg-template-body') %>
+        <%= f.text_area(:body, cols: 52, rows: 16, class: 'span12', id: 'msg-template-body') %>
+      </fieldset>
+
+      <fieldset>
+        <%= f.submit(t('button.save'), class: 'btn btn-primary') %>
+        <%= link_to(t('button.cancel'), message_templates_url, class: 'btn btn-link') %>
+      </fieldset>
+    <% end %>
+  </div>
+</div>

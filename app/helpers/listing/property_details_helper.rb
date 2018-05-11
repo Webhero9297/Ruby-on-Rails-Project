@@ -1,0 +1,2 @@
+module Listing::PropertyDetailsHelper
+end

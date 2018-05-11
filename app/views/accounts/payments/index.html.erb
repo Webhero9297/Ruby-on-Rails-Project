@@ -1,0 +1,78 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'dashboards/member_home') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('account.header.membership_payment_information') %></h1>
+        <%= render(partial: 'payment/subscriptions/renew_alert', locals: {account: @account}) %>
+        <%= render(partial: 'payment/subscriptions/upgrade_alert') %>
+        <article>
+          <h2 class="section-header"><%= t('payment.current_subscription') %></h2>
+
+          <% if not @subscription.nil? %>
+            <dl class="dl-horizontal">
+              <dt><%= t('global.membership') %>:</dt>
+              <dd><%= @subscription.name %></dd>
+
+              <dt><%= t('global.duration') %>:</dt>
+              <dd><%= @subscription.duration %> <%= translate_periodicity(@subscription.periodicity) %></dd>
+
+              <% if @subscription.renewal %>
+                <dt><%= t('global.renewed') %>:</dt>
+              <% else %>
+                <dt><%= t('global.created') %>:</dt>
+              <% end %>
+              <dd><%= standard_date(@subscription.created_at) %></dd>
+
+              <dt><%= t('global.expires') %>:</dt>
+              <dd><%= standard_date(@subscription.expires_at) %></dd>
+
+              <% if not @subscription.promotion_code.blank? %>
+                <dt><%= t('payment.promotion_code') %>:</dt>
+                <dd><%= @subscription.promotion_code %></dd>
+              <% end %>
+
+              <dt><%= t('global.active') %>:</dt>
+              <dd><%= yes_or_no_bool(@subscription.active) %></dd>
+
+              <dt><%= t('global.kind') %>:</dt>
+              <dd><%= translate_paid_trial(@subscription.kind) %></dd>
+            </dl>
+          <% end %>
+        </article>
+
+        <% if not @subscriptions.empty? %>
+          <table class="table">
+            <thead>
+              <tr>
+                <th><%= t('payments.label.previous_subscriptions') %></th>
+                <th><%= t('global.purchased') %></th>
+                <th colspan="2"><%= t('global.expired') %></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @subscriptions.each do |subscription| %>
+              <tr id="subscription-<%= subscription.id %>">
+                <% if subscription.active == true then %>
+                <td><i class="icon-star"></i> <%= subscription.name %></td>
+                <% else %>
+                <td><i class="icon-lock"></i> <%= subscription.name %></td>
+                <% end %>
+                <td><%= standard_date(subscription.created_at) %></td>
+                <td><%= standard_date(subscription.expires_at) %></td>
+                <td><%= link_to(t('button.view_full_details'), account_payment_path(@account, subscription), remote: true) %></td>
+              </tr>
+              <% end %>
+            </tbody>
+          </table>
+        <% else %>
+          <div class="alert alert-info">
+            <p class="alert-message"><%= t('payments.alert.message.there_are_no_transactions_available') %></p>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

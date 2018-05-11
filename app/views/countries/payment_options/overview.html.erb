@@ -1,0 +1,22 @@
+<% body_id 'payment' %>
+<div class="row-fluid">
+  <div class="span12">
+    <nav id="section-nav" role="secondary">
+      <%= render(partial: '/payment/payment_settings_menu') %>
+    </nav>
+  </div>
+</div>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: 'payment_options_menu', locals: {country: @country, countries: @countries}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Payment settings country overview</h1>
+        <p>Choose a country to edit the payment options for that country.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>

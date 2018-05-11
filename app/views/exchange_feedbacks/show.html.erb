@@ -1,0 +1,44 @@
+<% body_id 'exchange-feedback' %>
+<div class="row-fluid">
+    <div class="span3">
+        <%= render(partial: 'exchange_feedbacks/exchange_feedbacks_menu') %>
+    </div>
+    <div class="span9">
+        <%= render(locals: {header: "Exchange Feedback"}, layout: '/layouts/modules/single_page_plate') do %>
+
+            <p>
+                <%= link_to('Close', request.referer, class: 'btn') %>
+            </p>
+
+            <p>This feedback was given on
+                <strong><%= link_to(@answered_on_agreement.listing_number, listing_path(@answered_on_agreement.listing_id)) %></strong>
+                by
+                <strong><%= link_to(@answered_by_agreement.listing_number, listing_path(@answered_by_agreement.listing_id)) %></strong>
+                at <%= standard_date_time(@exchange_feedback.updated_at) %>
+            </p>
+
+            <dl class="dl-horizontal">
+                <dt>First exchange</dt>
+                <dd><%= bool_to_word(@exchange_feedback.first_exchange) %></dd>
+
+                <dt>Rating</dt>
+                <dd><%= text_if_nil(@exchange_feedback.rating) %></dd>
+
+                <dt>Expectations</dt>
+                <dd><%= text_if_nil(@exchange_feedback.expectations) %></dd>
+
+                <dt>Recommend</dt>
+                <dd><%= bool_to_word(@exchange_feedback.recommend) %></dd>
+
+                <dt>Impression</dt>
+                <dd><%= text_if_nil(@exchange_feedback.impression) %></dd>
+
+                <dt>Press contact</dt>
+                <dd><%= bool_to_word(@exchange_feedback.press_contact) %></dd>
+
+                <dt>Improvements</dt>
+                <dd><%= text_if_nil(@exchange_feedback.improvements) %></dd>
+            </dl>
+        <% end %>
+    </div>
+</div>

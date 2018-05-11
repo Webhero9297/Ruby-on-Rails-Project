@@ -1,0 +1,47 @@
+@import "mixins";
+.navigation-grid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    @include box-sizing;
+}
+
+.navigation-grid li {
+    float: left;
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    @include box-sizing;
+}
+
+.navigation-grid a {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navigation-grid img {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 112px;
+    height: 112px;
+}
+
+.navigation-grid span {
+    display: block;
+}
+
+@media only screen and (min-width: 480px) {
+  /* 480 =================================================== */
+    .navigation-grid img {
+        width: 152px;
+        height: 152px;
+    }
+
+    .navigation-grid li {
+        margin-bottom: 0 0 80px 0;
+    }
+}

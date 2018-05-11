@@ -1,0 +1,36 @@
+<% if user_signed_in? and not session[:management_user_id].nil? and session[:dashboard] == 'member' %>
+    <div class="dashboard-switcher">
+        <span class="switched-user">You are using Intervac as <strong><%= current_user.name %></strong></span>
+        <%= switch_to_management_link %>
+        <p class="account-info">
+            Account number: <strong><%= current_user.account.account_number %></strong>
+            Listings: <strong><%= current_user.account.get_listing_numbers %></strong>
+            Last accessed at:
+            <strong><%= standard_date_time(current_user.account.accessed_at, nil, "%B %d, %Y - %H:%M %Z") %></strong>
+        </p>
+    </div>
+<% end %>
+
+<%- if user_signed_in? and (has_role?(:agent) or has_role?(:admin)) -%>
+    <div class="dashboard-switcher">
+        <%= link_to('Public pages', root_path, class: "link-switch #{active_dashboard(session[:dashboard], 'site')}") %>
+
+        <% if current_user.roles.length > 1 %>
+            <%= link_to('Member dashboard', member_dashboard_path, class: "link-switch #{active_dashboard(session[:dashboard], 'member')}") %>
+            <% has_role?(:agent) do %>
+                <%= link_to('Agent dashboard', management_agent_dashboard_path, class: "link-switch #{active_dashboard(session[:dashboard], 'agent')}") %>
+            <% end -%>
+            <% has_role?(:admin) do %>
+                <%= link_to('Admin dashboard', management_admin_dashboard_path, class: "link-switch #{active_dashboard(session[:dashboard], 'admin')}") %>
+            <% end -%>
+        <% end %>
+
+        <% if has_role?(:admin) or has_role?(:agent) %>
+            <% if is_translating? %>
+                <%= link_to('Stop translate', toggle_translation_path, class: 'link-switch') %>
+            <%- else -%>
+                <%= link_to('Start translate', toggle_translation_path, class: 'link-switch') %>
+            <%- end -%>
+        <%- end -%>
+    </div>
+<%- end -%>

@@ -1,0 +1,147 @@
+<% if admin_session? %>
+  <% body_id 'countries' %>
+<% else %>
+  <% body_id 'payment' %>
+<%- end -%>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: 'countries/management_menu', locals: {country: @country}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Payment option settings for <%= t(@country.msgid) %></h1>
+
+        <article>
+          <h2 class="section-header">PayPal (All countries)</h2>
+          <%= form_tag(country_payment_options_path(@country), method: :put) do %>
+            <div class="well">
+            <fieldset class="mb20">
+              <%= label_tag(:accept_paypal_true, class: 'checkbox') do %>
+                <%= hidden_field_tag(:accept_paypal, false) %>
+                <%= check_box_tag(:accept_paypal, true, @country.accept_paypal, id: 'accept_paypal_true') %>
+                Accept PayPal as payment option
+              <% end %>
+            </fieldset>
+
+            <fieldset>
+              <%= label_tag(:accept_paypal_text, 'PayPal information text') %>
+              <%= text_area_tag(:accept_paypal_text, @country.accept_paypal_text, cols: 56, rows: 6, class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+              <%= submit_tag('Save', class: 'btn btn-primary') %>
+            </fieldset>
+            </div>
+          <% end %>
+        </article>
+       
+        <article>
+          <h2 class="section-header">Sage Pay (Mainly UK)</h2>
+          <%= form_tag(country_payment_options_path(@country), method: :put) do %>
+            <div class="well">
+            <fieldset class="mb20">
+              <%= label_tag(:accept_sage_pay_true, class: 'checkbox') do %>
+                <%= hidden_field_tag(:accept_sage_pay, false) %>
+                <%= check_box_tag(:accept_sage_pay, true, @country.accept_sage_pay, :id => 'accept_sage_pay_true') %>
+                Accept Sage Pay as payment gateway
+              <% end %>
+            </fieldset>
+
+            <fieldset>
+              <%= label_tag(:accept_sage_pay_text, 'Third party credit card information text') %>
+              <%= text_area_tag(:accept_sage_pay_text, @country.accept_sage_pay_text, cols: 56, rows: 6, class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+              <%= submit_tag('Save', class: 'btn btn-primary') %>
+            </fieldset>
+            </div>
+          <% end %>
+        </article>
+
+        <article>
+          <h2 class="section-header">AV Solutions (Only France)</h2>
+          <%= form_tag(country_payment_options_path(@country), method: :put) do %>
+            <div class="well">
+            <fieldset class="mb20">
+              <%= label_tag(:accept_av_solutions_true, class: 'checkbox') do %>
+                <%= hidden_field_tag(:accept_av_solutions, false) %>
+                <%= check_box_tag(:accept_av_solutions, true, @country.accept_av_solutions, :id => 'accept_av_solutions_true') %>
+                Accept AV solutions as payment provider
+              <% end %>
+            </fieldset>
+
+            <fieldset>
+              <%= label_tag(:accept_av_solutions_text, 'Third party credit card information text') %>
+              <%= text_area_tag(:accept_av_solutions_text, @country.accept_av_solutions_text, cols: 56, rows: 6, class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+              <%= submit_tag('Save', class: 'btn btn-primary') %>
+            </fieldset>
+            </div>
+          <% end %>
+        </article>
+
+        <article>
+          <h2 class="section-header">Invoice (All countries)</h2>
+          <%= form_tag(country_payment_options_path(@country), method: :put) do %>
+            <div class="well">
+            <fieldset class="mb20">
+              <%= label_tag(:accept_invoice_true, class: 'checkbox') do %>
+                <%= hidden_field_tag(:accept_invoice, false) %>
+                <%= check_box_tag(:accept_invoice, true, @country.accept_invoice, :id => 'accept_invoice_true') %>
+                Accept Invoice as payment option
+              <% end %>
+            </fieldset>
+
+            <fieldset>
+              <%= label_tag(:accept_invoice_text, 'Invoice information text') %>
+              <%= text_area_tag(:accept_invoice_text, @country.accept_invoice_text, cols: 56, rows: 6, class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+              <%= submit_tag('Save', class: 'btn btn-primary') %>
+            </fieldset>
+            </div>
+          <% end %>
+        </article>
+
+        <article>
+          <h2 class="section-header">Generic Off-line payment</h2>
+          <%= form_tag(country_payment_options_path(@country), method: :put) do %>
+            <div class="well">
+            <fieldset class="mb20">
+              <%= label_tag(:accept_generic_offline_true, class: 'checkbox') do %>
+                <%= hidden_field_tag(:accept_generic_offline, false) %>
+                <%= check_box_tag(:accept_generic_offline, true, @country.accept_generic_offline, id: 'accept_generic_offline_true') %>
+                Accept Direct Debit as payment option
+              <% end %>
+            </fieldset>
+
+            <fieldset>
+              <%= label_tag(:accept_generic_offline_text, 'Direct debit information text') %>
+              <%= text_area_tag(:accept_generic_offline_text, @country.accept_generic_offline_text, cols: 56, rows: 6, class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+              <%= label_tag(:accept_generic_offline_payment_info, 'Direct debit payment information text - Explain for the member how to pay and provide links to the payment page.') %>
+              <%= text_area_tag(:accept_generic_offline_payment_info, @country.accept_generic_offline_payment_info, cols: 56, rows: 6, class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+              <%= label_tag(:accept_generic_offline_button_text, 'Direct debit button text') %>
+              <%= text_field_tag(:accept_generic_offline_button_text, @country.accept_generic_offline_button_text, cols: 56, rows: 6, class: 'span12') %>
+            </fieldset>
+
+            <fieldset>
+              <%= submit_tag('Save', class: 'btn btn-primary') %>
+            </fieldset>
+            </div>
+          <% end %>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

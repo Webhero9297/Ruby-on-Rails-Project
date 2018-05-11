@@ -1,0 +1,8 @@
+<div data-role="content">    
+    <ul data-role="listview" data-inset="true">
+        <li data-role="list-divider" data-theme="f"><%= t('mobile.settings.list_divider.user_details') %></li>
+        <li><%= t('mobile.settings.login_identity') %>: <%= current_user.email %>.</li>
+    </ul>
+
+    <%= link_to(t('navigation.member_navigation.logout'), mobile_logout_path, :'data-role' => 'button', :'data-theme' => 'b', rel: 'external') %>
+</div>

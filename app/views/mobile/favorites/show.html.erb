@@ -1,0 +1,6 @@
+<% body_id 'page-listing' %>
+<% content_for(:back_button) do %>
+  <%= link_to(t('button.back'), mobile_favorites_path, class: 'button ml10', :'data-spinner' => 'spinner') %>
+<% end %>
+
+<%= render(partial: 'mobile/listings/listing') %>

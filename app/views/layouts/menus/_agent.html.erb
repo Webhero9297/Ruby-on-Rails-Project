@@ -1,0 +1,25 @@
+<div class="navbar navbar-static-top">
+    <div class="navbar-inner navbar-agent">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="/">Agent</a>
+
+        <div class="nav-collapse collapse">
+            <ul class="nav">
+                <li><%= link_to('Home', management_agent_dashboard_path, id: 'dashboard-link') %></li>
+                <li><%= link_to('Members', member_filters_path, id: 'members-link') %></li>
+                <li><%= link_to("Messages", agent_conversations_url, id: 'messages-link') %></li>
+                <li><%= link_to('Exchange agreements', agent_exchange_agreements_url, id: 'exchange-link') %></li>
+                <li><%= link_to('Translations', agent_translations_url, id: 'translations-link') %></li>
+                <li><%= link_to('Countries', countries_path, id: 'countries-link') %></li>
+                <li><%= link_to('Settings', price_plans_country_url, id: 'payment-link') %></li>
+                <li><%= link_to('Profile', edit_agent_path(current_user), id: 'profile-link') %></li>
+                <li><%= link_to('Exchange feedback', positive_exchange_feedbacks_path, id: 'exchange-feedback-link') %></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>

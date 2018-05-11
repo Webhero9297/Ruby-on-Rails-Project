@@ -1,0 +1,5 @@
+<%= form_for(image, url: update_caption_listing_image_path(listing.id, image.id), remote: true) do |f| %>
+    <%= f.text_field(:caption, maxlength: 128, class: 'span12', id: "listing-image-caption-form-#{image.id}") %>
+    <%= f.submit(t('button.save'), class: 'btn btn-primary btn-small') %>
+    <%= link_to(t('button.cancel'), cancel_caption_listing_image_path(listing.id, image.id), class: 'btn btn-link btn-small', remote: true) %>
+<% end %>

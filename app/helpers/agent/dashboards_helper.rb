@@ -1,0 +1,2 @@
+module Agent::DashboardsHelper
+end

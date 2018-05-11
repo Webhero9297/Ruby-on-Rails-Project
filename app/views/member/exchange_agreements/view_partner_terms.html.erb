@@ -1,0 +1,141 @@
+<% body_id 'exchanges' %>
+
+<div class="mb20">
+    <%= link_to(t('button.back'), overview_member_exchange_agreement_path(@exchange_agreement), class: 'btn') %>
+</div>
+<%= render(locals: {header: t('exchange_agreements.new')}, layout: '/layouts/modules/single_page_plate') do %>
+    <section>
+        <h1 class="exchange-agreement"><%= t('exchange_agreements.partner') %> (<%= @partner_agreement.listing_number %>)</h1>
+        <div class="exchange-contact">
+            <span class="name"><%= @partner.contact.name %></span>
+            <span class="address"><%= @partner.contact.address %></span>
+            <span class="postal"><%= @partner.contact.postal_code %> <%= @partner.contact.postal_town %>, <%= @partner.contact.county %></span>
+            <% if @partner_agreement.show_mobile %>
+                <span class="phone"><%= @partner.contact.telephone %></span>
+            <% end %>
+            <% if @partner_agreement.show_email %>
+                <span class="email"><%= @partner.contact.email %></span>
+            <% end %>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="exchange-agreement"><%= t('exchange_agreements.header.holiday_dates') %></h2>
+        <% if @partner_agreement.start_date.nil? or @partner_agreement.end_date.nil? %>
+            <div class="label-holder">
+                <span class="label label-warning">
+                    <%= t('exchange_agreements.label.your_partner_has_not_specified_any_dates') %>
+                </span>
+            </div>
+        <% else %>
+            <div class="row-fluid">
+                <div class="span6">
+                    <span class="pseudo-label"><%= t('global.from') %></span>
+                    <span class="holiday-date"><%= exchange_date(@partner_agreement.start_date) %></span>
+                </div>
+                <div class="span6">
+                    <span class="pseudo-label"><%= t('global.to') %></span>
+                    <span class="holiday-date"><%= exchange_date(@partner_agreement.end_date) %></span>
+                </div>
+            </div>
+        <% end %>
+    </section>
+
+    <section>
+        <h2 class="exchange-agreement"><%= t('exchange_agreements.header.exchange_participants') %></h2>
+        <% if @partner_agreement.participants.nil? %>
+            <div class="label-holder">
+                <span class="label label-warning"><%= t('exchange_agreements.label.your_partner_has_not_added_any_participants') %></span>
+            </div>
+        <% else %>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><%= t('global.name') %></th>
+                        <th><%= t('global.age') %></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% @partner_agreement.participants.each do |participant| %>
+                        <tr>
+                            <td><%= participant['name'] %></td>
+                            <td><%= participant['age'] %></td>
+                        </tr>
+                    <% end %>
+                </tbody>
+            </table>
+        <% end %>
+    </section>
+
+    <section class="exchange-term">
+        <h2 class="exchange-agreement"><%= t('exchange_agreements.about_my_partner_cars') %></h2>
+        <div class="terms">
+            <p><%= if_empty_term( @partner_agreement.car_exchange.value ) %></p>
+        </div>
+        <%= render( partial: 'term_buttons', object: @partner_agreement.car_exchange, as: 'term', locals: {prefix: 'car_exchange'}) %>
+    </section>
+
+    <section class="exchange-term">
+        <h2 class="exchange-agreement"><%= t('exchange_agreements.auto_insurance') %></h2>
+        <div class="alert alert-info">
+            <p class="alert-message">
+                <%= label_tag('not_in_use', check_box_tag('not_in_use[]', false, @partner_agreement.has_car_insurance, disabled: 'disabled') + t('exchange_agreements.label.auto_insurance_in_place'), class: 'checkbox') %>
+            </p>
+        </div>
+        <%# render( partial: 'term_buttons', object: @partner_agreement.has_car_insurance, as: 'term', locals: {prefix: 'car_insurance'}) %>
+    </section>
+
+    <section class="exchange-term">
+        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_long_distance_calls') %></h2>
+        <div class="terms">
+            <p><%= if_empty_term( @partner_agreement.long_distance_calls.value ) %></p>
+        </div>
+        <%= render( partial: 'term_buttons', object: @partner_agreement.long_distance_calls, as: 'term', locals: {prefix: 'long_distance_calls'}) %>
+    </section>
+
+    <section class="exchange-term">
+        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.special_cleaning_requests') %></h2>
+        <div class="terms">
+            <p><%= if_empty_term( @partner_agreement.cleaning.value ) %></p>
+        </div>
+        <%= render( partial: 'term_buttons', object: @partner_agreement.cleaning, as: 'term', locals: {prefix: 'cleaning'}) %>
+    </section>
+
+    <section class="exchange-term">
+        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_keys_to_my_partners_home') %></h2>
+        <div class="terms">
+            <p><%= if_empty_term( @partner_agreement.key_exchange.value ) %></p>
+        </div>
+        <%= render( partial: 'term_buttons', object: @partner_agreement.key_exchange, as: 'term', locals: {prefix: 'key_exchange'}) %>
+    </section>
+
+    <section class="exchange-term">
+        <h2 class="exchange-agreement"><%= t('exchange_agreement.header.regarding_my_partners_pets') %></h2>
+        <div class="terms">
+            <p><%= if_empty_term( @partner_agreement.pets.value ) %></p>
+        </div>
+        <%= render( partial: 'term_buttons', object: @partner_agreement.pets, as: 'term', locals: {prefix: 'pets'}) %>
+    </section>
+
+    <section class="exchange-term">
+        <h2 class="exchange-agreement"><%= t('exchange_agreement.other_special_requests') %></h2>
+        <div class="terms">
+            <p><%= if_empty_term( @partner_agreement.other.value ) %></p>
+        </div>
+        <%= render( partial: 'term_buttons', object: @partner_agreement.other, as: 'term', locals: {prefix: 'other'}) %>
+    </section>
+
+    <fieldset class="form-actions">
+        <%= link_to(t("exchange_agreement.reviewed_partner_terms"), review_done_member_exchange_agreement_path(@partner_agreement.exchange_agreement), class: 'btn btn-primary') %>
+        <%= link_to(t('global.cancel'), request.referer, class: 'btn btn-link') %>
+    </fieldset>
+<% end %>
+<div class="pt20">
+    <%= link_to(t('button.back'), overview_member_exchange_agreement_path(@exchange_agreement), class: 'btn') %>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function($) {
+        init_exchange_form();
+    });
+</script>

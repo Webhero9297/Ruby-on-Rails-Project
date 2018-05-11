@@ -1,0 +1,6 @@
+<% if not number_of_unread_feedbacks(false).nil? %>
+<section class="alert alert-info">
+  <h1 class="alert-heading"><%= t('dashboards.header.feedback_messages') %></h1>
+  <p class="alert-message"><%= link_to(t('dashboards.alert.message.you_have_feedbacks', {:number_of_unread_feedbacks =>number_of_unread_feedbacks(false)}), @feedbacks_url) %></p>
+</section>
+<% end -%>

@@ -1,0 +1,10 @@
+<h1><%= t('mailer.match_alert.new_matches') %></h1>
+<p><%= t('mailer.match_alert.list_of_listings') %></p>
+<br/>
+<% @listings.each do |listing| %>
+  <p><%= listing.listing_number %> <%= t('global.sleeps') %>: <%= listing.sleeping_capacity %>, <%= listing.postal_town %>, <%= t(listing.country) %> <%= link_to(t('view_listing.link_text'), external_domain_link(listing_path(listing))) %></p>
+<% end %>
+
+<p><%= MY_MARKDOWN.render(t('match_alert.text.alert_information_text')).html_safe %></p>
+
+<p><%= link_to(t('match_alert.unsubscribe'), external_domain_link(account_match_alerts_path(@account)), class: 'mailer-footer-link') %>  <%= link_to(t('button.disable_match_alert'), external_domain_link(disable_account_match_alerts_path(@account)), class: 'mailer-footer-link bold') %></p>

@@ -1,0 +1,30 @@
+.saved-searches-controls {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+input.saved-searches-input {
+    margin-bottom: 4px;
+    width: 94%;
+}
+
+.saved-searches-list {
+    margin: 0;
+    padding: 0;
+}
+
+.saved-searches-list-item {
+    list-style: none;
+    margin: 0;
+    padding: 6px 0 6px 6px;
+    border-top: 1px solid #dddddd;
+
+    &:hover {
+        background-color: #fcf0c9;
+    }
+}
+
+.saved-searches-list-link {
+    display: inline-block;
+    width: 85%;
+}

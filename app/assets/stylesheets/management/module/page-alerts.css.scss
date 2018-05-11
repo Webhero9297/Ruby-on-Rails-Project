@@ -1,0 +1,43 @@
+@mixin box-shadow($y_cord: 1px, $x_cord: 1px, $spread: 3px, $color: #a9a9a9) {
+    -webkit-box-shadow: $y_cord $x_cord $spread $color;
+    -moz-box-shadow: $y_cord $x_cord $spread $color;
+    -o-box-shadow: $y_cord $x_cord $spread $color;
+    -ms-box-shadow: $y_cord $x_cord $spread $color;
+    box-shadow: $y_cord $x_cord $spread $color;
+}
+
+div#notification {
+    position: fixed;
+    width: 100%;
+    top: -100px;
+    left: 0;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background: image-url('50percent-black.png');
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 30000;
+    text-align: center;
+    @include box-shadow(0, 2px, 8px, #454545);
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    .notification-icon {
+        border-radius: 8px;
+        font-family: "arial black", arial, sans-serif;
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 10px 16px;
+        margin-right: 20px;
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
+        vertical-align: middle;
+    }
+
+    .success-icon {
+        background-color: rgb(65, 180, 67);
+    }
+}

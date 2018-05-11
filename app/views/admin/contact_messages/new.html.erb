@@ -1,0 +1,81 @@
+<%= render( partial: 'dashboards/member_dashboard_menu') %>
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('conversations.agent.contact_your_local_representative') %></h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="span8">
+    
+    <%= form_for(@conversation, url: admin_contact_messages_url, html: {id: 'message-form', class: 'form-vertical'}) do |f| %>
+    <% if @conversation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@conversation.errors.count, "error") %> prohibited this message from being sent:</h2>
+      <ul>
+        <% @conversation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+    <% end %>
+
+    <fieldset>
+      <%= f.label(:subject, t('global.subject'), for: 'subject') %>
+      <%= f.text_field(:subject, size: 100, id: 'subject', class: 'span8 text-field') %>
+    </fieldset>
+
+    <fieldset>
+      <%= fields_for(:message) do |m| %>
+      <%= f.label(:body, 'Message:', for: 'message') %>
+      <%= m.text_area(:body, cols: 72, rows: 22, id: 'message', class: 'span8 text-field') -%>
+      <% end -%>
+    </fieldset>
+
+    <fieldset class="form-actions">
+      <%= f.button(t('conversations.send_message'), class: 'btn btn-primary') %>
+      <%= link_to('Cancel', member_dashboard_url, class: 'cancel') %>
+      <% @national_representative.each do |rep| %>
+      <%= hidden_field_tag('member_accounts[]', rep.account.id, id: "member-accounts-#{rep.account.id}") %>
+      <% end -%>
+      <%= hidden_field_tag('kind', 'member_to_agent') %>
+    </fieldset>
+    <% end %>
+  </div>
+  
+  <div class="span4">
+    
+    <section id="national-representative" class="secondary">
+        <h1 class="secondary"><%= t('dashboards.header.your_national_representative') %></h1>
+        <div>
+          <% @national_representative.each do |rep| %>
+          <div>
+            <% if rep.agent_profile.profile_image != nil %>
+            <%= image_tag(rep.agent_profile.profile_image.image.size_150, width: 150, alt: '', class: 'national-representative') %>
+            <% end %>
+          </div>
+          <div>
+            <span class="name"><%= rep.name %></span>
+            <div>
+              <span><%= rep.agent_profile.address %></span>
+              <div>
+                <%= rep.agent_profile.postal_code %>
+                <%= rep.agent_profile.postal_town %>
+              </div>
+              <span><%= rep.agent_profile.country %></span>
+            </div>
+            <ul class="national-representative">
+              <li>
+                <span>Phone:</span> <span><%= rep.agent_profile.telephone %></span>
+              </li>
+              <li>
+                <span>Email:</span> <span><%= rep.agent_profile.email %></span>
+              </li>
+            </ul>
+          </div>
+          <% end -%>
+        </div>
+      </section>
+    
+  </div>
+</div>

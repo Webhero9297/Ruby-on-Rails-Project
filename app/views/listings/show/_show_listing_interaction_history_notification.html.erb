@@ -1,0 +1,9 @@
+<div class="last-interaction">
+    <h2 class="listing-section-header"><%= t('listing.header.interaction_history') -%></h2>
+    <% if @last_interaction.blank? %>
+        <p><%= t('listing.notification.never_contacted_this_member') %></p>
+    <% else %>
+        <p><%= t('listing.notification.last_contact_with_this_member', {LAST_INTERACTION: standard_date_time(last_interaction.updated_at, get_session_time_zone)}) %></p>
+        <p><%= link_to(t('button.view_conversation'), '#interaction-history', class: 'interaction-history-link') %></p>
+    <% end %>
+</div>

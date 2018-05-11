@@ -1,0 +1,18 @@
+<div id="dashboard-sidebar" data-spy="affix" data-offset-top="100">
+  <section class="mb20">
+    <%= render(partial: 'dashboards/member_home') %>
+  </section>
+    <nav class="section-nav" role="secondary">
+      <ul class="nav nav-tabs nav-stacked nav-sidebar">
+        <% highlight_current_link(:class => 'active') do |n| -%>
+          <%= n.li_link_to(content_tag('i','', class: 'icon-chevron-right') + t('change_listing_menu.main_settings'), overview_listing_path(listing)) %>
+          <%= n.li_link_to(content_tag('i','', class: 'icon-chevron-right') + t('change_listing_menu.exchange_settings'), exchange_settings_listing_path(listing)) %>
+          <%= n.li_link_to(content_tag('i','', class: 'icon-chevron-right') + t('change_listing_menu.home_photos_and_text'), listing_presentations_path(listing)) %>
+          <%= n.li_link_to(content_tag('i','', class: 'icon-chevron-right') + t('change_listing_menu.family_photos_and_text'), listing_families_path(listing)) %>
+          <%= n.li_link_to(content_tag('i','', class: 'icon-chevron-right') + t('change_listing_menu.lifestyle_photos_and_text'), listing_lifestyles_path(listing)) %>
+          <%= n.li_link_to(content_tag('i','', class: 'icon-chevron-right') + t('change_listing_menu.surroundings_photos_and_text'), listing_surrounding_path(listing)) %>
+          <%= n.li_link_to(content_tag('i','', class: 'icon-chevron-right') + t('change_listing_menu.view_my_listing'), preview_listing_path(listing)) %>
+        <% end %>
+      </ul>
+    </nav>
+</div>

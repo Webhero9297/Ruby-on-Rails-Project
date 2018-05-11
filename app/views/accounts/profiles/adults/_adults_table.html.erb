@@ -1,0 +1,18 @@
+<table id="adults-table" class="table table-condensed table-striped">
+  <thead>
+    <tr>
+      <th colspan="3"><%= t('global.occupations') %></th>
+    </tr>
+  </thead>
+  <tbody>
+  <% if profile.adults.count() == 0 then %>
+    <tr id="no-adults">
+      <td colspan="3"><div class="alert"><%= t('membership.no_adults_added') %></div></td>
+    </tr>
+  <% else %>
+    <% profile.adults.each do |adult| %>
+      <%= render(partial: '/accounts/profiles/adults/adult', locals: {account: account, adult: adult}) %>
+    <% end %>
+  <% end %>
+  </tbody>
+</table>

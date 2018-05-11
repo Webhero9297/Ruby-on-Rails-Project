@@ -1,0 +1,134 @@
+<article class="listing">
+    <h1 class="listing-header"><%= @listing.headline %></h1>
+
+    <h2 class="listing-location"><%= image_tag("flags/iso32/#{@listing.country_code.downcase}.png", alt: @listing.country_code) %> <%= @listing.postal_town %>
+        , <%= @listing.country %></h2>
+
+    <% if user_signed_in? and current_user.account_id != @listing.account_id %>
+        <div class="listing-action-buttons">
+            <%= act_as_favorite_mobile(@listing) %>
+            <%= link_to(t('global.contact'), mobile_new_message_path(@listing.id), class: 'button button-blue') %>
+        </div>
+    <% end %>
+
+
+    <% if @listing.get_main_photo %>
+        <%= image_tag(@listing.get_main_photo.image.size_458, alt: @listing.get_main_photo.caption, id: 'main-photo', class: 'listing-main-photo') %>
+    <% end %>
+
+
+    <p class="align-center"><%= link_to(t('mobile.listings.view_all_photos'), gallery_mobile_listing_path(@listing), class: 'button button-green') %></p>
+
+    <div class="listing-content">
+        <h2><%= t('global.presentation') %></h2>
+        <%= markdown(@listing.description) %>
+
+        <h2><%= t('global.exchange_dates') %></h2>
+        <ul class="bullet-list">
+            <% @listing.exchange_dates.get_all_valid_periods.each do |exchange_date| %>
+                <li><%= standard_date(exchange_date.earliest_date) -%>
+                    - <%= standard_date(exchange_date.latest_date) -%>
+                    (<%= exchange_date.length_of_stay -%> <%= exchange_date.periodicity -%>)
+                </li>
+            <% end %>
+        </ul>
+
+        <h2><%= t('listings.label.home') %></h2>
+        <ul class="bullet-list">
+            <li><%= t(@listing.property_type) %></li>
+            <li><%= t('global.bedrooms') %>: <%= @listing.bedrooms %></li>
+            <li><%= t('global.bathrooms') %>: <%= @listing.bathrooms %></li>
+            <li><%= t('listings.label.sleeping_capacity') %>: <%= @listing.sleeping_capacity %></li>
+        </ul>
+
+        <h2><%= t('listings.header.property_details') %></h2>
+        <% if @listing.property_details.empty? %>
+            <p class="alert"><%= t('listing.alert.no_property_details_added') %></p>
+        <% else %>
+            <ul class="bullet-list">
+                <% @listing.property_details.each do |detail| %>
+                    <li><%= t(detail) %></li>
+                <% end %>
+            </ul>
+        <% end %>
+
+        <h2><%= t('visinfo_membership_with_intervac.search_facilities_list.exchange_types') %></h2>
+        <ul class="bullet-list">
+            <% @exchange_types.each do |exchange_type| %>
+                <li><%= t(exchange_type) %></li>
+            <% end %>
+        </ul>
+
+        <h2><%= t('account.header.spoken_languages') %></h2>
+        <ul class="bullet-list">
+            <% @listing.account.profile.spoken_languages.each do |language| %>
+                <li><%= t(language) %></li>
+            <% end %>
+        </ul>
+
+        <h2><%= t('listings.header.destination_wish_list') %></h2>
+        <% if @listing.account.profile.wish_list_destinations.empty? %>
+            <p class="alert"><%= t('listings.alert.message.member_has_not_filled_out_wish_list') %></p>
+        <% else %>
+            <ul class="bullet-list">
+                <% @listing.account.profile.wish_list_destinations.each do |destination| %>
+                    <li><%= destination.destination %></li>
+                <% end %>
+            </ul>
+        <% end %>
+
+        <h2><%= t('global.family') %></h2>
+        <ul class="bullet-list">
+            <li><%= t('global.adults') %>: <strong><%= @listing.account.profile.number_of_adults %></strong></li>
+            <li><%= t('global.occupations') %>:
+                <% @listing.account.profile.adults.each do |adult| -%>
+                    <strong><%= adult.occupation %></strong>
+                <% end %>
+            </li>
+            <% if @profile.children.count() == 0 then %>
+                <li><%= t('membership.no_children_added') %></li>
+            <% else %>
+                <li><%= t('global.children') %>: <strong><%= @profile.children.count() %></strong></li>
+                <li><%= t('global.gender_and_age') %>:
+                    <% @profile.children.each do |child| %>
+                        <strong><%= child['gender'] %>, <%= child_age(child) %></strong>
+                    <% end %>
+                </li>
+            <% end %>
+        </ul>
+
+        <h2><%= t('accounts.header.family_presentation') %></h2>
+        <% if @profile.presentation.text.blank? %>
+            <p class="alert"><%= t('listing.alert.no_family_presentation') %></p>
+        <%- else -%>
+            <% if @profile.presentation.visible or user_signed_in? then %>
+                <%= markdown(strip_tags(@profile.presentation.text)) %>
+            <% else %>
+                <p class="alert"><%= t('listing.only_members_can_view') %></p>
+            <% end %>
+        <%- end -%>
+
+        <h2><%= t('global.lifestyle') %></h2>
+        <% if @profile.lifestyle.text.blank? %>
+            <p class="alert"><%= t('listing.alert.no_lifestyle_presentation') %></p>
+        <%- else -%>
+            <% if @profile.lifestyle.visible or user_signed_in? then %>
+                <%= markdown(strip_tags(@profile.lifestyle.text)) %>
+            <% else %>
+                <p class="alert"><%= t('listing.only_members_can_view') %></p>
+            <% end %>
+        <%- end -%>
+
+
+        <h2><%= t('global.pets') %></h2>
+        <% if @profile.pets.count() == 0 then %>
+            <p class="alert"><%= t('accounts.profile.no_pets_added') %></p>
+        <% else %>
+            <ul class="bullet-list">
+                <% @profile.pets.each do |pet| %>
+                    <li><%= pet.kind %></li>
+                <% end %>
+            </ul>
+        <% end %>
+    </div>
+</article>

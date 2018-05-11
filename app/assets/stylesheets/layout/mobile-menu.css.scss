@@ -1,0 +1,83 @@
+.menu-toggle {
+    font-size: 0.857em;
+    line-height: 0.857em;
+    color: $white;
+    padding: 0.571em 0.571em;
+    border-radius: 5px;
+    border: solid 2px $dark-blue;
+    background: $light-blue;
+    &:hover {
+    	color: $white;
+    }
+    &.open-menu {
+    	position: absolute;
+	    top: 80px;
+	    left: 20px;
+	    z-index: 1;
+    }
+    &.close-menu {
+    	font-size: 1.314em;
+    	padding: 0 0.271em;
+    }
+}
+
+.mobile-menu {
+	position: fixed;
+	top: 0;
+	left: -100vw;
+	width: 100%;
+	height: 100%;
+	background-color: $white;
+	@include transition-property(left);
+	@include transition-duration(500ms);
+	z-index: 3;
+	&.open {
+		left: -5vw;
+	}
+	.top {
+		border-top: solid 7px $orange;
+		background-color: #f7efc9;
+		padding: 10px;
+		.close-container {
+			text-align: right;
+			padding-top: 0.429em;
+		}
+	}
+	.header-user-actions .language-menu {
+		margin:	0 1.143em 0 0;
+	}
+	.main-nav {
+	    padding-left: 5vw;
+		border-top: solid 0.286em $dark-blue;
+		border-bottom: solid 0.286em $dark-blue;
+		.main-nav-items {
+			.main-nav-item {
+				a.main-nav-link {
+					text-align: left;
+					border: 0 none;
+				}
+			}
+		}
+	}
+	.free-trail-button {
+		margin-top: 1.500em;
+	}
+}
+
+.mobile-menu-backlayer {
+	position: fixed;
+	width: 0;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba( 0, 0, 0, 0.4 );
+	z-index: 2;
+}
+
+
+body.open-menu {
+	overflow: hidden;
+	.mobile-menu-backlayer {
+		width: 100vw;	 
+	}
+}

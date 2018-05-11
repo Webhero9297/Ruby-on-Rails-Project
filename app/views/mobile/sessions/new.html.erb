@@ -1,0 +1,32 @@
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:class => 'login-form mb30'}) do |f| %>
+<% if not alert.nil? %>
+    <div class="alert"><%= t(alert.to_s) %></div>
+<% end -%>
+<fieldset>
+  <%= f.label(:login, t('global.email_address')) %>
+  <%= f.email_field(:login, placeholder: t('form.placeholder.email_address_you_use_for_intervac'), required: 'required') %>
+</fieldset>
+
+<fieldset>
+  <%= f.label(:password, t('global.password')) %>
+  <%= f.password_field(:password, placeholder: t('forms.placeholder.your_intervac_password'), required: 'required') %>
+</fieldset>
+
+<% if devise_mapping.rememberable? -%>
+  <fieldset>
+    <%= f.label :remember_me, class: 'area' do %>
+      <%= f.check_box(:remember_me) %>
+      <%= t('users.sessions.new.remember_me') %>
+    <% end %>
+  </fieldset>
+<% end -%>
+
+<fieldset class="form-actions">
+  <%= f.button(t('button.login'), class: 'button large full button-green') %>
+</fieldset>  
+<% end %>
+
+<section>
+  <p><%= t('mobile.not_yet_a_member') %></p>
+  <%= link_to(t('global.view_listings'), mobile_listings_path, class: 'button button-blue full large', :'data-spinner' => 'spinner') %>
+</section>

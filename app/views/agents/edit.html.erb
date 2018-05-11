@@ -1,0 +1,26 @@
+<%- if admin_session? -%>
+  <% body_id 'agent-management' %>
+<%- else -%>
+  <% body_id 'agent-profile' %>
+<%- end -%>
+
+<% if admin_session? %>
+  <div class="row-fluid">
+    <div class="span12">
+      <%= link_to('Back to agents', agents_path, class: 'btn btn-link') %>
+    </div>
+  </div>
+<% end %>
+
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <%= render(partial: 'agent_contact_information', locals: {header: 'Agent contact details', section_id: 'agent-contact-details'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'agent_image', locals: {header: 'Agent image', section_id: 'agent-image'}, layout: '/layouts/modules/plate_section') %>
+      <%- if current_user.is_admin -%>
+        <%= render(partial: 'assign_agent_to_countries', locals: {header: 'Assigned countries', section_id: 'assigned-countries'}, layout: '/layouts/modules/plate_section') %>
+        <%= render(partial: 'remove_as_agent', locals: {header: 'Remove as agent', section_id: 'remove-as-agent'}, layout: '/layouts/modules/plate_section') %>
+      <%- end -%>
+    </div>
+  </div>
+</div>

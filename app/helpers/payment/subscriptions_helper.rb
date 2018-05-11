@@ -1,0 +1,2 @@
+module Payment::SubscriptionsHelper
+end

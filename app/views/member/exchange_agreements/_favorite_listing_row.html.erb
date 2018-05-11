@@ -1,0 +1,41 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Listing</th>
+      <th colspan="2">Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%- listings.each do |listing| -%>
+      <%- if listing.account.nil? -%>
+        <%- send_oddity("It seems like this favorite listing does not have an account, listing: #{listing.id}") -%>
+      <%- else -%>
+        <tr>
+          <td><%= link_to(listing.listing_number, listing_path(listing)) %></td>
+          <td>
+            <%= listing.postal_town %>,
+            <%= t(listing.country) %>
+          </td>
+          <td>
+            <%= form_tag(member_exchange_agreements_url, method: :post, class: "form-favorites-inline#{if current_user.account.listings.searchable.count > 1 then ' multiple' end}") do %>
+              <%= hidden_field_tag(:member_listing_id, current_user.account.listings.searchable.first.try(:id)) %>
+              <%= hidden_field_tag(:partner_listing_id, listing.id, id: nil) %>
+              <% if !listing.is_expired %>
+                <% if !listing.account.is_trial_subscription && !current_user.account.is_trial_subscription %>
+                  <%= button_tag(t("button.start_new_agreement"), class: "btn-link start-agreement") %>
+                <% else %>
+                  <span class="label label-warning ml10">
+                    <%= t('exchange_agreement.warning_target_trial') if listing.account.is_trial_subscription && !current_user.account.is_trial_subscription %>
+                    <%= t('exchange_agreement.warning_user_trial') if current_user.account.is_trial_subscription %>
+                  </span>
+                <% end %>
+              <%- else %>
+                <span class="label label-warning ml10"><%= t('global.expired') %></span>
+              <%- end %>
+            <%- end %>
+          </td>
+        </tr>
+      <%- end -%>
+    <%- end -%>
+  </tbody>
+</table>

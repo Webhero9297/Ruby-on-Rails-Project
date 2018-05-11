@@ -1,0 +1,9 @@
+<p>The following user choose to skip the payment step while signing up and go with a trial membership instead.</p>
+
+<ul>
+    <li>Name: <strong><%= @user.name %></strong></li>
+    <li>Email: <strong><%= @user.email %></strong></li>
+    <li>Family number: <strong><%= @user.account.account_number %></strong></li>
+    <li>Original price plan: <strong><%= @original_price_plan.name %></strong></li>
+    <li>Order number: <strong><%= @order.order_number %></strong></li>
+</ul>

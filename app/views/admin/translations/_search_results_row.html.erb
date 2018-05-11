@@ -1,0 +1,33 @@
+<div id="search-results" class="row-fluid">
+  <div class="span12">
+    <h1 class="plate-section-header"><%= t('global.header.search_results') %></h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Msgid</th>
+          <th>Translation <em>(default translation in italics)</em></th>
+          <th>View</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @translations.each do |t| %>
+          <tr>
+            <td>
+              <%= t.msgid %>
+            </td>
+            <td>
+              <%- if t.get_value -%>
+                <%= t.get_value %>
+              <%- else -%>
+              <em style="color: #777;"><%= @default_translations.where(msgid: t[:msgid]).first.get_value%></em>
+              <% end %>
+            </td>
+            <td>
+              <%= link_to "Edit translation", edit_admin_translation_url(t.id) %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

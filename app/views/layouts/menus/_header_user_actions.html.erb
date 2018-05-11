@@ -1,0 +1,12 @@
+<div class="container header-user-actions clearfix">
+  <% if user_signed_in? %>
+    <%= render('layouts/language_menu') %>
+    <%= link_to(t('button.dashboard'), member_dashboard_path, class: 'btn xl orange') %>
+    <%= link_to(t('button.log_out'), logout_path, class: 'btn xl') %>
+  <% else %>
+    <%= render('layouts/language_menu') %>
+    <%= link_to(login_path, class: 'btn xl icon-user') do %>
+      <i class="fa fa-user"></i><%= t('navigation.header.login') %>
+    <% end %>
+  <% end %>
+</div>

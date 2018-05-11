@@ -1,0 +1,25 @@
+var td = $('td[data-price-plan-id="<%= @price_plan.id %>"]');
+
+<% if params[:upgrade] === 'true' %>
+  <% base_price = float_price(@price_plan.base_price) %>
+<% elsif params[:renewal] === 'true' %>
+  <% base_price = renew_or_base_price(current_user, @price_plan) %>
+<% end %>
+
+<% if @promotion_code %>
+  $('.final-promo-code').val('<%= @promotion_code.code %>');
+
+  $('.promo-code-form').find('.alert-danger').remove();
+  if ($('.promo-code-form').find('.alert-success').length < 1) {
+      $('.promo-code-form').append('<div class="alert alert-success" id="flash_alert"><%= t("registration.header.you_have_a_valid_promotion_code") %></div>');
+  }
+  td.html('<s>' + td.html() + '</s>   ' + '<b><%= raw markdown([float_price( @promotion_code.discounted_price.to_f ),@price_plan.country.currency].join(' ') ).strip %></b>');
+<% else %>
+  $('.final-promo-code').val('');
+
+  if ($('.promo-code-form').find('.alert-danger').length < 1) {
+    $('.promo-code-form').append('<div class="alert alert-danger" id="flash_alert"><%= t("price_plans.promtion_code_no_longer_valid_verify_your_code") %></div>');
+  }
+  $('.promo-code-form').find('.alert-success').remove();
+  td.html('<%= raw markdown( [base_price, @price_plan.country.currency].join(' ')  ).strip %>');
+<% end %>

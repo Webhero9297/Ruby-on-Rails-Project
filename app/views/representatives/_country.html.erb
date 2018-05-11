@@ -1,0 +1,8 @@
+<% if country.continent.downcase == country_continent || country_continent == 'all' -%>
+    <div id="agent-country-<%= country.short.downcase %>" class="agent-country <%= country.continent.downcase %>">
+        <%= link_to("#agent-#{country.short.downcase}", :class => "agent-country-link") do %>
+            <%= content_tag(:span, '', :class => "country-flag sprite-flag sprite-flag-#{country.short.downcase}") %>
+            <%= content_tag(:span, t(country.msgid), :class => "agent-country-name") %>
+        <% end %>
+    </div>
+<% end %>

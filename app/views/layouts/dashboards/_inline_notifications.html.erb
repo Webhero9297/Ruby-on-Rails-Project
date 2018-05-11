@@ -1,0 +1,17 @@
+<div id="notifications">
+    <% if notice %>
+        <div id="notification"><span class="notification-icon success-icon">!</span> <%= t(notice.to_s) %></div>
+    <% end -%>
+
+    <% if flash[:success] %>
+        <div id="notification"><span class="notification-icon success-icon">!</span><%= t(flash[:success].to_s) %></div>
+    <% end %>
+
+    <% if flash[:failure] %>
+        <div id="notification"><span class="notification-icon danger-icon">!</span><%= t(flash[:failure].to_s) %></div>
+    <% end %>
+
+    <% if flash[:alert] %>
+        <div id="notification"><span class="notification-icon warning-icon">!</span><%= t(flash[:alert].to_s) %></div>
+    <% end %>
+</div>

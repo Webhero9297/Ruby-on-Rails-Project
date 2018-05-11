@@ -1,0 +1,4 @@
+<tr id="<%= item.id %>">
+  <td><%= item.destination %></td>
+  <td><%= link_to(content_tag('i', '', class: 'icon-trash') + ' ' + t('button.delete'), remove_location_account_match_alerts_path(account.id, item.id), method: :get, remote: true, confirm: "Are you sure you want to delete the destination") %></td>
+</tr>

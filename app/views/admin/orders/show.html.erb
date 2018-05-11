@@ -1,0 +1,18 @@
+<%= render(partial: 'admin/statistics/menu') %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+
+        <div class="mb20">
+          <%= link_to(content_tag('i','', class: 'icon-arrow-left') + ' ' + 'Back to orders', admin_orders_url, class: 'btn') %>
+        </div>
+        
+        <h1 class="plate-header">Order information</h1>
+        
+        <%= render(partial: 'admin/orders/full_order', object: @order, as: 'order') %>
+
+      </div>
+    </div>
+  </div>
+</div>

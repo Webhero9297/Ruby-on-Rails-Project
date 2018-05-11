@@ -1,0 +1,75 @@
+<div class="row-fluid mb60">
+    <div class="span12">
+        <article>
+            <h1 class="page-header"><%= t('payment.orders.header.invoice_payment_form') %></h1>
+
+            <h2 class="section-header"><%= t('payment.order_details') %></h2>
+
+            <dl class="dl-horizontal">
+                <dt><%= t('global.kind') %>:</dt>
+                <dd><%= @price_plan.duration %> <%= @price_plan.periodicity %> membership</dd>
+                <dt><%= t('global.duration') %>:</dt>
+                <dd><%= @price_plan.duration %> <%= @price_plan.periodicity %></dd>
+                <dt><%= t('global.price') %>:</dt>
+                <dd><%= format_currency(@order.total_amount) %> <%= @price_plan.country.currency %></dd>
+            </dl>
+
+            <div class="well pb0">
+                <%= form_for(@invoice, :as => :address, url: save_invoice_order_url(@order), method: :post, class: 'form-vertical') do |f| %>
+                    <h2 class="section-header"><%= t('payment.header.your_address_information') %></h2>
+
+                    <div class="alert alert-info">
+                        <p class="alert-message info"><%= t('payment.orders.alert_message_info') %></p>
+                    </div>
+
+                    <% if @invoice.errors.any? %>
+                        <div id="error_explanation">
+                            <h2><%= pluralize(@invoice.errors.count, "error") %> <%= t('prohibited the invoice from being sent') %>
+                                :</h2>
+                            <ul>
+                                <% @invoice.errors.full_messages.each do |msg| %>
+                                    <li><%= msg %></li>
+                                <% end %>
+                            </ul>
+                        </div>
+                    <% end %>
+
+                    <fieldset>
+                        <%= label_tag('fullname', t('global.full_name')) %>
+                        <%= text_field_tag('address[fullname]', @user.account.contact.name, class: 'input-xlarge') %> <%= content_tag('span', "(#{t('required')})", class: 'required') %>
+
+                        <%= label_tag('street', t('global.street')) %>
+                        <%= f.text_field(:street, class: 'input-xlarge') %> <%= content_tag('span', "(#{t('required')})", class: 'required') %>
+
+                        <%= label_tag('postal_code', t('global.postal_code')) %>
+                        <%= f.text_field(:postal_code, class: 'input-small') %> <%= content_tag('span', "(#{t('optional')})", class: 'required') %>
+
+                        <%= label_tag('city', t('global.city')) %>
+                        <%= f.text_field(:city, class: 'input-xlarge') %> <%= content_tag('span', "(#{t('required')})", class: 'required') %>
+
+                        <%= label_tag('country', t('sitewide.country')) %>
+                        <%= text_field_tag('address[country]', t(@country.msgid), class: 'input-xlarge') %> <%= content_tag('span', "(#{t('required')})", class: 'required') %>
+
+                        <%= label_tag('phone', t('global.phone')) %>
+                        <%= f.text_field(:phone, class: 'input-xlarge') %> <%= content_tag('span', "(#{t('required')})", class: 'required') %>
+                    </fieldset>
+
+                    <fieldset class="form-actions mb0">
+                        <%= f.button(t('payment.send_order'), class: 'btn btn-primary') %>
+                    </fieldset>
+                <% end %>
+
+            </div>
+
+            <% if @order.upgrade or @order.renewal %>
+                <div>
+                    <h2 class="section-header"><%= t('payment.header.cancel_membership_upgrade') %></h2>
+                    <p><%= link_to(t('button.cancel'), member_dashboard_path, class: 'btn btn-danger') %></p>
+                </div>
+            <% else %>
+                <%= render(partial: '/payment/orders/skip_to_dashboard_button', locals: {account_id: @user.account_id}) %>
+            <% end %>
+
+        </article>
+    </div>
+</div>

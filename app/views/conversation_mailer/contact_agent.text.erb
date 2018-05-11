@@ -1,0 +1,29 @@
+<%= t('dashboard.phrases.hello_there', :locale => @locale) %>
+
+New message from <%= @message.sent_by_user %>
+<%- if @message.conversation.kind == 'member_to_member' -%>
+<%- @sender_account.listings.each do |listing| -%>
+<%= listing.listing_number -%>
+<%- end -%>
+<%- end -%>
+
+-------------------------------------------------------------------
+<%= @message.body %>
+-------------------------------------------------------------------
+
+<%- if @message.kind == 'exchange_request' -%>
+<%= t('mailer.conversation.not_interested', :locale => @locale) %>
+<%= t('mailer.label.not_interested', :locale => @locale) %> <%= external_domain_link(not_interested_conversation_path(@message.conversation)) %>
+<%- end -%>
+
+<%= t('mailer.view_this_conversation_at_intervac', :locale => @locale) %> <%= external_domain_link(conversation_path(@message.conversation)) %>
+<%= t('mailer.reply_to_message_with_reply_button', :locale => @locale) %>
+
+
+My Listings
+-------------------------------------------------------------------
+<%- if @message.conversation.kind == 'member_to_member' -%>
+<%- @sender_account.listings.each do |listing| -%>
+<%= listing.listing_number -%> 
+<%- end -%>
+<%- end -%>

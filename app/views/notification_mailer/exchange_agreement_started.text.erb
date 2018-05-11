@@ -1,0 +1,9 @@
+<%= t('automated_messages.exchange_agreement_started.header') %>
+
+<%= t('automated_messages.exchange_agreement_started.partner_has_started', {:PARTNER_NAME => @owner_account.contact.name, :PARTNER_LISTING_NUMBER => @owner_agreement.listing_number}) %>
+<%= t('automated_messages.exchange_agreement.fill_out_your_terms.text_version', {:MEMBER_EXCHANGE_LINK => external_domain_link(member_exchange_agreements_path)}) %>
+
+<%= t('automated_messages.exchange_agreement.have_questions.text_version', {:LOCAL_REPRESENTATIVE_LINK => external_domain_link(local_representatives_path)}) %>
+
+<%= t('automated_messages.exchange_agreement.happy_exchange') %>
+<%= t('automated_messages.exchange_agreement.intervac_team') %>

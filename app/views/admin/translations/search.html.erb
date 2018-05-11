@@ -1,0 +1,21 @@
+<%= render(partial: 'tab_menu') %>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="plate">
+            <div class="row-fluid">
+                <div class="span12">
+                    <section class="group">
+                        <h1>You are now editing <%= @locale %></h1>
+
+                        <div class="content">
+                            <%= render(partial: 'admin/translations/msgid_search_form') %>
+                            <%= render(partial: 'admin/translations/search_results_row') %>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

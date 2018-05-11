@@ -1,0 +1,13 @@
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th class="span3"><%= t('listings.label.listing_number') %></th>
+      <th class="span3"><%= t('global.dates') %></th>
+      <th class="span3"><%= t('exchange_agreement.act_as_reference') %></th>
+      <th class="span3"><%= t('exchange_agreement.show_references') %></th>
+    </tr>
+  </thead>
+  <tbody id="references">
+    <%= render(partial: 'reference', collection: @exchange_references, as: 'reference') %>
+  </tbody>
+</table>

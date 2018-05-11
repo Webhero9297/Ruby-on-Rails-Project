@@ -1,0 +1,4 @@
+<%= render(locals: {header: t('exchange_feedbacks.header.exchange_feedback')}, layout: '/layouts/modules/single_page_plate') do %>
+    <p><%= t('exchange_feedbacks.tag_line.feedback_on_exchange_with') %> <strong><%= @exchange_partner.contact.name %>, <%= @partner_agreement.listing_location %>, <%= t(@partner_agreement.listing_country) %> (<%= @partner_agreement.listing_number %>)</strong></p>
+    <%= render(partial: 'form') %>
+<% end %>

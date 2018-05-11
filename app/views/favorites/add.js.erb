@@ -1,0 +1,11 @@
+var favorite = $("#favorite-<%= @listing.id %>");
+favorite.parent().children('.tooltip').remove();
+if(favorite.hasClass('text')) {
+    favorite.replaceWith('<%= link_to(content_tag('i','', class: 'icon-heart icon-white') + ' ' + t('global.unfavorite'), favorite_url(@listing.id), remote: true, method: :delete, title: t('favorites.delete'), class: 'btn btn-warning bookmarked text', id: "favorite-#{@listing.id}") %>');
+} else if(favorite.hasClass('link')) {
+    favorite.replaceWith('<%= link_to(content_tag('i','', class: 'icon-heart') + ' ' + _('Remove as favorite'), favorite_url(@listing.id), remote: true, method: :delete, title: t('favorites.delete'), class: 'btn btn-link bookmark link', id: "favorite-#{@listing.id}") %>');
+} else {
+    favorite.replaceWith('<%= link_to(content_tag('i','', class: 'icon-heart icon-white'), favorite_url(@listing.id), remote: true, method: :delete, title: t('favorites.delete'), class: 'btn btn-warning btn-small bookmarked', id: "favorite-#{@listing.id}") %>');
+}
+<%= render(:partial => '/layouts/dashboards/ajax_notifications')%>
+$("#favorite-<%= @listing.id %>").tooltip();

@@ -1,0 +1,135 @@
+<div id="receipt" class="row mb60">
+  <div class="span12">
+    
+    <article class="mb40">
+      <h1 class="page-header"><%= t('payment.header.thank_you_for_chosing_intervac') %></h1>
+    
+      <div class="alert alert-success">
+        <%= t('payment.orders.you_account_is_ready_to_be_used') %>
+      </div>
+
+      <% if @order.kind == 'offline_payment' %>
+        <div class="alert"><%= markdown(@country.accept_generic_offline_payment_info) %></div>
+      <% end %>
+      
+      <%= render(partial: 'btn_get_started') %>
+      
+    </article>
+    
+    
+    <article class="well">
+      <div class="row-fluid">
+        <div class="span12">
+          
+          <h1 class="page-header"><%= t('global.receipt') %></h1>
+          <%= link_to(content_tag('i', '', class: 'icon-print icon-white') + ' ' + t('button.print_receipt'), '#receipt', class: 'btn btn-primary print') %>
+          <dl class="dl-horizontal">
+            <dt><%= t('global.membership') %>:</dt>
+            <% if @order.kind == 'paypal' %>
+              <dd><%= @paypal_details.params['order_description'] %></dd>
+            <% else %>
+              <dd><%= @price_plan.name %></dd>
+            <% end %>
+            <dt><%= t('global.duration') %>:</dt>
+              <dd><%= @price_plan.duration%> <%= @price_plan.periodicity %></dd>
+            <dt><%= t('global.price') %>:</dt>
+            <% if @order.kind == 'paypal' %>
+              <dd><%= @paypal_details.params['order_total'] %> <%= @paypal_details.params['order_total_currency_id'] %></dd>
+            <% else %>
+              <dd><%= format_currency(@order.total_amount) %> <%= @order.currency %></dd>
+            <% end %>
+            <dt><%= t('global.order_number') %>:</dt>
+              <dd><%= @order.order_number %></dd>
+          </dl>
+          
+        </div>
+      </div>
+      
+      
+      <div class="row-fluid">
+      <div class="span6">
+        <h2 class="section-header"><%= t('global.buyer') %></h2>
+        <% if @order.kind == 'paypal' %>
+        <dl class="dl-horizontal">
+          <dt><%= t('accounts.account_number') %>:</dt>
+            <dd><%= text_if_missing( @user.account.account_number ) %></dd>
+          <dt><%= t('global.name') %>:</dt>
+            <dd><%= text_if_missing(@paypal_details.params['first_name'] ) %> <%= text_if_missing( @paypal_details.params['last_name'] ) %></dd>
+          <dt><%= t('global.street') %>:</dt>
+            <dd><%= text_if_missing(@paypal_details.params['street1'] ) %></dd>
+          <dt><%= t('global.postal_code') %>:</dt>
+            <dd><%= text_if_missing(@paypal_details.params['postal_code'] ) %></dd>
+          <dt><%= t('global.city') %>:</dt>
+            <dd><%= text_if_missing(@paypal_details.params['city_name'] ) %></dd>
+          <dt><%= t('sitewide.country') %>:</dt>
+            <dd><%= text_if_missing(@paypal_details.params['country_name'] ) %></dd>
+          <dt><%= t('global.email') %>:</dt>
+            <dd><%= text_if_missing(@user.account.contact.email ) %></dd>
+        </dl>
+        <% elsif @order.kind == 'va_solutions' %>
+        <dl class="dl-horizontal">
+          <dt><%= t('accounts.account_number') %>:</dt>
+            <dd><%= text_if_missing(@user.account.account_number) %></dd>
+          <dt><%= t('global.name') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['first_name'] ) %> <%= text_if_missing( @order.transactions.first.params['last_name'] ) %></dd>
+          <dt><%= t('global.street') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['street'] ) %></dd>
+          <dt><%= t('global.postal_code') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['postal'] ) %></dd>
+          <dt><%= t('global.city') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['city'] ) %></dd>
+          <dt><%= t('global.phone') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['phone'] ) %></dd>
+          <dt><%= t('global.email') %>:</dt>
+            <dd><%= text_if_missing( @user.account.contact.email ) %></dd>
+        </dl>
+        <% elsif @order.kind == 'invoice' %>
+        <dl class="dl-horizontal">
+          <dt><%= t('accounts.account_number') %>:</dt>
+            <dd><%= text_if_missing(@user.account.account_number) %></dd>
+          <dt><%= t('global.name') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['fullname'] ) %></dd>
+          <dt><%= t('global.street') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['street'] ) %></dd>
+          <dt><%= t('global.postal_code') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['postal_code'] ) %></dd>
+          <dt><%= t('global.city') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['city'] ) %></dd>
+          <dt><%= t('sitewide.country') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['country'] ) %></dd>
+          <dt><%= t('global.phone') %>:</dt>
+            <dd><%= text_if_missing( @order.transactions.first.params['phone'] ) %></dd>
+          <dt><%= t('global.email') %>:</dt>
+            <dd><%= text_if_missing( @user.account.contact.email ) %></dd>
+        </dl>
+        <% elsif @order.kind == 'offline_payment' %>
+        <dl class="dl-horizontal">
+          <dt><%= t('accounts.account_number') %>:</dt>
+            <dd><%= text_if_missing(@user.account.account_number) %></dd>
+          <dt><%= t('global.name') %>:</dt>
+            <dd><%= text_if_missing( @user.name) %></dd>
+          <dt><%= t('sitewide.country') %>:</dt>
+            <dd><%= text_if_missing(@user.account.country_short) %></dd>
+          <dt><%= t('global.email') %>:</dt>
+            <dd><%= text_if_missing( @user.account.contact.email) %></dd>
+        </dl>
+        <% end %>
+      </div>
+      
+      <div class="span6">
+        <h2 class="section-header"><%= t('global.merchant') %></h2>
+        <%= render(partial: 'countries/merchant_informations/placeholder', object: @country.merchant_information, as: 'merchant_information') %>
+      </div>
+      </div>
+    </article>
+
+    <p><%= render(partial: 'btn_get_started') %></p>
+
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  $('.print').click(function(event) {
+    event.preventDefault();
+    window.print();
+  });
+</script>

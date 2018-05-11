@@ -1,0 +1,14 @@
+<div id="references-container">
+  <% if @exchange_references.empty? %>
+    <div class="alert alert-info">
+      <p class="alert-message"><%= t('exchange_agreement.no_references') %></p>
+    </div>
+  <% else %>
+    <% if @exchange_approval_requests %>
+      <div class="alert alert-info" id="exchange-approval-requests">
+        <p class="alert-message"><%= t('dashboard.alert.awaiting_exchange_requests') %></p>
+      </div>
+    <% end %>
+    <%= render(partial: 'reference_table') %>
+  <% end %>
+</div>

@@ -1,0 +1,4 @@
+<%= render(locals: {header: t('global.thank_you')}, layout: '/layouts/modules/single_page_plate') do %>
+    <p><%= t('exchange_feedback.text.thank_you') %></p>
+    <p>Go to <%= link_to('dashboard', member_dashboard_url) %></p>
+<% end %>

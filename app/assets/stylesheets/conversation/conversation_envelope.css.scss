@@ -1,0 +1,48 @@
+@import "mixins";
+
+.conversations-option {
+    display: none;
+}
+
+.conversation-read td {
+    background-color: #f3f3f3;
+
+    a {
+        color: #454545;
+        &:hover {
+            color: #43AA12;
+        }
+    }
+}
+
+.conversation-unread td {
+    a {
+        &:hover {
+            color: #43AA12;
+        }
+    }
+}
+
+.conversation-unread td {
+    font-weight: bold;
+}
+
+.conversation-envelope-actions {
+    float: right;
+}
+
+.conversation-envelope-checkbox {
+    display: block;
+    margin: 0;
+    padding: 2px;
+
+    input {
+        margin: -5px 0 0 0;
+        padding: 0;
+    }
+}
+
+.conversation-envelope-form {
+    margin: 0;
+    padding: 0;
+}

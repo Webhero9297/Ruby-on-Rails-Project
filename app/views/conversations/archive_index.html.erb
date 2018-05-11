@@ -1,0 +1,25 @@
+<div class="row-fluid">
+    <div class="span3">
+        <%= render(partial: 'conversation_menu') %>
+    </div>
+    <div class="span9">
+            <div class="plate">
+                <%= render(locals: {section_id: 'message-envelopes', header: t('conversation.header.archive')}, layout: '/layouts/modules/plate_section') do %>
+                    <%= render(partial: 'conversation_envelope', locals: { form_url: archive_index_conversations_path, is_archive: true}) %>
+                    <%= render(partial: 'conversations/conversations_table') %>
+                <% end %>
+            </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+  set_active_filter('conversations-filter', 'conversations-all');
+  set_active_filter('conversations-order', 'conversations-last');
+
+  add_archive_conversation_events();
+  add_delete_conversation_events();
+
+  add_conversation_form_events();
+
+</script>

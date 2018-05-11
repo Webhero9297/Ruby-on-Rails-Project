@@ -1,0 +1,45 @@
+<%= render( partial: '/accounts/accounts/menu', object: @account, as: 'account') %>
+<div class="row-fluid">
+  <section class="span12">
+    <h2 class="section-header border-top"><%= t('accounts.header.family_photos') %></h2>
+    <p><%= t('accounts.images.visible_help_description') %></p>
+    <div id="family-images">
+      <div class="image-uploader well">
+        <p class="image-uploader"><%= t('accounts.profile.upload_family_photos') %></p>
+        <%= image_tag('upload-pointer.png', alt: '', class: 'upload-pointer') %>
+        <button id="family-upload" class="btn btn-primary pluploader" data-category="family" data-token="<%= form_authenticity_token %>" data-url="<%= account_profiles_images_url(@account) %>"><i class="icon-upload icon-white"></i><%= t('button.select_images') %></button>
+      </div>
+      <% if @family_images.count == 0 -%>
+      <%= render( partial: 'accounts/profile_images/no_images') %>
+      <% end -%>
+      <%= render( partial: '/accounts/profile_images/image_card', collection: @family_images, as: 'image' ) %>
+    </div>
+  </section>
+</div>
+
+
+<div class="row-fluid">
+  <section class="span12">
+    <h2 class="section-header border-top"><%= t('accounts.lifestyle.header.lifestyle_photos') %></h2>
+    <div id="lifestyle-images">
+      <div class="image-uploader well">
+        <p class="image-uploader"><%= t('accounts.profile.upload_lifestyle_photos') %></p>
+        <%= image_tag('upload-pointer.png', alt: '', class: 'upload-pointer') %>
+        <button id="lifestyle-upload" class="btn btn-primary pluploader" data-category="lifestyle" data-token="<%= form_authenticity_token %>" data-url="<%= account_profiles_images_url(@account) %>"><i class="icon-upload icon-white"></i><%= t('button.select_images') %></button>
+      </div>
+      <% if @lifestyle_images.count == 0 -%>
+      <%= render( partial: 'accounts/profile_images/no_images') %>
+      <% end -%>
+      <%= render( partial: '/accounts/profile_images/image_card', collection: @lifestyle_images, as: 'image' ) %>
+    </div>
+  </section>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      $('.pluploader').each(function(){
+          enable_image_upload(this);
+      });
+      enable_caption_edit();
+  });
+</script>

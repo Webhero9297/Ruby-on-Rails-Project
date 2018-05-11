@@ -1,0 +1,120 @@
+.site-footer {
+    border-top: 6px solid $orange;
+}
+
+.site-footer-body {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 1.5em 0;
+}
+
+.site-footer-col {
+    @include span-columns(12);
+    padding-left: 2em;
+    @include respond-to(mid-screens) {
+        @include span-columns(4);
+    }
+}
+
+.site-footer-header {
+    color: $orange;
+    font-size: 1em;
+    font-weight: 600;
+    @include rem(margin-bottom, 0.625rem);
+}
+
+.site-footer-list {
+    margin-bottom: 2em;
+    > li {
+        background: transparent image-url('yellow-bullet-point.png') no-repeat 0 55%;
+        list-style: none;
+        margin-bottom: 0.3125em;
+        margin-left: 0.1875em;
+        padding-left: 1em;
+    }
+}
+
+.site-footer-link {
+    color: $dark-grey;
+    display: inline-block;
+    font-size: 0.875em;
+    padding: 0.3em 0;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.mailer-footer-link {
+    color: $dark-grey;
+    display: inline-block;
+    font-size: 0.875em;
+    padding: 0.3em 0;
+
+    &:hover {
+        text-decoration: underline;
+    }
+    &.bold {
+      font-weight: bold;
+    }
+}
+
+.mcafeesecure-link {
+    background-color: $white;
+    display: inline-block;
+    border: 1px solid #cec6a1;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.copyright {
+    border-top: 1px solid #cec6a1;
+    text-align: center;
+    @include rem(padding, 1rem 0 3rem 0);
+    @include span-columns(12);
+    &.no-border {
+        border: 0;
+    }
+}
+
+.copyright-text {
+    color: $dark-grey;
+    font-size: 0.75em;
+}
+
+ul.social-media {
+	clear: both;
+	width: 220px;
+    margin: 0 auto;
+	li {
+		display: inline-block;
+		list-style-type: none;
+		margin: 0 10px 10px 10px;
+		a {
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+			text-align: center;
+			border-radius: 18px;
+			color: $white;
+			text-decoration: none;
+			@extend .fa;
+			&.facebook {
+				background-color: #3b5998;
+				@extend .fa-facebook;
+			}
+			&.twitter {
+				background-color: #00aced;
+				@extend .fa-twitter;
+			}
+			&.googleplus {
+				background-color: #db4e43;
+				@extend .fa-google-plus;
+			}
+			&.pinterest {
+				background-color: #cb2027;
+				@extend .fa-pinterest-p;				
+			}
+		}
+	}
+}

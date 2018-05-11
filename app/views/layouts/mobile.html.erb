@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Intervac Home Exchange</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <%= stylesheet_link_tag "mobile", :media => "all" %>
+  <%= javascript_include_tag "mobile" %>
+  
+</head>
+<body <%= yield(:body_id) ? "id=\"#{yield(:body_id)}\"".html_safe : 'id="page"' -%>>
+<section id="page">
+  <header class="header-screen as-table">
+    <div class="cell-25 align-left">
+        <%= yield(:back_button) %>
+    </div>
+    <div class="cell-50">
+      <h1 class="header-screen-title"><%= @screen_title %></h1>
+    </div>
+    <div class="cell-25 align-right">
+      <% if user_signed_in? %>
+        <%= link_to(t('button.log_out'), mobile_logout_path, class: 'button mr10') %>
+      <% else %>
+        <%= link_to('log in', mobile_login_path, class: 'button mr10') %>
+      <% end %>
+    </div>
+  </header>
+  <div id="content" role="content">
+    <%= yield %>
+  </div>
+  <footer>
+
+  </footer>
+</section>
+<script type="text/javascript">
+$('html').on('change', '#destination-country', function(event) {
+    $('#search-form').submit();
+});
+show_spinner();
+</script>
+</body>
+</html>

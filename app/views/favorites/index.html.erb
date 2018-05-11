@@ -1,0 +1,119 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'favorites/favorites_sidebar_menu') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('favorites.header.favorites') %></h1>
+
+        <% if @favorite_listings.try(:empty?) %>
+          <% if params[:listing_number].blank? %>
+            <div class="alert alert-info">
+              <strong><%= t('dashboard.phrases.hello_there') %></strong> <%= t('dashboards.alert.message.you_have_no_favorites') %>
+            </div>
+
+            <%= link_to(t('dashboard.phrases.get_started'), searches_index_path, class: 'btn btn-primary') %>
+
+          <% else %>
+            <div class="alert alert-info">
+              <%= t('dashboards.alert.message.no_favorites_found_with_this_criteria') %>
+            </div>
+          <% end %>
+
+          <div class="clear-both"></div>
+
+        <%- else -%>
+          <div class="mb20 pb20 bb-gray">
+            <div class='remove-favorites-btn-holder'>
+              <button class="btn btn-danger remove-favorites"><%= content_tag('i','', class: 'icon-white icon-trash') %><%= t('favorites.button.delete_selected') %></button>
+            </div>
+            <%= render(partial: 'favorites_filters') %>
+          </div>
+          <div class='card-holder'>
+            <%= render(partial: 'favorites_card', collection: @favorite_listings, as: :listing, locals: {notes: @favorite_notes}) %>
+          </div>
+          <div class="clear-both"></div>
+
+          <button class="btn btn-danger remove-favorites"><%= content_tag('i','', class: 'icon-white icon-trash') %><%= t('favorites.button.delete_selected') %></button>
+        <% end -%>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+mark_selected_favorites();
+
+$('.remove-favorites').on('click', function(event) {
+  event.preventDefault();
+  var favorites = $('.favorite-card-select:checked');
+
+  if(favorites.length <= 0) {
+    alert('<%= t('favorites.no_selected') %>');
+    return;
+  }
+
+  if (window.confirm("<%= t('favorites.delete.multiple') %>")) {
+    $.post("<%= remove_favorites_path(format: :js) %>", favorites.serializeArray(), function( data ) {});
+  }
+});
+
+$('.message-selector-btn').on('click', function(event) {
+  event.preventDefault();
+  var listing_id = $(this).data('listing-id');
+  $('#contact-messages-'+listing_id).slideDown('fast');
+});
+
+$('.close-contact-message-btn').click(function(event) {
+  event.preventDefault();
+  var listing_id = $(this).data('listing-id');
+  $('#contact-messages-'+listing_id).slideUp('fast');
+});
+
+
+$('#active_members').on('click', function(e){
+  if (this.checked) {
+    $('.card-holder .favorite-card-row[data-am="false"]').addClass('hide-am');
+  } else {
+    $('.card-holder .favorite-card-row[data-am="false"]').removeClass('hide-am');
+  }
+});
+
+$('#available_exchange').on('click', function(e){
+  if (this.checked) {
+    $('.card-holder .favorite-card-row[data-oe="false"]').addClass('hide-oe');
+  } else {
+    $('.card-holder .favorite-card-row[data-oe="false"]').removeClass('hide-oe');
+  }
+});
+
+$('#order').on('change', function(e){
+  var field = $(this).val();
+  $('.card-holder .favorite-card-row').sort(function(a, b) {
+    if (field === 'Country') {
+
+      if (a.dataset['order' + field] < b.dataset['order' + field]) {
+        return -1;
+      }
+      if (a.dataset['order' + field] > b.dataset['order' + field]) {
+        return 1;
+      }
+      return 0;
+
+
+    } else {
+
+      if (a.dataset['order' + field] < b.dataset['order' + field]) {
+        return 1;
+      }
+      if (a.dataset['order' + field] > b.dataset['order' + field]) {
+        return -1;
+      }
+      return 0;
+
+    }
+  }).appendTo('.card-holder');
+});
+
+</script>

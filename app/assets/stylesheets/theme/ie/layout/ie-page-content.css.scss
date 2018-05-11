@@ -1,0 +1,20 @@
+.page-content {
+    @include span-columns(8);
+    margin-right: 0;
+}
+
+.page-content-header {
+    text-align: left;
+    margin: 1.4em 0 1em 0;
+}
+
+.page-content-header-label {
+    padding-left: 0;
+    @include rem(font-size, 2.125rem);
+}
+
+.page-content-quote {
+    border-left-width: 6px;
+    padding: 0.4em 1.4em;
+    margin: 0 3em 2em 3em;
+}

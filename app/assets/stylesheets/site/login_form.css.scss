@@ -1,0 +1,59 @@
+@import "mixins";
+
+div.login-form {
+	background-color: $white;
+	-webkit-box-shadow: 1px 1px 4px #999;
+	-moz-box-shadow: 1px 1px 4px #999;
+	-o-box-shadow: 1px 1px 4px #999;
+	-ms-box-shadow: 1px 1px 4px #999;
+	box-shadow: 1px 1px 4px #999;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
+	h1.login-form {
+		margin: 0 0 18px 0;
+		font-size: 24px;
+		font-weight: normal;
+		color: $orange;
+	}
+	
+	form.login-form {
+		padding-bottom: 0;
+		fieldset.form-actions {
+			padding-bottom: 0;
+		}
+	}
+	
+	input.login {
+		float: left;
+	}
+	
+	input.input-field {
+		width: 96%;
+	}
+	
+	ul {
+		display: inline;
+		margin: 0 0 0 20px;
+		padding: 4px 0 0 0;
+		float: left;
+		li {
+			margin: 0 0 12px 0;
+			padding: 0;
+			list-style: none;
+		}
+	}
+	
+	div.inner {
+		padding: 30px;
+		&.renewal {
+			padding: 72px;
+		}
+	}
+	
+	span#fb {
+		display: block;
+		font-size: 13px;
+		margin-bottom: 8px;
+	}
+}

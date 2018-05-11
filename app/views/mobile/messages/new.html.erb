@@ -1,0 +1,37 @@
+<% content_for(:back_button) do %>
+  <%= link_to(t('global.back'), mobile_listing_path(@member_listing), class: 'button ml10', :'data-spinner' => 'spinner') %>
+<% end %>
+  
+    <h1 class="page-header"><%= t('conversations.new_message_to') %> <br /> <%= @member_account.contact.name -%> (<%= @member_account.account_number -%>)</h1>
+
+    <%= form_for(@conversation, url: mobile_messages_path, html: {id: 'new-message-form', :'data-ajax' => 'false'}) do |f| %>
+    <% if @conversation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@conversation.errors.count, "error") %> prohibited this conversation from being saved:</h2>
+      <ul>
+        <% @conversation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+    <% end %>
+
+    <fieldset>
+      <%= f.label(:subject, t('global.subject'), for: 'subject') %>
+      <%= f.text_field(:subject, size: 70, id: 'subject') %>
+    </fieldset>
+
+    <fieldset>
+      <%= fields_for(:message) do |m| %>
+      <%= f.label(:body, t('global.message'), for: 'message') %>
+      <%= m.text_area(:body, cols: 72, rows: 8, id: 'message') -%>
+      <% end -%>
+    </fieldset>
+
+    <fieldset>
+      <%= f.button(t('conversation.send_message'), class: 'button button-green') %>
+      <%= link_to(t('global.cancel'), mobile_listing_path(@member_listing), :'data-spinner' => 'spinner') %>
+      <%= hidden_field_tag('member_account_id', @member_account.id) %>
+      <%= hidden_field_tag('member_listing_id', @member_listing.id) %>
+    </fieldset>
+  <% end %>

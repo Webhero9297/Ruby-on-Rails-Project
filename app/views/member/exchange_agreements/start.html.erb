@@ -1,0 +1,26 @@
+<% body_id 'exchanges' %>
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('exchange_agreement.header.start_new_exchange_agreement') %></h1>
+  </div>
+</div>
+  
+<div class="row">
+  <div class="span4">
+    <%= render(partial: 'listing_card', collection: @member_listings, as: :listing ) %>
+  </div>
+
+  <div class="span4 center">
+    <p><%= t('exchange_agreements.create_and_exchange_between_listings') %></p>
+    <%= form_tag(member_exchange_agreements_url, method: :post, id: 'agreement-member', class: 'form-horizontal') do %>
+    <%= hidden_field_tag(:member_listing_id, @member_listings.first.id) %>
+    <%= hidden_field_tag(:partner_listing_id, @partner_listing.id) %>
+    <%= button_tag("Create Exchange Agreement", class: 'btn btn-primary btn-large') %>
+    <% end %>
+    <p><%= link_to(t('Cancel'), member_exchange_agreements_url) %></p>
+  </div>
+
+  <div class="span4">
+    <%= render(partial: 'listing_card', object: @partner_listing, as: :listing ) %>
+  </div>
+</div>

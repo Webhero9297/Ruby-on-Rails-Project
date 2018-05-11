@@ -1,0 +1,75 @@
+<%= render(partial: 'accounts/accounts/menu', locals:{account: @account}) %>
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'accounts/profiles/side_menu', locals:{account: @account}) %>
+  </div>
+  <div class="span9">
+    <h1 class="page-header"><%= t('accounts.header.family_pets') %></h1>
+    
+    <%= form_for(@pet, url: account_profiles_pets_url(@account), :html => {class: 'well form-horizontal'}) do |f| %>
+      <% if @pet.errors.any? %>
+        <section id="error-explanation" class="alert alert-danger">
+          <h1 class="alert-heading"><%= pluralize(@pet.errors.count, "error") %> <%= t('accounts.profile.error.pets_from_being_saved') %>:</h1>
+          <ul class="error-explanation">
+            <% @pet.errors.each_with_index do |msg, i| %>
+            <li><%= msg[1] %></li>
+            <% end %>
+          </ul>
+        </section>
+      <% end %>
+      <fieldset>
+        <%= f.text_field(:kind, placeholder: 'Type of pet', class: 'input-xlarge') %>
+        <%= f.button(t('accounts.add_pet'), class: 'btn btn-primary') %>
+      </fieldset>
+    <% end %>
+    
+    
+    <%= form_for(@profile, url: save_account_profiles_pets_url(@account), :html => {id: 'family-form'}) do |f| %>
+    <% if @profile.errors.any? %>
+    <div class="row">
+      <div class="span9">
+        <section id="error-explanation" class="alert alert-danger">
+          <h1 class="alert-heading"><%= pluralize(@profile.errors.count, "error") %> <%= t('accounts.profile.error.pets_from_being_saved') %>:</h1>
+          <ul class="error-explanation">
+            <% @profile.errors.each_with_index do |msg, i| %>
+            <li><%= msg[1] %></li>
+            <% end %>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <% end %>
+    
+    <div class="row">
+      <div class="span9">
+        <h2 class="section-header"><%= t('Your pets') %></h2>
+        <fieldset>
+          <ul id="pets" class="profile">
+            <% if @profile.pets.count() == 0 then %>
+              <%= render(partial: 'accounts/profiles/pets/placeholder') %>
+            <% else %>
+              <% @profile.pets.each do |pet| %>
+              <% if not pet.kind.empty? %>
+                <li id="pet-<%= pet.id %>">
+                  <%= hidden_field_tag("profile[pets][#{pet.id}][id]", pet.id) %>
+                  <%= text_field_tag("profile[pets][#{pet.id}][kind]", pet['kind'], placeholder: 'Type of pet', maxlength: 32, id: "profile-pet#{pet.id}", class: 'input-large') %>
+                  <%= link_to(content_tag('i','', class: 'icon-trash icon-white'), account_profiles_pet_url(@account, pet.id, format: :js), method: :delete, remote: true, confirm: 'Are you sure about removing this pet?', class: 'btn btn-danger') %>
+                </li>
+                <% end %>
+              <% end %>
+            <% end %>
+          </ul>
+        </fieldset>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span9">
+        <fieldset class="form-actions">
+          <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+        </fieldset>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>

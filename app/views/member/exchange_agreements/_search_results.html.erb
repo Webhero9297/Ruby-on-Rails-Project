@@ -1,0 +1,51 @@
+<% if @results %>
+    <% if @results.empty? %>
+        <div class="alert alert-warning"><%= t('dashboards.notification.no_members_could_be_found', {:MEMBER_NAME => @member_name}) %></div>
+    <%- else -%>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th><%= t('listings.label.listing_number') %></th>
+                    <th colspan="2"><%= t('global.location') %></th>
+                </tr>
+            </thead>
+            <tbody>
+                <% @results.each do |listing| %>
+                    <tr>
+                        <td><%= link_to(listing.listing_number, listing_path(listing)) %></td>
+                        <td>
+                            <%= listing.postal_town %>, <%= t(listing.country) %>
+                        </td>
+                        <td>
+                            <%= form_tag(member_exchange_agreements_url, method: :post, class: "form-favorites-inline#{ if current_user.account.listings.searchable.count > 1 then ' multiple' end}") do %>
+                                <%= hidden_field_tag(:member_listing_id, current_user.account.listings.searchable.first.id) %>
+                                <%= hidden_field_tag(:partner_listing_id, listing.id, id: nil) %>
+                                <% if listing.account_id != current_user.account.id %>
+                                        <% if !listing.is_expired %>
+                                            <% if !listing.account.is_trial_subscription && !current_user.account.is_trial_subscription %>
+                                              <%= button_tag(t("button.start_new_agreement"), class: "btn-link start-agreement") %>
+                                            <% else %>
+                                              <span class="label label-warning ml10">
+                                                <%= t('exchange_agreement.warning_target_trial') if listing.account.is_trial_subscription && !current_user.account.is_trial_subscription %>
+                                                <%= t('exchange_agreement.warning_user_trial') if current_user.account.is_trial_subscription %>
+                                              </span>
+                                            <% end %>
+                                        <%- else %>
+                                            <span class="label label-warning ml10"><%= t('global.expired') %></span>
+                                        <%- end %>
+                                <%- end %>
+                            <%- end %>
+                        </td>
+                    </tr>
+                <%- end -%>
+            </tbody>
+        </table>
+    <% end %>
+
+    <% if @results.count > 20 %>
+        <div class="alert alert-info">
+            We found <strong><%= @results.count - 20 %></strong> additional listings matching your criteria. Please
+            refine your search in order to retrieve a more accurate result.
+        </div>
+    <% end %>
+<% end %>

@@ -1,0 +1,28 @@
+<section>
+	<h2 class="plate-section-header">Member statistics</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Country</th>
+				<th class="center">Active</th>
+				<th class="center">Trial</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @countries.each do |country| %>
+			<tr>
+				<td>
+					<%= t(country.msgid) %>
+				</td>
+				<td class="center">
+					<%= country.active_members %>
+				</td>
+				<td class="center">
+					<%= country.trial_members %>
+				</td>
+				
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+</section>

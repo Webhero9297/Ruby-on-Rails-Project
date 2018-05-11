@@ -1,0 +1,3 @@
+$('div#contact-container').html("<%= escape_javascript(render(partial: '/accounts/contacts/form')) %>");
+$('.cancel-edit-contact').replaceWith("<%= escape_javascript(link_to(t('global.cancel'), overview_account_profiles_url(@account), class: 'cancel-contact')) %>");
+setup_birthdate();

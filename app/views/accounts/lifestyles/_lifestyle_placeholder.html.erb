@@ -1,0 +1,22 @@
+<div id="lifestyle-container">
+  <p>
+    <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_listing_lifestyles_path(listing), remote: true, id: 'btn-profile-lifestyle', class: 'btn btn-small') %>
+  </p>
+
+  <% if profile.lifestyle.text.blank? then %>
+    <div class="alert">
+      <p class="alert-message">
+        <%= t('accounts.profile.why_not_write_about_your_lifestyle') %>
+      </p>
+    </div>
+  <% else %>
+    <article>
+      <%= markdown(profile.lifestyle.text) %>
+      <% if profile.lifestyle.visible %>
+        <span class="badge badge-success"><%= t('listing.visible_to_guest_users') %></span>
+      <% else %>
+        <span class="badge badge-warning"><%= t('listing.hidden_from_guest_users') %></span>
+      <% end %>
+    </article>
+  <% end %>
+</div>

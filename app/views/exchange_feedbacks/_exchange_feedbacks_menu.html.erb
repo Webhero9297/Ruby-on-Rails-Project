@@ -1,0 +1,8 @@
+<nav id="section-nav" role="secondary">
+    <ul class="nav nav-tabs nav-stacked">
+        <% highlight_current_link(:class => 'active') do |n| -%>
+            <%= n.li_link_to('Positive feedback', positive_exchange_feedbacks_path) %>
+            <%= n.li_link_to('Negative feedback', negative_exchange_feedbacks_path) %>
+        <% end -%>
+    </ul>
+</nav>

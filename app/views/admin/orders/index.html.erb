@@ -1,0 +1,50 @@
+<%= render(partial: 'admin/statistics/menu') %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Intervac membership orders</h1>
+        <table class="table table-bordered table-condensed">
+          <thead>
+            <tr>
+              <th><%= t('admin.orders_this_month') %></th>
+              <th><%= t('admin.orders_this_year') %></th>
+              <th><%= t('admin.total_nr_of_orders') %></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><%= Order.number_of_orders('month') %></td>
+              <td><%= Order.number_of_orders('year') %></td>
+              <td><%= Order.number_of_orders %></td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <p><%= link_to(content_tag('i','', class: 'icon-download-alt') + ' ' + t('button.download_orders') + "(xml)", download_admin_orders_url(format: 'xml'), class: 'btn') %></p>
+        <table class="table table-bordered table-condensed">
+          <thead>
+            <tr>
+              <th><%= t('global.order_number') %></th>
+              <th><%= t('global.state') %></th>
+              <th><%= t('global.amount') %></th>
+              <th><%= t('global.kind') %></th>
+              <th><%= t('admin.label.logged_at') %></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @orders.each do |order| %>
+            <tr>
+              <td><%= link_to(order.order_number, admin_order_url(order.id)) %></td>
+              <td><%= order.state %></td>
+              <td><%= order.total_amount %> <%= order.currency %></td>
+              <td><%= order.kind %></td>
+              <td><%= order.created_at %></td>
+            </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

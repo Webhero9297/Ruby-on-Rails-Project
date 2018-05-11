@@ -1,0 +1,13 @@
+<% body_id 'signup' %>
+<% section_image 'section-image-3' %>
+
+<div class="row">
+    <div class="wide">
+        <h1 class="top-header">
+            <span class="top-header-label"><%= t('pages.signup.header.thank_you') %></span>
+        </h1>
+        <%= markdown(t('pages.signedup.alert.message.get_started_by_confirming_your_email_address')) %>
+
+        <%= link_to( t('button.resend_confirmation_email'), new_user_confirmation_path, class: 'btn blue') %>
+    </div>
+</div>

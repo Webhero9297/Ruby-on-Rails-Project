@@ -1,0 +1,17 @@
+<%= t('billing.new_offline_payment') %>
+----------------------------------------------------------------------
+
+<%= t('global.membership') %>: <%= @price_plan.name %>
+<%= t('global.duration') %>: <%= @price_plan.duration%> <%= @price_plan.periodicity %>
+<%= t('global.price') %>: <%= "%.2f" % @order.total_amount %> <%= @order.currency %>
+<%= t('global.order_number') %>: <%= @order.order_number %>
+
+
+<%= t('global.buyer') %>
+----------------------------------------------------------------------
+
+<%= t('listings.label.listing_number') %>:<%= @user.account.listings.map(&:listing_number).join(', ') if @user.account.listings.any? %>
+<%= t('accounts.account_number') %>: <%= @user.account.account_number %>
+<%= t('global.name') %>: <%= @user.name %>
+<%= t('sitewide.country') %>: <%= @user.account.country_short %>
+<%= t('global.email') %>: <%= @user.account.contact.email %>

@@ -1,0 +1,21 @@
+<%= render(partial: 'admin/statistics/menu') %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">System info</h1>
+        <ul>
+          <li>Ruby version: <strong><%= RUBY_VERSION %></strong></li>
+          <li>Ruby patch level: <strong><%= RUBY_PATCHLEVEL %></strong></li>
+          <li>Ruby engine: <strong><%= RUBY_ENGINE %></strong></li>
+          <li>Ruby platform: <strong><%= RUBY_PLATFORM %></strong></li>
+          <li>Gem home: <strong><%= ENV['GEM_HOME'] %></strong></li>
+          <li>Rails version: <strong><%= Rails.version %></strong></li>
+          <li>Rails env: <strong><%= ENV['RAILS_ENV'] %></strong></li>
+          <li>Rack env: <strong><%= ENV['RACK_ENV'] %></strong></li>
+          <li>RVM ruby string: <strong><%= ENV['rvm_ruby_string'] %></strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

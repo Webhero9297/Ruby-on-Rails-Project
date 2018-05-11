@@ -1,0 +1,151 @@
+.result-card {
+    background: $white;
+    float: left;
+    margin: 10px 0 0 10px;
+    padding: 5px 10px;
+    width: 280px;
+    @include border-radius(3px);
+}
+
+.result-card-location {
+    height: 50px;
+}
+
+.result-card-city {
+    color: $black;
+    @include rem('font-size', 0.875rem);
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.result-card-country {
+    color: $dark-grey;
+    @include rem('font-size', 0.875rem);
+    font-weight: 600;
+}
+
+.result-card-photo {
+    width: 260px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.result-card-image {
+    width: 260px;
+    height: auto;
+}
+
+.result-card-headline {
+    color: #ffffff;
+    background: #000000;
+    opacity: 0.8;
+    position: absolute;
+    width: 262px;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    padding: 2px 4px;
+    display: none;
+}
+
+.many-exchanges {
+  display: none;
+}
+
+.result-card-exchange-dates {
+    font-weight: bold;
+    height: 20px;
+    margin: 4px 0;
+    overflow: hidden;
+    text-align: center;
+    @include rem('font-size', 0.75rem);
+
+    > span {
+        white-space: nowrap;
+    }
+    &:hover {
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      .many-exchanges {
+        display: block;
+      }
+      .chosen-date {
+        display: none;
+      }
+    }
+}
+
+.result-card-capacity {
+    font-size: 15px;
+    margin: 8px 0;
+    .sleep {
+        background: url('/assets/public-page/bed-adult-children-small.png') no-repeat 0 0;
+        padding: 3px 0 4px 40px;
+        width: 30px;
+        margin-left: 15px;
+    }
+
+    .adults {
+        background: url('/assets/public-page/bed-adult-children-small.png') no-repeat -90px 0;
+        padding: 3px 0 4px 40px;
+        width: 30px;
+        margin-left: 40px;
+    }
+
+    .children {
+        background: url('/assets/public-page/bed-adult-children-small.png') no-repeat -160px 0;
+        padding: 3px 0 4px 40px;
+        width: 30px;
+        margin-left: 40px;
+    }
+}
+
+.result-card-data-container {
+    width: 270px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto 12px auto;
+
+    .holder {
+        width: 540px;
+        height: 85px;
+        @include transition(all 0.3s ease-in-out);
+    }
+
+    .slide {
+        float: left;
+        padding: 0;
+        margin: 0;
+        width: 270px;
+        height: 85px;
+    }
+}
+
+.result-card-properties {
+    @include rem('font-size', 0.875rem);
+    td:nth-child(2n) {
+        font-weight: 600;
+    }
+}
+
+.result-card-properties .wish-list-row {
+    font-weight: 600;
+}
+
+.result-card-flip-link {
+    float: left;
+    @include rem('font-size', 0.875rem);
+}
+
+.result-card-view-link {
+    float: right;
+    @include rem('font-size', 0.875rem);
+    &:visited {
+        color: $orange;
+    }
+}

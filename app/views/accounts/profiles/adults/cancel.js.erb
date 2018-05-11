@@ -1,0 +1,2 @@
+$('#btn-new-adult').show();
+$('#adults-table').replaceWith('<%= escape_javascript(render(partial: "/accounts/profiles/adults/adults_table", locals: {account: @account, profile: @profile})) %>');

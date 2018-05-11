@@ -1,0 +1,27 @@
+<section id="exchange-type-duration">
+
+<%= form_for(@listing, url: update_duration_listing_exchange_type_url(@listing), remote: true, html: {id: 'exchange-types-form'}) do |f| %>
+  <% if @listing.errors.any? %>
+  <section id="error_explanation">
+    <h1 class="section-header"><%= pluralize(@listing.errors.count, "error") %> stopped the exchange types from being saved:</h1>
+    <ul>
+      <% @listing.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </section>
+  <% end %>
+
+  <fieldset>
+    <ul class="unstyled">
+      <%= f.label(t('global.exchange_duration'), for: 'listing-duration', class: "half-row horizontal") %>
+      <%= f.text_field(:max_duration, class: 'input-block-level half-row horizontal', id: 'listing-duration') %>
+    </ul>
+  </fieldset>
+  
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_duration_listing_exchange_type_url(@listing), remote: true) %>
+  </fieldset>
+<% end %>
+</section>

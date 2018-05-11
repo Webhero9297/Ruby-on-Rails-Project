@@ -1,0 +1,240 @@
+@import "mixins";
+
+.favorite-card-row {
+    border-bottom: 2px solid #e2e2e2;
+    clear: both;
+    float: left;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+
+    &.favorite-card-list {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.favorite-card-actions {
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    width: 10%
+}
+
+.favorite-card-select-label {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    &:hover {
+        background-color: #e1f5c3;
+    }
+
+}
+
+.favorite-card {
+    float: left;
+    width: 88%;
+}
+
+.favorite-card-link {
+    &:visited {
+        color: $purple;
+    }
+    &:hover {
+        color: $green;
+        text-decoration: none;
+    }
+}
+
+.favorite-card-header {
+    margin-bottom: 10px;
+}
+
+.favorite-card-headline {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+}
+
+.favorite-card-listing-headline {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.favorite-sub-headline-list {
+    float: left;
+    margin: 0 0 20px 0;
+    padding: 0;
+    width: 100%;
+
+    > li {
+        border-right: 1px solid #ccc;
+        display: inline;
+        float: left;
+        list-style: none;
+        margin: 0 10px 0 0;
+        padding: 0 10px 0 0;
+        &:last-child {
+            border: 0;
+        }
+    }
+}
+
+.favorite-card-info {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.favorite-card-photo-wrapper {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 26%;
+
+    .contacted-user {
+      color: green;
+    }
+
+    .favorite-card-exchange-dates {
+      font-weight: bold;
+      margin: 4px 0;
+      text-align: center;
+    }
+}
+
+
+.favorite-card-photo-block {
+    background-color: $white;
+    border: 2px solid #dfd1c4;
+    display: block;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.favorite-card-photo-link {
+    @extend .favorite-card-photo-block;
+    &:visited {
+        border-color: $orange;
+    }
+
+    &:hover {
+        border-color: $green;
+    }
+}
+
+.favorite-card-photo {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.favorite-card-info-wrapper {
+    float: left;
+    width: 70%;
+}
+
+.favorite-card-listing-description {
+    clear: both;
+}
+
+.favorite-card-note {
+    clear: left;
+    margin: 0;
+    padding: 2px 0 0 0;
+    width: 100%;
+}
+
+.favorite-card-textarea {
+    display: block;
+    height: 80px;
+    width: 98%;
+}
+
+.favorite-card-selected,
+.favorite-card-selected .favorite-card-select-label {
+    background-color: #e1f5c3;
+}
+
+.favorite-card-list .favorite-card-photo-link,
+.favorite-card-list .favorite-card-photo-wrapper{
+    margin-bottom: 0;
+}
+
+.favorite-card-date {
+    border-bottom: 1px solid #ccc;
+    color: #454545;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+
+    span {
+        display: block;
+    }
+}
+
+.favorite-card-date-day {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.favorite-add-wrapper {
+    padding: 20px 0;
+}
+
+.remove-favorites-btn-holder {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.remove-favorites {
+  i {
+     margin-right: 5px;
+  }
+}
+.favorite-filters {
+  display: inline-block;
+  width: 74%;
+
+  .row {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    .filter {
+      display: inline-block;
+      width: calc(49.5% - 20px);
+      margin: 0 20px 0 0;
+      vertical-align: top;
+    }
+    noscript {
+      margin-top: 12px;
+      max-width: 100%;
+      display: block;
+      color: red;
+      word-wrap: break-word;
+      white-space: normal;
+      max-width: 100%;
+    }
+  }
+}
+.inline-checkbox {
+  input,label{
+    display: inline-block;
+    margin-right: 5px;
+    width: auto;
+  }
+  label {
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+  }
+}
+.hide-am,.hide-oe {
+  display: none;
+}

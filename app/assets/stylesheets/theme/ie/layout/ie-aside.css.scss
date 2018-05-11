@@ -1,0 +1,8 @@
+.aside {
+    @include span-columns(4);
+}
+
+.aside-section {
+    display: block;
+    margin-bottom: 3em;
+}

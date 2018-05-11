@@ -1,0 +1,28 @@
+<div class="photo-row-link-<%=category %> photo-row-link-large-top">
+  <% if ['home', 'surrounding'].include?(category) %>
+      <%= link_to(t('button.view_small_images'), get_listing_images_path(listing, 'small', category), remote: true, class: 'btn btn-success') %>
+  <% end %>
+
+  <% if ['lifestyle', 'family'].include?(category) %>
+      <%= link_to(t('button.view_small_images'), get_account_profiles_images_path(profile.account.id, 'small', category), remote: true, class: 'btn btn-success') %>
+  <% end %>
+</div>
+
+<div class="photo-row-box-large" id="photo-row-<%=category %>">
+  <% images.each do |image| %>
+    <div class="photo-row-large">
+      <%= image_tag(image.image.size_458, wdith: 548, alt: image.caption, class: 'photo-row-img-large') %>
+      <p class="photo-row-large-caption"><%= image.caption %></p>
+    </div>
+  <% end %>
+</div>
+
+<div class="photo-row-link-<%=category %> photo-row-link-large">
+  <% if ['home', 'surrounding'].include?(category) %>
+    <%= link_to(t('button.view_small_images'), get_listing_images_path(listing, 'small', category), remote: true, class: 'btn btn-success') %>
+  <% end %>
+
+  <% if ['lifestyle', 'family'].include?(category) %>
+    <%= link_to(t('button.view_small_images'), get_account_profiles_images_path(profile.account.id, 'small', category), remote: true, class: 'btn btn-success') %>
+  <% end %>
+</div>

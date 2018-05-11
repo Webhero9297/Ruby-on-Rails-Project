@@ -1,0 +1,49 @@
+<div class="row-fluid">
+  <div class="span6">
+    <strong><%= t('dashboards.header.top_visitors', {:NUMBER_OF_VISITORS => 5}) %></strong>
+    <table class="table table-striped table-condensed visitor-stats">
+      <thead>
+        <tr>
+          <th class="span1">#</th>
+          <th class="span9"><%= t('global.visitor') %> <em>(<%= t('dashboards.account_username') %>)</em></th>
+          <th class="cell-center span2"><%= t('global.visits') %></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% top_visitors.each_with_index do |stat, index| %>
+        <tr>
+          <td><%= index+1 %></td>
+          <% if stat['listing_number'].nil? %>
+            <td><%= stat['user_name']%> <em>(Has no listing)</em></td>
+          <% else %>
+            <td><%= link_to(stat['listing_number'], listing_path(stat['listing_id'])) %> (<%= stat['user_name']%>)</td>
+          <% end %>
+          <td class="cell-center"><%= stat['count'].to_i %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+ 
+  <div class="span6">
+    <strong><%= t('dashboards.header.top_countries', {:NUMBER_OF_COUNTRIES => 5}) %></strong>
+    <table class="table table-striped  table-condensed visitor-stats">
+      <thead>
+        <tr>
+          <th class="span1">#</th>
+          <th class="span9"><%= t('sitewide.country') %></th>
+          <th class="cell-center span2"><%= t('global.visits') %></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% top_countries.each_with_index do |stat, index| %>
+        <tr>
+          <td><%= index+1 %></td>
+          <td><%= t(stat['country_msgid']) %></td>
+          <td class="cell-center"><%= stat['count'].to_i %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

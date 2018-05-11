@@ -1,0 +1,12 @@
+<h1 class="section-nav-header"><%= t('global.messages') %></h1>
+<nav class="section-nav" role="secondary">
+    <ul class="nav nav-tabs nav-stacked nav-sidebar">
+        <% highlight_current_link(:class => 'active') do |n| -%>
+            <%= n.li_link_to(content_tag('i', '', class: 'icon-chevron-right') + unread_messages_tag(@unread_messages) + t('menu.inbox'), conversations_path) %>
+            <%= n.li_link_to(content_tag('i', '', class: 'icon-chevron-right') + unread_messages_tag(@agent_unread_messages) + t('menu.agent_messages'), member_agent_conversations_index_conversations_path) %>
+            <%= n.li_link_to(content_tag('i', '', class: 'icon-chevron-right') + t('menu.archive'), archive_index_conversations_path) %>
+            <%= n.li_link_to(content_tag('i', '', class: 'icon-chevron-right') + t('menu.templates'), message_templates_path) %>
+        <% end %>
+    </ul>
+</nav>
+

@@ -1,0 +1,63 @@
+<div class="row mb60">
+  <div class="span12">
+    <article>
+
+      <h1 class="page-header">Confirm your order</h1>
+
+      <div class="well">
+      <dl class="dl-horizontal">
+        <dt><%= t('global.membership') %>:</dt>
+          <dd><%= @price_plan.name %></dd>
+        <dt><%= t('global.duration') %>:</dt>
+          <dd><%= @price_plan.duration%> <%= @price_plan.periodicity %></dd>
+        <dt><%= t('global.price') %>:</dt>
+          <dd><%= format_currency(@order.total_amount) %> <%= @order.currency %></dd>
+        <dt><%= t('global.order_number') %>:</dt>
+          <dd><%= @order.order_number %></dd>
+      </dl>
+
+      <dl class="dl-horizontal">
+          <dt><%= t('global.name') %>:</dt>
+            <dd><%= text_if_missing(@details['first_name'] ) %> <%= text_if_missing(@details['last_name'] ) %></dd>
+          <dt><%= t('global.street') %>:</dt>
+            <dd><%= text_if_missing(@details['street'] ) %></dd>
+          <dt><%= t('global.postal_code') %>:</dt>
+            <dd><%= text_if_missing(@details['postal'] ) %></dd>
+          <dt><%= t('global.city') %>:</dt>
+            <dd><%= text_if_missing(@details['city']) %></dd>
+          <dt><%= t('sitewide.country') %>:</dt>
+            <dd><%= text_if_missing(@account.country_short) %></dd>
+          <dt><%= t('global.email') %>:</dt>
+            <dd><%= text_if_missing(@account.contact.email ) %></dd>
+        </dl>
+        </div>
+
+        <form action="<%= Rails.application.config.french_payment_url %>" method="POST">
+            <%= hidden_field_tag('LastName', @details['last_name']) %>
+            <%= hidden_field_tag('FirstName', @details['first_name']) %>
+            <%= hidden_field_tag('Address', @details['street']) %>
+            <%= hidden_field_tag('PostalCode', @details['postal']) %>
+            <%= hidden_field_tag('City', @details['city']) %>
+            <%= hidden_field_tag('PhoneNumber', @details['phone']) %>
+            <%= hidden_field_tag('Email', @account.contact.email) %>
+            <%= hidden_field_tag('ListingNumber', @account.listings.empty? ? 'NO LISTING' : @account.listings.first.listing_number) %>
+            <%= hidden_field_tag('AccountNumber', @account.account_number) %>
+            <%= hidden_field_tag('PricePlanName', @price_plan.name) %>
+            <%= hidden_field_tag('PricePlanID', @order.price_plan_id) %>
+            <%= hidden_field_tag('PricePlanRefID', @price_plan.ref_id.empty? ? 'NOT AVAILABLE' : @price_plan.ref_id) %>
+            <%= hidden_field_tag('TotalAmount', @order.total_amount) %>
+            <%= hidden_field_tag('OrderNumber', @order.order_number) %>
+            <%= hidden_field_tag('OrderID', @order.id) %>
+            <%= hidden_field_tag('IPAddress', request.remote_ip) %>
+            <%= hidden_field_tag('ActivationUrl', french_payment_notification_url) %>
+            <%= hidden_field_tag('Checksum', Digest::MD5.hexdigest("#{@account.account_number}#{request.remote_ip}#{@order.total_amount}")) %>
+
+            <%= button_tag('Make payment', type: 'submit', name: 'payment_button', class: 'btn btn-primary') %>
+        </form>
+      <p class="alert alert-info">You will be taken to our payment providers secure payment page.</p>
+    </article>
+    <% if @order.renewal == false and @order.upgrade == false %>
+    <%= render(partial: '/payment/orders/cancel_order_button', locals: {account_id: current_user.account_id}) %>
+    <% end %>
+  </div>
+</div>

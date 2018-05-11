@@ -1,0 +1,5 @@
+<%= form_for(@country, url: save_default_locale_country_url(@country), html: {class: 'form-horizontal'}, remote: true, method: :put) do |f| -%>
+  <%= f.select(:default_locale, @country.locales.collect {|c| [ c['locale'], c['locale'] ] }, id: 'country-currency') %>
+  <%= f.button(t('button.save'), class: 'btn') %>
+  <%= link_to('Cancel', '#locale', id: 'cancel-locale') %>
+<% end -%>

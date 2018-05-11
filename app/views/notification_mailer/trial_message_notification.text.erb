@@ -1,0 +1,14 @@
+<%= t('notification.trial_subject') %>
+
+---------------------------------------------------------------------------------------
+
+<%= t('notification.trial_message', {:NAME => @user.name, :SUBSCRIPTION_LINK => external_domain_link(upgrade_subscriptions_path)}) %>
+
+<%= t('mailer.header.our_listing') %>
+<% @sender_account.listings.each do |listing| %>
+<%= listing.listing_number %> <%= external_domain_link(listing_path(listing)) %>
+<%= listing.postal_town %>, <%= t(listing.country) %>
+---------------------------------------------------------------------------------------
+<% end %>
+
+<%= render(partial: 'notification_mailer/best_regards') %>

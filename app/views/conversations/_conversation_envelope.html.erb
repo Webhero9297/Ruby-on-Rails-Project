@@ -1,0 +1,46 @@
+<section>
+    <%= form_tag(form_url, method: :get, id: 'conversation-form') do %>
+        <div class="mb20">
+            <div class="input-append">
+                <%= text_field_tag('q', params[:q], class: 'input-large', id: 'conversation-search', placeholder: t('placeholder.member_number'), autocomplete: "off") %>
+                <%= button_tag(t('button.search'), type: :submit, :data => {disable_with: t('button.searching')}, class: 'btn') %>
+                <%= link_to(t('button.reset'), form_url, class: 'btn hidden-phone') %>
+            </div>
+        </div>
+
+        <div class="btn-toolbar">
+            <div class="btn-group mr20">
+                <%= label_tag('conversations-all', class: 'btn btn-small send-form-data') do %>
+                    <%= t('global.all') %>
+                    <%= radio_button_tag('f', 'all', conversation_all_or_unread?('all', params[:f]), class: 'conversations-option conversations-filter', id: 'conversations-all') %>
+                <% end %>
+
+                <%= label_tag('conversations-unread', class: 'btn btn-small send-form-data') do %>
+                    <%= t('global.unread') %>
+                    <%= radio_button_tag('f', 'unread', conversation_all_or_unread?('unread', params[:f]), class: 'conversations-option conversations-filter', id: 'conversations-unread') %>
+                <% end %>
+            </div>
+
+            <div class="btn-group mr20">
+                <%= label_tag('conversations-last', class: 'btn btn-small send-form-data') do %>
+                    <%= t('global.latest') %>
+                    <%= radio_button_tag('d', 'last', conversation_last_or_first?('last', params[:d]), class: 'conversations-option conversations-order', id: 'conversations-last') %>
+                <% end %>
+
+                <%= label_tag('conversations-first', class: 'btn btn-small send-form-data') do %>
+                    <%= t('global.oldest') %>
+                    <%= radio_button_tag('d', 'first', conversation_last_or_first?('first', params[:d]), class: 'conversations-option conversations-order', id: 'conversations-first') %>
+                <% end %>
+            </div>
+
+            <div class="btn-group">
+                <% if is_archive %>
+                    <button type="button" class="btn btn-small" id="btn-delete-conversation"><%= t('button.delete_selected') %></button>
+                <% else %>
+                    <button type="button" class="btn btn-small" id="btn-archive-conversation"><%= t('button.archive_selected') %></button>
+                <% end %>
+            </div>
+        </div>
+    <% end %>
+</section>
+

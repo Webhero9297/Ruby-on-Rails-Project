@@ -1,0 +1,19 @@
+<div id="family-text">
+  <div class="mb10">
+    <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_listing_families_path(listing), remote: true, class: 'btn btn-small', id: 'edit-family-presentation-btn') %>
+  </div>
+  <% if profile.presentation.text.blank? then %>
+    <div class="alert">
+      <p class="alert-message"><%= t('accounts.profile.why_not_write_about_your_family') %></p>
+    </div>
+  <% else %>
+    <article>
+      <%= markdown(profile.presentation.text) %>
+      <% if profile.presentation.visible %>
+        <span class="badge badge-success"><%= t('listing.visible_to_guest_users') %></span>
+      <% else %>
+        <span class="badge badge-warning"><%= t('listing.hidden_from_guest_users') %></span>
+      <% end %>
+    </article>
+  <% end %>
+</div>

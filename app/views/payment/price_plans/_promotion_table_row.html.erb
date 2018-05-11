@@ -1,0 +1,7 @@
+<tr>
+    <td class="promotion-code-cell"><%= promotion_code.code %></td>
+    <td><%= promotion_code.limit %></td>
+    <td><%= promotion_code.usage %></td>
+    <td><%= standard_date(promotion_code.end_date) %></td>
+    <td><%= link_to(content_tag('i', '', class: 'icon-black icon-eye-open') + ' ' + t('button.view_code'), country_price_plan_promotion_code_url(country, price_plan, promotion_code)) %></td>
+</tr>

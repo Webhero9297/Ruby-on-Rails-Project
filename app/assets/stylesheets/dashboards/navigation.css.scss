@@ -1,0 +1,219 @@
+@import "mixins";
+
+body#dashboard a#dashboard-link,
+body#searches a#searches-link,
+body#messages a#messages-link,
+body#listings a#listings-link,
+body#account a#account-link,
+body#exchanges a#exchanges-link,
+body#agent-management a#agent-management-link,
+body#member-management a#member-management-link,
+body#statistics a#statistics-link,
+body#payment a#payment-link,
+body#feedbacks a#feedbacks-link,
+body#agent-profile a#profile-link,
+body#translations a#translations-link,
+body#member-management a#account-link,
+body#exchanges a#exchange-link,
+body#countries a#countries-link,
+body#guide a.active {
+	color: $orange;
+	background-color: $white;
+	border: 2px solid #CD6F21;
+	border-bottom: 0;
+	border-top: 0;
+}
+
+
+/* Agent */
+body#dashboard ul.agent a#dashboard-link,
+body#member-management ul.agent a#members-link,
+body#messages ul.agent a#messages-link,
+body#exchanges a#exchange-link,
+body#translations ul.agent a#translations-link,
+body#payment ul.agent a#payment-link,
+body#countries ul.agent a#countries-link,
+body#agent-profile ul.agent a#profile-link{
+	color: $blue;
+	background-color: $white;
+	border: 2px solid $white;
+	border-bottom: 0;
+	border-top: 0;
+}
+
+/* RETIRED */
+header.global {
+	background: #669ecb url('/assets/public-page/squares-banner.png') repeat-x top left;
+	height: 108px;
+	div.container {
+		position: relative;
+	}
+	.icon-chevron-down {
+		background-image: url('/assets/glyphicons-halflings-white.png');
+	}
+}
+
+div#user-navigation {
+	margin: 0 20px 0 0;
+	float: right;
+}
+
+.nav-sidebar li.active a {
+	background-color: #E1F5C3;
+	font-weight: bold;
+	&:hover {
+		background-color: #e1f5c3;
+	}
+}
+
+.nav-sidebar li.active a .icon-chevron-right {
+	opacity: 1;
+}
+
+nav.menu {
+	background-color: #fff;
+	border-top: 1px solid #498eda;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+nav.agent{
+    background-color: $blue;
+}
+
+ul#menu {
+	@include list-reset;
+	float: left;
+	margin-left: 10px;
+	li {
+		float: left;
+		}
+	a {
+		@include sans-serif;
+		display: block;
+		margin: 0;
+		padding: 10px 12px;
+		font-size: 14px;
+		font-weight: bold;
+		color: $orange;
+		text-decoration: none;
+		float: left;
+		&:hover {
+			color: $nav-hover;	
+		}
+	}
+	&.agent{
+        a {
+    		&:hover {
+    			color: $light-blue;
+    		}
+    	}
+    }
+
+}
+
+ul#sub-menu {
+	@include list-reset;
+	clear: left;
+}
+
+nav.section-nav {
+	clear: left;
+}
+
+nav.section-nav .icon-chevron-right {
+	float: right;
+	margin-top: 2px;
+	margin-right: -6px;
+	opacity: .25;
+}
+
+nav.section-nav a:hover {
+	background-color: $white;
+	color: $orange;
+	.icon-chevron-right {
+		opacity: 1;
+	}
+}
+
+.unread-messages-badge{
+	float: right;
+	margin-right: 15px;
+}
+
+.section-nav-header {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 12px;
+	border-top: 1px solid #ddd;
+
+	&.no-border {
+		border: 0;
+	}
+}
+
+ul.navigation {
+    margin: 0 0 20px 0;
+    padding: 0;
+	float: left;
+	li {
+		display: inline;
+		float: left;
+		margin: 0;
+		padding: 0 10px;
+		border-right: 1px solid $standard-grey;
+		list-style: none;
+	}
+	li:last-child {
+		border: 0;
+	}
+	a {
+		display: inline-block;
+	}
+}
+
+.user-menu {
+	a {
+		color: $white;
+		font-size: 15px;
+		font-weight: normal;
+	}
+}
+
+#dashboard-sidebar.affix {
+	display: block;
+	top: 60px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#dashboard-sidebar.affix {
+		width: 270px;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1199px) {
+	#dashboard-sidebar.affix {
+		width: 220px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 979px) {
+	#dashboard-sidebar.affix {
+		width: 170px;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#dashboard-sidebar.affix {
+		position: relative;
+	}
+}

@@ -1,0 +1,11 @@
+<h1 class="section-nav-header no-border"><%= t('dashboards.header.my_membership') %></h1>
+<nav class="section-nav" role="primary">
+  <ul class="nav nav-tabs nav-stacked">
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.exchange_agreements'), member_exchange_agreements_url) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.references'), references_member_exchange_agreements_path) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.contact_information'), account_contacts_path(current_user.account_id)) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.membership'), account_payments_url(current_user.account_id)) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.emails_logins'), user_path) %></li>
+    <li><%= link_to(content_tag('i','', class: 'icon-chevron-right') + t('menu.time_zone'), account_time_zone_path(current_user.account_id)) %></li>
+  </ul>
+</nav>

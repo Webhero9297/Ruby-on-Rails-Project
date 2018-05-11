@@ -1,0 +1,9 @@
+<h1 class="section-nav-header no-border"><%= t('dashboard.header.useful_links') %></h1>
+<nav class="section-nav" role="primary">
+    <ul class="nav nav-tabs nav-stacked">
+        <li><%= link_to(content_tag('i', '', class: 'icon-chevron-right') + t('button.give_feedback'), new_member_feedback_path) %></li>
+        <li><%= link_to(content_tag('i', '', class: 'icon-chevron-right') + t('menu.tips_checklists'), member_exchange_documents_path) %></li>
+        <li><%= link_to(content_tag('i', '', class: 'icon-chevron-right') + t('global.faq'), faq_url) %></li>
+        <li><%= link_to(content_tag('i', '', class: 'icon-chevron-right') + t('global.blog'), 'http://blog.intervac-homeexchange.com/') %></li>
+    </ul>
+</nav>

@@ -1,0 +1,64 @@
+<div class="row mb60">
+  <div class="span12">
+    <article>
+      <h1 class="page-header">Credit card payment</h1>
+
+      <p>In order to complete your order we need your full address details to process your payment.</p>
+
+      <%= form_for(@fr_details_payment_form, url: french_payment_confirmation_order_path(@order), method: :post) do |f| %>
+
+        <% if @fr_details_payment_form.errors.any? %>
+        <section id="error-explanation" class="alert alert-danger">
+            <h1 class="alert-heading"><%= @fr_details_payment_form.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped')%>:</h1>
+            <ul class="error-explanation">
+            <% @fr_details_payment_form.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+            </ul>
+        </section>
+        <% end %>
+        
+        <div class="well">
+          <fieldset>
+            <%= f.label(:first_name, 'First name') %>
+            <%= f.text_field(:first_name, size: '52', class: 'input-xlarge') %>
+          </fieldset>
+
+          <fieldset>
+            <%= f.label(:last_name, 'Last name') %>
+            <%= f.text_field(:last_name, size: '52', class: 'input-xlarge') %>
+          </fieldset>
+
+          <fieldset>
+            <%= f.label(:phone, 'Phone') %>
+            <%= f.text_field(:phone, size: '52', class: 'input-xlarge') %>
+          </fieldset>
+
+          <fieldset>
+            <%= f.label(:street, 'Street') %>
+            <%= f.text_field(:street, size: '52', class: 'input-xlarge') %>
+          </fieldset>
+
+          <fieldset>
+            <%= f.label(:city, 'City') %>
+            <%= f.text_field(:city, size: '52', class: 'input-xlarge') %>
+          </fieldset>
+
+          <fieldset>
+            <%= f.label(:postal, 'Postal code') %>
+            <%= f.text_field(:postal, size: '52', class: 'input-xlarge') %>
+          </fieldset>
+        </div>
+
+        <fieldset class="mb20">
+          <%= f.submit('Continue', class: 'btn btn-primary') %>
+        </fieldset>
+        
+      <% end %>
+      
+    </article>
+    <% if @order.renewal == false and @order.upgrade == false %>
+    <%= render(partial: '/payment/orders/cancel_order_button', locals: {account_id: current_user.account_id}) %>
+    <% end %>
+  </div>
+</div>

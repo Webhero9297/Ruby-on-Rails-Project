@@ -1,0 +1,38 @@
+<%= form_for(@agent_image, url: create_profile_image_agent_path(@user), html: {id: 'profile-images-form', class: 'form-inline well is-inline', role: 'form', enctype: 'multipart/form-data'}) do |f| %>
+  <% if @agent_image.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@agent_image.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+      <ul>
+      <% @agent_image.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  
+  <fieldset>
+    <%= f.file_field(:image) %>
+    <%= f.submit('Upload image', class: 'btn btn-primary') %>
+  </fieldset>
+<% end %>
+
+<% if not @agent_profile.profile_image.nil? %>
+  <div>
+    <% if not @agent_profile.profile_image.image.blank? %>
+      <%= image_tag(@agent_profile.profile_image.image, width: 250, alt: '') %>
+    <% end %>
+  </div>
+<% else %>
+  <div class="alert">
+    <p class="alert-message">You have not uploaded profile image</p>
+  </div>
+<% end %>
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      $('#profile-images-form').validate({
+        rules: {
+          "agent_image[image]": "required"
+        }
+      });
+  });
+</script>

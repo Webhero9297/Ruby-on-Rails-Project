@@ -1,0 +1,13 @@
+<% section_image 'section-image-14' %>
+
+<div class="row">
+  <div class="wide">
+    <h1 class="top-header">
+      <span class="top-header-label"><%= t('pages.header.thank_you') %></span>
+    </h1>
+    <%= markdown(t('pages.logged_out.phrase.hope_you_had_a_good_time')) %>
+    <p>
+      <%= link_to(t('navigation.header.login'), login_path, class: 'btn xl yellow') %>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<strong><%= t('dashboard.label.profile_progress') %></strong>
+<%= render(partial: 'layouts/progress_bar', locals: {progress: profile_progress.progress}) %>
+<% if not profile_progress.is_complete? %>
+    <p><em><%= t('dashboard.profile_progress.not_complete_notification') %></em></p>
+<% end %>
+
+<div class="mb20">
+    <% if profile_progress.is_missing(:profile_images) %>
+        <%= link_to(content_tag('i', '', class: 'icon-plus icon-white') + ' ' + t('profile.add_profile_images'), listing_families_path(account.listings.first, :anchor => "lifestyle-images"), class: 'btn btn-small btn-info') %>
+    <% elsif profile_progress.is_missing(:wish_list_destinations) %>
+        <%= link_to(content_tag('i', '', class: 'icon-plus icon-white') + ' ' + t('profile.add_wish_list_destination'), account_wish_lists_path(account, :anchor => "wish-list"), class: 'btn btn-small btn-info') %>
+    <% elsif profile_progress.is_missing(:family) %>
+        <%= link_to(content_tag('i', '', class: 'icon-pencil icon-white') + ' ' + t('profile.write_family_presentation'), listing_families_path(account.listings.first, :anchor => "family-presentation"), class: 'btn btn-small btn-info') %>
+    <% elsif profile_progress.is_missing(:lifestyle) %>
+        <%= link_to(content_tag('i', '', class: 'icon-pencil icon-white') + ' ' + t('profile.write_lifestyle_presentation'), listing_lifestyles_path(account.listings.first, :anchor => "lifestyle-presentation"), class: 'btn btn-small btn-info') %>
+    <% elsif profile_progress.is_missing(:occupations) %>
+        <%= link_to(content_tag('i', '', class: 'icon-pencil icon-white') + ' ' + t('accounts.profiles.add_occupation'), listing_families_path(account.listings.first, :anchor => "adults"), class: 'btn btn-small btn-info') %>
+    <% end %>
+</div>

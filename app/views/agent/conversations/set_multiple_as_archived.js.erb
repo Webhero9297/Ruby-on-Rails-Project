@@ -1,0 +1,5 @@
+<% @conversations.each do |conversation| %>
+  $("#conversation-<%= conversation.id %>").css({"background-color": "#F8F8CF"}).fadeOut('slow', function() {
+    $(this).remove();
+  });
+<% end %>

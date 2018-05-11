@@ -1,0 +1,27 @@
+<% if show_menu? %>
+<nav class="main-nav hidden-xs">
+  <ul class="main-nav-items">
+      <li class="main-nav-item">
+        <%= link_to(t('navigation.public_navigation.home'), root_path, title: t('navigation.public_navigation.listings_title'), class: 'main-nav-link', id: 'home-link') %>
+      </li>
+      <li class="main-nav-item">
+        <%= link_to(t('navigation.public_navigation.listings'), searches_index_path, title: t('navigation.public_navigation.listings_title'), class: 'main-nav-link', id: 'search-link') %>
+      </li>
+      <li class="main-nav-item">
+        <%= link_to(t('navigation.public_navigation.home_exchange'), what_is_home_exchange_path, title: t('navigation.public_navigation.what_is_home_exchange_title'), class: 'main-nav-link', id: 'home-exchange-link')%>
+      </li>
+      <li class="main-nav-item">
+        <%= link_to(t('navigation.public_navigation.about_us'), facts_about_intervac_path, title: t('navigation.public_navigation.about_us_title'), class: 'main-nav-link', id: 'about-intervac-link')%>
+      </li>
+      <li class="main-nav-item">
+        <%=link_to(t('homepage.national_representatives.headline'), representatives_path, class: 'main-nav-link', id: 'representatives-link')%>
+      </li>
+      <li class="main-nav-item">
+        <%=link_to(t('homepage.price_plans.headline'), price_plans_path, class: 'main-nav-link', id: 'price_plans-link')%>
+      </li>
+      <li class="main-nav-item">
+        <%=link_to(t('homepage.faq.headline'), faq_path, class: 'main-nav-link', id: 'faq-link')%>
+      </li>
+  </ul>
+</nav>
+<% end %>

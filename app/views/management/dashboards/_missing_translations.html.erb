@@ -1,0 +1,19 @@
+<section>
+	<h2 class="plate-section-header">Missing translations</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Locale</th>
+				<th class="text-right">Missing</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @missing_locales.each do |locale, count| %>
+			<tr>
+				<td><%= link_to(locale, agent_translations_missing_url(:locale => locale)) %></td>
+				<td class="text-right"><%= count %></td>
+			</tr>
+			<% end %>		
+		</tbody>
+	</table>
+</section>

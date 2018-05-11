@@ -1,0 +1,23 @@
+<% body_id 'home-exchange' %>
+<% page_title t('visinfo_what_is_home_exchange.page.headline') %>
+<% page_description t('visinfo_what_is_home_exchange.page.headline')%>
+<% page_keywords t('seo.keyword_set.visinfo.what_is_home_exchange') %>
+<% section_image 'section-image-1' %>
+
+
+<div class="row">
+    <%= render(:partial => 'pages/exchange/sub_menu') %>
+
+    <article class="page-content">
+        <h1 class="page-content-header">
+          <span class="page-content-header-label"><%= t('visinfo_what_is_home_exchange.page.headline') %></span>
+        </h1>
+
+        <blockquote class="page-content-quote">
+            <p><%= t('visinfo_what_is_home_exchange.page.opening_quote') %></p>
+        </blockquote>
+
+        <p><%= t('visinfo_what_is_home_exchange.page.what_is_home_exchange') %></p>
+        <p><%= raw( span_in_translation(t('visinfo_what_is_home_exchange.page.serendipity_text'), :italic => 'italic') )  %></p>
+    </article>
+</div>

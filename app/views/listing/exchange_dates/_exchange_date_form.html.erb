@@ -1,0 +1,77 @@
+<%= form_for([@listing, @exchange_dates], html: {id: 'availability-form', class: 'form-vertical'}, remote: true) do |f| %>
+
+  <% if @exchange_dates.errors.any? %>
+    <div class="row-fluid">
+      <div class="span12">
+        <div id="error_explanation">
+          <h2><%= pluralize(@exchange_dates.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+          <ul>
+            <% @exchange_dates.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+  <fieldset class="availability-dates">
+    <div class="availability-dates">
+      <%= label_tag('earliest-date', t('exchange_dates.earliest_date')) %>
+      <div class="input-append">
+        <%= f.text_field(:earliest_date, value: exchange_input_date(@exchange_dates.earliest_date), id: 'earliest-date', class: "date input-medium", readonly: "readonly") %>
+      </div>
+    </div>
+
+    <div class="availability-dates">
+      <%= label_tag('latest-date', t('exchange_dates.latest_date')) %>
+      <div class="input-append">
+        <%= f.text_field(:latest_date, value: exchange_input_date(@exchange_dates.latest_date), id: 'latest-date', class: "date input-medium", readonly: "readonly") %>
+      </div>
+    </div>
+
+  </fieldset>
+
+  <fieldset class="length-of-stay">
+    <%= label_tag('length-of-stay', t('exchange_dates.label.length_of_stay')) %>
+    <ul class="periodicity">
+      <li class="length-of-stay">
+        <%= f.select(:length_of_stay, (1..31).to_a, selected: @exchange_dates.length_of_stay , id: 'length-of-stay') %>
+      </li>
+      <li>
+        <%= f.label(:periodicity, for: 'periodicity-days', class: 'radio') do %>
+          <%= f.radio_button(:periodicity, 'days', id: 'periodicity-days') %>
+          <%= t('global.days') %>
+        <% end %>
+      </li>
+      <li>
+        <%= f.label(:periodicity, for: 'periodicity-weeks', class: 'radio') do %>
+          <%= f.radio_button(:periodicity, 'weeks', id: 'periodicity-weeks') %>
+          <%= t('global.weeks') %>
+        <% end %>
+      </li>
+      <li>
+        <%= f.label(:periodicity, for: 'periodicity-months', class: 'radio') do %>
+          <%= f.radio_button(:periodicity, 'months', id: 'periodicity-months') %>
+          <%= t('global.months') %>
+        <% end %>
+      </li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <%= label_tag('availability-notes', t('exchange_dates.label.availability_notes')) %>
+    <%= f.text_area(:note, cols: 72, rows: 4, id: 'availability-notes', class: 'span12') %>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('button.cancel'), cancel_listing_exchange_dates_url(@listing), remote: true, class: 'cancel') %>
+  </fieldset>
+<% end %>
+
+<script type="text/javascript" charset="utf-8">
+jQuery(document).ready(function($) {
+  setup_exchange_dates();
+});
+</script>

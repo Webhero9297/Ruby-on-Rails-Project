@@ -1,0 +1,13 @@
+<div class="alert alert-success">
+    <%= t('listings.alert.message_successfully_sent:') %>
+</div>
+
+<ul class="mb40">
+    <% @recipients.each do |recipient| %>
+        <li><%= "#{recipient.listing_number} - #{recipient.postal_town}, #{t(recipient.country)}" %></li>
+    <% end %>
+</ul>
+
+<div class="mb40">
+    <%= link_to(t('button.send_another'), list_favorites_path, class: 'btn btn-success') %>
+</div>

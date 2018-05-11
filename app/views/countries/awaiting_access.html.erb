@@ -1,0 +1,22 @@
+<% body_id 'countries' %>
+<div class="row-fluid">
+  <div class="span3">
+    <nav class="section-nav" role="secondary">
+      <%= render(partial: 'management_menu', locals: {country: @country}) %>
+    </nav>
+  </div>
+  <div class="span9">
+   <div class="plate">
+    <div class="plate-content">
+      <h1 class="plate-header">Accounts awaiting activation</h1>
+      <% if @accounts.empty? %>
+        <div class="alert alert-info">
+          There are no accounts awaiting activation at this time.
+        </div>
+      <% else %>
+        <%= render(partial: "/payment/activations/account_awaiting_activation", collection: @accounts, as: :account) %>
+      <% end %>
+    </div>
+   </div>
+  </div>
+</div>

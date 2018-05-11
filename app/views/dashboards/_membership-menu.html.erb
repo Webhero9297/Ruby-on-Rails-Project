@@ -1,0 +1,15 @@
+<% body_id 'account' %>
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+      <%= n.li_link_to('Account overview', overview_account_profiles_url(current_user.account_id)) %>
+      <%= n.li_link_to('Contact details', edit_account_contacts_url(current_user.account_id)) %>
+      <%= n.li_link_to('Family profile', account_profiles_url(current_user.account_id)) %>
+      <%= n.li_link_to('Photos', account_profiles_images_url(current_user.account_id)) %>
+      <%= n.li_link_to('Spoken languages', edit_account_spoken_languages_url(current_user.account_id)) %>
+      <%= n.li_link_to('Wish list', account_wish_lists_url(current_user.account_id)) %>
+      <%= n.li_link_to('Family users', account_co_members_url(current_user.account_id)) %>
+      <%= n.li_link_to('Billing', account_payments_url(current_user.account_id)) %>
+    <% end -%>
+  </ul>
+</nav>

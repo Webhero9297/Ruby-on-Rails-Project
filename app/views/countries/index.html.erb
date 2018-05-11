@@ -1,0 +1,30 @@
+<% body_id 'countries' %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Intervac countries</h1>
+        <table class="table table-condensed table-striped">
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th class="text-right">Total</th>
+              <th class="text-right">Active</th>
+              <th class="text-right">Trial</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @countries.each do |country| %>
+              <tr>
+                <td><%= link_to(t(country.msgid), country_path(country)) %></td>
+                <td class="text-right"><%= country.total_members %></td>
+                <td class="text-right"><%= country.active_members %></td>
+                <td class="text-right"><%= country.trial_members %></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

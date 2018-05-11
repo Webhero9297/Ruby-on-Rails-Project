@@ -1,0 +1,72 @@
+<% section_image 'section-image section-image-none' %>
+<div class="row">
+    <div class="wide">
+        <h1 class="top-header">
+            <span class="top-header-label"><%= t('countries.choose_country_residence') %></span>
+        </h1>
+
+        <ul id="country-filter" class="nav-tabs">
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.europe'), '#europe', class: 'nav-tab-link active') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.north_america'), '#north-america', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.south_america'), '#south-america', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.asia'), '#asia', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.africa'), '#africa', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.oceania'), '#oceania', class: 'nav-tab-link') %>
+            </li>
+        </ul>
+
+
+        <div class="tab-content agent-countries-wrapper">
+            <section class="tab-pane active" id="europe">
+                <div class="agent-countries">
+                    <%= render(partial: "country", :collection => @countries, :locals => {:country_continent => 'eu'}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="north-america">
+                <div class="agent-countries">
+                    <%= render(partial: "country", :collection => @countries, :locals => {:country_continent => 'na'}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="south-america">
+                <div class="agent-countries">
+                    <%= render(partial: "country", :collection => @countries, :locals => {:country_continent => 'sa'}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="asia">
+                <div class="agent-countries">
+                    <%= render(partial: "country", :collection => @countries, :locals => {:country_continent => 'as'}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="africa">
+                <div class="agent-countries">
+                    <%= render(partial: "country", :collection => @countries, :locals => {:country_continent => 'af'}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="oceania">
+                <div class="agent-countries">
+                    <%= render(partial: "country", :collection => @countries, :locals => {:country_continent => 'oc'}) %>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    make_tabs();
+</script>

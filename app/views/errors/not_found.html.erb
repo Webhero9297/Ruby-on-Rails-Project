@@ -1,0 +1,26 @@
+<% body_id 'error' %>
+<% section_image 'section-image-5' %>
+
+<div class="row">
+    <div class="wide">
+        <h1 class="page-content-header">
+            <span class="page-content-header-label"><%= t('errors.page_not_found') %></span>
+        </h1>
+
+        <p>
+            <%= t('errors.information_youre_looking_for_not_found')%>
+        </p>
+        <% if user_signed_in? %>
+            <p>
+                <%= t('pages.no_access.use_the_back_button') %> <%= link_to(t('global.listings'), listings_url) %>.
+            </p>
+        <% else %>
+            <p>
+                <%= t('pages.no_access.phrase.not_logged_in_start') %> <%= link_to(t('pages.no_access.log_in_here'), login_url) %> <%= t('pages.no_access.info.text.enjoy_benefits_of_intervac') %>
+            </p>
+        <% end %>
+        <p>
+            <%= t('global.phrases.have_a_really_nice_day') %>
+        </p>
+    </div>
+</div>

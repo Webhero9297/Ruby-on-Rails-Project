@@ -1,0 +1,33 @@
+<article class="listing-card-small">
+    <%= link_to(listing_path(listing), class: 'listing-card-small-link') do %>
+        <% if listing.get_main_photo != nil %>
+            <%= image_tag(listing.get_main_photo.image.size_230, width: 230, alt: listing.get_main_photo.caption, class: 'listing-card-small-image') %>
+        <% else %>
+            <%= image_tag('photos-coming-soon-230.jpg', width: 230, alt: '', class: 'listing-card-small-image') %>
+        <% end %>
+        <h1 class="listing-card-small-header">
+            <%= listing.postal_town%>,
+            <span class="listing-card-small-country"><%= t(listing.country) %></span>
+        </h1>
+        <span class="listing-card-small-exchange-dates-label"><%=t('listings.open_for_exchange')%></span>
+        <% if listing.concat_exchange_dates.nil? %>
+            <span class="listing-card-small-exchange-dates"><%= t('listings.label.no_exchange_dates_available') %></span>
+        <% else %>
+            <span class="listing-card-small-exchange-dates"><%= listing.concat_exchange_dates %></span>
+        <% end %>
+        <ul class="listing-card-small-attributes">
+            <li title="<%= t('listings.label.sleeping_capacity') %>">
+                <%= image_tag('beds.png', alt: listing.sleeping_capacity) %>
+                <span><%= listing.sleeping_capacity %></span>
+            </li>
+            <li title="<%= t('global.adults') %>">
+                <%= image_tag('adults.png', alt: listing.account.profile.number_of_adults) %>
+                <span><%= listing.account.profile.number_of_adults %></span>
+            </li>
+            <li title="<%= t('global.children') %>">
+                <%= image_tag('children.png', alt: listing.account.profile.number_of_children) %>
+                <span><%= listing.account.profile.number_of_children %></span>
+            </li>
+        </ul>
+    <% end %>
+</article>

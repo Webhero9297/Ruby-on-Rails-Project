@@ -1,0 +1,1 @@
+$('div#kind').html("<%= escape_javascript(render(partial: '/countries/kind_form', :locals => { :country => @country, :kinds => @kinds })) %>");

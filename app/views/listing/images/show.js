@@ -1,0 +1,1 @@
+$('div#<%= @listing_image.category %>-images').append("<%= escape_javascript(render( partial: 'listing/images/listing_image', object: @listing_image, as: 'image', locals: {listing: @listing})) %>");

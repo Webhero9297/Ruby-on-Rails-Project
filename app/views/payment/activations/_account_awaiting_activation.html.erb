@@ -1,0 +1,58 @@
+<% order =  Order.where(_id: account.current_subscription.order_id).first %>
+<div id="account-<%= account.id %>" class="row-fluid pt10 mb10 bb-gray">
+  <div class="span5">
+    <dl class="dl-horizontal">
+      <dt>Membership</dt>
+        <dd><%= account.current_subscription.name %></dd>
+      <dt>Duration</dt>
+        <dd><%= account.current_subscription.duration%> <%= account.current_subscription.periodicity %></dd>
+      <dt>Standard price</dt>
+        <dd><%= account.current_subscription.base_price.to_i %> <%= account.current_subscription.currency %></dd>
+      <dt>Renewal price</dt>
+        <dd><%= account.current_subscription.renewal_price.to_i %> <%= account.current_subscription.currency %></dd>
+      <% if account.current_subscription.renewal %>
+      <dt>Renewal</dt>
+        <dd><%= account.current_subscription.renewal %></dd>
+      <% end %>
+      <% if account.current_subscription.upgrade %>
+      <dt>Upgrade</dt>
+        <dd><%= account.current_subscription.upgrade %></dd>
+      <% end %>
+      <% if account.current_subscription.promotion_code %>
+      <dt>Promotion code</dt>
+        <dd><%= account.current_subscription.promotion_code %></dd>
+      <% end %>
+      <dt>Order id</dt>
+        <dd><%= account.current_subscription.order_id %></dd>
+      <dt>Order number</dt>
+          <dd><%= account.current_subscription.order_number %></dd>
+      <dt>Amount paid</dt>
+          <% if order %>
+          <dd><%= order.total_amount.to_i %> <%= order.currency %></dd>
+          <% end %>
+    </dl>
+  </div>
+  
+  <div class="span5">
+    <dl class="dl-horizontal">
+      <dt>Name</dt>
+        <dd><%= account.contact.name %></dd>
+      <dt>Email</dt>
+        <dd><%= account.contact.email %></dd>
+      <dt>Address</dt>
+        <dd><%= account.contact.address %>, <%= account.contact.postal_town %> - <%= account.country_short %></dd>
+      <dt>Phone</dt>
+        <dd><%= account.contact.telephone %></dd>
+      <dt>Mobile</dt>
+        <dd><%= account.contact.mobile %></dd>
+    </dl>    
+  </div>
+
+  <div class="span2">
+    <%= form_tag(grant_account_activation_url, method: :put, remote: true, class: 'form-horizontal') do %>
+      <%= button_tag('Activate', class: 'btn btn-small btn-primary', id: "btn-activate-#{account.id}") %>
+      <%= hidden_field_tag(:account_id, account.id) %>
+    <% end %>
+  </div>
+
+</div>

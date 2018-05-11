@@ -1,0 +1,53 @@
+@import "mixins";
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 3px;
+    cursor: pointer;
+    &.area {
+        background-color: #f2f2f2;
+        padding: 8px;
+        @include border-radius;
+    }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    border: 1px solid $standard-grey;
+    font-size: 13px;
+    padding: 7px;
+    margin-bottom: 10px;
+    @include box-sizing;
+    @include border-radius;
+    &:focus {
+        background-color: $focus-yellow;
+    }
+}
+
+.form-actions {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid $standard-grey;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 8px 12px;
+    text-align: center;
+    border: 0;
+    font-size: 14px;
+    color: $white;
+    background-color: green;
+    -webkit-appearance: none;
+    @include border-radius;
+}

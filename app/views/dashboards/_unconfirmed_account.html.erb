@@ -1,0 +1,10 @@
+<% if current_user.confirmed_at.nil? %>
+<section class="alert alert-danger">
+  <h1 class="alert-heading"><%= t('dashboards.activate_account') %></h1>
+  <p><%= t('dashboards.alert.message.must_activate_your_account_using_the_activation_link_in_the_email') %></p>
+  <%= link_to(t('account.resend_activation'), resend_confirmation_url, class: 'btn') %>
+</section>
+<% end -%>
+
+
+

@@ -1,0 +1,89 @@
+.listing-card-small {
+    margin-bottom: 1em;
+
+    @include respond-to(mid-screens) {
+        float: left;
+        margin: 0 1% 2% 1%;
+        width: 48%;
+    }
+
+    @include respond-to(wide-screens) {
+        margin: 0 1%;
+        width: 23%;
+    }
+}
+
+.listing-card-small-link {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: $black;
+    display: block;
+    padding: 0.875em;
+
+    &:hover {
+        border-color: $green;
+        background-color: $green;
+        color: $white;
+
+        .listing-card-small-country {
+            color: $white;
+        }
+
+        .listing-card-small-exchange-dates,
+        .listing-card-small-exchange-dates-label {
+            border-color: #159e72;
+        }
+    }
+}
+
+.listing-card-small-image {
+    border: 3px solid $white;
+    width: 100%;
+}
+
+.listing-card-small-header {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.listing-card-small-country {
+    color: $yellow;
+    font-weight: 600;
+    font-style: italic;
+    display: block;
+}
+
+.listing-card-small-exchange-dates-label {
+    border-top: 1px solid #dedede;
+    display: block;
+    font-weight: 600;
+    font-size: 0.75em;
+    padding-top: 0.3125em;
+    margin-bottom: 0.3125em;
+    text-align: center;
+}
+
+.listing-card-small-exchange-dates {
+    border-bottom: 1px solid #dedede;
+    display: block;
+    font-size: 0.75em;
+    padding-bottom: 0.3125em;
+    text-align: center;
+}
+
+.listing-card-small-attributes {
+    padding-top: 10px;
+
+    > li {
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        width: 31%;
+
+        > span {
+            display: block;
+            text-align: center;
+        }
+    }
+}

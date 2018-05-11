@@ -1,0 +1,47 @@
+<article class="listing-overview">
+  <h1 class="listing-overview-header" id="id-<%= listing.id %>"><%= listing.listing_number %></h1>
+  <section class="listing-overview-section listing-overview-section-photo">
+    <%= get_main_photo(listing, size: 170, class: 'listing-overview-photo') %>
+  </section>
+  <section class="listing-overview-section">
+    <h2 class="listing-overview-sub-header"><%= t("global.status") %></h2>
+    <ul class="unstyled">
+      <li><%= t("listings.open_for_exchange") %>: <%= yes_or_no_bool(listing.open_for_exchange) %></li>
+      <li><%= t("listings.added_to_hot_list") %>: <%= listing.added_to_hot_list.nil? ? t("global.never") : standard_date_time(listing.added_to_hot_list) %></li>
+      <li><%= t("global.last_updated") %>: <%= standard_date_time(listing.last_updated, current_user.account.time_zone) %></li>
+    </ul>
+  </section>
+  <section class="listing-overview-section">
+    <h2 class="listing-overview-sub-header">Location</h2>
+    <ul class="unstyled">
+      <li><%= t("global.street") %>: <%= listing.street %></li>
+      <li><%= t("global.postal_code") %>: <%= listing.postal_code %></li>
+      <li><%= t("global.postal_town") %>: <%= listing.postal_town %></li>
+      <li><%= t("global.state") %>: <%= listing.state %> <%= listing.state_long %></li>
+      <li><%= t("global.country") %>: <%= t(listing.country) %> (<%= listing.country_code %>)</li>
+      <li><%= t("listing.google_formatted_address") %>: <%= listing.google_formatted_address %></li>
+
+      <% unless listing.custom_nearest_city.blank? %>
+        <li><%= t("listing.custom_nearest_city") %>: <%= listing.custom_nearest_city %></li>
+      <% end %>
+
+      <% unless listing.custom_country.blank? %>
+        <li><%= t("listing.custom_country") %>: <%= listing.custom_country %></li>
+      <% end %>
+    </ul>
+  </section>
+  <section class="listing-overview-actions">
+    <%- if @confirm_destroy -%>
+      <%= link_to(t("button.delete_listing"), management_listing_path(listing), method: :delete, class: 'btn btn-danger', confirm: t("listing.are_sure_delete_listing")) %>
+      <%= link_to(t("button.keep_listing"), account_path(listing.account_id), class: 'btn btn-success') %>
+    <%- else -%>
+      <%= link_to(t("button.delete_listing"), management_listing_confirm_destroy_path(listing), class: 'btn btn-danger') %>
+      <%= switch_to_user_link(overview_listing_path(listing), request.original_url, 'member', get_current_dashboard, @account.account_owner, text: t("button.switch_to_member_listing"), class: 'btn btn-link') %>
+      <% if listing.has_been_completed %>
+        <%= link_to(t("view_listing.link_text"), listing_path(listing), class: 'btn btn-link') %>
+      <% end %>
+    <%- end -%>
+    <%= link_to(t("button.change_listing_number"), edit_management_listing_number_path(listing), class: 'btn btn-link') %>
+    <%= link_to(t("button.customize_listing_headline"), edit_management_custom_city_and_country_headline_path(listing), class: 'btn btn-link') %>
+  </section>
+</article>

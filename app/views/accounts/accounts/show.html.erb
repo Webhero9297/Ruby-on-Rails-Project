@@ -1,0 +1,21 @@
+<% body_id 'member-management' %>
+<div class="row-fluid">
+  <div class="span12">
+    <p><%= link_to('Back', member_filters_path, class: 'btn') %></p>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <%= render(partial: 'short_facts', locals: {header: 'Account and Membership Details', section_id: 'short-facts'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'membership_listings', locals: {header: 'Membership listings', section_id: 'membership-listings'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'account_users', locals: {header: 'Account users', section_id: 'account-users'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'contact_information', locals: {header: 'Contact information', section_id: 'contact-information'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'subscription_billing_information', locals: {header: 'Subscription and billing information', section_id: 'membership-subscriptions'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'exchange_agreements', locals: {header: 'Exchange agreements', section_id: 'exchange-agreements'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'account_transfer', locals: {header: 'Transfer account to another country', section_id: 'account-transfer'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'terminate_account', locals: {header: 'Hide and disable a membership from the database', section_id: 'hide-account'}, layout: '/layouts/modules/plate_section') unless @current_user.account == @account %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+
+
+<% AutomatedMessage.all.each do |message| %>
+<article style="border: 1px solid #ccc; margin-bottom: 40px; padding: 20px;">
+    <p><strong><%= message.name %> for countries <% message.countries.each do |c| %> <%= c %>, <% end %></strong></p>
+    <h2><%= message.subject %></h2>
+    <%= markdown(message.message) %>
+</article>
+<% end %>

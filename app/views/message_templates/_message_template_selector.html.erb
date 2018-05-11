@@ -1,0 +1,6 @@
+<%- if not message_templates.blank? and message_templates.any? -%>
+    <label for="message-template-selector">
+        <%= t('conversation.label.choose_template') -%>
+    </label>
+    <%= collection_select(:message_template, :id, message_templates, :_id, :name, {prompt: t('alert.choose_template')}, {id: 'message-template-selector', class: input_class, :'data-class' => 'message-template-selector'}) %>
+<%- end -%>

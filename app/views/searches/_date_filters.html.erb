@@ -1,0 +1,17 @@
+<section id="date-filters" class="mb10">
+  <h2 class="sidebar-header"><%= t('global.dates') %></h2>
+    <div class="date">
+      <%= label_tag('earliest-date', t('exchange_dates.earliest_date')) %>
+      <%= text_field_tag(:earliest_date, standard_date(@earliest_date, '%F'), id: 'earliest-date', class: 'travel-dates-filter') %>
+    </div>
+    
+    <div class="date last">
+      <%= label_tag('latest-date', t('exchange_dates.latest_date')) %>
+      <%= text_field_tag(:latest_date, standard_date(@latest_date, '%F'), id: 'latest-date', class: 'travel-dates-filter') %>
+    </div>
+    <a id="clear-dates" href="#"><%= t('filters.clear_dates') %></a>
+</section>
+
+<script type="text/javascript">
+  init_date_pickers();
+</script>

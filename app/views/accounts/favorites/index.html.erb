@@ -1,0 +1,24 @@
+<% body_id 'member-management' %>
+
+<div class="row-fluid mb20">
+  <div class="span12">
+    <p class="mb20"><%= link_to(content_tag('i','', class: 'icon-arrow-left') + ' ' + "#{t('Account overview for')} #{@account.account_number}", account_url(@account)) %></p>
+    <h1 class="page-header"><%= @account.account_number %> <%= t('global.favorites') %></h1>
+  </div>
+</div>
+
+<% if @favorite_listings.try(:empty?) %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="alert alert-info">
+      <p class="alert-message"><%= t('accounts.alert.message.account_does_not_have_favorites') %></p>
+    </div>
+  </div>
+</div>
+<% else %>
+<div class="row-fluid">
+  <div class="span12">
+    <%= render(partial: 'favorite_listing_card', collection: @favorite_listings, as: :listing, locals: {notes: @favorite_notes} ) %>
+  </div>
+</div>
+<% end %>

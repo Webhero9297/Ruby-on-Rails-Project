@@ -1,0 +1,11 @@
+<% body_id 'exchange-feedback' %>
+<div class="row-fluid">
+    <div class="span3">
+        <%= render(partial: 'exchange_feedbacks/exchange_feedbacks_menu') %>
+    </div>
+    <div class="span9">
+        <%= render(locals: {header: 'Positive Exchange Feedback'}, layout: '/layouts/modules/single_page_plate') do %>
+            <%= render(partial: 'exchange_feedbacks/exchange_feedback_table') %>
+        <% end %>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+<section class="national-representative">
+    <% if @national_representatives.empty? %>
+        <h2 class="national-representative-header"><%= t('no_local_representative') %></h2>
+    <% else %>
+        <h2 class="national-representative-header"><%= t('local_representatives_for') %> <%= t(@price_plan.country.msgid) %></h2>
+        <% @national_representatives.each do |rep| %>
+
+            <% if rep.agent_profile.profile_image != nil %>
+                <%= image_tag(rep.agent_profile.profile_image.image.size_150, width: 150, alt: rep.name, class: 'national-representative-image') %>
+            <% end %>
+
+            <div class="national-representative-address">
+                <span class="national-representative-name"><%= rep.agent_profile.name.blank? ? rep.name : rep.agent_profile.name %></span>
+                <div>
+
+                </div>
+
+                <ul class="unstyled">
+                    <li><%= rep.agent_profile.address %></li>
+                    <li>
+                        <%= rep.agent_profile.postal_code %> <%= rep.agent_profile.postal_town %>
+                    </li>
+                    <li><%= rep.agent_profile.country %></li>
+                    <li>
+                        <span><%= t('global.phone') %>:</span> <span><%= rep.agent_profile.telephone %></span>
+                    </li>
+                    <li>
+                        <span><%= t('global.email') %>:</span> <span><%= rep.agent_profile.email %></span>
+                    </li>
+                </ul>
+            </div>
+        <% end -%>
+    <% end -%>
+</section>

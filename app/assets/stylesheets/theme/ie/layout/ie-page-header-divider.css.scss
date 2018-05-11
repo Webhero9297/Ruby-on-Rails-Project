@@ -1,0 +1,9 @@
+.page-header-divider-label {
+    &.h1 {
+        @include rem(font-size, 3rem);
+    }
+
+    &.h2 {
+        @include rem(font-size, 2rem);
+    }
+}

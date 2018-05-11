@@ -1,0 +1,61 @@
+<%= render(partial: 'searches/search_explanation_header') %>
+
+<%= render(partial: 'searches/chosen_filters_list') %>
+
+<% if @count > 0 %>
+    <div class="top-pagination">
+        <%= paginate(listings, pager_class: "pagination pagination-centered") %>
+    </div>
+    <div id="result-plate">
+        <%= render(partial: 'searches/listing_card', collection: listings, as: 'listing') %>
+    </div>
+    <%= paginate(listings) %>
+    <div class="clear"></div>
+<% else %>
+    <h2><%= t('search_results.no_results') %></h2>
+<% end %>
+
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        init_headline_popover();
+
+        $('[data-link="flip-link"]').on('click', function (event) {
+            event.preventDefault();
+            var link = $(this),
+                    $wish_list_target = $('[data-stack="'+ link.data('listing') + '-wish-list' +'"]'),
+                    $property_info_target = $('[data-stack="'+ link.data('listing') + '-property-info' +'"]');
+
+            if(link.hasClass('wishlist')) {
+                link.removeClass('wishlist');
+                link.addClass('property-info');
+                link.text('<%= t('listing_card.destinations') %>');
+                $wish_list_target.css({'z-index': 3000});
+                $property_info_target.css({'z-index': 3001});
+                return;
+            }
+
+            if(link.hasClass('property-info')) {
+                link.removeClass('property-info');
+                link.addClass('wishlist');
+                link.text('<%= t('global.property-details') %>');
+                $property_info_target.css({'z-index': 3000});
+                $wish_list_target.css({'z-index': 3001});
+                return;
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+
+  
+
+
+
+

@@ -1,0 +1,44 @@
+<div class="row">
+  <div class="span12">
+    <h1 class="page-header"><%= t('payment.header.payment_completion') %></h1>
+
+    <p><%= t('payment.review_and_make_sure_information_is_correct') %></p>
+
+    <article class="well">
+      <h2 class="section-header"><%= t('payment.orders.header.membership_plan') %></h2>
+
+      <dl class="dl-horizontal">
+        <dt><%= t('global.membership') %></dt>
+        <dd><%= @paypal_details.params['order_description'] %></dd>
+        <dt><%= t('global.duration') %>:</dt>
+        <dd><%= @price_plan.duration%> <%= @price_plan.periodicity %></dd>
+        <dt><%= t('global.price') %>:</dt>
+        <dd><%= @paypal_details.params['order_total'] %> <%= @paypal_details.params['order_total_currency_id'] %></dd>
+      </dl>
+
+      <h2 class="section-header"><%= t('payment.header.shipping_details') %></h2>
+
+      <dl class="dl-horizontal">
+        <dt><%= t('global.name') %></dt>
+        <dd><%= @paypal_details.params['first_name'] %> <%= @paypal_details.params['last_name'] %></dd>
+        <dt><%= t('global.street') %></dt>
+        <dd><%= @paypal_details.params['street1'] %></dd>
+        <dt><%= t('global.postal_code') %></dt>
+        <dd><%= @paypal_details.params['postal_code'] %></dd>
+        <dt><%= t('global.city') %></dt>
+        <dd><%= @paypal_details.params['city_name'] %></dd>
+        <dt><%= t('sitewide.country') %></dt>
+        <dd><%= @paypal_details.params['country_name'] %></dd>
+      </dl>
+    </article>
+
+    <%= form_for @order do |f| %>
+      <fieldset>
+        <%= f.hidden_field :express_token %>
+        <%= f.button(t('payment.complete_payment'), class: 'btn btn-primary', :disable_with => t('button.please_wait')) %>
+        <%= link_to(t('button.cancel'), cancelled_order_url(@order), class: 'cancel') %>
+      </fieldset>
+    <% end %>
+
+  </div>
+</div>

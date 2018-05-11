@@ -1,0 +1,2 @@
+$('div#contact-container').parent().html("<%= escape_javascript(render(partial: 'accounts/contacts/placeholder')) %>");
+$('.cancel-contact').replaceWith("<%= escape_javascript(link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_contacts_url(@account, format: :js), remote: true, class: 'cancel-edit-contact')) %>");

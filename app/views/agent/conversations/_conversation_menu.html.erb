@@ -1,0 +1,10 @@
+<section>
+  <nav class="section-nav" role="secondary">
+    <ul class="nav nav-tabs nav-stacked">
+      <% highlight_current_link(:class => 'active') do |n| -%>
+      <%= n.li_link_to 'Inbox', agent_conversations_url %>
+      <%= n.li_link_to 'Archived', archive_index_agent_conversations_path %>
+      <% end %>
+    </ul>
+  </nav>
+</section>

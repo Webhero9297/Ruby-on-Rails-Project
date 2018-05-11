@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'user_settings_menu') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: 'full_name', locals: {section_id: 'user-full-name', header: t('users.users.show.fullname')}, layout: 'layouts/modules/plate_section') %>
+      <%= render(partial: 'primary_email', locals: {section_id: 'primary-email', header: t('users.users.show.primary_email_address')}, layout: 'layouts/modules/plate_section') %>
+      <%= render(partial: 'secondary_email', locals: {section_id: 'secondary-email', header: t('users.users.show.secondary_email_address')}, layout: 'layouts/modules/plate_section') %>
+      <%= render(partial: 'user_password', locals: {section_id: 'user-password', header: t('global.password')}, layout: 'layouts/modules/plate_section') %>
+      <%- if current_user.account_admin -%>
+        <%= render(partial: '/accounts/co_members/placeholder', locals: {section_id: 'co-members', header: t('menu.membership_users')}, layout: 'layouts/modules/plate_section') %>
+      <%- end -%>
+      <%= render(partial: 'facebook_connect', locals: {section_id: 'user-facebook', header: t('global.connect_with_facebook')}, layout: 'layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

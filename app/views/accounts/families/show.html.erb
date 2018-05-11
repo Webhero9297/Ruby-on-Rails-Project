@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: '/listings/change_my_listing_menu', locals: {listing: @listing}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: '/layouts/modules/screen_header', locals: {header: "#{t('listing.family_photos_text_header')} - #{@listing.listing_number}", body_text: t('listings.family_photos_body_text')}) %>
+      <%= render(partial: 'family_placeholder', locals: {profile: @profile, listing: @listing, header: t('listings.family_presentation_text'), section_id: 'family-presentation'}, layout: 'layouts/modules/plate_section') %>
+      <%= render(partial: "family_figure_blocks", locals: {profile_images: @profile_images, account: @account, header: t('accounts.header.family_photos'), section_id: 'lifestyle-images'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: 'adults', locals: {profile: @profile, header: t('profile.adults_occupations'), section_id: 'adults'}, layout: 'layouts/modules/plate_section') %>
+      <%= render(partial: 'children', locals: {profile: @profile, header: t('global.children'), section_id: 'children'}, layout: 'layouts/modules/plate_section') %>
+      <%= render(partial: 'pets', locals: {profile: @profile, header: t('accounts.header.family_pets'), section_id: 'family_pets'}, layout: 'layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+
+  $('.pluploader').each(function(){
+    enable_image_upload(this);
+  });
+
+  enable_image_sorting('profile');
+
+  if(window.location.hash && window.location.hash == '#family-presentation') {
+    $('#edit-family-presentation-btn').click();
+    window.location.hash = '';
+  }
+
+ 
+  
+});
+</script>

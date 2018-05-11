@@ -1,0 +1,6 @@
+<% if @accounts.length > 0 %>
+  $('#result-placeholder').html("<%= escape_javascript(render(partial: '/member_filters/table_with_pagination', locals: {accounts: @accounts})) %>");
+<% else %>
+  $('#result-placeholder').html("<%= escape_javascript(render(partial: 'no_search_result')) %>");
+<% end %>
+$('#filter-buttons').html("<%= escape_javascript(render(partial: '/member_filters/filter_buttons')) %>");

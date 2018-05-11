@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'dashboards/member_home') %>
+  </div>
+  <div class="span9">
+    <div class="plate contacts-placeholder">
+      <%= render(partial: "placeholder", locals: {header: t('account.header.contact_information'), section_id: 'contact-information'}, layout: '/layouts/modules/plate_section') %>
+    </div>
+
+    <div class="plate contact-restrictions-placeholder">
+      <%= render(partial: "accounts/contact_restrictions/placeholder", locals: {header: t('account.header.contact_restrictions'), section_id: 'contact-restrictionxrs'}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

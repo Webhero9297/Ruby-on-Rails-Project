@@ -1,0 +1,8 @@
+<%= form_tag(promotion_code_subscriptions_url, method: :post, class: 'form-inline', data: { remote: true }) do %>
+  <%= label_tag('promotion_code', t('payment.promotion_codes.label.fill_out_your_promotion_code')) %>
+  <%= text_field_tag('promotion_code', '', class: 'input-medium') %>
+  <%= hidden_field_tag('upgrade', order.upgrade) %>
+  <%= hidden_field_tag('renewal', order.renewal) %>
+  <%= hidden_field_tag('price_plan_id', nil, class: 'promo_code_price_plan') %>
+  <%= button_tag(t('button.redeem'), class: 'btn btn-success') %>
+<% end %>

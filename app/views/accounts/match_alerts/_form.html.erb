@@ -1,0 +1,25 @@
+<div id="location-form-container">
+    <%= form_tag(add_location_account_match_alerts_path(@account), {id: 'match-alert-form', remote: true}) do %>
+        <fieldset>
+            <%= hidden_field_tag('location[lat]', '', {id: 'lat'}) %>
+            <%= hidden_field_tag('location[lng]', '', {id: 'lng'}) %>
+            <%= hidden_field_tag('location[ne_lat]', '', {id: 'ne_lat'}) %>
+            <%= hidden_field_tag('location[ne_lng]', '', {id: 'ne_lng'}) %>
+            <%= hidden_field_tag('location[sw_lat]', '', {id: 'sw_lat'}) %>
+            <%= hidden_field_tag('location[sw_lng]', '', {id: 'sw_lng'}) %>
+            <%= hidden_field_tag('location[name]', '', {id: 'destination'}) %>
+            <%= hidden_field_tag('location[country_code]', '', {id: 'country-code'}) %>
+        </fieldset>
+    <% end %>
+    <%= text_field_tag('q', '', size: 52, maxlength: 128, placeholder: t('listing.placeholder.country_region_city'), id: 'match-alert-destination', class: 'input-xxlarge pull-left') %>
+    <%= button_tag(t('profile.add_destination'), class: 'btn btn-primary ml20', id: 'btn-add-destination') %>
+
+    <script type="text/javascript">
+        $('#match-alert-destination').focus();
+        init_match_alert_destination_autocomplete();
+        $('#btn-add-destination').on('click', function (event) {
+            geocode_address_and_submit_form($('#match-alert-destination').val());
+        });
+
+    </script>
+</div>

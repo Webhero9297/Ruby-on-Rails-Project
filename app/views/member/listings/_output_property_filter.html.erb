@@ -1,0 +1,10 @@
+<% if rules_filter.include?(property_detail.msgid) -%>
+<tr>
+  <td class="property-detail"><%= t(property_detail.msgid) %></td>
+  <% if listing.property_details.include?(property_detail.msgid) %>
+    <td class="property-detail-value"><span class="badge badge-success"><%= t('global.yes') %></span></td>
+  <% else %>
+    <td class="property-detail-value"><span class="badge"><%= t('global.no') %></span></td>
+  <% end %>
+</tr>
+<% end -%>

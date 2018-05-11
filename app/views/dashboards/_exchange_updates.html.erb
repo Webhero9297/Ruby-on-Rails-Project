@@ -1,0 +1,14 @@
+<div class="alert alert-block alert-info">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4 class="alert-heading"><%= t('exchange_agreements.header.exchange_agreement_updates') %></h4>
+  <% exchange_activities.each do |activity| %>
+      <% activity.exchange_agreement.agreements.each do |agreement| %>
+        <% if agreement.owner != current_user.account.id %>
+          <p class="alert-message">
+          <%= t("notification.agreement.update", {:listing_number => agreement.listing_number, :event => t(activity.activity).downcase, :by_who => activity.performed_by})%> - <%= link_to(t('exchange_agreements.go_to_agreement'), overview_member_exchange_agreement_url(activity.exchange_agreement)) %>
+          </p>
+        <% end %>
+      <% end %>
+    
+  <% end %>
+</div>

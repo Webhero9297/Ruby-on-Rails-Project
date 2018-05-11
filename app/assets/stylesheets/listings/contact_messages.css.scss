@@ -1,0 +1,89 @@
+@import "mixins";
+
+.contact-messages {
+    clear: both;
+    margin-bottom: 20px;
+
+    &.is-hidden {
+        display: none;
+    }
+
+    &.is-visible {
+        display: block;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        line-height: 23px;
+        margin-bottom: 26px;
+    }
+
+    .contact-message-form {
+        padding: 20px;
+    }
+
+    .text-field,
+    .text-area {
+        padding: 5px;
+        border: 1px solid #CCC;
+        width: 100%;
+        margin-bottom: 8px;
+        font-size: 13px;
+        @include box-sizing;
+    }
+
+    .text-area {
+        height: 200px;
+    }
+
+    .close-contact-message {
+        border-bottom: 1px solid #ccc;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+}
+
+.contact-message-options {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-message-button {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+.contact-message-info {
+    display: inline-block;
+    width: 63%;
+}
+
+.contact-message-subject,
+.contact-message-body {
+    width: 100%;
+}
+
+/* Overrides the plate for contact messages to look like an inline set instead */
+.favorite-card {
+    .plate {
+        background-color: $white;
+        border: 0;
+    }
+    .plate-content {
+        border: 0;
+        margin: 0;
+        padding: 0 20px 0 0;
+    }
+    .plate-header {
+        display: none;
+    }
+}

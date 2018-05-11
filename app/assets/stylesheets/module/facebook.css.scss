@@ -1,0 +1,48 @@
+div#facebook-feed-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 -300px 0 0;
+    padding: 0;
+    width: 348px;
+    height: 100%;
+    z-index: 2000;
+}
+div#facebook-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 100%;
+    background: transparent image-url('fb-ribbon.png') repeat-y 100% 0;
+    z-index: 2002;
+}
+div#facebook-feed {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 2001;
+}
+a#facebook-tab-holder {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 44px 0 0 0;
+    padding: 0;
+    background: transparent image-url("f_logo.png") repeat-y 0 50%;
+}
+@media print {
+	div#facebook-feed-wrapper {
+		display: none;
+	}
+}

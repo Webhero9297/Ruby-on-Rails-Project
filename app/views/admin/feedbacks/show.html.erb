@@ -1,0 +1,8 @@
+<% body_id 'feedbacks' %>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <%= render( partial: 'feedbacks/show', locals: {header: @feedback.subject, section_id: 'feedback-message'}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

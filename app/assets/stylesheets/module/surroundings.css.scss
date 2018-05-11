@@ -1,0 +1,36 @@
+div#surrounding-map {
+    width: 99%;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+
+div#surrounding-map img {
+    max-width: none;
+}
+
+ul#pins {
+    height: 40px;
+    width: 100%;
+    li {
+        display: inline;
+        float: left;
+        margin-right: 8px;
+    }
+    a {
+        display: block;
+        float: left;
+        cursor: pointer;
+    }
+}
+
+table#added-pins td {
+    vertical-align: center;
+}
+
+th.distance, td.distance {
+    text-align: right;
+}
+
+a.added img {
+    -webkit-filter: grayscale(100%);
+}

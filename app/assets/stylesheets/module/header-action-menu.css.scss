@@ -1,0 +1,115 @@
+@import "mixins";
+
+/* The import and the public menu related fonts and styles must be removed */
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
+$color-main: #E9600F;
+$lora: "Lora", Georgia, serif;
+
+.lora_headline {
+    font-family: $lora;
+    font-weight: 700;
+    font-style: italic;
+}
+.lora_italic {
+    font-family: $lora;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header-actions {
+    float: right; 
+    margin: 7px 0 2px 0;
+    .flat-btn.xl {
+    	text-decoration: none;
+    	padding: 0 0.714em;
+    	font-size: 0.85em;
+    	color: #000;
+    	&.orange,
+    	&.yellow {
+    		color: #fff;
+    	}
+    }
+}
+
+.header-action-menu > li {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .logout-link {
+        background-color: #f5a200;
+        color: $white;
+        padding: 10px 16px;
+        @include border-radius;
+        &:hover {
+            background-color: $light-green;
+        }
+    }
+
+    .dropdown-link {
+        color: $light-blue;
+        cursor: pointer;
+        display: inline-block;
+        padding: 7px 12px;
+        font-size: 0.85em;
+        &:hover {
+            color: $orange;
+        }
+    }
+
+    .dropdown-menu a {
+        color: $black;
+        display: block;
+        @include border-radius(0);
+		font-size: 0.85em;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+
+ul#public-menu {
+    margin: 50px 0 0 50px;
+    text-align: center;
+    display: inline-block;
+    line-height: normal;
+    li {
+        display: inline-block;
+        @extend .lora_headline;
+        font-size: 20px;
+        padding: 0 15px 3px 5px;
+        background: url('/assets/public-page/square-blue.png') no-repeat center right;  
+        & + li {
+            background-image: url('/assets/public-page/square-teal.png');
+        }
+        & + li + li {
+            background-image: url('/assets/public-page/square-orange.png');
+            body#start header.stuck & {
+                background-image: url('/assets/public-page/square-orange.png');
+            }
+            body#start & {
+                background-image: url('/assets/public-page/square-main.png');
+            }
+        }
+        & + li + li + li {
+            background: none!important;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        header.stuck & {
+            padding: 5px 15px 5px 5px;
+            font-size: 17px;
+        }
+    }
+}

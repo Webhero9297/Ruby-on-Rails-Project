@@ -1,0 +1,16 @@
+<p><%= t('users.secondary_email_information') %></p>
+<div id="secondary-email-address">
+  <% if @user.secondary_email.nil? %>
+    <div class="alert alert-info">
+      <%= t('users.secondary_email_optional_information') %>
+    </div>
+  <%- else -%>
+    <p><strong><%= @user.secondary_email %></strong></p>
+  <%- end -%>
+  <p>
+  <%= link_to(content_tag('i','', class: 'icon-edit') + ' ' + t('global.edit'), edit_secondary_email_user_path, remote: true, class: 'btn btn-small') %>
+  <% if @user.secondary_email.present? %>
+    <%= link_to(content_tag('i','', class: 'icon-white icon-trash'), delete_secondary_email_user_path, method: :delete, confirm: t('global.are_you_sure'), class: 'btn btn-danger') %>
+  <% end %>
+  </p>
+</div>

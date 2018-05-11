@@ -1,0 +1,125 @@
+@import "mixins";
+
+/* Agent */
+body#dashboard a#dashboard-link,
+body#member-management a#members-link,
+body#messages a#messages-link,
+body#exchanges a#exchange-link,
+body#translations a#translations-link,
+body#payment a#payment-link,
+body#countries a#countries-link,
+body#agent-profile a#profile-link {
+    background-color: #0f2d4d;
+    background-image: none;
+    color: $white;
+}
+
+/* Admin */
+body#dashboard a#dashboard-link,
+body#feedbacks a#feedbacks-link,
+body#agent-management a#agent-management-link,
+body#member-management a#member-management-link,
+body#translations a#translations-link,
+body#countries a#countries-link,
+body#reports a#reports-link {
+    color: $orange;
+    background-color: $white;
+}
+
+
+nav.section-nav .icon-chevron-right {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}
+
+
+.navbar-inner.navbar-agent {
+    background-color: #0063aa;
+    background-image: none;
+
+    a,
+    .nav a {
+        text-shadow: none;
+        color: #fff;
+        &:hover {
+            color: #0063aa;
+            background-color: #fff;
+        }
+    }
+}
+
+.navbar-inner.navbar-admin {
+    background-color: #e9600f;
+    background-image: none;
+
+    a,
+    .nav a {
+        text-shadow: none;
+        color: #fff;
+
+        &:hover {
+            color: #e9600f;
+            background-color: #fff;
+        }
+    }
+}
+
+.footer-content {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-content {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    &:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+}
+
+.result-notice {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+.expiration-date {
+    display: inline-block;
+}
+
+.masthead {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    @include box-sizing;
+}
+
+.masthead-actions {
+    float: right;
+    padding-top: 15px;
+    .dropdown,
+    .log-out-link {
+        float: left;
+        margin-right: 30px;
+    }
+}
+
+.logotype-link {
+    display: block;
+    float: left;
+}
+
+.logotype-image {
+    display: block;
+}
+
+.site-header .navbar {
+    clear: both;
+}

@@ -1,0 +1,63 @@
+<div class="row">
+  <div class="span3">
+    <%= render( partial: 'menu') %>
+  </div>
+  <div class="span9">
+
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('dashboards.header.documents') %></h1>
+        <p><%= t('dashboards.documents.information') %></p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th><%= t('global.document') %></th>
+              <th><%= t('global.size') %></th>
+              <th><%= t('global.download') %></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td><%= t('exchange_agreements.car_exchange_agreement') %></td>
+              <td>128 kB</td>
+              <td><a href="/documents/fr_gb_car_exchange_agreement.pdf"><%= t('global.download') %>&nbsp;<i class="icon-download-alt"></i></a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><%= t('exchange_agreements.car_exchange_agreement') %> (Microsoft Word)</td>
+              <td>56 kB</td>
+              <td><a href="/documents/fr_gb_car_exchange_agreement.doc"><%= t('global.download') %>&nbsp;<i class="icon-download-alt"></i></a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><%= t('exchange_agreements.about_exchange_agreements') %></td>
+              <td>22 kB</td>
+              <td><a href="/documents/en_GB_about_exchange_agreements.pdf"><%= t('global.download') %>&nbsp;<i class="icon-download-alt"></i></a></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><%= t('member_documents.checklists.before_you_go_home_text') %></td>
+              <td>15 kB</td>
+              <td><a href="/documents/en_GB_before_you_go_home.pdf"><%= t('global.download') %>&nbsp;<i class="icon-download-alt"></i></a></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td><%= t('exchange_agreements.document.new_member_tips') %></td>
+              <td>25 kB</td>
+              <td><a href="/documents/en_GB_new_member_tips.pdf"><%= t('global.download') %>&nbsp;<i class="icon-download-alt"></i></a></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td><%= t('member_documents.checklists.prepare_for_guests_text') %></td>
+              <td>20 kB</td>
+              <td><a href="/documents/en_GB_prepare_for_guests.pdf"><%= t('global.download') %>&nbsp;<i class="icon-download-alt"></i></a></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

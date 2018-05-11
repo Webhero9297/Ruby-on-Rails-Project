@@ -1,0 +1,54 @@
+<div class='favorite-filters'>
+  <div class='row'>
+
+    <div class='filter'>
+      <%= form_tag(favorites_path, method: 'get', id: "go-to-listing") do %>
+
+        <%= label_tag('listing-finder', t('favorites.label.go_to_listing')) %>
+
+        <div class="input-append goto-listing-container">
+          <%= text_field_tag('listing_number', @listing_number, maxlength: '12', placeholder: t('text_field.placeholder.listing_number'), id: 'listing-finder', autocomplete: :off) %>
+          <%= button_tag(t('button.go'), class: 'btn btn-info') %>
+        </div>
+
+      <% end %>
+    </div>
+
+    <div class='filter'>
+      <%= label_tag('listing-finder', t('favorites.label.show')) %>
+
+      <div class="input-append goto-listing-container inline-checkbox">
+        <%= check_box_tag('active_members') %>
+        <%= label_tag('active_members', t('favorites.label.show_only_active_members')) %>
+      </div>
+      <div class="input-append goto-listing-container inline-checkbox">
+        <%= check_box_tag('available_exchange') %>
+        <%= label_tag('available_exchange', t('favorites.label.show_only_available_exchange')) %>
+      </div>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='filter'>
+      <%= form_tag(favorites_path, method: 'get', id: "go-to-listing") do %>
+        <%= label_tag('listing-f  inder', t('favorites.label.find-by-name-listing')) %>
+
+        <div class="input-append goto-listing-container">
+          <%= text_field_tag('member_name', @member_name, maxlength: '12', placeholder: t('text_field.placeholder.member_name'), id: 'find-by-name-listing', autocomplete: :off) %>
+          <%= button_tag(t('button.search'), class: 'btn btn-info') %>
+        </div>
+      <% end %>
+    </div>
+    <div class='filter'>
+      <%= label_tag('listing-finder', t('favorites.label.order_by')) %>
+
+      <div class="input-append goto-listing-container">
+        <%= select_tag "order", options_for_select([ [t('favorites.order_country'), "Country"], [t('favorites.order_date_added'), "DateAdded"], [t('favorites.order_sleeping_capacity'), "SleepingCapacity"] ],[t('favorites.order_country'), "Country"]) %>
+      </div>
+      <noscript><%= t('favorites.label.no_javascript') %></noscript>
+    </div>
+
+  </div>
+
+
+</div>

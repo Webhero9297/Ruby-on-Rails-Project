@@ -1,0 +1,24 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th style="width: 20%">Feedback from</th>
+            <th style="width: 20%">Exchanged with</th>
+            <th style="width: 26%">Date</th>
+            <th style="width: 12%">Expectations</th>
+            <th style="width: 12%">Recommend</th>
+            <th style="width: 10%">View</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @feedbacks.each do |feedback| %>
+            <tr>
+                <td><%= feedback[:answered_by_agreement].listing_number %></td>
+                <td><%= feedback[:answered_on_agreement].listing_number %></td>
+                <td><%= standard_date_time(feedback[:feedback].viewed_at) %></td>
+                <td><%= feedback[:feedback].expectations %></td>
+                <td><%= feedback[:feedback].recommend %></td>
+                <td><%= link_to( 'View', exchange_feedback_url(feedback[:feedback]) ) %></td>
+            </tr>
+        <% end -%>
+    </tbody>
+</table>

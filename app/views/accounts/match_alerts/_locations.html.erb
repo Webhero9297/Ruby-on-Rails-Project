@@ -1,0 +1,7 @@
+ <%- if destinations.count > 0 -%>
+     <%- destinations.each do |destination| %>
+         <span class="label-keyword"><%= destination.destination %></span>
+     <% end %>
+ <% else %>
+     <%= t('global.all_over_the_world') %>
+ <%- end -%>

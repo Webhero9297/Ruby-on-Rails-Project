@@ -1,0 +1,21 @@
+<%= form_for(user, url: save_secondary_email_user_path, html: {class: 'form-vertical'}) do |f| -%>
+  <fieldset>
+    <% if @user_email.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@user_email.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+        <ul>
+          <% @user_email.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <%= f.label(:secondary_email, t('users.label.enter_new_email') ) %>
+    <%= f.email_field(:secondary_email, class: 'span12') %>
+    <%= hidden_field_tag('user[current_email]', user.email) %>
+  </fieldset>
+  <fieldset>
+    <%= f.button( t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to( t('button.cancel'), user_url, class: 'btn btn-link', id: "cancel-email") %>
+  </fieldset>
+<% end -%>

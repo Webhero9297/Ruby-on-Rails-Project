@@ -1,0 +1,55 @@
+<% if merchant_information.nil? %>
+<dl class="dl-horizontal">
+  <dt><%= t('global.name') %>:</dt>
+  <dd>Intervac International</dd>
+  
+  <dt><%= t('global.address') %>:</dt>
+  <dd>PO Box 1436</dd>
+  
+  <dt><%= t('global.postal_code') %>:</dt>
+  <dd>SE 114 79</dd>
+  
+  <dt><%= t('global.city') %>:</dt>
+  <dd>Stockholm</dd>
+  
+  <dt><%= t('sitewide.country') %>:</dt>
+  <dd>Sweden</dd>
+  
+  <dt><%= t('global.telephone') %>:</dt>
+  <dd>+46 855 924 195</dd>
+</dl>
+<% else %>
+<dl class="dl-horizontal">
+  <dt><%= t('global.name') %>:</dt>
+  <dd><%= merchant_information.name %></dd>
+
+  <dt><%= t('global.address') %>:</dt>
+  <dd><%= merchant_information.address %></dd>
+
+  <% if not merchant_information.email.nil? %>
+      <dt><%= t('global.postal_code') %>:</dt>
+      <dd><%= merchant_information.postal_code %></dd>
+  <% end %>
+
+  <dt><%= t('global.city') %>:</dt>
+  <dd><%= merchant_information.postal_town %></dd>
+
+  <dt><%= t('sitewide.country') %>:</dt>
+  <dd><%= merchant_information.country_name %></dd>
+
+  <% if not merchant_information.email.blank? %>
+      <dt><%= t('global.email') %>:</dt>
+      <dd><%= merchant_information.email %></dd>
+  <% end %>
+
+  <% if not merchant_information.phone.blank? %>
+      <dt><%= t('global.telephone') %>:</dt>
+      <dd><%= merchant_information.phone %></dd>
+  <% end %>
+
+  <% if not merchant_information.fax.blank? %>
+      <dt><%= t('global.fax') %>:</dt>
+      <dd><%= merchant_information.fax %></dd>
+  <% end %>
+</dl>
+<% end %>

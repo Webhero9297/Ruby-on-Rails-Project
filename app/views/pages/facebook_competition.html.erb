@@ -1,0 +1,43 @@
+<% body_id 'about-intervac' %>
+<% page_title t('visinfo_facebook_competitions.page.headline') %>
+<% page_description t('visinfo_facebook_competitions.page.headline') + " - " + t('visinfo_facts_about_intervac.page.subhead') %>
+<% page_keywords t('seo.keyword_set.facebook_competitions') %>
+<% section_image 'section-image-16' %>
+
+<div class="container">
+  <div class="row">
+    <%= render(:partial => 'pages/intervac/sub_menu') %>
+    <article class="page-content">
+      <h1 class="page-content-header">
+        <span class="page-content-header-label"><%= t('visinfo_facebook_competitions.page.headline') %></span>
+      </h1>
+
+      <h2><small><%= t('visinfo_facebook_competitions.page.subhead') %></small></h2>
+
+      <h2><%= t('visinfo_facebook_competitions.competitions.photo_competition.headline') %></h2>
+      <p><%= t('visinfo_facebook_competitions.competitions.photo_competition.introtext') %></p>
+
+      <h2><%= t('visinfo_facebook_competitions.rules_and_terms.headline') %></h2>
+
+      <h2><%= t('visinfo_facebook_competitions.rules_and_terms.participants.headline') %></h2>
+      <p><%= t('visinfo_facebook_competitions.rules_and_terms.participants.introtext') %></p>
+      <p><%= t('visinfo_facebook_competitions.rules_and_terms.participants.entries_allowed') %></p>
+      <p><%= t('visinfo_facebook_competitions.rules_and_terms.participants.under_18') %></p>
+
+      <h2><%= t('visinfo_facebook_competitions.rules_and_terms.timeline.headline') %></h2>
+      <p><%= t('visinfo_facebook_competitions.rules_and_terms.timeline.introtext') %></p>
+
+      <h2><%= t('visinfo_facebook_competitions.rules_and_terms.previously_published.headline') %></h2>
+      <p><%= t('visinfo_facebook_competitions.rules_and_terms.previously_published.introtext') %></p>
+
+      <h2><%= t('visinfo_facebook_competitions.prizes.headline') %></h2>
+      <p><%= t('visinfo_facebook_competitions.prizes.introtext') %></p>
+
+      <h2><%= t('visinfo_facebook_competitions.rules_and_terms.consent_and_copyright.headline') %></h2>
+      <p><%= t('visinfo_facebook_competitions.rules_and_terms.consent_and_copyright.introtext') %></p>
+
+      <h2><%= t('visinfo_facebook_competitions.rules_and_terms.our_rights.headline') %></h2>
+      <p><%= t('visinfo_facebook_competitions.rules_and_terms.our_rights.introtext') %></p>
+    </article>
+  </div>
+</div>

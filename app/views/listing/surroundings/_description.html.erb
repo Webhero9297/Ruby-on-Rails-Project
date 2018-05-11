@@ -1,0 +1,8 @@
+<section id="surroundings-description-text">
+    <div class="mb10">
+        <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_description_listing_surrounding_path(listing), remote: true, class: 'btn btn-small', id: 'btn-edit-surrounding') %>
+    </div>
+    <article>
+      <%= markdown_strip_tags(listing.surrounding) %>
+    </article>
+</section>

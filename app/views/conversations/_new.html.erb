@@ -1,0 +1,45 @@
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('conversation.header.new_message', {CONTACT_NAME: @member_account.contact.name}) %></h1>
+  </div>
+</div>
+
+<div class="row">
+  <%= form_for(@conversation, html: {id: 'message-form', class: 'well span8 message ajax-file'}) do |f| %>
+  <% if @conversation.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@conversation.errors.count, "error") %> prohibited this conversation from being saved:</h2>
+    <ul>
+      <% @conversation.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+  <fieldset>
+    <%= f.label(:subject, t('global.subject'), for: 'subject') %>
+    <%= f.text_field(:subject, size: 100, id: 'subject', class: 'span8 text-field') %>
+  </fieldset>
+
+  <fieldset>
+    <%= fields_for(:message) do |m| %>
+    <%= f.label(:body, 'Message:', for: 'message') %>
+    <%= m.text_area(:body, cols: 72, rows: 22, id: 'message', class: 'span8 text-field') -%>
+    <% end -%>
+  </fieldset>
+
+  <div style="margin-top: 20px;">
+    <label for="file-attachment">
+      <i class="icon-file"></i> <%= t('conversation.text.attach_file_to_message') %>
+    </label>
+    <%= file_field_tag(:file, id: 'file-attachment') %>
+  </div>
+
+  <fieldset>
+    <%= f.button(t('button.send'), class: 'btn btn-primary', disable_with: t('conversation.button.sending_message')) %>
+    <%= link_to(t('button.cancel'), conversations_url, class: 'cancel') %>
+    <%= hidden_field_tag('member_account_id', @member_account.id) %>
+  </fieldset>
+  <% end %>
+</div>

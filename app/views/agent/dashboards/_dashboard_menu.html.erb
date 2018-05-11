@@ -1,0 +1,8 @@
+<nav id="section-nav" role="secondary">
+  <ul class="nav nav-tabs">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to(t('global.overview'), management_agent_dashboard_path) %>
+    <%= n.li_link_to("#{t('Feedbacks')} #{number_of_unread_feedbacks(true)}", agent_feedbacks_url) %>
+    <% end -%>
+  </ul>
+</nav>

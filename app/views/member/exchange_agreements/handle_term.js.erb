@@ -1,0 +1,5 @@
+$("#modal-<%=@term_name%>").modal('hide');
+$("#modal-<%=@term_name%>").on('hidden', function (event) {
+  <%= render(:partial => '/layouts/dashboards/ajax_notifications')%>
+});
+$('div[data-exchange-term="term-<%= @term_name %>"]').replaceWith("<%= escape_javascript(render(partial: 'term_buttons', object: @partner_agreement.send(@term_name), as: 'term', locals: {prefix: @term_name})) %>");

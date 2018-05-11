@@ -1,0 +1,13 @@
+<tr id="<%= adult.id %>">
+  <td>
+    <%= adult.occupation %>
+  </td>
+  <td>
+    <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_profiles_adult_url(account, adult.id), remote: true) %>
+  </td>
+  <td>
+  	<%- if account.profile.adults.count > 1 -%>
+    <%= link_to(content_tag('i','', class: 'icon-trash') + ' ' + t('global.remove'), account_profiles_adult_url(account, adult.id, format: :js), method: :delete, remote: true, confirm: 'Are you sure you want to delete this occupation?') %>
+    <%- end -%>
+  </td>
+</tr>

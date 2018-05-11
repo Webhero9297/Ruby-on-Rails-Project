@@ -1,0 +1,58 @@
+<div class="row-fluid">
+    <div class="span3">
+        <%= render(partial: 'conversation_menu') %>
+    </div>
+    <div class="span9">
+            <div class="plate">
+                <%= render(locals: {section_id: 'message-envelopes', header: t('conversation.header.inbox')}, layout: '/layouts/modules/plate_section') do %>
+
+                    <section>
+                        <%= form_tag(member_agent_conversations_index_conversations_path, method: :get, id: 'conversation-form', class: 'mb10 mt20') do %>
+
+                            <div class="btn-toolbar">
+                                <div class="btn-group mr20">
+                                    <%= label_tag('conversations-all', class: 'btn btn-small send-form-data') do %>
+                                        <%= t('global.all') %>
+                                        <%= radio_button_tag('f', 'all', conversation_all_or_unread?('all', params[:f]), class: 'conversations-option conversations-filter', id: 'conversations-all') %>
+                                    <% end %>
+
+                                    <%= label_tag('conversations-unread', class: 'btn btn-small send-form-data') do %>
+                                        <%= t('global.unread') %>
+                                        <%= radio_button_tag('f', 'unread', conversation_all_or_unread?('unread', params[:f]), class: 'conversations-option conversations-filter', id: 'conversations-unread') %>
+                                    <% end %>
+                                </div>
+
+                                <div class="btn-group mr20">
+                                    <%= label_tag('conversations-last', class: 'btn btn-small send-form-data') do %>
+                                        <%= t('global.latest') %>
+                                        <%= radio_button_tag('d', 'last', conversation_last_or_first?('last', params[:d]), class: 'conversations-option conversations-order', id: 'conversations-last') %>
+                                    <% end %>
+
+                                    <%= label_tag('conversations-first', class: 'btn btn-small send-form-data') do %>
+                                        <%= t('global.oldest') %>
+                                        <%= radio_button_tag('d', 'first', conversation_last_or_first?('first', params[:d]), class: 'conversations-option conversations-order', id: 'conversations-first') %>
+                                    <% end %>
+                                </div>
+
+                            </div>
+                        <% end %>
+                    </section>
+
+                    <%= render(partial: 'conversations/agent_conversations_table') %>
+                <% end %>
+            </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+
+  set_active_filter('conversations-filter', 'conversations-all');
+  set_active_filter('conversations-order', 'conversations-last');
+
+  add_archive_conversation_events();
+  add_delete_conversation_events();
+
+  add_conversation_form_events();
+
+</script>

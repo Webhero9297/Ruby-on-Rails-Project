@@ -1,0 +1,8 @@
+<div class="mt-slider-slide">
+    <%= image_tag(photo.image.size_458, width: 458, height: 333, alt: truncate_alt_text(photo.caption), class: 'mt-slider-image') %>
+    <% unless photo.caption.blank? %>
+        <p class="mt-slider-caption">
+            <%= photo.caption.truncate(128) %>
+        </p>
+    <% end %>
+</div>

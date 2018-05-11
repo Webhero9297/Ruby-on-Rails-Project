@@ -1,0 +1,22 @@
+<% body_id 'no-access' %>
+<% page_title t('pages.access_restricted') %>
+<% page_description '' %>
+<% section_image 'section-image-7' %>
+
+<div class="row">
+  <div class="wide">
+    <h1 class="top-header left">
+        <span class="top-header-label"><%= t('pages.access_restricted') %></span>
+    </h1>
+    <div class="alert alert-warning">
+      <p class="alert-message"><%= t('pages.alert.message.you_do_not_have_access_to_this_part') %></p>
+    </div>
+
+    <% if user_signed_in? then %>
+      <p><%= t('pages.no_access.use_the_back_button') %> <%= link_to(t('global.listings'), listings_url) %></p>
+    <% else %>
+      <p><%= t('pages.no_access.phrase.not_logged_in_start') %> <%= link_to(t('pages.no_access.log_in_here'), login_url) %> <%= t('pages.no_access.info.text.enjoy_benefits_of_intervac') %></p>
+    <% end %>
+    <p><%= t('global.phrases.have_a_really_nice_day') %></p>
+  </div>
+</div>

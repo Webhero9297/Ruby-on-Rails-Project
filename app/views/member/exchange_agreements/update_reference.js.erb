@@ -1,0 +1,5 @@
+<%= render(:partial => '/layouts/dashboards/ajax_notifications')%>
+
+<% unless @exchange_approval_requests %>
+    $('#exchange-approval-requests').remove();
+<% end %>

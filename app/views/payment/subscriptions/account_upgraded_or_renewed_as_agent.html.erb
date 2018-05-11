@@ -1,0 +1,39 @@
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+        <article>
+          <% if @subscription.renewal %>
+            <h1 class="plate-header">You have successfully renewed the membership</h1>
+            <p>You successfully renewed the membership for <strong><%= @contact.name %> - <%= @contact.email %></strong></p>
+          <%- else -%>
+            <h1 class="plate-header">You have upgraded a trial member to full membership</h1>
+            <p>You successfully upgraded <strong><%= @contact.name %> - <%= @contact.email %></strong> to a full membership</p>
+          <%- end -%>
+
+          <dl class="dl-horizontal">
+            <dt>Order number:</dt>
+            <dd><%= @subscription.order_number %></dd>
+
+            <dt>Membership:</dt>
+            <dd><%= @subscription.name %></dd>
+            
+            <dt>Duration:</dt>
+            <dd><%= @subscription.duration %> <%= @subscription.periodicity %></dd>
+            
+            <% if @subscription.renewal %>
+              <dt>Renewed:</dt>
+            <% else %>
+              <dt>Upgraded:</dt>
+            <% end %>
+            <dd><%= standard_date(@subscription.created_at) %></dd>
+              
+            <dt>Expires:</dt>
+            <dd><%= standard_date(@subscription.expires_at) %></dd>
+          </dl>
+        </article>
+        <p>Back to the <%= link_to('account overview', account_path(@account)) %></p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<section id="feedback" class="secondary">
+  <h1 class="secondary"><%= t('dashboard.headers.help_us_improve_intervac') %></h1>
+  <article>
+    <p><%= t('dashboards.feedback.text.help_us_improve_intervac') %></p>
+  </article>
+  <%= link_to(content_tag('i','', class: 'icon-pencil') + ' ' + t('button.give_feedback'), new_member_feedback_url, class: "btn") %>
+</section>

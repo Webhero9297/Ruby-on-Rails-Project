@@ -1,0 +1,21 @@
+<%= t('billing.new_offline_payment') %>
+----------------------------------------------------------------------
+
+<%= t('global.membership') %>: <%= @price_plan.name %>
+<%= t('global.duration') %>: <%= @price_plan.duration%> <%= @price_plan.periodicity %>
+<%= t('global.price') %>: <%= "%.2f" % @order.total_amount %> <%= @order.currency %>
+<%= t('global.order_number') %>: <%= @order.order_number %>
+
+
+<%= t('global.buyer') %>
+----------------------------------------------------------------------
+
+<%= t('listings.label.listing_number') %>:<%= @user.account.listings.map(&:listing_number).join(', ') if @user.account.listings.any? %>
+<%= t('accounts.account_number') %>: <%= @user.account.account_number %>
+<%= t('global.name') %>: <%= @order.transactions.first.params['fullname'] %>
+<%= t('global.street') %>: <%= @order.transactions.first.params['street'] %>
+<%= t('global.postal_code') %>: <%= @order.transactions.first.params['postal_code'] %>
+<%= t('global.city') %>: <%= @order.transactions.first.params['city'] %>
+<%= t('sitewide.country') %>: <%= @order.transactions.first.params['country'] %>
+<%= t('global.phone') %>: <%= @order.transactions.first.params['phone'] %>
+<%= t('global.email') %>: <%= @user.account.contact.email %>

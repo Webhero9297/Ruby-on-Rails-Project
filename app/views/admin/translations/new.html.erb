@@ -1,0 +1,58 @@
+<% body_id 'translations' %>
+<section class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <div class="plate-content">
+
+        <h1 class="plate-header">Create a new translation</h1>
+        <%= form_for(@translations, url: admin_translations_url, class: 'form-vertical') do |f| %>
+          <fieldset>
+            <%= f.label(:msgid, "Msgid") %>
+            <%= f.text_field(:msgid, :class => "typeahead-msgid input-xxlarge", :autocomplete => "off") %>
+          
+            <%= f.label(:value, "Translation") %>
+            <%= f.text_field(:value, class: 'input-xxlarge') %>
+          
+            <%= f.label(:category, "Category") %>
+            <%= f.text_field(:category, :value => 'other', :class => "typeahead input-xxlarge", :'data-source' => @categories.to_json, :autocomplete => "off") %>
+          
+            <%= f.label(:field_codes, "Placeholders") %>
+            <%= f.text_field :field_codes, class: 'input-xxlarge' %>
+          
+            <%= f.label(:locale, "Locale") %>
+            <%= f.text_field(:locale, :value => 'en', :readonly => true, class: 'input-mini') %>
+          </fieldset>
+
+          <fieldset class="form-actions">
+            <%= f.button('Save', class: 'btn btn-primary') %>
+            <%= link_to(t('button.cancel'), admin_translations_url, class: 'btn btn-link') %>
+          </fieldset>
+         <% end %>
+
+      </div>
+    </div>
+  </div>
+</section>
+  
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      setup_autocomplete_for_categories();
+  });
+
+
+  $('.typeahead-msgid').typeahead({
+  source: function(query, process) {
+      $.ajax({
+          url: '/admin/translations/get-autocomplete-items',
+          type: 'GET',
+          data: {term: query},
+          dataType: 'json',
+          success: function (json) {
+            return process(json);
+          }
+      });
+  },
+  minLength: 3,
+  matcher: function (param) {return true}
+});
+</script>

@@ -1,0 +1,86 @@
+<% body_id 'about-intervac' %>
+<% page_title t('visinfo_national_representatives.page.headline') %>
+<% page_description t('visinfo_national_representatives.page.headline') + " - " + t('visinfo_national_representatives.bd.headline') %>
+<% page_keywords t('seo.keyword_set.visinfo.national_representatives') %>
+<% section_image 'section-image-9' %>
+
+<div class="row">
+  <%= render(:partial => 'pages/intervac/sub_menu') %>
+  <div class="page-content">
+    <article class="page-content-section">
+      <h1 class="page-content-header">
+        <span class="page-content-header-label"><%= t('visinfo_national_representatives.page.headline') %></span>
+      </h1>
+      <h2 class="article"><small><%= t('visinfo_national_representatives.page.sub_header') %></small></h2>
+
+      <%= image_tag('national-representatives-montage.png', :alt=>"Intervac Home Exchange national representatives", :width => '600', :class => 'page') %>
+      <p><%= t('visinfo_national_representatives.organizers.text') %></p>
+
+      <p><%= link_to(t('pages.contact_national_representative_link'), representatives_url, class: 'btn green') %></p>
+    </article>
+
+    <article class=page-content-section>
+      <h1 class=page-content-header>
+        <span class="page-content-header-label"><%= t('visinfo_national_representatives.bd.headline') %></span>
+      </h1>
+      <p><%= t('visinfo_national_representatives.bd.introtext') %></p>
+
+      <h2 class="article"><small><%= t('visinfo_national_representatives.current_board.headline') %></small></h2>
+
+      <div id="board">
+        <div id="bd1" class="board-member">
+          <%= image_tag('board/kristina-calliaud.jpg', width: 150, height: 140, alt: 'Kristina Caillaud', class: 'board-member') %>
+          <span class="board-member"><%= t('sitewide.greeting.mrs') %> Kristina Caillaud</span>
+          <span class="country">- Intervac FR</span>
+        </div>
+
+        <div id="bd2" class="board-member">
+          <%= image_tag('board/karl-gemfeldt.jpg', width: 150, height: 140, alt: 'Karl Gemfeldt', class: 'board-member') %>
+          <span class="board-member"><%= t('sitewide.greeting.mr') %> Karl Gemfeldt</span>
+          <span class="country">- Intervac SE</span>
+        </div>
+
+        <div id="bd3" class="board-member">
+          <%= image_tag('board/sesselja-traustadottir.jpg', width: 150, height: 140, alt: 'Sesselja Traustadottir', class: 'board-member') %>
+          <span class="board-member"><%= t('sitewide.greeting.mrs') %> Sesselja Traustadóttir</span>
+          <span class="country">- Intervac IS</span>
+        </div>
+
+        <div id="bd4" class="board-member">
+          <%= image_tag('board/trude-hoel.jpg', width: 150, height: 140, alt: 'Trude Hoel', class: 'board-member') %>
+          <span class="board-member"><%= t('sitewide.greeting.mrs') %> Trude Hoel</span>
+          <span class="country">- Intervac NO</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="page-content-section">
+      <h1 class="page-content-header">
+        <span class="page-content-header-label"><%= t('visinfo_national_representatives.mailing_address.headline') %></span>
+      </h1>
+      <div id="mailing-address" class="vcard">
+        <div class="org">Intervac International</div>
+        <div class="adr">
+          <div class="street-address">PO Box 1436</div>
+          <span class="postal-code">SE 114 79</span>
+          <span class="locality">Stockholm</span>
+          <span class="country-name">SWEDEN</span>
+        </div>
+        <div class="tel"><%= t('global.telephone') %> +46 855 924 195</div>
+        <div class="email"><%= t('global.email') %> <a href="mailto:the-board@intervac.org">the-board@intervac.org</a></div>
+      </div>
+    </article>
+
+    <article class="page-content-section">
+      <h1 class="page-content-header">
+        <span class="page-content-header-label"><%= t('visinfo_national_representatives.agm.headline') %></span>
+      </h1>
+      <p><%= t('visinfo_national_representatives.agm.introtext') %></p>
+      <ul>
+        <li><%= t('visinfo_national_representatives.agm.2017') %></li>
+        <li><%= t('visinfo_national_representatives.agm.2018') %></li>
+        <li><%= t('visinfo_national_representatives.agm.2019') %></li>
+      </ul>
+    </article>
+  </div>
+</div>

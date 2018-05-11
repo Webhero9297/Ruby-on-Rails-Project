@@ -1,0 +1,11 @@
+<h2 class="sidebar-header"><%= t('filters.sorting') %></h2>
+<ul class="unstyled">
+  <li>
+    <% @order_by_hash.each_pair do |term, display| %>
+      <%= label_tag "order_by", for: "id-#{term}", class:"radio" do %>
+        <%= radio_button_tag("order_by", term, @order_by == term, id: "id-#{term}", class: "preference-filter") %>
+        <%= display %>
+      <% end %>
+    <% end %>
+  </li>
+</ul>

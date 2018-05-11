@@ -1,0 +1,178 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 12pt;
+}
+
+p {
+    font-size: 12pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+h1,
+.page-header {
+    font-size: 17pt;
+}
+
+h1.exchange-agreement {
+    font-size: 13pt;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+h2.exchange-agreement {
+    padding-top: 8px;
+    margin-bottom: 18px;
+    font-size: 13pt;
+    border-top: 1px solid #a2a2a2;
+}
+
+.row {
+    margin-bottom: 30px;
+    &.top {
+        margin-bottom: 10px;
+    }
+}
+
+.well,
+div.well {
+  min-height: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 0;
+  -webkit-border-radius: none;
+     -moz-border-radius: none;
+          border-radius: none;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.label {
+    display: inline-block;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 14px;
+    color: #111111;
+    text-shadow: none;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #e2e2e2;
+    margin-bottom: 12px;
+}
+
+.label {
+    padding: 1px 4px 2px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #222222;
+    text-shadow: none;
+    background-color: #ffffff;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.alert-success,
+.alert-info {
+    color: #222222;
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+div.terms {
+    font-size: 12pt;
+    p {
+        font-size: 12pt;
+    }
+}
+
+div.exchange-contact span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+span.participants {
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 40%;
+}
+
+ul.participants {
+    margin: 0;
+    padding: 0;
+    li {
+        margin: 0 0 12px 0;
+        padding: 0;
+        list-style: none;
+        span.name {
+            display: inline-block;
+            width: 40%;
+        }
+        span.age {
+            display: inline-block;
+            width: 40%;
+        }
+    }
+}
+
+header nav,
+header #user-navigation,
+footer,
+nav.menu,
+.btn-print-agreement,
+a.btn,
+.show-contact-info,
+#user-menu-wrapper,
+#public-menu-wrapper,
+header.dashboard,
+.site-header,
+.print-hide{
+    display: none;
+}
+
+a.logotype {
+    display: block;
+}
+
+#exchangesexchanges .span3 {
+    display: none;
+}
+
+#exchangesexchanges .container {
+    width: 90%;
+}
+
+#exchangesexchanges .span9,
+#exchangesexchanges .row {
+    width: 100%;
+}
+
+.plate-header {
+    border-bottom: 1px solid #cccccc;
+    font-weight: normal;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.plate-section-header {
+    font-size: 14pt;
+    margin-bottom: 10px;
+}

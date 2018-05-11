@@ -1,0 +1,2 @@
+$('#btn-favorite').attr('href', '<%= mobile_remove_as_favorite_path(@listing_id) %>');
+$('#btn-favorite').find('span.ui-btn-text').first().text("<%= t('mobile.listings.details.remove_favorite') %>");

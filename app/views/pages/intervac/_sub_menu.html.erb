@@ -1,0 +1,36 @@
+<section class="aside">
+  <nav role="navigation" class="sub-menu">
+    <ul class="sub-menu-items">
+      <% highlight_current_link(:class => 'sub-menu-link active') do |n| -%>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_facts_about_intervac.page.headline'), facts_about_intervac_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_membership_with_intervac.page.headline'), membership_with_intervac_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_secure_exchanges.page.headline'), secure_exchanges_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('visinfo_national_representatives.page.headline'), local_representatives_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('testimonials.page.headline'), words_from_our_members_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('pages.said_about_us_in_the_press'), press_coverage_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('guarantee.page.headline'), our_guarantee_url, class: 'sub-menu-link') %>
+        </li>
+        <li class="sub-menu-item">
+          <%= n.link_to(t('pages.link.facebook_competition'), facebook_competition_path, class: 'sub-menu-link') %>
+        </li>
+      <% end -%>
+    </ul>
+  </nav>
+
+  <%= render(:partial => 'pages/trial_account_sidebox') %>
+  <%= render(:partial => 'pages/news_letter_sidebox') %>
+  <%= render(:partial => 'pages/feedback_sidebox') %>
+</section>

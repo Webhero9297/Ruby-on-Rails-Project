@@ -1,0 +1,2 @@
+$('#btn-new-adult').hide();
+$('tr#<%= @adult.id %>').replaceWith('<tr id="<%= @adult.id %>"><td colspan="3"><%= escape_javascript(render(partial: "/accounts/profiles/adults/edit_form")) %></td></tr>');

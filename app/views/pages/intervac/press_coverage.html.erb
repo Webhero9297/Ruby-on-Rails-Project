@@ -1,0 +1,15 @@
+<% body_id 'about-intervac' %>
+<% page_title t('pages.page_title.intervac_press_media') %>
+<% page_description t('pages.press_coverage.page_description') %>
+<% page_keywords t('pages.keywords.press_coverage') %>
+<% section_image 'section-image-13' %>
+
+<div class="row">
+    <%= render(:partial => 'pages/intervac/sub_menu') %>
+    <article class="page-content">
+        <h1 class="page-content-header">
+            <span class="page-content-header-label"><%= t('pages.header.said_about_intervac_in_the_press') %></span>
+        </h1>
+        <%= markdown(t('pages.press_coverage.body')) %>
+    </article>
+</div>

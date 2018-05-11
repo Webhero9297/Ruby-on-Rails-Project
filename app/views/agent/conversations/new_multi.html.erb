@@ -1,0 +1,44 @@
+  <div class="row-fluid">
+    <div class="span12">
+      <h1 class="page-header">New message to:
+      <% @member_accounts.each do |account| %>
+        <%= account.contact.name %> (<%= account.account_number -%>),
+      <% end %>
+      </h1>
+    </div>  
+  </div>
+
+  <div class="row">
+      <%= form_for(@conversation, url: create_multi_conversations_url, html: {id: 'message-form', class: 'well span8 message'}) do |f| %>
+        <% if @conversation.errors.any? %>
+          <div id="error_explanation">
+            <h2><%= pluralize(@conversation.errors.count, "error") %> prohibited this conversation from being saved:</h2>
+            <ul>
+            <% @conversation.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+            </ul>
+          </div>
+        <% end %>
+  
+        <fieldset>
+          <%= f.label(:subject, t('global.subject'), for: 'subject') %>
+          <%= f.text_field(:subject, size: 100, id: 'subject', class: 'span8 text-field') %>
+        </fieldset>
+  
+        <fieldset>
+          <%= fields_for(:message) do |m| %>
+            <%= f.label(:body, 'Message:', for: 'message') %>
+            <%= m.text_area(:body, cols: 72, rows: 22, id: 'message', class: 'span8 text-field') -%>
+          <% end -%>
+        </fieldset>
+  
+        <fieldset>
+          <%= f.button(t('conversations.send_message'), class: 'btn btn-primary') %>
+          <%= link_to('Cancel', conversations_url, class: 'cancel') %>
+          <% @member_accounts.each do |account| %>
+            <%= hidden_field_tag('member_accounts[]', account.id, id: "member-accounts-#{account.id}") %>
+          <% end -%>
+        </fieldset>
+      <% end %>
+  </div>

@@ -1,0 +1,10 @@
+$("form").on('change', "[data-class='message-template-selector']", function () {
+  if (this.value === '' || this.value === undefined) {
+    $('[data-class="message-template-target"]').val('');
+    return;
+  }
+
+  $.ajaxSetup({cache: false});
+
+  $.get('/get-message-template/' + this.value + '.js');
+});

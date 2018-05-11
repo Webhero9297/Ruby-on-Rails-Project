@@ -1,0 +1,145 @@
+<div class="row">
+  <div class="listing-info-col">
+
+    <h3 class="listing-info-header"><%= t('global.family') %></h3>
+    <ul class="bullet-list">
+      <li><%= @listing.account.profile.number_of_adults %> <%= t('global.adults') %></li>
+      <li><%= @listing.account.profile.number_of_children -%> <%= t('global.children') %></li>
+      <li><%= @listing.account.exchanges_made %> <%= t('accounts.label.exchanges_made') %></li>
+    </ul>
+
+    <h3 class="listing-info-header"><%= t('global.occupation') %></h3>
+    <ul class="bullet-list">
+      <% @listing.account.profile.adults.each do |adult| -%>
+        <li><%= adult.occupation %></li>
+      <% end %>
+    </ul>
+
+    <h3 class="listing-info-header"><%= t('listings.label.home') %></h3>
+    <ul class="bullet-list">
+      <li><%= t('listings.label.house_type') %>:
+        <%= t(@listing.property_type) %>
+      </li>
+      <% unless @listing.floor.blank? %>
+        <li>
+          <%= t('listings.label.floor') %>:
+          <%= @listing.floor %>
+        </li>
+      <% end %>
+      <li>
+        <%= t('listing.guide.label.environment') %>:
+        <%= t(@listing.environment) %>
+      </li>
+      <li>
+        <%= t('global.bedrooms') %>:
+        <%= @listing.bedrooms %>
+      </li>
+      <li>
+        <%= t('global.bathrooms') %>:
+        <%= @listing.bathrooms %>
+      </li>
+      <li>
+        <%= t('listings.label.sleeping_capacity') %>:
+        <%= @listing.sleeping_capacity %>
+      </li>
+      <% if @listing.living_area.present? %>
+        <li>
+          <%= t('listings.label.living_area') %>:
+          <%= [@listing.living_area, @listing.living_area_unit].join(' ') %>
+        </li>
+      <% end %>
+      <% if @listing.total_area.present? %>
+        <li>
+          <%= t('listings.label.total_area') %>:
+          <%= [@listing.total_area, @listing.total_area_unit].join(' ') %>
+        </li>
+      <% end %>
+    </ul>
+
+    <% if @references.length > 0 %>
+      <h3 class="listing-info-header"><%= t('listing.references') %></h3>
+      <ul class="bullet-list">
+        <% @references.each do |reference| %>
+          <li>
+            <%= link_to(reference, listing_path(reference)) %>
+          </li>
+        <% end %>
+      </ul>
+    <% end %>
+  </div>
+
+
+  <div class="listing-info-col">
+    <h3 class="listing-info-header"><%= t('listings.label.in_my_house') %></h3>
+    <ul class="bullet-list">
+      <li><%= t('global.pets') %> - <%= @listing.property_details.include?('tag.no_pets') ? t('global.disallowed') : t('global.allowed') %></li>
+      <li><%= t('filters.small_children') %> - <%= @listing.property_details.include?('tag.no_small_children') ? t('global.disallowed') : t('global.allowed') %></li>
+    </ul>
+
+    <h3 class="listing-info-header"><%=t('visinfo_membership_with_intervac.search_facilities_list.exchange_types')%></h3>
+    <ul class="bullet-list">
+      <% @exchange_types.each do |exchange_type| %>
+        <li><%= t(exchange_type)%> </li>
+      <% end %>
+    </ul>
+
+    <% if (@listing.property_details & house_attributes_indoor).count > 0 %>
+      <h3 class="listing-info-header"><%= t('listings.label.indoor-properties') %></h3>
+      <ul class="bullet-list">
+        <%= render(partial: '/member/listings/listing_list_item_filter', collection: order_property_details(@property_details, house_attributes_indoor), as: :property_detail, locals: {rules_filter: house_attributes_indoor, listing: @listing} ) %>
+      </ul>
+    <% end %>
+    <% if (@listing.property_details & house_attributes_outdoor).count > 0 %>
+      <h3 class="listing-info-header"><%= t('listings.label.outdoor-properties') %></h3>
+      <ul class="bullet-list">
+        <%= render(partial: '/member/listings/listing_list_item_filter', collection: order_property_details(@property_details, house_attributes_outdoor), as: :property_detail, locals: {rules_filter: house_attributes_outdoor, listing: @listing} ) %>
+        <% if @listing.bicycles.present? && @listing.bicycles > 0 %>
+          <li>
+            <%= t('tag.bicycles') %>:
+            <%= @listing.bicycles %>
+          </li>
+        <% end %>
+      </ul>
+    <% end %>
+    <% if (@listing.property_details & house_attributes).count > 0 %>
+      <h3 class="listing-info-header"><%= t('global.facilities') %></h3>
+      <ul class="bullet-list">
+        <%= render(partial: '/member/listings/listing_list_item_filter', collection: order_property_details(@property_details, house_attributes), as: :property_detail, locals: {rules_filter: house_attributes, listing: @listing} ) %>
+      </ul>
+    <% end %>
+  </div>
+
+  <div class="listing-info-col">
+    <h3 class="listing-info-header"><%= t('listing.header.destination_wishlist') %></h3>
+    <ul class="bullet-list">
+      <% if @open_for_all.present? && @open_for_all %>
+        <li><%= t('exchangetype.open_for_all_offers') %></li>
+      <% end %>
+      <%- @wish_list.each do |item| -%>
+        <li><%= item.destination %></li>
+      <%- end -%>
+    </ul>
+    <h3 class="listing-info-header"><%= t('account.header.spoken_languages') %></h3>
+    <ul class="bullet-list">
+      <% @listing.account.profile.spoken_languages.each do |language| %>
+        <li><%= t(language) %></li>
+      <% end %>
+    </ul>
+
+    <%- if show_listing_contact_information(current_user, @account) -%>
+      <h3 class="listing-info-header"><%= t('global.contact') %></h3>
+      <ul class="unstyled">
+        <%= default_list_item(t('global.first_last_name'), @account.contact.name) %>
+        <%= default_list_item(t('global.address'), @account.contact.address) %>
+        <%= default_list_item(t('global.city'), @account.contact.postal_town) %>
+        <%= default_list_item(t('global.postal_code'), @account.contact.postal_code) %>
+        <%= default_list_item(t('global.state'), @account.contact.county) %>
+        <%= default_list_item(t('global.telephone'), @account.contact.telephone) %>
+        <%= default_list_item(t('global.mobile'), @account.contact.mobile) %>
+        <%= default_list_item(t('global.fax'), @account.contact.fax) %>
+        <%= default_list_item(t('global.skype'), @account.contact.skype) %>
+        <%= default_list_item(t('global.website'), @account.contact.website.present? ? link_to(@account.contact.website, addhttp(@account.contact.website), target: "_blank") : nil) %>
+      </ul>
+    <%- end -%>
+  </div>
+</div>

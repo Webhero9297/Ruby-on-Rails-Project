@@ -1,0 +1,35 @@
+<h1 style='font-size: 19px; font-weight: normal;'>
+  <%= t('mailer.added_as_favorite.member_from', {:COUNTRY => t(@user_country) , :locale => @locale}) %>
+</h1>
+<h1 style='font-size: 16px; font-weight: normal;'>
+  <%= t('mailer.added_as_favorite.your_listing_was_added', {:LISTING => @listing.listing_number , :locale => @locale}) %><br/>
+</h1>
+
+<% @user.account.listings.each do |listing| %>
+  <div class="listing">
+      <% if listing.get_main_photo %>
+        <div class="image"><%= link_to(image_tag(external_domain_link(listing.get_main_photo.image.size_170), width: 170, alt: listing.listing_number), external_domain_link(listing_path(listing))) %></div>
+      <% end %>
+      <p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 18px;'><%= link_to(listing.listing_number, external_domain_link(listing_path(listing))) %>, <%= @user.name %></p>
+      <p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 18px;'> <%= listing.postal_town %>, <%= t(listing.country, :locale => @locale) %></p>
+  </div>
+<% end %>
+
+
+<p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 30px;'>
+  <%= t('mailer.added_as_favorite.you_might_be_interested', {:LOGIN => link_to(t('button.login',  :locale => @locale), external_domain_link(login_path)), :locale => @locale }) %>
+</p>
+
+<p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 0px;'>
+  <%= t('mailer.added_as_favorite.automatic_message', :locale => @locale) %>
+</p>
+<p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 30px;'>
+  <%= t('mailer.added_as_favorite.stop_notifications', :locale => @locale) %>
+</p>
+
+<p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 0px;'>
+  <%= t('automated_messages.exchange_agreement.happy_exchange', :locale => @locale) %>
+</p>
+<p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 18px;'>
+  <%= t('automated_messages.exchange_agreement.intervac_team', :locale => @locale) %>
+</p>

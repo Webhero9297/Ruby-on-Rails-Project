@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intervac Home Exchange - <%= content_for?(:title) ? yield(:title) : "Intervac Home Exchange Latest listings" %></title>
+    <meta name="description" content="<%= content_for?(:meta_description) ? yield(:meta_description) : "Browse or search the homes you can exchange to. Search is available to both members and guests. Find the perfect exchange partner today." %>"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="google-site-verification" content="5Se5ljsBtzO9WLREhKoxv2oEotHCEBJgQaKqVGGMNUA"/>
+    <meta name="bitly-verification" content="e4730fbb8fa8"/>
+    <%= csrf_meta_tags %>
+    <link rel="canonical" href="https://www.intervac-homeexchange.com<%= request.original_fullpath %>"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <%= stylesheet_link_tag "dashboard", media: 'screen' %>
+    <%= stylesheet_link_tag "prints", media: 'print' %>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGe-s8HNb_69rUJAk92C-30AhzBZDsSJc&v=3&libraries=places,geometry&language=en" type="text/javascript"></script>
+    <%= javascript_include_tag "search" %>
+    <%= render(partial: '/layouts/google_analytics') %>
+    <%= render(partial: '/layouts/hotjar') %>
+    <%= render(partial: '/layouts/livechat') %>
+</head>
+<body <%= yield(:body_id) ? "id=\"#{yield(:body_id)}\"".html_safe : 'id="page"' -%>>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+    <%= render(partial: 'layouts/dashboards/inline_notifications') %>
+    <%= render(partial: 'layouts/dashboard_switcher') %>
+
+    <div class="container clearfix" style="text-align: right;">
+    	<%= render('/layouts/header_actions') %>
+    </div>
+
+    <header class="site-header wide">
+    	<div class="container">
+        <%= link_to('/', class: 'logotype-link logotype-search') do %>
+          <%= image_tag("intervac-home-exchange.png", alt: 'Intervac Home Exchange', class: "logotype-image", width: 195, height: 39) %>
+          <span class="logotype-tag-line">The original home exchange service</span>
+        <% end %>
+        <% if current_user.nil? %>
+          <%= link_to(price_plans_path, class: 'free-trail-button visible-lg visible-md') do %>
+            <%= t('homepage.free_membership_button') %><i class="fa fa-arrow-circle-right"></i>
+          <% end %>
+        <% end %>
+
+        <div class="fb-like facebook-button"
+          data-href="https://www.facebook.com/IntervacHomeexchange/"
+          data-width="235"
+          data-action="like"
+          data-show-faces="true"
+          data-share="true">
+        </div>
+      </div>
+        <%- if show_menu? -%>
+        <nav class="search-main-menu">
+        	<div class="container">
+	            <ul class="search-main-menu-items">
+	                <li class="search-main-menu-item">
+	                    <%= link_to(t('navigation.public_navigation.home'), root_path, title: t('navigation.public_navigation.listings_title'), class: 'search-main-menu-link', id: 'home-link') %>
+	                </li>
+	                <li class="search-main-menu-item"><%= link_to(t('navigation.public_navigation.listings'), searches_index_path, class: 'search-main-menu-link', id: 'search-link') %></li>
+	                <li class="search-main-menu-item"><%= link_to(t('navigation.public_navigation.home_exchange'), what_is_home_exchange_path, class: 'search-main-menu-link') %></li>
+	                <li class="search-main-menu-item"><%= link_to(t('navigation.public_navigation.about_us'), facts_about_intervac_path, class: 'search-main-menu-link') %></li>
+	                <li class="search-main-menu-item"><%= link_to(t('homepage.national_representatives.headline'), representatives_path, class: 'search-main-menu-link') %></li>
+                  <li class="search-main-menu-item"><%= link_to(t('homepage.price_plans.headline'), price_plans_path, class: 'search-main-menu-link')%></li>
+                  <li class="search-main-menu-item"><%= link_to(t('homepage.faq.headline'), faq_path, class: 'search-main-menu-link') %></li>
+	            </ul>
+			</div>
+        </nav>
+        <%- end -%>
+    </header>
+
+    <div id="content" class="search-content">
+        <%= yield %>
+    </div>
+
+    <footer class="site-footer">
+        <p>Copyright &copy; <%= Time.now.year %> Intervac International. All rights reserved.</p>
+    </footer>
+
+    <script type="text/javascript" charset="utf-8">
+        jQuery(document).ready(function($) {
+            // Shows and hides the notifactions
+            if($('div#notification').length != 0) {
+                $('div#notification').animate({top: "+=100"}, 300).delay(3000).animate({top: "-120"}, 300, function(event) {
+                    $(this).remove();
+                });
+            }
+        });
+    </script>
+
+<% if is_translating? %>
+    <script type="text/javascript" charset="utf-8">
+        jQuery(document).ready(function($) {
+            $('i.translations-edit').click(edit_translation);
+        });
+    </script>
+    <div class="modal hide fade" id="translation-modal"></div>
+<% end %>
+</body>
+</html>

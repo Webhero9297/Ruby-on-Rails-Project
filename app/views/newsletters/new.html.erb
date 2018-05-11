@@ -1,0 +1,30 @@
+<% page_title t('pages.page_title.intervac_newsletter') %>
+<% page_description t('newsletter.page.description')%>
+<% page_keywords t('pages.keywords.newsletter_subscription') %>
+<% section_image 'section-image-7' %>
+
+<div class="row">
+    <article class="wide">
+        <h1 class="top-header left">
+            <span class="top-header-label"><%= t('pages.newsletters.header.newsletter_subscription') %></span>
+        </h1>
+        <%= markdown(t('pages.newsletters.subscription.text')) %>
+        <%= form_for(@newsletter) do |f| -%>
+            <% if @newsletter.errors.any? %>
+                <div id="error_explanation">
+                    <h2><%= t('newsletter.heading.error.correct_the_following') %></h2>
+                    <ul>
+                        <% @newsletter.errors.each do |key, value| %>
+                            <li><%= value %></li>
+                        <% end %>
+                    </ul>
+                </div>
+            <% end %>
+
+            <fieldset>
+                <%= f.text_field(:email, class: 'input w40 inline', placeholder: t('global.placeholder.enter_your_email')) %>
+                <%= f.button(t('newsletter.subscription.button'), class: 'btn blue inline') %>
+            </fieldset>
+        <% end -%>
+    </article>
+</div>

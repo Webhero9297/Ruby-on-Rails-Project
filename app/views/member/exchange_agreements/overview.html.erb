@@ -1,0 +1,87 @@
+<div class="row">
+    <div class="span3">
+        <%= render(partial: 'menu') %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+                <h1 class="plate-header">
+                    <%= t('exchange_agreements.with.intro', {PARTNER_NAME: @partner_agreement.owner_account.contact.name, PARTNER_LOCATION: @partner_agreement.listing_location, PARTNER_COUNTRY: t(@partner_agreement.listing_country), PARTNER_LISTING_NUMBER: @partner_agreement.listing_number}) %>
+                </h1>
+                <%= markdown(t('exchange_agreements.with.text', {MY_LISTING_NUMBER: @exchange_agreement.agreements.where(owner: current_user.account.id).first.listing_number, PARTNER_LISTING_LINK: link_to(@partner_agreement.listing_number, listing_path(@partner_agreement.listing_id)), PARTNER_NAME: @partner_agreement.owner_account.contact.name, PARTNER_LOCATION: @partner_agreement.listing_location, PARTNER_COUNTRY: t(@partner_agreement.listing_country), STARTED_DATE: standard_date(@exchange_agreement.created_at)})) %>
+
+                <h2 class="plate-section-header"><%= t('exchange_agreement.header.steps') %></h2>
+                <%= render(partial: "simple_steps", :locals => {:my_agreement => @member_agreement, :partner_agreement => @partner_agreement, :exchange_agreement => @exchange_agreement}) %>
+
+                <strong><%= t('exchange_agreement.progress') %> <%= @statuses[@exchange_agreement.status] %>%</strong>
+
+                <div class="progress progress-striped">
+                    <div class="bar" style="width: <%= @statuses[@exchange_agreement.status] %>%;"></div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2 class="plate-section-header"><%= t('exchange_agreement.header.my_terms') %></h2>
+
+                        <div class="term-well">
+                            <%= render(:partial => 'my_terms', :object => @exchange_agreement, :as => 'exchange_agreement', :locals => {:account_id => current_user.account.id, :my_agreement => @member_agreement}) %>
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <h2 class="plate-section-header"><%= t('exchange_agreement.header.partner_terms') %></h2>
+
+                        <div class="term-well">
+                            <%= render(:partial => 'partner_terms', :object => @exchange_agreement, :as => 'exchange_agreement', :locals => {:account_id => current_user.account.id, :partner_agreement => @partner_agreement}) %>
+                        </div>
+                    </div>
+                </div>
+
+
+                <% if @exchange_agreement.is_signed_by(@partner_agreement.owner) %>
+                    <div class="alert alert-block">
+                        <h4 class="alert-heading"><%= t('exchange_agreement.label.agreement_has_been_signed_by_partner') %></h4>
+                        <%= t('exchange_agreements.if_you_change') %>
+                    </div>
+                <% end %>
+
+                <% if not @exchange_agreement.can_be_signed? %>
+                    <p>
+                        <strong><%= t('exchange_agreements.text.agreement_can_not_be_signed_accept_all_terms') %></strong>
+                    </p>
+                <% end %>
+
+
+                <div class="row-fluid">
+                    <div class="span6">
+                        <div class="mb0 pb0">
+                            <% if @exchange_agreement.is_signed_by(current_user.account.id) %>
+                                <div class="alert alert-block alert-success">
+                                    <h4 class="alert-heading"><%= t('exchange_agreement.signed_by_you') %></h4>
+                                    <%= rt('exchange_agreement.you_signed_agreement_on', {:SIGNED_DATE => standard_date_time(@exchange_agreement.get_activity_for_account('exchange_agreement.signed', @member_agreement.owner).try(:created_at))}) %>
+                                    <p><%= link_to(t('button.view_agreement'), show_and_sign_member_exchange_agreement_path(@exchange_agreement), :class => "btn-link") %></p>
+                                </div>
+                            <% elsif @exchange_agreement.can_be_signed? %>
+                                <%= link_to(t('button.review_and_sign'), show_and_sign_member_exchange_agreement_path(@exchange_agreement), :class => "btn btn-success") %>
+                            <% end %>
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <% if not @exchange_agreement.is_signed_by(@partner_agreement.owner) and @exchange_agreement.can_be_signed? %>
+                            <div class="alert alert-block alert-info">
+                                <h4 class="alert-heading"><%= t('exchange_agreement.not_yet_signed_by_partner') %></h4>
+                                <%= t('exchange_agreement.not_yet_signed_by_partner_long') %>
+                            </div>
+                        <% end %>
+                    </div>
+                </div>
+
+                <h2 class="plate-section-header"><%= t('header.cancel_exchange_agreement') %></h2>
+
+                <p><%= t('exchange_agreement.cancel_before_signed') %></p>
+
+                <p class='cancel-btn'><%= link_to(t('global.cancel'), cancel_member_exchange_agreement_path(@exchange_agreement), class: 'btn btn-danger') %></p>
+
+            </div>
+        </div>
+    </div>
+</div>

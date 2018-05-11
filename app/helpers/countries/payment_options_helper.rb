@@ -1,0 +1,2 @@
+module Countries::PaymentOptionsHelper
+end

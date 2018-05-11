@@ -1,0 +1,56 @@
+<article id="figure-block-<%= image.id %>" class="figure-block" data-listing="<%= account.id %>" data-image="<%= image.id %>">
+    <div class="figure-block-photo">
+        <%= image_tag(image.image.size_170, height: 70, alt: image.caption, class: 'photo') %>
+    </div>
+
+    <div class="figure-block-text">
+        <div class="figure-block-visibility">
+            <% if image.publicly_visible -%>
+                <span class="label label-warning"><%= t('global.publicly_visible') %></span>
+            <% else -%>
+                <span class="label label-info"><%= t('accounts.profile.not_publicly_visible') %></span>
+            <% end -%>
+        </div>
+
+        <% if not image.caption.blank? -%>
+            <p class="figure-block-caption" id="caption-<%= image.id %>">
+                <%= image.caption %>
+            </p>
+        <% else -%>
+            <p class="figure-block-caption" id="caption-<%= image.id %>">
+                <em><%= t('listing.photo.no_caption') %></em>
+            </p>
+        <% end -%>
+
+        <ul class="figure-block-action-list home">
+            <% if image.publicly_visible -%>
+                <li>
+                    <%= link_to(content_tag('i', '', class: 'icon-eye-close') + ' ' + t('button.set_private'), set_private_account_profiles_image_path(account.id, image), remote: true, format: :js) %>
+                </li>
+            <% else -%>
+                <li>
+                    <%= link_to(content_tag('i', '', class: 'icon-eye-open') + ' ' + t('button.set_public'), set_public_account_profiles_image_path(account.id, image), remote: true, format: :js) %>
+                </li>
+            <% end -%>
+            <li>
+                <%= link_to(content_tag('i', '', class: 'icon-arrow-left') + ' ' + t('button.rotate_left'), rotate_left_account_profiles_image_path(account.id, image.id), remote: true, format: :js) %>
+            </li>
+        </ul>
+
+        <ul class="figure-block-action-list home">
+            <li>
+                <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('button.edit_caption'), edit_caption_account_profiles_image_url(account, image), remote: true) %>
+            </li>
+            <li>
+                <%= link_to(content_tag('i', '', class: 'icon-arrow-right') + ' ' + t('button.rotate_right'), rotate_right_account_profiles_image_path(account.id, image.id), remote: true, format: :js) %>
+            </li>
+        </ul>
+
+        <ul class="figure-block-action-list home">
+            <li>
+                <%= link_to(content_tag('i', '', class: 'icon-trash') + ' ' + t('button.delete'), account_profiles_image_url(account.id, image), method: :delete, remote: true, format: :js, confirm: t('listing.photo.delete_this_image')) %>
+            </li>
+        </ul>
+    </div>
+    <div class="figure-block-sort"></div>
+</article>

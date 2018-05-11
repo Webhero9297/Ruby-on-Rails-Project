@@ -1,0 +1,17 @@
+<%= form_for(@profile, url: listing_lifestyles_path(@listing), remote: true, class: 'form-vertical') do |f| %>
+  <fieldset>
+    <%= f.fields_for(:lifestyle) do |l| %>
+      <%= l.text_area(:text, rows: 8, cols: 52, id: 'lifestyle-presentation-area', class: 'span12') %>
+      
+      <%= l.label(:visible, class: 'checkbox', for: 'profile-lifestyle-visible') do %>
+        <%= l.check_box(:visible, id: 'profile-lifestyle-visible', class: 'checkbox') %>
+        <%= t('accounts.profile.visible_to_guest_users') %>
+      <% end %>
+    <% end %>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_lifestyles_path(@listing), remote: true) %>
+  </fieldset>
+<% end %>

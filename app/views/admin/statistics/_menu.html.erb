@@ -1,0 +1,15 @@
+<% body_id 'statistics' %>
+<div class="row-fluid">
+  <div class="span12">
+    <nav id="section-nav" role="secondary">
+      <ul class="nav nav-tabs">
+        <% highlight_current_link(:class => 'active') do |n| -%>
+        <%= n.li_link_to('Newsletters', admin_newsletters_url) %>
+        <%= n.li_link_to('PayPal IPN Log', admin_paypal_ipns_url) %>
+        <%= n.li_link_to('Orders', admin_orders_url) %>
+        <%= n.li_link_to('System', system_admin_statistics_path) %>
+        <% end -%>
+      </ul>
+    </nav>
+  </div>
+</div>

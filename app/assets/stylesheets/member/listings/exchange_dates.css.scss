@@ -1,0 +1,20 @@
+@import "mixins";
+
+div#ui-datepicker-div {
+	font-size: 0.8em;
+}
+
+table#exchange-dates {
+	.dates {
+		width: 15%
+	}
+	.length-of-stay {
+		width: 15%
+	}
+	.notes {
+		width: 15%
+	}
+	.action {
+		width: 15%
+	}
+}

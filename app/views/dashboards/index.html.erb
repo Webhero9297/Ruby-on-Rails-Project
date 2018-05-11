@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="span3">
+    <section>
+      <%- if @account.has_listing? -%>
+        <%= render(partial: 'dashboards/main_menu', locals: {account: @account}) %>
+        <%= render(partial: 'dashboards/my_listing_menu') %>
+        <%= render(partial: 'dashboards/membership_menu') %>
+        <%= render(partial: 'dashboards/useful_links_menu') %>
+      <%- else -%>
+        <%= render(partial: 'dashboards/main_menu_limited') %>
+      <%- end -%>
+    </section>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: "welcome_info", locals: {header: "#{t('dashboard.welcome.header', {MEMBER_NAME: current_user.name})}", section_id: 'welcome-info'}, layout: '/layouts/modules/plate_section') %>
+      <%- if @account.has_listing? -%>
+        <%- if @onelisting -%>
+          <%- if not @top_visitors.empty? -%>
+            <%= render(partial: "listing_statistics", locals: {header: t('dashboard.header.statistics'), section_id: 'listing-statistics', top_visitors: @top_visitors, top_countries: @top_countries}, layout: '/layouts/modules/plate_section') %>
+          <%- end -%>
+          <%= render(partial: "listing_status_single", locals: {header: t('dashboard.header.my_listing', {LISTING_NUMBER: @onelisting.listing_number}), section_id: 'listing-status', listing: @onelisting}, layout: '/layouts/modules/plate_section') %>
+        <%- else -%>
+          <%= render(partial: "listing_status", locals: {header: t('dashboard.header.listing_status'), section_id: 'listing-status', listings: @account.listings, statistics: @statistics}, layout: '/layouts/modules/plate_section') %>
+        <%- end -%>
+        <% if @account.can_create_listing? %>
+          <%= render(partial: "add_listing", locals: {header: t('dashboard.header.add_listing'), section_id: 'welcome-info'}, layout: '/layouts/modules/plate_section') %>
+        <% end %>
+        <%= render(partial: "find_member", locals: {header: t('search.header.find_specific_member'), section_id: 'member-search'}, layout: '/layouts/modules/plate_section') %>
+      <%- end -%>
+      <%= render(partial: "local_agents", locals: {header: t('dashboards.header.your_national_representative'), section_id: 'national-representative'}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

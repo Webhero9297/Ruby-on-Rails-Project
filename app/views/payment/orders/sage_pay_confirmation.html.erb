@@ -1,0 +1,75 @@
+<div class="row mb60">
+  <div class="span12">
+    <article>
+
+      <h1 class="page-header">Confirm your order</h1>
+
+      <div class="well">
+      <dl class="dl-horizontal">
+        <dt><%= t('global.membership') %>:</dt>
+          <dd><%= @price_plan.name %></dd>
+        <dt><%= t('global.duration') %>:</dt>
+          <dd><%= @price_plan.duration%> <%= @price_plan.periodicity %></dd>
+        <dt><%= t('global.price') %>:</dt>
+          <dd><%= format_currency(@order.total_amount) %> <%= @order.currency %></dd>
+        <dt><%= t('global.order_number') %>:</dt>
+          <dd><%= @order.order_number %></dd>
+      </dl>
+
+      <dl class="dl-horizontal">
+          <dt><%= t('global.name') %>:</dt>
+            <dd><%= text_if_missing(@details['first_name'] ) %> <%= text_if_missing(@details['last_name'] ) %></dd>
+          <dt><%= t('global.street') %>:</dt>
+            <dd><%= text_if_missing(@details['street'] ) %></dd>
+          <dt><%= t('global.postal_code') %>:</dt>
+            <dd><%= text_if_missing(@details['postal'] ) %></dd>
+          <dt><%= t('global.city') %>:</dt>
+            <dd><%= text_if_missing(@details['city']) %></dd>
+          <dt><%= t('sitewide.country') %>:</dt>
+            <dd><%= text_if_missing(@account.country_short) %></dd>
+          <dt><%= t('global.email') %>:</dt>
+            <dd><%= text_if_missing(@account.contact.email ) %></dd>
+        </dl>
+        </div>
+
+      <% payment_service_for @order.order_number, "#{Rails.application.config.sage_pay_vendor_name}",
+                                   :amount => @order, 
+                                   :currency => @order.currency.upcase, 
+                                   :service => :sage_pay_form do |service| %>
+
+
+       <% service.customer  :first_name => @details['first_name'],
+                            :last_name => @details['last_name'],
+                            :phone => @details['phone'],
+                            :email => @account.contact.email,
+                            :send_email_confirmation => @account.contact.email %>
+
+
+        <% service.billing_address  :city => @details['city'],
+                                    :address1 => @details['street'],
+                                    :country => @account.country_short,
+                                    :zip => @details['postal'] %>
+
+
+        <% service.shipping_address :city => @details['city'],
+                                    :address1 => @details['street'],
+                                    :country => @account.country_short,
+                                    :zip => @details['postal'] %>
+       
+        
+        <% service.account("#{Rails.application.config.sage_pay_vendor_name}") -%>
+        <% service.credential2("#{Rails.application.config.sage_pay_crypt_secret}") -%>
+        <% service.amount(@order.total_amount) -%>
+        <% service.currency(@order.currency.upcase) -%>
+        <% service.description(@price_plan.name) -%>
+        <% service.order(@order.order_number) -%>
+        <% service.return_url(sage_pay_notification_order_url(@order)) -%>
+
+        <fieldset>
+          <%= submit_tag('Make Payment', :name => nil, :class => 'btn btn-primary') %>
+        </fieldset>
+      <% end %>
+      <p class="alert alert-info">You will be taken to our payment providers secure payment page.</p>
+    </article>
+  </div>
+</div>

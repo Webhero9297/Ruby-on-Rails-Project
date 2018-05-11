@@ -1,0 +1,21 @@
+<section id="match-alert-items">
+<% if @account.match_alert.locations.count == 0 -%>
+  <%= render(partial: 'empty') %>
+<% else -%>
+<table id="match-alert-table" class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= t('global.country') %></th>
+      <th><%= t('global.remove') %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @account.match_alert.locations.each do |item| %>
+      <%= render(partial: 'item', locals: {account: @account, item: item}) %>
+    <% end %>
+  </tbody>
+</table>
+<% end -%>
+</section>
+
+<%= render(partial: 'form', locals: {account: @account}) %>

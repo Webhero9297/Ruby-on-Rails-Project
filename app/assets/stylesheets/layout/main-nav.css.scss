@@ -1,0 +1,61 @@
+.main-nav {
+	position: relative;
+    background-color: rgba(67, 169, 236, 0.9);
+}
+
+.main-nav-items {
+    @include outer-container;
+	margin-bottom: 0;
+}
+
+.main-nav-item {
+    display: block;
+    list-style: none;
+    text-align: center;
+
+    @include respond-to(mid-screens) {
+        float: left;
+        text-align: left;
+        width: 50%;
+    }
+
+    @include respond-to(wide-screens) {
+        display: inline;
+        float: none;
+        width: auto;
+    }
+    a:hover{
+    	text-decoration: none;
+    }
+}
+
+.main-nav-link {
+    border-bottom: 1px solid $dark-blue;
+    border-left: 1px solid $dark-blue;
+    color: $white;
+    display: block;
+    font-size: 1em;
+    padding: 0.6em 1.4em 0.7em 1.4em;
+    &:hover {
+        background-color: #0076c2;
+        color: $white;
+    }
+
+    @include respond-to(wide-screens) {
+        border-bottom: 0;
+        border-left: 0;
+        float: left;
+    }
+}
+
+body#home a#home-link,
+body#listings a#search-link,
+body#home-exchange a#home-exchange-link,
+body#about-intervac a#about-intervac-link,
+body#representatives a#representatives-link,
+body#faq a#faq-link {
+    background-color: $dark-blue;
+    &:hover {
+        background-color: $dark-blue;
+    }
+}

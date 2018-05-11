@@ -1,0 +1,32 @@
+<div class="row-fluid">
+    <div class="span6">
+        <p><%= t('dashboard.label.available_for_exchange') %></p>
+
+        <div id="listing-active-cell-<%= listing.listing_number %>">
+            <div class="btn-group" data-toggle="buttons-radio">
+                <% if listing.open_for_exchange %>
+                    <a class="btn btn-success btn-small active"><%= t('global.yes') %></a>
+                    <%= link_to(t('global.no'), listing_set_availability_with_hotlist_path(listing.id, 'false'), class: 'btn btn-small', remote: true) %>
+                <% else %>
+                    <%= link_to(t('global.yes'), listing_set_availability_with_hotlist_path(listing.id, 'true'), class: 'btn btn-small', remote: true) %>
+                    <a class="btn btn-danger btn-small active"><%= t('global.no') %></a>
+                <% end %>
+            </div>
+        </div>
+
+        <div class="pt20">
+            <%= membership_badge(listing) %>
+        </div>
+
+        <p><%= t('accounts.label.exchanges_made') %>: <%= listing.account.exchanges_made %></p>
+    </div>
+
+    <div class="span6">
+        <p><%= t('dashboard.label.show_listing_hotlist') %></p>
+
+        <div id="hotlist-toggler-container">
+            <%= render(partial: 'listings/listing_hotlist_toggler', locals: {listing: listing}) %>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,10 @@
+<div class="mb10" id="lifestyle-upload-btn">
+  <button id="home-upload" class="btn btn-small pluploader" data-insert="figure-blocks" data-category="lifestyle" data-placement="lifestyle-upload-btn" data-token="<%= form_authenticity_token %>" data-url="<%= account_profiles_images_url(account) %>"><i class="icon-upload"></i> <%= t('button.upload_photos') %></button>
+</div>
+<div id="figure-blocks">
+  <% if profile_images.count == 0 -%>
+    <%= render( partial: '/accounts/profile_images/no_images') %>
+  <% else %>
+    <%= render( partial: '/accounts/profile_images/image_card', collection: profile_images, as: 'image', locals: {account: account}) %>
+  <% end -%>
+</div>

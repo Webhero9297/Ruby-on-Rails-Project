@@ -1,0 +1,55 @@
+<% section_image 'section-image-collapse' %>
+<div class="row">
+    <div class="split">
+        <h1 class="top-header left">
+            <span class="top-header-label"><%= t('users.sessions.new.header') %></span>
+        </h1>
+
+        <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:class => 'form-vertical well login-form'}) do |f| %>
+
+            <% flash.each do |name, msg| %>
+                <%= content_tag(:div, t(msg), id: "flash_#{name}", class: 'alert alert-danger') %>
+            <% end %>
+
+            <fieldset>
+                <%= f.label :login, t('global.email_address') %>
+                <%= f.text_field :login, class: 'w100', placeholder: t('form.placeholder.email_address_you_use_for_intervac') %>
+
+                <%= f.label :password, t('global.password') %>
+                <%= f.password_field :password, class: 'w100', placeholder: t('forms.placeholder.your_intervac_password') %>
+
+                <% if devise_mapping.rememberable? -%>
+                    <%= f.label :remember_me, class: 'checkbox' do %>
+                        <%= f.check_box :remember_me %>
+                        <%= t('users.sessions.new.remember_me') %>
+                    <% end %>
+                <% end -%>
+            </fieldset>
+
+            <fieldset>
+                <%= f.button(t('button.login'), type: 'submit', class: 'btn blue' ) %>
+              <%= link_to(t('button.sign_in_with_facebook'), user_omniauth_authorize_path(:facebook), class: 'btn white') %>
+            </fieldset>
+        <% end %>
+
+        <ul class="unstyled">
+            <li><%= link_to( t('users.forgot_my_password'), new_user_password_path, class: 'forgot-password') %></li>
+        </ul>
+    </div>
+
+    <div class="split">
+        <div class="apply">
+            <h1 class="top-header left">
+                <span class="top-header-label"><%= t('global.not_a_member_question') %></span>
+            </h1>
+
+            <%= link_to( t('button.sign_up_with_intervac'), price_plans_url, :title => t('login.apply_for_membership_title'), class: 'btn green') %>
+
+        </div>
+
+        <div class="alert alert-info">
+            <h3 class="alert-heading"><%= t('login.renew_membership.headline') %></h3>
+            <p class="alert-message"><%= rt('login.renew_membership.text') %></p>
+        </div>
+    </div>
+</div>

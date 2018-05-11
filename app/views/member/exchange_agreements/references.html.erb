@@ -1,0 +1,57 @@
+<div class="row">
+  <div class="span3">
+    <%= render( partial: 'menu') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: "reference_form", locals: {header: t('exchange_agreement.header.exchange_reference_request'), section_id: 'exchange-reference-request'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: "reference_list", locals: {header: t('exchange_agreement.header.exchange_references'), section_id: 'exchange-references'}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+jQuery(document).ready(function($) {
+    $('[type=radio].reference-action').change(function(event) {
+        var $this = $(this);
+        data = {
+          'value': $this.val(),
+          'id': $this.data('reference-id'),
+          'field': $this.data('field')
+        };
+
+        $.post('/member/exchange/agreements/update_reference', data);
+
+    });
+
+    $('[type=checkbox].reference-action').change(function(event) {
+      var $this = $(this);
+      data = {
+        'value': $this.is(':checked'),
+        'id': $this.data('reference-id'),
+        'field': $this.data('field')
+      };
+
+      $.post('/member/exchange/agreements/update_reference', data);
+
+    });
+
+
+    $("#listing-finder").typeahead({
+        source: function(query, process) {
+            $.post('/listings/get/listings.js', { q: query, limit: 20 }, function(data) {
+                var return_list = [],
+                    i = 0,
+                    l = data.length;
+
+                for(i; i < l; i = i + 1) {
+                    return_list.push(data[i]['listing_number']);
+                }
+
+                process(return_list);
+
+            }, 'json'); // end of post
+        }
+    });
+});
+</script>

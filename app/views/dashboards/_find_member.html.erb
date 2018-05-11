@@ -1,0 +1,20 @@
+<div class="row-fluid">
+  <div class="span6">
+    <%= form_tag(find_member_by_name_path, method: 'get', id: 'find-by-name', class: 'form-inline') do %>
+      <%= label_tag('txt-member-name', t('dashboard.search.label.find_by_name')) %>
+      <fieldset>
+        <%= text_field_tag('member_name', @member_name, id: 'txt-member-name', placeholder: t('text_field.placeholder.member_name'), autocomplete: 'off', class: "input-large") %>
+        <%= button_tag(t('button.search'), class: 'btn btn-info') %>
+      </fieldset>
+    <% end %>
+  </div>
+  <div class="span6">
+    <%= form_tag(find_member_by_number_path, method: 'get', id: "go-to-listing", class: "find-member-form form-inline") do %>
+      <%= label_tag('listing-finder', t('dashboard.search.label.search_by_listing_number')) %>
+      <fieldset>
+      <%= text_field_tag('listing_number', @listing_number, maxlength: '12', placeholder: t('text_field.placeholder.listing_number'), id: 'listing-finder', autocomplete: :off, class: 'input-large') %>
+      <%= button_tag(t('button.search'), class: 'btn btn-info') %>
+      </fieldset>
+    <% end %>
+  </div>
+</div>

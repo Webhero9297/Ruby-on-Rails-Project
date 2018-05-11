@@ -1,0 +1,15 @@
+<table class="table">
+  <thead>
+      <tr>
+        <th colspan="2">Name</th>
+      </tr>
+  </thead>
+  <tbody>
+      <% @account.users.each do |user| %>
+          <tr>
+            <td><%= user.name %></td>
+            <td><%= link_to('Change password', change_password_by_admin_user_path(user)) %></td>
+          </tr>
+      <% end %>
+  </tbody>
+</table>

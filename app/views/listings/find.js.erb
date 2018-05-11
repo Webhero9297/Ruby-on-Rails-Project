@@ -1,0 +1,5 @@
+<% if @listing.nil? then %>
+alert('No listing found')
+<% else %>
+window.location.href="<%= listing_url(@listing) %>";
+<% end %>

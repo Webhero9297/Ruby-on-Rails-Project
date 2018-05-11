@@ -1,0 +1,33 @@
+<% content_for(:back_button) do %>
+    <%= link_to(t('global.home'), mobile_start_path, class: 'button ml10', :'data-spinner' => 'spinner') %>
+<% end %>
+
+<article>
+<% if @favorites.empty? %>
+  <article>
+    <p class="alert"><%= t('mobile.alert.you_have_no_favorites') %></p>
+  </article>
+<% else %>
+<ul id="listings-listview" class="listview">
+  <% @favorites.each do |listing| %>
+  <li class="listview-item">
+    <article>
+      <%= link_to(mobile_favorite_path(listing.id), class: 'listview-link', :'data-spinner' => 'spinner') do -%>
+        <% if listing.get_main_photo %>
+          <%= image_tag(listing.get_main_photo.image.size_60, width: 60, height: 60, alt: listing.get_main_photo.caption, class: 'listview-image') %>
+        <% else %>
+            <div class="no-image">
+            No image
+            </div>
+        <% end %>
+        <div class="as-inline">
+          <h1 class="listview-header"><%= listing.postal_town %></h1>
+          <p class="listview-text"><%= t(listing.country) %></p>
+        </div>
+      <% end %>
+    </article>
+  </li>
+  <% end %>
+</ul>
+<% end %>
+</article>

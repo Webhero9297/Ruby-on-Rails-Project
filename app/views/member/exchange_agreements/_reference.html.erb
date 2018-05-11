@@ -1,0 +1,67 @@
+<tr>
+  <% if reference.account_id_1 == current_user.account.id %>
+    <td>
+      <%= reference.listing_number_2 %>
+    </td>
+    <td>
+      <% if reference.start_date.blank? %>
+        <em><%= t('exchange_agreement.no_dates_specified') %></em>
+      <% else %>
+        <%= standard_date_short(reference.start_date) %> - <%= standard_date_short(reference.end_date) %>
+      <% end %>
+    </td>
+    <td>
+      <label for="act-as-reference-1-yes-<%= reference.id.to_s %>" class="radio inline mr20">
+        <%= radio_button_tag('act_as_reference_1'+reference.id.to_s, true, radio_button_tag_value(reference.act_as_reference_1, true), class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'act_as_reference_1'}, id: 'act-as-reference-1-yes-'+reference.id.to_s) %>
+        <%= t('global.yes') %>
+      </label>
+
+      <label for="act-as-reference-1-no-<%= reference.id.to_s %>" class="radio inline">
+        <%= radio_button_tag('act_as_reference_1'+reference.id.to_s, false, radio_button_tag_value(reference.act_as_reference_1, false), class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'act_as_reference_1'}, id: 'act-as-reference-1-no-'+reference.id.to_s) %>
+        <%= t('global.no') %>
+      </label>
+    </td>
+    <td>
+      <% if reference.act_as_reference_2.nil? or !reference.act_as_reference_2 %>
+        <label class="checkbox">
+          <%= check_box_tag('allow_as_reference_1'+reference.id.to_s, 1, reference.allow_as_reference_1, class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'allow_as_reference_1'}, :disabled => true) %>
+          <em><%= t('exchange_agreement.awaiting_approval') %></em>
+        </label>
+      <% else %>
+        <%= check_box_tag('allow_as_reference_1'+reference.id.to_s, 1, reference.allow_as_reference_1, class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'allow_as_reference_1'}) %>
+      <% end %>
+    </td>
+  <% elsif reference.account_id_2 == current_user.account.id %>
+    <td>
+      <%= reference.listing_number_1 %>
+    </td>
+    <td>
+      <% if reference.start_date.blank? %>
+        <em><%= t('exchange_agreement.no_dates_specified') %></em>
+      <% else %>
+        <%= standard_date_short(reference.start_date) %> - <%= standard_date_short(reference.end_date) %>
+      <% end %>
+    </td>
+    <td>
+      <label for="act-as-reference-2-yes-<%= reference.id.to_s %>" class="radio inline mr20">
+        <%= radio_button_tag('act_as_reference_2'+reference.id.to_s, true, radio_button_tag_value(reference.act_as_reference_2, true), class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'act_as_reference_2'}, id: 'act-as-reference-2-yes-'+reference.id.to_s) %>
+        <%= t('global.yes') %>
+      </label>
+
+      <label for="act-as-reference-2-no-<%= reference.id.to_s %>" class="radio inline">
+        <%= radio_button_tag('act_as_reference_2'+reference.id.to_s, false, radio_button_tag_value(reference.act_as_reference_2, false), class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'act_as_reference_2'}, id: 'act-as-reference-2-no-'+reference.id.to_s) %>
+        <%= t('global.no') %>
+      </label>
+    </td>
+    <td>
+      <% if reference.act_as_reference_1.nil? or !reference.act_as_reference_1 %>
+        <label class="checkbox">
+          <%= check_box_tag('allow_as_reference_2'+reference.id.to_s, 1, reference.allow_as_reference_2, class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'allow_as_reference_2'}, :disabled => true) %>
+          <em>Awaiting approval</em>
+        </label>
+      <% else %>
+        <%= check_box_tag('allow_as_reference_2'+reference.id.to_s, 1, reference.allow_as_reference_2, class: 'reference-action', :data => {'reference-id' => reference.id.to_s, 'field' => 'allow_as_reference_2'}) %>
+      <% end %>
+    </td>
+  <% end %>
+</tr>

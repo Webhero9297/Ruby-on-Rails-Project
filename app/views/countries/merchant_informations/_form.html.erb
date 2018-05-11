@@ -1,0 +1,56 @@
+<%= form_for(@merchant_information, :url => country_merchant_information_url(@country), remote: true, html: {class: 'form-vertical', id: 'merchant-informatin'}) do |f| %>
+
+  <% if @country.merchant_information.errors.any? %>
+  <div class="row-fluid">
+    <div class="span12">
+      <section id="error-explanation" class="alert alert-danger">
+        <h1 class="alert-heading"><%= @country.merchant_information.errors.count %> <%= t('global.errors') %> <%= t('error.information_stopped')%>:</h1>
+        <ul class="error-explanation">
+          <% @country.merchant_information.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <% end %>
+
+  <div class="row-fluid">
+    <div class="span6">
+      <fieldset>
+        <%= f.label(:name, 'Business name') %>
+        <%= f.text_field(:name, size: '52', class: 'span12') %>
+
+        <%= f.label(:address, t('global.address')) %>
+        <%= f.text_field(:address, size: '52', class: 'span12') %>
+
+        <%= f.label(:postal_town, t('global.city')) %>
+        <%= f.text_field(:postal_town, size: '52', class: 'span12') %>
+
+        <%= f.label(:postal_code, t('global.postal_code')) %>
+        <%= f.text_field(:postal_code, size: '52', class: 'span12') %>
+
+        <%= f.label(:country_name, t('global.country')) %>
+        <%= f.text_field(:country_name, size: '52', class: 'span12') %>
+
+        <%= f.button( t('button.save'), class: 'btn btn-primary' ) %>
+        <%= link_to(t('button.cancel'), country_path(@country), class: 'btn btn-link', id: 'cancel-merchant-information') %>
+      </fieldset>
+    </div>
+    <div class="span6">
+      <fieldset>
+        <%= f.label(:organisation_number, 'Organisation number') %>
+        <%= f.text_field(:organisation_number, size: '52', class: 'span12') %>
+
+        <%= f.label(:phone, t('global.phone')) %>
+        <%= f.text_field(:phone, size: '52', class: 'span12') %>
+
+        <%= f.label(:fax, t('global.fax')) %>
+        <%= f.text_field(:fax, size: '52', class: 'span12') %>
+
+        <%= f.label(:email, t('global.email')) %>
+        <%= f.text_field(:email, size: '52', class: 'span12') %>
+      </fieldset>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,8 @@
+<div id="spoken-languages">
+  <p class="section-edit-btn"><%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_spoken_languages_url(account), remote: true, id: 'btn-spoken-languages', class: 'btn btn-small') %></p>
+  <ul id="spoken-languages-list" class="clear-both">
+    <% profile.spoken_languages.each do |language| %>
+    <li><%= t(language) %></li>
+    <% end %>
+  </ul>
+</div>

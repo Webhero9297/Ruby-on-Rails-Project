@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'listings/change_my_listing_menu', locals: {listing: @listing}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <%= render(partial: '/layouts/modules/screen_header', locals: {header: "#{t('listing.exchange_settings_header')} - #{@listing.listing_number}", body_text: t('listings.exchange_information_body_text')}) %>
+      <%= render(partial: "listing/exchange_dates/placeholder", locals: {listing: @listing, header: t('global.exchange_dates'), section_id: 'exchange-dates'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: "listing/exchange_types/placeholder", locals: {listing: @listing, exchange_types: @exchange_types, header: t('listings.header.exchange_types_offered'), section_id: 'exchange-types'}, layout: '/layouts/modules/plate_section') %>
+      <%= render(partial: "accounts/spoken_languages/placeholder", locals: {account: @account, profile: @profile, header: t('account.header.spoken_languages'), section_id: 'exchange-languages'}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

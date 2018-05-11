@@ -1,0 +1,18 @@
+<%= link_to(t('message_template.link.create_template'), new_message_template_path, class: 'btn btn-small') %>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th><%= t('message_template.template_name') %></th>
+            <th><%= t('global.delete') %></th>
+        </tr>
+    </thead>
+    <tbody>
+    <% message_templates.each do |message_template| %>
+    <tr>
+        <td><%= link_to(message_template.name, edit_message_template_path(message_template)) %></td>
+        <td><%= link_to(t('button.delete'), message_template_path(message_template), method: :delete, confirm: t('message_template.confirm.are_you_sure_delete_template')) %></td>
+    </tr>
+    <% end %>
+    </tbody>
+</table>

@@ -1,0 +1,52 @@
+<% body_id 'translations' %>
+<%= link_to('Locale overview', request.referer, class: 'btn mb20') %>
+<%= render(locals: {header: "Editing for locale #{@locale}"}, layout: '/layouts/modules/single_page_plate') do %>
+    <%= form_tag(admin_translation_url(@translation[:_id]), :method => "put", :class => "form-vertical translation-form well", :remote => true) do %>
+        <fieldset>
+            <label>
+                <%= @default_translations.where(msgid: @translation[:msgid]).first.get_value %>
+            </label>
+            <%= text_area_tag(:value, @translation.get_value, {:id => nil, :class => 'span12', :rows => 8}) %>
+            <%= hidden_field_tag(:id, @translation[:_id]) %>
+            <p id="<%= @translation[:msgid].gsub('.', '-') %>" class="translation-help hidden">
+                <em><%= @translation[:msgid] %></em>
+            </p>
+            <% if @locale == 'en' %>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <label>Placeholders <em>This will change the field codes for all languages</em></label>
+                        <%= text_field_tag(:field_codes, @translation.field_codes, {:id => nil, :class => 'span12 translation'}) %>
+                    </div>
+                    <div class="span6">
+                        <label>Category <em>This will change the category for all languages</em></label>
+                        <%= text_field_tag(:category, @translation.category, {:id => nil, :class => 'span12 translation typeahead', :'data-source' => @categories.to_json}) %>
+                    </div>
+                </div>
+            <% end %>
+        </fieldset>
+
+        <fieldset class="form-actions">
+            <%= button_tag(t('button.save_changes'), class: 'btn btn-primary') %>
+            <a href="#" rel="<%= @translation[:msgid].gsub('.', '-') %>" class="btn btn-link show-help">Show msgid</a>
+        </fieldset>
+    <% end %>
+<% end %>
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function ($) {
+        setup_autocomplete_for_categories();
+
+        $('a.show-help').click(function (event) {
+            event.preventDefault();
+            var link = $(this);
+            var target = $('p#' + link.attr('rel'));
+            target.toggleClass('hidden');
+            if (target.is(':hidden')) {
+                link.text('Show msgid');
+                return;
+            }
+            link.text('Hide msgid');
+        });
+
+    });
+</script>

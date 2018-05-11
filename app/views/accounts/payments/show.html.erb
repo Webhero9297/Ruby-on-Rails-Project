@@ -1,0 +1,75 @@
+<div class="row">
+  <div class="span3">
+    <%= render(partial: 'dashboards/member_home') %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <article class="mb40">
+          <h2 class="section-header"><%= t('accounts.header.membership_details') %></h2>
+          <dl class="dl-horizontal">
+            <dt><%= t('global.membership') %>:</dt>
+              <dd><%= @subscription.name %></dd>
+            <dt><%= t('global.duration') %>:</dt>
+              <dd><%= @subscription.duration %> <%= @subscription.periodicity %></dd>
+            <% if @subscription.renewal %>
+            <dt><%= t('global.renewed') %>:</dt>
+            <% else %>
+            <dt><%= t('global.created') %>:</dt>
+            <% end %>
+              <dd><%= standard_date(@subscription.created_at) %></dd>
+              
+            <dt><%= t('global.expires') %>:</dt>
+              <dd><%= standard_date(@subscription.expires_at) %></dd>
+            
+            <% if not @subscription.promotion_code.blank? %>
+            <dt><%= t('payment.promotion_code') %>:</dt>
+              <dd><%= @subscription.promotion_code %></dd>
+            <% end %>
+            
+            <dt><%= t('global.active') %>:</dt>
+              <dd><%= @subscription.active %></dd>
+            <dt><%= t('global.kind') %>:</dt>
+              <dd><%= @subscription.kind %> <%= t('global.membership') %></dd>
+          </dl>
+        </article>
+        
+        <article>  
+          <% if @order.transactions.empty? then %>
+          <div class="alert alert-info">
+            <p class="alert-message"><%= t('payment.price_plan.alert.message.there_are_no_transaction_details_available') %></p>
+          </div>
+          <% else %>
+          <h2 class="section-header"><%= t('payment.header.transaction_details') %></h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Transaction ID</th>
+                <th>Amount</th>
+                <th>Currency</th>
+                <th>Status</th>
+                <th>Type</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @order.transactions.each do |transaction| %>
+              <tr>
+                <td><%= transaction.params['transaction_id'] %></td>
+                <td><%= transaction.params['gross_amount'] %></td>
+                <td><%= transaction.params['gross_amount_currency_id'] %></td>
+                <td><%= transaction.params['payment_status'] %></td>
+                <td><%= transaction.params['transaction_type'] %></td>
+                <td><%= transaction.params['payment_date'] %></td>
+              </tr>
+              <% end %>
+            </tbody>
+          </table>
+          <% end %>
+        </article>
+
+
+      </div>
+    </div>
+  </div>
+</div>

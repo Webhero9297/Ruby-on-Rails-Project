@@ -1,0 +1,57 @@
+<div class="row">
+  <div class="span3">
+    <section class="mb20">
+      <%= render(partial: 'dashboards/member_home') %>
+    </section>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="row-fluid mb10">
+        <div class="span12">
+          <section id="wish-list" class="group">
+            <h1><%= t('listings.header.destination_wish_list') %></h1>
+            <div class="content">
+              <%= render(partial: '/accounts/profiles/open_for_all_destinations_form') %>
+              <section id="wish-list-items">
+                <% if @account.profile.wish_list_destinations.count == 0 -%>
+                  <%= render(partial: '/accounts/wish_lists/empty') %>
+                <% else -%>
+                <table id="wish-list-table" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th><%= t('global.country') %></th>
+                      <th><%= t('global.remove') %></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% @account.profile.wish_list_destinations.each do |item| %>
+                      <%= render(partial: '/accounts/wish_lists/item', locals: {account: @account, item: item}) %>
+                    <% end %>
+                  </tbody>
+                </table>
+                <% end -%>
+              </section>
+              <%= render(partial: '/accounts/wish_lists/button', locals: {account: @account}) %>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('#open-for-all-destinations').on('click', function(event) {
+      var form_data = $('#open-for-all-destinations-form').serialize();
+      $.post('<%= set_open_for_all_destinations_path %>', form_data, function(data) {
+        }, 'script');
+    });
+  
+  if(window.location.hash && window.location.hash == '#wish-list') {
+    $('#add-destination-btn').click();
+    window.location.hash = '';
+  }
+
+});
+</script>

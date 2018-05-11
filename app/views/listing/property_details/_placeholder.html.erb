@@ -1,0 +1,41 @@
+<table class="table table-striped table-bordered table-condensed" id="property-details-list">
+<tbody>
+    <tr>
+      <td class="property-detail"><%= t('listings.label.house_type') %></td>
+      <td class="property-detail-value"><%= t(listing.property_type) %></td>
+    </tr>
+    <tr>
+      <td class="property-detail"><%= t('listing.guide.label.environment') %></td>
+      <td class="property-detail-value"><%= t(listing.environment) %></td>
+    </tr>
+    <tr>
+      <td class="property-detail"><%= t('global.bedrooms') %></td>
+      <td class="property-detail-value"><%= listing.bedrooms %></td>
+    </tr>
+    <tr>
+      <td class="property-detail"><%= t('global.bathrooms') %></td>
+      <td class="property-detail-value"><%= listing.bathrooms %></td>
+    </tr>
+    <tr>
+      <td class="property-detail"><%= t('listings.label.sleeping_capacity') %></td>
+      <td class="property-detail-value"><%= listing.sleeping_capacity %></td>
+    </tr>
+    <tr>
+      <td class="property-detail"><%= t('listing.floor_location') %></td>
+      <td class="property-detail-value"><%= listing.floor %></td>
+    </tr>
+    <tr>
+      <td class="property-detail"><%= t('listings.label.living_area') %></td>
+      <td class="property-detail-value"><%= [listing.living_area, listing.living_area_unit].join(' ') if listing.living_area.present? %> </td>
+    </tr>
+    <tr>
+      <td class="property-detail"><%= t('listings.label.total_area') %></td>
+      <td class="property-detail-value"><%= [listing.total_area, listing.total_area_unit].join(' ') if listing.total_area.present? %></td>
+    </tr>
+    <%= render(partial: '/member/listings/output_property_filter', collection: order_property_details(property_details, house_attributes_indoor + house_attributes_outdoor), as: :property_detail, locals: {rules_filter: house_attributes_indoor + house_attributes_outdoor, listing: listing} ) %>
+    <tr>
+      <td class="property-detail"><%= t('tag.bicycles') %></td>
+      <td class="property-detail-value"><%= listing.bicycles %></td>
+    </tr>
+  </tbody>
+</table>

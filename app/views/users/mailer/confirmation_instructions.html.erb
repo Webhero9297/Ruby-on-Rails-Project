@@ -1,0 +1,7 @@
+<p><img src="http://en.intervac-homeexchange.com/assets/intervac-welcome.jpg" alt="Intervac Home Exchange"></p>
+
+<h1><%= t('message.welcome', {:email => @resource.name}) %></h1>
+
+<p><%= link_to(t('message.confirm_link'), external_domain_link(user_confirmation_path(:confirmation_token => @resource.confirmation_token)), style: 'display: inline-block; padding: 15px 25px; background-color: #57CA57; color: #000000; font-weight: bold; text-decoration: none') %></p>
+
+<%= markdown(t('message.confirmation')) %>

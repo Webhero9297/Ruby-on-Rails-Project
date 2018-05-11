@@ -1,0 +1,10 @@
+<div class="mb10" id="home-upload-btn">
+  <button id="home-upload" class="btn btn-small pluploader" data-insert="figure-blocks" data-category="home" data-placement="home-upload-btn" data-token="<%= form_authenticity_token %>" data-url="<%= listing_images_url(listing) %>"><i class="icon-upload"></i> <%= t('button.upload_photos') %></button>
+</div>
+<div id="figure-blocks">
+<% if @listing_images.count == 0 -%>
+  <%= render( partial: '/listing/images/no_images') %>
+<% else %>
+  <%= render( partial: '/listing/images/listing_image', collection: listing_images, as: 'image', locals: {listing: listing}) %>
+<% end -%>
+</div>

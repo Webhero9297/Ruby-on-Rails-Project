@@ -1,0 +1,7 @@
+<div id="user-profile-name-placeholoder">
+  <p><%= t('users.name_connected_with_email_address') %></p>
+  <div id="user-profile-name">
+    <p><strong><%= @user.name %></strong></p>
+    <p><%= link_to(content_tag('i','', class: 'icon-edit') + ' ' + t('global.edit'), edit_full_name_user_path, remote: true, class: 'btn btn-small') %></p>
+  </div>
+</div>

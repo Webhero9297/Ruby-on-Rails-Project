@@ -1,0 +1,16 @@
+<h1><%= t('notification.trial_subject') -%></h1>
+
+<%= markdown(t('notification.trial_message', {:NAME => @user.name, :SUBSCRIPTION_LINK => link_to(t('upgrade.link'), external_domain_link(upgrade_subscriptions_path))})) %>
+
+<h2><%= t('mailer.header.our_listing') %></h2>
+<% @sender_account.listings.each do |listing| %>
+    <div class="listing">
+      <% if listing.get_main_photo %>
+          <div class="image"><%= link_to(image_tag(external_domain_link(listing.get_main_photo.image.size_60), width: 60, alt: listing.listing_number), external_domain_link(listing_path(listing))) %></div>
+      <% end %>
+      <p><%= link_to(listing.listing_number, external_domain_link(listing_path(listing))) %></p>
+      <p><%= listing.postal_town %>, <%= t(listing.country) %></p>
+    </div>
+<% end %>
+
+<%= render(partial: 'notification_mailer/best_regards') %>

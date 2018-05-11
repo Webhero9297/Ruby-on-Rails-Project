@@ -1,0 +1,9 @@
+<div class="align-center" id="listview-pagination">
+    <% if @destination_country.nil? %>
+        <%= link_to_previous_page(listings, t('global.prev'), remote: true, class: 'button button-blue') %>
+        <%= link_to_next_page(listings, t('global.next'), remote: true, class: 'button button-blue') %>
+    <% else %>
+        <%= link_to_previous_page(listings, t('global.prev'), params: {dc: @destination_country}, remote: true, class: 'button button-blue') %>
+        <%= link_to_next_page(listings, t('global.next'), params: {dc: @destination_country}, remote: true, class: 'button button-blue') %>
+    <% end %>
+</div>

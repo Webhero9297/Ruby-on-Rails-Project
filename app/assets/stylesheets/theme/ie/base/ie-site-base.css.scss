@@ -1,0 +1,25 @@
+.site-content {
+    padding-top: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.split {
+    float: left;
+    margin: 0 0 0 4%;
+    width: 48%;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.article-image {
+    padding: 1em;
+}

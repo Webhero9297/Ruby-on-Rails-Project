@@ -1,0 +1,41 @@
+.main-photo-manager {
+    &:after {
+        display: block;
+        content: "";
+        clear: left;
+    }
+}
+
+.main-photo-manager-actions {
+    width: 40%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.main-photo-manager-img {
+    width: 60%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.main-photo-manager-actions-list {
+    margin: 0 20px 0 0;
+    padding: 0;
+    li {
+        margin: 0 0 20px 0;
+        padding: 0;
+        list-style: none;
+
+        .separator {
+          margin: 0 10px;
+        }
+
+        &.main-photo-manager-actions-list-border {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+}

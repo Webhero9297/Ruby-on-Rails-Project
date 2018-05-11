@@ -1,0 +1,19 @@
+<% if @account.listings.blank? %>
+    <div class="alert">
+        This membership does not have any listings.
+    </div>
+<%- else -%>
+    <% @account.listings.each do |listing| %>
+        <%= render(partial: '/listings/account_listing_overview', object: listing, as: :listing) %>
+    <% end %>
+<% end %>
+
+<article>
+    <p>Change number of allowed listings.</p>
+    <%= form_tag(update_nr_of_allowed_listings_account_path, method: :put, remote: true, class: 'form-horizontal') do %>
+        <fieldset>
+            <%= select_tag("nr_of_allowed_listings", options_for_select((1..10).to_a, @account.nr_of_allowed_listings), id: 'nr-of-allowed-listings-field') %>
+            <%= submit_tag('Save', class: 'btn btn-primary') %>
+        </fieldset>
+    <% end %>
+</article>

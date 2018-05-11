@@ -1,0 +1,11 @@
+<%
+	yesClasses = "btn btn-small ";
+	yesClasses += listing.open_past_listing ? "disabled" : (listing.open_for_exchange ? "btn-success active" : "")
+	noClasses = "btn btn-small ";
+	noClasses += listing.open_past_listing ? "disabled" : (!listing.open_for_exchange ? "btn-danger active" : "")
+%>
+
+<div class="btn-group" data-toggle="buttons-radio">
+	<%= link_to(t('global.yes'), listing_set_availability_path(listing.id, 'true'), class: yesClasses, remote: true) %>
+	<%= link_to(t('global.no'), listing_set_availability_path(listing.id, 'false'), class: noClasses, remote: true) %>
+</div>

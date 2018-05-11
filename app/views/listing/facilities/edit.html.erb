@@ -1,0 +1,56 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>
+<section class="tab row-fluid">
+  <h1 class="page-header">Facilities within and around your property</h1>
+
+  <%= form_for(@listing, url: member_listing_facility_url, html: {id: 'listing-form', class: 'listing'}) do |f| %>
+    <% if @listing.errors.any? %>
+      <div id="error_explanation">
+        <h2 class="section-header"><%= pluralize(@listing.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+        <ul>
+          <% @listing.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="row-fluid">
+      <div class="well span3">
+        <h2 class="section-header">Home appliances</h2>
+        <fieldset>
+          <ul class="attributes">
+            <%= render(partial: '/member/listings/property_detail_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: appliances, listing: @listing} ) %>
+          </ul>
+        </fieldset>
+      </div>
+
+      <div class="well span3">
+        <h2 class="section-header">Facilities</h2>
+        <fieldset>
+          <ul class="attributes">
+            <%= render(partial: '/member/listings/property_detail_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: facilities, listing: @listing} ) %>
+          </ul>
+        </fieldset>
+      </div>
+
+      <div class="well span3">
+        <h2 class="section-header">For the young</h2>
+        <fieldset>
+          <ul class="attributes">
+            <%= render(partial: '/member/listings/property_detail_filter', collection: @property_details, as: :property_detail, locals: {rules_filter: children_appliances, listing: @listing} ) %>
+          </ul>
+
+        </fieldset>
+      </div>
+    </div>
+
+    <div class="row-fluid">
+      <div class="span12">
+        <fieldset class="form-actions">
+          <%= f.button('Save facilities', class: 'btn btn-primary') %>
+        </fieldset>
+      </div>
+    </div>
+
+  <% end %>
+</section>

@@ -1,0 +1,17 @@
+<h1><%= @message.conversation.subject %></h1>
+
+<div id="conversation">
+  <%= markdown(@message.body) %>
+</div>
+
+
+<p>
+  <%= @agent_extras %>
+</p>
+
+<p>
+  <%= link_to(t('mailer.view_this_conversation_at_intervac', :locale => @locale), external_domain_link(conversation_path(@message.conversation))) %>
+</p>
+<p>
+  <em><%= t('mailer.reply_to_message_with_reply_button', :locale => @locale) %></em>
+</p>

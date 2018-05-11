@@ -1,0 +1,30 @@
+.translations-box {
+    background-color: $white;
+    border: 5px solid #999999;
+    border-radius: 7px;
+    box-shadow: 2px 2px 8px 10px rgba(0,0,0,0.3);
+    left: 0;
+    margin: 0 auto;
+    padding: 2em;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    width: 640px;
+    z-index: 7500;
+    color: #222222;
+}
+
+.translations-box-header1 {
+    border-bottom: 1px solid #cccccc;
+    font-size: 1em;
+    margin-bottom: 0.875em;
+    padding-bottom: 0.2em;
+}
+
+
+.translations-box-header2 {
+    border-bottom: 1px solid #cccccc;
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.2em;
+}

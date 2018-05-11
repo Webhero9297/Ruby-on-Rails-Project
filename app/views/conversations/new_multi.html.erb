@@ -1,0 +1,59 @@
+<div class="row">
+    <div class="span3">
+        <%= render(partial: 'favorites/favorites_sidebar_menu') %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+                <h1 class="plate-header"><%= t('conversation.contact_multiple_information') %></h1>
+                <ul>
+                    <% @member_accounts.each do |account| %>
+                        <li><%= account.contact.name %> (<%= account.account_number -%>),</li>
+                    <% end %>
+                </ul>
+
+                <%= form_for(@conversation, url: create_multi_conversations_url, html: {id: 'message-form', class: 'well'}) do |f| %>
+                    <% if @conversation.errors.any? %>
+                        <div id="error_explanation">
+                            <h2><%= pluralize(@conversation.errors.count, "error") %> prohibited this conversation from
+                                being saved:</h2>
+                            <ul>
+                                <% @conversation.errors.full_messages.each do |msg| %>
+                                    <li><%= msg %></li>
+                                <% end %>
+                            </ul>
+                        </div>
+                    <% end %>
+
+                    <fieldset>
+                        <%= f.label(:subject, t('global.subject'), for: 'subject') %>
+                        <%= f.text_field(:subject, size: 100, id: 'subject', class: 'span8') %>
+                    </fieldset>
+
+                    <fieldset>
+                        <%= render(partial: 'message_templates/message_template_selector', locals: {message_templates: @user_account.message_templates, input_class: 'span3'}) %>
+                    </fieldset>
+
+                    <fieldset>
+                        <%= f.label(:body, 'Message:', for: 'message') %>
+                        <%= text_area_tag("message[body]", @body, cols: 72, rows: 22, id: 'message', class: 'span8', style: 'height: 200px;', :'data-class' => 'message-template-target') -%>
+                    </fieldset>
+
+                    <fieldset>
+                        <%= f.button(t('send'), class: 'btn btn-primary') %>
+                        <%= link_to(t('button.cancel'), conversations_url, class: 'cancel') %>
+                        <% @member_accounts.each do |account| %>
+                            <%= hidden_field_tag('member_accounts[]', account.id, id: "member-accounts-#{account.id}") %>
+                        <% end -%>
+                    </fieldset>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    <%= render(partial: 'message_templates/message_template_selector_script.js.erb') %>
+});
+</script>

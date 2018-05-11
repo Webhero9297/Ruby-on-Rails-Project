@@ -1,0 +1,28 @@
+<%= form_for(@profile, url: listing_families_path(@listing), remote: true, html: {class: 'form-vertical'}) do |f| %>
+  <% if @profile.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@profile.errors.count, "error") %> <%= t('errors.prohibited_this_listing_from_being_saved') %></h2>
+      <ul>
+        <% @profile.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <fieldset>
+    <%= f.fields_for(:presentation) do |l| %>
+      <%= l.text_area(:text, rows: 12, cols: 52, id: 'profile-presentation', class: 'span12') %>
+      
+      <%= l.label(:visible, class: 'checkbox', for: 'profile-presentation-visible') do %>
+        <%= l.check_box(:visible, id: 'profile-presentation-visible', class: 'checkbox') %>
+        <%= t('accounts.profile.visible_to_guest_users') %>
+      <% end %>
+    <% end %>
+  </fieldset>
+
+  <fieldset class="form-actions">
+    <%= f.button(t('button.save'), class: 'btn btn-primary') %>
+    <%= link_to(t('global.cancel'), cancel_listing_families_path(@listing), remote: true) %>
+  </fieldset>
+<% end %>

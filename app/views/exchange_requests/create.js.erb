@@ -1,0 +1,4 @@
+$('#contact-message-plate-<%= @member_listing.id.to_s %>').slideUp(function(event) {
+    $(this).remove();
+});
+$('#contact-messages-<%= @member_listing.id.to_s %>').hide();

@@ -1,0 +1,25 @@
+<div class="accordion-group">
+  <div class="accordion-heading">
+    <a class="accordion-toggle" data-toggle="collapse" href="#collapseEight">
+      <%= t('search.my_saved_searches') %>
+        <i class="icon-plus pull-right"></i>
+    </a>
+  </div>
+  <div id="collapseEight" class="accordion-body collapse">
+    <div class="accordion-inner">
+      <div data-section="saved-searches">
+        <fieldset class="saved-searches-controls">
+          <%= text_field_tag('filter_name', '', placeholder: t('search.saved_search.name_hint'), :'data-input' => 'search-input', class: 'saved-searches-input') %>
+            <button type="button" class="btn" data-send="save-search">
+              <%= t('search.save_search') -%>
+            </button>
+        </fieldset>
+
+        <h2 class="sidebar-header mb10">
+          <%= t('search.my_saved_searches') %>
+        </h2>
+          <%= render(partial: 'searches/saved_searches_list', locals: {saved_searches: @saved_searches}) %>
+      </div>
+    </div>
+  </div>
+</div>

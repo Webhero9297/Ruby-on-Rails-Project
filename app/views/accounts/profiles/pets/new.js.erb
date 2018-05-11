@@ -1,0 +1,12 @@
+$('#new-pet-button').hide();
+$('#pets-placeholder').remove();
+
+var new_form = '<tr id="pets-form"><td colspan="3"><%= escape_javascript(render(partial: "/accounts/profiles/pets/new_form")) %></td></tr>';
+
+if($('tr#pets-form').length >0){
+  $('tr#pets-form').replaceWith(new_form);
+}else{
+  $('#pets-table tbody').append(new_form);
+}
+
+

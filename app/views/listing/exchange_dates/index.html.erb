@@ -1,0 +1,44 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>
+<section class="row">
+  <div class="span12">
+
+    <h1 class="page-header"><%= t('exchange_agreements.header.exchange_dates_for_listing') %></h1>
+
+    <% if @listing.exchange_dates.empty? -%>
+    <div class="alert alert-info">
+      <p class="alert-message"><strong>Hi there!</strong> You have not added any exchange periods where your listing is available. Why not add one right now!</p>
+    </div>
+    <% end -%>
+
+    <div class="button">
+      <%= link_to(content_tag('i', '', class: 'icon-plus') + content_tag('span', t('exchange_dates.add_dates')), new_listing_exchange_date_url, class: "btn") %>
+    </div>
+    
+    <% if not @listing.exchange_dates.empty? -%>
+    <table id="exchange-dates" class="table table-striped">
+      <thead>
+        <tr>
+          <th class="dates"><%= t('exchange_dates.earliest_date') %></th>
+          <th class="dates"><%= t('exchange_dates.latest_date') %></th>
+          <th class="length-of-stay"><%= t('exchange_dates.label.length_of_stay') %></th>
+          <th class="notes"><%= t('global.notes') %></th>
+          <th class="action"><%= t('global.edit') %></th>
+          <th class="action"><%= t('global.remove') %></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @listing.exchange_dates.each do |date| %>
+        <tr>
+          <td><%= exchange_date(date.earliest_date) %></td>
+          <td><%= exchange_date(date.latest_date) %></td>
+          <td><%= date.length_of_stay %> <%= date.periodicity %></td>
+          <td><%= date.note %></td>
+          <td><%= link_to( content_tag('i', '', class: 'icon-edit icon-white') + content_tag('span', t('edit')), edit_listing_exchange_date_url(@listing, date), class: 'btn btn-primary btn-small') %></td>
+          <td><%= link_to(content_tag('i','', class: 'icon-trash icon-white') + content_tag('span', t('remove')), listing_exchange_date_url(@listing, date), method: :delete, confirm: 'Are you sure you want to delete this period?', class: 'btn btn-danger btn-small delete') %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+    <% end %>
+  </div>
+</section>

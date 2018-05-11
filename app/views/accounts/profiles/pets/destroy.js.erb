@@ -1,0 +1,4 @@
+$('tr#<%= @pet_id %>').remove();
+if($('#pets-table tbody').children().length == 0) {
+  $('#pets-table tbody').append("<%= escape_javascript(render(partial: 'accounts/profiles/pets/placeholder')) %>");
+}

@@ -1,0 +1,44 @@
+<div id="main-photo-manager" class="main-photo-manager">
+    <div class="alert alert-danger" role="alert" id="image-size-alert" style="display: none">
+        <button type="button" class="close size-alert" aria-label="Close"><span aria-hidden="true">×</span>
+        </button>
+        <%= markdown(t('mainphoto.upload.size.error')) %>
+    </div>
+    <div class="main-photo-manager-actions">
+
+        <ul id="main-photo-manager-action-list" class="main-photo-manager-actions-list">
+            <li class="main-photo-manager-actions-list-border" id="main-photo-manager-plupload">
+                <button id="main-photo-upload" class="btn btn-small pluploader" data-insert="main-photo-box" data-replace="replace" data-category="home" data-placement="main-photo-manager-plupload" data-token="<%= form_authenticity_token %>" data-url="<%= upload_listing_main_photos_path(listing) %>">
+                    <i class="icon-upload"></i>
+                    <% if main_photo.blank? %>
+                      <%= t('button.upload_main_photo') %>
+                    <% else %>
+                      <%= t('button.replace_main_photo') %>
+                    <% end %>
+                </button>
+                <br/>
+                <small><em><%= t('conversation.text.attach_file_to_message_limit') %></em></small>
+            </li>
+            <li>
+                <%= t('listing.main_photo.replace_upload_information') %>
+            </li>
+            <li>
+                <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('button.edit_caption'), edit_caption_listing_main_photos_path(listing.id), remote: true, id: 'main-photo-manager-edit-btn') %>
+            </li>
+            <li>
+              <%= link_to([content_tag('i', '', class: 'icon-arrow-left'), t('button.rotate_left')].join(' ').html_safe, rotate_main_photo_left_listing_images_path(listing.id), remote: true, format: :js) %>
+              <%= content_tag(:span,"|", class: 'separator') %>
+              <%= link_to([t('button.rotate_right'), content_tag('i', '', class: 'icon-arrow-right')].join(' ').html_safe, rotate_main_photo_right_listing_images_path(listing.id), remote: true, format: :js) %>
+            </li>
+        </ul>
+
+    </div>
+    <div class="main-photo-manager-img">
+        <%= render(partial: '/listings/main_photos/main_photo', locals: {listing: listing, main_photo: listing.get_main_photo}) %>
+    </div>
+</div>
+<script type="text/javascript">
+    $('.main-photo-manager').on('click', '.size-alert', function(event){
+      $(this).closest('.alert').fadeOut();
+    });
+</script>

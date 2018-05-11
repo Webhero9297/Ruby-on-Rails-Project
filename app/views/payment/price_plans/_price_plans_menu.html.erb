@@ -1,0 +1,5 @@
+<% if admin_session? %>
+  <%= render(partial: '/countries/management_menu', locals: {country: @country}) %>
+<% else %>
+  <%= render(partial: '/countries/agent_price_plan_countries_menu', locals: {countries: @countries}) %>
+<% end %>

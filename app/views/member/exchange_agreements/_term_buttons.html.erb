@@ -1,0 +1,44 @@
+<div class="exchange-terms">
+    <div data-exchange-term="term-<%= prefix %>">
+        <div class="term-approvals" data-toggle="buttons-radio">
+            <% if term.accepted_by_partner %>
+                <%= button_tag(content_tag('i', '', class: 'icon-ok icon-white') + ' ' + t('global.accepted'), rel: prefix, type: 'button', class: "btn mr20 term-button accept active btn-success") %>
+            <% else %>
+                <%= button_tag(content_tag('i', '', class: 'icon-ok icon-black') + ' ' + t('global.accept'), rel: prefix, type: 'button', class: "btn mr20 term-button accept") %>
+            <% end %>
+
+            <% if term.accepted_by_partner or term.accepted_by_partner.nil? %>
+                <%= button_tag(content_tag('i', '', class: 'icon-remove icon-black') + ' ' + t('global.decline'), rel: prefix, type: 'button', class: "btn term-button decline", :"data-cancel" => prefix) %>
+            <% else %>
+                <%= button_tag(content_tag('i', '', class: 'icon-remove icon-white') + ' ' + t('global.declined'), rel: prefix, type: 'button', class: "btn btn-danger active term-button decline", :"data-cancel" => prefix) %>
+            <% end %>
+        </div>
+        <% if term.accepted_by_partner == false %>
+            <div class="mt20 mb0"><em><%= t('global.reason') %> <%= term.reason %></em></div>
+        <% end %>
+        <%= form_tag(handle_term_member_exchange_agreement_url(term.agreement.exchange_agreement), :method => :post, :id => prefix, :remote => true) do %>
+            <%= hidden_field_tag(:agreement_id, term.agreement.id, :id => nil) %>
+            <%= hidden_field_tag(:term_name, prefix, :id => nil) %>
+            <%= hidden_field_tag(:choice, '', :id => nil) %>
+
+            <div class="modal hide fade" id="modal-<%= prefix %>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel"><%= t('exchange_agreement.header.decline_message') %></h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <p><%= t('exchange_agreement.text.info_declined_terms') %></p>
+                            <%= text_area_tag(:reason, '', :class => 'span12', :rows => 6) %>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <%= button_tag('Submit', :class => 'btn btn-primary') %>
+                    <button class="btn" data-dismiss="modal" aria-hidden="true" rel="<%= prefix %>"><%= t('button.cancel') %></button>
+                </div>
+            </div>
+        <% end %>
+    </div>
+</div>

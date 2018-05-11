@@ -1,0 +1,22 @@
+<%= form_tag(do_upgrade_account_subscriptions_path(@account), class: 'form-vertical') do %>
+  <% @price_plans.each do |price_plan| %>
+    <fieldset>
+      <%= label_tag("price-plan-#{price_plan.id}", class: 'radio') do %>
+        <%= radio_button_tag('price_plan_id', price_plan.id, false, id: "price-plan-#{price_plan.id}") %>
+        <%= price_plan.name %>
+      <%- end -%>
+    </fieldset>
+  <%- end -%>
+
+  <fieldset class="form-actions">
+    <%= hidden_field_tag('order_kind', @order_kind) %>
+    <% if @order_kind == 'upgrade' %>
+      <%= submit_tag('Upgrade', class: 'btn btn-primary') %>
+    <%- end -%>
+
+    <% if @order_kind == 'renewal' %>
+      <%= submit_tag('Renew', class: 'btn btn-primary') %>
+    <%- end -%>
+    <%= link_to('Cancel', account_path(@account), class: 'btn-link cancel') %>
+  </fieldset>
+<% end -%>

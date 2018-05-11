@@ -1,0 +1,12 @@
+<h2>Resend unlock instructions</h2>
+
+<%= form_for(resource, :as => resource_name, :url => unlock_path(resource_name), :html => { :method => :post }) do |f| %>
+  <%= render(partial: '/users/shared/resource_error_message', locals: {resource: resource}) %>
+
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email %></div>
+
+  <div><%= f.button "Resend unlock instructions" %></div>
+<% end %>
+
+<%= render :partial => "devise/shared/links" %>

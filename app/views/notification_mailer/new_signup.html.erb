@@ -1,0 +1,45 @@
+<h1><%= t('billing.new_sign_up', :locale => 'en') %></h1>
+<table>
+  <tr>
+    <td class="col1"><%= t('global.membership', :locale => 'en') %>:</td>
+    <td class="col2"><%= text_if_missing(@price_plan.name) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('global.duration', :locale => 'en') %>:</td>
+    <td class="col2"><%= text_if_missing(@price_plan.duration)%> <%= text_if_missing(@price_plan.periodicity) %></td>
+  </tr>
+  <tr>
+    <td class="col1"><%= t('global.price', :locale => 'en') %>:</td>
+    <td class="col2"><%= text_if_missing("%.2f" % @order.total_amount) %> <%= text_if_missing(@order.currency) %></td>
+  </tr>
+  <% if not @order.promotion_code.blank? %>
+  <tr>
+    <td class="col1"><%= t('payment.promotion_code', :locale => 'en') %>:</td>
+    <td class="col2"><%= text_if_missing(@order.promotion_code) %></td>
+  </tr>
+  <% end %>
+  <tr>
+    <td class="col1"><%= t('global.order_number', :locale => 'en') %>:</td>
+    <td class="col2"><%= text_if_missing(@order.order_number) %></td>
+  </tr>
+</table>
+
+<h2><%= t('global.buyer', :locale => 'en') %></h2>
+<table>
+  <tr>
+    <td><%= t('accounts.account_number', :locale => 'en') %>:</td>
+    <td><%= text_if_missing(@user.account.account_number) %></td>
+  </tr>
+  <tr>
+    <td><%= t('global.name', :locale => 'en') %>:</td>
+    <td><%= text_if_missing(@user.account.contact.name) %></td>
+  </tr>
+  <tr>
+    <td><%= t('global.email', :locale => 'en') %>:</td>
+    <td><%= text_if_missing(@user.account.contact.email) %></td>
+  </tr>
+  <tr>
+    <td><%= t('sitewide.country', :locale => 'en') %>:</td>
+    <td><%= t(@user.account.get_country.msgid) %></td>
+  </tr>
+</table>

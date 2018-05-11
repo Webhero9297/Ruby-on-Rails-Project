@@ -1,0 +1,26 @@
+<% if listing.is_available_for_hot_list %>
+	<div class="btn-group mb10" data-toggle="buttons-radio">
+	<% if listing.is_in_hot_list %>
+		<a class="btn btn-success btn-small active"><%= t('global.yes') %></a>
+		<%= link_to(t('global.no'), remove_member_hot_list_url(listing.id), class: 'btn btn-small', remote: true) %>
+	<% else %>
+		<%= link_to(t('global.yes'), add_member_hot_list_path(listing.id), class: 'btn btn-small', remote: true) %>
+		<a class="btn btn-danger btn-small active"><%= t('global.no') %></a>
+	<% end %>
+	</div>
+	<% if listing.is_in_hot_list %>
+		<p><%= markdown( t('listings.status.in_hotlist_since', IN_HOT_LIST_SINCE: standard_date(listing.added_to_hot_list)) ) %></p>
+	<% else %>
+		<div class="alert alert-info"><%= markdown( t('listings.alert.message.explain.hotlist') ) %></div>
+	<% end %>
+<% else %>
+	<div class="btn-group mb10" data-toggle="buttons-radio">
+		<a class="btn btn-small disabled"><%= t('global.yes') %></a>
+		<a class="btn btn-small disabled"><%= t('global.no') %></a>
+	</div>
+	<% if not listing.active %>
+		<div class="alert alert-info"><%= t('alert.message.needs_to_be_available_for_exchange') %></div>
+	<% else %>
+		<div class="alert alert-info"><%= t('alert.message.exchange_dates_needs_to_be_in_order') %></div>
+	<% end %>
+<% end %>

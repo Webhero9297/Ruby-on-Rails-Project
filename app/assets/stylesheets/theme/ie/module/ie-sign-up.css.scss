@@ -1,0 +1,36 @@
+.sign-up-badge-link {
+    border: 10px solid $dark-green;
+    border-radius: 50%;
+    height: 11em;
+    padding-top: 3.5em;
+    position: absolute;
+    margin: 0;
+    left: -0.5em;
+    text-align: center;
+    top: -4em;
+    width: 11em;
+    @include transform(rotate(-10deg));
+    @include box-sizing(border-box);
+
+    span {
+        display: block;
+    }
+}
+
+.sign-up-list {
+    margin: 0 0 2em 10em;
+    > li {
+        display: inline-block;
+        margin: 0 0 2% 2%;
+        text-align: left;
+        vertical-align: top;
+        width: 31%;
+    }
+}
+
+.sign-up-call-to-action {
+    position: relative;
+    top: auto;
+    left: auto;
+    text-align: center;
+}

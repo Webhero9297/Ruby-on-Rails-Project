@@ -1,0 +1,2 @@
+module MatchAlertsHelper
+end

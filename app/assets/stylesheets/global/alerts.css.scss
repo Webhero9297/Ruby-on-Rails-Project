@@ -1,0 +1,104 @@
+@import "mixins";
+
+.alert a,
+.alert > p > a {
+    font-weight: bold;
+    color: #1378aa;
+    text-decoration: underline;
+}
+
+.alert,
+.alert > p,
+p.alert-message {
+    color: #222222;
+}
+
+p.alert-message {
+    margin: 0;
+    padding: 0;
+}
+
+h1.alert-heading,
+h2.alert-heading,
+h3.alert-heading,
+h4.alert-heading {
+	line-height: normal;
+	padding: 0;
+    margin-bottom: 5px;
+	font-size: 15px;
+	font-weight: bold;
+    color: #222222;
+}
+
+h4.alert-heading {
+    font-size: 15px;
+}
+
+article.non-existing {
+	padding: 20px;
+	border: 1px solid $standard-grey;
+	@include border-radius;
+}
+
+#notification {
+    position: fixed;
+    width: 100%;
+    top: -100px;
+    left: 0;
+    padding: 10px;
+    font-size: 14px;
+    color: $white;
+	background: url('/assets/public-page/50percent-black.png');
+	background: rgba(0, 0, 0, 0.8);
+    z-index: 30000;
+    text-align: center;
+    @include box-shadow(0, 2px, 8px, #454545);
+    @include box-sizing;
+
+    .notification-icon {
+        font-family: "arial black", arial, sans-serif;
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 10px 16px;
+        margin-right: 20px;
+        color: $white;
+        background-color: rgb(0, 0, 0);
+        @include border-radius(8px);
+        vertical-align: middle;
+    }
+
+    .success-icon {
+        background-color: rgb(65, 180, 67);
+    }
+}
+
+#error_explanation,
+.error_explanation {
+	margin: 0 0 20px 0;
+	padding: 12px;
+	background-color: $danger-background;
+	border: 1px solid $danger-border;
+	@include border-radius;
+	
+	h1,
+    h2 {
+		margin: 0 0 8px 0;
+		padding: 0;
+		font-size: 16px;
+		font-weight: bold;
+		color: $danger-color;
+	}
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			font-size: 13px;
+			margin: 0 0 4px 0;
+			padding: 0;
+			list-style: none;
+			color: $danger-color;
+		}
+	}
+}

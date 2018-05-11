@@ -1,0 +1,40 @@
+<% if admin_session? %>
+  <% body_id 'countries' %>
+<% else %>
+  <% body_id 'payment' %>
+<% end %>
+
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: '/payment/price_plans/price_plans_menu', locals: {country: @country, countries: @countries}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header">Price plans for: <%= t(@country.msgid) %></h1>
+        <p class="mb20"><%= link_to(content_tag('i', '', class: 'icon-white icon-plus') + ' ' + t('button.create_price_plan'), new_country_price_plan_url(@country), class: 'btn btn-success') %></p>
+        <% @country.price_plans.each do |price_plan| %>
+          <% if session['dashboard'] == 'admin' %>
+            <%= render(partial: 'countries/price_plan_article', locals: {country: @country, price_plan: price_plan}) %>
+          <% end %>
+
+          <% if session['dashboard'] == 'agent' and price_plan.is_paid_plan? %>
+            <%= render(partial: 'countries/price_plan_article', locals: {country: @country, price_plan: price_plan}) %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+      /* Activating Best In Place */
+      $(".best_in_place").best_in_place();
+      $('#paypal_email_edit').live('click', function(event){
+          $('form.form_in_place :submit').addClass('btn')
+          $('form.form_in_place').addClass('form-inline')
+          $('form.form_in_place input[type="text"]').addClass('input-large');
+      });
+  });
+</script>

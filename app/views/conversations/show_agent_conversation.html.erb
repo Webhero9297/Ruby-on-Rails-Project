@@ -1,0 +1,108 @@
+<% body_id 'messages' %>
+
+<div class="row-fluid">
+  <div class="span3">    
+    <%= render(partial: 'conversation_menu') %>
+  </div>
+  <div class="span9">
+
+    <div class="plate">
+      <section class="message-wrap">
+      <header class="message">
+        <h1 class="subject"><%= @conversation.subject %></h1>
+      </header>
+
+      <article class="thread">
+
+        <% @messages.each do |m| %>
+          <% if m.sent_by_account == current_user.account_id %>
+          <section class="thread-message right">
+            <div class="thread-user right">
+              <strong><%= m.sent_by_user %></strong>
+              <span><%= message_date(m.updated_at) %></span>
+            </div>
+            <div class="message-note right">
+              <%= markdown(m.body) %>
+              <% m.attachments.each do |attachment| %>
+                <p><i class="icon-file"></i> <%= link_to('View attachment', "#{attachment.file}") %></p>
+              <% end %>
+            </div>
+          </section>
+          <% else %>
+          <section class="thread-message">
+            <div class="thread-user">
+              <strong><%= m.sent_by_user %></strong>
+              <span><%= message_date(m.updated_at) %></span>
+            </div>
+            <div class="message-note">
+              <%= markdown(m.body) %>
+
+              <% m.attachments.each do |attachment| %>
+                <p><i class="icon-file"></i> <%= link_to('View attachment', "#{attachment.file}") %></p>
+              <% end %>
+
+            </div>
+          </section>
+          <% end %>
+        <% end -%>
+
+      </article>
+      
+      <footer class="message">
+        <% permitted_to? :create do %>
+        <% if @account.message_templates.length > 0 %>
+                  <div class="row-fluid mt10">
+                      <div class="span4 pl10">
+                          <strong>Write your reply or choose a message template</strong>
+                      </div>
+                      <div class="span4">
+                          <%= collection_select(:message_template, :mt_id, @account.message_templates, :_id, :name, {prompt: 'Choose a template'}, { id: 'message-template', class: 'form-control' }) %>
+                      </div>
+                      <div class="span4">
+                          <% if @conversation.archived.include?(current_user.account_id) %>
+                              <%= link_to(t('conversations.delete'), conversation_url(@conversation), method: :delete, class: 'btn btn-small pull-right btn-danger mr20') %>
+                          <% else %>
+                              <%= link_to( t('conversations.archive'), archive_conversation_url(@conversation), class: ' btn btn-small pull-right mr20') %>
+                          <% end %>
+                      </div>
+                  </div>
+
+
+          <% end %>
+          
+          <%= form_for(@conversation, method: :put, html: {id: 'message-form', class: 'message form-inline', :multipart => true}) do |f| %>
+            <% if @error_message %>
+            <div class="alert alert-danger">
+              <strong><%= @error_message %></strong>
+            </div>
+            <% end %>    
+            <fieldset id="message-field">
+              <%= fields_for(:message) do |m| %>
+                <%= m.text_area(:body, rows: 8, id: 'message', class: 'form-control') -%>
+              <% end -%>
+            </fieldset>
+
+            <fieldset id="reply-button">
+              <div class="is-inline mr40"><%= f.button('Reply', type: :submit, class: 'btn btn-primary') %></div>
+              <div class="is-inline">
+                <label for="file-attachment" class="mr20"><i class="icon-file"></i> Attach a file or image to the message</label>
+                <%= file_field_tag(:file, id: 'file-attachment') %>
+              </div>
+
+            </fieldset>
+          <% end %>
+        <% end %>
+        <div style="clear: left;"> </div>
+      </footer>
+      </section>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  //Make sure we scroll the thread to the bottom
+  $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+
+  $("#message-template").on('change', function() {
+    $.get('/get-message-template/'+this.value+'.js');
+  });
+</script>

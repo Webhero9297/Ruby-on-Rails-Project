@@ -1,0 +1,28 @@
+<%= render( partial: '/accounts/accounts/menu', object: @account, as: 'account') %>
+<div class="row-fluid">
+  <div class="span12">
+    <h1 class="page-header"><%= t('accounts.spoken_languages.header.member_languages_for_correspondence') %></h1>
+  </div>
+</div>
+
+<div class="row-fluild">
+  <div class="span12">
+    <%= form_for(@account, url: account_spoken_languages_url(@account), html: {class: 'well'}) do |f| %>
+      <fieldset>
+        <ul id="spoken-languages">
+        <% @languages.each do |language| %>
+            <li>
+              <%= check_box_tag("spoken_languages][]", language.msgid, @account.profile.spoken_languages.include?(language.msgid), id: "lang-#{language.short}", class: "check-box inline") %>
+              <%= label_tag("lang-#{language.short}", t(language.msgid), class: "inline") %>
+            </li>
+        <% end -%>
+        </ul>
+      </fieldset>
+
+      <fieldset class="form-actions">
+        <%= f.button( "Save languages", class: 'btn btn-primary') %>
+      </fieldset>
+  
+    <% end %>
+  </div>
+</div>  

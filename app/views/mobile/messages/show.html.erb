@@ -1,0 +1,60 @@
+<% content_for(:back_button) do %>
+  <%= link_to('back', mobile_messages_path, class: 'button ml10', :'data-spinner' => 'spinner') %>
+<% end %>
+
+<article>
+  <h1 class="message-subject"><%= @conversation.subject %></h1>
+
+  <div class="message-thread">
+  <% @messages.each do |m| %>
+    <% if m.sent_by_account == current_user.account_id %>
+      <div class="message-left">
+        <div class="message-user">
+          <strong><%= m.sent_by_user %></strong>
+          <span><%= message_date(m.updated_at) %></span>
+        </div>
+        <div class="message-body">
+          <%= markdown(m.body) %>
+        </div>
+        <% m.attachments.each do |attachment| %>
+          <p><%= link_to('View attachment', "#{attachment.file}") %></p>
+        <% end %>
+      </div>
+    <% else %>
+      <div class="message-right">
+        <div class="message-user">
+          <strong><%= m.sent_by_user %></strong>
+          <span><%= message_date(m.updated_at) %></span>
+        </div>
+
+        <div class="message-body">
+          <%= markdown(m.body) %>
+        </div>
+        <% m.attachments.each do |attachment| %>
+          <p><%= link_to('View attachment', "#{attachment.file}") %></p>
+        <% end %>
+        </div>
+    <% end %>
+  <% end -%>
+  </div>
+
+  <% if permitted_to?(:create) %>
+  <%= form_for(@conversation, url: mobile_message_path(@conversation), method: :put, html: {id: 'message-form', :multipart => true, :'data-ajax' => "false"}) do |f| %>
+    <fieldset id="message-field">
+      <%= fields_for(:message) do |m| %>
+        <%= m.text_area(:body, rows: 8, id: 'message') -%>
+      <% end -%>
+      <div>
+        <label for="file-attachment">Attach a file or image to the message</label>
+        <%= file_field_tag(:file, id: 'file-attachment') %>
+      </div>
+    </fieldset>
+
+    <fieldset id="reply-button" class="form-actions">
+      <%= f.button('Reply', type: :submit, class: 'button large button-green full') %>
+    </fieldset>
+  <% end %>
+<% else %>
+  <p class="alert">You must have an active subscription to be able to use the message service.</p>
+<% end %>
+</article>

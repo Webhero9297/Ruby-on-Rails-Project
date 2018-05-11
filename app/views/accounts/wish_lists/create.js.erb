@@ -1,0 +1,3 @@
+$('#wish-list-alert').remove();
+$('#member-wish-list-form').replaceWith("<%= escape_javascript(render(partial: '/accounts/wish_lists/button', locals: {account: @account})) %>");
+$('#wish-list-table tbody').append("<%= escape_javascript(render(partial: '/accounts/wish_lists/item', locals: {account: @account, item: @destination})) %>");

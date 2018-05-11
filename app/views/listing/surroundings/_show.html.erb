@@ -1,0 +1,16 @@
+<div class="row-fluid">
+  <div class="span12">
+    <div id="surrounding-map" data-lat="<%= listing.lat %>" data-lng="<%= listing.lng %>"></div>
+    <ul id="surrounding-pins" class="unstyled mt20">
+    <% listing.surroundings.each do |pin| %>
+      <li><%= image_tag("#{pin['id']}.png", :title => pin['id'].capitalize, :class => 'legend') %><span class="pin-name pin" data-id="<%= pin['id']%>" data-lat="<%= pin['lat'] %>" data-lng="<%= pin['lng'] %>"><%= pin['name'] %> <em class="distance">(<%= pin['distance'] %> km)</em></span></li>
+    <%- end -%>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+    surroundings_map();
+  });
+</script>

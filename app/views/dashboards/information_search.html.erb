@@ -1,0 +1,63 @@
+<div class="row">
+    <div class="span3">
+        <%= link_to(t('button.back '), searches_index_path, class: 'flat-btn orange') %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+                <h1 class="plate-header"><%= t('dashboard.header.search_information') %></h1>
+                <p>
+                    This is a short introduction to how the Intervac search facility works.
+                </p>
+
+                <div class="mb60">
+                    <h2 class="plate-section-header">Main search</h2>
+                    <p>The search field is the main search facility and you can search for a Country, City or Region. Or you can easily switch over to the Map view, which provides a more interactive way to find a listing in a specific region, more on the map view later.</p>
+                    <%= image_tag('search-information/search-bar.png', alt: 'Search field', class: 'info-image') %>
+
+                    <p>
+                        The search field has a handy autocomplete functionality that makes it easy to search for places that shares the same name but are located in different countries.
+                        You can use your arrow keys on your keyboard to navigate up and down the list and press enter to make a search for the selected destination.
+                    </p>
+                    <%= image_tag('search-information/search-autocomplete.jpg', alt: 'Search field with autocomplete', class: 'info-image') %>
+                </div>
+
+
+
+
+                <h2 class="plate-section-header">Search sidebar and filters</h2>
+                <div class="row-fluid">
+                    <div class="span6">
+                        <%= image_tag('search-information/search-sidebar.png', alt: 'Search sidebar with filters', class: 'info-image') %>
+                    </div>
+                    <div class="span6">
+                        <p>
+                            The search sidebar has two primary features; Search filters and Go to listing
+                        </p>
+                        <h3 class="info-header-3">Search filters</h3>
+                        <p>
+                            The search filters allows you to refine and narrow down your search to your specific needs. The filters are easy to use. Click on a section to open it up, click on the filters you want to apply and click apply filters to filter the result cards.
+                        </p>
+                        <ul>
+                            <li><strong>House filters</strong>: Specify number of beds, available facilities and house type.</li>
+                            <li><strong>Exchange filters</strong>: Your exchange dates and kind of exchange you are looking for.</li>
+                            <li><strong>Environment filters</strong>: The kind of setting you are after. City or country side?</li>
+                            <li><strong>Family filters</strong>: Number of people travelling and children information.</li>
+                            <li><strong>Surroundings</strong>: Activities in the surrounding area.</li>
+                            <li><strong>Preferences</strong>: Sorting order, listings per page and hot list filter.</li>
+                        </ul>
+                        <h3 class="info-header-3">Go to listing</h3>
+                        <p>
+                            Great when you know the listing number and want to go to that listing directly. Just enter the number and hit go or press enter.
+                        </p>
+                    </div>
+                </div>
+                <h2 class="plate-section-header">Map view</h2>
+                <p>
+                    In the map view you can quick and easy narrow down.
+                </p>
+                <%= image_tag('search-information/search-map-view.jpg', alt: 'Map search view', class: 'info-image') %>
+            </div>
+        </div>
+    </div>
+</div>

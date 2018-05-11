@@ -1,0 +1,5 @@
+<%= form_for(@country, url: save_currency_country_url(@country), html: {class: 'form-horizontal'}, remote: true) do |f| -%>
+  <%= f.select(:currency, Rails.application.config.currencies.collect {|c| [ c, c ] }, id: 'country-currency') %>
+  <%= f.button(t('button.save'), class: 'btn') %>
+  <%= link_to(t('button.cancel'), '#currency', id: "cancel-currency") %>
+<% end -%>

@@ -1,0 +1,55 @@
+<div class="filter-list">
+    <% if @capacity %>
+      <span class="label-keyword"><%= t('search_results.at_least_beds', {:CAPACITY => @capacity}) %></span>
+    <% end %>
+
+    <% if @min_duration.present? %>
+      <span class="label-keyword"><%= t('search_results.min_duration', {:WEEKS => @min_duration}) %></span>
+    <% end %>
+
+    <% if @adults %>
+      <span class="label-keyword"><%= t('search_results.at_least_adults', {:ADULTS => @adults}) %></span>
+    <% end %>
+
+    <% if @children %>
+      <span class="label-keyword"><%= t('search_results.with_or_without_children', {:WITH_OR_WITHOUT => t(@children)}) %></span>
+    <% end %>
+
+    <% if @pets %>
+      <span class="label-keyword"><%= t('search_results.with_or_without_pets', {:WITH_OR_WITHOUT => t(@pets)}) %></span>
+    <% end %>
+
+    <% if @ee %>
+      <span class="label-keyword"><%= t('filters.experienced_exchangers') %></span>
+    <% end %>
+
+    <% if @open_for_exchange %>
+      <span class="label-keyword"><%= t('listings.open_for_exchange') %></span>
+    <% end %>
+
+    <%- @house_filters.each do |filter| %>
+      <span class="label-keyword"><%= t(filter) %></span>
+    <% end %>
+
+    <%- @house_type_filters.each do |filter| %>
+      <span class="label-keyword"><%= t(filter) %></span>
+    <% end %>
+
+    <%- @exchange_type_filters.each do |filter| %>
+      <span class="label-keyword"><%= t(filter) %></span>
+    <% end %>
+
+    <%- @environment_filters.each do |filter| %>
+      <span class="label-keyword"><%= t(filter) %></span>
+    <% end %>
+
+    <%- @languages_array.to_a.each do |filter| %>
+      <span class="label-keyword"><%= "#{t('filters.languages_spoken')}: #{t(filter)}" %></span>
+    <% end %>
+
+    <% @surrounding_types.each do |surrounding| %>
+      <% if @surroundings.include?(surrounding[:short]) %>
+        <span class="label-keyword"><%= t(surrounding[:msgid]) %></span>
+      <% end %>
+    <% end %>
+</div>

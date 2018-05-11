@@ -1,0 +1,130 @@
+<h1 style='font-size: 19px; font-weight: normal;'>
+  <%= @message.conversation.subject %>
+</h1>
+<div id="conversation" style='padding: 10px 0;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;'>
+    <%= markdown(@message.body) %>
+</div>
+
+<%- if @message.conversation.kind == 'member_to_member' -%>
+  <% @sender_account.listings.each do |listing| %>
+    <div class="listing" style="border: 1px solid #d1c4b8;border-radius: 3px; width: 20%;background: #fff;vertical-align: top;display:inline-block; margin: 20px 0;">
+      <div class="innerListing" style="margin: 10px;">
+        <p style="color: black; font-size: 16px;"><%= listing.postal_town %></p>
+        <p style="color: #6a6a6a; font-size: 14px;"><%= t(listing.country, :locale => @locale) %></p>
+        <% if listing.get_main_photo %>
+          <div class="image"><%= link_to(image_tag(external_domain_link(listing.get_main_photo.image.size_170), width: "100%", alt: listing.listing_number), external_domain_link(listing_path(listing))) %></div>
+        <% end %>
+        <p style="color: black; margin: 0 auto; font-size: 14px;">
+          <% if listing.open_for_exchange %>
+            <% if listing.concat_exchange_dates.nil? %>
+              <%= t('listings.label.no_exchange_dates_available', :locale => @locale) %>
+            <% else %>
+              <% if listing.exchange_dates.count > 1 %>
+                  <%= listing.concat_exchange_dates %> (<%= listing.exchange_dates.get_longest_duration %>)
+              <% else %>
+                <%= listing.concat_exchange_dates %> (<%= listing.exchange_dates.get_longest_duration %>)
+              <% end %>
+            <% end %>
+          <% else %>
+            <%= t('listing.label.not_available_for_exchange', :locale => @locale) %>
+          <% end %>
+        </p>
+        <ul style="width: 100%;position: relative; text-align:center; padding: 0;">
+          <li style="width: 32%;display: inline-block;vertical-align: top;margin:0;" title="<%= t('listings.label.sleeping_capacity', :locale => @locale) %>">
+            <% if Rails.env.production? || Rails.env.staging? %>
+              <%= image_tag(external_domain_link(asset_path('beds.png')), alt: listing.sleeping_capacity) %>
+            <% else %>
+              <%= image_tag('beds.png', alt: listing.sleeping_capacity) %>
+            <% end %>
+            <span><%= listing.sleeping_capacity %></span>
+          </li>
+          <li style="width: 32%;display: inline-block;vertical-align: top;margin:0;" title="<%= t('global.adults', :locale => @locale) %>">
+            <% if Rails.env.production? || Rails.env.staging? %>
+              <%= image_tag(external_domain_link(asset_path('adults.png')), alt: listing.account.profile.number_of_adults) %>
+            <% else %>
+              <%= image_tag('adults.png', alt: listing.account.profile.number_of_adults) %>
+            <% end %>
+            <span><%= listing.account.profile.number_of_adults %></span>
+          </li>
+          <li style="width: 32%;display: inline-block;vertical-align: top;margin:0;" title="<%= t('global.children', :locale => @locale) %>">
+            <% if Rails.env.production? || Rails.env.staging? %>
+              <%= image_tag(external_domain_link(asset_path('children.png')), alt: listing.account.profile.number_of_children) %>
+            <% else %>
+              <%= image_tag('children.png', alt: listing.account.profile.number_of_children) %>
+            <% end %>
+            <span><%= listing.account.profile.number_of_children %></span>
+          </li>
+        </ul>
+
+        <ul style="list-style:none; padding:0;">
+          <li style="border-top: 1px solid #6a6a6a;width:100%;   padding: 5px 0;margin:0;">
+            <span style="display:inline-block; width: 49%;text-align:left;"><%= t('tag.use_exchange_of_car') %>:</span>
+            <span style="display:inline-block; width: 49%;text-align:right;font-weight: bold;"><%= listing.property_details.include?('tag.use_exchange_of_car') ? t('global.yes', :locale => @locale) : t('global.no', :locale => @locale) %></span>
+          </li>
+          <li style="border-top: 1px solid #6a6a6a;width:100%;    padding: 5px 0;margin:0;">
+            <span style="display:inline-block; width: 49%;text-align:left;"><%= t('tag.non_smoking') %>:</span>
+            <span style="display:inline-block; width: 49%;text-align:right;font-weight: bold;"><%= listing.property_details.include?('tag.non_smoking') ? t('global.yes', :locale => @locale) : t('global.no', :locale => @locale) %></span>
+          </li>
+          <li style="border-top: 1px solid #6a6a6a;width:100%;    padding: 5px 0;margin:0;">
+            <span style="display:inline-block; width: 49%;text-align:left;"><%= t('tag.pet_care_wanted') %>:</span>
+            <span style="display:inline-block; width: 49%;text-align:right;font-weight: bold;"><%= listing.property_details.include?('tag.pet_care_wanted') ? t('global.yes', :locale => @locale) : t('global.no', :locale => @locale) %></span>
+          </li>
+        </ul>
+        <p style='width: 100%; text-align: right; color: #008fec;'>
+            <%= link_to("#{t('global.view', :locale => @locale)} #{listing.listing_number}", external_domain_link(listing_path(listing))) %>
+        </p>
+      </div>
+    </div>
+  <% end %>
+<% end %>
+
+<% width = @sender_account.listings.size > 1 ? 100 : 79
+  open_past_listing = @listing_owner.account.listings.first.open_past_listing
+%>
+<div class='row' style='width:<%= width %>%; margin-top: 30px; text-align:center; display:inline-block;vertical-align: top;' >
+  <%- if @message.kind == 'exchange_request' -%>
+
+      <h2 style='font-size: 14px; font-weight: bold; margin-bottom: 50px;width:100%;'><%= t('mailer.conversation.answer', :locale => @locale) %></h2>
+      <div class='container' style='display: inline-block;text-align: center;margin: 10px auto;width: 30%;vertical-align: top;border: 1px solid rgba(0, 0, 0, 0.21);border-radius: 20px;'>
+        <%
+          url = open_past_listing ? lets_talk_no_user_conversation_path(@message.conversation, @listing_owner.id) : lets_talk_conversation_path(@message.conversation, @listing_owner.id)
+        %>
+        <%= link_to(t('mailer.lets_talk', :locale => @locale), external_domain_link(url), id: 'interested', rel: 'nofollow', style: 'color: #ffffff;padding: 10px;background-color: #51a351;border: 1px solid #286028;text-decoration: none;font-size: 40px;border-radius: 8px;min-width: 110px;width: 50%;margin: 0 auto;margin-top: -30px;display: block;margin-top: -30px;') %>
+        <!-- <p>I accept your offer, let's discuss the details.</p> -->
+        <p style='display: block; width: 90%; margin: 30px auto; '><%= t('mailer.description.interested', :locale => @locale) %></p>
+      </div>
+      <div class='container' style='display: inline-block;text-align: center;margin: 10px auto;width: 30%;vertical-align: top;border: 1px solid rgba(0, 0, 0, 0.21);border-radius: 20px;'>
+        <%
+          url = open_past_listing ? maybe_interested_no_user_conversation_path(@message.conversation, @listing_owner.id) : maybe_interested_conversation_path(@message.conversation, @listing_owner.id)
+        %>
+        <%= link_to(t('mailer.maybe_interested', :locale => @locale), external_domain_link(url), id: 'maybe-interested', style: 'color: #ffffff;padding: 10px;background-color: #F89507;border: 1px solid #BB7005;text-decoration: none;font-size: 40px;border-radius: 8px;min-width: 110px;width: 50%;margin: 0 auto;margin-top: -30px;display: block;margin-top: -30px;',rel: 'nofollow') %>
+        <!-- <p>Your offer is interesting, but I am not sure yet.</p> -->
+        <p style='display: block; width: 90%; margin: 30px auto; '><%= t('mailer.description.maybe_interested', :locale => @locale) %></p>
+      </div>
+      <div class='container' style='display: inline-block;text-align: center;margin: 10px auto;width: 30%;vertical-align: top;border: 1px solid rgba(0, 0, 0, 0.21);border-radius: 20px;'>
+        <%
+          url = open_past_listing ? not_interested_no_user_conversation_path(@message.conversation, @listing_owner.id) : not_interested_conversation_path(@message.conversation, @listing_owner.id)
+        %>
+        <%= link_to(t('mailer.not_interested', :locale => @locale), external_domain_link(url), id: 'not-interested', rel: 'nofollow', style: 'color: #ffffff;padding: 10px;background-color: #bd362f;border: 1px solid #bb7005;text-decoration: none;font-size: 40px;border-radius: 8px;min-width: 110px;width: 50%;margin: 0 auto;margin-top: -30px;display: block;margin-top: -30px;') %>
+        <!-- <p>Thank you for your inquiry. At this time we are either not seeking an exchange in your area or have already found one. In any case we appreciate your interest in exchanging with us.</p> -->
+        <p style='display: block; width: 90%; margin: 30px auto; '><%= t('mailer.description.not_interested', :locale => @locale) %></p>
+      </div>
+  <%- end -%>
+
+  <% if open_past_listing #any of the listings would work because this is an account field %>
+    <div style="width:20%;position:relative;margin: 40px; text-align: left;">
+      <p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 18px;'><%= t('mailer.old_listing_found', :locale => @locale) %></p>
+      <%= link_to(t('mailer.do_not_show_past_listing', :locale => @locale), external_domain_link(hide_listing_conversation_path(@message.conversation, @listing_owner.id)), id: 'hide-listing', rel: 'nofollow', style: 'color: #ffffff;padding: 10px;background-color: #bd362f;border: 1px solid #bb7005;text-decoration: none;font-size: 14px;border-radius: 8px;min-width: 110px;width: 100%;margin-top: 20px;display: block;') %>
+    </div>
+  <% end %>
+  <div style="width:50%;position:relative;margin: 40px; text-align: left;">
+    <p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 18px;'>
+        <%= link_to(t('mailer.view_this_conversation_at_intervac', :locale => @locale), external_domain_link(conversation_path(@message.conversation))) %>
+    </p>
+    <p style='font-size: 13px; margin-top: 0; padding: 0; margin-bottom: 18px;'>
+      <em>
+        <%= t('mailer.reply_to_message_with_reply_button', :locale => @locale) %>
+      </em>
+    </p>
+  </div>
+</div>

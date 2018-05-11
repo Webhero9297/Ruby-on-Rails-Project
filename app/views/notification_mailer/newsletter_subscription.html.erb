@@ -1,0 +1,10 @@
+<h1>Hello there!</h1>
+
+<p>Thank your for subscribing to Intervac Home Exchange newsletter. Please active your subscription by clicking the activation link below.</p>
+
+<p><%= link_to('Active my subscription', external_domain_link(newsletter_activation_path(:activation_code => @newsletter.activation_code))) %></p>
+
+<p>Have a really nice day!</p>
+
+<p>Regards <br />
+The Intervac Team</p>

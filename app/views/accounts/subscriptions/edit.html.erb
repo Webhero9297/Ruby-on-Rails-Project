@@ -1,0 +1,50 @@
+<%= render( partial: '/accounts/accounts/menu', object: @account, as: 'account') %>
+<div class="row-fluid mb40">
+  <div class="span12">
+    <article>
+      <h1 class="page-header"><%= t('billing.prolong_membership') %></h1>
+      
+      <dl class="dl-horizontal">
+        <dt><%= t('global.membership') %>:</dt>
+          <dd><%= @subscription.name %></dd>
+          
+        <% if @subscription.renewal %>
+        <dt><%= t('global.renewed') %>:</dt>
+        <% else %>
+        <dt><%= t('global.created') %>:</dt>
+        <% end %>
+          <dd><%= standard_date(@subscription.created_at) %></dd>
+          
+        <dt><%= t('global.expires') %>:</dt>
+          <dd><%= standard_date(@subscription.expires_at) %></dd>
+      </dl>
+      
+    </article>
+  </div>
+</div>
+
+<div class="row">
+  <div class="span12">
+    <%= form_for(@subscription, url: account_subscription_url(@account, @subscription), html: {class: 'well form-vertical span5'}) do |f| %>
+
+    <fieldset>
+      <div class="expiration-date">
+        <div class="input-append">
+          <%= f.text_field(:expires_at, value: exchange_input_date(@subscription.expires_at), id: 'expiration-date', class: "date input-medium", readonly: "readonly") %>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="form-actions">
+      <%= f.button('Save expiration date', class: 'btn btn-primary') %>
+      <%= link_to('Cancel', account_payments_url(@account)) %>
+    </fieldset>
+    <% end %>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+jQuery(document).ready(function($) {
+    expiration_date();
+});
+</script>

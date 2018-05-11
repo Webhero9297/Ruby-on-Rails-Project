@@ -1,0 +1,44 @@
+<%= render(partial: 'listings/listings_menu', locals: {listing: @listing}) %>
+
+<div class="row">
+  <div class="span12">
+    <h1 class="page-header"><%= t('listings.header.property_images') %></h1>
+  </div>
+</div> 
+
+<div class="row">
+  <div class="span3">
+    <h2 class="section-header border-top"><%= t('listings.images.header.main_photo') %></h2>
+    <div id="main-photo-wrapper">
+    <% if @listing.main_photo.nil? %>
+      <%= render( partial: 'listing/images/no_main_photo') %>
+    <% else %>
+      <%= render( partial: 'listing/images/main_photo', object: @listing.get_main_photo, as: 'main_photo') %>
+    <% end %>
+    </div>
+  </div>
+  <section class="span9">
+    <h2 class="section-header border-top"><%= t('listings.header.property_photos') %></h2>
+    <div id="home-images">
+      <div class="image-uploader well">
+        <p class="image-uploader"><%= t('accounts.profile.help.text.upload_photos') %></p>
+        <%= image_tag('upload-pointer.png', alt: '', class: 'upload-pointer') %>
+        <button id="home-upload" class="btn btn-primary pluploader" data-category="home" data-token="<%= form_authenticity_token %>" data-url="<%= listing_images_url %>"><i class="icon-upload icon-white"></i><%= t('button.select_images') %></button>
+      </div>
+      <% if @listing_images.count == 0 -%>
+        <%= render( partial: 'accounts/profile_images/no_images') %>
+      <% end -%>
+      
+      <%= render( partial: 'listing/images/listing_image', collection: @listing_images, as: 'image', locals: {listing: @listing}) %>
+    </div>
+  </section>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  jQuery(document).ready(function($) {
+      $('.pluploader').each(function(){
+        enable_image_upload(this);
+      });
+      enable_caption_edit();
+  });
+</script>

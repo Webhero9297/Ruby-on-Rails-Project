@@ -1,0 +1,140 @@
+<%= render( partial: '/accounts/accounts/menu', object: @account, as: 'account') %>
+<div class="row">
+  <div class="span3">
+    <%= render(partial: '/accounts/profiles/side_menu', object: @account, as: 'account') %>
+  </div>
+  
+  <div class="span9">
+    <h1 class="page-header"><%= t('accounts.profiles.header.member_family_profile') %></h1>
+
+    <div class="row mb20">
+      <div class="span9">
+        <div class="inner">
+          <div class="header">
+            <h6 class="section-header"><%= t('global.adults') %></h6>
+            <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), account_profiles_adults_url(@account)) %>
+          </div>
+          <% if @profile.adults.count() == 0 then %>
+          <p><%= t('membership.no_adults_added') %></p>
+          <% else %>
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th><%= t('global.occupation') %></th>
+              </tr>
+            </thead>
+            <tbody id="children">
+              <% @profile.adults.each do |adult| %>
+              <tr>
+                <td><%= adult.occupation %></td>
+              </tr>
+              <% end %>
+            </tbody>
+          </table>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb20">
+      <div class="span9">
+        <div class="inner">
+          <div class="header">
+            <h6 class="section-header"><%= t('global.children') %></h6>
+            <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), account_profiles_children_url(@account)) %>
+          </div>
+          <% if @profile.children.count() == 0 then %>
+          <p><%= t('membership.no_children_added') %></p>
+          <% else %>
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th>Age</th>
+                <th colspan="3">Gender</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @profile.children.each do |child| %>
+              <tr id="child-<%= child.id %>">
+                <td>
+                  <%= child_age(child) %>
+                </td>
+                <td>
+                  <%= child['gender'] %>
+                </td>
+              </tr>
+              <% end %>
+            </tbody>
+          </table>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb20">
+      <div class="span9">
+        <div class="inner">
+          <div class="header">
+            <h6 class="section-header"><%= t('global.pets') %></h6>
+            <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), account_profiles_pets_url(@account)) %>
+          </div>
+          <% if @profile.pets.count() == 0 then %>
+          <p><%= t('accounts.profile.no_pets_added') %></p>
+          <% else %>
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th><%= t('accounts.label.kind_of_pet') %></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @profile.pets.each do |pet| %>
+              <tr>
+                <td><%= pet.kind %></td>
+              </tr>
+              <% end %>
+            </tbody>
+          </table>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mb20">
+      <div class="span9">
+        <div class="inner">
+          <div class="header">
+            <h6 class="section-header"><%= t('accounts.header.family_presentation') %></h6>
+            <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_profiles_presentations_url(@account)) %>
+          </div>
+          <% if @profile.presentation.text.blank? then %>
+          <p><%= t('accounts.profile.no_family_presentation_written') %></p>
+          <% else %>
+          <%= markdown(@profile.presentation.text) %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb20">
+      <div class="span9">
+        <div class="inner">
+          <div class="header">
+            <h6 class="section-header"><%= t('accounts.lifestyle.header.lifestyle_description') %></h6>
+            <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_profiles_lifestyles_url(@account)) %>
+          </div>
+          <% if @profile.lifestyle.text.blank? then %>
+          <p><%= t('accounts.profile.no_lifestyle_presentation_written') %></p>
+          <% else %>
+          <%= markdown(@profile.lifestyle.text) %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>

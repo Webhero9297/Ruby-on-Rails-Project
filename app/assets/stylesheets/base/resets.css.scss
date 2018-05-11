@@ -1,0 +1,17 @@
+html, body,
+article, section, header, footer, aside,
+form, fieldset,
+ul, li, p,
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+a img {
+    border: 0;
+}
+
+.form-horizontal .control-label {
+	text-align: left !important;
+}

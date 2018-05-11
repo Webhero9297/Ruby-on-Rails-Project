@@ -1,0 +1,27 @@
+<% body_id 'member-management' %>
+<% if permitted_to?(:index, :agent_dashboards) and session[:dashboard] == 'admin' or session[:dashboard] == 'agent' %>
+<div class="row">
+  <div class="span12">
+    <%= render(partial: 'layouts/editing_account_alert', locals: {account: account}) %>
+  </div>
+</div>
+<% end %>
+
+<div class="row">
+  <div class="span12">
+    <nav id="section-nav" role="secondary">
+      <ul class="nav nav-pills nav-stacked">
+        <% highlight_current_link(:class => 'active') do |n| -%>
+        <%= n.li_link_to(t('account.overview'), overview_account_profiles_url(account.id)) %>
+        <%= n.li_link_to(t('accounts.contact_details'), edit_account_contacts_url(account.id)) %>
+        <%= n.li_link_to(t('accounts.header.family_profile'), account_profiles_url(account.id)) %>
+        <%= n.li_link_to(t('global.photos'), account_profiles_images_url(account.id)) %>
+        <%= n.li_link_to(t('account.header.spoken_languages'), edit_account_spoken_languages_url(account.id)) %>
+        <%= n.li_link_to(t('listings.header.destination_wish_list'), account_wish_lists_url(account.id)) %>
+        <%= n.li_link_to(t('accounts.header.family_users'), account_co_members_url(account.id)) %>
+        <%= n.li_link_to(t('global.billing'), account_payments_url(account.id)) %>
+        <% end -%>
+      </ul>
+    </nav>
+  </div>
+</div>

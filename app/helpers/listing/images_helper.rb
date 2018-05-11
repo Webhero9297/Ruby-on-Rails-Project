@@ -1,0 +1,2 @@
+module Listing::ImagesHelper
+end

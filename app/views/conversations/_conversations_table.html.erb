@@ -1,0 +1,51 @@
+<section id="conversation-table">
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th><%= t('global.subject') %></th>
+                <th class="hidden-phone"><%= t('global.member') %></th>
+                <th><%= t('global.last_updated') %></th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @conversations.each do |conversation| %>
+                <tr id="conversation-<%= conversation.id %>" class="<%= conversation_state(conversation, current_user) %>">
+                    <td>
+                        <%= form_tag("/", class: 'conversation-envelope-form') do %>
+                            <%= label_tag("archive-#{conversation.id}", class: 'conversation-envelope-checkbox') do %>
+                                <%= check_box_tag("conversation[]", conversation.id, nil, id: "archive-#{conversation.id}", class: 'conversation-thread') %>
+                            <% end %>
+                        <% end %>
+                    </td>
+                    <td>
+                        <% if dashboard_is?('agent') %>
+                            <%= link_to(conversation.subject, agent_conversation_url(conversation)) %>
+                        <% else %>
+                            <%= link_to(conversation.subject, conversation) %>
+                        <% end %>
+                    </td>
+                    <td class="hidden-phone">
+                        <% @participants.each do |participant| %>
+                            <% if conversation.participants.include?(participant.id) and participant.id != current_user.account.id %>
+                                <% if conversation.notification %>
+                                    <%= participant.contact.name %>
+                                <% elsif conversation.kind == 'member_to_agent' %>
+                                    <%= participant.contact.name %>
+                                <% else %>
+                                    <%= participant.contact.name %>
+                                    <% participant.listings.each do |listing| %>
+                                        - <small><%= link_to(listing.listing_number, listing_path(listing)) %></small>
+                                    <% end %>
+                                <% end %>
+                            <% end %>
+                        <% end %>
+                    </td>
+                    <td><%= standard_date_time(conversation.updated_at, @user_time_zone, '%b %d, %Y - %H:%M') %></td>
+                </tr>
+            <% end %>
+        </tbody>
+    </table>
+
+    <%= paginate(@conversations, params: {controller: :conversations, action: controller.action_name.to_sym}, pager_class: "pagination pagination-centered", :remote => true) %>
+</section>

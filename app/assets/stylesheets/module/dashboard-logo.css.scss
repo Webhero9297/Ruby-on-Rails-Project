@@ -1,0 +1,30 @@
+@import "mixins";
+
+.logotype-link {
+    color: $black;
+    display: inline-block;
+    margin: 16px 0;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:visited {
+        color: $black;
+    }
+}
+
+.logotype-search {
+    margin-left: 10px;
+}
+
+.logotype-image {
+    display: block;
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+
+.logotype-tag-line {
+    font-size: 11px;
+}

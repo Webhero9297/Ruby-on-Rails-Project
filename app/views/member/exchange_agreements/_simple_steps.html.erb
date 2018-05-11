@@ -1,0 +1,6 @@
+<dl class="exchange-agreement-steps">
+	<dt class="<%= check_done(my_agreement.is_ready_for_review?) %>"><%= t('step_one.edit_terms.header') %></dt> <dd><%= t('step_one.edit_terms.text') %></dd>
+	<dt class="<%= check_done(my_agreement.sent?) %>"><%= t('step_two.send_terms.header') %></dt> <dd><%= t('step_two.send_terms.text') %></dd>
+	<dt class="<%= check_done(partner_agreement.all_terms_accepted?) %>"><%= t('step_three.review_partner_terms.header') %></dt> <dd><%= t('step_three.review_partner_terms.text') %></dd>
+	<dt class="<%= check_done(exchange_agreement.is_signed_by(current_user.account.id)) %>"><%= t('step_four.sign_agreement.header') %></dt> <dd><%= t('step_four.sign_agreement.text') %></dd>
+</dl>

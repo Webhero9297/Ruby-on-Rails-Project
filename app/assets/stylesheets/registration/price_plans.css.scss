@@ -1,0 +1,87 @@
+@import "mixins";
+
+div#country-residence {
+    padding: 5px;
+    font-size: 13px;
+    strong {
+        margin-right: 10px;
+    }
+}
+
+article.price-plan {
+	width: 400px;
+	margin: 8px 22px 20px 22px;
+	padding: 5px 5px 10px 5px;
+	float: left;
+	border: 1px solid $standard-grey;
+	text-align: center;
+	@include border-radius;
+	h2.price-plan {
+		margin: 0 0 20px 0;
+		padding: 0;
+		text-align: center;
+		font-size: 21px;
+		font-weight: normal;
+		color: #454545;
+		border-bottom: 1px solid $light-grey;
+	}
+	span.price {
+		display: block;
+		margin-bottom: 24px;
+		font-size: 24px;
+		font-weight: bold;
+		text-align: center;
+		color: #FFB50D;
+	}
+	div.button {
+		margin-bottom: 20px;
+		a {
+			width: 50%
+		}
+	}
+	span.note {
+		display: block;
+		font-size: 13px;
+		strong {
+			font-weight: bold;
+			font-size: 16px;
+		}
+	}
+}
+
+article#paid-plan {
+	border: 2px solid #fbb20b;
+	background-color: #fefef0;
+}
+
+div.details {
+	p.details {
+		margin: 0 5px 20px 5px;
+		font-size: 13px;
+		line-height: 21px;
+	}
+}
+
+table#comparison th.col1 {
+	width: 60%;
+}
+
+table#comparison th.col2,
+table#comparison th.col3,
+table#comparison td.col2,
+table#comparison td.col3 {
+	width: 20%;
+	text-align: center;
+}
+
+table#comparison td.yes {color: #2D9920; font-weight: bold;}
+table#comparison td.no {color: #cc0033; font-weight: bold;}
+
+@media (min-width: 1200px) {
+	article.price-plan {
+		width: 400px;
+		margin: 10px 32px 20px 92px;
+		padding: 5px 5px 10px 5px;
+		float: left;
+	}
+}

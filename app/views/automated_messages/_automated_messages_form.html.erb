@@ -1,0 +1,3 @@
+<%= form_for(@automated_message, html: {id: 'automated-message-form'}) do |f| %>
+    <%= render(partial: 'automated_messages_form_fields', locals: {f: f}) %>
+<%- end -%>

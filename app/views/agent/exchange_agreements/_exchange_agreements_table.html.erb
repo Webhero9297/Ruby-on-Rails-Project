@@ -1,0 +1,24 @@
+<table id="exchange-agreements" class="table">
+  <thead>
+    <tr>
+      <th style="width: 12%;">View</th>
+      <th style="width: 17%;">Party 1</th>
+      <th style="width: 17%;">Party 2</th>
+      <th style="width: 16%;">Status</th>
+      <th style="width: 19%;">Created</th>
+      <th style="width: 19%;">Updated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% exchange_agreements.each do |exchange_agreement| %>
+    <tr>
+      <td><%= link_to(content_tag('i','', class: 'icon-eye-open') + ' ' + t('global.view'), agent_exchange_agreement_url(exchange_agreement)) %></td>
+      <td><%= exchange_agreement.agreements[0].listing_number %></td>
+      <td><%= exchange_agreement.agreements[1].listing_number %></td>
+      <td><%= exchange_agreement.status %></td>
+      <td><%= standard_date(exchange_agreement.created_at) %></td>
+      <td><%= standard_date(exchange_agreement.updated_at) %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

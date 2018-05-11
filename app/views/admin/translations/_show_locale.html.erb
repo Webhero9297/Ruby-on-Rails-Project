@@ -1,0 +1,25 @@
+<%= render(partial: 'admin/translations/msgid_search_form') %>
+<div id="search-results">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Total</th>
+        <th>Missing</th>
+        <th>Progress</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @stats.each do |key| %>
+        <tr>
+          <td>
+            <%= link_to key[:category], admin_translations_category_and_locale_url(key[:category], key[:locale]) %>
+          </td>
+          <td><%= key[:total] %></td>
+          <td><%= key[:missing] %></td>
+          <td><%= progress(key[:missing], key[:total]) %>%</td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

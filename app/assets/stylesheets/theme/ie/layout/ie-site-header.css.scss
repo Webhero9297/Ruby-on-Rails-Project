@@ -1,0 +1,102 @@
+@mixin ie-scale($img) {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{image-path($img)}', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{image-path($img)}', sizingMethod='scale')";
+}
+
+.site-masthead {
+  padding: 0;
+}
+
+.section-image {
+  height: 350px;
+
+  // Special case to handle dead links for menu when scaling background images for ie7-8
+  .main-nav {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.site-header-body {
+  height: 530px;
+
+  &.section-image-1 {
+    @extend .section-image;
+    @include ie-scale('pages/what-is-homeexchange.jpg');
+  }
+
+  &.section-image-2 {
+    @extend .section-image;
+    @include ie-scale('pages/visinfo_benefits_of_home_exchange.jpg');
+  }
+
+  &.section-image-3 {
+    @extend .section-image;
+    @include ie-scale('pages/visinfo_thinking_about_home_exchange.jpg');
+  }
+
+  &.section-image-4 {
+    @extend .section-image;
+    @include ie-scale('pages/exchange-checklist.jpg');
+  }
+
+  &.section-image-5 {
+    @extend .section-image;
+    @include ie-scale('pages/visinfo_tips_for_new_members.jpg');
+  }
+
+  &.section-image-6 {
+    @extend .section-image;
+    @include ie-scale('pages/1.jpg');
+  }
+
+  &.section-image-7 {
+    @extend .section-image;
+    @include ie-scale('pages/visinfo_facts_about_intervac.jpg');
+  }
+
+  &.section-image-8 {
+    @extend .section-image;
+    @include ie-scale('pages/checklist.jpg');
+  }
+
+  &.section-image-9 {
+    @extend .section-image;
+    @include ie-scale('pages/home-exchange-national-representatives.jpg');
+  }
+
+  &.section-image-10 {
+    @extend .section-image;
+    @include ie-scale('pages/whats-next-tour.jpg');
+  }
+
+  &.section-image-11 {
+    @extend .section-image;
+    @include ie-scale('pages/visinfo_secure_exchanges.jpg');
+  }
+
+  &.section-image-12 {
+    @extend .section-image;
+    @include ie-scale('pages/visinfo_words_from_our_members.jpg');
+  }
+
+  &.section-image-13 {
+    @extend .section-image;
+    @include ie-scale('pages/said-about-intervac-in-press.jpg');
+  }
+
+  &.section-image-14 {
+    @extend .section-image;
+    @include ie-scale('pages/you-have-been-logged-out.jpg');
+  }
+
+  &.section-image-15 {
+    @extend .section-image;
+    @include ie-scale('pages/tips.jpg');
+  }
+
+  &.section-image-16 {
+    @extend .section-image;
+    @include ie-scale('pages/facebook-competition.jpg');
+  }
+}

@@ -1,0 +1,3 @@
+$('.photo-row-link-<%= @category %>').remove();
+$('#photo-row-<%= @category %>').replaceWith("<%= escape_javascript(render( partial: 'listing/images/preview_listing_large_images', locals: {listing: @listing, images: @images, category: @category})) %>");
+$(document).scrollTop($("#photo-row-<%= @category %>").offset().top);

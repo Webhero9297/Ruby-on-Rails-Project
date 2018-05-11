@@ -1,0 +1,19 @@
+.listing-headline {
+    font-size: 21px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.form_row{
+	width:100%;
+}
+.half-row{
+	width:48%;
+	display:inline-block;
+	&.horizontal{
+		display:inline;
+	}
+}
+label.half-row{
+	line-height:20px;
+	padding-right:20px;
+}

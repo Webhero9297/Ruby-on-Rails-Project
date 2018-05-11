@@ -1,0 +1,17 @@
+<div class="row-fluid mb10">
+  <div class="span12">
+    <p>Filter members</p>
+    <nav id="filter-buttons" class="btn-group">
+      <%= render(partial: 'filter_buttons') %>
+    </nav>
+  </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('#filter-buttons').on('click', 'a', function(event) {
+    $('#filter-buttons a').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+</script>

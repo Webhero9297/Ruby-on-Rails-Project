@@ -1,0 +1,16 @@
+table#member-table th.name{
+  width:435px;
+}
+
+table#member-table th.email{
+  width:340px;
+}
+
+table#member-table th.sorter{
+  cursor: pointer;
+}
+
+caption.member-filters{
+	text-align:left;
+	font-weight: bold;
+}

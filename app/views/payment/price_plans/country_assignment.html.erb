@@ -1,0 +1,91 @@
+<% if admin_session? %>
+    <% body_id 'countries' %>
+<% else %>
+    <% body_id 'payment' %>
+<% end %>
+
+<div class="row-fluid mb20">
+    <div class="span3">
+        <%= render(partial: '/payment/price_plans/price_plans_menu', locals: {country: @country, countries: @countries}) %>
+    </div>
+    <div class="span9">
+        <div class="plate">
+            <div class="plate-content">
+                <div class="mb20">
+                    <%= link_to(content_tag('i', '', class: 'icon-arrow-left') + ' ' + 'Price plan overview', country_price_plans_url(@country), class: 'btn') %>
+                </div>
+
+                <h1 class="plate-header">Assign price plan to multiple countries</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th><%= t('global.active') %></th>
+                            <th><%= t('global.kind') %></th>
+                            <th><%= t('payment.base_price') %></th>
+                            <th><%= t('payment.renewal_price') %></th>
+                            <th><%= t('global.duration') %></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><%= @price_plan.active %></td>
+                            <td><%= @price_plan.kind %></td>
+                            <td><%= float_price(@price_plan.base_price) %></td>
+                            <td><%= @price_plan.renewal_price %></td>
+                            <td><%= @price_plan.duration %> <%= @price_plan.periodicity %></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>Assign the above price plan for the following countries.</p>
+                <%= form_tag(assign_countries_country_price_plan_url(@country, @price_plan), method: :post, html: {class: 'form-vertical'}) do %>
+                    <div class="btn-group mb20">
+                        <button type="button" class="btn" data-action="select-all">Select all</button>
+                        <button type="button" class="btn" data-action="deselect-all">Deselect all</button>
+                    </div>
+                    <div class="btn-group mb20">
+                        <%= button_tag('Save', class: 'btn btn-primary') %>
+                    </div>
+
+                    <table class="table table-striped table-condensed activation">
+                        <tr>
+                            <th class="allow">Assign</th>
+                            <th class="country">Country</th>
+                        </tr>
+                        <% @countries.each do |country| %>
+                            <% if country.id != @country.id %>
+                                <tr>
+                                    <td class="allow">
+                                        <fieldset>
+                                            <%= label_tag('countries', for: "country-#{country.id}") do %>
+                                                <%= check_box_tag('countries[]', country.id, @price_plan.shared_by.include?(country.id.to_s), id: "country-#{country.id}", class: 'country-check-box') %>
+                                            <% end %>
+                                        </fieldset>
+                                    </td>
+                                    <td class="country">
+                                        <%= t(country.msgid) %>
+                                    </td>
+                                </tr>
+                            <% end %>
+                        <% end %>
+                    </table>
+                    <fieldset class="form-actions">
+                        <%= button_tag('Save', class: 'btn btn-primary') %>
+                        <%= hidden_field_tag('countries[]', @country.id) %>
+                    </fieldset>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('[data-action="select-all"]').on('click', function (event) {
+        event.preventDefault();
+        $('.country-check-box').prop('checked', true);
+    });
+
+    $('[data-action="deselect-all"]').on('click', function (event) {
+        event.preventDefault();
+        $('.country-check-box').prop('checked', false);
+    });
+</script>

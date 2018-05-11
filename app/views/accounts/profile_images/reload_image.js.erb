@@ -1,0 +1,1 @@
+$('#figure-block-<%= @profile_image.id %>').replaceWith("<%= escape_javascript(render( partial: '/accounts/profile_images/image_card', object: @profile_image, as: 'image', locals: {account: @account})) %>");

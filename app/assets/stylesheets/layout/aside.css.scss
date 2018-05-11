@@ -1,0 +1,29 @@
+.aside {
+    @include span-columns(12);
+    //display: none;
+    @include respond-to(wide-screens) {
+        @include span-columns(4);
+    }
+}
+
+.aside-section {
+    display: none;
+    @include respond-to(wide-screens) {
+        display: block;
+        margin-bottom: 3em;
+    }
+
+}
+
+.aside-header {
+    border-top: 3px double $yellow;
+    color: $text_color;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 1em 0;
+    padding: 0.5em 0.75em;
+}
+
+.aside-section-body {
+    padding: 0 0.75em;
+}

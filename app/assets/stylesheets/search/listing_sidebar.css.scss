@@ -1,0 +1,183 @@
+@import 'mixins';
+/* Scope .dashboard is used for member dashboard to scope the search */
+div.dashboard {
+
+    div#sidebar {
+        width: 320px;
+        float: left;
+    }
+
+    div#results {
+        margin: 0 0 0 340px;
+        div#search-result {
+            float: left;
+        }
+    }
+
+    section.listing-sidebar {
+        padding: 0;
+        div#mini-map-canvas{
+            height: 250px;
+        }
+        div.address-field {
+            width: 304px;
+        }
+        input#address-field {
+            width: 65%;
+        }
+        input#btn-address-field {
+            width: 30%;
+        }
+        .select-filter {
+            width: 300px;
+            font-size: 12px;
+            height: 30px;
+        }
+        div.date.last {
+            margin-left: 32px;
+        }
+    }
+}
+
+/* Scope .site is used for the front end site */
+
+div.site {
+	section.listing-sidebar {
+		position: relative;
+		width: 300px;
+		padding: 0 0 8px 0;
+		float: left;
+		clear: both;
+		div#mini-map-canvas{
+			height: 250px
+		}
+	}
+
+}
+
+@media (min-width: 1200px) {
+    div.site {
+    	section.listing-sidebar {
+    		width: 370px;
+    		div#mini-map-canvas{
+    			height: 250px;
+    		}
+    		input#address-field {
+                width: 250px;
+            }
+            input#btn-address-field {
+                width: 90px;
+            }
+    	}
+    }
+}
+
+section.filter {
+
+    float: left;
+    margin: 0 0 18px 8px;
+	h2 {
+		margin: 0 0 4px 0;
+		padding: 0;
+		font-size: 11px;
+		color: #999999;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	div.date {
+	    float: left;
+	    margin: 0;
+	    padding: 0;
+	    width: 136px;
+	    label {
+	        font-size: 12px;
+	        margin: 0 0 2px 0;
+	        padding: 0;
+        }
+	    input.travel-dates-filter {
+            width: 78px;
+            height: 16px;
+            font-size: 12px;
+        }
+        button {
+            i {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+    div.date.last {
+        margin-left: 10px;
+    }
+
+    ul.tag-cloud {
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            padding: 2px;
+            margin: 0;
+            list-style: none;
+        }
+        a {
+            font-size: 13px;
+            margin: 0;
+            padding: 2px 6px;
+            display: inline-block;
+            border: 1px solid $standard-grey;
+            background-color: #f9f9f9;
+            color: $dark-grey;
+            @include border-radius(7px);
+            &:hover {
+                color: $white;
+                text-decoration: none;
+                background-color: #5C5C5C;
+                border-color: $black;
+            }
+            &.selected {
+                background-color: #179117;
+                border-color: $black;
+                color: $white;
+                &:hover {
+                    background-color: #5C5C5C;
+                }
+            }
+        }
+    }
+
+	clear: left;
+}
+
+h1.filter-header {
+	font-size: 13px;
+	padding: 4px 0;
+	margin: 10px 8px;
+	border-top: 1px solid $light-grey;
+	border-bottom: 1px solid $light-grey;
+
+	span#count {
+	    font-weight: bold;
+    }
+}
+
+div.selected-filters a {
+    font-size: 12px;
+    i {
+        vertical-align: -3px;
+    }
+}
+
+div#save-filter{
+  padding-left:14px;
+}
+div.saved-search{
+  margin-bottom:32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid $light-grey;
+}
+a.delete-filter{
+  margin-right:12px;
+}
+
+

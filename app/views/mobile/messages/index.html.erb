@@ -1,0 +1,42 @@
+<% content_for(:back_button) do %>
+  <%= link_to(t('global.home'), mobile_start_path, class: 'button ml10', :'data-spinner' => 'spinner') %>
+<% end %>
+
+<% if @conversations.empty? %>
+  <section>
+    <p class="alert"><%= t('conversations.alert.you_have_no_messages')  %></p>
+  </section>
+<% else %>
+<ul class="conversation-list">
+  <% @conversations.each do |conversation| %>
+    <% if not conversation.read_by.include?(current_user.account.id) -%>
+      <li class="conversation-list-item unread-message">
+    <% elsif not conversation.messages.last.blank? and conversation.messages[-1].statuses.is_read_by(current_user.account.id) -%>
+      <li class="conversation-list-item replied-message">
+    <% else -%>
+      <li class="conversation-list-item read-message">
+    <% end -%>
+    <%= link_to(mobile_message_path(conversation), class: 'conversation-link', :'data-spinner' => 'spinner') do %>
+      <span class="conversation-participants">
+        <% for participant in @participants %>
+          <% if conversation.participants.include?(participant.id) and participant.id != current_user.account.id %>
+            <% if conversation.notification %>
+              <%= participant.contact.name %>
+            <% elsif conversation.kind == 'member_to_agent' %>
+              <%= participant.contact.name %>,
+            <% else %>
+              <%= participant.contact.name %> (<%= participant.account_number %>)
+            <% end %>
+          <% end %>
+        <% end %>
+      </span>
+      <small class="conversation-date"><%= message_date(conversation.updated_at) %></small>
+      <strong class="conversation-subject"><%= conversation.subject %></strong>
+      <p class="conversation-message-snippet">
+          <%= conversation.messages.last.body.truncate(103, :omission => "...") unless conversation.messages.last.blank? %>
+      </p>
+    <% end %>
+    </li>
+  <% end -%>
+</ul>
+<% end %>

@@ -1,0 +1,171 @@
+@import "mixins";
+@import "user_menu_top";
+
+a.btn span {
+	margin-left: 8px;
+}
+
+div.button {
+	margin-bottom: 20px;
+}
+
+input.inline,
+label.inline {
+	display: inline-block;
+	cursor: pointer;
+}
+
+fieldset.button {
+	padding: 20px 0 0 0;
+}
+
+label {
+    font-size: 13px;
+}
+
+/* RETIRED
+div#content {
+	background: #fff;
+	padding: 20px;
+    clear: left;
+}
+*/
+
+ul.zebra-list,
+ol.zebra-list {
+	@include list-reset;
+	font-size: 13px;
+	border-bottom: 1px solid $standard-grey;
+	li {
+		padding: 8px;
+		&.odd {
+			background-color: $row-color-odd;
+		}
+	}
+}
+
+div.action-group {
+	margin-bottom: 30px;
+}
+
+div.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.row.margin-bottom {
+    margin-bottom: 40px;
+}
+
+/* RETIRED
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px;
+}
+*/
+section#statistics article{
+    margin-bottom: 32px;
+}
+
+
+div.piechart,
+div.stats{
+    height: 250px;
+}
+
+a.tips {
+    display: inline-block;
+    padding: 3px;
+}
+
+.dashboard-switcher {
+    display: block;
+    background-color: #252525;
+    text-align: center;
+    color: $white;
+
+    .link-switch {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 0 10px;
+        color: $white;
+        &:hover {
+            color: $light-orange;
+        }
+    }
+    .active {
+        background-color: $orange;
+        &:hover {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    .switched-user {
+        color: $white;
+        display: inline-block;
+        padding-right: 26px;
+        border-right: 1px solid #ccc;
+    }
+    .account-info{
+        margin: 0px;
+        padding-bottom: 10px;
+        strong{
+            letter-spacing: 1px;
+        }
+    }
+
+}
+
+/* RETIRED
+.header-actions {
+    float: right;
+    padding: 44px 20px 0 0;
+    .logout-link {
+        margin-left: 20px;
+    }
+}
+*/
+
+
+.btn-home {
+    display: inline-block;
+    padding: 8px 16px;
+    color: $white;
+    background-color: $orange;
+    @include border-radius(5px);
+    font-size: 15px;
+    &:hover {
+        color: $white;
+        text-decoration: none;
+        background-color: $green;
+    }
+}
+
+.agent-container {
+    display: inline-block;
+    width: 48%;
+}
+
+.agent-short-info {
+    width: 50%;
+}
+
+.ok-sign{
+    @include border-radius(10px);
+    width: 20px;
+    height: 20px;
+    background-color: #2cbf2a;
+}
+
+.fail-sign{
+    @include border-radius(10px);
+    width: 20px;
+    height: 20px;
+    background-color: #da1b1b;
+}
+
+.listing-status td{
+    vertical-align: middle;
+}

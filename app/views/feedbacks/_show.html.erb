@@ -1,0 +1,57 @@
+<article>
+  <div class="mb20">
+    <% if session[:dashboard] == 'admin' %>
+      <%= link_to( t('button.feedback_overview'), admin_feedbacks_url, class: 'btn') %>
+    <% elsif session[:dashboard] == 'agent' %>
+      <%= link_to( t('button.feedback_overview'), agent_feedbacks_url, class: 'btn') %>
+    <% end %>
+  </div>
+  <p><strong>From:</strong> <%= @feedback.name %>, 
+     <strong>E-mail:</strong> <%= @feedback.email %> - 
+     <% if @listing %>
+        <%= link_to(@listing.listing_number, listing_path(@listing)) %>
+    <% elsif @feedback.as_guest %>
+        <strong><%= t('feedback.visitor') %></strong>
+    <% else %>
+        <%= t('feedback.no_listing') %>
+     <% end %>
+  </p>
+  
+  <p><%= @feedback.message %></p>
+  <p><%= @feedback.page %></p>
+  <p><strong>Browser agent used:</strong> <%= @feedback.browser_agent %></p>
+</article>
+  
+  <% if @feedback.as_guest == false and not @feedback.account_id.blank? %>
+    <%= form_for(@conversation, url: @form_url, html: {id: 'message-form', class: 'form-vertical'}) do |f| %>
+    <% if @conversation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@conversation.errors.count, "error") %> prohibited this message from being sent:</h2>
+      <ul>
+        <% @conversation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+    <% end %>
+
+    <fieldset>
+      <%= f.label(:subject, t('global.subject'), for: 'subject') %>
+      <%= f.text_field(:subject,value: "RE: #{@feedback.subject}", size: 100, id: 'subject', class: 'span8 text-field') %>
+    </fieldset>
+
+    <fieldset>
+      <%= fields_for(:message) do |m| %>
+      <%= f.label(:body, 'Message:', for: 'message') %>
+      <%= m.text_area(:body, cols: 72, rows: 22, id: 'message', class: 'span8 text-field') -%>
+      <% end -%>
+    </fieldset>
+
+    <fieldset class="form-actions">
+      <%= f.button(t('conversations.send_message'), class: 'btn btn-primary') %>
+      <%= hidden_field_tag('member_accounts[]', current_user.account.id, id: "agent_id") %>
+      <%= hidden_field_tag('member_accounts[]', @feedback.account_id, id: "member_id") %>
+      <%= hidden_field_tag('kind', 'agent_to_member') %>
+    </fieldset>
+    <% end %>
+  <% end %>

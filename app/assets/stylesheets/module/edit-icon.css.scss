@@ -1,0 +1,14 @@
+.icon-edit {
+    background: transparent image-url('edit-icon.png') no-repeat 50% 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+    vertical-align: text-top;
+    width: 16px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

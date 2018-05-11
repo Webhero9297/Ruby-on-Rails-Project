@@ -1,0 +1,25 @@
+<% if admin_session? %>
+  <% body_id 'countries' %>
+<% else %>
+  <% body_id 'payment' %>
+<% end %>
+<div class="row-fluid">
+  <div class="span3">
+    <%= render(partial: '/payment/price_plans/price_plans_menu', locals: {country: @country, countries: @countries}) %>
+  </div>
+  <div class="span9">
+    <div class="plate">
+      <div class="plate-content">
+        <h1 class="plate-header"><%= t('payment.header.promotion_code_for') %> <%= @price_plan.name %></h1>
+        <div class="row-fluid">
+          <div class="span8">
+            <%= render(partial: 'form') %>
+          </div>
+          <div class="span4">
+            <p><%= t('payment.promotion_code.text.great_way_to_track_events') %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

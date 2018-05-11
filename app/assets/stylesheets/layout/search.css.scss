@@ -1,0 +1,40 @@
+.search-sidebar {
+    float:left;
+    margin-left: 20px;
+    width: 300px;
+    #listing-finder{
+        text-transform: uppercase;
+    }
+}
+
+.search-content {
+    margin-right: 20px;
+    margin-left: 340px;
+}
+
+#result-plate {
+    background: #505050 image-url('low_contrast_linen_light.jpg') 0 0;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 0 10px 10px 0;
+    margin-bottom: 20px;
+    float: left;
+    @include box-sizing(border-box);
+}
+
+#plate-map {
+    background: #505050 image-url('low_contrast_linen.png') 0 0;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 600px;
+    @include box-sizing(border-box);
+}
+
+#google-map-canvas {
+    height: 100%;
+    width: 100%;
+    img { max-width: none; }
+}

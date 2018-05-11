@@ -1,0 +1,5 @@
+<%- if @country_assigned -%>
+  $('table#assigned-countries tbody').append("<%= escape_javascript(render( partial: 'assigned_country_row', locals: {country: @country})) %>");
+<%- else -%>
+  alert('Agent <%= escape_javascript(t(@agent.name)) %> is already assigned to <%= escape_javascript(t(@country.msgid)) %>');
+<%- end -%>

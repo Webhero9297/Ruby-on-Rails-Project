@@ -1,0 +1,52 @@
+<div id="contact-container">
+    <div class="mb10">
+        <%= link_to(content_tag('i', '', class: 'icon-edit') + ' ' + t('global.edit'), edit_account_contacts_url(@account), remote: true, class: 'btn btn-small cancel-edit-contact') %>
+    </div>
+    <div id="edit-contact">
+
+        <div class="row-fluid">
+            <div class="span6">
+                <dl class="dl-horizontal">
+                    <dt><%= t('accounts.account_number') %></dt>
+                    <dd><%= text_if_missing(@account.account_number) %></dd>
+
+                    <dt><%= t('accounts.label.first_last_name') %></dt>
+                    <dd><%= text_if_missing(@account.contact.name) %></dd>
+
+                    <dt><%= t('global.birthdate') %></dt>
+                    <dd><%= text_if_missing(@account.contact.birthdate.try(:to_date)) %></dd>
+
+                    <dt><%= t('global.address') %></dt>
+                    <dd><%= text_if_missing(@account.contact.address) %></dd>
+
+                    <dt><%= t('global.city') %></dt>
+                    <dd><%= text_if_missing(@account.contact.postal_town) %></dd>
+
+                    <dt><%= t('global.postal_code') %></dt>
+                    <dd><%= text_if_missing(@account.contact.postal_code) %></dd>
+
+                    <dt><%= t('global.state') %></dt>
+                    <dd><%= text_if_missing(@account.contact.county) %></dd>
+                </dl>
+            </div>
+            <div class="span6">
+                <dl class="dl-horizontal">
+                    <dt><%= t('global.telephone') %></dt>
+                    <dd><%= text_if_missing(@account.contact.telephone) %></dd>
+
+                    <dt><%= t('gobal.mobile_phone') %></dt>
+                    <dd><%= text_if_missing(@account.contact.mobile) %></dd>
+
+                    <dt><%= t('global.fax') %></dt>
+                    <dd><%= text_if_missing(@account.contact.fax) %></dd>
+
+                    <dt><%= t('global.skype') %></dt>
+                    <dd><%= text_if_missing(@account.contact.skype) %></dd>
+
+                    <dt><%= t('global.website') %></dt>
+                    <dd><%= text_if_missing(@account.contact.website) %></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

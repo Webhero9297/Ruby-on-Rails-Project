@@ -1,0 +1,16 @@
+<% unless saved_searches.nil? %>
+  <ul data-list="saved-searches" class="saved-searches-list">
+    <% saved_searches.each do |saved_search| %>
+      <li class="saved-searches-list-item">
+        <span class="saved-searches-list-link">
+          <%= link_to(saved_search.name, do_saved_search_path(saved_search.id)) %>
+        </span>
+        <button type="button" data-id="<%= saved_search.id %>" data-send="delete-search" class="btn btn-mini">
+          <i class="icon-trash"></i>
+        </button>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p><%= t('searches.no_saved_searches') %></p>
+<% end %>

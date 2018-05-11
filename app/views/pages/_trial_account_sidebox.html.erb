@@ -1,0 +1,6 @@
+<section class="aside-section">
+  <h1 class="aside-header"><%= t('sitewide.trial_account.headline', :number => length_of_trial_membership) %></h1>
+  <div class="aside-section-body">
+    <%= link_to(t('homepage.join.button_text'), price_plans_path, :title => t('homepage.join.button_mouseover', :number => length_of_trial_membership), class: 'btn yellow') %>
+  </div>
+</section>

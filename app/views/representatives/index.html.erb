@@ -1,0 +1,117 @@
+<% body_id "representatives" %>
+<% page_title t('agents.contact_local_representative') %>
+<% page_description t('pages.contact_page_description') %>
+<% page_keywords t('intervac, contacts, local, representatives') %>
+<% section_image 'section-image-9' %>
+
+<div class="container">
+    <div class="wide">
+        <h1 class="page-header-divider representative-page">
+            <span class="page-header-divider-label"><%= t('contacts.headline') %></span>
+        </h1>
+
+        <p><%= t('local_representatives.intro_text') %></p>
+
+        <div class="agent-drop-zone-wrapper">
+            <div id="agent-drop-zone" class="agent-drop-zone"></div>
+        </div>
+
+        <ul id="representatives-regions" class="nav-tabs">
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.europe'), '#europe', class: 'nav-tab-link active') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.north_america'), '#north-america', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.south_america'), '#south-america', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.asia'), '#asia', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.africa'), '#africa', class: 'nav-tab-link') %>
+            </li>
+            <li class="nav-tab">
+                <%= link_to(t('sitewide.continents.oceania'), '#oceania', class: 'nav-tab-link') %>
+            </li>
+        </ul>
+
+        <div class="tab-content agent-countries-wrapper">
+            <section class="tab-pane active" id="europe">
+                <div class="agent-countries">
+                    <%= render(:partial => "country", :collection => @countries, :locals => {:country_continent => 'eu'}) %>
+                </div>
+                <div class="country-agents">
+                    <%= render(:partial => "country_agent", :as => :country, :collection => @countries, :locals => {:country_continent => 'eu', :agents => @country_agents}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="north-america">
+                <div class="agent-countries">
+                    <%= render(:partial => "country", :collection => @countries, :locals => {:country_continent => 'na'}) %>
+                </div>
+                <div class="country-agents">
+                    <%= render(:partial => "country_agent", :as => :country, :collection => @countries, :locals => {:country_continent => 'na', :agents => @country_agents}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="south-america">
+                <div class="agent-countries">
+                    <%= render(:partial => "country", :collection => @countries, :locals => {:country_continent => 'sa'}) %>
+                </div>
+                <div class="country-agents">
+                    <%= render(:partial => "country_agent", :as => :country, :collection => @countries, :locals => {:country_continent => 'sa', :agents => @country_agents}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="asia">
+                <div class="agent-countries">
+                    <%= render(:partial => "country", :collection => @countries, :locals => {:country_continent => 'as'}) %>
+                </div>
+                <div class="country-agents">
+                    <%= render(:partial => "country_agent", :as => :country, :collection => @countries, :locals => {:country_continent => 'as', :agents => @country_agents}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="africa">
+                <div class="agent-countries">
+                    <%= render(:partial => "country", :collection => @countries, :locals => {:country_continent => 'af'}) %>
+                </div>
+                <div class="country-agents">
+                    <%= render(:partial => "country_agent", :as => :country, :collection => @countries, :locals => {:country_continent => 'af', :agents => @country_agents}) %>
+                </div>
+            </section>
+
+            <section class="tab-pane" id="oceania">
+                <div class="agent-countries">
+                    <%= render(:partial => "country", :collection => @countries, :locals => {:country_continent => 'oc'}) %>
+                </div>
+                <div class="country-agents">
+                    <%= render(:partial => "country_agent", :as => :country, :collection => @countries, :locals => {:country_continent => 'oc', :agents => @country_agents}) %>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    make_tabs();
+
+    $('.agent-country-link').click(function(event) {
+        var self = $(this),
+            target,
+            drop_zone = $('#agent-drop-zone');
+
+        event.preventDefault();
+        target = $(self.attr('href')).clone();
+        drop_zone.empty();
+        drop_zone.append(target);
+
+    });
+
+    $('#agent-drop-zone').on('click', '.country-agent-close', function(event) {
+        event.preventDefault();
+        $(this).parent().remove();
+    });
+</script>

@@ -1,0 +1,62 @@
+<div class="row">
+    <div class="listing-info-col">
+        <h3 class="listing-info-header"><%= t('global.occupation') %></h3>
+        <ul class="bullet-list">
+            <% if @listing.account.profile.adults.length > 0 %>
+              <% @listing.account.profile.adults.each do |adult| -%>
+                <li><%= adult.occupation %></li>
+              <% end %>
+            <% else %>
+              <li><%= t('accounts.profile.message.no_occupations_added') %></li>
+            <% end %>
+        </ul>
+    </div>
+
+    <div class="listing-info-col">
+        <h3 class="listing-info-header"><%= t('global.children') %></h3>
+        <ul class="bullet-list">
+            <% if @profile.children.length > 0 %>
+              <% @profile.children.each do |child| %>
+                <li class="text-capitalize">
+                    <%- if child['gender'] == 'girl' -%>
+                      <%= t('global.girl') -%> -
+                    <%- end -%>
+
+                    <%- if child['gender'] == 'boy' -%>
+                      <%= t('global.boy') -%> -
+                    <%- end -%>
+                    <%= t('global.age') %>: <%= child_age(child) %>
+                </li>
+              <% end %>
+            <% else %>
+              <li><%= t('membership.no_children_added') %></li>
+            <% end %>
+        </ul>
+    </div>
+
+    <div class="listing-info-col">
+        <h3 class="listing-info-header"><%= t('global.pets') %></h3>
+        <ul class="bullet-list">
+            <% if @profile.pets.length > 0 %>
+              <% @profile.pets.each do |pet| %>
+                <li><%= pet.kind %></li>
+              <% end %>
+            <% else %>
+              <li><%= t('accounts.profile.no_pets_added') %></li>
+            <% end %>
+        </ul>
+    </div>
+</div>
+
+<% if @profile.presentation.visible or user_signed_in? %>
+  <% unless @profile.presentation.text.empty? %>
+    <div class="row">
+        <div class="wide">
+            <h2 class="page-header-divider">
+                <span class="page-header-divider-label"><%= t('listings.family_presentation_text') %></span>
+            </h2>
+            <%= markdown(strip_tags(@profile.presentation.text)) %>
+        </div>
+    </div>
+  <% end %>
+<% end %>

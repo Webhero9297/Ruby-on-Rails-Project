@@ -1,0 +1,107 @@
+.sign-up {
+    position: relative;
+}
+
+.sign-up-badge-link {
+    background-color: $green;
+    color: $white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    padding: 0.6875em 1.1875em;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    &:hover {
+        color: $white;
+        background-color: #0a9478;
+    }
+
+    @include respond-to(mid-screens) {
+        border: 10px solid $dark-green;
+        border-radius: 50%;
+        height: 11em;
+        margin: 0 auto;
+        padding-top: 3.5em;
+        text-align: center;
+        width: 11em;
+        @include box-sizing(border-box);
+
+        &:hover {
+            background-color: $dark-green;
+            border-color: $green;
+        }
+
+        > span {
+            display: block;
+        }
+    }
+
+    @include respond-to(wide-screens) {
+        position: absolute;
+        margin: 0;
+        left: -0.5em;
+        top: -4em;
+        @include transform(rotate(-10deg));
+    }
+
+}
+
+.sign-up-list {
+    padding-top: 1em;
+    margin: 0;
+
+    > li {
+        display: block;
+        list-style: none;
+        font-size: 0.875em;
+        padding: 0;
+        margin: 0 0 1em 0;
+        text-align: center;
+
+        > strong {
+            color: #ff9900;
+            display: block;
+            font-size: 1.125em;
+            font-weight: 600;
+        }
+    }
+
+    @include respond-to(mid-screens) {
+        margin-top: -1em;
+        > li {
+            display: inline-block;
+            margin: 0 0 2% 2%;
+            width: 47%;
+            vertical-align: top;
+        }
+    }
+
+    @include respond-to(wide-screens) {
+        margin: 0 0 2em 10em;
+        > li {
+            text-align: left;
+            width: 31%;
+        }
+    }
+}
+
+.sign-up-call-to-action {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+
+    @include respond-to(wide-screens) {
+        left: auto;
+        position: relative;
+        top: auto;
+        text-align: center;
+    }
+}

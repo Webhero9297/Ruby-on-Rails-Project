@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="wide">
+        <h1 class="top-header left">
+            <span class="top-header-label"><%= t('users.passwords.edit.header') %></span>
+        </h1>
+
+        <% if not alert.nil? %>
+            <div class="alert"><%= alert %></div>
+        <% end -%>
+
+        <%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => {:method => :put, :class => 'login-form'}) do |f| %>
+            <%= render(partial: '/users/shared/resource_error_message', locals: {resource: resource}) %>
+
+            <fieldset>
+                <%= f.label :password, t('users.label.new_password') %>
+                <%= f.password_field :password, class: 'w50' %>
+
+                <%= f.label :password_confirmation, t('users.label.confirm_new_password') %>
+                <%= f.password_field :password_confirmation, class: 'w50' %>
+            </fieldset>
+
+            <fieldset class="form-actions">
+                <%= f.hidden_field :reset_password_token %>
+                <%= f.button(t('button.change_password'), class: 'btn blue') %>
+                <%= link_to(t('button.cancel'), new_user_session_path, class: 'btn btn-link') %>
+            </fieldset>
+        <% end %>
+    </div>
+</div>

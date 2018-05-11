@@ -1,0 +1,5 @@
+<p><%= t('users.primary_email_information') %></p>
+<div id="primary-email-address">
+  <p><strong><%= @user.email %></strong></p>
+  <p><%= link_to(content_tag('i','', class: 'icon-edit') + ' ' + t('global.edit'), edit_primary_email_user_path, remote: true, class: 'btn btn-small') %></p>
+</div>

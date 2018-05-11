@@ -1,0 +1,33 @@
+<h2 class="page-header-divider">
+    <span class="page-header-divider-label"><%= t('listing.header.interaction_history') %></span>
+</h2>
+<p><%= t('listing.text.last_conversation_with_member') %></p>
+<article class="thread">
+    <% @last_interaction.messages.each do |m| %>
+        <% if m.sent_by_account == current_user.account_id %>
+            <section class="thread-message right">
+                <div class="thread-user right">
+                    <strong><%= t('conversation.you_wrote_on', {MESSAGE_DATE: message_date(m.updated_at)}) %></strong>
+                </div>
+                <div class="message-note right">
+                    <%= markdown_strip_tags(m.body) %>
+                    <% m.attachments.each do |attachment| %>
+                        <p><i class="icon-file"></i> <%= link_to(t('conversation.view_attachment'), "#{attachment.file}") %></p>
+                    <% end %>
+                </div>
+            </section>
+        <% else %>
+            <section class="thread-message">
+                <div class="thread-user">
+                    <strong><%= t('listing.text.user_wrote_on', {SENT_BY_USER: m.sent_by_user, MESSAGE_DATE: message_date(m.updated_at)}) %></strong>
+                </div>
+                <div class="message-note">
+                    <%= markdown_strip_tags(m.body) %>
+                    <% m.attachments.each do |attachment| %>
+                        <p><i class="icon-file"></i> <%= link_to(t('conversation.view_attachment'), "#{attachment.file}") %></p>
+                    <% end %>
+                </div>
+            </section>
+        <% end %>
+    <% end -%>
+</article>

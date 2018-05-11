@@ -1,0 +1,13 @@
+<% body_id 'agent-management' %>
+<div class="row-fluid">
+  <div class="span12">
+    <%= link_to('Back to agents', agents_path) %>
+  </div>
+</div>
+<div class="row-fluid">
+  <div class="span12">
+    <div class="plate">
+      <%= render(partial: 'new_agent', locals: {header: 'Create new agent', section_id: 'new-agent-section'}, layout: '/layouts/modules/plate_section') %>
+    </div>
+  </div>
+</div>

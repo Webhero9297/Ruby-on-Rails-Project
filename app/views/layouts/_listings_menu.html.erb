@@ -1,0 +1,11 @@
+<% body_id 'listings' %>
+<nav id="listings-nav" role="secondary">
+  <ul class="nav nav-tabs">
+    <% highlight_current_link(:class => 'active') do |n| -%>
+    <%= n.li_link_to('Destination', listings_url) %>
+    <%= n.li_link_to('Map', '#') %>
+    <%= n.li_link_to('Hot list', hot_list_url) %>
+    <%= n.li_link_to('Member finder', '#') %>
+    <% end -%>
+  </ul>
+</nav>

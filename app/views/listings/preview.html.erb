@@ -1,0 +1,14 @@
+<% show_menu? ? section_image('section-image-none') : section_image('section-border') %>
+
+<div class="row pt2">
+    <div class="wide">
+        <%= link_to(member_dashboard_url, class: 'btn orange') do %>
+            <i class="icon-white icon-home"></i>
+            <%= t('menu.member_home') %>
+        <% end %>
+        <%= link_to(t('menu.change_my_listing'), overview_listing_url(@listing), class: 'btn btn-link') %>
+    </div>
+</div>
+
+<%= render(partial: 'listings/show/show_listing') %>
+<%= render(partial: 'listings/show/show_listing_scripts') %>

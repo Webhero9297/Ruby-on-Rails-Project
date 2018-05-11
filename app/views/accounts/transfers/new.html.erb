@@ -1,0 +1,42 @@
+<% body_id 'member-management' %>
+
+<div class="row">
+  <div class="span12">
+    
+    <h1 class="page-header"><%= t('account.header.transfer_account') %></h1>
+    
+    <%= form_tag(account_transfer_url(@account), class: 'form-vertical well') do %>
+    <div class="row-fluid mb40">
+      <div class="span12">
+        <dl class="dl-horizontal">
+          <dt>Account number</dt>
+          <dd><%= @account.account_number %></dd>
+          <dt>Country</dt>
+          <dd><%= @account.country_short %></dd>
+          <dt>Contact name</dt>
+          <dd><%= @account.contact.name %></dd>
+          <dt>Contact email</dt>
+          <dd><%= @account.contact.email %></dd>
+          <dt>Mobile</dt>
+          <dd><%= @account.contact.mobile %></dd>
+          <dt>Telephone</dt>
+          <dd><%= @account.contact.telephone %></dd>
+        </dl>
+      </div>
+    </div>
+    
+    <div class="control-group clear-both">
+      <%= label_tag(:country, 'Transfer to Agent country', class: 'control-label') %>
+      <div class="controls">
+        <%= select('agent', 'country', @countries, {:selected => @selected_country, :include_blank => 'Select country'}) %>
+      </div>
+    </div>
+    
+    <fieldset class="form-actions clear-both">
+      <%= button_tag('Transfer', class: 'btn btn-primary') %>
+      <%= link_to(t('button.cancel'), overview_account_profiles_url(@account)) %>
+    </fieldset>
+    <% end %>
+    
+  </div>
+</div>

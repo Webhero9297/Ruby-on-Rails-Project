@@ -1,0 +1,81 @@
+<div class="row mb60">
+  <div class="span12">
+
+    <h1 class="page-header"><%= t('payment.subscription.upgrade_your_intervac_membership') %></h1>
+
+    <% if @user.account.is_trial_subscription %>
+
+      <% if @no_promotion_code %>
+      <div class="alert">
+        <%= t('price_plans.promtion_code_no_longer_valid_verify_your_code') %>
+      </div>
+      <% end %>
+      <table class="table table-striped mb60">
+        <thead>
+          <tr>
+            <td><%= t('global.name') %></td>
+            <td><%= t('global.duration') %></td>
+            <td colspan="2"><%= t('global.price') %></td>
+          </tr>
+        </thead>
+        <tbody>
+          <% @price_plans.each do |price_plan| %>
+          <tr>
+            <td><%= price_plan.name %></td>
+            <td><%= price_plan.duration %> <%= price_plan.periodicity %></td>
+            <td data-price-plan-id='<%= price_plan.id %>'><%= float_price(price_plan.base_price) %> <%= price_plan.country.currency %></td>
+            <td style="text-align: right;">
+              <%= render(partial: 'prolong_membership_form', locals: {order: @order, price_plan: price_plan}) %>
+            </td>
+          </tr>
+          <% end %>
+
+          <tr class='promotion_code_form hidden'>
+              <td>
+                  <%= t('payment.promotional_offer') %>
+              </td>
+              <td colspan="3" style="text-align: right;">
+                  <%= render(partial: 'prolong_membership_promotion_code_form', locals: {order: @order}) %>
+              </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="mb60 promo-code-form">
+      </div>
+
+      <div style="text-align: right;" class='finish-form hidden'>
+          <%= form_tag(setup_order_subscriptions_url, method: :post, class: 'form-inline') do %>
+              <%= hidden_field_tag('promotion_code', '', class: 'input-medium final-promo-code') %>
+              <%= hidden_field_tag('price_plan_id', nil, class: 'final-price-plan') %>
+              <%= hidden_field_tag('upgrade', @order.upgrade) %>
+              <%= hidden_field_tag('renewal', @order.renewal) %>
+              <%= submit_tag(t('button.go'), class: 'btn btn-warning') %>
+          <% end %>
+      </div>
+    <% else %>
+    <div class="alert">
+      Your current membership is not upgradebale. You can only upgrade a trial membership.
+    </div>
+    <% end %>
+
+    <%= link_to(t('payment.cancel_upgrade'), member_dashboard_path, class: 'btn btn-danger') %>
+    
+  </div>
+</div>
+
+<script>
+  $('.send-price_plan_id').on('click', function(e){
+    e.preventDefault();
+    var btn = $(this);
+
+    $('.promo_code_price_plan').val(btn.data().pricePlanId);
+    $('.final-price-plan').val(btn.data().pricePlanId);
+
+    $('tr').removeClass('success');
+    btn.closest('tr').addClass('success');
+
+    $('.finish-form').removeClass('hidden');
+    $('.promotion_code_form').removeClass('hidden');
+  });
+</script>

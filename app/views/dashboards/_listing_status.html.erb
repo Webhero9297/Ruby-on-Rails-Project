@@ -1,0 +1,23 @@
+<table class="table listing-status">
+	<thead>
+		<tr>
+			<th class="span3"><%= t('listings.label.listing_number') %></th>
+			<th class="span3 cell-center"><%= t('listing.label.available_for_exchange') %></th>
+			<th class="span3 cell-center"><%= t('listings.label.total_visits') %></th>
+			<th class="span3 cell-center"><%= t('listings.label.visits_last_x_days', {:NUMBER => 7}) %></th>
+		</tr>
+	</thead>
+	<tbody>
+		<% listings.each do |listing| %>
+		<tr>
+			<td><%= link_to(listing.listing_number, overview_listing_url(listing)) %></td>
+			<td class="cell-center" id="listing-active-cell-<%= listing.listing_number%>">
+				<%= render( partial: 'listing_status_toggler', locals: {listing: listing}) %>
+			</td>
+			<td class="cell-center"><%= statistics[listing.id][:total] %></td>
+			<td class="cell-center"><%= statistics[listing.id][:week] %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
+

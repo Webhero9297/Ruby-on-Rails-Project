@@ -1,0 +1,79 @@
+<% if permitted_to? [:new, :create], :member_exchange_agreements %>
+  <% if @listings.count == 0 %>
+    <%- body_id 'exchanges' -%>
+    <h1 class="page-header"><%= t('exchange_agreements.header.exchange_agreements') %></h1>
+    <p><%= t('exchange_agreements.create_listing_before_starting_exchange_agreement_') %></p>
+    <%= render(partial: 'member/listings/first_listing') %>
+  <% else %>
+    <div class="row">
+      <div class="span3">
+        <%= render(partial: 'menu') %>
+      </div>
+      <div class="span9">
+        <div class="plate">
+          <div class="plate-content">
+            <h1 class="plate-header"><%= t('exchange_agreements.header.exchange_agreements') %></h1>
+            <% if !current_user.account.is_expired? && !current_user.account.is_trial_subscription %>
+              <p class="mb40"><%= link_to(t('button.start_new_agreement'), new_member_exchange_agreement_url, class: 'btn btn-primary') %></p>
+            <% elsif current_user.account.is_expired? %>
+              <% if current_user.account.is_expired_for_less_than_30_days?  %>
+                <div class="alert alert-warning">
+                  <p class="alert-message"><%= t('exchange_agreements.alert.message.membership_expired_30_days', {:EA_ACCESS_LIMIT_DATE =>  l(current_user.account.current_expires_at + 30.days, format: '%d %B', locale: I18n.locale) }) %></p>
+                </div>
+              <% else %>
+                <div class="alert alert-danger">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <p class="alert-message"><%= t('exchange_agreements.alert.message.membership_expired') %></p>
+                  <%= link_to(t('link.renew_membership'), renew_subscriptions_url, class: 'btn-link') %>
+                </div>
+              <% end %>
+            <% elsif current_user.account.is_trial_subscription %>
+              <span class="label label-warning ml10">
+                <%= t('exchange_agreement.warning_user_trial') %>
+              </span>
+            <% end %>
+
+            <% if @exchange_agreements.empty? %>
+              <div class="alert alert-info">
+                <p class="alert-message"><%= t('exchange_agreements.alert.message.you_do_not_have_any_active_exchange_agreements') %></p>
+              </div>
+            <% else %>
+              <%= render partial: "ongoing" %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+<% else %>
+  <div class="row">
+    <div class="span3">
+      <%= render(partial: 'menu') %>
+    </div>
+    <div class="span9">
+      <div class="plate">
+        <div class="plate-content">
+          <% if current_user.account.awaiting_access and current_user.account.is_restricted %>
+            <%= render(partial: 'dashboards/awaiting_activation', locals: {account: current_user.account}) %>
+          <% else %>
+            <%- if has_expired(current_user.account) then -%>
+              <%- if current_user.account.is_trial_subscription then -%>
+                <div class="alert alert-danger">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <p class="alert-message"><%= t('payment.subscriptions.alert.message.trial_membership_has_expired_why_not_upgrade') %></p>
+                  <%= link_to(t('link.upgrade_membership'), upgrade_subscriptions_url, class: 'btn-link') %>
+                </div>
+              <%- else -%>
+                <div class="alert alert-danger">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <p class="alert-message"><%= t('payment.subscriptions.alert.message.memerbship_has_expired_why_not_renew_membership_today') %></p>
+                  <%= link_to(t('link.renew_membership'), renew_subscriptions_url, class: 'btn-link') %>
+                </div>
+              <%- end -%>
+            <%- end -%>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

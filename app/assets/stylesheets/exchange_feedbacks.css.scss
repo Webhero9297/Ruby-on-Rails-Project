@@ -1,0 +1,13 @@
+@import "mixins";
+form#exchange-feedback h2.section-header {
+	font-size: 14px;
+	margin: 22px 0 12px 0;
+	padding: 6px 0 0 0;
+	border-top: 1px solid $standard-grey;
+	border-bottom: 0;
+	
+	&.first {
+	    margin: 0 0 12px 0;
+	    border: 0;
+    }
+}

@@ -1,0 +1,32 @@
+<ul class="missing-params">
+  <% if valid_profile.is_missing_field(:name) then %>
+  <li>
+    <%= t('account.progress.get_personal_and_write_your_name') %>
+    <%= link_to(t('dashboards.label.fill_out_your_name'), overview_account_profiles_url(account.id)) %>
+  </li>
+  <% end %>
+  <% if valid_profile.is_missing_field(:email) then %>
+  <li>
+    <%= t('dashboards.email_keep_in_touch') %>
+    <%= link_to(t('dashboards.label.fill_out_contact_email'), overview_account_profiles_url(account.id)) %>
+  </li>
+  <% end %>
+  <% if valid_profile.is_missing_field(:address) || valid_profile.is_missing_field(:postal_town) || valid_profile.is_missing_field(:postal_code) then %>
+  <li>
+    <%= t('dashboard.progress.other_people_might_need_send_you_something') %>
+    <%= link_to(t('Fill out your postal address'), overview_account_profiles_url(account.id)) %>
+  </li>
+  <% end %>
+  <% if valid_profile.is_missing_field(:phone) || valid_profile.is_missing_field(:mobile) then %>
+  <li>
+    <%= t('dashboards.progress.telephone_is_a_great_way_to_communicate') %>
+    <%= link_to(t('dashboards.label.fill_out_at_least_one_phone_number'), overview_account_profiles_url(account.id)) %>
+  </li>
+  <% end %>
+  <% if valid_profile.is_missing_field(:spoken_languages) then %>
+  <li>
+    <%= t('dashboard.progress.phrase.add_spoken_languages') %>
+    <%= link_to(t('button.specify_spoken_languages'), overview_account_profiles_url(account.id)) %>
+  </li>
+  <% end %>
+</ul>
