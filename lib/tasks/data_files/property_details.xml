@@ -1,0 +1,969 @@
+<?xml version="1.0"?>
+<RECORDS>
+<RECORD>
+	<short>ac</short>
+	<en_GB>Air conditioning</en_GB>
+	<de_AT>Air conditioning</de_AT>
+	<nl_BE>Air conditioning</nl_BE>
+	<de_DE>Klimaanlage vorhanden</de_DE>
+	<da_DK>Air conditioning</da_DK>
+	<es_ES>Aire Acondicionado</es_ES>
+	<fi_FI>Ilmastointi</fi_FI>
+	<fr_FR>air conditionné</fr_FR>
+	<el_GR>Κλιματισμός</el_GR>
+	<is_IS>Loftræsting</is_IS>
+	<it_IT>aria condizionata</it_IT>
+	<no_NO>Air conditioning</no_NO>
+	<pl_PL>Air conditioning</pl_PL>
+	<pt_PT>Ar condicionado</pt_PT>
+	<sv_SE>Air conditioning</sv_SE>
+	<ru_RU>Кондиционер</ru_RU>
+	<ja_JP>エアコン</ja_JP>
+	<nl_NL>Air conditioning</nl_NL>
+	<ro_RO>Aer conditionat</ro_RO>
+	<hu_HU>Air conditioning</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ae</short>
+	<en_GB>Use/Exchange of car</en_GB>
+	<de_AT>Autotausch/Autobenutzung möglich</de_AT>
+	<nl_BE>Wenst autoruil</nl_BE>
+	<de_DE>Autotausch/Autobenutzung möglich</de_DE>
+	<da_DK>Bilbytte</da_DK>
+	<es_ES>Uso/Intercambio de Coches</es_ES>
+	<fi_FI>Auto käytössä/Autonvaihto</fi_FI>
+	<fr_FR>prêt/échange de voiture</fr_FR>
+	<el_GR>Χρήση/Ανταλλαγή αυτοκίνητου</el_GR>
+	<is_IS>Afnot/Skipti á bílum</is_IS>
+	<it_IT>uso/scambio della macchina</it_IT>
+	<no_NO>Bruk/Bytte bil</no_NO>
+	<pl_PL>Use/Exchange of car</pl_PL>
+	<pt_PT>Uso/troca de carro</pt_PT>
+	<sv_SE>Use/Exchange of car</sv_SE>
+	<ru_RU>Пользование/обмен машинами</ru_RU>
+	<ja_JP>使用/車の交換</ja_JP>
+	<nl_NL>Wenst autoruil</nl_NL>
+	<ro_RO>Foloseste/ Schimba autoturismul</ro_RO>
+	<hu_HU>Use/Exchange of car</hu_HU>
+</RECORD>
+<RECORD>
+	<short>an</short>
+	<en_GB>Car necessary</en_GB>
+	<de_AT>Auto notwendig</de_AT>
+	<nl_BE>Auto noodzakelijk</nl_BE>
+	<de_DE>Auto notwendig</de_DE>
+	<da_DK>Bil nødvendig</da_DK>
+	<es_ES>Coche necesario</es_ES>
+	<fi_FI>Auto välttämätön</fi_FI>
+	<fr_FR>voiture indispensable</fr_FR>
+	<el_GR>Αυτοκίνητο αναγκαίο</el_GR>
+	<is_IS>Bíll nauðsynlegur!</is_IS>
+	<it_IT>macchina necessaria</it_IT>
+	<no_NO>Bil nødvendig</no_NO>
+	<pl_PL>Car necessary</pl_PL>
+	<pt_PT>É necessário carro</pt_PT>
+	<sv_SE>Car necessary</sv_SE>
+	<ru_RU>Необходима машина</ru_RU>
+	<ja_JP>車が必要</ja_JP>
+	<nl_NL>Auto noodzakelijk</nl_NL>
+	<ro_RO>Necesita masina</ro_RO>
+	<hu_HU>Car necessary</hu_HU>
+</RECORD>
+<RECORD>
+	<short>apl</short>
+	<en_GB>All appliances</en_GB>
+	<de_AT>alle Haushaltsgeräte vorhanden</de_AT>
+	<nl_BE>Alle voorzieningen</nl_BE>
+	<de_DE>alle Haushaltsgeräte vorhanden</de_DE>
+	<da_DK>Alle fornødenheder</da_DK>
+	<es_ES>Todas las comodidades</es_ES>
+	<fi_FI>Kaikki mukavuudet</fi_FI>
+	<fr_FR>tout confort</fr_FR>
+	<el_GR>Όλες οι συσκευές</el_GR>
+	<is_IS>Öll heimilistæki.</is_IS>
+	<it_IT>tutti i confort</it_IT>
+	<no_NO>Ale hjelpemidler</no_NO>
+	<pl_PL>All appliances</pl_PL>
+	<pt_PT>Todos os electrodomésticos</pt_PT>
+	<sv_SE>All appliances</sv_SE>
+	<ru_RU>Бытовая техника</ru_RU>
+	<ja_JP>すべての設備</ja_JP>
+	<nl_NL>Alle voorzieningen</nl_NL>
+	<ro_RO>cu toata aparatura</ro_RO>
+	<hu_HU>All appliances</hu_HU>
+</RECORD>
+<RECORD>
+	<short>bc</short>
+	<en_GB>Balcony</en_GB>
+	<de_AT>Balkon</de_AT>
+	<nl_BE>Balkon</nl_BE>
+	<de_DE>Balkon</de_DE>
+	<da_DK>Balkon</da_DK>
+	<es_ES>Balcón</es_ES>
+	<fi_FI>Parveke</fi_FI>
+	<fr_FR>balcon, terrasse</fr_FR>
+	<el_GR>Μπαλκόνι</el_GR>
+	<is_IS>Verönd</is_IS>
+	<it_IT>balcone</it_IT>
+	<no_NO>Balkong</no_NO>
+	<pl_PL>Balcony</pl_PL>
+	<pt_PT>Varanda</pt_PT>
+	<sv_SE>Balcony</sv_SE>
+	<ru_RU>Балкон</ru_RU>
+	<ja_JP>バルコニー</ja_JP>
+	<nl_NL>Balkon</nl_NL>
+	<ro_RO>Balcon</ro_RO>
+	<hu_HU>Balcony</hu_HU>
+</RECORD>
+<RECORD>
+	<short>be</short>
+	<en_GB>Baby equipment</en_GB>
+	<de_AT>Baby Ausstattung vorhanden</de_AT>
+	<nl_BE>Babyuitrusting beschikbaar</nl_BE>
+	<de_DE>Baby Ausstattung vorhanden</de_DE>
+	<da_DK>Babyudstyr tilgængeligt</da_DK>
+	<es_ES>Equipo para bebé disponible</es_ES>
+	<fi_FI>Vauvan varusteet</fi_FI>
+	<fr_FR>équipements pour bébé</fr_FR>
+	<el_GR>Διαθέσιμος εξοπλισμός για μωρά</el_GR>
+	<is_IS>Smábarnadót fyrir hendi</is_IS>
+	<it_IT>equipaggiamento per bambini disponibile</it_IT>
+	<no_NO>Babyutstyr tilgjengelig</no_NO>
+	<pl_PL>Baby equipment available</pl_PL>
+	<pt_PT>Equipamento para bebé disponível</pt_PT>
+	<sv_SE>Baby equipment available</sv_SE>
+	<ru_RU>Детские принадлежности</ru_RU>
+	<ja_JP>赤ちゃん用の装備</ja_JP>
+	<nl_NL>Babyuitrusting beschikbaar</nl_NL>
+	<ro_RO>Echipament pentru copii</ro_RO>
+	<hu_HU>Baby equipment</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ca</short>
+	<en_GB>Use of caravan/camper</en_GB>
+	<de_AT>Benutzung von Wohnwagen/-mobil möglich</de_AT>
+	<nl_BE>Gebruik van caravan/ camper</nl_BE>
+	<de_DE>Benutzung von Wohnwagen/-mobil möglich</de_DE>
+	<da_DK>Brug af campingvogn/husvogn</da_DK>
+	<es_ES>Uso de caravana/tienda de campaña</es_ES>
+	<fi_FI>Matkailuvaunu/matkailuauto käytössä</fi_FI>
+	<fr_FR>mobile-home/caravane disponible</fr_FR>
+	<el_GR>Χρήση τροχόσπιτου</el_GR>
+	<is_IS>Afnot af hjólhýsi/tjaldi</is_IS>
+	<it_IT>uso del camper</it_IT>
+	<no_NO>Bruk av campingvogn/bobil</no_NO>
+	<pl_PL>Use of caravan/camper</pl_PL>
+	<pt_PT>Uso da caravana/roulotte</pt_PT>
+	<sv_SE>Use of caravan/camper</sv_SE>
+	<ru_RU>Использование машины для кемпинга</ru_RU>
+	<ja_JP>キャラバン/キャンピングカーを利用する</ja_JP>
+	<nl_NL>Gebruik van caravan/ camper</nl_NL>
+	<ro_RO>Folosirea caravanei</ro_RO>
+	<hu_HU>Use of caravan/camper</hu_HU>
+</RECORD>
+<RECORD>
+	<short>cf</short>
+	<en_GB>Tourist attractions</en_GB>
+	<de_AT>Sehenswürdigkeiten</de_AT>
+	<nl_BE>Toeristische attracties</nl_BE>
+	<de_DE>Sehenswürdigkeiten</de_DE>
+	<da_DK>Turistattraktioner</da_DK>
+	<es_ES>Atracciones Turísticas</es_ES>
+	<fi_FI>Turistinähtävyyksiä</fi_FI>
+	<fr_FR>monuments, tourisme</fr_FR>
+	<el_GR>Τουριστικά αξιοθέατα</el_GR>
+	<is_IS>Allt fyrir ferðamenn</is_IS>
+	<it_IT>attrazioni turistiche</it_IT>
+	<no_NO>Turistattraksjoner</no_NO>
+	<pl_PL>Tourist attractions</pl_PL>
+	<pt_PT>Atracções turísticas</pt_PT>
+	<sv_SE>Tourist attractions</sv_SE>
+	<ru_RU>Туристические развлечения</ru_RU>
+	<ja_JP>観光客向け施設など</ja_JP>
+	<nl_NL>Toeristische attracties</nl_NL>
+	<ro_RO>Atractii turistice</ro_RO>
+	<hu_HU>Tourist attractions</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ch</short>
+	<en_GB>Central heating</en_GB>
+	<de_AT>Zentralheizung</de_AT>
+	<nl_BE>Centrale verwarming</nl_BE>
+	<de_DE>Zentralheizung</de_DE>
+	<da_DK>Centralvarme</da_DK>
+	<es_ES>Calefacción central</es_ES>
+	<fi_FI>Keskuslämmitys</fi_FI>
+	<fr_FR>chauffage central</fr_FR>
+	<el_GR>Κεντρική θέρμανση</el_GR>
+	<is_IS>Miðstöðvarhiti</is_IS>
+	<it_IT>riscaldamento centrale</it_IT>
+	<no_NO>Sentralfyr</no_NO>
+	<pl_PL>Central heating</pl_PL>
+	<pt_PT>Aquecimento central</pt_PT>
+	<sv_SE>Central heating</sv_SE>
+	<ru_RU>Центральное отопление</ru_RU>
+	<ja_JP>セントラルヒーティング</ja_JP>
+	<nl_NL>Centrale verwarming</nl_NL>
+	<ro_RO>Incalzire centrala</ro_RO>
+	<hu_HU>Central heating</hu_HU>
+</RECORD>
+<RECORD>
+	<short>cp</short>
+	<en_GB>Computer available</en_GB>
+	<de_AT>Computer vorhanden</de_AT>
+	<nl_BE>Computer beschikbaar</nl_BE>
+	<de_DE>Computer vorhanden</de_DE>
+	<da_DK>Computer tilgængelig</da_DK>
+	<es_ES>Ordenador disponible</es_ES>
+	<fi_FI>Tietokone käytössä</fi_FI>
+	<fr_FR>ordinateur disponible</fr_FR>
+	<el_GR>Ηλ.Υπολογιστής διαθέσιμος</el_GR>
+	<is_IS>Afnot af tölvu</is_IS>
+	<it_IT>computer a disposizione</it_IT>
+	<no_NO>PC tilgjengelig</no_NO>
+	<pl_PL>Computer available</pl_PL>
+	<pt_PT>Computador disponível</pt_PT>
+	<sv_SE>Computer available</sv_SE>
+	<ru_RU>Доступен компьютер</ru_RU>
+	<ja_JP>パソコン利用可</ja_JP>
+	<nl_NL>Computer beschikbaar</nl_NL>
+	<ro_RO>Computer diponibil</ro_RO>
+	<hu_HU>Computer available</hu_HU>
+</RECORD>
+<RECORD>
+	<short>d</short>
+	<en_GB>Shower</en_GB>
+	<de_AT>Dusche</de_AT>
+	<nl_BE>Douche</nl_BE>
+	<de_DE>Dusche</de_DE>
+	<da_DK>Brusebad</da_DK>
+	<es_ES>Ducha</es_ES>
+	<fi_FI>Suihku</fi_FI>
+	<fr_FR>douche</fr_FR>
+	<el_GR>Ντούς</el_GR>
+	<is_IS>Sturta</is_IS>
+	<it_IT>doccia</it_IT>
+	<no_NO>Dusj</no_NO>
+	<pl_PL>Shower</pl_PL>
+	<pt_PT>Chuveiro</pt_PT>
+	<sv_SE>Shower</sv_SE>
+	<ru_RU>Душ</ru_RU>
+	<ja_JP>シャワー</ja_JP>
+	<nl_NL>Douche</nl_NL>
+	<ro_RO>Dus</ro_RO>
+	<hu_HU>Shower</hu_HU>
+</RECORD>
+<RECORD>
+	<short>dr</short>
+	<en_GB>Clothes dryer</en_GB>
+	<de_AT>Wäschetrockner</de_AT>
+	<nl_BE>Droogkast</nl_BE>
+	<de_DE>Wäschetrockner</de_DE>
+	<da_DK>Tørretumbler</da_DK>
+	<es_ES>Secadora</es_ES>
+	<fi_FI>Vaatteiden kuivaaja</fi_FI>
+	<fr_FR>sèche-linge</fr_FR>
+	<el_GR>Στεγνωτήριο ρούχων</el_GR>
+	<is_IS>Tauþurrkari</is_IS>
+	<it_IT>asciugabiancheria</it_IT>
+	<no_NO>Tørketrommel</no_NO>
+	<pl_PL>Clothes dryer</pl_PL>
+	<pt_PT>Máquina de secar roupa</pt_PT>
+	<sv_SE>Clothes dryer</sv_SE>
+	<ru_RU>Сушилка</ru_RU>
+	<ja_JP>乾燥機</ja_JP>
+	<nl_NL>Droogkast</nl_NL>
+	<ro_RO>Uscatorie</ro_RO>
+	<hu_HU>Clothes dryer</hu_HU>
+</RECORD>
+<RECORD>
+	<short>fi</short>
+	<en_GB>Free internet access</en_GB>
+	<de_AT>Internet-Zugang</de_AT>
+	<nl_BE>Gratis internet aansluiting</nl_BE>
+	<de_DE>Internet-Zugang</de_DE>
+	<da_DK>Gratis internet adgang</da_DK>
+	<es_ES>Acceso gratis a internet</es_ES>
+	<fi_FI>Ilmainen nettiyhteys</fi_FI>
+	<fr_FR>accès internet gratuit</fr_FR>
+	<el_GR>Δωρεάν πρόσβαση Internet</el_GR>
+	<is_IS>Ókeypis nettenging</is_IS>
+	<it_IT>accesso ad internet gratuito</it_IT>
+	<no_NO>Fri adgang til internett</no_NO>
+	<pl_PL>Free internet access</pl_PL>
+	<pt_PT>Acesso à internet sem custos</pt_PT>
+	<sv_SE>Free internet access</sv_SE>
+	<ru_RU>Свободный доступ в интернет</ru_RU>
+	<ja_JP>インターネット利用無料</ja_JP>
+	<nl_NL>Gratis internet aansluiting</nl_NL>
+	<ro_RO>Acces Internet gratuit</ro_RO>
+	<hu_HU>Free internet access</hu_HU>
+</RECORD>
+<RECORD>
+	<short>fp</short>
+	<en_GB>Fireplace</en_GB>
+	<de_AT>offener Kamin</de_AT>
+	<nl_BE>Open haard</nl_BE>
+	<de_DE>offener Kamin</de_DE>
+	<da_DK>Brændeovn</da_DK>
+	<es_ES>Chimenea</es_ES>
+	<fi_FI>Takka</fi_FI>
+	<fr_FR>cheminée intérieure</fr_FR>
+	<el_GR>Τζάκι</el_GR>
+	<is_IS>Arinn</is_IS>
+	<it_IT>caminetto</it_IT>
+	<no_NO>Peis</no_NO>
+	<pl_PL>Fireplace</pl_PL>
+	<pt_PT>Lareira</pt_PT>
+	<sv_SE>Fireplace</sv_SE>
+	<ru_RU>Камин</ru_RU>
+	<ja_JP>暖炉</ja_JP>
+	<nl_NL>Open haard</nl_NL>
+	<ro_RO>soba/ camin</ro_RO>
+	<hu_HU>Fireplace</hu_HU>
+</RECORD>
+<RECORD>
+	<short>gd</short>
+	<en_GB>Garden</en_GB>
+	<de_AT>Garten</de_AT>
+	<nl_BE>Tuin</nl_BE>
+	<de_DE>Garten</de_DE>
+	<da_DK>Have</da_DK>
+	<es_ES>Jardín</es_ES>
+	<fi_FI>Puutarha</fi_FI>
+	<fr_FR>jardin</fr_FR>
+	<el_GR>Κήπος</el_GR>
+	<is_IS>Garður</is_IS>
+	<it_IT>giardino</it_IT>
+	<no_NO>Hage</no_NO>
+	<pl_PL>Garden</pl_PL>
+	<pt_PT>Jardim</pt_PT>
+	<sv_SE>Garden</sv_SE>
+	<ru_RU>Сад</ru_RU>
+	<ja_JP>庭</ja_JP>
+	<nl_NL>Tuin</nl_NL>
+	<ro_RO>Gradina</ro_RO>
+	<hu_HU>Garden</hu_HU>
+</RECORD>
+<RECORD>
+	<short>gg</short>
+	<en_GB>Garage</en_GB>
+	<de_AT>Garage</de_AT>
+	<nl_BE>Garage</nl_BE>
+	<de_DE>Garage</de_DE>
+	<da_DK>Garage</da_DK>
+	<es_ES>Garage</es_ES>
+	<fi_FI>Autotalli</fi_FI>
+	<fr_FR>garage/parking</fr_FR>
+	<el_GR>Γκαράζ</el_GR>
+	<is_IS>Bílskúr</is_IS>
+	<it_IT>Garage</it_IT>
+	<no_NO>Garasje</no_NO>
+	<pl_PL>Garage</pl_PL>
+	<pt_PT>Garagem</pt_PT>
+	<sv_SE>Garage</sv_SE>
+	<ru_RU>Гараж</ru_RU>
+	<ja_JP>車庫</ja_JP>
+	<nl_NL>Garage</nl_NL>
+	<ro_RO>Garaj</ro_RO>
+	<hu_HU>Garage</hu_HU>
+</RECORD>
+<RECORD>
+	<short>hp</short>
+	<en_GB>Suitable for disabled people</en_GB>
+	<de_AT>Haus für Behinderte geeignet</de_AT>
+	<nl_BE>Geschikt voor minder valide personen</nl_BE>
+	<de_DE>Haus für Behinderte geeignet</de_DE>
+	<da_DK>Velegnet til handicappede</da_DK>
+	<es_ES>Apropiado para minusválidos</es_ES>
+	<fi_FI>Soveltuu vammaisille</fi_FI>
+	<fr_FR>logement adapté aux PMR (personnes à mobilité réduite)</fr_FR>
+	<el_GR>Κατάλληλο για άτομα με ειδικές ανάγκες</el_GR>
+	<is_IS>Aðgengilegt fyrir fatlaða</is_IS>
+	<it_IT>adatto a persone con handicap</it_IT>
+	<no_NO>Tilettelagt for funksjonshemmede</no_NO>
+	<pl_PL>Suitable for disabled people</pl_PL>
+	<pt_PT>Adequado para pessoas deficientes</pt_PT>
+	<sv_SE>Suitable for disabled people</sv_SE>
+	<ru_RU>Подходит для людей с ограниченными возможностями</ru_RU>
+	<ja_JP>身体障害者向き</ja_JP>
+	<nl_NL>Geschikt voor minder valide personen</nl_NL>
+	<ro_RO>Potrivit persoanelor cu disabilitati</ro_RO>
+	<hu_HU>Suitable for disabled people</hu_HU>
+</RECORD>
+<RECORD>
+	<short>hs</short>
+	<en_GB>Use of second home</en_GB>
+	<de_AT>Benutzung von Zweitwohnung</de_AT>
+	<nl_BE>Gebruik van tweede verblijf</nl_BE>
+	<de_DE>Benutzung von Zweitwohnung</de_DE>
+	<da_DK>Brug af andet hjem</da_DK>
+	<es_ES>Uso de la segunda vivienda</es_ES>
+	<fi_FI>Loma-asunto käytössä</fi_FI>
+	<fr_FR>second logement disponible</fr_FR>
+	<el_GR>Χρήση δεύτερου σπιτιού</el_GR>
+	<is_IS>Afnot af öðru heimili</is_IS>
+	<it_IT>uso della seconda casa</it_IT>
+	<no_NO>Bruk av hjem nr. 2</no_NO>
+	<pl_PL>Use of second home</pl_PL>
+	<pt_PT>Segunda casa disponível</pt_PT>
+	<sv_SE>Use of second home</sv_SE>
+	<ru_RU>Пользование вторым домом</ru_RU>
+	<ja_JP>別荘として利用</ja_JP>
+	<nl_NL>Gebruik van tweede verblijf</nl_NL>
+	<ro_RO>Folosirea celei de-a doua proprietati</ro_RO>
+	<hu_HU>Use of second home</hu_HU>
+</RECORD>
+<RECORD>
+	<short>li</short>
+	<en_GB>Lift/elevator</en_GB>
+	<de_AT>Lift/ Aufzug</de_AT>
+	<nl_BE>Lift</nl_BE>
+	<de_DE>Lift/ Aufzug</de_DE>
+	<da_DK>Elevator</da_DK>
+	<es_ES>Ascensor</es_ES>
+	<fi_FI>Hissi</fi_FI>
+	<fr_FR>ascenseur</fr_FR>
+	<el_GR>Ανελκυστήρας</el_GR>
+	<is_IS>Lyfta</is_IS>
+	<it_IT>ascensore</it_IT>
+	<no_NO>Heis</no_NO>
+	<pl_PL>Lift/elevator</pl_PL>
+	<pt_PT>Elevador</pt_PT>
+	<sv_SE>Lift/elevator</sv_SE>
+	<ru_RU>Лифт</ru_RU>
+	<ja_JP>リフト/エレベーター</ja_JP>
+	<nl_NL>Lift</nl_NL>
+	<ro_RO>ascensor</ro_RO>
+	<hu_HU>Lift/elevator</hu_HU>
+</RECORD>
+<RECORD>
+	<short>nc</short>
+	<en_GB>No (small) children</en_GB>
+	<de_AT>Keine (kleinen) Kinder</de_AT>
+	<nl_BE>Geen (kleine) kinderen</nl_BE>
+	<de_DE>Keine (kleinen) Kinder</de_DE>
+	<da_DK>Ingen (små) børn</da_DK>
+	<es_ES>No desean niños pequeños</es_ES>
+	<fi_FI>Ei (pieniä) lapsia</fi_FI>
+	<fr_FR>pas de jeunes enfants</fr_FR>
+	<el_GR>Όχι (μικρά) παιδιά</el_GR>
+	<is_IS>Engin (unga) börn</is_IS>
+	<it_IT>No bambini (piccoli)</it_IT>
+	<no_NO>Ikke (små) barn</no_NO>
+	<pl_PL>No (small) children</pl_PL>
+	<pt_PT>Sem crianças (pequenas)</pt_PT>
+	<sv_SE>No (small) children</sv_SE>
+	<ru_RU>Без маленьких детей</ru_RU>
+	<ja_JP>（小さい）子供不可</ja_JP>
+	<nl_NL>Geen (kleine) kinderen</nl_NL>
+	<ro_RO>Fara copii mici</ro_RO>
+	<hu_HU>No (small) children</hu_HU>
+</RECORD>
+<RECORD>
+	<short>np</short>
+	<en_GB>No pets</en_GB>
+	<de_AT>Keine Haustiere erwünscht</de_AT>
+	<nl_BE>Geen huisdieren</nl_BE>
+	<de_DE>Keine Haustiere erwünscht</de_DE>
+	<da_DK>Ingen kæledyr</da_DK>
+	<es_ES>No desean animales domésticos</es_ES>
+	<fi_FI>Ei lemmikkejä</fi_FI>
+	<fr_FR>pas d'animaux</fr_FR>
+	<el_GR>Όχι κατοικίδια ζώα</el_GR>
+	<is_IS>Engin gæludýr</is_IS>
+	<it_IT>No animali domestici</it_IT>
+	<no_NO>Ingen kjæledyr</no_NO>
+	<pl_PL>No pets</pl_PL>
+	<pt_PT>Sem animais</pt_PT>
+	<sv_SE>No pets</sv_SE>
+	<ru_RU>Без животных</ru_RU>
+	<ja_JP>ペット不可</ja_JP>
+	<nl_NL>Geen huisdieren</nl_NL>
+	<ro_RO>Fara animale de companie</ro_RO>
+	<hu_HU>No pets</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ns</short>
+	<en_GB>Non-smoking</en_GB>
+	<de_AT>Nichtraucher</de_AT>
+	<nl_BE>Niet rokers</nl_BE>
+	<de_DE>Nichtraucher</de_DE>
+	<da_DK>Ikke ryger</da_DK>
+	<es_ES>Para no fumadores</es_ES>
+	<fi_FI>Savuton</fi_FI>
+	<fr_FR>non-fumeur</fr_FR>
+	<el_GR>Για μη καπνιστές</el_GR>
+	<is_IS>Reyklaus</is_IS>
+	<it_IT>Non fumatori</it_IT>
+	<no_NO>Røking forbudt</no_NO>
+	<pl_PL>Non-smoking</pl_PL>
+	<pt_PT>Não fumadores</pt_PT>
+	<sv_SE>Non-smoking</sv_SE>
+	<ru_RU>Некурящие</ru_RU>
+	<ja_JP>喫煙不可</ja_JP>
+	<nl_NL>Niet rokers</nl_NL>
+	<ro_RO>Nefumatori</ro_RO>
+	<hu_HU>Non-smoking</hu_HU>
+</RECORD>
+<RECORD>
+	<short>pc</short>
+	<en_GB>Pet care wanted</en_GB>
+	<de_AT>Ausicht von Haustieren erwünscht</de_AT>
+	<nl_BE>Zoekt oppas voor huisdier(en)</nl_BE>
+	<de_DE>Aufsicht von Haustieren erwünscht</de_DE>
+	<da_DK>Pasning af kæledyr ønskes</da_DK>
+	<es_ES>Deseamos cuidar de animales domésticos</es_ES>
+	<fi_FI>Halutaan lemmikkien hoitoa</fi_FI>
+	<fr_FR>animaux domestiques à garder</fr_FR>
+	<el_GR>Ζητείται φροντίδα κατοικίδιων ζώων</el_GR>
+	<is_IS>Óskað eftir vörslu gæludýra</is_IS>
+	<it_IT>si desidera assistenza ad animali domestici</it_IT>
+	<no_NO>Tilssyn med kjæledyr er ønsket</no_NO>
+	<pl_PL>Pet care wanted</pl_PL>
+	<pt_PT>Procuro quem cuide do animal de estimação</pt_PT>
+	<sv_SE>Pet care wanted</sv_SE>
+	<ru_RU>Необходима забота о домашнем питомце</ru_RU>
+	<ja_JP>ペットの世話を希望</ja_JP>
+	<nl_NL>Zoekt oppas voor huisdier(en)</nl_NL>
+	<ro_RO>Cu ingrijirea animalelor de companie</ro_RO>
+	<hu_HU>Pet care wanted</hu_HU>
+</RECORD>
+<RECORD>
+	<short>pk</short>
+	<en_GB>Park/Playground</en_GB>
+	<de_AT>Park/Spielplatz</de_AT>
+	<nl_BE>Park/Speeltuin</nl_BE>
+	<de_DE>Park/Spielplatz</de_DE>
+	<da_DK>Park/Legeplads</da_DK>
+	<es_ES>Parque/Jardín infantil</es_ES>
+	<fi_FI>Puisto/leikkikenttä</fi_FI>
+	<fr_FR>parc/aire de jeux, de détente</fr_FR>
+	<el_GR>Πάρκο/Παιδική χαρά</el_GR>
+	<is_IS>Listigarður/Leikvöllur</is_IS>
+	<it_IT>parco giochi</it_IT>
+	<no_NO>Park/Lekeplass</no_NO>
+	<pl_PL>Park/Playground</pl_PL>
+	<pt_PT>Parque para crianças</pt_PT>
+	<sv_SE>Park/Playground</sv_SE>
+	<ru_RU>Парк/Площадка для игр</ru_RU>
+	<ja_JP>公園/遊び場</ja_JP>
+	<nl_NL>Park/Speeltuin</nl_NL>
+	<ro_RO>Parc/ Loc de joaca</ro_RO>
+	<hu_HU>Park/Playground</hu_HU>
+</RECORD>
+<RECORD>
+	<short>pv</short>
+	<en_GB>Seclusion/Privacy</en_GB>
+	<de_AT>abseitsliegend</de_AT>
+	<nl_BE>Afgelegen</nl_BE>
+	<de_DE>abseitsliegend</de_DE>
+	<da_DK>Ugenerthed</da_DK>
+	<es_ES>Privado</es_ES>
+	<fi_FI>Rauhallinen</fi_FI>
+	<fr_FR>lieu isolé/retiré/sans vis-à-vis</fr_FR>
+	<el_GR>Απομόνωση/Ιδιωτικότητα</el_GR>
+	<is_IS>Sérstætt/Prívat</is_IS>
+	<it_IT>appartato</it_IT>
+	<no_NO>Avsondret sted/Stillhet</no_NO>
+	<pl_PL>Seclusion/Privacy</pl_PL>
+	<pt_PT>Privacidade</pt_PT>
+	<sv_SE>Seclusion/Privacy</sv_SE>
+	<ru_RU>Уединенное место</ru_RU>
+	<ja_JP>隔離された場所/プライバシー</ja_JP>
+	<nl_NL>Afgelegen</nl_NL>
+	<ro_RO>Izolat</ro_RO>
+	<hu_HU>Seclusion/Privacy</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ro</short>
+	<en_GB>Quiet neighborhood</en_GB>
+	<de_AT>ruhige Umgebung</de_AT>
+	<nl_BE>Rustige buurt</nl_BE>
+	<de_DE>ruhige Umgebung</de_DE>
+	<da_DK>Stille nabolag</da_DK>
+	<es_ES>Vecindario tranquilo</es_ES>
+	<fi_FI>Hiljainen ympäristö</fi_FI>
+	<fr_FR>voisinage tranquille</fr_FR>
+	<el_GR>Ήσυχη γειτονιά</el_GR>
+	<is_IS>Rólegt umhverfi</is_IS>
+	<it_IT>dintorni calmi</it_IT>
+	<no_NO>Stille naboskap</no_NO>
+	<pl_PL>Quiet neighborhood</pl_PL>
+	<pt_PT>Zona sossegada</pt_PT>
+	<sv_SE>Quiet neighborhood</sv_SE>
+	<ru_RU>Тихий район</ru_RU>
+	<ja_JP>静かな近隣環境</ja_JP>
+	<nl_NL>Rustige buurt</nl_NL>
+	<ro_RO>Imprejurimi linistite</ro_RO>
+	<hu_HU>Quiet neighborhood</hu_HU>
+</RECORD>
+<RECORD>
+	<short>sa</short>
+	<en_GB>Sauna (private)</en_GB>
+	<de_AT>Sauna (privat)</de_AT>
+	<nl_BE>Sauna (privé)</nl_BE>
+	<de_DE>Sauna (privat)</de_DE>
+	<da_DK>Sauna (privat)</da_DK>
+	<es_ES>Sauna (privada)</es_ES>
+	<fi_FI>Sauna (oma)</fi_FI>
+	<fr_FR>sauna privé</fr_FR>
+	<el_GR>(ιδιωτική) σάουνα</el_GR>
+	<is_IS>Gufubað</is_IS>
+	<it_IT>Sauna (privata)</it_IT>
+	<no_NO>Badstu (privat)</no_NO>
+	<pl_PL>Sauna (private)</pl_PL>
+	<pt_PT>Sauna (Privada)</pt_PT>
+	<sv_SE>Sauna (private)</sv_SE>
+	<ru_RU>Частная сауна</ru_RU>
+	<ja_JP>サウナ（プライベート）</ja_JP>
+	<nl_NL>Sauna (privé)</nl_NL>
+	<ro_RO>Sauna proprie</ro_RO>
+	<hu_HU>Sauna (private)</hu_HU>
+</RECORD>
+<RECORD>
+	<short>sb</short>
+	<en_GB>Private swimming pool</en_GB>
+	<de_AT>privates Schwimmbad</de_AT>
+	<nl_BE>Privé zwembad</nl_BE>
+	<de_DE>privates Schwimmbad</de_DE>
+	<da_DK>Privat pool</da_DK>
+	<es_ES>Piscina privada</es_ES>
+	<fi_FI>Uima-allas (oma)</fi_FI>
+	<fr_FR>piscine privée</fr_FR>
+	<el_GR>Ιδιωτική πισίνα</el_GR>
+	<is_IS>Einkasundlaug/heitur pottur</is_IS>
+	<it_IT>piscina privata</it_IT>
+	<no_NO>Privat svømmebasseng</no_NO>
+	<pl_PL>Private swimming pool</pl_PL>
+	<pt_PT>Piscina (Privada)</pt_PT>
+	<sv_SE>Private swimming pool</sv_SE>
+	<ru_RU>Частный бассейн</ru_RU>
+	<ja_JP>プライベートスイミングプール</ja_JP>
+	<nl_NL>Privé zwembad</nl_NL>
+	<ro_RO>Private swimming pool</ro_RO>
+	<hu_HU>Private swimming pool</hu_HU>
+</RECORD>
+<RECORD>
+	<short>sc</short>
+	<en_GB>Security/Doorman</en_GB>
+	<de_AT>bewachtes Haus</de_AT>
+	<nl_BE>Bewaking/concierge</nl_BE>
+	<de_DE>bewachtes Haus</de_DE>
+	<da_DK>Alarmsystem/Dørmand</da_DK>
+	<es_ES>Portero/Conserje</es_ES>
+	<fi_FI>Hälytys/ovimies</fi_FI>
+	<fr_FR>gardien/concierge</fr_FR>
+	<el_GR>Ασφάλεια/Θυρωρός</el_GR>
+	<is_IS>Öryggi/Dyravörður</is_IS>
+	<it_IT>portiere</it_IT>
+	<no_NO>Sikkerhetssystem/Dørvakt</no_NO>
+	<pl_PL>Security/Doorman</pl_PL>
+	<pt_PT>Segurança/Porteiro</pt_PT>
+	<sv_SE>Security/Doorman</sv_SE>
+	<ru_RU>Консьерж</ru_RU>
+	<ja_JP>セキュリティ/門番</ja_JP>
+	<nl_NL>Bewaking/concierge</nl_NL>
+	<ro_RO>Securitate/Portar</ro_RO>
+	<hu_HU>Security/Doorman</hu_HU>
+</RECORD>
+<RECORD>
+	<short>sk</short>
+	<en_GB>Skiing</en_GB>
+	<de_AT>Skifahren</de_AT>
+	<nl_BE>Skieën</nl_BE>
+	<de_DE>Skifahren</de_DE>
+	<da_DK>Skimuligheder</da_DK>
+	<es_ES>Ski</es_ES>
+	<fi_FI>Hiihto/Laskettelu</fi_FI>
+	<fr_FR>ski</fr_FR>
+	<el_GR>Χειμερινό σκί</el_GR>
+	<is_IS>Skíðaferðir</is_IS>
+	<it_IT>adatto per lo sci</it_IT>
+	<no_NO>Skisport</no_NO>
+	<pl_PL>Skiing</pl_PL>
+	<pt_PT>Esqui</pt_PT>
+	<sv_SE>Skiing</sv_SE>
+	<ru_RU>Катание на лыжах</ru_RU>
+	<ja_JP>スキー</ja_JP>
+	<nl_NL>Skieën</nl_NL>
+	<ro_RO>Schi</ro_RO>
+	<hu_HU>Skiing</hu_HU>
+</RECORD>
+<RECORD>
+	<short>sp</short>
+	<en_GB>Swimming (public)</en_GB>
+	<de_AT>Schwimmbad (öffentlich)</de_AT>
+	<nl_BE>Publiek zwembad</nl_BE>
+	<de_DE>Schwimmbad (öffentlich)</de_DE>
+	<da_DK>Svømning (offentlig)</da_DK>
+	<es_ES>Piscina pública</es_ES>
+	<fi_FI>Uinti (yleinen)</fi_FI>
+	<fr_FR>piscine publique</fr_FR>
+	<el_GR>(δημόσια) πισίνα</el_GR>
+	<is_IS>Sundlaugar (Almennings)</is_IS>
+	<it_IT>piscina (pubblica)</it_IT>
+	<no_NO>Svømming (offentlig)</no_NO>
+	<pl_PL>Swimming (public)</pl_PL>
+	<pt_PT>Piscina (pública)</pt_PT>
+	<sv_SE>Swimming (public)</sv_SE>
+	<ru_RU>Бассейн (общественный)</ru_RU>
+	<ja_JP>水泳（公共）</ja_JP>
+	<nl_NL>Publiek zwembad</nl_NL>
+	<ro_RO>Inot( comun)</ro_RO>
+	<hu_HU>Swimming (public)</hu_HU>
+</RECORD>
+<RECORD>
+	<short>t</short>
+	<en_GB>Good public transport</en_GB>
+	<de_AT>gute öffentliche Verkehrsmittel</de_AT>
+	<nl_BE>Goed openbaar vervoer</nl_BE>
+	<de_DE>gute öffentliche Verkehrsmittel</de_DE>
+	<da_DK>God offenlig transport</da_DK>
+	<es_ES>Buen transporte público</es_ES>
+	<fi_FI>Hyvä julkinen liikenne</fi_FI>
+	<fr_FR>bon réseau transports publics</fr_FR>
+	<el_GR>Καλές δημόσιες συγκοινωνίες</el_GR>
+	<is_IS>Góðir  almenningsvagnar</is_IS>
+	<it_IT>buoni trasporti pubblici</it_IT>
+	<no_NO>Gode offentlige kommunikasjoner</no_NO>
+	<pl_PL>Good public transport</pl_PL>
+	<pt_PT>Bons transportes públicos</pt_PT>
+	<sv_SE>Good public transport</sv_SE>
+	<ru_RU>Доступ к общественному транспорту</ru_RU>
+	<ja_JP>交通手段が便利</ja_JP>
+	<nl_NL>Goed openbaar vervoer</nl_NL>
+	<ro_RO>Facilitati pt transport in comun</ro_RO>
+	<hu_HU>Good public transport</hu_HU>
+</RECORD>
+<RECORD>
+	<short>te</short>
+	<en_GB>Tennis</en_GB>
+	<de_AT>Tennis</de_AT>
+	<nl_BE>Tennis</nl_BE>
+	<de_DE>Tennis</de_DE>
+	<da_DK>Tennis</da_DK>
+	<es_ES>Tenis</es_ES>
+	<fi_FI>Tennis</fi_FI>
+	<fr_FR>terrain de tennis</fr_FR>
+	<el_GR>Τέννις</el_GR>
+	<is_IS>Tennis</is_IS>
+	<it_IT>Tennis</it_IT>
+	<no_NO>Tennis</no_NO>
+	<pl_PL>Tennis</pl_PL>
+	<pt_PT>Ténis</pt_PT>
+	<sv_SE>Tennis</sv_SE>
+	<ru_RU>Теннис</ru_RU>
+	<ja_JP>テニス</ja_JP>
+	<nl_NL>Tennis</nl_NL>
+	<ro_RO>Tenis</ro_RO>
+	<hu_HU>Tennis</hu_HU>
+</RECORD>
+<RECORD>
+	<short>tr</short>
+	<en_GB>Theatre</en_GB>
+	<de_AT>Theater</de_AT>
+	<nl_BE>Theater</nl_BE>
+	<de_DE>Theater</de_DE>
+	<da_DK>Teater</da_DK>
+	<es_ES>Teatro</es_ES>
+	<fi_FI>Teatteri</fi_FI>
+	<fr_FR>théâtre</fr_FR>
+	<el_GR>Θέατρο</el_GR>
+	<is_IS>Leikhús</is_IS>
+	<it_IT>teatro</it_IT>
+	<no_NO>Teater</no_NO>
+	<pl_PL>Theatre</pl_PL>
+	<pt_PT>Teatro</pt_PT>
+	<sv_SE>Theatre</sv_SE>
+	<ru_RU>Театр</ru_RU>
+	<ja_JP>劇場</ja_JP>
+	<nl_NL>Theater</nl_NL>
+	<ro_RO>Teatru</ro_RO>
+	<hu_HU>Theatre</hu_HU>
+</RECORD>
+<RECORD>
+	<short>tv</short>
+	<en_GB>Television</en_GB>
+	<de_AT>Fernsehen</de_AT>
+	<nl_BE>Televisie</nl_BE>
+	<de_DE>Fernsehen</de_DE>
+	<da_DK>Fjernsyn</da_DK>
+	<es_ES>Televisión</es_ES>
+	<fi_FI>Televisio</fi_FI>
+	<fr_FR>télévision</fr_FR>
+	<el_GR>Τηλεόραση</el_GR>
+	<is_IS>Sjónvarp</is_IS>
+	<it_IT>televisione</it_IT>
+	<no_NO>TV</no_NO>
+	<pl_PL>Television</pl_PL>
+	<pt_PT>Televisão</pt_PT>
+	<sv_SE>Television</sv_SE>
+	<ru_RU>Телевидение</ru_RU>
+	<ja_JP>テレビ</ja_JP>
+	<nl_NL>Televisie</nl_NL>
+	<ro_RO>Televizor</ro_RO>
+	<hu_HU>Television</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ub</short>
+	<en_GB>Use of boat</en_GB>
+	<de_AT>Bootbenutzung möglich</de_AT>
+	<nl_BE>Gebruik van de boot</nl_BE>
+	<de_DE>Bootbenutzung möglich</de_DE>
+	<da_DK>Brug af båd</da_DK>
+	<es_ES>Uso del Barco</es_ES>
+	<fi_FI>Vene käytössä</fi_FI>
+	<fr_FR>bateau disponible</fr_FR>
+	<el_GR>Χρήση σκάφους</el_GR>
+	<is_IS>Afnot af báti</is_IS>
+	<it_IT>uso della barca</it_IT>
+	<no_NO>Bruk av båt</no_NO>
+	<pl_PL>Use of boat</pl_PL>
+	<pt_PT>Barco disponível</pt_PT>
+	<sv_SE>Use of boat</sv_SE>
+	<ru_RU>Пользование лодкой</ru_RU>
+	<ja_JP>ボートの利用</ja_JP>
+	<nl_NL>Gebruik van de boot</nl_NL>
+	<ro_RO>Cu folosirea barcii</ro_RO>
+	<hu_HU>Use of boat</hu_HU>
+</RECORD>
+<RECORD>
+	<short>vr</short>
+	<en_GB>Video</en_GB>
+	<de_AT>Video</de_AT>
+	<nl_BE>Video</nl_BE>
+	<de_DE>Video</de_DE>
+	<da_DK>Video</da_DK>
+	<es_ES>Video</es_ES>
+	<fi_FI>Video</fi_FI>
+	<fr_FR>video</fr_FR>
+	<el_GR>Βίντεο</el_GR>
+	<is_IS>Video</is_IS>
+	<it_IT>Video</it_IT>
+	<no_NO>Video</no_NO>
+	<pl_PL>Video</pl_PL>
+	<pt_PT>Vídeo</pt_PT>
+	<sv_SE>Video</sv_SE>
+	<ru_RU>Видеосистема</ru_RU>
+	<ja_JP>ビデオ</ja_JP>
+	<nl_NL>Video</nl_NL>
+	<ro_RO>Video</ro_RO>
+	<hu_HU>Video</hu_HU>
+</RECORD>
+<RECORD>
+	<short>wa</short>
+	<en_GB>Hiking/walking</en_GB>
+	<de_AT>Wandern</de_AT>
+	<nl_BE>Wandelen/trektocht</nl_BE>
+	<de_DE>Wandern</de_DE>
+	<da_DK>Vandring/Gåture</da_DK>
+	<es_ES>Andar</es_ES>
+	<fi_FI>Patikointi/vaellus</fi_FI>
+	<fr_FR>promenade/marche/randonnée</fr_FR>
+	<el_GR>Πεζοπορία</el_GR>
+	<is_IS>Fjallgöngur/gönguleiðir</is_IS>
+	<it_IT>passeggiate/escursioni</it_IT>
+	<no_NO>Fjellturer/vandring</no_NO>
+	<pl_PL>Hiking/walking</pl_PL>
+	<pt_PT>Caminhadas</pt_PT>
+	<sv_SE>Hiking/walking</sv_SE>
+	<ru_RU>Место для прогулок</ru_RU>
+	<ja_JP>ハイキング/ウォーキング</ja_JP>
+	<nl_NL>Wandelen/trektocht</nl_NL>
+	<ro_RO>Drumetii</ro_RO>
+	<hu_HU>Hiking/walking</hu_HU>
+</RECORD>
+<RECORD>
+	<short>web</short>
+	<en_GB>Homepage</en_GB>
+	<de_AT>homepage</de_AT>
+	<nl_BE>Homepage</nl_BE>
+	<de_DE>homepage</de_DE>
+	<da_DK>Hjemmeside</da_DK>
+	<es_ES>Inicio</es_ES>
+	<fi_FI>Kotisivu</fi_FI>
+	<fr_FR>site internet</fr_FR>
+	<el_GR>Ιστοσελίδα</el_GR>
+	<is_IS>Heimasíða</is_IS>
+	<it_IT>Homepage</it_IT>
+	<no_NO>Hjemmeside</no_NO>
+	<pl_PL>Homepage</pl_PL>
+	<pt_PT>Página pessoal</pt_PT>
+	<sv_SE>Homepage</sv_SE>
+	<ru_RU>Домашняя страница</ru_RU>
+	<ja_JP>ホームページ</ja_JP>
+	<nl_NL>Homepage</nl_NL>
+	<ro_RO>Pagina de start</ro_RO>
+	<hu_HU>Homepage</hu_HU>
+</RECORD>
+<RECORD>
+	<short>wm</short>
+	<en_GB>Washing machine</en_GB>
+	<de_AT>Waschmaschine</de_AT>
+	<nl_BE>Wasmachine</nl_BE>
+	<de_DE>Waschmaschine</de_DE>
+	<da_DK>Vaskemaskine</da_DK>
+	<es_ES>Lavadora</es_ES>
+	<fi_FI>Pyykinpesukone</fi_FI>
+	<fr_FR>lave-linge</fr_FR>
+	<el_GR>Πλυντήριο ρούχων</el_GR>
+	<is_IS>Þvottavél</is_IS>
+	<it_IT>lavatrice</it_IT>
+	<no_NO>Vaskemaskin</no_NO>
+	<pl_PL>Washing machine</pl_PL>
+	<pt_PT>Máquina de lavar roupa</pt_PT>
+	<sv_SE>Washing machine</sv_SE>
+	<ru_RU>Стиральная машина</ru_RU>
+	<ja_JP>洗濯機</ja_JP>
+	<nl_NL>Wasmachine</nl_NL>
+	<ro_RO>Masina de spalat rufe</ro_RO>
+	<hu_HU>Washing machine</hu_HU>
+</RECORD>
+<RECORD>
+	<short>wv</short>
+	<en_GB>Dishwasher</en_GB>
+	<de_AT>Spülmaschine</de_AT>
+	<nl_BE>Vaatwas</nl_BE>
+	<de_DE>Spülmaschine</de_DE>
+	<da_DK>Opvaskemaskine</da_DK>
+	<es_ES>Lavaplatos</es_ES>
+	<fi_FI>Astianpesukone</fi_FI>
+	<fr_FR>lave-vaisselle</fr_FR>
+	<el_GR>Πλυντήριο πιάτων</el_GR>
+	<is_IS>Uppþvottavél</is_IS>
+	<it_IT>lavastoviglie</it_IT>
+	<no_NO>Oppvaskmaskin</no_NO>
+	<pl_PL>Dishwasher</pl_PL>
+	<pt_PT>Máquina de lavar louça</pt_PT>
+	<sv_SE>Dishwasher</sv_SE>
+	<ru_RU>Посудомоечная машина</ru_RU>
+	<ja_JP>食器洗い機</ja_JP>
+	<nl_NL>Vaatwas</nl_NL>
+	<ro_RO>Masina de spalat vase</ro_RO>
+	<hu_HU>Dishwasher</hu_HU>
+</RECORD>
+<RECORD>
+	<short>dvd</short>
+	<en_GB>DVD</en_GB>
+	<de_AT>DVD</de_AT>
+	<nl_BE>DVD</nl_BE>
+	<de_DE>DVD</de_DE>
+	<da_DK>DVD</da_DK>
+	<es_ES>DVD</es_ES>
+	<fi_FI>DVD</fi_FI>
+	<fr_FR>DVD</fr_FR>
+	<el_GR>DVD</el_GR>
+	<is_IS>DVD</is_IS>
+	<it_IT>DVD</it_IT>
+	<no_NO>DVD</no_NO>
+	<pl_PL>DVD</pl_PL>
+	<pt_PT>DVD</pt_PT>
+	<sv_SE>DVD</sv_SE>
+	<ru_RU>DVD</ru_RU>
+	<ja_JP>DVD</ja_JP>
+	<nl_NL>DVD</nl_NL>
+	<ro_RO>DVD</ro_RO>
+	<hu_HU>DVD</hu_HU>
+</RECORD>
+</RECORDS>

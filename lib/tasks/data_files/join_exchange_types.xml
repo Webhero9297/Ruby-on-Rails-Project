@@ -1,0 +1,1871 @@
+<?xml version="1.0"?>
+<RECORDS>
+<RECORD>
+	<join_exchange_types.membership_id>2011</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5085</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5163</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5177</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5202</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5246</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5250</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5322</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5334</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17180</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17211</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17281</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22914</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22934</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>24994</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25023</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25051</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25097</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25134</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25168</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25201</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25241</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25321</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25375</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25377</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25378</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25386</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28283</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28348</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28364</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28385</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28489</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28502</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28667</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28767</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28771</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28773</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28834</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28873</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25189</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5195</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>37528</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25274</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25050</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10390</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10476</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28349</join_exchange_types.membership_id>
+	<exchange_types.short>AH</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2299</join_exchange_types.membership_id>
+	<exchange_types.short>BB</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5334</join_exchange_types.membership_id>
+	<exchange_types.short>BB</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17292</join_exchange_types.membership_id>
+	<exchange_types.short>BB</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28349</join_exchange_types.membership_id>
+	<exchange_types.short>BB</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25064</join_exchange_types.membership_id>
+	<exchange_types.short>BB</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1822</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1996</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2160</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5186</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5250</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5300</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5334</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5358</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10241</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10400</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10406</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10530</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10560</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10575</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17125</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17180</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17250</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17289</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17311</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19064</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19067</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19069</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19178</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19227</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19273</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22903</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22917</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22924</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22939</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22964</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23034</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23182</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25023</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25299</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25338</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28333</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28348</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28365</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28489</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28768</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28772</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28819</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28852</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28873</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22909</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>36608</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2195</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>37089</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28364</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28281</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25274</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17247</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>38197</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25378</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25050</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25323</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>38166</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5174</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28771</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2469</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19085</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5245</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23161</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25349</join_exchange_types.membership_id>
+	<exchange_types.short>DX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1815</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2118</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2299</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2394</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5163</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5193</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10232</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10521</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17154</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17292</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19088</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19108</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19178</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25168</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25282</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25321</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25367</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25375</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25381</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25403</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28262</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28286</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28325</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28333</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28369</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28385</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28489</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28701</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28873</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25189</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22915</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>36678</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25274</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25050</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25260</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25117</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5360</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28380</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19085</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5069</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28275</join_exchange_types.membership_id>
+	<exchange_types.short>H</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1849</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1965</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2011</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2144</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5085</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5088</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5113</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5140</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5153</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5163</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5198</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5246</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5250</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5267</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5313</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5315</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5322</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5342</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5358</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5360</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10227</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10291</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10400</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10463</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10473</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10487</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10498</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10560</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10634</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17159</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17180</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17211</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17289</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17302</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19272</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19318</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22914</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22915</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22956</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22974</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23014</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23023</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>24981</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25006</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25023</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25051</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25117</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25152</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25189</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25196</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25201</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25233</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25241</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25282</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25321</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25349</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25367</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25375</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25377</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25378</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28329</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28333</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28349</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28364</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28667</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28771</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28773</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28834</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28852</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28873</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25097</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5182</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10502</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28848</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10286</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25050</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10648</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5275</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5248</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5152</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10476</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28348</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10578</join_exchange_types.membership_id>
+	<exchange_types.short>HS</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1965</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2011</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2148</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2299</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2394</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5163</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5300</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5358</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10521</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10634</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17292</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19108</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22915</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25022</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25168</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25282</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25321</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25339</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25375</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25403</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28261</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28286</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28701</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28873</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>24996</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10665</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25274</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25050</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25117</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5360</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10314</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25260</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5267</join_exchange_types.membership_id>
+	<exchange_types.short>HW</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5163</join_exchange_types.membership_id>
+	<exchange_types.short>LR</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10516</join_exchange_types.membership_id>
+	<exchange_types.short>LR</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17120</join_exchange_types.membership_id>
+	<exchange_types.short>LR</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28317</join_exchange_types.membership_id>
+	<exchange_types.short>LR</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28667</join_exchange_types.membership_id>
+	<exchange_types.short>LR</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1849</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5163</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5198</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5334</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5360</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10516</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10634</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17120</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17249</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17282</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19178</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19289</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22911</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25022</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25403</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28283</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28317</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28333</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28348</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28440</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28604</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28771</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28772</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28852</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10400</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>38166</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25377</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28667</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28576</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2248</join_exchange_types.membership_id>
+	<exchange_types.short>LX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1815</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1894</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>1928</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2011</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2012</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2028</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2049</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2121</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2141</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2144</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2161</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2385</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>2411</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5087</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5153</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5163</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5165</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5186</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5193</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5205</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5208</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5268</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5275</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5300</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5334</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5342</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>5378</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10207</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10208</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10227</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10232</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10241</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10255</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10270</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10296</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10302</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10310</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10314</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10337</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10357</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10394</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10400</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10408</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10447</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10453</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10498</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10512</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10516</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10521</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10522</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10530</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10575</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10578</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10604</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10634</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10647</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>10665</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17067</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17076</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17096</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17100</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17125</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17141</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17156</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17157</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17159</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17180</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17226</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17248</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17261</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>17311</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19064</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19067</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19069</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19085</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19092</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19097</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19098</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19116</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19172</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19178</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19216</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19221</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19238</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19254</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19261</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19267</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19275</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19285</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19289</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19292</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19298</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19333</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>19383</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22903</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22908</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22912</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22915</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22956</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22964</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22973</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>22984</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23011</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23018</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>23023</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>24990</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>24994</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>24996</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25022</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25023</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25051</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25064</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25066</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25126</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25168</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25191</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25211</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25236</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25266</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25349</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25367</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25378</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28261</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28262</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28275</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28281</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28310</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28329</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28333</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28337</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28348</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28365</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28369</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28380</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28407</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28409</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28440</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28489</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28531</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28571</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28576</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28598</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28649</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28654</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28655</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28675</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28701</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28735</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28753</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28767</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28768</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28772</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28815</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28834</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28846</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28852</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>28873</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>36349</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+<RECORD>
+	<join_exchange_types.membership_id>25189</join_exchange_types.membership_id>
+	<exchange_types.short>NX</exchange_types.short>
+</RECORD>
+</RECORDS>

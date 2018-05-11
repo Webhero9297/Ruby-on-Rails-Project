@@ -1,0 +1,1521 @@
+<?xml version="1.0"?>
+<RECORDS>
+<RECORD>
+	<id>1</id>
+	<agent_id>2</agent_id>
+	<short>AD</short>
+	<en_GB>Andorra</en_GB>
+</RECORD>
+<RECORD>
+	<id>2</id>
+	<agent_id>1</agent_id>
+	<short>AE</short>
+	<en_GB>United Arab Emirates</en_GB>
+</RECORD>
+<RECORD>
+	<id>3</id>
+	<agent_id>1</agent_id>
+	<short>AF</short>
+	<en_GB>Afghanistan</en_GB>
+</RECORD>
+<RECORD>
+	<id>4</id>
+	<agent_id>1</agent_id>
+	<short>AG</short>
+	<en_GB>Antigua and Barbuda</en_GB>
+</RECORD>
+<RECORD>
+	<id>5</id>
+	<agent_id>16</agent_id>
+	<short>AI</short>
+	<en_GB>Anguilla</en_GB>
+</RECORD>
+<RECORD>
+	<id>6</id>
+	<agent_id>1</agent_id>
+	<short>AL</short>
+	<en_GB>Albania</en_GB>
+</RECORD>
+<RECORD>
+	<id>7</id>
+	<agent_id>1</agent_id>
+	<short>AM</short>
+	<en_GB>Armenia</en_GB>
+</RECORD>
+<RECORD>
+	<id>8</id>
+	<agent_id>24</agent_id>
+	<short>AN</short>
+	<en_GB>Netherlands Antilles</en_GB>
+</RECORD>
+<RECORD>
+	<id>9</id>
+	<agent_id>1</agent_id>
+	<short>AO</short>
+	<en_GB>Angola</en_GB>
+</RECORD>
+<RECORD>
+	<id>10</id>
+	<agent_id>1</agent_id>
+	<short>AQ</short>
+	<en_GB>Antarctica</en_GB>
+</RECORD>
+<RECORD>
+	<id>11</id>
+	<agent_id>3</agent_id>
+	<short>AR</short>
+	<en_GB>Argentina</en_GB>
+</RECORD>
+<RECORD>
+	<id>12</id>
+	<agent_id>1</agent_id>
+	<short>BN</short>
+	<en_GB>Brunei Darussalam</en_GB>
+</RECORD>
+<RECORD>
+	<id>13</id>
+	<agent_id>4</agent_id>
+	<short>AT</short>
+	<en_GB>Austria</en_GB>
+</RECORD>
+<RECORD>
+	<id>14</id>
+	<agent_id>31</agent_id>
+	<short>AU</short>
+	<en_GB>Australia</en_GB>
+</RECORD>
+<RECORD>
+	<id>15</id>
+	<agent_id>1</agent_id>
+	<short>AW</short>
+	<en_GB>Aruba</en_GB>
+</RECORD>
+<RECORD>
+	<id>16</id>
+	<agent_id>14</agent_id>
+	<short>AX</short>
+	<en_GB>Aland Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>17</id>
+	<agent_id>1</agent_id>
+	<short>AZ</short>
+	<en_GB>Azerbaidjan</en_GB>
+</RECORD>
+<RECORD>
+	<id>18</id>
+	<agent_id>1</agent_id>
+	<short>BA</short>
+	<en_GB>Bosnia-Herzegovina</en_GB>
+</RECORD>
+<RECORD>
+	<id>19</id>
+	<agent_id>1</agent_id>
+	<short>BB</short>
+	<en_GB>Barbados</en_GB>
+</RECORD>
+<RECORD>
+	<id>20</id>
+	<agent_id>1</agent_id>
+	<short>BD</short>
+	<en_GB>Bangladesh</en_GB>
+</RECORD>
+<RECORD>
+	<id>21</id>
+	<agent_id>6</agent_id>
+	<short>BE</short>
+	<en_GB>Belgium</en_GB>
+</RECORD>
+<RECORD>
+	<id>22</id>
+	<agent_id>1</agent_id>
+	<short>BF</short>
+	<en_GB>Burkina Faso</en_GB>
+</RECORD>
+<RECORD>
+	<id>23</id>
+	<agent_id>1</agent_id>
+	<short>BG</short>
+	<en_GB>Bulgaria</en_GB>
+</RECORD>
+<RECORD>
+	<id>24</id>
+	<agent_id>1</agent_id>
+	<short>BH</short>
+	<en_GB>Bahrain</en_GB>
+</RECORD>
+<RECORD>
+	<id>25</id>
+	<agent_id>1</agent_id>
+	<short>BI</short>
+	<en_GB>Burundi</en_GB>
+</RECORD>
+<RECORD>
+	<id>26</id>
+	<agent_id>1</agent_id>
+	<short>BJ</short>
+	<en_GB>Benin</en_GB>
+</RECORD>
+<RECORD>
+	<id>27</id>
+	<agent_id>15</agent_id>
+	<short>BL</short>
+	<en_GB>Saint Barthelemy</en_GB>
+</RECORD>
+<RECORD>
+	<id>28</id>
+	<agent_id>1</agent_id>
+	<short>BM</short>
+	<en_GB>Bermuda</en_GB>
+</RECORD>
+<RECORD>
+	<id>30</id>
+	<agent_id>1</agent_id>
+	<short>BO</short>
+	<en_GB>Bolivia</en_GB>
+</RECORD>
+<RECORD>
+	<id>31</id>
+	<agent_id>36</agent_id>
+	<short>BR</short>
+	<en_GB>Brazil</en_GB>
+</RECORD>
+<RECORD>
+	<id>32</id>
+	<agent_id>1</agent_id>
+	<short>BS</short>
+	<en_GB>Bahamas</en_GB>
+</RECORD>
+<RECORD>
+	<id>33</id>
+	<agent_id>1</agent_id>
+	<short>BT</short>
+	<en_GB>Bhutan</en_GB>
+</RECORD>
+<RECORD>
+	<id>34</id>
+	<agent_id>1</agent_id>
+	<short>BV</short>
+	<en_GB>Bouvet Island</en_GB>
+</RECORD>
+<RECORD>
+	<id>35</id>
+	<agent_id>1</agent_id>
+	<short>BW</short>
+	<en_GB>Botswana</en_GB>
+</RECORD>
+<RECORD>
+	<id>36</id>
+	<agent_id>1</agent_id>
+	<short>BY</short>
+	<en_GB>Belarus</en_GB>
+</RECORD>
+<RECORD>
+	<id>37</id>
+	<agent_id>1</agent_id>
+	<short>BZ</short>
+	<en_GB>Belize</en_GB>
+</RECORD>
+<RECORD>
+	<id>38</id>
+	<agent_id>8</agent_id>
+	<short>CA</short>
+	<en_GB>Canada</en_GB>
+</RECORD>
+<RECORD>
+	<id>39</id>
+	<agent_id>1</agent_id>
+	<short>CC</short>
+	<en_GB>Cocos (Keeling) Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>40</id>
+	<agent_id>1</agent_id>
+	<short>CD</short>
+	<en_GB>Democratic Rep. of Congo (Zaire)</en_GB>
+</RECORD>
+<RECORD>
+	<id>41</id>
+	<agent_id>1</agent_id>
+	<short>CF</short>
+	<en_GB>Central African Republic</en_GB>
+</RECORD>
+<RECORD>
+	<id>42</id>
+	<agent_id>1</agent_id>
+	<short>CG</short>
+	<en_GB>Congo</en_GB>
+</RECORD>
+<RECORD>
+	<id>43</id>
+	<agent_id>9</agent_id>
+	<short>CH</short>
+	<en_GB>Switzerland</en_GB>
+</RECORD>
+<RECORD>
+	<id>44</id>
+	<agent_id>1</agent_id>
+	<short>CI</short>
+	<en_GB>Ivory Coast</en_GB>
+</RECORD>
+<RECORD>
+	<id>45</id>
+	<agent_id>26</agent_id>
+	<short>CK</short>
+	<en_GB>Cook Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>46</id>
+	<agent_id>1</agent_id>
+	<short>CL</short>
+	<en_GB>Chile</en_GB>
+</RECORD>
+<RECORD>
+	<id>47</id>
+	<agent_id>1</agent_id>
+	<short>CM</short>
+	<en_GB>Cameroon</en_GB>
+</RECORD>
+<RECORD>
+	<id>48</id>
+	<agent_id>1</agent_id>
+	<short>CN</short>
+	<en_GB>China</en_GB>
+</RECORD>
+<RECORD>
+	<id>49</id>
+	<agent_id>1</agent_id>
+	<short>CO</short>
+	<en_GB>Colombia</en_GB>
+</RECORD>
+<RECORD>
+	<id>50</id>
+	<agent_id>33</agent_id>
+	<short>CR</short>
+	<en_GB>Costa Rica</en_GB>
+</RECORD>
+<RECORD>
+	<id>51</id>
+	<agent_id>1</agent_id>
+	<short>CU</short>
+	<en_GB>Cuba</en_GB>
+</RECORD>
+<RECORD>
+	<id>52</id>
+	<agent_id>1</agent_id>
+	<short>CV</short>
+	<en_GB>Cape Verde</en_GB>
+</RECORD>
+<RECORD>
+	<id>53</id>
+	<agent_id>1</agent_id>
+	<short>CX</short>
+	<en_GB>Christmas Island</en_GB>
+</RECORD>
+<RECORD>
+	<id>54</id>
+	<agent_id>1</agent_id>
+	<short>CY</short>
+	<en_GB>Cyprus</en_GB>
+</RECORD>
+<RECORD>
+	<id>55</id>
+	<agent_id>11</agent_id>
+	<short>CZ</short>
+	<en_GB>Czech Republic</en_GB>
+</RECORD>
+<RECORD>
+	<id>56</id>
+	<agent_id>12</agent_id>
+	<short>DE</short>
+	<en_GB>Germany</en_GB>
+</RECORD>
+<RECORD>
+	<id>57</id>
+	<agent_id>1</agent_id>
+	<short>DJ</short>
+	<en_GB>Djibouti</en_GB>
+</RECORD>
+<RECORD>
+	<id>58</id>
+	<agent_id>13</agent_id>
+	<short>DK</short>
+	<en_GB>Denmark</en_GB>
+</RECORD>
+<RECORD>
+	<id>59</id>
+	<agent_id>1</agent_id>
+	<short>DM</short>
+	<en_GB>Dominica</en_GB>
+</RECORD>
+<RECORD>
+	<id>60</id>
+	<agent_id>1</agent_id>
+	<short>DO</short>
+	<en_GB>Dominican Republic</en_GB>
+</RECORD>
+<RECORD>
+	<id>61</id>
+	<agent_id>1</agent_id>
+	<short>DZ</short>
+	<en_GB>Algeria</en_GB>
+</RECORD>
+<RECORD>
+	<id>62</id>
+	<agent_id>37</agent_id>
+	<short>EC</short>
+	<en_GB>Ecuador</en_GB>
+</RECORD>
+<RECORD>
+	<id>63</id>
+	<agent_id>1</agent_id>
+	<short>EE</short>
+	<en_GB>Estonia</en_GB>
+</RECORD>
+<RECORD>
+	<id>64</id>
+	<agent_id>1</agent_id>
+	<short>EG</short>
+	<en_GB>Egypt</en_GB>
+</RECORD>
+<RECORD>
+	<id>65</id>
+	<agent_id>1</agent_id>
+	<short>EH</short>
+	<en_GB>Western Sahara</en_GB>
+</RECORD>
+<RECORD>
+	<id>66</id>
+	<agent_id>1</agent_id>
+	<short>ER</short>
+	<en_GB>Eritrea</en_GB>
+</RECORD>
+<RECORD>
+	<id>67</id>
+	<agent_id>2</agent_id>
+	<short>ES</short>
+	<en_GB>Spain</en_GB>
+</RECORD>
+<RECORD>
+	<id>68</id>
+	<agent_id>1</agent_id>
+	<short>ET</short>
+	<en_GB>Ethiopia</en_GB>
+</RECORD>
+<RECORD>
+	<id>69</id>
+	<agent_id>14</agent_id>
+	<short>FI</short>
+	<en_GB>Finland</en_GB>
+</RECORD>
+<RECORD>
+	<id>70</id>
+	<agent_id>9</agent_id>
+	<short>LI</short>
+	<en_GB>Liechtenstein</en_GB>
+</RECORD>
+<RECORD>
+	<id>71</id>
+	<agent_id>1</agent_id>
+	<short>FJ</short>
+	<en_GB>Fiji</en_GB>
+</RECORD>
+<RECORD>
+	<id>72</id>
+	<agent_id>16</agent_id>
+	<short>FK</short>
+	<en_GB>Falkland Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>73</id>
+	<agent_id>1</agent_id>
+	<short>FM</short>
+	<en_GB>Micronesia</en_GB>
+</RECORD>
+<RECORD>
+	<id>74</id>
+	<agent_id>13</agent_id>
+	<short>FO</short>
+	<en_GB>Faroe Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>75</id>
+	<agent_id>15</agent_id>
+	<short>FR</short>
+	<en_GB>France</en_GB>
+</RECORD>
+<RECORD>
+	<id>76</id>
+	<agent_id>1</agent_id>
+	<short>GA</short>
+	<en_GB>Gabon</en_GB>
+</RECORD>
+<RECORD>
+	<id>77</id>
+	<agent_id>16</agent_id>
+	<short>GB</short>
+	<en_GB>Great Britain</en_GB>
+</RECORD>
+<RECORD>
+	<id>78</id>
+	<agent_id>1</agent_id>
+	<short>GD</short>
+	<en_GB>Grenada</en_GB>
+</RECORD>
+<RECORD>
+	<id>79</id>
+	<agent_id>1</agent_id>
+	<short>GE</short>
+	<en_GB>Georgia</en_GB>
+</RECORD>
+<RECORD>
+	<id>80</id>
+	<agent_id>15</agent_id>
+	<short>GF</short>
+	<en_GB>French Guyana</en_GB>
+</RECORD>
+<RECORD>
+	<id>81</id>
+	<agent_id>1</agent_id>
+	<short>GG</short>
+	<en_GB>Guernsey</en_GB>
+</RECORD>
+<RECORD>
+	<id>82</id>
+	<agent_id>1</agent_id>
+	<short>GH</short>
+	<en_GB>Ghana</en_GB>
+</RECORD>
+<RECORD>
+	<id>83</id>
+	<agent_id>1</agent_id>
+	<short>GI</short>
+	<en_GB>Gibraltar</en_GB>
+</RECORD>
+<RECORD>
+	<id>84</id>
+	<agent_id>13</agent_id>
+	<short>GL</short>
+	<en_GB>Greenland</en_GB>
+</RECORD>
+<RECORD>
+	<id>85</id>
+	<agent_id>1</agent_id>
+	<short>GM</short>
+	<en_GB>Gambia</en_GB>
+</RECORD>
+<RECORD>
+	<id>86</id>
+	<agent_id>1</agent_id>
+	<short>GN</short>
+	<en_GB>Guinea</en_GB>
+</RECORD>
+<RECORD>
+	<id>87</id>
+	<agent_id>15</agent_id>
+	<short>GP</short>
+	<en_GB>Guadeloupe</en_GB>
+</RECORD>
+<RECORD>
+	<id>88</id>
+	<agent_id>1</agent_id>
+	<short>GQ</short>
+	<en_GB>Equatorial Guinea</en_GB>
+</RECORD>
+<RECORD>
+	<id>89</id>
+	<agent_id>17</agent_id>
+	<short>GR</short>
+	<en_GB>Greece</en_GB>
+</RECORD>
+<RECORD>
+	<id>90</id>
+	<agent_id>1</agent_id>
+	<short>GS</short>
+	<en_GB>South Georgia/Sandwich Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>91</id>
+	<agent_id>1</agent_id>
+	<short>GT</short>
+	<en_GB>Guatemala</en_GB>
+</RECORD>
+<RECORD>
+	<id>92</id>
+	<agent_id>18</agent_id>
+	<short>GU</short>
+	<en_GB>Guam</en_GB>
+</RECORD>
+<RECORD>
+	<id>93</id>
+	<agent_id>1</agent_id>
+	<short>GW</short>
+	<en_GB>Guinea Bissau</en_GB>
+</RECORD>
+<RECORD>
+	<id>94</id>
+	<agent_id>1</agent_id>
+	<short>GY</short>
+	<en_GB>Guyana</en_GB>
+</RECORD>
+<RECORD>
+	<id>95</id>
+	<agent_id>1</agent_id>
+	<short>HK</short>
+	<en_GB>Hong Kong</en_GB>
+</RECORD>
+<RECORD>
+	<id>96</id>
+	<agent_id>1</agent_id>
+	<short>HM</short>
+	<en_GB>Heard and McDonald Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>97</id>
+	<agent_id>1</agent_id>
+	<short>HN</short>
+	<en_GB>Honduras</en_GB>
+</RECORD>
+<RECORD>
+	<id>98</id>
+	<agent_id>1</agent_id>
+	<short>HR</short>
+	<en_GB>Croatia</en_GB>
+</RECORD>
+<RECORD>
+	<id>99</id>
+	<agent_id>1</agent_id>
+	<short>HT</short>
+	<en_GB>Haiti</en_GB>
+</RECORD>
+<RECORD>
+	<id>100</id>
+	<agent_id>1</agent_id>
+	<short>HU</short>
+	<en_GB>Hungary</en_GB>
+</RECORD>
+<RECORD>
+	<id>101</id>
+	<agent_id>1</agent_id>
+	<short>ID</short>
+	<en_GB>Indonesia</en_GB>
+</RECORD>
+<RECORD>
+	<id>102</id>
+	<agent_id>20</agent_id>
+	<short>IE</short>
+	<en_GB>Ireland</en_GB>
+</RECORD>
+<RECORD>
+	<id>103</id>
+	<agent_id>1</agent_id>
+	<short>IL</short>
+	<en_GB>Israel</en_GB>
+</RECORD>
+<RECORD>
+	<id>104</id>
+	<agent_id>1</agent_id>
+	<short>IM</short>
+	<en_GB>Isle of Man</en_GB>
+</RECORD>
+<RECORD>
+	<id>105</id>
+	<agent_id>21</agent_id>
+	<short>IN</short>
+	<en_GB>India</en_GB>
+</RECORD>
+<RECORD>
+	<id>106</id>
+	<agent_id>1</agent_id>
+	<short>IO</short>
+	<en_GB>British Indian Ocean Territory</en_GB>
+</RECORD>
+<RECORD>
+	<id>107</id>
+	<agent_id>1</agent_id>
+	<short>IQ</short>
+	<en_GB>Iraq</en_GB>
+</RECORD>
+<RECORD>
+	<id>108</id>
+	<agent_id>1</agent_id>
+	<short>IR</short>
+	<en_GB>Iran</en_GB>
+</RECORD>
+<RECORD>
+	<id>109</id>
+	<agent_id>32</agent_id>
+	<short>IS</short>
+	<en_GB>Iceland</en_GB>
+</RECORD>
+<RECORD>
+	<id>110</id>
+	<agent_id>22</agent_id>
+	<short>IT</short>
+	<en_GB>Italy</en_GB>
+</RECORD>
+<RECORD>
+	<id>111</id>
+	<agent_id>1</agent_id>
+	<short>JE</short>
+	<en_GB>Jersey</en_GB>
+</RECORD>
+<RECORD>
+	<id>112</id>
+	<agent_id>1</agent_id>
+	<short>JM</short>
+	<en_GB>Jamaica</en_GB>
+</RECORD>
+<RECORD>
+	<id>113</id>
+	<agent_id>1</agent_id>
+	<short>JO</short>
+	<en_GB>Jordan</en_GB>
+</RECORD>
+<RECORD>
+	<id>114</id>
+	<agent_id>34</agent_id>
+	<short>JP</short>
+	<en_GB>Japan</en_GB>
+</RECORD>
+<RECORD>
+	<id>115</id>
+	<agent_id>1</agent_id>
+	<short>KE</short>
+	<en_GB>Kenya</en_GB>
+</RECORD>
+<RECORD>
+	<id>116</id>
+	<agent_id>1</agent_id>
+	<short>KG</short>
+	<en_GB>Kyrgyz Republic</en_GB>
+</RECORD>
+<RECORD>
+	<id>117</id>
+	<agent_id>1</agent_id>
+	<short>KH</short>
+	<en_GB>Cambodia</en_GB>
+</RECORD>
+<RECORD>
+	<id>118</id>
+	<agent_id>1</agent_id>
+	<short>KI</short>
+	<en_GB>Kiribati</en_GB>
+</RECORD>
+<RECORD>
+	<id>119</id>
+	<agent_id>1</agent_id>
+	<short>KM</short>
+	<en_GB>Comoros</en_GB>
+</RECORD>
+<RECORD>
+	<id>120</id>
+	<agent_id>1</agent_id>
+	<short>KN</short>
+	<en_GB>Saint Kitts and Nevis</en_GB>
+</RECORD>
+<RECORD>
+	<id>121</id>
+	<agent_id>1</agent_id>
+	<short>KP</short>
+	<en_GB>North Korea</en_GB>
+</RECORD>
+<RECORD>
+	<id>122</id>
+	<agent_id>1</agent_id>
+	<short>KR</short>
+	<en_GB>South Korea</en_GB>
+</RECORD>
+<RECORD>
+	<id>123</id>
+	<agent_id>1</agent_id>
+	<short>KW</short>
+	<en_GB>Kuwait</en_GB>
+</RECORD>
+<RECORD>
+	<id>124</id>
+	<agent_id>1</agent_id>
+	<short>KY</short>
+	<en_GB>Cayman Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>125</id>
+	<agent_id>1</agent_id>
+	<short>KZ</short>
+	<en_GB>Kazakhstan</en_GB>
+</RECORD>
+<RECORD>
+	<id>126</id>
+	<agent_id>1</agent_id>
+	<short>LA</short>
+	<en_GB>Laos</en_GB>
+</RECORD>
+<RECORD>
+	<id>128</id>
+	<agent_id>1</agent_id>
+	<short>LB</short>
+	<en_GB>Lebanon</en_GB>
+</RECORD>
+<RECORD>
+	<id>129</id>
+	<agent_id>1</agent_id>
+	<short>LC</short>
+	<en_GB>Saint Lucia</en_GB>
+</RECORD>
+<RECORD>
+	<id>130</id>
+	<agent_id>1</agent_id>
+	<short>LK</short>
+	<en_GB>Sri Lanka</en_GB>
+</RECORD>
+<RECORD>
+	<id>131</id>
+	<agent_id>1</agent_id>
+	<short>LR</short>
+	<en_GB>Liberia</en_GB>
+</RECORD>
+<RECORD>
+	<id>132</id>
+	<agent_id>1</agent_id>
+	<short>LS</short>
+	<en_GB>Lesotho</en_GB>
+</RECORD>
+<RECORD>
+	<id>133</id>
+	<agent_id>1</agent_id>
+	<short>LT</short>
+	<en_GB>Lithuania</en_GB>
+</RECORD>
+<RECORD>
+	<id>134</id>
+	<agent_id>23</agent_id>
+	<short>LU</short>
+	<en_GB>Luxembourg</en_GB>
+</RECORD>
+<RECORD>
+	<id>135</id>
+	<agent_id>1</agent_id>
+	<short>LV</short>
+	<en_GB>Latvia</en_GB>
+</RECORD>
+<RECORD>
+	<id>136</id>
+	<agent_id>1</agent_id>
+	<short>LY</short>
+	<en_GB>Libya</en_GB>
+</RECORD>
+<RECORD>
+	<id>137</id>
+	<agent_id>1</agent_id>
+	<short>MA</short>
+	<en_GB>Morocco</en_GB>
+</RECORD>
+<RECORD>
+	<id>138</id>
+	<agent_id>15</agent_id>
+	<short>MC</short>
+	<en_GB>Monaco</en_GB>
+</RECORD>
+<RECORD>
+	<id>139</id>
+	<agent_id>1</agent_id>
+	<short>MD</short>
+	<en_GB>Moldova</en_GB>
+</RECORD>
+<RECORD>
+	<id>140</id>
+	<agent_id>1</agent_id>
+	<short>ME</short>
+	<en_GB>Republic of Montenegro</en_GB>
+</RECORD>
+<RECORD>
+	<id>141</id>
+	<agent_id>15</agent_id>
+	<short>MF</short>
+	<en_GB>Saint Martin</en_GB>
+</RECORD>
+<RECORD>
+	<id>142</id>
+	<agent_id>1</agent_id>
+	<short>MG</short>
+	<en_GB>Madagascar</en_GB>
+</RECORD>
+<RECORD>
+	<id>143</id>
+	<agent_id>1</agent_id>
+	<short>MH</short>
+	<en_GB>Marshall Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>144</id>
+	<agent_id>1</agent_id>
+	<short>MK</short>
+	<en_GB>Macedonia</en_GB>
+</RECORD>
+<RECORD>
+	<id>145</id>
+	<agent_id>1</agent_id>
+	<short>ML</short>
+	<en_GB>Mali</en_GB>
+</RECORD>
+<RECORD>
+	<id>146</id>
+	<agent_id>1</agent_id>
+	<short>MM</short>
+	<en_GB>Myanmar</en_GB>
+</RECORD>
+<RECORD>
+	<id>147</id>
+	<agent_id>1</agent_id>
+	<short>MN</short>
+	<en_GB>Mongolia</en_GB>
+</RECORD>
+<RECORD>
+	<id>148</id>
+	<agent_id>1</agent_id>
+	<short>MO</short>
+	<en_GB>Macau</en_GB>
+</RECORD>
+<RECORD>
+	<id>149</id>
+	<agent_id>1</agent_id>
+	<short>MP</short>
+	<en_GB>Northern Mariana Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>150</id>
+	<agent_id>15</agent_id>
+	<short>MQ</short>
+	<en_GB>Martinique</en_GB>
+</RECORD>
+<RECORD>
+	<id>151</id>
+	<agent_id>1</agent_id>
+	<short>MR</short>
+	<en_GB>Mauritania</en_GB>
+</RECORD>
+<RECORD>
+	<id>152</id>
+	<agent_id>1</agent_id>
+	<short>MS</short>
+	<en_GB>Montserrat</en_GB>
+</RECORD>
+<RECORD>
+	<id>153</id>
+	<agent_id>1</agent_id>
+	<short>MT</short>
+	<en_GB>Malta</en_GB>
+</RECORD>
+<RECORD>
+	<id>154</id>
+	<agent_id>1</agent_id>
+	<short>MU</short>
+	<en_GB>Mauritius</en_GB>
+</RECORD>
+<RECORD>
+	<id>155</id>
+	<agent_id>1</agent_id>
+	<short>MV</short>
+	<en_GB>Maldives</en_GB>
+</RECORD>
+<RECORD>
+	<id>156</id>
+	<agent_id>1</agent_id>
+	<short>MW</short>
+	<en_GB>Malawi</en_GB>
+</RECORD>
+<RECORD>
+	<id>157</id>
+	<agent_id>1</agent_id>
+	<short>MX</short>
+	<en_GB>Mexico</en_GB>
+</RECORD>
+<RECORD>
+	<id>158</id>
+	<agent_id>1</agent_id>
+	<short>MY</short>
+	<en_GB>Malaysia</en_GB>
+</RECORD>
+<RECORD>
+	<id>159</id>
+	<agent_id>1</agent_id>
+	<short>MZ</short>
+	<en_GB>Mozambique</en_GB>
+</RECORD>
+<RECORD>
+	<id>160</id>
+	<agent_id>1</agent_id>
+	<short>NA</short>
+	<en_GB>Namibia</en_GB>
+</RECORD>
+<RECORD>
+	<id>161</id>
+	<agent_id>15</agent_id>
+	<short>NC</short>
+	<en_GB>New Caledonia</en_GB>
+</RECORD>
+<RECORD>
+	<id>162</id>
+	<agent_id>1</agent_id>
+	<short>NE</short>
+	<en_GB>Niger</en_GB>
+</RECORD>
+<RECORD>
+	<id>163</id>
+	<agent_id>31</agent_id>
+	<short>NF</short>
+	<en_GB>Norfolk Island</en_GB>
+</RECORD>
+<RECORD>
+	<id>164</id>
+	<agent_id>1</agent_id>
+	<short>NG</short>
+	<en_GB>Nigeria</en_GB>
+</RECORD>
+<RECORD>
+	<id>165</id>
+	<agent_id>1</agent_id>
+	<short>NI</short>
+	<en_GB>Nicaragua</en_GB>
+</RECORD>
+<RECORD>
+	<id>166</id>
+	<agent_id>24</agent_id>
+	<short>NL</short>
+	<en_GB>Netherlands</en_GB>
+</RECORD>
+<RECORD>
+	<id>167</id>
+	<agent_id>25</agent_id>
+	<short>NO</short>
+	<en_GB>Norway</en_GB>
+</RECORD>
+<RECORD>
+	<id>168</id>
+	<agent_id>1</agent_id>
+	<short>NP</short>
+	<en_GB>Nepal</en_GB>
+</RECORD>
+<RECORD>
+	<id>169</id>
+	<agent_id>1</agent_id>
+	<short>NR</short>
+	<en_GB>Nauru</en_GB>
+</RECORD>
+<RECORD>
+	<id>170</id>
+	<agent_id>1</agent_id>
+	<short>NU</short>
+	<en_GB>Niue</en_GB>
+</RECORD>
+<RECORD>
+	<id>171</id>
+	<agent_id>26</agent_id>
+	<short>NZ</short>
+	<en_GB>New Zealand</en_GB>
+</RECORD>
+<RECORD>
+	<id>172</id>
+	<agent_id>1</agent_id>
+	<short>OM</short>
+	<en_GB>Oman</en_GB>
+</RECORD>
+<RECORD>
+	<id>173</id>
+	<agent_id>1</agent_id>
+	<short>PA</short>
+	<en_GB>Panama</en_GB>
+</RECORD>
+<RECORD>
+	<id>174</id>
+	<agent_id>1</agent_id>
+	<short>PE</short>
+	<en_GB>Peru</en_GB>
+</RECORD>
+<RECORD>
+	<id>175</id>
+	<agent_id>15</agent_id>
+	<short>PF</short>
+	<en_GB>Polynesia</en_GB>
+</RECORD>
+<RECORD>
+	<id>176</id>
+	<agent_id>1</agent_id>
+	<short>PG</short>
+	<en_GB>Papua New Guinea</en_GB>
+</RECORD>
+<RECORD>
+	<id>177</id>
+	<agent_id>1</agent_id>
+	<short>PH</short>
+	<en_GB>Philippines</en_GB>
+</RECORD>
+<RECORD>
+	<id>178</id>
+	<agent_id>1</agent_id>
+	<short>PK</short>
+	<en_GB>Pakistan</en_GB>
+</RECORD>
+<RECORD>
+	<id>179</id>
+	<agent_id>27</agent_id>
+	<short>PL</short>
+	<en_GB>Poland</en_GB>
+</RECORD>
+<RECORD>
+	<id>180</id>
+	<agent_id>15</agent_id>
+	<short>PM</short>
+	<en_GB>Saint Pierre and Miquelon</en_GB>
+</RECORD>
+<RECORD>
+	<id>181</id>
+	<agent_id>1</agent_id>
+	<short>PN</short>
+	<en_GB>Pitcairn Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>182</id>
+	<agent_id>18</agent_id>
+	<short>PR</short>
+	<en_GB>Puerto Rico</en_GB>
+</RECORD>
+<RECORD>
+	<id>183</id>
+	<agent_id>1</agent_id>
+	<short>PS</short>
+	<en_GB>Palestinian Territory</en_GB>
+</RECORD>
+<RECORD>
+	<id>184</id>
+	<agent_id>7</agent_id>
+	<short>PT</short>
+	<en_GB>Portugal</en_GB>
+</RECORD>
+<RECORD>
+	<id>185</id>
+	<agent_id>1</agent_id>
+	<short>PW</short>
+	<en_GB>Palau</en_GB>
+</RECORD>
+<RECORD>
+	<id>186</id>
+	<agent_id>1</agent_id>
+	<short>PY</short>
+	<en_GB>Paraguay</en_GB>
+</RECORD>
+<RECORD>
+	<id>187</id>
+	<agent_id>1</agent_id>
+	<short>QA</short>
+	<en_GB>Qatar</en_GB>
+</RECORD>
+<RECORD>
+	<id>188</id>
+	<agent_id>15</agent_id>
+	<short>RE</short>
+	<en_GB>Reunion</en_GB>
+</RECORD>
+<RECORD>
+	<id>189</id>
+	<agent_id>35</agent_id>
+	<short>RO</short>
+	<en_GB>Romania</en_GB>
+</RECORD>
+<RECORD>
+	<id>190</id>
+	<agent_id>1</agent_id>
+	<short>RS</short>
+	<en_GB>Republic of Serbia</en_GB>
+</RECORD>
+<RECORD>
+	<id>191</id>
+	<agent_id>28</agent_id>
+	<short>RU</short>
+	<en_GB>Russia</en_GB>
+</RECORD>
+<RECORD>
+	<id>192</id>
+	<agent_id>1</agent_id>
+	<short>RW</short>
+	<en_GB>Rwanda</en_GB>
+</RECORD>
+<RECORD>
+	<id>193</id>
+	<agent_id>1</agent_id>
+	<short>SA</short>
+	<en_GB>Saudi Arabia</en_GB>
+</RECORD>
+<RECORD>
+	<id>194</id>
+	<agent_id>1</agent_id>
+	<short>SB</short>
+	<en_GB>Solomon Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>195</id>
+	<agent_id>1</agent_id>
+	<short>SC</short>
+	<en_GB>Seychelles</en_GB>
+</RECORD>
+<RECORD>
+	<id>196</id>
+	<agent_id>1</agent_id>
+	<short>SD</short>
+	<en_GB>Sudan</en_GB>
+</RECORD>
+<RECORD>
+	<id>197</id>
+	<agent_id>29</agent_id>
+	<short>SE</short>
+	<en_GB>Sweden</en_GB>
+</RECORD>
+<RECORD>
+	<id>198</id>
+	<agent_id>1</agent_id>
+	<short>SG</short>
+	<en_GB>Singapore</en_GB>
+</RECORD>
+<RECORD>
+	<id>199</id>
+	<agent_id>1</agent_id>
+	<short>SH</short>
+	<en_GB>Saint Helena</en_GB>
+</RECORD>
+<RECORD>
+	<id>200</id>
+	<agent_id>1</agent_id>
+	<short>SI</short>
+	<en_GB>Slovenia</en_GB>
+</RECORD>
+<RECORD>
+	<id>201</id>
+	<agent_id>1</agent_id>
+	<short>SJ</short>
+	<en_GB>Svalbard and Jan Mayen Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>202</id>
+	<agent_id>1</agent_id>
+	<short>SK</short>
+	<en_GB>Slovakia</en_GB>
+</RECORD>
+<RECORD>
+	<id>203</id>
+	<agent_id>1</agent_id>
+	<short>SL</short>
+	<en_GB>Sierra Leone</en_GB>
+</RECORD>
+<RECORD>
+	<id>204</id>
+	<agent_id>1</agent_id>
+	<short>SM</short>
+	<en_GB>San Marino</en_GB>
+</RECORD>
+<RECORD>
+	<id>205</id>
+	<agent_id>1</agent_id>
+	<short>SN</short>
+	<en_GB>Senegal</en_GB>
+</RECORD>
+<RECORD>
+	<id>206</id>
+	<agent_id>1</agent_id>
+	<short>SO</short>
+	<en_GB>Somalia</en_GB>
+</RECORD>
+<RECORD>
+	<id>207</id>
+	<agent_id>1</agent_id>
+	<short>SR</short>
+	<en_GB>Suriname</en_GB>
+</RECORD>
+<RECORD>
+	<id>208</id>
+	<agent_id>1</agent_id>
+	<short>ST</short>
+	<en_GB>Sao Tome and Principe</en_GB>
+</RECORD>
+<RECORD>
+	<id>209</id>
+	<agent_id>1</agent_id>
+	<short>SV</short>
+	<en_GB>El Salvador</en_GB>
+</RECORD>
+<RECORD>
+	<id>210</id>
+	<agent_id>1</agent_id>
+	<short>SY</short>
+	<en_GB>Syria</en_GB>
+</RECORD>
+<RECORD>
+	<id>211</id>
+	<agent_id>1</agent_id>
+	<short>SZ</short>
+	<en_GB>Swaziland</en_GB>
+</RECORD>
+<RECORD>
+	<id>212</id>
+	<agent_id>16</agent_id>
+	<short>TC</short>
+	<en_GB>Turks and Caicos Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>213</id>
+	<agent_id>1</agent_id>
+	<short>TD</short>
+	<en_GB>Chad</en_GB>
+</RECORD>
+<RECORD>
+	<id>214</id>
+	<agent_id>15</agent_id>
+	<short>TF</short>
+	<en_GB>French Southern Territories</en_GB>
+</RECORD>
+<RECORD>
+	<id>215</id>
+	<agent_id>1</agent_id>
+	<short>TG</short>
+	<en_GB>Togo</en_GB>
+</RECORD>
+<RECORD>
+	<id>216</id>
+	<agent_id>1</agent_id>
+	<short>TH</short>
+	<en_GB>Thailand</en_GB>
+</RECORD>
+<RECORD>
+	<id>217</id>
+	<agent_id>1</agent_id>
+	<short>TJ</short>
+	<en_GB>Tadjikistan</en_GB>
+</RECORD>
+<RECORD>
+	<id>218</id>
+	<agent_id>1</agent_id>
+	<short>TK</short>
+	<en_GB>Tokelau</en_GB>
+</RECORD>
+<RECORD>
+	<id>219</id>
+	<agent_id>1</agent_id>
+	<short>TL</short>
+	<en_GB>East Timor</en_GB>
+</RECORD>
+<RECORD>
+	<id>220</id>
+	<agent_id>1</agent_id>
+	<short>TM</short>
+	<en_GB>Turkmenistan</en_GB>
+</RECORD>
+<RECORD>
+	<id>221</id>
+	<agent_id>1</agent_id>
+	<short>TN</short>
+	<en_GB>Tunisia</en_GB>
+</RECORD>
+<RECORD>
+	<id>222</id>
+	<agent_id>1</agent_id>
+	<short>TO</short>
+	<en_GB>Tonga</en_GB>
+</RECORD>
+<RECORD>
+	<id>223</id>
+	<agent_id>1</agent_id>
+	<short>TR</short>
+	<en_GB>Turkey</en_GB>
+</RECORD>
+<RECORD>
+	<id>224</id>
+	<agent_id>1</agent_id>
+	<short>TT</short>
+	<en_GB>Trinidad and Tobago</en_GB>
+</RECORD>
+<RECORD>
+	<id>225</id>
+	<agent_id>1</agent_id>
+	<short>TV</short>
+	<en_GB>Tuvalu</en_GB>
+</RECORD>
+<RECORD>
+	<id>226</id>
+	<agent_id>1</agent_id>
+	<short>TW</short>
+	<en_GB>Taiwan</en_GB>
+</RECORD>
+<RECORD>
+	<id>227</id>
+	<agent_id>1</agent_id>
+	<short>TZ</short>
+	<en_GB>Tanzania</en_GB>
+</RECORD>
+<RECORD>
+	<id>228</id>
+	<agent_id>1</agent_id>
+	<short>UA</short>
+	<en_GB>Ukraine</en_GB>
+</RECORD>
+<RECORD>
+	<id>229</id>
+	<agent_id>1</agent_id>
+	<short>UG</short>
+	<en_GB>Uganda</en_GB>
+</RECORD>
+<RECORD>
+	<id>230</id>
+	<agent_id>18</agent_id>
+	<short>UM</short>
+	<en_GB>US Outlying Islands</en_GB>
+</RECORD>
+<RECORD>
+	<id>231</id>
+	<agent_id>18</agent_id>
+	<short>US</short>
+	<en_GB>USA</en_GB>
+</RECORD>
+<RECORD>
+	<id>232</id>
+	<agent_id>1</agent_id>
+	<short>UY</short>
+	<en_GB>Uruguay</en_GB>
+</RECORD>
+<RECORD>
+	<id>233</id>
+	<agent_id>1</agent_id>
+	<short>UZ</short>
+	<en_GB>Uzbekistan</en_GB>
+</RECORD>
+<RECORD>
+	<id>234</id>
+	<agent_id>1</agent_id>
+	<short>VA</short>
+	<en_GB>Vatican City State</en_GB>
+</RECORD>
+<RECORD>
+	<id>235</id>
+	<agent_id>1</agent_id>
+	<short>VC</short>
+	<en_GB>Saint Vincent/Grenadines</en_GB>
+</RECORD>
+<RECORD>
+	<id>236</id>
+	<agent_id>1</agent_id>
+	<short>VE</short>
+	<en_GB>Venezuela</en_GB>
+</RECORD>
+<RECORD>
+	<id>237</id>
+	<agent_id>16</agent_id>
+	<short>VG</short>
+	<en_GB>Virgin Islands (British)</en_GB>
+</RECORD>
+<RECORD>
+	<id>238</id>
+	<agent_id>18</agent_id>
+	<short>VI</short>
+	<en_GB>Virgin Islands (USA)</en_GB>
+</RECORD>
+<RECORD>
+	<id>239</id>
+	<agent_id>1</agent_id>
+	<short>VN</short>
+	<en_GB>Vietnam</en_GB>
+</RECORD>
+<RECORD>
+	<id>240</id>
+	<agent_id>1</agent_id>
+	<short>VU</short>
+	<en_GB>Vanuatu</en_GB>
+</RECORD>
+<RECORD>
+	<id>241</id>
+	<agent_id>15</agent_id>
+	<short>WF</short>
+	<en_GB>Wallis and Futuna</en_GB>
+</RECORD>
+<RECORD>
+	<id>242</id>
+	<agent_id>1</agent_id>
+	<short>WS</short>
+	<en_GB>Samoa</en_GB>
+</RECORD>
+<RECORD>
+	<id>243</id>
+	<agent_id>1</agent_id>
+	<short>YE</short>
+	<en_GB>Yemen</en_GB>
+</RECORD>
+<RECORD>
+	<id>244</id>
+	<agent_id>15</agent_id>
+	<short>YT</short>
+	<en_GB>Mayotte</en_GB>
+</RECORD>
+<RECORD>
+	<id>245</id>
+	<agent_id>30</agent_id>
+	<short>ZA</short>
+	<en_GB>South Africa</en_GB>
+</RECORD>
+<RECORD>
+	<id>246</id>
+	<agent_id>1</agent_id>
+	<short>ZM</short>
+	<en_GB>Zambia</en_GB>
+</RECORD>
+<RECORD>
+	<id>247</id>
+	<agent_id>1</agent_id>
+	<short>ZW</short>
+	<en_GB>Zimbabwe</en_GB>
+</RECORD>
+<RECORD>
+	<id>248</id>
+	<agent_id>1</agent_id>
+	<short>EU</short>
+	<en_GB>Europe</en_GB>
+</RECORD>
+<RECORD>
+	<id>249</id>
+	<agent_id>1</agent_id>
+	<short>O</short>
+	<en_GB>All Countries</en_GB>
+</RECORD>
+<RECORD>
+	<id>250</id>
+	<agent_id>1</agent_id>
+	<short>USNE</short>
+	<en_GB>US North-East</en_GB>
+</RECORD>
+<RECORD>
+	<id>251</id>
+	<agent_id>1</agent_id>
+	<short>USNW</short>
+	<en_GB>US North-West</en_GB>
+</RECORD>
+<RECORD>
+	<id>252</id>
+	<agent_id>1</agent_id>
+	<short>USSE</short>
+	<en_GB>US South-East</en_GB>
+</RECORD>
+<RECORD>
+	<id>253</id>
+	<agent_id>1</agent_id>
+	<short>USSW</short>
+	<en_GB>US South-West</en_GB>
+</RECORD>
+<RECORD>
+	<id>254</id>
+	<agent_id>1</agent_id>
+	<short>OC</short>
+	<en_GB>All other countries</en_GB>
+</RECORD>
+<RECORD>
+	<id>255</id>
+	<agent_id>18</agent_id>
+	<short>AS</short>
+	<en_GB>American Samoa</en_GB>
+</RECORD>
+</RECORDS>

@@ -1,0 +1,2885 @@
+<?xml version="1.0"?>
+<RECORDS>
+<RECORD>
+	<users.id>3</users.id>
+	<users.country_id>75</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Lucien MAZIK</users.full_name>
+	<users.email>biglou@intervac.fr</users.email>
+	<users.postal>75011</users.postal>
+	<users.state></users.state>
+	<users.fax>Consider becoming Agent in your country? Pls. contact me. </users.fax>
+	<users.phone>First contact by email, please</users.phone>
+	<users.street>230 Bd Voltaire</users.street>
+	<users.city>Paris</users.city>
+	<users.mobile_phone>First contact by email, please</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>Paris</users.time_zone>
+	<users.login>biglou1968</users.login>
+	<users.crypted_password>36e0139d102d60e2a97ca5d2e95bb18c7381711b</users.crypted_password>
+	<users.password_reset_code>058ac01f075761097c65f7c27fab049d28d18bf6</users.password_reset_code>
+	<users.salt>f9eba198ddff864462c94b3ebd384e8f0cf0b68b</users.salt>
+	<users.activation_code>cc5294039ffea9ee72d96b6ef50b8818f372f606</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:47</users.activated_at>
+	<users.created_at>2009-07-15 08:50:47</users.created_at>
+	<users.updated_at>2012-04-04 12:36:43</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>1</agents.id>
+	<agents.user_id>3</agents.user_id>
+	<agents.agent_type_id>4</agents.agent_type_id>
+	<agents.payment_provider_id>3</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours>24 x 7 via the Internet</agents.office_hours>
+	<agents.national_url>http://www.intervac.com</agents.national_url>
+	<agents.payment_url>internal</agents.payment_url>
+	<agents.price_url>http://www.home-exchange.org/oc/</agents.price_url>
+	<agents.default_membership_in_days>364</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>8</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt; font-weight: normal"&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt; font-weight: normal"&gt;To pay your membership, you can use your credit card&amp;#160;with one of the two&amp;#160;quick and secure payment systems &lt;/span&gt;&lt;/strong&gt;displayed bellow: &lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt"&gt;Ogone&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt; font-weight: normal"&gt; or &lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt"&gt;PayPal &lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&amp;#160;&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt; font-weight: normal"&gt;You can also pay by a &lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt"&gt;bank money transfer&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style="font-family: 'Bookman Old Style'; color: black; font-size: 10pt; font-weight: normal"&gt; sent to:&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0pt 35.4pt"&gt;&lt;span style="font-family: 'Bookman Old Style'; font-size: 10pt"&gt;Bank:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; Rabobank - &lt;/span&gt;&lt;span style="font-family: 'Bookman Old Style'; font-size: 10pt"&gt;Netherlands&lt;br /&gt;
+Client&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; Intervac-I.H.E.S. BV&lt;/span&gt;&lt;span style="font-family: 'Bookman Old Style'; font-size: 10pt"&gt;&lt;br /&gt;
+Account: 1291.70.976 in Euros&lt;br /&gt;
+IBAN:&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; NL54RABO0129170976&lt;br /&gt;
+BIC&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; RABONL2U&amp;#160;&amp;#160;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-family: 'Bookman Old Style'; font-size: 10pt"&gt;Such bank money transfer must be sent “Net to the beneficiary”&lt;/span&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>is_IS</agents.translations>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>7</agents.recently_activated>
+	<agents.recently_changed_user>1</agents.recently_changed_user>
+	<agents.last_invisible_memberships>100</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>FR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>4</users.id>
+	<users.country_id>67</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Mª Angeles Sas</users.full_name>
+	<users.email>intervac@grossi-sas.com</users.email>
+	<users.postal>08011</users.postal>
+	<users.state></users.state>
+	<users.fax>+34 934513024</users.fax>
+	<users.phone>+34 934533171</users.phone>
+	<users.street>C. Consell de Cent, 226, 1º,3ª</users.street>
+	<users.city>Barcelona</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>msa132</users.login>
+	<users.crypted_password>3228a0fd927cae0c06d98264b55806cdb35b5495</users.crypted_password>
+	<users.salt>a5b8b0766256bcf57ffdf0258e1e1a99184bff4c</users.salt>
+	<users.activation_code>ff061633df73ad5462556300fa5532eb6f606a40</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-18 08:54:05</users.activated_at>
+	<users.created_at>2009-07-15 08:50:49</users.created_at>
+	<users.updated_at>2012-04-17 16:53:00</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>2</agents.id>
+	<agents.user_id>4</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.intervac.es</agents.national_url>
+	<agents.payment_url>http://www.grossi-sas.com/inter/intercambio_casa.html</agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>intervac@grossi-sas.com</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&lt;span style="font-size: 9pt"&gt;Para quien no desea pagar con tarjeta de crédito on-line ofrecemos las siguientes formas de pago:&lt;/span&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;ul type="disc"&gt;
+    &lt;li&gt;&lt;span style="font-size: 9pt"&gt;Pueden llamarnos en horario de oficina y facilitarnos los datos de su tarjeta de crédito.&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span style="font-size: 9pt"&gt;Mediante transferencia bancaria.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="text-align: justify; margin: 0cm 0cm 0pt 18pt"&gt;&lt;span style="font-size: 10pt"&gt;En ambos casos llamen al&lt;/span&gt;&lt;span style="font-size: 14pt"&gt; Tel. 93 453 31 71&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&amp;#160;&lt;/div&gt;
+&lt;div&gt;&amp;#160;&lt;/div&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>es_ES</agents.translations>
+	<agents.first_expiry_reminder_interval>30</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>10</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>10</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.main_country_id>67</agents.main_country_id>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>ES</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>5</users.id>
+	<users.country_id>11</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Claudio Adrian Polito</users.full_name>
+	<users.email>intervacargentina@flash.com.ar</users.email>
+	<users.postal>1636</users.postal>
+	<users.state></users.state>
+	<users.fax>+54-11-4488-8582</users.fax>
+	<users.phone>+54-11-4711-3622</users.phone>
+	<users.street>RAMSEYER 1445 - 8° A</users.street>
+	<users.city>OLIVOS, BUENOS AIRES</users.city>
+	<users.mobile_phone>15-6234-9402</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Buenos Aires</users.time_zone>
+	<users.login>intervac@polytool</users.login>
+	<users.crypted_password>30d8e8d301c22372c698c4ba369bf6fc7749a514</users.crypted_password>
+	<users.salt>b35ce7a184d59ef83b27ff82c58fc80bc54873c0</users.salt>
+	<users.activation_code>54c79dbd6fcf6489969abfbb845e2280a5711b4a</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:49</users.activated_at>
+	<users.created_at>2009-07-15 08:50:49</users.created_at>
+	<users.updated_at>2011-09-11 13:08:15</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>3</agents.id>
+	<agents.user_id>5</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours>9 - 18hs</agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>iihes@intervac.nl</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>15</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>3</agents.recently_activated>
+	<agents.recently_changed_user>3</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>AR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>6</users.id>
+	<users.country_id>13</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Hans &amp; Ingeborg Winkler</users.full_name>
+	<users.email>winkler@intervac.at</users.email>
+	<users.postal>A 9100</users.postal>
+	<users.state></users.state>
+	<users.fax>+43 - 04232-3838(bitte anmelden)</users.fax>
+	<users.phone>+43 - 04232-3838</users.phone>
+	<users.street>Pestalozzistr. 5</users.street>
+	<users.city>Völkermarkt</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>hawi639</users.login>
+	<users.crypted_password>123cc717498f1a55a39a6dd7d515d2002684e759</users.crypted_password>
+	<users.salt>914a6007ebc992fa0b655013fd89228d8ef6c6b5</users.salt>
+	<users.activation_code>202bb66d00cb9a972320933fd15b5d44f90bcc8d</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-07-07 07:53:42</users.activated_at>
+	<users.created_at>2009-07-15 08:50:50</users.created_at>
+	<users.updated_at>2011-01-23 17:40:01</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>4</agents.id>
+	<agents.user_id>6</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>taeglich bis 22 Uhr</agents.office_hours>
+	<agents.national_url>http://www.intervac.at</agents.national_url>
+	<agents.payment_url>http://www.intervac.at</agents.payment_url>
+	<agents.price_url>http://www.intervac.at/preise</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;Für die Überweisung der Teilnahmegebühr erhalten Sie ein gesondertes Email.&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>de_AT</agents.translations>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>14</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>60</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>AT</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>7</users.id>
+	<users.country_id>14</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Brian Wilder</users.full_name>
+	<users.email>bhwilder@aapt.net.au</users.email>
+	<users.postal>NSW 2088</users.postal>
+	<users.state>NSW</users.state>
+	<users.fax>+61 2 9960 7319</users.fax>
+	<users.phone>+61 2 9969 3169</users.phone>
+	<users.street>7 Cobbittee St (PO BOX 128)</users.street>
+	<users.city>Mosman </users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>Sydney</users.time_zone>
+	<users.login>au169131</users.login>
+	<users.crypted_password>8e8ced528f2c58fe4cf214ef60491d67e3a70d0d</users.crypted_password>
+	<users.password_reset_code>3b516bdb2551dbdd4a980bee35199b4fbc1cacfb</users.password_reset_code>
+	<users.salt>1489f942838b98dc998551c0fd69a33ae6b37550</users.salt>
+	<users.activation_code>ae84066a7cc4fd2c99cd81ac28c47533ff057491</users.activation_code>
+	<users.remember_token>939899685f801aa192384be30211c1a144ec4eae</users.remember_token>
+	<users.enabled>1</users.enabled>
+	<users.remember_token_expires_at>2012-04-03 10:06:35</users.remember_token_expires_at>
+	<users.activated_at>2009-07-15 08:50:50</users.activated_at>
+	<users.created_at>2009-07-15 08:50:50</users.created_at>
+	<users.updated_at>2012-03-20 10:06:35</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>5</agents.id>
+	<agents.user_id>7</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>3</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>email 24/7  Ph: Aus office hrs</agents.office_hours>
+	<agents.national_url>http://www.intervac.com</agents.national_url>
+	<agents.payment_url>internal</agents.payment_url>
+	<agents.price_url>http://www.intervac-online.com/regkits/AUkit.pdf</agents.price_url>
+	<agents.default_membership_in_days>364</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>AUD</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>7</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>7</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>AU</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>8</users.id>
+	<users.country_id>21</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Jempi &amp; Yolande de Cooman</users.full_name>
+	<users.email>decooman@intervac.be</users.email>
+	<users.postal>B 1933</users.postal>
+	<users.state></users.state>
+	<users.fax>+32-2-3055202</users.fax>
+	<users.phone>+32-2-3055202</users.phone>
+	<users.street>Lindenberglaan 26</users.street>
+	<users.city>Sterrebeek</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>jeco498</users.login>
+	<users.crypted_password>715fe6c80e18449bf0a2cfa8dc028b207777fa06</users.crypted_password>
+	<users.password_reset_code>41a983ebf6403fb0effe1f77467738c51146e4c8</users.password_reset_code>
+	<users.salt>53e8bd7ff6d62cdb413c8380eddfb9f7d9e20285</users.salt>
+	<users.activation_code>85d01a4324cffde0fcde697f96dfad57ea318b18</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:50</users.activated_at>
+	<users.created_at>2009-07-15 08:50:50</users.created_at>
+	<users.updated_at>2011-09-06 11:45:39</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>6</agents.id>
+	<agents.user_id>8</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.intervac.be</agents.national_url>
+	<agents.payment_url>http://www.intervac.be/payment_info.html</agents.payment_url>
+	<agents.price_url>http://www.intervac.be</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>00955</agents.consecutive_member_number>
+	<agents.member_number_length>5</agents.member_number_length>
+	<agents.delete_unpaid_registrations>120</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>nl_BE</agents.translations>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>7</agents.recently_activated>
+	<agents.recently_changed_user>7</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>BE</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>9</users.id>
+	<users.country_id>184</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Ana Neto</users.full_name>
+	<users.email>intervac.pt@gmail.com</users.email>
+	<users.postal>PT -9060 291</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+351 291224039</users.phone>
+	<users.street>Rua Sta. Maria, 217 - 1ºA</users.street>
+	<users.city>Funchal, Portugal</users.city>
+	<users.mobile_phone>+351962556824</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Lisbon</users.time_zone>
+	<users.login>ana9060</users.login>
+	<users.crypted_password>bc802d61d1c8ac0aee7699065f5ad88fb317103c</users.crypted_password>
+	<users.salt>207d2a45a2622342c6a82fcbd3b47606dc285881</users.salt>
+	<users.activation_code>b7ec986290bb141aa974e153bc46a059ea1946c8</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-12-27 23:11:29</users.activated_at>
+	<users.created_at>2009-07-15 08:50:51</users.created_at>
+	<users.updated_at>2011-10-10 11:38:04</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>7</agents.id>
+	<agents.user_id>9</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.inforquali.com/intervac/</agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>1245</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>iihes@intervac.nl</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>pt_PT</agents.translations>
+	<agents.first_expiry_reminder_interval>0</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>30</agents.recently_activated>
+	<agents.recently_changed_user>15</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.main_country_id>184</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>PT</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>10</users.id>
+	<users.country_id>38</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Suzanne Cassin + Richard</users.full_name>
+	<users.email>rr@intervac.ca</users.email>
+	<users.postal>M5R 2B5 </users.postal>
+	<users.state>ON </users.state>
+	<users.fax>Pls use email</users.fax>
+	<users.phone>(416) 972-0224</users.phone>
+	<users.street>#2004 One Bedford Rd </users.street>
+	<users.city>Toronto </users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>Eastern Time (US &amp; Canada)</users.time_zone>
+	<users.login>suca245</users.login>
+	<users.crypted_password>d52edb330aad5e0eb0bb752c1587d96cce90cde1</users.crypted_password>
+	<users.salt>aab0e00c1f5c29408ba67fb2d4a0c36fc8c7ee90</users.salt>
+	<users.activation_code>a1a2ad9301c191672af8d52b6653c295b07937da</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-05-28 15:39:12</users.activated_at>
+	<users.created_at>2009-07-15 08:50:51</users.created_at>
+	<users.updated_at>2011-01-09 20:14:25</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>8</agents.id>
+	<agents.user_id>10</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>4</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>24 x 7 via the Internet</agents.office_hours>
+	<agents.national_url>http://www.intervac.ca</agents.national_url>
+	<agents.payment_url>http://www.intervac.ca/default.asp?id=29</agents.payment_url>
+	<agents.price_url>http://www.intervac.ca/default.asp?id=26</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>3691</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>CAD</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>monmpg0225</agents.payment_provider_param1>
+	<agents.payment_provider_param2>StdnhBaLuX9NVc9rB9sN</agents.payment_provider_param2>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_sandbox_param2></agents.payment_sandbox_param2>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion>&lt;!-- Google Code for Membership Conversion Page --&gt;
+&lt;script type="text/javascript"&gt;
+/* &lt;![CDATA[ */
+var google_conversion_id = 999465407;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "jQi-CPHL8AEQv8PK3AM";
+var google_conversion_value = 0;
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/999465407/?label=jQi-CPHL8AEQv8PK3AM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+&lt;/div&gt;
+&lt;/noscript&gt;
+</agents.google_conversion>
+	<agents.first_expiry_reminder_interval>15</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>5</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>10</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>10</agents.recently_activated>
+	<agents.recently_changed_user>10</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>CA</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>11</users.id>
+	<users.country_id>43</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Claudia &amp; Iso Niedermann</users.full_name>
+	<users.email>intervac@bluewin.ch</users.email>
+	<users.postal>9524</users.postal>
+	<users.state></users.state>
+	<users.fax>+41 (0)719442779</users.fax>
+	<users.phone>+41 (0)719442779</users.phone>
+	<users.street>Oberdorfstr. 7</users.street>
+	<users.city>Zuzwil</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>cani619</users.login>
+	<users.crypted_password>0333ba485c57449caabd0f76cf5ee430cdef75d4</users.crypted_password>
+	<users.salt>80a29f8e3019be784cae856bf191f0ec92869b4f</users.salt>
+	<users.activation_code>98d756c227b2c8f2ec51eea988ecc1eaac660012</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:51</users.activated_at>
+	<users.created_at>2009-07-15 08:50:51</users.created_at>
+	<users.updated_at>2011-05-10 14:19:40</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>9</agents.id>
+	<agents.user_id>11</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>SFR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&lt;strong&gt;Einzahlungen bitte an: Intervac Schweiz &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; Claudia Niedermann &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; Oberdorfstr. 7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&amp;#160; CH- 9524 Zuzwil&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; Konto &amp;#160; 90-23170-9 &amp;#160;&amp;#160; &lt;/strong&gt;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.main_country_id>43</agents.main_country_id>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>CH</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>12</users.id>
+	<users.country_id>46</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Sophie Rouchon</users.full_name>
+	<users.email>sofirouchon@yahoo.fr</users.email>
+	<users.phone>+562 8131322</users.phone>
+	<users.street>Dr Aljerandro del rio 2243</users.street>
+	<users.city>Nunoa - Santiago</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>soro213</users.login>
+	<users.crypted_password>a3e74d68883c5c46a874e8118215cc45c39f37f9</users.crypted_password>
+	<users.salt>dd82ac0477c48fb412509b580fe338e54c7c5b2f</users.salt>
+	<users.activation_code>c302911b2fb76e70e560bc7ff19672dea1ca030f</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:51</users.activated_at>
+	<users.created_at>2009-07-15 08:50:51</users.created_at>
+	<users.updated_at>2009-07-15 08:50:51</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>10</agents.id>
+	<agents.user_id>12</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>0</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>CL</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>13</users.id>
+	<users.country_id>55</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>A. Machacek &amp; Lenka Machàckovi</users.full_name>
+	<users.email>antonin.machacek@iol.cz</users.email>
+	<users.postal>CZ</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+420 602858508 -or- +420 281017661</users.phone>
+	<users.street>Pod Stanici 25/603</users.street>
+	<users.city>102 00 Praha 10</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>ama818</users.login>
+	<users.crypted_password>3364e7f4d9a125552fdcf09791d507c52277e8f7</users.crypted_password>
+	<users.password_reset_code>26175724ea1e510015631e30641028bc4ad6fcef</users.password_reset_code>
+	<users.salt>30406dfbbd38159f6f65f976163befe13d9a6e3f</users.salt>
+	<users.activation_code>dca66d13bfe98a25ecf97761e0af35a271c00791</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:51</users.activated_at>
+	<users.created_at>2009-07-15 08:50:51</users.created_at>
+	<users.updated_at>2012-03-20 06:19:29</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>11</agents.id>
+	<agents.user_id>13</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.national_url>http://www.intervac.cz</agents.national_url>
+	<agents.price_url>http://www.intervac.cz/prices</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>CZK</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>CZ</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>14</users.id>
+	<users.country_id>56</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Leoni Günzler</users.full_name>
+	<users.email>info@haustausch.de</users.email>
+	<users.postal>75378</users.postal>
+	<users.state></users.state>
+	<users.fax>+49 (0) 7052-932407</users.fax>
+	<users.phone>+49 (0) 7052-932406</users.phone>
+	<users.street>Hährenwald 15</users.street>
+	<users.city>Bad Liebenzell - Monakam</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd>nancy.carroll@carroll.de</users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>helge</users.login>
+	<users.crypted_password>a741015bc41ba09d0b7ae2135d65fdf81ef0d986</users.crypted_password>
+	<users.salt>04685a2cc6ac6e0a2b9f6a82045d2f0a77306942</users.salt>
+	<users.activation_code>2a51ea633f52d107f5908bdd9502b93d66fc8c5c</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2011-01-09 23:21:37</users.activated_at>
+	<users.created_at>2009-07-15 08:50:52</users.created_at>
+	<users.updated_at>2011-01-09 23:21:37</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>12</agents.id>
+	<agents.user_id>14</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.haustausch.de/</agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.price_url>http://www.haustausch.de/preise</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>8683</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&lt;strong&gt;Meine Bankverbindung:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;INTERVAC - Leoni Günzler &lt;br /&gt;
+GLS-Gemeinschaftsbank Bochum&lt;br /&gt;
+Kto.Nr. 7005 910 402 (BLZ: 430 609 67)&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>de_DE</agents.translations>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>3</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>3</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>120</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>10</agents.recently_activated>
+	<agents.recently_changed_user>10</agents.recently_changed_user>
+	<agents.last_invisible_memberships>30</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>DE</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>15</users.id>
+	<users.country_id>58</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Michael Støvelbæk</users.full_name>
+	<users.email>info@intervac.dk</users.email>
+	<users.postal>3500</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+45 40198679</users.phone>
+	<users.street>Birkegården  79</users.street>
+	<users.city>Værløse</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>Copenhagen</users.time_zone>
+	<users.login>pomerol</users.login>
+	<users.crypted_password>615e966c4fcc92735147c83bd948cc5df23c74de</users.crypted_password>
+	<users.salt>d979c6b64c3b8f56929e92823cf02829201c02ef</users.salt>
+	<users.activation_code>829eab3c28c9c1acd9cc4e936cd2fbf9c5f46fc4</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:52</users.activated_at>
+	<users.created_at>2009-07-15 08:50:52</users.created_at>
+	<users.updated_at>2011-11-30 12:00:14</users.updated_at>
+	<users.fb_graph_id>1656159640</users.fb_graph_id>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>13</agents.id>
+	<agents.user_id>15</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.intervac.dk</agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.price_url>http://www.intervac.dk/medlemskab.htm</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>120453</agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>30</agents.delete_unpaid_registrations>
+	<agents.currency>DKK</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&lt;strong&gt;Medlemspriser:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Nye medlemmer: 585 kr/år&lt;/li&gt;
+    &lt;li&gt;Fornyelser eksisterende medlemmer: 525 kr/år&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>da_DK</agents.translations>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>45</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>24</agents.recently_activated>
+	<agents.recently_changed_user>1</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.main_country_id>58</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>DK</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>16</users.id>
+	<users.country_id>69</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Mervi Luostarinen</users.full_name>
+	<users.email>luostarinen@a-lomat.fi</users.email>
+	<users.postal>00500</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+358 (0)9 4270 1040</users.phone>
+	<users.street>A-lomat, Lintulahdenkatu 10</users.street>
+	<users.city>HELSINKI</users.city>
+	<users.mobile_phone>+358 (0)40 584 5399</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>Helsinki</users.time_zone>
+	<users.login>mery268</users.login>
+	<users.crypted_password>5472a8eeddcdcfa7a9de0ea10b5e66865b4ac604</users.crypted_password>
+	<users.salt>5213755fdf27db8f77253b3fae8cb9e9e05c8fdc</users.salt>
+	<users.activation_code>3dce166edeea0b848a8f86a2a13ec4335f31928b</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:52</users.activated_at>
+	<users.created_at>2009-07-15 08:50:52</users.created_at>
+	<users.updated_at>2012-04-03 14:51:28</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>14</agents.id>
+	<agents.user_id>16</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>9 - 14</agents.office_hours>
+	<agents.national_url>http://www.a-lomat.fi</agents.national_url>
+	<agents.payment_url>http://www.a-lomat.fi/kiitos</agents.payment_url>
+	<agents.price_url>http://www.a-lomat.fi/index.phtml?s=67</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>1059</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;Luottokorttimaksu ei ole mahdollinen. Voit maksaa liittymismaksun elektonisesti Nordean, osuuspankkien, Sampo pankin ja säästöpankkien pankkitunnuksilla.&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>fi_FI</agents.translations>
+	<agents.first_expiry_reminder_interval>30</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>7</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>30</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>60</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>5</agents.recently_activated>
+	<agents.recently_changed_user>5</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.main_country_id>69</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>FI</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>17</users.id>
+	<users.country_id>75</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Kristina Caillaud</users.full_name>
+	<users.email>info@intervac.fr</users.email>
+	<users.postal>75011</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>05 46 66 52 76 (appel non surtaxé)</users.phone>
+	<users.street>230 Boulevard Voltaire</users.street>
+	<users.city>PARIS (siège social)</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>krca76</users.login>
+	<users.crypted_password>a72b2d2ddcdf833c4a9f926cf9f6c7e4f71c1ee9</users.crypted_password>
+	<users.salt>1a3c468e047ca6679b2ae7b6003f4630a9442c39</users.salt>
+	<users.activation_code>4d16bf92e899b550e5225ec107949b22c1a37e91</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-02-26 09:19:39</users.activated_at>
+	<users.created_at>2009-07-15 08:50:53</users.created_at>
+	<users.updated_at>2012-01-26 08:22:03</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>15</agents.id>
+	<agents.user_id>17</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>8</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.echange-vacances.com</agents.national_url>
+	<agents.payment_url>http://www.echange-vacances.com/paiement.php</agents.payment_url>
+	<agents.price_url>http://www.echange-vacances.com/echanges/inscription/frais.html</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>120632</agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>120</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>fr_FR</agents.translations>
+	<agents.first_expiry_reminder_interval>20</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>6</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>30</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>120</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>30</agents.recently_activated>
+	<agents.recently_changed_user>14</agents.recently_changed_user>
+	<agents.last_invisible_memberships>30</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.main_country_id>75</agents.main_country_id>
+	<agents.video_url>http://www.conso.net/video/visionneuse_conso.php?videoDocIdy=23137</agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>FR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>18</users.id>
+	<users.country_id>77</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Brian Hayes</users.full_name>
+	<users.email>admin@intervac.co.uk</users.email>
+	<users.postal>HR2 9QR</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>0845 260 5776</users.phone>
+	<users.street>Organiser for Great Britain (not including Northern Ireland)</users.street>
+	<users.city>Cagebrook House, Eaton Bishop, Hereford</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>rhna583</users.login>
+	<users.crypted_password>e8890b9fc64a0cf327da260e9ab9c1220d923e2f</users.crypted_password>
+	<users.salt>8a6d268d0fc24c48151e8f409cd11e5f84343a5b</users.salt>
+	<users.activation_code>baae1c32e5883954c0294c6a219a5a2115e3f094</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-05-20 05:59:10</users.activated_at>
+	<users.created_at>2009-07-15 08:50:53</users.created_at>
+	<users.updated_at>2011-07-16 10:48:35</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>16</agents.id>
+	<agents.user_id>18</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>6</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>Direct line + answerphone 24/7</agents.office_hours>
+	<agents.national_url>http://www.intervac.co.uk</agents.national_url>
+	<agents.payment_url>http://www.intervac.co.uk/products.php?cat=3</agents.payment_url>
+	<agents.price_url>http://www.intervac.co.uk/services_fees.php</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>092173</agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>GBP</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>bdw3b313473</agents.payment_provider_param1>
+	<agents.payment_provider_param2>NXvx36bsUDpvBqwZ</agents.payment_provider_param2>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_sandbox_param2></agents.payment_sandbox_param2>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion>&lt;!-- Google Code for Membership Conversion Page --&gt;
+&lt;script type="text/javascript"&gt;
+/* &lt;![CDATA[ */
+var google_conversion_id = 1032415036;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "lyMuCNSSiAIQvM6l7AM";
+var google_conversion_value = 0;
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1032415036/?label=lyMuCNSSiAIQvM6l7AM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+&lt;/div&gt;
+&lt;/noscript&gt;
+</agents.google_conversion>
+	<agents.translations>en_GB</agents.translations>
+	<agents.first_expiry_reminder_interval>21</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>7</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>45</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>30</agents.recently_activated>
+	<agents.recently_changed_user>10</agents.recently_changed_user>
+	<agents.last_invisible_memberships>100</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.main_country_id>77</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>GB</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>19</users.id>
+	<users.country_id>89</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Stathis Mihos &amp; Maria Karakiza</users.full_name>
+	<users.email>stamar@hol.gr</users.email>
+	<users.postal>15122-GR</users.postal>
+	<users.state></users.state>
+	<users.fax>+30 700 700 60 80</users.fax>
+	<users.phone>+30 210 8061943</users.phone>
+	<users.street>Perikleous 34</users.street>
+	<users.city>Maroussi, Athens</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>Athens</users.time_zone>
+	<users.login>stka141</users.login>
+	<users.crypted_password>527d752af68c506a701434e1c054b37e61b0c2fb</users.crypted_password>
+	<users.password_reset_code>58e31b86f566fb419ee66be5f619ba41bba2df0c</users.password_reset_code>
+	<users.salt>1cf9ec3e12911d9b8c37652fedb72bd237827fc2</users.salt>
+	<users.activation_code>35440bee2096552527d87f5cc4d9092a7adda091</users.activation_code>
+	<users.remember_token>fba6006c632e2f7542a6189ae6673dd4fbedb4f3</users.remember_token>
+	<users.enabled>1</users.enabled>
+	<users.remember_token_expires_at>2012-03-18 19:19:45</users.remember_token_expires_at>
+	<users.activated_at>2009-07-15 08:50:53</users.activated_at>
+	<users.created_at>2009-07-15 08:50:53</users.created_at>
+	<users.updated_at>2012-03-04 19:19:45</users.updated_at>
+	<users.fb_graph_id>703092635</users.fb_graph_id>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>17</agents.id>
+	<agents.user_id>19</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://users.hol.gr/~stamar/intervac.html</agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>0428</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&lt;style type="text/css"&gt;&lt;/style&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;font size="2" face="Arial"&gt;Μπορείτε να γίνετε μέλος της αστικής μη κερδοσκοπικής  εταιρίας Intervac Ελλάς, έναντι &lt;b&gt;ετήσιας συνδρομής ποσού 70 ευρώ&lt;/b&gt; που  ισχύει για απεριόριστο αριθμό ανταλλαγών το χρόνο. Δεν υπάρχει άλλη επιβάρυνση!  &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size="2"&gt;&lt;font face="Arial"&gt;Συμπληρώνετε την ηλεκτρονική &lt;b&gt;φόρμα  εγγραφής&lt;/b&gt; στην ιστοσελίδα &lt;a target="_blank" href=""&gt;&lt;font color="#000000"&gt;www.intervac.com&lt;/font&gt;&lt;/a&gt; και στέλνετε με φαξ ή ταχυδρομείο στην  Intervac Ελλάς την απόδειξη κατάθεσης της ετήσιας συνδρομής ή ειδοποιείτε τηλεφωνικά για την κατάθεσή σας (ημερομηνία και τράπεζα). &lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size="2" face="Arial"&gt;Η εγγραφή σας γίνεται μέσα σε τρείς ημέρες από την  παραλαβή του καταθετηρίου Τραπέζης και το σπίτι σας καταχωρίζεται στον  ηλεκτρονικό κατάλογο. Από τη στιγμή αυτή θα έχετε πλήρες δικαίωμα πρόσβασης σε  όλες τις υπηρεσίες της Intervac και θα μπορείτε να επικοινωνείτε απευθείας με  e-mail, fax, αλληλογραφία ή τηλέφωνο με τα μέλη που σας ενδιαφέρουν. &lt;/font&gt;&lt;/p&gt;
+&lt;/div&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>el_GR</agents.translations>
+	<agents.first_expiry_reminder_interval>30</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>10</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>10</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>60</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>1</agents.recently_activated>
+	<agents.recently_changed_user>1</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>GR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>20</users.id>
+	<users.country_id>231</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Jessica Jaffe</users.full_name>
+	<users.email>info@intervacus.com</users.email>
+	<users.postal>94920</users.postal>
+	<users.state>CA</users.state>
+	<users.fax></users.fax>
+	<users.phone>1-800-756-4663 (HOME)</users.phone>
+	<users.street>30 Corte San Fernando</users.street>
+	<users.city>Tiburon</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Pacific Time (US &amp; Canada)</users.time_zone>
+	<users.login>loja181</users.login>
+	<users.crypted_password>132760d083f4602a41fcfd80fb76582d39d661b3</users.crypted_password>
+	<users.salt>ef194ca32f756ac3d56a9e9a8de72571c3ff7e72</users.salt>
+	<users.activation_code>a844f091b58da81903e7c54139a26f4caa01d020</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:54</users.activated_at>
+	<users.created_at>2009-07-15 08:50:54</users.created_at>
+	<users.updated_at>2012-02-01 04:35:57</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>18</agents.id>
+	<agents.user_id>20</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>2</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.price_url>https://www.intervacus.com/MembershipPackage.aspx</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>USD</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>m9qvar98u</agents.payment_provider_param1>
+	<agents.payment_provider_param2>3etuwReirE1pCXaE</agents.payment_provider_param2>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_sandbox_param2></agents.payment_sandbox_param2>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion>&lt;!-- Google Code for Sale Confirmation Conversion Page --&gt;
+&lt;script type="text/javascript"&gt;
+/* &lt;![CDATA[ */
+var google_conversion_id = 1072516729;
+var google_conversion_language = "en_US";
+var google_conversion_format = "1";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "yaLrCN-xYBD5nLX_Aw";
+var google_conversion_value = 0;
+if (95.0) {
+  google_conversion_value = 95.0;
+}
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"&gt;
+&lt;/script&gt;
+&lt;noscript&gt;
+&lt;div style="display:inline;"&gt;
+&lt;img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1072516729/?value=95.0&amp;amp;label=yaLrCN-xYBD5nLX_Aw&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+&lt;/div&gt;
+&lt;/noscript&gt;</agents.google_conversion>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>7</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>30</agents.recently_activated>
+	<agents.recently_changed_user>3</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.main_country_id>231</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>US</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>21</users.id>
+	<users.country_id>100</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Pál Turcsán</users.full_name>
+	<users.email>pal.turcsan@hungarocontrol.hu</users.email>
+	<users.postal>1174</users.postal>
+	<users.fax>+36307434862</users.fax>
+	<users.phone>+3612582463</users.phone>
+	<users.street>Dedics Ferenc u. 5. fsz.2.</users.street>
+	<users.city>Budapest</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>keko288</users.login>
+	<users.crypted_password>c923e2b1786311998a68ea48285dcc4e2d679a98</users.crypted_password>
+	<users.salt>494e248deceb055927bf616b389359375f14e549</users.salt>
+	<users.activation_code>cc0f038edbaaa4844292f0da66e75fe294127c32</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:54</users.activated_at>
+	<users.created_at>2009-07-15 08:50:54</users.created_at>
+	<users.updated_at>2009-07-15 08:50:54</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>19</agents.id>
+	<agents.user_id>21</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>0</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>HU</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>22</users.id>
+	<users.country_id>102</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Frank &amp; Hilary Kelly</users.full_name>
+	<users.email>fkelly@intervac.ie</users.email>
+	<users.postal></users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+353-41-9837969</users.phone>
+	<users.street>Organiser for the Republic of Ireland and Northern Ireland</users.street>
+	<users.city>Phillipstown, Ballymakenny Road, Drogheda, Co. Louth</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>frke962</users.login>
+	<users.crypted_password>289667b4de2cf0e27658a7413b109e7a5daa5a1b</users.crypted_password>
+	<users.salt>0f07570f1afe641a048c1833d031c5aace47b5fc</users.salt>
+	<users.activation_code>94ad6864bdb06fa195918330ba348d8c070ad636</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-18 09:54:01</users.activated_at>
+	<users.created_at>2009-07-15 08:50:54</users.created_at>
+	<users.updated_at>2012-04-17 09:42:36</users.updated_at>
+	<users.fb_graph_id>841079836</users.fb_graph_id>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>20</agents.id>
+	<agents.user_id>22</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>!0am-2pm &amp; 7.30pm to 9.30pm.</agents.office_hours>
+	<agents.national_url>http://www.intervac.ie/</agents.national_url>
+	<agents.payment_url>http://www.intervac.ie</agents.payment_url>
+	<agents.price_url>http://www.intervac.com/regkits/IEkit.pdf</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>fkelly@intervac.ie</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1>fkelly@intervac.ie</agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Payment Options:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Using Paypal Online Payments - see the button below.&lt;br /&gt;
+2. By Cheque:&lt;/strong&gt; Please forward cheque for subscription to Frank Kelly, INTERVAC Ireland, Phillipstown, Ballymakenny Road, Drogheda, and Please Make Cheques Payable To: Intervac Ireland.&lt;br /&gt;
+&lt;strong&gt;3. By Bank Transfer&lt;/strong&gt;: You may also subscribe by making a transfer to the following account:&lt;br /&gt;
+- Frank Kelly - Account Number 12787090&lt;br /&gt;
+- AIB Bank, Drogheda, Co. Louth, Bank Sort Code 93 20 94.&lt;br /&gt;
+4. By Credit or Laser Card: We accept VISA, Mastercard and Laser Cards: &lt;br /&gt;
+- Please&amp;#160;call&amp;#160;with&amp;#160;Laser or Credit Card Number and Expiry date &lt;strong&gt;with 3 digit security number t&lt;/strong&gt;o: Frank Kelly,&amp;#160; 041 9837969 Monday-Friday, between 10am and 1pm. You may also try us evenings 8 pm - 10pm or at the weekend.&lt;br /&gt;
+&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.first_expiry_reminder_interval>30</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>14</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>7</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>31</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>IE</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>23</users.id>
+	<users.country_id>105</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Sanjeev MAHAJAN</users.full_name>
+	<users.email>sanjeev.mahajan@ieee.org</users.email>
+	<users.postal>110096</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+91-9891006565</users.phone>
+	<users.street>Pawittra Apartments, Vasundhara Enclave</users.street>
+	<users.city>New Delhi</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>New Delhi</users.time_zone>
+	<users.login>sanjeev2005</users.login>
+	<users.crypted_password>44a9ad66cf61bf622c537a74dd7547f40ed1c75c</users.crypted_password>
+	<users.password_reset_code>f48d2e7e063c58b7e614e64241a994b7e95a9e89</users.password_reset_code>
+	<users.salt>d48b5cc23ac9e80c977c0a6df0782db7fd86de55</users.salt>
+	<users.activation_code>76603f72d887e13c91cddf2cc94d97ec2a7d0d62</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:54</users.activated_at>
+	<users.created_at>2009-07-15 08:50:54</users.created_at>
+	<users.updated_at>2011-11-10 11:05:36</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>21</agents.id>
+	<agents.user_id>23</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>30</agents.recently_activated>
+	<agents.recently_changed_user>30</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>IN</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>24</users.id>
+	<users.country_id>110</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Gaby Zanobetti</users.full_name>
+	<users.email>info@intervac.it</users.email>
+	<users.postal>40038</users.postal>
+	<users.state>italia</users.state>
+	<users.fax>+39.051.917 841</users.fax>
+	<users.phone>+39.051.917 842</users.phone>
+	<users.street>via Bottega 33 - Loc. Calvenzano</users.street>
+	<users.city>VERGATO (Bologna)</users.city>
+	<users.mobile_phone>329,74 60 417</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>gaza798</users.login>
+	<users.crypted_password>2b9adb991efb50c6901a5baa9a91be52ef762be2</users.crypted_password>
+	<users.salt>f70b1a853b0275b1215c222cd9b6d91aea38eda8</users.salt>
+	<users.activation_code>a5839887704059e30b63f34fa18cacb30d2458ba</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2011-01-11 11:08:33</users.activated_at>
+	<users.created_at>2009-07-15 08:50:55</users.created_at>
+	<users.updated_at>2012-01-10 09:12:31</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>22</agents.id>
+	<agents.user_id>24</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>10-12 and 17.19.30</agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url>http://www.intervac.it/intervac%20org/DATE%20E%20PREZZI%202003%20-%202004.htm#MODALITA</agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;
+&lt;table style="border-right: medium none; border-top: medium none; border-left: medium none; width: 70%; border-bottom: medium none; border-collapse: collapse" cellspacing="0" cellpadding="0" width="70%" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr style="height: 36.75pt"&gt;
+            &lt;td style="border-right: #111111 1pt inset; padding-right: 0cm; border-top: #111111 1pt inset; padding-left: 0cm; padding-bottom: 0cm; border-left: #111111 1pt inset; width: 117%; padding-top: 0cm; border-bottom: #111111 1pt inset; height: 36.75pt; background-color: transparent" width="117%"&gt;
+            &lt;div&gt;&amp;#160;
+            &lt;div&gt;Iscrizione valida per 365 giorni&lt;/div&gt;
+            &lt;div&gt;&amp;#160;&lt;/div&gt;
+            &lt;table style="border-right: medium none; border-top: medium none; border-left: medium none; border-bottom: medium none; border-collapse: collapse" cellspacing="0" cellpadding="0" border="1"&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 244.45pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent" valign="top" width="326"&gt;
+                        &lt;div&gt;Quota di adesione&lt;/div&gt;
+                        &lt;ul style="margin-top: 0cm" type="disc"&gt;
+                            &lt;li&gt;La vostra iscrizione sarà inserita su Intervac Ondine per 365 giorni a partire dalla data dell’iscrizione&lt;/li&gt;
+                            &lt;li&gt;Avrete la vostra Password personalizzata per avere accesso al sito e iniziare i contatti con gli altri iscritti&lt;/li&gt;
+                            &lt;li&gt;Potrete inserire nella vostra iscrizione fino a 20 fotografia e testo supplementare illimitato&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #ece9d8; width: 244.45pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent" valign="top" width="326"&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;€&amp;#160;115&lt;/div&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border-right: #ece9d8; border-top: #ece9d8; border-left: #ece9d8; border-bottom: windowtext 1pt solid; background-color: transparent" width="3"&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #ece9d8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 244.45pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent" valign="top" width="326"&gt;
+                        &lt;ul style="margin-top: 0cm" type="disc"&gt;
+                            &lt;li&gt;Inserimento di una iscrizione supplementare dello stesso socio&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;ul style="margin-top: 0cm" type="disc"&gt;
+                            &lt;li&gt;Per inserire l’opzione di affitto aggiungere alla quota standard&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;/td&gt;
+                        &lt;td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #ece9d8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #ece9d8; width: 244.45pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent" valign="top" width="326" colspan="2"&gt;
+                        &lt;div&gt;€ 50&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;&amp;#160;&lt;/div&gt;
+                        &lt;div&gt;€&amp;#160; 95&lt;/div&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+            &lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td style="border-right: #111111 1pt inset; padding-right: 0cm; border-top: #111111 1pt inset; padding-left: 0cm; padding-bottom: 0cm; border-left: #ece9d8; width: 39%; padding-top: 0cm; border-bottom: #111111 1pt inset; height: 36.75pt; background-color: transparent" width="39%"&gt;
+            &lt;div&gt;&amp;#160;&lt;/div&gt;
+            &lt;/td&gt;
+            &lt;td style="border-right: #111111 1pt inset; padding-right: 0cm; border-top: #111111 1pt inset; padding-left: 0cm; padding-bottom: 0cm; border-left: #ece9d8; width: 21%; padding-top: 0cm; border-bottom: #111111 1pt inset; height: 36.75pt; background-color: transparent" width="21%"&gt;
+            &lt;div&gt;&amp;#160;&lt;/div&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&amp;#160;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&amp;#160;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&amp;#160;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&amp;#160;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&amp;#160;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&amp;#160;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt; line-height: 150%"&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;MODALITA’ DI PAGAMENTO .&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt; Vi preghiamo di pagare la quota associativa con :&lt;/span&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt 36pt; text-indent: -18pt; line-height: 150%"&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;-&lt;/span&gt;&lt;span style="font-size: 7pt; color: #003300; line-height: 150%"&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; &lt;/span&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;assegno di c/c bancario&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt 36pt; text-indent: -18pt; line-height: 150%"&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;-&lt;/span&gt;&lt;span style="font-size: 7pt; color: #003300; line-height: 150%"&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; &lt;/span&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;vaglia postale&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt 36pt; text-indent: -18pt; line-height: 150%"&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;-&amp;#160;&amp;#160; c/c postale 13 34 14 09 intestato a &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;Gabriella&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt; Zanobetti - 40048 Vergato&amp;#160; (Bologna) oppure&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt 36pt; text-indent: -18pt; line-height: 150%"&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;-&lt;/span&gt;&lt;span style="font-size: 7pt; color: #003300; line-height: 150%"&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; &lt;/span&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;c/c postale 29 50 11 94 intestato a Intervac Italia&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt 36pt; text-indent: -18pt; line-height: 150%"&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;-&lt;/span&gt;&lt;span style="font-size: 7pt; color: #003300; line-height: 150%"&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; &lt;/span&gt;&lt;b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;bonifico bancario &lt;/span&gt;&lt;/b&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;su Cassa di Risparmio di Bologna, Filiale di Vergato, CAB 37120, ABI&amp;#160;06385,&amp;#160;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt 36pt; text-indent: -18pt; line-height: 150%"&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160; &lt;/span&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;IBAN&amp;#160;IT84 K063 8537 1200 7400 0045 82E&amp;#160;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="margin: 0cm 0cm 0.75pt 36pt; text-indent: -18pt; line-height: 150%"&gt;&lt;span style="font-size: 10pt; color: #003300; line-height: 150%"&gt;&amp;#160;&amp;#160;&amp;#160; conto corrente n° 4582/1 intestato a &lt;/span&gt;&lt;b&gt;&lt;span style="color: #003300"&gt;Ga&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="color: #003300"&gt;brie&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="color: #003300"&gt;lla&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style="color: #003300"&gt; Zanobetti&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>it_IT</agents.translations>
+	<agents.first_expiry_reminder_interval>20</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>10</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>10</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>IT</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>25</users.id>
+	<users.country_id>134</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Marie Lechner Robert Klopp</users.full_name>
+	<users.email>intervac.lu@gmail.com</users.email>
+	<users.postal>3392</users.postal>
+	<users.phone>+352 379827</users.phone>
+	<users.street>49, rue de Luxembourg</users.street>
+	<users.city>Roedgen</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>luxem07</users.login>
+	<users.crypted_password>63252eb7442a99cab3c1cbe242530dbd914c5bb4</users.crypted_password>
+	<users.salt>f43a4928b2c9c914797e763c9151c99f7dd25e23</users.salt>
+	<users.activation_code>3099ed144833d3be4518796aa7194ef56be23336</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:55</users.activated_at>
+	<users.created_at>2009-07-15 08:50:55</users.created_at>
+	<users.updated_at>2009-07-15 08:50:55</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>23</agents.id>
+	<agents.user_id>25</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>0</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>LU</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>26</users.id>
+	<users.country_id>166</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Roel &amp; Willemien Eissen</users.full_name>
+	<users.email>eissen@intervac.nl</users.email>
+	<users.postal>6862 CB</users.postal>
+	<users.state></users.state>
+	<users.fax>+31263391159</users.fax>
+	<users.phone>0031263343272</users.phone>
+	<users.street>Paasberg 25</users.street>
+	<users.city>Oosterbeek</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype></users.skype>
+	<users.time_zone>Amsterdam</users.time_zone>
+	<users.login>roei805</users.login>
+	<users.crypted_password>e7b9dcfba28a735f80e6e49476bec581f63473c7</users.crypted_password>
+	<users.salt>c39e658559dba64a2342ce71032d53d4349bac9e</users.salt>
+	<users.activation_code>0e27103189d4657243df254e6a3bd90acfe0b61e</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:55</users.activated_at>
+	<users.created_at>2009-07-15 08:50:55</users.created_at>
+	<users.updated_at>2012-04-06 20:18:39</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>24</agents.id>
+	<agents.user_id>26</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours>9.00-22.00, indien aanwezig</agents.office_hours>
+	<agents.national_url>http://www.intervac.nl</agents.national_url>
+	<agents.payment_url>http://www.intervac.nl/contributies.phtml</agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>1012</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>30</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;Betaling van de contributie kan door rechtstreeks over te maken naar de Intervac-rekening bij de Rabobank Oosterbeek, nr. 3550.01.640, of door middel van een machtiging voor automatische incasso ( met vermelding van uw rekeningnummer en precieze tenaamstelling ). Dit kunt u regelen in&amp;#160;een gewoon e-mailtje naar &lt;a href="mailto:eissen@intervac.nl"&gt;eissen@intervac.nl&lt;/a&gt;, of via&amp;#160;onze betaalpagina &lt;a href="http://www.intervac.nl/contributies.phtml"&gt;http://www.intervac.nl/contributies.phtml&lt;/a&gt;.&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>nl_NL</agents.translations>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>2</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>10</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>92</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>3</agents.recently_activated>
+	<agents.recently_changed_user>3</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.main_country_id>166</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>NL</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>27</users.id>
+	<users.country_id>167</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Hj. Kjell </users.full_name>
+	<users.email>info@intervac.no</users.email>
+	<users.postal>1676</users.postal>
+	<users.state></users.state>
+	<users.fax>00000000</users.fax>
+	<users.phone>0000000000</users.phone>
+	<users.street>Søndre Rekvin 13</users.street>
+	<users.city>Kråkerøy</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>niso782</users.login>
+	<users.crypted_password>d9a2acd96be851516d619f39ddf8f4d2aad77b06</users.crypted_password>
+	<users.salt>c41e8baaabf8e43c5a57fec4bf0c622391396999</users.salt>
+	<users.activation_code>9bf81512758b96aa082565c699384623c7b184c0</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-08-10 08:13:48</users.activated_at>
+	<users.created_at>2009-07-15 08:50:55</users.created_at>
+	<users.updated_at>2011-07-15 07:36:57</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>25</agents.id>
+	<agents.user_id>27</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.intervac.com</agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.price_url>http://www.intervac.com/payment_NO_prices.html</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>NOK</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>no_NO</agents.translations>
+	<agents.first_expiry_reminder_interval>30</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>14</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>7</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>14</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>NO</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>28</users.id>
+	<users.country_id>171</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Ketty (Catherine) and David Philips</users.full_name>
+	<users.email>intervacnz@gmail.com</users.email>
+	<users.postal>6021</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+64 (0)21 101 4780</users.phone>
+	<users.street>104 Waipapa Road</users.street>
+	<users.city>Wellington</users.city>
+	<users.mobile_phone>+64 (0)21 101 4780</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Wellington</users.time_zone>
+	<users.login>caph686</users.login>
+	<users.crypted_password>ad15095326179529ed01556321d64976ecac5540</users.crypted_password>
+	<users.salt>826df7fc5ebd52a86430c09051ca313267ac0539</users.salt>
+	<users.activation_code>1143460d1234c76fc9e1d06419afbe072c3b997f</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:56</users.activated_at>
+	<users.created_at>2009-07-15 08:50:56</users.created_at>
+	<users.updated_at>2011-07-26 05:19:08</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>26</agents.id>
+	<agents.user_id>28</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.intervac.co.nz</agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>0060</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>NZD</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;Please direct credit membership fee in account 02-0536-0414244-000.&lt;/p&gt;
+&lt;p&gt;Name of account:&amp;#160; IntervacNZ&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>2</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>7</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>3</agents.recently_activated>
+	<agents.recently_changed_user>3</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.main_country_id>171</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>NZ</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>29</users.id>
+	<users.country_id>179</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Ewa i Stanisław Krupscy</users.full_name>
+	<users.email>info@intervac.pl</users.email>
+	<users.postal>31-213</users.postal>
+	<users.state>Malopolskie </users.state>
+	<users.fax>+48 12 415 14 44</users.fax>
+	<users.phone>+48 12 415 18 18</users.phone>
+	<users.street>ul. Bursztynowa 22</users.street>
+	<users.city>Kraków</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype>e_krupska </users.skype>
+	<users.time_zone>Warsaw</users.time_zone>
+	<users.login>ewkr95</users.login>
+	<users.crypted_password>200446caba800df963a43c338d2df423de406e8b</users.crypted_password>
+	<users.salt>891e2d6187858e2a3f5e0974c75b791711114e8a</users.salt>
+	<users.activation_code>c101495dc36c25d4fc38e6d216cd3d05345fa79f</users.activation_code>
+	<users.remember_token>e9e2c856c46d4c33f870f767a10c3194a2740393</users.remember_token>
+	<users.enabled>1</users.enabled>
+	<users.remember_token_expires_at>2012-04-27 14:51:23</users.remember_token_expires_at>
+	<users.activated_at>2009-07-15 08:50:56</users.activated_at>
+	<users.created_at>2009-07-15 08:50:56</users.created_at>
+	<users.updated_at>2012-04-19 22:03:44</users.updated_at>
+	<users.fb_graph_id>520416694</users.fb_graph_id>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>27</agents.id>
+	<agents.user_id>29</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.intervac.pl</agents.national_url>
+	<agents.payment_url>http://www.york.edu.pl/pl/zapisy/platnosci.html</agents.payment_url>
+	<agents.price_url>http://www.intervac.pl/regulamin_cenniki.html#cenniki</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>PLN</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>pl_PL</agents.translations>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>2</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>14</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>2</agents.recently_activated>
+	<agents.recently_changed_user>2</agents.recently_changed_user>
+	<agents.last_invisible_memberships>30</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>30</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>PL</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>30</users.id>
+	<users.country_id>191</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Alexey Eirich</users.full_name>
+	<users.email>alexey-e@nm.ru</users.email>
+	<users.postal>124599</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+007- 916-595-0623</users.phone>
+	<users.street>Kronshtadskiy bulvar, 30</users.street>
+	<users.city>Moscow</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd>alexey.eirich@gmail.com</users.email_2nd>
+	<users.time_zone>Moscow</users.time_zone>
+	<users.login>alexy</users.login>
+	<users.crypted_password>470b1d66d370a3022cd1cb579c6a05838628c5b8</users.crypted_password>
+	<users.salt>cc8f4197eaed1afd3b66bfda90bd3afc41c9eeb4</users.salt>
+	<users.activation_code>ed14fa35d851e275ed21df5ea8d2cb703f59529a</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:56</users.activated_at>
+	<users.created_at>2009-07-15 08:50:56</users.created_at>
+	<users.updated_at>2010-05-03 11:21:46</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>28</agents.id>
+	<agents.user_id>30</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.translations>ru_RU</agents.translations>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>30</agents.recently_activated>
+	<agents.recently_changed_user>30</agents.recently_changed_user>
+	<agents.last_invisible_memberships>100</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>RU</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>31</users.id>
+	<users.country_id>197</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Family Gemfeldt</users.full_name>
+	<users.email>info@intervac.se</users.email>
+	<users.postal>SE 29173</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+46 (0)44-70270</users.phone>
+	<users.street>Storskiftesvägen 32</users.street>
+	<users.city>Önnestad</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Stockholm</users.time_zone>
+	<users.login>kage974</users.login>
+	<users.crypted_password>b208dcea5b752a4edf12ee31f3cec8c4d07b2abf</users.crypted_password>
+	<users.salt>e7b99628cf51b1c6a2ad61b9f31259c50e370a17</users.salt>
+	<users.activation_code>2cf1001e46c54a675f479a826f81b6f9b14966fc</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:56</users.activated_at>
+	<users.created_at>2009-07-15 08:50:56</users.created_at>
+	<users.updated_at>2011-06-08 15:58:50</users.updated_at>
+	<users.fb_graph_id>100000855117731</users.fb_graph_id>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>29</agents.id>
+	<agents.user_id>31</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.translator_id>41465</agents.translator_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>1</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url>http://www.intervac.se</agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.price_url>http://www.intervac.se/omkost.htm</agents.price_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>12908</agents.consecutive_member_number>
+	<agents.member_number_length>5</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>SEK</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>keg@intervac.se</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>sv_SE</agents.translations>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>5</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>14</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>10</agents.recently_activated>
+	<agents.recently_changed_user>5</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>1</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;När du klickat dig vidare "pay per invoice", så har du samtidigt, bekr att du vill mottaga fakturan. Du kommer&amp;#160;då att bli&amp;#160;automatiskt aktiverad och erhålla inloggningsuppgifter inom några minuter.&lt;br /&gt;
+Faktureringsavgift tillkommer&lt;br /&gt;
+&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>1</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>SE</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>32</users.id>
+	<users.country_id>245</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Paula Crawford Brunt</users.full_name>
+	<users.email>pc16@mweb.co.za</users.email>
+	<users.postal>6600</users.postal>
+	<users.state>Western Cape</users.state>
+	<users.fax>27 44 533 2632</users.fax>
+	<users.phone>27 44 533 2632</users.phone>
+	<users.street>8 Fairway Ave (PO Box 63)</users.street>
+	<users.city>Plettenberg Bay</users.city>
+	<users.mobile_phone>27 72 232 4427</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype>paulacrawfordbrunt</users.skype>
+	<users.time_zone>Pretoria</users.time_zone>
+	<users.login>pabr607</users.login>
+	<users.crypted_password>20ae3c4c12829c8619a962d278131eef2b9f80bb</users.crypted_password>
+	<users.password_reset_code>6772ee836a57ed61e20d03d8077ea846c372479d</users.password_reset_code>
+	<users.salt>fe1435601a7a62bdc8241fb2ab7ad43d68db28fd</users.salt>
+	<users.activation_code>e829cca9dad0983953de85d8cdec0a164b23e6df</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-07-15 08:50:57</users.activated_at>
+	<users.created_at>2009-07-15 08:50:57</users.created_at>
+	<users.updated_at>2010-01-15 23:34:04</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>30</agents.id>
+	<agents.user_id>32</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>ZA</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>36237</users.id>
+	<users.country_id>14</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Ketty Philips</users.full_name>
+	<users.email>intervac.au@gmail.com</users.email>
+	<users.postal>Vic 3123</users.postal>
+	<users.state>Victoria</users.state>
+	<users.fax></users.fax>
+	<users.phone>(+61) 0398132031</users.phone>
+	<users.street>4/10 Denmark Hill Road</users.street>
+	<users.city>Hawthorn East</users.city>
+	<users.mobile_phone>(+61) 0449 135514</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Melbourne</users.time_zone>
+	<users.login>ket91phi</users.login>
+	<users.crypted_password>ad15095326179529ed01556321d64976ecac5540</users.crypted_password>
+	<users.salt>826df7fc5ebd52a86430c09051ca313267ac0539</users.salt>
+	<users.activation_code>5ff70fec7aa1ee845c0cbd2617e8cdbd97843124</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2009-10-14 09:32:32</users.activated_at>
+	<users.created_at>2009-10-02 10:07:07</users.created_at>
+	<users.updated_at>2012-02-07 11:12:13</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>31</agents.id>
+	<agents.user_id>36237</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>0213</agents.consecutive_member_number>
+	<agents.member_number_length>4</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>AUD</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>iihes@intervac.nl</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.first_expiry_reminder_interval>10</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>2</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>3</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>3</agents.recently_activated>
+	<agents.recently_changed_user>1</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.main_country_id>14</agents.main_country_id>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>AU</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>36238</users.id>
+	<users.country_id>109</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Sesselja Traustadóttir</users.full_name>
+	<users.email>iceland@intervac.com</users.email>
+	<users.postal></users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+354 5811333</users.phone>
+	<users.street>Laugarnesvegur 57</users.street>
+	<users.city>105 Reykjavík</users.city>
+	<users.mobile_phone>+354 8642776</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>ses9tra</users.login>
+	<users.crypted_password>df159ca1d2a2afc009f9a85caf751192ec593644</users.crypted_password>
+	<users.salt>8ada2350038327a9dae206633d1c66e8bf94428f</users.salt>
+	<users.activation_code>c0a4d609f88bdf744eb95801ca5c16c5fbd9813c</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2011-02-23 14:55:09</users.activated_at>
+	<users.created_at>2009-10-02 10:33:38</users.created_at>
+	<users.updated_at>2011-10-21 20:44:09</users.updated_at>
+	<users.fb_graph_id>1201427266</users.fb_graph_id>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>32</agents.id>
+	<agents.user_id>36238</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>12212</agents.consecutive_member_number>
+	<agents.member_number_length>5</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>iihes@intervac.nl</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>is_IS</agents.translations>
+	<agents.first_expiry_reminder_interval>21</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>7</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>10</agents.recently_activated>
+	<agents.recently_changed_user>10</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>IS</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>37233</users.id>
+	<users.country_id>50</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Susan Herrera Jara</users.full_name>
+	<users.email>susanherrera01@hotmail.com</users.email>
+	<users.postal></users.postal>
+	<users.state></users.state>
+	<users.fax>+506-443-46-36</users.fax>
+	<users.phone>+506-443-46-36</users.phone>
+	<users.street>175 West Community Center</users.street>
+	<users.city>Trinidad Alajuela</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>sus32jar</users.login>
+	<users.crypted_password>4da5acc55f861e9ec1c7e1d5aa21892876f99699</users.crypted_password>
+	<users.salt>71b39dba3cc4ea34a5486d995d139ca599d504cf</users.salt>
+	<users.activation_code>b796b4e8a7334cc1faa217088a7d7e132b986aa9</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.created_at>2010-01-04 13:16:23</users.created_at>
+	<users.updated_at>2010-01-04 13:18:49</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>33</agents.id>
+	<agents.user_id>37233</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>CR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>37460</users.id>
+	<users.country_id>114</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Alain Kregine &amp; Kimiyo Murata</users.full_name>
+	<users.email>intervacjp@gmail.com</users.email>
+	<users.postal>162-0055</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+81 (0)3 3358 7546</users.phone>
+	<users.street>12-27-401 Yochomachi, Shinjuku-ku,</users.street>
+	<users.city>Tokyo</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Tokyo</users.time_zone>
+	<users.login>kim19mur</users.login>
+	<users.crypted_password>edc14201179c52d622f049b6c497c2c48593e414</users.crypted_password>
+	<users.salt>1b7b0ca1906d55793d850bf32686841dac450095</users.salt>
+	<users.activation_code>022920a3716dde30cdb1e13f918d5d5acc8b0e5e</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-05-26 18:05:10</users.activated_at>
+	<users.created_at>2010-01-13 16:06:27</users.created_at>
+	<users.updated_at>2012-01-24 14:35:02</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>34</agents.id>
+	<agents.user_id>37460</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.translations>ja_JP</agents.translations>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>JP</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>39364</users.id>
+	<users.country_id>189</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Carmen  Duta</users.full_name>
+	<users.email>info@intervac.ro</users.email>
+	<users.postal>Sector 5</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+40-751.251.068</users.phone>
+	<users.street>Bd Regina Elisabeta 44</users.street>
+	<users.city>Bucuresti</users.city>
+	<users.mobile_phone> +40-744.828.677</users.mobile_phone>
+	<users.email_2nd>carmendut@yahoo.com</users.email_2nd>
+	<users.time_zone>Bucharest</users.time_zone>
+	<users.login>car24dut</users.login>
+	<users.crypted_password>97441f393adda021cd4df4993b67dca0b99dbeaf</users.crypted_password>
+	<users.password_reset_code>830a8b512d1eafbd382bf62d3dcf9f0ff1a2a59b</users.password_reset_code>
+	<users.salt>4f7769bf2e6c0ead25548906a9b94d8ad5d08295</users.salt>
+	<users.activation_code>eb96898ee6be1124d5239f52e02ff870ae28514a</users.activation_code>
+	<users.remember_token>79ad33e5440006dcfcc2a4375b7b4ac7c54a5b82</users.remember_token>
+	<users.enabled>1</users.enabled>
+	<users.remember_token_expires_at>2012-05-03 19:41:48</users.remember_token_expires_at>
+	<users.activated_at>2010-05-19 13:14:09</users.activated_at>
+	<users.created_at>2010-05-17 05:22:03</users.created_at>
+	<users.updated_at>2012-04-19 19:41:48</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>35</agents.id>
+	<agents.user_id>39364</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours>24 /24 h pe internet</agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.translations>ro_RO</agents.translations>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>RO</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>39814</users.id>
+	<users.country_id>31</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Carlos Gerent</users.full_name>
+	<users.email>intervac.br@gmail.com</users.email>
+	<users.postal></users.postal>
+	<users.phone>+55 47 9148-4874</users.phone>
+	<users.street>Roberto Ponick, 503 - Bom Retiro</users.street>
+	<users.city>Joinville – SC</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>car50ger</users.login>
+	<users.crypted_password>bfa308f18bf20e125c43ad04ce0daaa270b49317</users.crypted_password>
+	<users.salt>b240cedabffa0cb830a683fcd7058897caa90cad</users.salt>
+	<users.activation_code>5605c615ec0c5901aa3c3b01db6f7936335c8a36</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-07-07 16:07:36</users.activated_at>
+	<users.created_at>2010-07-07 16:07:36</users.created_at>
+	<users.updated_at>2010-07-30 14:24:07</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>36</agents.id>
+	<agents.user_id>39814</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>BR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>39729</users.id>
+	<users.country_id>62</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Kenneth Farr</users.full_name>
+	<users.email>kennethfarr@yahoo.com</users.email>
+	<users.postal>00000</users.postal>
+	<users.state>Pichincha</users.state>
+	<users.fax></users.fax>
+	<users.phone>5932-2254-699</users.phone>
+	<users.street>Hidalgo de Pinto 197</users.street>
+	<users.city>Quito</users.city>
+	<users.mobile_phone>593 99736414</users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.skype>kenfarr</users.skype>
+	<users.time_zone>UTC</users.time_zone>
+	<users.ip_address>186.69.89.131</users.ip_address>
+	<users.login>kennethfarr</users.login>
+	<users.crypted_password>33940848227d869bb432b14838358a3487be1524</users.crypted_password>
+	<users.salt>9f196417e8fd8d5064c1780236d4be25b19892d1</users.salt>
+	<users.activation_code>297475e5c0c1c9e7574edceb640c803933cc26ea</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-06-28 19:40:57</users.activated_at>
+	<users.created_at>2010-06-28 19:40:57</users.created_at>
+	<users.updated_at>2010-07-07 16:24:39</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>37</agents.id>
+	<agents.user_id>39729</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>100</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>EC</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>41059</users.id>
+	<users.country_id>3</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Henrik Zagerholm</users.full_name>
+	<users.email>henrik@modondo.com</users.email>
+	<users.postal>55555</users.postal>
+	<users.phone>0455 </users.phone>
+	<users.street>Stumnholmen</users.street>
+	<users.city>Karlskrona</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>hen45zag</users.login>
+	<users.crypted_password>6df4ba121fc4a655f26c88c2dae627f247b12bff</users.crypted_password>
+	<users.password_reset_code>fbeba3024cb94d64b87856848d86ef5547dbcd81</users.password_reset_code>
+	<users.salt>6746c2aefc87cbc426569caebcd841ac190a4926</users.salt>
+	<users.activation_code>b4d53c795c4868c148b08c956ed44e7299d0b5bd</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2010-12-08 18:51:20</users.activated_at>
+	<users.created_at>2010-12-08 18:51:20</users.created_at>
+	<users.updated_at>2011-06-05 18:36:57</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>38</agents.id>
+	<agents.user_id>41059</agents.user_id>
+	<agents.agent_type_id>3</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>0</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>AF</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>43551</users.id>
+	<users.country_id>58</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Michael Støvelbæk</users.full_name>
+	<users.email>norway@intervac.dk</users.email>
+	<users.postal>3500</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+45 40198679</users.phone>
+	<users.street>Birkegården 79</users.street>
+	<users.city>Værløse</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>mic77st</users.login>
+	<users.crypted_password>60a21462227addfb87b73f8cb338ef89ce5aaba2</users.crypted_password>
+	<users.salt>4887b97d59aa636e165315f2691eecd82294e1e1</users.salt>
+	<users.activation_code>7047cbb651187d707c0c280b39596213eae1156a</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2011-07-15 07:36:04</users.activated_at>
+	<users.created_at>2011-07-15 07:36:04</users.created_at>
+	<users.updated_at>2011-07-15 08:15:31</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>39</agents.id>
+	<agents.user_id>43551</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number>110814</agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>NOK</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.payment_info>&lt;p&gt;Tak for jeres tilmelding til Intervac International.&lt;/p&gt;
+&lt;p&gt;I en overgangsperiode bliver de norske Intervac interesser varetaget af den danske repræsentant. Vi er ved at søge efter en lokal norsk repræsentant, men indtil denne er på plads sker kontakten til og fra Danmark.&lt;/p&gt;
+&lt;p&gt;Det betyder også at betaling for medlemsskab (760 NOK)&amp;#160;indtil videre skal betales til en konto i Danmark med følgende oplysninger:&lt;/p&gt;
+&lt;p&gt;Nykredit&lt;br /&gt;
+IBAN: DK9154720004757971&lt;br /&gt;
+BIC: NYKBDKKK&lt;/p&gt;
+&lt;p&gt;Ved overførsel skal I bede om, at alle omkostninger ved overførslen betales af modtager således, at I ikke har ekstra omkostninger ved dette midlertidige arrangement.&lt;/p&gt;
+&lt;p&gt;Mange hilsner&lt;br /&gt;
+Intervac International&lt;/p&gt;
+&lt;p&gt;Michael Støvelbæk&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>NULL</agents.translations>
+	<agents.first_expiry_reminder_interval>14</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>60</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>0</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>30</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>DK</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>43868</users.id>
+	<users.country_id>100</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Mrs Borbala Reka Kiss</users.full_name>
+	<users.email>intervac.hu@gmail.com</users.email>
+	<users.postal>1126 </users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+36-20-344-6666</users.phone>
+	<users.street>24A Kiss Janos alt. u. </users.street>
+	<users.city>Budapest </users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>mrs39kis</users.login>
+	<users.crypted_password>21eadc10fb4a5b94b06bad15fd0730fffa393abe</users.crypted_password>
+	<users.salt>f7e43efc0bf4247738931952927eabb73f65efd1</users.salt>
+	<users.activation_code>f2065ae95026c3a2c89a86a2a1551dc9d341f0c6</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2011-07-31 17:40:04</users.activated_at>
+	<users.created_at>2011-07-31 17:40:04</users.created_at>
+	<users.updated_at>2011-07-31 17:45:32</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>40</agents.id>
+	<agents.user_id>43868</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>HU</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>44621</users.id>
+	<users.country_id>167</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Trude Hoel</users.full_name>
+	<users.email>truhoel@gmail.com</users.email>
+	<users.postal>2312</users.postal>
+	<users.state></users.state>
+	<users.fax></users.fax>
+	<users.phone>+47  94199244</users.phone>
+	<users.street>Stangeveien 502</users.street>
+	<users.city>Ottestad</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>Copenhagen</users.time_zone>
+	<users.login>tru73hoe</users.login>
+	<users.crypted_password>dee7fe8127d2da7b5f4377e026b1074f68975495</users.crypted_password>
+	<users.salt>23ee993a6f8e5c126a486dc7ad9890d62baaf374</users.salt>
+	<users.activation_code>889bde465ae6232d057a78b8468b191beb58b64e</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2011-08-28 14:09:03</users.activated_at>
+	<users.created_at>2011-08-28 14:09:03</users.created_at>
+	<users.updated_at>2012-03-14 13:37:00</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>41</agents.id>
+	<agents.user_id>44621</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>5</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours>16.00-23.00</agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.payment_url></agents.payment_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>NOK</agents.currency>
+	<agents.automatic_membership_activation>1</agents.automatic_membership_activation>
+	<agents.payment_provider_param1>truhoel@gmail.com</agents.payment_provider_param1>
+	<agents.payment_sandbox_param1></agents.payment_sandbox_param1>
+	<agents.payment_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.payment_info>
+	<agents.google_conversion></agents.google_conversion>
+	<agents.translations>no_NO</agents.translations>
+	<agents.first_expiry_reminder_interval>15</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>10</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>5</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>21</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>13</agents.recently_activated>
+	<agents.recently_changed_user>17</agents.recently_changed_user>
+	<agents.last_invisible_memberships>10</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.pay_by_invoice_info>&lt;p&gt;&amp;#160;&lt;/p&gt;</agents.pay_by_invoice_info>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>NO</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>47295</users.id>
+	<users.country_id>103</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Shira Abel</users.full_name>
+	<users.email>israel@intervac.com</users.email>
+	<users.postal></users.postal>
+	<users.state></users.state>
+	<users.fax>+972 (0)4 639-8537</users.fax>
+	<users.phone>+972 54 740-1247</users.phone>
+	<users.street>41 Geulim Street, Zichron</users.street>
+	<users.city>Yaakov</users.city>
+	<users.mobile_phone></users.mobile_phone>
+	<users.email_2nd></users.email_2nd>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>shi85abe</users.login>
+	<users.crypted_password>cd67249d2d08724e4a6841b4693361695ac21212</users.crypted_password>
+	<users.salt>0600696ba3fe6df50bf765502b1fef5c96622bb2</users.salt>
+	<users.activation_code>c4e6a924e097459c841134ac082632bbfacb89a4</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2012-01-07 16:07:17</users.activated_at>
+	<users.created_at>2012-01-07 16:07:17</users.created_at>
+	<users.updated_at>2012-01-07 16:14:16</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>42</agents.id>
+	<agents.user_id>47295</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.office_hours></agents.office_hours>
+	<agents.national_url></agents.national_url>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.consecutive_member_number></agents.consecutive_member_number>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.video_url></agents.video_url>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>IL</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>47925</users.id>
+	<users.country_id>89</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Maria  Marianthie Katouna Petrof</users.full_name>
+	<users.email>hellas@intervac.com</users.email>
+	<users.postal>11632</users.postal>
+	<users.phone>0030 -   210 7512213</users.phone>
+	<users.street>173, Damareos St.</users.street>
+	<users.city>ATHENS</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>mar25pet</users.login>
+	<users.crypted_password>0cde9aac604db672727d4ed39190d49068aefe1e</users.crypted_password>
+	<users.salt>cc1babd9240a06f4cf1c6660bf9a7a7913d66d4c</users.salt>
+	<users.activation_code>b7d3ef8ebee4596128ba9f4b3271f32940870be5</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2012-01-27 17:56:33</users.activated_at>
+	<users.created_at>2012-01-27 17:56:33</users.created_at>
+	<users.updated_at>2012-01-28 08:39:27</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>43</agents.id>
+	<agents.user_id>47925</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>GR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>48460</users.id>
+	<users.country_id>75</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Lucien Mazik</users.full_name>
+	<users.email>biglou@carroll.de</users.email>
+	<users.postal>75011</users.postal>
+	<users.phone>First contact by email, please</users.phone>
+	<users.street>230 Bd Voltaire</users.street>
+	<users.city>Paris</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>luc63maz</users.login>
+	<users.crypted_password>e5291edb1b922c5d7a522923496ca7591a1ffe91</users.crypted_password>
+	<users.salt>56910272bbde3a343c572fd7b92266272d5ffd68</users.salt>
+	<users.activation_code>3df89127978f0b382951784d91b464f8d0fb58c8</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2012-02-16 17:57:16</users.activated_at>
+	<users.created_at>2012-02-16 17:57:16</users.created_at>
+	<users.updated_at>2012-02-16 17:57:16</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>44</agents.id>
+	<agents.user_id>48460</agents.user_id>
+	<agents.agent_type_id>2</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.translator_id>48462</agents.translator_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.translations>el_GR</agents.translations>
+	<agents.first_expiry_reminder_interval>7</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>1</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>1</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>30</agents.no_login_warning_interval>
+	<agents.expiry_notification_copy>1</agents.expiry_notification_copy>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>1</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>1</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>FR</countries.short>
+</RECORD>
+<RECORD>
+	<users.id>49691</users.id>
+	<users.country_id>197</users.country_id>
+	<users.user_type>SiteUser</users.user_type>
+	<users.full_name>Håkan</users.full_name>
+	<users.email>sm7fld@hotmail.com</users.email>
+	<users.postal>29700</users.postal>
+	<users.phone>0736-54 74 05</users.phone>
+	<users.street>Svensson</users.street>
+	<users.city>Everöd</users.city>
+	<users.time_zone>UTC</users.time_zone>
+	<users.login>hå83hå</users.login>
+	<users.crypted_password>718a32440fcfd9a8a58202665a0144be611a9e30</users.crypted_password>
+	<users.salt>9c5591613dcb2ae69aa4e1e5646e5d9eeb779fe4</users.salt>
+	<users.activation_code>b80bb0550e437f69bc535a8fc68b51cb18dcbf15</users.activation_code>
+	<users.enabled>1</users.enabled>
+	<users.activated_at>2012-04-03 18:16:27</users.activated_at>
+	<users.created_at>2012-04-03 18:16:27</users.created_at>
+	<users.updated_at>2012-04-03 18:17:10</users.updated_at>
+	<users.wants_newsletter>1</users.wants_newsletter>
+	<agents.id>45</agents.id>
+	<agents.user_id>49691</agents.user_id>
+	<agents.agent_type_id>1</agents.agent_type_id>
+	<agents.payment_provider_id>1</agents.payment_provider_id>
+	<agents.board_member>0</agents.board_member>
+	<agents.use_fixed_nearest_cities>0</agents.use_fixed_nearest_cities>
+	<agents.default_membership_in_days>365</agents.default_membership_in_days>
+	<agents.member_number_length>6</agents.member_number_length>
+	<agents.delete_unpaid_registrations>180</agents.delete_unpaid_registrations>
+	<agents.currency>EUR</agents.currency>
+	<agents.automatic_membership_activation>0</agents.automatic_membership_activation>
+	<agents.first_expiry_reminder_interval>0</agents.first_expiry_reminder_interval>
+	<agents.second_expiry_reminder_interval>0</agents.second_expiry_reminder_interval>
+	<agents.third_expiry_reminder_interval>0</agents.third_expiry_reminder_interval>
+	<agents.no_login_warning_interval>0</agents.no_login_warning_interval>
+	<agents.send_new_account_emails>0</agents.send_new_account_emails>
+	<agents.renewal_discount_x_days_before>30</agents.renewal_discount_x_days_before>
+	<agents.renewal_discount_x_days_after>30</agents.renewal_discount_x_days_after>
+	<agents.recently_activated>0</agents.recently_activated>
+	<agents.recently_changed_user>0</agents.recently_changed_user>
+	<agents.last_invisible_memberships>0</agents.last_invisible_memberships>
+	<agents.send_automatic_welcome_copies>0</agents.send_automatic_welcome_copies>
+	<agents.send_automatic_activation_copies>0</agents.send_automatic_activation_copies>
+	<agents.max_exchange_agreements>50</agents.max_exchange_agreements>
+	<agents.pay_by_invoice>0</agents.pay_by_invoice>
+	<agents.automatic_activation_for_pay_by_invoice>0</agents.automatic_activation_for_pay_by_invoice>
+	<countries.short>SE</countries.short>
+</RECORD>
+</RECORDS>

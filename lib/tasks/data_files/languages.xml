@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<RECORDS>
+<RECORD>
+	<short>en</short>
+	<en_GB>English</en_GB>
+	<de_AT>Englisch</de_AT>
+	<nl_BE>Engels</nl_BE>
+	<de_DE>Englisch</de_DE>
+	<da_DK>engelsk</da_DK>
+	<es_ES>Inglés</es_ES>
+	<fi_FI>englanti</fi_FI>
+	<fr_FR>Anglais</fr_FR>
+	<el_GR>Αγγλικά</el_GR>
+	<is_IS>Enska</is_IS>
+	<it_IT>Inglese</it_IT>
+	<no_NO>snakker/skriver engelsk</no_NO>
+	<pl_PL>angielski</pl_PL>
+	<pt_PT>Inglês</pt_PT>
+	<sv_SE>Engelska</sv_SE>
+	<ru_RU>English</ru_RU>
+	<ja_JP>英語</ja_JP>
+	<nl_NL>Engels</nl_NL>
+	<ro_RO>engleza</ro_RO>
+	<hu_HU>English</hu_HU>
+</RECORD>
+<RECORD>
+	<short>it</short>
+	<en_GB>Italian</en_GB>
+	<de_AT>Italienisch</de_AT>
+	<nl_BE>Italiaans</nl_BE>
+	<de_DE>Italienisch</de_DE>
+	<da_DK>italiensk</da_DK>
+	<es_ES>Italiano</es_ES>
+	<fi_FI>italia</fi_FI>
+	<fr_FR>Italien</fr_FR>
+	<el_GR>Ιταλικά</el_GR>
+	<is_IS>Ítalska</is_IS>
+	<it_IT>Italiano</it_IT>
+	<no_NO>snakker/skriver italiensk</no_NO>
+	<pl_PL>włoski</pl_PL>
+	<pt_PT>Italiano</pt_PT>
+	<sv_SE>Italienska</sv_SE>
+	<ru_RU>Italian</ru_RU>
+	<ja_JP>イタリア語</ja_JP>
+	<nl_NL>Italiaans</nl_NL>
+	<ro_RO>italiana</ro_RO>
+	<hu_HU>Italian</hu_HU>
+</RECORD>
+<RECORD>
+	<short>fr</short>
+	<en_GB>French</en_GB>
+	<de_AT>Französich</de_AT>
+	<nl_BE>Frans</nl_BE>
+	<de_DE>Französisch</de_DE>
+	<da_DK>fransk</da_DK>
+	<es_ES>Francés</es_ES>
+	<fi_FI>ranska</fi_FI>
+	<fr_FR>Français</fr_FR>
+	<el_GR>Γαλλικά</el_GR>
+	<is_IS>Franska</is_IS>
+	<it_IT>Francese</it_IT>
+	<no_NO>snakker/skriver fransk</no_NO>
+	<pl_PL>francuski</pl_PL>
+	<pt_PT>Francês</pt_PT>
+	<sv_SE>Franska</sv_SE>
+	<ru_RU>French</ru_RU>
+	<ja_JP>フランス語</ja_JP>
+	<nl_NL>Frans</nl_NL>
+	<ro_RO>franceza</ro_RO>
+	<hu_HU>French</hu_HU>
+</RECORD>
+<RECORD>
+	<short>es</short>
+	<en_GB>Spanish</en_GB>
+	<de_AT>Spanisch</de_AT>
+	<nl_BE>Spaans</nl_BE>
+	<de_DE>Spanisch</de_DE>
+	<da_DK>spansk</da_DK>
+	<es_ES>Español</es_ES>
+	<fi_FI>espanja</fi_FI>
+	<fr_FR>Espagnol</fr_FR>
+	<el_GR>Ισπανικά</el_GR>
+	<is_IS>Spænska</is_IS>
+	<it_IT>Spagnolo</it_IT>
+	<no_NO>snakker/skriver spansk</no_NO>
+	<pl_PL>hiszpański</pl_PL>
+	<pt_PT>Espanhol</pt_PT>
+	<sv_SE>Spanska</sv_SE>
+	<ru_RU>Spanish</ru_RU>
+	<ja_JP>スペイン語</ja_JP>
+	<nl_NL>Spaans</nl_NL>
+	<ro_RO>spaniola</ro_RO>
+	<hu_HU>Spanish</hu_HU>
+</RECORD>
+<RECORD>
+	<short>de</short>
+	<en_GB>German</en_GB>
+	<de_AT>Deutsch</de_AT>
+	<nl_BE>Duits</nl_BE>
+	<de_DE>Deutsch</de_DE>
+	<da_DK>tysk</da_DK>
+	<es_ES>Alemán</es_ES>
+	<fi_FI>saksa</fi_FI>
+	<fr_FR>Allemand</fr_FR>
+	<el_GR>Γερμανικά</el_GR>
+	<is_IS>Þýska</is_IS>
+	<it_IT>Tedesco</it_IT>
+	<no_NO>snakker/skriver tysk</no_NO>
+	<pl_PL>niemiecki</pl_PL>
+	<pt_PT>Alemão</pt_PT>
+	<sv_SE>Tyska</sv_SE>
+	<ru_RU>German</ru_RU>
+	<ja_JP>ドイツ語</ja_JP>
+	<nl_NL>Duits</nl_NL>
+	<ro_RO>germana</ro_RO>
+	<hu_HU>German</hu_HU>
+</RECORD>
+<RECORD>
+	<short>nl</short>
+	<en_GB>Dutch</en_GB>
+	<de_AT>Niederländisch</de_AT>
+	<nl_BE>Nederlands</nl_BE>
+	<de_DE>Niederländisch</de_DE>
+	<da_DK>Dutch</da_DK>
+	<es_ES>Holandés</es_ES>
+	<fi_FI>hollanti</fi_FI>
+	<fr_FR>Néerlandais</fr_FR>
+	<el_GR>Ολλανδικά</el_GR>
+	<is_IS>Hollenska</is_IS>
+	<it_IT>Olandese</it_IT>
+	<no_NO>snakker/skriver hollandsk</no_NO>
+	<pl_PL></pl_PL>
+	<pt_PT>Holandês</pt_PT>
+	<sv_SE>Holländska</sv_SE>
+	<ru_RU>Dutch</ru_RU>
+	<ja_JP>オランダ語</ja_JP>
+	<nl_NL>Nederlands</nl_NL>
+	<ro_RO>olandeza</ro_RO>
+	<hu_HU>Dutch</hu_HU>
+</RECORD>
+<RECORD>
+	<short>da</short>
+	<en_GB>Danish</en_GB>
+	<de_AT>Danish</de_AT>
+	<nl_BE>Deens</nl_BE>
+	<de_DE>Dänisch</de_DE>
+	<da_DK>Danish</da_DK>
+	<es_ES>Danish</es_ES>
+	<fi_FI>Danish</fi_FI>
+	<fr_FR>Danish</fr_FR>
+	<el_GR>Danish</el_GR>
+	<is_IS>Danska</is_IS>
+	<it_IT>Danish</it_IT>
+	<no_NO>Danish</no_NO>
+	<pl_PL>Danish</pl_PL>
+	<pt_PT>Danish</pt_PT>
+	<sv_SE>Danish</sv_SE>
+	<ru_RU>Danish</ru_RU>
+	<ja_JP>Danish</ja_JP>
+	<nl_NL>Danish</nl_NL>
+	<ro_RO>Danish</ro_RO>
+	<hu_HU>Danish</hu_HU>
+</RECORD>
+<RECORD>
+	<short>fi</short>
+	<en_GB>Finnish</en_GB>
+	<de_AT>Finnish</de_AT>
+	<nl_BE>Fins</nl_BE>
+	<de_DE>Finnisch</de_DE>
+	<da_DK>Finnish</da_DK>
+	<es_ES>Finnish</es_ES>
+	<fi_FI>Finnish</fi_FI>
+	<fr_FR>Finnish</fr_FR>
+	<el_GR>Finnish</el_GR>
+	<is_IS>Finnska</is_IS>
+	<it_IT>Finnish</it_IT>
+	<no_NO>Finnish</no_NO>
+	<pl_PL>Finnish</pl_PL>
+	<pt_PT>Finnish</pt_PT>
+	<sv_SE>Finnish</sv_SE>
+	<ru_RU>Finnish</ru_RU>
+	<ja_JP>Finnish</ja_JP>
+	<nl_NL>Finnish</nl_NL>
+	<ro_RO>Finnish</ro_RO>
+	<hu_HU>Finnish</hu_HU>
+</RECORD>
+<RECORD>
+	<short>el</short>
+	<en_GB>Greek</en_GB>
+	<de_AT>Greek</de_AT>
+	<nl_BE>Grieks</nl_BE>
+	<de_DE>Griechisch</de_DE>
+	<da_DK>Greek</da_DK>
+	<es_ES>Greek</es_ES>
+	<fi_FI>Greek</fi_FI>
+	<fr_FR>Greek</fr_FR>
+	<el_GR>Greek</el_GR>
+	<is_IS>Gríska</is_IS>
+	<it_IT>Greek</it_IT>
+	<no_NO>Greek</no_NO>
+	<pl_PL>Greek</pl_PL>
+	<pt_PT>Greek</pt_PT>
+	<sv_SE>Greek</sv_SE>
+	<ru_RU>Greek</ru_RU>
+	<ja_JP>Greek</ja_JP>
+	<nl_NL>Greek</nl_NL>
+	<ro_RO>Greek</ro_RO>
+	<hu_HU>Greek</hu_HU>
+</RECORD>
+<RECORD>
+	<short>is</short>
+	<en_GB>Icelandic</en_GB>
+	<de_AT>Icelandic</de_AT>
+	<nl_BE>Ijslands</nl_BE>
+	<de_DE>Isländisch</de_DE>
+	<da_DK>Icelandic</da_DK>
+	<es_ES>Icelandic</es_ES>
+	<fi_FI>Icelandic</fi_FI>
+	<fr_FR>Icelandic</fr_FR>
+	<el_GR>Icelandic</el_GR>
+	<is_IS>Íslenska</is_IS>
+	<it_IT>Icelandic</it_IT>
+	<no_NO>Icelandic</no_NO>
+	<pl_PL>Icelandic</pl_PL>
+	<pt_PT>Icelandic</pt_PT>
+	<sv_SE>Icelandic</sv_SE>
+	<ru_RU>Icelandic</ru_RU>
+	<ja_JP>Icelandic</ja_JP>
+	<nl_NL>Icelandic</nl_NL>
+	<ro_RO>Icelandic</ro_RO>
+	<hu_HU>Icelandic</hu_HU>
+</RECORD>
+<RECORD>
+	<short>jp</short>
+	<en_GB>Japanese</en_GB>
+	<de_AT>Japanese</de_AT>
+	<nl_BE>Japans</nl_BE>
+	<de_DE>Japanisch</de_DE>
+	<da_DK>Japanese</da_DK>
+	<es_ES>Japanese</es_ES>
+	<fi_FI>Japanese</fi_FI>
+	<fr_FR>Japanese</fr_FR>
+	<el_GR>Japanese</el_GR>
+	<is_IS>Japanska</is_IS>
+	<it_IT>Japanese</it_IT>
+	<no_NO>Japanese</no_NO>
+	<pl_PL>Japanese</pl_PL>
+	<pt_PT>Japanese</pt_PT>
+	<sv_SE>Japanese</sv_SE>
+	<ru_RU>Japanese</ru_RU>
+	<ja_JP>Japanese</ja_JP>
+	<nl_NL>Japanese</nl_NL>
+	<ro_RO>Japanese</ro_RO>
+	<hu_HU>Japanese</hu_HU>
+</RECORD>
+<RECORD>
+	<short>no</short>
+	<en_GB>Norwegian</en_GB>
+	<de_AT>Norwegian</de_AT>
+	<nl_BE>Noors</nl_BE>
+	<de_DE>Norwegisch</de_DE>
+	<da_DK>Norwegian</da_DK>
+	<es_ES>Norwegian</es_ES>
+	<fi_FI>Norwegian</fi_FI>
+	<fr_FR>Norwegian</fr_FR>
+	<el_GR>Norwegian</el_GR>
+	<is_IS>Norska</is_IS>
+	<it_IT>Norwegian</it_IT>
+	<no_NO>Norwegian</no_NO>
+	<pl_PL>Norwegian</pl_PL>
+	<pt_PT>Norwegian</pt_PT>
+	<sv_SE>Norwegian</sv_SE>
+	<ru_RU>Norwegian</ru_RU>
+	<ja_JP>Norwegian</ja_JP>
+	<nl_NL>Norwegian</nl_NL>
+	<ro_RO>Norwegian</ro_RO>
+	<hu_HU>Norwegian</hu_HU>
+</RECORD>
+<RECORD>
+	<short>pl</short>
+	<en_GB>Polish</en_GB>
+	<de_AT>Polish</de_AT>
+	<nl_BE>Pools</nl_BE>
+	<de_DE>Polisch</de_DE>
+	<da_DK>Polish</da_DK>
+	<es_ES>Polish</es_ES>
+	<fi_FI>Polish</fi_FI>
+	<fr_FR>Polish</fr_FR>
+	<el_GR>Polish</el_GR>
+	<is_IS>Pólska</is_IS>
+	<it_IT>Polish</it_IT>
+	<no_NO>Polish</no_NO>
+	<pl_PL>Polish</pl_PL>
+	<pt_PT>Polish</pt_PT>
+	<sv_SE>Polish</sv_SE>
+	<ru_RU>Polish</ru_RU>
+	<ja_JP>Polish</ja_JP>
+	<nl_NL>Polish</nl_NL>
+	<ro_RO>Polish</ro_RO>
+	<hu_HU>Polish</hu_HU>
+</RECORD>
+<RECORD>
+	<short>pt</short>
+	<en_GB>Portuguese</en_GB>
+	<de_AT>Portuguese</de_AT>
+	<nl_BE>Portugees</nl_BE>
+	<de_DE>Portugiesisch</de_DE>
+	<da_DK>Portuguese</da_DK>
+	<es_ES>Portuguese</es_ES>
+	<fi_FI>Portuguese</fi_FI>
+	<fr_FR>Portuguese</fr_FR>
+	<el_GR>Portuguese</el_GR>
+	<is_IS>Portúgalska</is_IS>
+	<it_IT>Portuguese</it_IT>
+	<no_NO>Portuguese</no_NO>
+	<pl_PL>Portuguese</pl_PL>
+	<pt_PT>Portuguese</pt_PT>
+	<sv_SE>Portuguese</sv_SE>
+	<ru_RU>Portuguese</ru_RU>
+	<ja_JP>Portuguese</ja_JP>
+	<nl_NL>Portuguese</nl_NL>
+	<ro_RO>Portuguese</ro_RO>
+	<hu_HU>Portuguese</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ro</short>
+	<en_GB>Romanian</en_GB>
+	<de_AT>Romanian</de_AT>
+	<nl_BE>Roemeens</nl_BE>
+	<de_DE>Rumänisch</de_DE>
+	<da_DK>Romanian</da_DK>
+	<es_ES>Romanian</es_ES>
+	<fi_FI>Romanian</fi_FI>
+	<fr_FR>Romanian</fr_FR>
+	<el_GR>Romanian</el_GR>
+	<is_IS>Rúmenska</is_IS>
+	<it_IT>Romanian</it_IT>
+	<no_NO>Romanian</no_NO>
+	<pl_PL>Romanian</pl_PL>
+	<pt_PT>Romanian</pt_PT>
+	<sv_SE>Romanian</sv_SE>
+	<ru_RU>Romanian</ru_RU>
+	<ja_JP>Romanian</ja_JP>
+	<nl_NL>Romanian</nl_NL>
+	<ro_RO>Romanian</ro_RO>
+	<hu_HU>Romanian</hu_HU>
+</RECORD>
+<RECORD>
+	<short>ru</short>
+	<en_GB>Russian</en_GB>
+	<de_AT>Russian</de_AT>
+	<nl_BE>Russisch</nl_BE>
+	<de_DE>Russisch</de_DE>
+	<da_DK>Russian</da_DK>
+	<es_ES>Russian</es_ES>
+	<fi_FI>Russian</fi_FI>
+	<fr_FR>Russian</fr_FR>
+	<el_GR>Russian</el_GR>
+	<is_IS>Rússneska</is_IS>
+	<it_IT>Russian</it_IT>
+	<no_NO>Russian</no_NO>
+	<pl_PL>Russian</pl_PL>
+	<pt_PT>Russian</pt_PT>
+	<sv_SE>Russian</sv_SE>
+	<ru_RU>Russian</ru_RU>
+	<ja_JP>Russian</ja_JP>
+	<nl_NL>Russian</nl_NL>
+	<ro_RO>Russian</ro_RO>
+	<hu_HU>Russian</hu_HU>
+</RECORD>
+<RECORD>
+	<short>sv</short>
+	<en_GB>Swedish</en_GB>
+	<de_AT>Swedish</de_AT>
+	<nl_BE>Zweeds</nl_BE>
+	<de_DE>Schwedisch</de_DE>
+	<da_DK>Swedish</da_DK>
+	<es_ES>Swedish</es_ES>
+	<fi_FI>Swedish</fi_FI>
+	<fr_FR>Swedish</fr_FR>
+	<el_GR>Swedish</el_GR>
+	<is_IS>Sænska</is_IS>
+	<it_IT>Swedish</it_IT>
+	<no_NO>Swedish</no_NO>
+	<pl_PL>Swedish</pl_PL>
+	<pt_PT>Swedish</pt_PT>
+	<sv_SE>Swedish</sv_SE>
+	<ru_RU>Swedish</ru_RU>
+	<ja_JP>Swedish</ja_JP>
+	<nl_NL>Swedish</nl_NL>
+	<ro_RO>Swedish</ro_RO>
+	<hu_HU>Swedish</hu_HU>
+</RECORD>
+</RECORDS>

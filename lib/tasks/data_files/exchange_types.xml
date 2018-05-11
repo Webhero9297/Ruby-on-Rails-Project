@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<RECORDS>
+<RECORD>
+	<id>1</id>
+	<short>AH</short>
+	<en_GB>House-sitting</en_GB>
+	<de_AT>Haushüten</de_AT>
+	<nl_BE>Huisoppas gevraagd</nl_BE>
+	<de_DE>Haushüten</de_DE>
+	<da_DK>Pasning af hus ønskes</da_DK>
+	<es_ES>Vivienda disponible para ser vigilada.</es_ES>
+	<fi_FI>talonvahtia etsitään</fi_FI>
+	<fr_FR>Gardiennage proposé (home to house-sit)</fr_FR>
+	<el_GR>Το σπίτι προσφέρεται για φύλαξη</el_GR>
+	<is_IS>Hússeta í boði</is_IS>
+	<it_IT>Si offre un alloggio da sorvegliare (house-sitting)</it_IT>
+	<no_NO>tilbyr gratis losji mot pass av boligen</no_NO>
+	<pl_PL>Opieka nad domem</pl_PL>
+	<pt_PT>Procura quem cuide da casa</pt_PT>
+	<sv_SE>Passa hus</sv_SE>
+	<ru_RU>Требуется присмотр за домом</ru_RU>
+	<ja_JP>ハウスシッティング</ja_JP>
+	<nl_NL>Huisoppas gevraagd</nl_NL>
+	<ro_RO>ingrijirea-casei</ro_RO>
+</RECORD>
+<RECORD>
+	<id>2</id>
+	<short>BB</short>
+	<en_GB>Bed &amp; Breakfast</en_GB>
+	<de_AT>Übernachtung mit Frühstück</de_AT>
+	<nl_BE>Bed &amp; Breakfast</nl_BE>
+	<de_DE>Übernachtung mit Frühstück</de_DE>
+	<da_DK>B&amp;B</da_DK>
+	<es_ES>Bed &amp; Breakfast (se ofrece alojamiento y desayuno)</es_ES>
+	<fi_FI>aamiaismajoitusta</fi_FI>
+	<fr_FR>Bed &amp; Breakfast</fr_FR>
+	<el_GR>Προσφέρεται Ύπνος και Πρωϊνό</el_GR>
+	<is_IS>Gisting með morgunverði</is_IS>
+	<it_IT>Bed &amp; Breakfast (indicare il numero delle persone)</it_IT>
+	<no_NO>overnatting og frokost</no_NO>
+	<pl_PL>Bed &amp; Breakfast</pl_PL>
+	<pt_PT>Alojamento e pequeno almoço (Bed &amp; Breakfast)</pt_PT>
+	<sv_SE>Bed &amp; Breakfast</sv_SE>
+	<ru_RU>Ночлег с завтраком</ru_RU>
+	<ja_JP>ベット・アンド・ブレックファスト</ja_JP>
+	<nl_NL>Bed &amp; Breakfast</nl_NL>
+	<ro_RO>pat&amp; mic dejun</ro_RO>
+</RECORD>
+<RECORD>
+	<id>3</id>
+	<short>DX</short>
+	<en_GB>Double exchange</en_GB>
+	<de_AT>Doppeltausch</de_AT>
+	<nl_BE>Dubbelruil</nl_BE>
+	<de_DE>Doppeltausch</de_DE>
+	<da_DK>Dobbeltbytte</da_DK>
+	<es_ES>Doble intercambio (Dos familias con dos familias)</es_ES>
+	<fi_FI>kaksoisvaihtoa</fi_FI>
+	<fr_FR>Double échange</fr_FR>
+	<el_GR>Διπλή ανταλλαγή</el_GR>
+	<is_IS>Tvöföld skipti</is_IS>
+	<it_IT>Doppio scambio (due famiglie desiderano 2 case)</it_IT>
+	<no_NO>dobbelt boligbytte</no_NO>
+	<pl_PL>Podwójna wymiana</pl_PL>
+	<pt_PT>Troca dupla</pt_PT>
+	<sv_SE>Dubbelutbyte</sv_SE>
+	<ru_RU>Двойной обмен</ru_RU>
+	<ja_JP>ダブルエクスチェンジ</ja_JP>
+	<nl_NL>Dubbelruil</nl_NL>
+	<ro_RO>schimb dublu</ro_RO>
+</RECORD>
+<RECORD>
+	<id>4</id>
+	<short>H</short>
+	<en_GB>Hospitality offered</en_GB>
+	<de_AT>Ich nehme zahlende Gäste auf</de_AT>
+	<nl_BE>Gastvrijheid aangeboden</nl_BE>
+	<de_DE>Nehme zahlende Gäste auf</de_DE>
+	<da_DK>Gæstfrihed tilbydes</da_DK>
+	<es_ES>Se ofrece hospitalidad</es_ES>
+	<fi_FI>vastaanotetaan vieraita</fi_FI>
+	<fr_FR>Accueil d'hôte(s), hospitalité offerte</fr_FR>
+	<el_GR>Προσφέρεται Φιλοξενία</el_GR>
+	<is_IS>Gestrisni í boði</is_IS>
+	<it_IT>Offerta di Ospitalità</it_IT>
+	<no_NO>ønsker å ta imot besøk</no_NO>
+	<pl_PL>Oferuję gościnę</pl_PL>
+	<pt_PT>Recebe hóspedes</pt_PT>
+	<sv_SE>Gästfrihet erbjudes</sv_SE>
+	<ru_RU>Предложение гостеприимства</ru_RU>
+	<ja_JP>受け入れの提供</ja_JP>
+	<nl_NL>Gastvrijheid aangeboden</nl_NL>
+	<ro_RO>oferta de gazduire</ro_RO>
+</RECORD>
+<RECORD>
+	<id>5</id>
+	<short>HS</short>
+	<en_GB>Want to house-sit</en_GB>
+	<de_AT>Ich möchte ein Haus hüten</de_AT>
+	<nl_BE>Kandidaat voor huisoppas</nl_BE>
+	<de_DE>Möchte ein Haus hüten</de_DE>
+	<da_DK>Ønsker at passe hus</da_DK>
+	<es_ES>Desea vigilar vivienda</es_ES>
+	<fi_FI>halutaan talonvahdiksi</fi_FI>
+	<fr_FR>Recherche logement à surveiller (want to house-sit)</fr_FR>
+	<el_GR>Θέλω να μείνω σε σπίτι για να το φυλάω</el_GR>
+	<is_IS>Óskað eftir hússetu</is_IS>
+	<it_IT>Si chiede un alloggio da sorvegliare (house sitting)</it_IT>
+	<no_NO>ønsker å passe boligen</no_NO>
+	<pl_PL>Zaopiekuję się domem</pl_PL>
+	<pt_PT>Quero cuidar de casa</pt_PT>
+	<sv_SE>Vill passa hus</sv_SE>
+	<ru_RU>Предпочитаю присматривать за домом</ru_RU>
+	<ja_JP>ハウスシット希望</ja_JP>
+	<nl_NL>Kandidaat voor huisoppas</nl_NL>
+	<ro_RO>doresc sa am grija de casa</ro_RO>
+</RECORD>
+<RECORD>
+	<id>6</id>
+	<short>HW</short>
+	<en_GB>Hospitality wanted</en_GB>
+	<de_AT>Ich suche Unterkunft als zahlender Gast</de_AT>
+	<nl_BE>Gastvrijheid gevraagd</nl_BE>
+	<de_DE>Suche Unterkunft als zahlender Gast</de_DE>
+	<da_DK>Gæstfrihed ønskes</da_DK>
+	<es_ES>Desea hospitalidad</es_ES>
+	<fi_FI>halutaan vieraaksi</fi_FI>
+	<fr_FR>Recherche hospitalité</fr_FR>
+	<el_GR>Ζητώ Φιλοξενία</el_GR>
+	<is_IS>Óska eftir gestrisni</is_IS>
+	<it_IT>Si chiede ospitalità</it_IT>
+	<no_NO>ønsker å komme på besøk</no_NO>
+	<pl_PL>Poszukuję gościny</pl_PL>
+	<pt_PT>Procura quem receba hóspedes</pt_PT>
+	<sv_SE>Önskar gästfrihet</sv_SE>
+	<ru_RU>Требуется гостеприимство</ru_RU>
+	<ja_JP>ホームステイ希望</ja_JP>
+	<nl_NL>Gastvrijheid gevraagd</nl_NL>
+	<ro_RO>doresc sa mi se ofere gazduire</ro_RO>
+</RECORD>
+<RECORD>
+	<id>7</id>
+	<short>LR</short>
+	<en_GB>Long-term rental wanted</en_GB>
+	<de_AT>Ich suche eine Lang-Zeit-Miete</de_AT>
+	<nl_BE>Lange termijn huur gevraagd</nl_BE>
+	<de_DE>Suche Langzeit-Aufenthalt zur Miete</de_DE>
+	<da_DK>Langtidsleje ønskes</da_DK>
+	<es_ES>Desea alquilar vivienda durante un periodo largo</es_ES>
+	<fi_FI>halutaan pitkäaikaista vuokrausta</fi_FI>
+	<fr_FR>Location longue durée</fr_FR>
+	<el_GR>Ζητώ ενοικίαση Μεγάλης Χρονικής Διάρκειας</el_GR>
+	<is_IS>Óskað eftir langtímaleigu</is_IS>
+	<it_IT>Affitto di lunga durata</it_IT>
+	<no_NO>ønsker langvarig leie</no_NO>
+	<pl_PL>Poszukuję domu do wynajęcia na dłuższy czas</pl_PL>
+	<pt_PT>Procura arrendamento de longa duração</pt_PT>
+	<sv_SE>Långtidshyra önskas</sv_SE>
+	<ru_RU>Требуется долгосрочная аренда</ru_RU>
+	<ja_JP>長期賃貸希望</ja_JP>
+	<nl_NL>Lange termijn huur gevraagd</nl_NL>
+	<ro_RO>inchiriere pe termen lung</ro_RO>
+</RECORD>
+<RECORD>
+	<id>8</id>
+	<short>LX</short>
+	<en_GB>Long-term exchange wanted</en_GB>
+	<de_AT>Ich suche einen Lang-Zeit-Tausch</de_AT>
+	<nl_BE>Ruil voor langere termijn</nl_BE>
+	<de_DE>Suche Langzeitausch</de_DE>
+	<da_DK>Langtidsbytte ønskes</da_DK>
+	<es_ES>Desea Intercambio de larga duración</es_ES>
+	<fi_FI>halutaan pitkäaikaista vaihtoa</fi_FI>
+	<fr_FR>Échange longue durée</fr_FR>
+	<el_GR>Ζητώ Ανταλλαγή Μεγάλης Χρονικής Διάρκειας</el_GR>
+	<is_IS>Óskað eftir langtíma skiptum</is_IS>
+	<it_IT>Si desidera uno scambio di lunga durata</it_IT>
+	<no_NO>ønsker langvarig boligbytte</no_NO>
+	<pl_PL>Wymiana na dłuższy czas</pl_PL>
+	<pt_PT>Procura troca prolongada</pt_PT>
+	<sv_SE>Långtidsutbyte önskas</sv_SE>
+	<ru_RU>Требуется долгосрочный обмен</ru_RU>
+	<ja_JP>長期エクスチェンジ希望</ja_JP>
+	<nl_NL>Ruil voor langere termijn</nl_NL>
+	<ro_RO>schimb pe termen lung</ro_RO>
+</RECORD>
+<RECORD>
+	<id>9</id>
+	<short>NX</short>
+	<en_GB>Non-Simultaneous Exchange</en_GB>
+	<de_AT>Tausch nicht geichzeitig</de_AT>
+	<nl_BE>Niet-simultane ruil</nl_BE>
+	<de_DE>Tausch nicht geichzeitig</de_DE>
+	<da_DK>Bytte på forskellige tidspunkter</da_DK>
+	<es_ES>Intercambio no sumultáneo</es_ES>
+	<fi_FI>eriaikaista vaihtoa</fi_FI>
+	<fr_FR>Échange non-simultané</fr_FR>
+	<el_GR>Όχι ταυτόχρονη ανταλλαγή</el_GR>
+	<is_IS>Skipti á mismunandi tímum</is_IS>
+	<it_IT>Scambio non simultaneo</it_IT>
+	<no_NO>Boligbytte som ikke skjer samtidig</no_NO>
+	<pl_PL>Wymiana nierównoczesna</pl_PL>
+	<pt_PT>Troca não simultânea</pt_PT>
+	<sv_SE>Non-Simultaneous Exchange</sv_SE>
+	<ru_RU>Неодновременный обмен</ru_RU>
+	<ja_JP>同時ではないエクスチェンジ</ja_JP>
+	<nl_NL>Niet-simultane ruil</nl_NL>
+	<ro_RO>schimb ne -simultan</ro_RO>
+</RECORD>
+<RECORD>
+	<id>10</id>
+	<short>O</short>
+	<en_GB>Open for all offers</en_GB>
+	<de_AT>Für alle Angebote offen</de_AT>
+	<nl_BE>Open voor alle aanbiedingen</nl_BE>
+	<de_DE>Offen für alle Angebote</de_DE>
+	<da_DK>Åben for alle tilbud</da_DK>
+	<es_ES>Abierto a todas las ofertas</es_ES>
+	<fi_FI>avoinna kaikille tarjouksille</fi_FI>
+	<fr_FR>Ouvert à toute transaction</fr_FR>
+	<el_GR>Ανοικτός (για όλα τα είδη προσφορών)</el_GR>
+	<is_IS>Opinn fyrir tilboðum</is_IS>
+	<it_IT>Aperto a tutte le offerte</it_IT>
+	<no_NO>åpen for ethvert tilbud</no_NO>
+	<pl_PL>Otwarty na wszelkie oferty</pl_PL>
+	<pt_PT>Aberto a todas as ofertas</pt_PT>
+	<sv_SE>Öppen för alla förslag</sv_SE>
+	<ru_RU>Открыт для всех предложений</ru_RU>
+	<ja_JP>すべてのオファー受け入れ</ja_JP>
+	<nl_NL>Open voor alle aanbiedingen</nl_NL>
+	<ro_RO>deschis pentru toate ofertele</ro_RO>
+</RECORD>
+<RECORD>
+	<id>11</id>
+	<short>OY</short>
+	<en_GB>Hospitality for young person(s)</en_GB>
+	<de_AT>Ich nehme Jugendliche gegen Bezahlung auf</de_AT>
+	<nl_BE>Gastvrijheid aangeboden aan jongeren</nl_BE>
+	<de_DE>Aufnahme von Jugendlichen - gegen Bezahlung</de_DE>
+	<da_DK>Gæstfrihed for unge</da_DK>
+	<es_ES>Hospitalidad para joven(es)</es_ES>
+	<fi_FI>vierasvaihtoa nuorille</fi_FI>
+	<fr_FR>Accueil, hospitalité offerte</fr_FR>
+	<el_GR>Φιλοξενία προσφέρεται σε νέο(υς)</el_GR>
+	<is_IS>Gestrisni boðin  fyrir táning/a</is_IS>
+	<it_IT>Si offre ospitalità ad un adolescente</it_IT>
+	<no_NO>besøksmulighet for ungdom</no_NO>
+	<pl_PL>Gościna dla młodzieży</pl_PL>
+	<pt_PT>Hospitalidade para jovens</pt_PT>
+	<sv_SE>Gästfrihet för ungdom/ungdomar</sv_SE>
+	<ru_RU>Гостеприимство для молодых людей</ru_RU>
+	<ja_JP>若者へのホームステイ</ja_JP>
+	<nl_NL>Gastvrijheid aangeboden aan jongeren</nl_NL>
+	<ro_RO>gazduire pentru tineri</ro_RO>
+</RECORD>
+<RECORD>
+	<id>12</id>
+	<short>RO</short>
+	<en_GB>Home for rent or exchange</en_GB>
+	<de_AT>Home for rent or exchange</de_AT>
+	<nl_BE>Huis om te huren of te ruilen</nl_BE>
+	<de_DE>Vermietung angeboten</de_DE>
+	<da_DK>Boligbytte eller leje</da_DK>
+	<es_ES>Home for rent or exchange</es_ES>
+	<fi_FI>Home for rent or exchange</fi_FI>
+	<fr_FR>Location ou Échange</fr_FR>
+	<el_GR>Home for rent or exchange</el_GR>
+	<is_IS>Home for rent or exchange</is_IS>
+	<it_IT>Home for rent or exchange</it_IT>
+	<no_NO>Bolig til leie eller boligbytte</no_NO>
+	<pl_PL>Dom do wynajęcia lub wymiany</pl_PL>
+	<pt_PT>Casa para alugar ou trocar</pt_PT>
+	<sv_SE>Home for rent or exchange</sv_SE>
+	<ru_RU>Дом в аренду или обмен</ru_RU>
+	<ja_JP>賃貸又はエクスチェンジ</ja_JP>
+	<nl_NL>Home for rent or exchange</nl_NL>
+	<ro_RO>casa pentru inchiriere sau schimb</ro_RO>
+</RECORD>
+<RECORD>
+	<id>13</id>
+	<short>RR</short>
+	<en_GB>Home wanted to rent</en_GB>
+	<de_AT>Ich möchte mieten</de_AT>
+	<nl_BE>Huis te huur gevraagd</nl_BE>
+	<de_DE>Möchte Haus/Wohung/Appartement mieten</de_DE>
+	<da_DK>Ønsker at leje en bolig</da_DK>
+	<es_ES>Se desea alquilar casa</es_ES>
+	<fi_FI>koti halutaan vuokrata</fi_FI>
+	<fr_FR>Recherche de location</fr_FR>
+	<el_GR>Ζητώ να ενοικιάσω κατοικία</el_GR>
+	<is_IS>Óska eftir leigu</is_IS>
+	<it_IT>Si chiede una casa in affitto</it_IT>
+	<no_NO>ønsker å leie bolig</no_NO>
+	<pl_PL>Poszukuję domu do wynajęcia</pl_PL>
+	<pt_PT>Procuro casa para alugar</pt_PT>
+	<sv_SE>Bostad önskas hyra</sv_SE>
+	<ru_RU>Требуется дом в аренду</ru_RU>
+	<ja_JP>賃貸を希望</ja_JP>
+	<nl_NL>Huis te huur gevraagd</nl_NL>
+	<ro_RO>caut casa de inchiriat</ro_RO>
+</RECORD>
+<RECORD>
+	<id>14</id>
+	<short>WE</short>
+	<en_GB>Weekend exchange</en_GB>
+	<de_AT>Wochenendtausch</de_AT>
+	<nl_BE>Weekendruil</nl_BE>
+	<de_DE>Wochenend-Tausch</de_DE>
+	<da_DK>Weekend bytte</da_DK>
+	<es_ES>Intercambio de fin de semana</es_ES>
+	<fi_FI>viikonloppuvaihtoa</fi_FI>
+	<fr_FR>Échange pour week-end</fr_FR>
+	<el_GR>Ανταλλαγή ενός Σαββατοκύριακου</el_GR>
+	<is_IS>Helgarskipti</is_IS>
+	<it_IT>Scambi durante i weekend</it_IT>
+	<no_NO>boligbytte i helgen</no_NO>
+	<pl_PL>Weekendowa wymiana</pl_PL>
+	<pt_PT>Troca de fim de semana</pt_PT>
+	<sv_SE>Veckoslutsutbyten</sv_SE>
+	<ru_RU>Обмен на выходные</ru_RU>
+	<ja_JP>週末交換</ja_JP>
+	<nl_NL>Weekendruil</nl_NL>
+	<ro_RO>schimb pentru sfarsit de saptamana</ro_RO>
+</RECORD>
+<RECORD>
+	<id>15</id>
+	<short>WY</short>
+	<en_GB>Hospitality by young person(s)</en_GB>
+	<de_AT>Jugendliche suchen Gastfamilie gegen Bezahlung</de_AT>
+	<nl_BE>Gastvrijheid gevraagd voor jongeren</nl_BE>
+	<de_DE>Jugendliche suchen Gastfamilie gegen Bezahlung</de_DE>
+	<da_DK>Gæstfrihed til unge ønskes</da_DK>
+	<es_ES>Se busca hospitalidad para jóven(es)</es_ES>
+	<fi_FI>nuoret tarjoavat vierasvaihtoa</fi_FI>
+	<fr_FR>Recherche hospitalité</fr_FR>
+	<el_GR>Φιλοξενία από Νέο(υς)</el_GR>
+	<is_IS>Táningur býður gestrisni</is_IS>
+	<it_IT>Si chiede ospitalità per un adolescente</it_IT>
+	<no_NO>tar imot besøk av ungdom</no_NO>
+	<pl_PL>Gościna oferowana przez młodych</pl_PL>
+	<pt_PT>Hospitalidade por jovens</pt_PT>
+	<sv_SE>Gästfrihet av ungdom/ungdomar</sv_SE>
+	<ru_RU>Гостеприимство у молодых людей</ru_RU>
+	<ja_JP>若者によるホームステイ</ja_JP>
+	<nl_NL>Gastvrijheid gevraagd voor jongeren</nl_NL>
+	<ro_RO>tineri ofera gazduire</ro_RO>
+</RECORD>
+<RECORD>
+	<id>16</id>
+	<short>X</short>
+	<en_GB>Exchange of home</en_GB>
+	<de_AT>Haus-/Wohnungstausch</de_AT>
+	<nl_BE>Woningruil</nl_BE>
+	<de_DE>Haus-/Wohnungstausch</de_DE>
+	<da_DK>Boligbytte</da_DK>
+	<es_ES>Intercambio de casas</es_ES>
+	<fi_FI>kodinvaihtoa</fi_FI>
+	<fr_FR>Échange de maison</fr_FR>
+	<el_GR>Ανταλλαγή σπιτιών</el_GR>
+	<is_IS>Skipti á heimilum</is_IS>
+	<it_IT>Scambio casa</it_IT>
+	<no_NO>boligbytte</no_NO>
+	<pl_PL>Wymiana domów</pl_PL>
+	<pt_PT>Troca de casa</pt_PT>
+	<sv_SE>Bostadsutbyte</sv_SE>
+	<ru_RU>Обмен домами</ru_RU>
+	<ja_JP>家の交換</ja_JP>
+	<nl_NL>Woningruil</nl_NL>
+	<ro_RO>schimb de case</ro_RO>
+</RECORD>
+<RECORD>
+	<id>17</id>
+	<short>XH</short>
+	<en_GB>Hospitality exchange</en_GB>
+	<de_AT>gegenseitiger Besuch</de_AT>
+	<nl_BE>Ruil van gastvrijheid</nl_BE>
+	<de_DE>Gegenseitiger Besuch</de_DE>
+	<da_DK>Ikke aktuel</da_DK>
+	<es_ES>Intercambio de hospitalidad</es_ES>
+	<fi_FI>vierasvaihtoa</fi_FI>
+	<fr_FR>Échange d'hospitalité</fr_FR>
+	<el_GR>Ανταλλαγή Φιλοξενίας</el_GR>
+	<is_IS>Skipti á gestrisni</is_IS>
+	<it_IT>Scambio di ospitalità</it_IT>
+	<no_NO>besøke hverandre</no_NO>
+	<pl_PL>Wymiana gościnności</pl_PL>
+	<pt_PT>Troca de hospitalidade</pt_PT>
+	<sv_SE>Gästfrihetsutbyte</sv_SE>
+	<ru_RU>Обмен гостеприимствами</ru_RU>
+	<ja_JP>ホームステイの交換</ja_JP>
+	<nl_NL>Ruil van gastvrijheid</nl_NL>
+	<ro_RO>schimb de gazduire</ro_RO>
+</RECORD>
+<RECORD>
+	<id>18</id>
+	<short>XY</short>
+	<en_GB>Youth exchange</en_GB>
+	<de_AT>Schüler-/Studentenaustausch</de_AT>
+	<nl_BE>Jongerenruil</nl_BE>
+	<de_DE>Schüler-/Studentenaustausch</de_DE>
+	<da_DK>Ungdomsbytte</da_DK>
+	<es_ES>Intercambio de jóvenes</es_ES>
+	<fi_FI>nuorisovaihtoa</fi_FI>
+	<fr_FR>Échange linguistique entre jeunes</fr_FR>
+	<el_GR>Ανταλλαγη Νεων</el_GR>
+	<is_IS>Skipti á Táningum</is_IS>
+	<it_IT>Scambio tra adolescenti</it_IT>
+	<no_NO>ungdomsutveksling</no_NO>
+	<pl_PL>Wymiana młodzieżowa</pl_PL>
+	<pt_PT>Troca de jovens</pt_PT>
+	<sv_SE>Ungdomsutbyte</sv_SE>
+	<ru_RU>Молодежный обмен</ru_RU>
+	<ja_JP>若者の交換</ja_JP>
+	<nl_NL>Jongerenruil</nl_NL>
+	<ro_RO>schimb de tineri</ro_RO>
+</RECORD>
+<RECORD>
+	<id>19</id>
+	<short>ER</short>
+	<en_GB>Home for rent only</en_GB>
+	<de_AT>Home for rent only</de_AT>
+	<nl_BE>Huis uitsluitend om te huren</nl_BE>
+	<de_DE>Home for rent only</de_DE>
+	<da_DK>Kun udlejning</da_DK>
+	<es_ES>Home for rent only</es_ES>
+	<fi_FI>Home for rent only</fi_FI>
+	<fr_FR>Location seulement (pas d'échange)</fr_FR>
+	<el_GR>Home for rent only</el_GR>
+	<is_IS>Home for rent only</is_IS>
+	<it_IT>Home for rent only</it_IT>
+	<no_NO>Bolig kun til leie</no_NO>
+	<pl_PL>Dom tylko do wynajęcia</pl_PL>
+	<pt_PT>Casa apenas para alugar</pt_PT>
+	<sv_SE>Home for rent only</sv_SE>
+	<ru_RU>Дом только в аренду</ru_RU>
+	<ja_JP>賃貸のみ</ja_JP>
+	<nl_NL>Home for rent only</nl_NL>
+	<ro_RO>casa numai pentru inchiriere</ro_RO>
+</RECORD>
+</RECORDS>
