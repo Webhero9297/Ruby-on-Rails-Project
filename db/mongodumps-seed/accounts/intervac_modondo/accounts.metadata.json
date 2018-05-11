@@ -1,0 +1,1 @@
+{indexes:[{ "v" : 1, "key" : { "_id" : 1 }, "ns" : "intervac_modondo.accounts", "name" : "_id_" }, { "v" : 1, "key" : { "profile.wish_list_destinations.location" : "2d" }, "ns" : "intervac_modondo.accounts", "name" : "profile.wish_list_destinations.location_2d" }]}
