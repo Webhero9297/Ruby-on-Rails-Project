@@ -1,0 +1,15 @@
+staging:
+  app_id: 157263510954603
+  app_secret: d7f016f99a087e5fb423362539b5f1f4
+
+development:
+  app_id: 157263510954603
+  app_secret: d7f016f99a087e5fb423362539b5f1f4
+
+production:
+  app_id: 135548423148387
+  app_secret: a69ba40527b3a36b5584911afb532896
+
+test:
+  app_id: 135548423148387
+  app_secret: a69ba40527b3a36b5584911afb532896
