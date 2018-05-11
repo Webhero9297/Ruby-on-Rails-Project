@@ -1,0 +1,278 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2012-07-19 15:14+0100\n"
+"Last-Translator: Michael Støvelbæk <m@intervac.dk>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Nearest City
+msgid "nearest_city"
+msgstr "Nærmeste store by"
+
+# --- English text = Earliest Date
+msgid "earliest_date"
+msgstr "Tidligste feriedato"
+
+# --- English text = Latest Date
+msgid "latest_date"
+msgstr "Sidste feriedato"
+
+# --- English text = Maximum Stay
+msgid "maximum_stay"
+msgstr "Længste periode"
+
+# --- English text = Exchanges
+msgid "exchanges"
+msgstr "Bytteaftaler"
+
+# --- English text = Destinations Wishlist
+# --- (Jan 2009) Changed text from: Destinations => to: Destinations Wishlist
+msgid "destinations"
+msgstr "Ønskede lande"
+
+# --- English text = Administer Destinations
+#, fuzzy
+msgid "administer_destinations"
+msgstr "Administer Destinations"
+
+# --- English text = Exchange Type
+msgid "exchange_type"
+msgstr "Byttetype"
+
+# --- English text = Time Comment
+msgid "time_comment"
+msgstr "Bemærkning til tidspunkt"
+
+# --- English text = Contact
+# --- (Mar 2009) Edited for precision: Member Information
+msgid "contact_headline"
+msgstr "Kontaktinformationer"
+
+# --- English text = Contact Address
+msgid "contact_address"
+msgstr "Kontaktadresse"
+
+# --- English text = Property Address
+msgid "property_address"
+msgstr "Adresse"
+
+# --- English text = Occupation
+msgid "occupation"
+msgstr "Beskæftigelse"
+
+# --- English text = Activation
+msgid "activation"
+msgstr "Aktiveringsdato"
+
+# --- English text = Expiration
+msgid "expiration"
+msgstr "Udløbsdato"
+
+# --- English text = Phone
+msgid "phone"
+msgstr "Telefon"
+
+# --- English text = E-mail
+msgid "E-mail"
+msgstr "Email"
+
+# --- English text = Fax
+msgid "fax"
+msgstr "Fax"
+
+# --- English text = Mobile
+msgid "mobile"
+msgstr "Mobil"
+
+# --- English text = Skype
+msgid "skype"
+msgstr "Skype"
+
+# --- English text = Listing
+msgid "listing_id"
+msgstr "Profil"
+
+# --- English text = Homepage
+msgid "homepage"
+msgstr "Hjemmeside"
+
+# --- English text = Join Intervac now!
+msgid "join_now"
+msgstr "Tak for den interesse du har vist Intervac."
+
+# --- English text = Contact information is available for full members only.
+msgid "contact_info.for_members_only"
+msgstr "Kontaktinformationer kan kun ses af aktive medlemmer."
+
+# --- English text = Last update
+msgid "last_update"
+msgstr "Sidste opdatering"
+
+# --- English text = ago
+# --- This term comes after the amount of time passed since a listing was last updated.
+# --- Example: (5 days ago)
+msgid "ago"
+msgstr "siden"
+
+# --- English text = Map of the Region
+msgid "map_headline"
+msgstr "Kort over regionen"
+
+# --- English text = Click here to change the placement of the marker
+#, fuzzy
+msgid "edit_map_link"
+msgstr "Click here to change the placement of the marker"
+
+# --- English text = Our home is
+msgid "our_home_is"
+msgstr "Vores bolig ligger"
+
+# --- English text = nearby
+msgid "nearby"
+msgstr "i nærheden"
+
+# --- English text = Timing
+msgid "timing"
+msgstr "Periode"
+
+# Family
+# --- English text = adult(s)
+msgid "adults"
+msgstr "Voksne"
+
+# Family
+# --- English text = boy(s)
+msgid "boys"
+msgstr "Dreng"
+
+# Family
+# --- English text = girl(s)
+msgid "girls"
+msgstr "Pige"
+
+# Additionals
+# --- English text = floor
+msgid "floor"
+msgstr "etage"
+
+# --- English text = person(s)
+msgid "persons"
+msgstr "person(er)"
+
+# --- English text = max.
+msgid "max"
+msgstr "max."
+
+# --- English text = Languages spoken
+# --- (Jan 2009) Edited text for length.  It was: "Language for correspondence"
+msgid "language"
+msgstr "Korrespondancesprog"
+
+# --- English text = bedroom(s)
+msgid "bedrooms"
+msgstr "soveværelse(r)"
+
+# --- English text = bathroom(s)
+msgid "bathrooms"
+msgstr "badeværelse(r)"
+
+# --- English text = Change the availability of your listing by clicking this icon.
+msgid "availability.click_here_to_change"
+msgstr "Ændre tilgængeligheden af din profil ved at klikke på dette ikon."
+
+# --- English text = Your offer is {{availability_status}}, click on the traffic light to change your status.
+# --- IMPORTANT : the phrase "{{availability_status}}" will be replaced with the member's availability status.
+msgid "availability.status"
+msgstr "Dit tilbud er {{availability_status}}, klik på trafiklyset for at ændre din status."
+
+# --- English text = Welcome to Intervac!
+msgid "invisible.headline"
+msgstr "Velkommen til Intervac!"
+
+# --- English text = Your listing will be hidden from other members until you have filled in the necessary information.  If you are ready to do that now,
+# --- IMPORTANT : Next text fragment comes from sitewide.po and says "click here"
+msgid "invisible.build_listing"
+msgstr "Din profil vil være skjult for andre medlemmer indtil du har udfyldt de nødvendige informationer. "
+
+# --- English text = Our members are looking forward to getting to know you and your family.
+msgid "invisible.intro_text"
+msgstr "Vores medlemmer ser frem til at at lære dig og din familie at kende. "
+
+# --- English text = If you have questions about the form or need help, you can start by clicking this icon.  It will be located to the right of a heading if there is a help text for that heading available.  If you do not find the answer to your question there, your local Intervac organiser will be happy to lend you a hand.
+msgid "invisible.get_help"
+msgstr "If you have questions about the form or need help, you can start by clicking this icon.  It will be located to the right of a heading if there is a help text for that heading available.  If you do not find the answer to your question there, your local Intervac organiser will be happy to lend you a hand.Hvis du har spørgsmål om formularen eller har brug for hjælp, kan du starte ved at klikke på dette ikon. Det vil være placeret til højre for et felt, hvis der er en hjælpetekst for denne position til rådighed. Hvis du ikke finder svaret på dit spørgsmål her, vil din lokale Intervac repræsentant med glæde give dig en hånd."
+
+# --- English text = Many happy exchanges!
+msgid "invisible.closing"
+msgstr "Du ønskes mange gode bytteaftaler."
+
+# --- English text = Exchange References
+# --- (Not in Use - March 2012)
+msgid "-x- references.title"
+msgstr "Exchange References"
+
+# --- English text = Confirmed
+# --- Location = Subtitle in Exchange References section (left column - bottom) of the member listing
+#, fuzzy
+msgid "references.headline"
+msgstr "References"
+
+# --- English text = Unconfirmed
+# --- Location = Subtitle in Exchange References section (left column - bottom) of the member listing
+# --- (Not in Use - March 2012)
+msgid "-x- references.unconfirmed_headline"
+msgstr "Unconfirmed References"
+
+# --- English text = 30 and more
+#, fuzzy
+msgid "ee.30_and_more"
+msgstr "30 and more"
+
+# --- English text = Sorry, we do not provide contact information to trial members.
+# (December 2011 - New Text)
+#, fuzzy
+msgid "contact_info.not_for_trial_members"
+msgstr "Sorry, we do not provide contact information to trial members."
+
+# --- English text = Contact info is available for visible members only.
+# (December 2011 - New Text)
+#, fuzzy
+msgid "contact_info.only_for_visible_members"
+msgstr "Contact info is available for visible members only."
+
+# --- English text = New Member:
+# --- Location = Looking at an unfinished listing
+# (New: April, 2012)
+#, fuzzy
+msgid "visit_invisible.headline"
+msgstr "New Member:"
+
+# --- English text = Thanks for dropping by. This listing belongs to a new member and is not yet completed.
+# --- Location = Looking at an unfinished listing
+# (New: April, 2012)
+#, fuzzy
+msgid "visit_invisible.intro_text"
+msgstr "Thanks for dropping by. This listing belongs to a new member and is not yet completed."
+
+# --- English text = Remember how it was when you were a new member?  In the beginning you were looking at lots of other listings, collecting photos and writing text in order to present your home in an attactive manner.
+# --- Location = Looking at an unfinished listing
+# (New: April, 2012)
+#, fuzzy
+msgid "visit_invisible.build_listing"
+msgstr "Remember how it was when you were a new member?  In the beginning you were looking at lots of other listings, collecting photos and writing text in order to present your home in an attactive manner."
+
+# --- English text = Please come by again soon. Our new members are looking forward to meeting you.
+# --- Location =
+# (New: April, 2012)
+#, fuzzy
+msgid "visit_invisible.yall_come_back_now_ya_hear"
+msgstr "Please come by again soon. Our new members are looking forward to meeting you."
+

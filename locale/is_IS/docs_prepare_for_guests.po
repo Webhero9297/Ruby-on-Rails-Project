@@ -1,0 +1,98 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2011-07-29 15:54-0000\n"
+"Last-Translator: Sesselja Traustadóttir <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange Checklist
+# --- Location = This headline is only found in the visitors information - page: Home Exchange Checklist
+# (June, 2011 - New)
+msgid "visinfo_checklist.headline"
+msgstr "Gátlisti fyrir heimilaskipti"
+
+# --- English text = Prepare To Welcome Guests
+msgid "page.headline"
+msgstr "Undirbúðu komu gesta þinna"
+
+# --- English text = It is important to make your home as warm and inviting for your exchange guests as you would for any of your friends. Make sure that your house is clean and ready for their arrival. Remember that you expect the same from your exchange partners.
+msgid "page.introtext"
+msgstr "Það er mikilvægt að gera heimili þitt eins hlýlegt og aðlaðandi fyrir skiptifélaga þína eins og þú myndir gera fyrir góða vini þína. Hafðu húsið hreint og tilbúið fyrir komu þeirra. Mundu að þú væntir þess sama af þeim. "
+
+# --- English text = Some other ideas include:
+msgid "subhead.other_ideas"
+msgstr "Sitthvað fleira til að hafa í huga:"
+
+# --- English text = A bottle of wine and some flowers provide a special welcome.
+msgid "list.bottle_of_wine"
+msgstr "Flaska af víni og blóm í vasa bjóða mann sérlega velkominn. "
+
+# --- English text = Make up beds with fresh linens, and put clean towels in the bathrooms.
+msgid "list.beds_and_food"
+msgstr "Skiptu á rúmunum og settu hrein handklæði á baðherbergið. "
+
+# --- English text = Make sure that staple foods such as sugar, tea, coffee and salt have not run out. Make it easy for your guests to get off to a comfortable start.
+msgid "list.staple_foods"
+msgstr "Vertu viss um að nóg sé til af salti, sykri, te, kaffi, ávaxtasafa, mjólk, brauð, osti o.þ.h. Gerðu gestum þínum þægilegt að koma sér fyrir. "
+
+# --- English text = Leave your refrigerator clean and empty except for basic foods for the convenience of your guest.
+msgid "list.clean_refrigerator"
+msgstr "Hafðu ísskápinn hreinan og snyrtilegan. Skildu ekki eftir matarafganga en gerðu ráð fyrir að gestir þínir vilji nota tómatsósuna, sinnepið o.þ.h. og að það sé ekki útrunnin vara. Gerðu ráð fyrir að gestir þínir noti þá ferskvöru sem þú skilur eftir í ísskápnum. "
+
+# --- English text = Be sure you have paid any bills which come due during your holiday.
+# (June, 2011 - New)
+msgid "list.pay_your_bills"
+msgstr "Vertu búin/n að greiða reikningana sem annars gjaldfalla á meðan þú ert í burtu. "
+
+# --- English text = Leave instructions regarding how appliances work and where to locate the central heating/hot water, fuse box and other facilities. Ask a neighbor or friend to stop by and introduce themselves to make sure your guests are finding everything they need.
+msgid "list.appliance_instructions"
+msgstr "Skildu eftir leiðbeiningar um heimilistækin, rafmagnstöfluaðgang o.þ.h. Það er ráðlegt að biðja nágranna eða vin að líta inn til þess að tryggja að allt sé í lagi og að gestum ykkar líði vel.  "
+
+# --- English text = Leave any necessary instructions regarding the care of plants and pets.  Don't forget to include your veterinarian's name and telephone number.
+msgid "list.pets_and_plants"
+msgstr "Skildu eftir allar nauðsynlegar leiðbeiningar um umhirðu plantna og gæludýra. Ekki gleyma að skilja eftir nafn og símanúmer dýralæknisins. "
+
+# --- English text = Leave a list of important numbers next to the phone, including emergency numbers, operator, directory enquiries, doctor or hospital, friends for advice if a problem arises, and babysitters or vets, if applicable.
+msgid "list.emergency_phone_numbers"
+msgstr "Skildu eftir lista yfir mikilvæg símanúmer við símann s.s. neyðarlínuna, lækni, spítala, vini, nágranna sem hafa má samband við ef vandræði koma upp. Jafnvel hjá barnfóstru ef það á við.  "
+
+# --- English text = Provide any special instructions for leaving your house secure.
+msgid "list.security_instructions"
+msgstr "Vertu viss um að gleyma ekki mikilvægum atriðum er varða öryggi heimilisins. Skildu eftir auka lykil hjá nágranna eða vini ef á þarf að halda. "
+
+# --- English text = Leave a note concerning milk/paper delivery, nearest petrol station/shops/supermarket
+msgid "list.local_life"
+msgstr "Skildu eftir leiðbeiningar um næstu verslun, bensínstöð o.þ.h."
+
+# --- English text = Store irreplaceable ornaments and special personal items, if there is worry about breakage. It is not necessary or desirable to remove all ornaments and furniture.
+msgid "list.store_breakables"
+msgstr "Geymið sérstök verðmæti og persónulega muni á öruggum stað ef þið viljið ekki að þeir verði fyrir tjóni. Það er hvorki nauðsynlegt né æskilegt að fjarlægja allt!"
+
+# --- English text = Prepare adequate wardrobe and drawer space for guests to store their clothes and belongings.
+msgid "list.wardrobe_space"
+msgstr "Gerðu ráð fyrir plássi í skápum eða hillum fyrir gesti ykkar til þess að setja þangað föt og farangur."
+
+# --- English text = If your guests are bringing their own laptop, be sure to leave them instructions for connecting to the internet through your router, wireless LAN, or modem.
+msgid "list.internet_access"
+msgstr "Ef gestirnir hafa eigin fartölvu meðferðis skaltu hafa tilbúnar leiðbeiningar um tengingu við internet. Slíkum leiðbeiningum má líka koma á framfæri í tölvupósti fyrirfram. Vertu líka búinn að segja til um notkun á heimilistölvu ef það á við."
+
+# --- English text = Leave a notebook by the telephone for recording long-distance phone calls or messages.
+msgid "list.expense_notebook"
+msgstr "Skildu eftir skrifblokk við símann til að skrá langlínusímtöl eða fyrir skilaboð."
+
+# --- English text = Indicate if any parts of your home are off limits or equipment is not to be used e.g. office rooms or a computer.
+msgid "list.off_limits"
+msgstr "Getið þess ef einhver hluti heimilisins er ekki ætlaður til afnota fyrir gestina, eða einhver tæki, t.d. tölvur."
+
+# --- English text = Don't forget to leave the information pack you collected on the table for your guest's use.
+msgid "list.info_pack"
+msgstr "Ekki gleyma að skilja upplýsingarnar sem þú tókst saman fyrir gestina eftir á borðinu!"
+

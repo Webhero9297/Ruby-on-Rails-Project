@@ -1,0 +1,259 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2012-02-05 11:44+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = This member does not have an active membership with Intervac at this time
+msgid "error.member_not_active"
+msgstr "Deze Deelnemer is op dit ogenblik niet actief als Intervac-deelnemer."
+
+# --- English text = Exchange agreement was not found.
+msgid "error.agreement_not_found"
+msgstr "Er is geen ruilovereenkomst gevonden"
+
+# --- English text = Your vacation dates should not be in the past.
+msgid "error.vacation_date_past"
+msgstr "De datums voor je vakantie mogen niet in het verleden liggen."
+
+# --- English text = Vacation return date must be after your vacation start date.
+# --- Location = Error text is displayed if the dates of the vacation are impossible
+msgid "error.invalid_dates"
+msgstr "Datum van terugkeer moet later zijn dan begindatum van vakantie."
+
+# --- English text = Member was not found, or does not have an active membership at this time.
+msgid "error.member_not_found_or_not_active"
+msgstr "Deelnemer is niet gevonden of is momenteel niet actief."
+
+# --- English text = Successfully created your exchange agreement.
+msgid "message.exchange_agreement_created"
+msgstr "Je ruilovereenkomst is met succes gecreëerd"
+
+# --- English text = Successfully updated your exchange agreement.
+msgid "message.exchange_agreement_updated"
+msgstr "Je ruilovereenkomst  is met succes aangepast."
+
+# --- English text = Thanks for Registering Your Exchange
+msgid "thanks.headline"
+msgstr "Fijn dat u uw ruil registreert"
+
+# --- English text = Thank you!  Your exchange has been successfully submitted.
+msgid "thanks.successful_submission"
+msgstr "Dank je! Je ruil is met succes geregistreed. "
+
+# --- English text = Both your exchange partner and your local organizers have been notified.
+msgid "thanks.submission_notification"
+msgstr "Je ruilpartner en de beide lokale organisatoren kregen bericht van je ruil."
+
+# --- English text = You can view and edit your agreements anytime up until your exchange holiday begins by clicking on the link "My Exchange Agreements" in the Useful Links section of the member home page.
+msgid "thanks.how_to_view_and_edit"
+msgstr "Je kunt steeds je ruilovereenkomsten bekijken en wijzigen tot het begin van je ruilvakantie, door te klikken op de link ' Mijn Ruilovereenkomsten' in de Nuttige Links sectie van de deelnemers home page."
+
+# --- English text = My Exchange Agreements
+msgid "index.headline"
+msgstr "Mijn Ruilafspraken "
+
+# --- English text = Download our Home Exchange Checklist.
+msgid "index.download_checklist"
+msgstr "Download onze Home Exchange Checklijst."
+
+# --- English text = Future Vacations
+msgid "index.future_vacations_headline"
+msgstr "Afgesproken Vakanties"
+
+# --- English text = At the moment, you have not formalized any future vacations plans.
+msgid "index.no_future_vacations"
+msgstr "Momenteel heeft u nog geen gemaakte Ruilafspraken voor de nabije toekomst vastgelegd."
+
+# --- English text = Past Agreements
+msgid "index.past_agreements_headline"
+msgstr "Voltooide Ruilvakanties"
+
+# --- English text = You have no past exchange agreements.
+msgid "index.no_past_agreements"
+msgstr "U heeft in het verleden geen Ruilvakanties gemaakt."
+
+# --- English text = Act as Reference?
+# --- Location = In the Past Exchanges section of the My Exchange Agreements page
+msgid "index.act_as_reference"
+msgstr "Optreden als Referentie?"
+
+# --- English text = Show Agreement
+# --- Location = Link text on the My Exchange Agreements page
+msgid "overview.show_agreement"
+msgstr "Uw Vorige Ruilafspraken"
+
+# --- English text = Allow as Reference?
+# --- Location = In the Past Exchanges section of the My Exchange Agreements page
+msgid "index.allow_as_reference"
+msgstr "Toestaan als Referentie?"
+
+# --- English text = Print this exchange agreement
+# --- Location: Mouseover text on the printer icon
+msgid "overview.print_agreement"
+msgstr "Print deze Ruilafspraak"
+
+# --- English text = You filled out your agreement form.
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_started"
+msgstr "U vulde uw afspraakformulier in. "
+
+# --- English text = {{partner_name}} viewed your terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_viewed_terms"
+msgstr "{{partner_name}} heeft uw voorwaarden ingezien."
+
+# --- English text = {{partner_name}} confirmed your terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_confirmed_terms"
+msgstr "{{partner_name}} heeft uw voorwaarden aanvaard."
+
+# --- English text = {{partner_name}} did not agree with your terms. Please get in contact with them.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_disagreed"
+msgstr "{{partner_name}} heeft niet ingestemd met uw voorwaarden. Neem alstublieft contact met hen op."
+
+# --- English text = You changed your terms.
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_changed_terms"
+msgstr "U heeft uw voorwaarden aangepast."
+
+# --- English text = You have reopened a confirmed agreement.
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_reopened_agreement"
+msgstr "U heeft een al-bevestigde overeenkomst heropend. "
+
+# --- English text = {{partner_name}} filled out the agreement form.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_filled_out_form"
+msgstr "{{partner_name}} heeft het afspraken-formulier ingevuld."
+
+# --- English text = You viewed {{partner_name}}'s terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_viewed_partner_terms"
+msgstr "U heeft {{partner_name}}'s voorwaarden ingezien."
+
+# --- English text = You confirmed {{partner_name}}'s terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_confirmed_partner_terms"
+msgstr "U heeft {{partner_name}}'s voorwaarden aanvaard."
+
+# --- English text = You did not agree to the terms of {{partner_name}}. Please get in contact with them to discuss your concerns.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_disagreed"
+msgstr "U heeft niet ingestemd met de voorwaarden van {{partner_name}}. Neem alstublieft contact met hen op om het door te spreken."
+
+# --- English text = {{partner_name}} changed their terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_changed_terms"
+msgstr "{{partner_name}} heeft hun voorwaarden veranderd."
+
+# --- English text = {{partner_name}} has reopened a confirmed agreement.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_reopened_agreement"
+msgstr "{{partner_name}} heeft een al-aanvaarde afspraak heropend voor overleg."
+
+# --- English text = You need to fill in your agreement terms.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.you_fill_in_agreement"
+msgstr "U moet uw voorwaarden en wensen voor uw afspraak invullen.You need to fill in your agreement terms."
+
+# --- English text = Your partner needs to confirm your terms.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.partner_must_confirm"
+msgstr "Uw vakantie-partner moet uw voorwaarden aanvaarden."
+
+# --- English text = Please make changes to your agreement.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.you_reopened"
+msgstr "Breng alsublieft veranderingen aan in uw overeenkomst."
+
+# --- English text = Your partner needs to fill in their agreement.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.partner_fills_in_agreement"
+msgstr "Uw vakantiepartner moet de overeenkomst invullen."
+
+# --- English text = Please confirm your partner's terms.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.confirm_your_partners_terms"
+msgstr "Aanvaard alstublieft de voorwaarden van uw vakantiepartner."
+
+# --- English text = Please wait  until your partner made changes to his agreement.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.reopened_by_partner"
+msgstr "Wacht alstublieft totdat uw vakantiepartner veranderingen in de overeenkomst heeft aangebracht. "
+
+# --- English text = Added as reference
+# --- Location = Next to exchange partners when no exchange was officially registered - thus there is none to print or view
+msgid "history.added_as_reference"
+msgstr "Als referentieadres toegevoegd"
+
+# --- English text = Agreement process is complete.
+# --- Location = Shown when the agreement process is at 100%
+msgid "history.process_complete"
+msgstr "Het proces van Afspraak maken is klaar."
+
+# --- English text = Agreement History
+# --- Location = Headline
+msgid "history.headline"
+msgstr "Overzicht Totstandkoming Afspraak"
+
+# --- English text = Add a Reference
+# --- Location = Headline for Adding a Reference form at the bottom of the exchange agreements overview page
+msgid "add_a_reference.headline"
+msgstr "Voeg Referentie toe"
+
+# --- English text = If you had an exchange in the past that you did not register, you can still add a reference to your list of exchanges. The reference that will be created stays unconfirmed until your exchange partner explicitly confirms it with <highlight>Act as Reference?</highlight> with <highlight>Yes</highlight> on his side.
+# --- Location = Text for Adding a Reference form at the bottom of the exchange agreements overview page
+##### --- IMPORTANT - DO NOT TRANSLATE THE TEXT <highlight> and </highlight>.  These provide formatting within the sentence.
+msgid "add_a_reference.introtext"
+msgstr "Indien u eerder al een ruil heeft gemaakt, die niet werd geregistreerd, kunt u die nog wel toevoegen als referentieadres aan de lijst ruilafspraken. Deze zal blijven staan als onbevestigd, totdat uw partner deze expliciet bevestigt <highlight>Act as Reference?</highlight> met <highlight>Yes</highlight> van zijn kant."
+
+# --- English text = Partner's Member-ID
+# --- Location = Form label for Adding a Reference at the bottom of the exchange agreements overview page
+msgid "add_a_reference.label.member_id"
+msgstr "Uw Partner's ID"
+
+# --- English text = Exchange Dates
+# --- Location = Sub-headline for Adding a Reference at the bottom of the exchange agreements overview page
+msgid "add_a_reference.subhead.exchange_dates"
+msgstr "Vakantie Datums"
+
+# --- English text = From
+# --- Location = Form label for Adding a Reference at the bottom of the exchange agreements overview page#, fuzzy
+msgid "add_a_reference.label.from"
+msgstr "Van"
+
+# --- English text = To
+# --- Location = Form label for Adding a Reference at the bottom of the exchange agreements overview page#, fuzzy
+msgid "add_a_reference.label.to"
+msgstr "Tot"
+
+# --- English text = Add reference
+# --- Location =
+msgid "add_a_reference.buttontext"
+msgstr "Voeg toe als Referentie"
+
+# --- English text = Your vacation dates are not in the past and you can only add a reference for exchanges that have been completed.
+# --- Location = error text for Add a Reference.  These can only be references for past exchanges.
+msgid "error.vacation_date_not_past"
+msgstr "Uw vakantiedatums bevinden zich niet in het verleden, en je kunt allleen maar referentieadressen toevoegen over vakantieafspraken die al zijn uitgevoerd."
+

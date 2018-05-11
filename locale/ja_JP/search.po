@@ -1,0 +1,186 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-01-19 18:57+0100\n"
+"PO-Revision-Date: 2011-12-01 16:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = All Countries
+msgid "all_countries_headline"
+msgstr "全ての国"
+
+# --- English text = Change country
+msgid "change_country"
+msgstr "国を変える"
+
+# --- English text = City/Sort
+msgid "city_sort.headline"
+msgstr "市/タイプ"
+
+# --- English text = Search a specific city
+msgid "city_sort.by_city"
+msgstr "特定の市で検索"
+
+# --- English text = Location
+msgid "city_sort.location"
+msgstr "場所"
+
+# --- English text = Exchange Type
+msgid "exchange_type.headline"
+msgstr "エクスチェンジのタイプ"
+
+##### --- English text = Search Criteria
+msgid "search_criteria"
+msgstr "検索基準"
+
+# --- English text = Travel Dates
+msgid "travel_dates.headline"
+msgstr "旅行日程"
+
+# --- English text = Earliest date
+msgid "travel_dates.earliest_date"
+msgstr "最初の日"
+
+# --- English text = Latest date
+msgid "travel_dates.latest_date"
+msgstr "最後の日"
+
+# --- English text = Sleeping accommodations
+# --- (May 2010) => Changed text to: "Accommodations"
+msgid "accomodations.headline"
+msgstr "宿泊のための家"
+
+# --- English text = Type of Home
+msgid "accomodations.type_of_home"
+msgstr "家のタイプ"
+
+# --- English text = Sleeping
+msgid "accomodations.sleeping"
+msgstr "宿泊可能人数"
+
+# --- English text = people
+msgid "accomodations.people"
+msgstr "人数"
+
+# --- English text = Find listings with
+msgid "accomodations.listings_with"
+msgstr "リスティングでは："
+
+# --- English text = adults
+msgid "accomodations.adults"
+msgstr "大人の人数"
+
+# --- English text = child(ren)
+msgid "accomodations.children"
+msgstr "子供（達）"
+
+# --- English text = with children
+msgid "accomodations.with_children"
+msgstr "子供連れ"
+
+# --- English text = without children
+msgid "accomodations.without_children"
+msgstr "子供無し"
+
+# --- English text = with or without children
+msgid "accomodations.with_or_without"
+msgstr "子供あり、なし"
+
+# --- English text = Language for Correspondence
+msgid "language"
+msgstr "使用言語"
+
+# --- English text = Sort selected listings as follows
+msgid "sort_selected.headline"
+msgstr "選択されたリスティングのタイプ"
+
+# --- English text = Reverse Search
+msgid "reverse_search.headline"
+msgstr "逆検索"
+
+# --- English text= Exchange with country
+msgid "reverse_search.country"
+msgstr "国でエクスチェンジ"
+
+# --- English text = Exchange with city
+msgid "reverse_search.city"
+msgstr "市でエクスチェンジ"
+
+# --- English text = Include Keywords
+msgid "keywords.headline"
+msgstr "キーワードを含む"
+
+# --- English text = First Keyword
+msgid "keywords.first"
+msgstr "最初のキーワード"
+
+# --- English text = Second Keyword
+msgid "keywords.second"
+msgstr "２番目のキーワード"
+
+# --- English text = Third Keyword
+msgid "keywords.third"
+msgstr "３番目のキーワード"
+
+# --- English text = Most recent listing first
+msgid "sort_selected.most_recent"
+msgstr "最新のリスティングの最初"
+
+# --- English text = Show Last Minute first
+msgid "sort_selected.hotlist"
+msgstr "ラーストミニュットの最初を示す"
+
+# --- Dropdown box for visitors to choose their country in connection with "exchange with my country"
+# --- English text = By country
+msgid "sort_selected.country"
+msgstr "国別"
+
+# --- English text = Member number
+msgid "sort_selected.member_id"
+msgstr "会員番号"
+
+# --- English text = Click on a region to start a search
+msgid "howto_start_region_search"
+msgstr "検索を始めるために地域をクリックする。"
+
+# --- English text = Other details
+msgid "other_details.headline"
+msgstr "他の項目"
+
+# --- English text = Search all regions
+msgid "all_regions_button"
+msgstr "すべての地域を検索する"
+
+# --- English text = Search selected countries
+msgid "selected_countries_button"
+msgstr "選択した国を検索する"
+
+# --- English text= Reset Search
+msgid "reset_search_button"
+msgstr "検索をリセット"
+
+# --- English text = Please keep in mind that the more narrowly you define a search, the fewer entries will be selected.  The listings that are selected, will be more exactly tailored to your search specifications.
+msgid "narrow_search_warning"
+msgstr "ご自分の条件を正確かつ具体的に絞り込んで書き込めば、希望条件にあうリスティングをより迅速に検索する事が出来るでしょう。"
+
+# --- English text = To start your search, click a region on the map above.
+msgid "howto_start_page_bottom"
+msgstr "検索を始めるために上記の地図上の地域をクリックする。"
+
+# --- English text = Age
+msgid "accomodations.age"
+msgstr "年齢"
+
+# --- English text = Only currently available members are visible (green light).
+# --- Location = Underneath the Search Selected Countries / Search Selected Regions button
+msgid "only_currently_available_visible"
+msgstr "現在のところ可能性のある会員だけが見ることが出来ます（グリーンライト）。"
+

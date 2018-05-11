@@ -1,0 +1,79 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-11-24 19:11+0100\n"
+"PO-Revision-Date: 2011-01-15 18:02+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = <highlight>FI0739 - Tampere, Finland.</highlight> Beautiful area between two lakes. Famous for lake cruises. Small apartment near Lake Pyhajarvi. Not far away from Russia, Estonia and Finnish "Alps" in Lappland. Two persons.
+msgid "-x- november2009.FI0739"
+msgstr "<highlight>FI0739 - Tampere, Finland.</highlight>Vakkert område mellom to innsjøer. Kjent for cruise på innsjøen. Liten leilighet nær innsjøen Pyhajarvi. Ikke langt fra Russland, Estland og de finske \"alpene\" i Lappland. To personer."
+
+# --- English text = <highlight>FR010142 - South of France.</highlight> Quiet modern flat with a view over the bay of Cannes/Mandelieu. Private swimming pool. Near shops. Two persons.
+msgid "-x- november2009.FR010142"
+msgstr "<highlight>FR010142 - Sør-Frankrike.</highlight> Stille moderne leilighet med utsikt over the bay of Cannes/Mandelieu.Privat svømmebasseng. Nærhet til butikker. To personer."
+
+# --- English text = <highlight>SE9335 - Boras, Gothenberg.</hightlight> Comfortable family home close to lakes and woods. Nice garden with fruit trees, garden furniture, swing and small sandpit. Good facilities for children. Six persons. 
+msgid "-x- november2009.SE9335"
+msgstr "<highlight>SE9335 - Boras, Gøteborg.</highlight> Komfortabelt familiehjem nær innsjøer og skog. Vakker hage med frukttrær, hagemøbler, huske og en liten sandkasse. Gode forhold for barn. Seks personer."
+
+# --- English text = <highlight>FR020030 - Bordeaux.</highlight> Quiet village 30 minutes from Bordeaux. House with shaded garden. Close to forest. Horse riding club nearby. Four kilometres from St Medard en Jalles with every shopping facility. Eight persons 
+msgid "-x- november2009.FR020030"
+msgstr "<highlight>FR020030 - Bordeaux.</highlight> Stille landsby 30 minutter fra Bordeaux. Hus med skyggefull hage. Nær skog. Rideklubb like ved. Fire kilometer fra St Medard en Jalles med alle shoppingmuligheter. Åtte personer. "
+
+# --- English text = <highlight>SE10287 - Stenungsund, near Gothenberg.</highlight> Close to the sea and forest. Good facilities for children. Six persons.
+msgid "-x- november2009.SE10287"
+msgstr "<highlight>SE10287 - Stenungsund, nær Gøteborg.</highlight>Nær sjø og skog. Gode forhold for barn. Seks personer."
+
+# --- English text = <highlight>USMA1045 - Boston, Massachusetts.</highlight> Spacious child friendly home in central part of Boston. Short walk to the City train system. Twenty-minute train ride to Boston Common, Faneuil Hall, the Freedom Trail, the North End, and the rest of the Boston historic sites. Seven persons.
+msgid "-x- november2009.USMA1045"
+msgstr "<highlight>USMA1045 - Boston, Massachusetts.</highlight> Romslig barnevennlig hjem nær den sentrale del av Boston. Kort avstand til byens togsytem. Tyve minutters togreise til Boston Common, Faneuil Hall, the Freedom Trail, the North End,  og de andre historiske stedene. Syv personer."
+
+# --- English text = <highlight>NZ0010 - Christchurch.</highlight> Lovely home/garden set on the surrounding rim of an extinct volcano in a region which offers mountains, lakes, beaches, national park walkways and every kind of sporting activity. Six persons.
+msgid "april2010.NZ0010"
+msgstr "<highlight>NZ0010 - Christchurch.</highlight> Vakkert hjem/hage like ved en utdødd vulkan i et område som tilbyr fjell, innsjøer, strender, nasjonalpark med gangveier og muligheter for alle sportslige aktiviteter. Seks personer."
+
+# --- English text = <highlight>BE338 - Brugges, Belgium</highlight> Located in a quiet neighborhood near the historical city of Brugges. Good public transportation is available and this home is located only fifteeen kilometers from the sea, boating and sailing.  Home Exchange for six persons.
+msgid "dec2010.BE338"
+msgstr "<highlight>BE338 - Brugges, Belgium</highlight> Located in a quiet neighborhood near the historical city of Brugges. Good public transportation is available and this home is located only fifteeen kilometers from the sea, boating and sailing.  Home Exchange for maximum six persons."
+
+# --- English text = <highlight>AU09019 - Newcastle, Australia</highlight> Located directly on Lake Macquarie, the largest costal lake in Australia.  Nearly all water sports imaginable just out the door.  Thirty minutes to the vineyards, restaurants and art galleries of Hunter Valley and forty minutes from Newcastle.  Home Exchange for six persons.
+msgid "dec.2010.AU09019"
+msgstr "<highlight>AU09019 - Newcastle, Australia</highlight> Located directly on Lake Macquarie, the largest costal lake in Australia.  Nearly all water sports imaginable just out the door.  Thirty minutes to the vineyards, restaurants and art galleries of Hunter Valley and forty minutes from Newcastle.  Home Exchange for maximum six persons."
+
+# --- English text = <highlight>GB091535 - Plymouth, Great Britain</highlight> This lovely four bedroom home is located in the countryside in a peaceful Cornish village twenty-five minutes drive from Plymouth fifteen minutes drive from Tavistock. Home Exchange for seven persons.
+msgid "dec.2010.GB091535"
+msgstr "<highlight>GB091535 - Plymouth, Great Britain</highlight> This lovely four bedroom home is located in the countryside in a peaceful Cornish village twenty-five minutes drive from Plymouth fifteen minutes drive from Tavistock. Home Exchange for maximum seven persons."
+
+# --- English text = <highlight>ES2392 - Pontevedre, Spain</highlight> A modern home near the city center of the small and beautiful city capital of the  Galician Rias Baixas, Pontevedra.  A cosy garden and an outdoor pool with a security fence make it the perfect place for children. Home Exchange for maximum six persons
+msgid "dec2010.ES2392"
+msgstr "<highlight>ES2392 - Pontevedre, Spain</highlight> A modern home near the city center of the small and beautiful city capital of the  Galician Rias Baixas, Pontevedra.  A cosy garden and an outdoor pool with a security fence make it the perfect place for children. Home Exchange for maximum six persons"
+
+# --- English text = <highlight>NO545915 - Oslo, Norway</highlight> In our town Asker, from our own kitchen window, we can see Skaugum, where the crown prince, Haakon, and his family live.  In a quiet neighborhood thirty minutes from Oslo. Home Exchange for maximum seven persons
+msgid "dec2010.NO545915"
+msgstr "<highlight>NO545915 - Oslo, Norway</highlight>in our town Asker, from our own kitchen window, we can see Skaugum, where the crown prince, Haakon, and his family live.  In a quiet neighborhood thirty minutes from Oslo. Home Exchange for maximum seven persons"
+
+# --- English text = <highlight>AT00054 - Wien, Austria</highlight> Non-smoking home with pets, located in the country approximately 80 km outside of Vienna. Near lovely local tourist attractions, forest and river.  Here is sleeping capacity for maximum six people.
+msgid "jan2011.AT00054"
+msgstr "<highlight>AT00054 - Wien, Austria</highlight> Non-smoking home with pets, located in the country approximately 80 km outside of Vienna. Near lovely local tourist attractions, forest and river.  Here is sleeping capacity for maximum six people."
+
+# --- English text = <highlight>FR060477 - Pau, France</highlight> Situated between the Atlantic Ocean and the Pyranees mountains this large home offers sleeping capacity for ten people.  Lots of fun for children in the garden including table-tennis, a trampoline and a large sandbox.
+msgid "jan2011.FR060477"
+msgstr "<highlight>FR060477 - Pau, France</highlight> Situated between the Atlantic Ocean and the Pyranees mountains this large home offers sleeping capacity for ten people.  Lots of fun for children in the garden including table-tennis, a trampoline and a large sandbox."
+
+# --- English text = <highlight>IE9021 - Dublin, Ireland</highlight> Our home in Dublin is a large, bright  comfortable home within easy reach of the city  yet only 15mins from  the Dublin Mountains and the border with Wicklow National Park. 
+msgid "jan2011.IE9021"
+msgstr "<highlight>IE9021 - Dublin, Ireland</highlight> Our home in Dublin is a large, bright  comfortable home within easy reach of the city  yet only 15mins from  the Dublin Mountains and the border with Wicklow National Park. "
+
+# --- English text = <highlight>USMA1066 - Boston, USA</highlight> Our 18th century home is comfortable and spacious. It is an old farmhouse in an historic part of New England - great for families or couples.
+msgid "jan2011.USMA1066"
+msgstr "<highlight>USMA1066 - Boston, USA</highlight> Our 18th century home is comfortable and spacious. It is an old farmhouse in an historic part of New England - great for families or couples."
+

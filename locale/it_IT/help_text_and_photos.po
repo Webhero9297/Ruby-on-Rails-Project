@@ -1,0 +1,60 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2011-01-08 19:52+0100\n"
+"PO-Revision-Date: 2011-01-31 12:18+0100\n"
+"Last-Translator: gaby zanobetti <info@intervac.it>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Making Your Extra Text Look Great
+# --- Location = Help Text for "Add Category Text"
+msgid "text_help.headline"
+msgstr "Istruziioni per inserire il vostro testo sipplementare in modo ben fatto"
+
+# --- English text = Follow the steps below to remove any Word-specific styles from your text document.  This will prevent Microsoft specific styles from conflicting with styles at this site and causing your listing to look or act differently than you would expect.
+# --- Location = Help Text for "Add Category Text"
+msgid "text_help.introtext"
+msgstr "Seguite le istruzioni qui sotto per rimuovere ogni specifico stile di Word dal vostro documento di testo. Questo servirà per prevenire qualsiasi conflitto con gli stili di Microsoft con gli stili di questo sito, il che provocherebbe che la vostra iscrizione apparirebbe diversa da quello che vorreste"
+
+# --- English text = How To Save Your Document as Filtered Web Page
+# --- Location = Help Text for "Add Category Text"
+msgid "text_help.ms_word.save_as_filtered.headline"
+msgstr "Come salvare il documento come Pagina Web filtrata"
+
+# --- English text = First you should click the <highlight>Office</highlight> button.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_1"
+msgstr "Per prima cosa cliccate sul bottone  <highlight>Office</highlight> "
+
+# --- English text = Then select <hightlight>Save As</highlight> and <highlight>Other Formats</highlight> the <highlight>Save As</highlight> window will open.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_2"
+msgstr "Poi selezionate <hightlight>Salva Come</highlight> e <highlight>Altri Formati</highlight>.La finestra <highlight>Salva Come</highlight>si aprirà."
+
+# --- English text = Next select <highlight>Web Page, Filtered</highlight> from the <highlight>Save as type</highlight> drop-down list.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_3"
+msgstr "Poi selezionate  <highlight>Pagina Web , Filtrata</highlight>dalla lista drop-down di <highlight>Salva come tipo</highlight> "
+
+# --- English text = Name your file, add an <highlight>html</hightlight> file extension to it and click <highlight>Save.</highlight>
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_4"
+msgstr "Dia un nome al suo file, aggiunga un a estensione <highlight>html</hightlight> al suo file e clicchi  <highlight>Salva</highlight>"
+
+# --- English text = When you see a warning telling you that Office-specific tags will be removed when you save your file in this format, this is what you want to do, so just click <highlight>Yes</highlight>.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_5"
+msgstr "Quando vede un avviso che le dice che le specificità di Office saranno rimosse quando salva il suo file in questo formato,questo é quello che lei deve fare, perciò clicchi su  <highlight>SI</highlight>."
+

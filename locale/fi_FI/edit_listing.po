@@ -1,0 +1,632 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-08-09 22:01+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Your Contact Information
+msgid "contact_info.headline"
+msgstr "Yhteystietosi"
+
+# --- English text = Please note: All fields labeled with colored text are required and will return an error if not completed.
+msgid "required_fields"
+msgstr "Huomaa: Kaikki kentät, jotka on merkitty värillisellä tekstillä, ovat pakollisia ja aiheuttavat virhetilanteen, jos ne on jätetty tyhjäksi."
+
+# --- English Text = Full Name <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.name"
+msgstr "Koko nimi <required>*</required>"
+
+# --- English text = First &amp; Last Name
+msgid "contact_info.name_reminder"
+msgstr " Etunimi &amp; Sukunimi"
+
+# --- English text = About your address
+msgid "contact_info.address"
+msgstr "Osoitetietoja"
+
+# --- English text = This is your primary (mailing) address.  The address where you are most likely to be should a member want to contact you.  This should not be the address of your holiday home.  If you are looking for a way to change the placement of the marker on the Google map so that it displays the location of your second home, you can go to:
+msgid "contact_info.help_address"
+msgstr "Tämä on ensisijainen (postitus) osoitteesi.Osoite missä olet todennäköisimmin, jos jäsen haluaa ottaa sinuun yhteyttä. Tämä ei saisi olla loma-asuntosi osoite Jos etsit keinoa, millä voit muuttaa Googlen karttamerkintää näyttämään loma-asuntosi sijainnin, voit siirtyä:"
+
+# --- English text = Street <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.street"
+msgstr "Katu <required>*</required>"
+
+# --- English text = City/Town <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.city"
+msgstr "Paikkakunta <required>*</required>"
+
+# --- English text = Postal Code
+msgid "contact_info.postal"
+msgstr "Postinumero"
+
+# --- English text = State/Province
+msgid "contact_info.state"
+msgstr "Osavaltio/Maakunta"
+
+# --- English text = Telephone <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.telephone"
+msgstr "Puhelin <required>*</required>"
+
+# --- English text = Mobile Phone
+msgid "contact_info.mobile"
+msgstr "Matkapuhelin"
+
+# --- English text = FAX
+msgid "contact_info.fax"
+msgstr "Faksi"
+
+# --- English text = E-Mail <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.email"
+msgstr "Sähköposti <required>*</required>"
+
+# --- English text = Second E-Mail
+msgid "contact_info.second_email"
+msgstr "II sähköposti"
+
+# --- English text = Your homepage
+# --- CHANGED FROM: Your homepage (if available) => TO: Your homepage (Dec. 2008)
+msgid "contact_info.homepage"
+msgstr "Kotisivusi"
+
+# --- English text = Skype
+msgid "contact_info.skype"
+msgstr "Skype"
+
+# --- English text = About Your Home
+msgid "home.headline"
+msgstr "Tietoja kodistasi"
+
+# --- English text = Tell potential partners about the property that you are offering for exchange.
+msgid "home.property_intro_text"
+msgstr "Kerro mahdollisille kumppaneillesi minkälaista asuntoa tarjoat vaihtoon."
+
+# --- English text = Please choose the country in which your property is located if you are offering a home or apartment which is NOT in the same country as your residence.
+msgid "home.property_country_text"
+msgstr "Valitse maa, missä asuntosi sijaitsee tarjotessasi kodinvaihtoon asuntoa, joka EI sijaitse asuinmaassasi."
+
+# --- English text = Country of your exchange home <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.country_of_exchange_home"
+msgstr "Vaihtokotisi maa <required>*</required>"
+
+# --- English text = Property Location
+msgid "home.property_country"
+msgstr "Asunnon sijainti"
+
+# --- English text = My property lies <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.location"
+msgstr "Asuntoni sijaitsee <required>*</required>"
+
+# --- English text = Property is located
+msgid "home.envrionment"
+msgstr "Asunto sijaitsee"
+
+# --- English text = Nearest Airport
+msgid "home.nearest_airport"
+msgstr "Lähin lentokenttä"
+
+# --- English text = Type of home
+msgid "home.house_type"
+msgstr "Kodin tyyppi"
+
+# --- English text = Floor number
+msgid "home.floor_number"
+msgstr "Kerroksen numero"
+
+# --- English text = Sleeping capacity for
+msgid "home.persons_suitable"
+msgstr "Majoituskapasiteetti"
+
+# --- English text = people
+msgid "home.people"
+msgstr "henkilölle"
+
+# --- English text = Number of bedrooms
+msgid "home.bedrooms"
+msgstr "Makuuhuone(ita)"
+
+# --- English text = Number of bathrooms
+msgid "home.bathrooms"
+msgstr "Kylpyhuone(ita)"
+
+# --- English text = of
+msgid "home.location_of"
+msgstr " "
+
+# --- English text = Property setting
+msgid "home.environment"
+msgstr "Kohteen puitteet"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.region"
+msgstr "Alue <required>*</required>"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "show_listing.region"
+msgstr "Alue"
+
+# --- English text = About Your Family
+msgid "family.headline"
+msgstr "Tietoja perheestänne"
+
+# --- English text = Number of Adults
+msgid "family.adults"
+msgstr "Aikuisten määrä"
+
+# --- English text = Your occupation or profession <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "family.occupation"
+msgstr "Ammattisi tai elinkeinosi <required>*</required>"
+
+# --- English text = Your son(s) age
+msgid "family.boys_ages"
+msgstr "Poikasi ikä"
+
+# --- English text = Your daughter(s) age
+msgid "family.girls_ages"
+msgstr "Tyttäresi ikä"
+
+# --- English text = How many exchanges have you completed?
+msgid "family.exchanges_made"
+msgstr "Kuinka monta kodinvaihtolomaa olet jo viettänyt?"
+
+# --- English text = text characters
+# --- CHANGED FROM: "text characters" => TO: "text characters allowed"  (Dec. 2008)
+msgid "character_limit"
+msgstr "tekstin sallittu merkkimäärä"
+
+# --- English text = Your Travel Timing Preferences
+msgid "timing.headline"
+msgstr "Oman matkanne aikataulun asetukset"
+
+# --- English text = Enhance the description of your timing preferences.
+msgid "timing.comment_headline"
+msgstr "Tehosta kuvaustasi ajankohdan määrityksessä."
+
+# --- English text = Select the dates you are available for your next exchange.
+msgid "timing.intro_text"
+msgstr "Valitse päivämäärät, jolloin voit lähteä seuraavaan vaihtoon."
+
+# --- English text = Earliest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.earliest_date"
+msgstr "Aikaisin päivämäärä <required>*</required>"
+
+# --- English text = Latest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.latest_date"
+msgstr "Viimeisin päivämäärä <required>*</required>"
+
+# --- English text = Desired Length of Stay
+msgid "timing.vacation_length"
+msgstr "Haluttu oleskelun kesto"
+
+# --- English text = days
+msgid "timing.days"
+msgstr "päivää"
+
+# --- English text = weeks
+msgid "timing.weeks"
+msgstr "viikkoa"
+
+# --- English text = months
+msgid "timing.months"
+msgstr "kuukautta"
+
+# --- English text = Optional text description
+msgid "timing.comment"
+msgstr "Vapaaehtoinen tekstikuvaus"
+
+# --- English text = Your Exchange Preferences
+msgid "exchange_types.headline"
+msgstr "Vaihdon määrittely"
+
+# --- English text = Types of Exchanges
+msgid "exchange_types.exchanges"
+msgstr "Vaihdon tyypit"
+
+# --- English text = Services Offered
+msgid "exchange_types.services"
+msgstr "Tarjotut"
+
+# --- English text = Services Offered
+msgid "exchange_types.rental"
+msgstr "Palveluja tarjotaan"
+
+# --- English text = Youth Exchange
+msgid "exchange_types.youth"
+msgstr "Nuorisovaihto"
+
+# --- English text = Persons under 18 travelling alone
+msgid "exchange_types.under_18"
+msgstr "Alle 18-vuotiaat ovat yksin matkalla"
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Muut tiedot"
+
+# --- English text = Your Home Has
+msgid "other_details.home_headline"
+msgstr "Kodissasi on"
+
+# --- English text = You Offer
+msgid "other_details.offer_headline"
+msgstr "Sinä tarjoat"
+
+# --- English text = Language for Correspondence
+msgid "contact_info.spoken_languages"
+msgstr "Kirjeenvaihtokieli"
+
+# --- English text = Distances in km
+# --- Dec 2008 - New Text
+msgid "other_details.distances_headline"
+msgstr "Etäisyys kilometreissä"
+
+# --- English text = Your Region
+# --- Dec 2008 - New Text
+msgid "other_details.your_region_headline"
+msgstr "Omalla alueellasi"
+
+# --- English text = Forest/Woods
+msgid "other_details.km_forest_woods"
+msgstr "Metsä"
+
+# --- English text = River
+msgid "other_details.km_river"
+msgstr "Joki"
+
+# --- English text = Boating/Sailing
+msgid "other_details.km_boating"
+msgstr "Veneily / purjehdus"
+
+# --- English text = Ocean/Sea
+msgid "other_details.km_ocean_sea"
+msgstr "Meri"
+
+# --- English text = Shopping
+msgid "other_details.km_shopping"
+msgstr "Ostoksille"
+
+# --- English text =  Beach / Surfing
+msgid "other_details.km_beach"
+msgstr "Ranta / surffaus"
+
+# --- English text = Mountains
+msgid "other_details.km_mountains"
+msgstr "Vuoristo"
+
+# --- English text = Lake
+msgid "other_details.km_lake"
+msgstr "Järvi"
+
+# --- English text = Golfing
+msgid "other_details.km_golf"
+msgstr "Golf"
+
+# --- English text = Descriptive Phrase
+# --- (Dec 2008) This is being phased out - it's a left-over from catalogues, and is replaced by unlimited extra text.
+msgid "Descriptive Phrase"
+msgstr "Kuvaileva lause"
+
+# --- Help Text : Name ---
+# --- English text = Fill in your name as you would like it to appear online. Please use both upper and lowercase letters.
+msgid "contact_info.help_name"
+msgstr "Anna nimesi sellaisena kuin haluat sen näkyvän verkossa. Käytä isoja ja pieniä kirjaimia."
+
+# --- Help Text : Street ---
+# --- English text = Please fill in your mailing address.
+msgid "contact_info.help_street"
+msgstr "Ole ystävällinen ja täytä postiosoitteesi."
+
+# --- Help Text : City ---
+# --- English text = The city where you live. Your mailing address
+msgid "contact_info.help_city"
+msgstr "Paikkakunta, jossa asut. Sinun postiosoitteesi"
+
+# --- Help Text : Postal ---
+# --- English text = Your postal code.
+msgid "contact_info.help_postal"
+msgstr "Postinumerosi"
+
+# --- Help Text : State ---
+# --- English text = This field is not required! Please only use this if your mailing address requires the use of state or region.
+msgid "contact_info.help_state"
+msgstr "Tätä kenttää ei vaadita! Käytä tätä ainoastaan, jos postiosoitteesi mukana pitää kertoa osavaltion tai läänin nimi."
+
+# --- Help Text : Telephone ---
+# --- English text = The country code for your country is already filled in.  Give the rest for your phone number in the correct form for calling from outside of your country. <strong>Only one telephone number is allowed.</strong>
+msgid "contact_info.help_telephone"
+msgstr "Maasi tunnus on jo valmiina. Anna puhelinnumerosi oikeassa muodossa ulkomailta soittamista ajatellen. <strong>Vain yksi puhelinnumero.</strong>"
+
+# --- Help Text : Mobile Phone ---
+# --- English text = Enter your mobile phone number here if you wish to be contacted by other members that way.
+msgid "contact_info.help_mobile"
+msgstr "Anna tässä matkapuhelinnumerosi, jos haluat jäsenten soittavan sinulle matkapuhelimeesi."
+
+# --- Help Text : Skype
+# --- English text = You can put your skype id in this field if you wish members to be able to contact you using this service.
+msgid "contact_info.help_skype"
+msgstr "Voit antaa skype osoitteesi tässä, jos haluat jäsenten ottavan sinuun yhteyttä tämän palvelun kautta."
+
+# --- Help Text : Fax
+# --- English text = The country code for your country is already filled in.  Give the rest for your FAX number in the correct form for calling from outside of your country. <strong>Only one FAX number is allowed</strong>.
+msgid "contact_info.help_fax"
+msgstr "Kotimaasi maatunnus on täytetty valmiiksi. Anna loppuosa faksinumerostasi  ulkomailta soitettaessa oikeassa muodossa.  <strong>Vain yksi faksinumero on sallittu.</strong>"
+
+# --- Help Text : E-mail
+# --- English text = Please enter here an email address you check often and where you would like to receive exchange offers from other members. <strong>Only one email address is allowed.</strong>
+msgid "contact_info.help_email"
+msgstr "Kirjoita tähän ensisijainen sähköpostiosoitteesi. Osoite, jota luet usein ja johon haluat saada kodinvaihtokyselyt ja -tarjoukset Intervacin jäseniltä. <strong>Vain yksi sähköpostiosoite on sallittu.</strong>"
+
+# --- Help Text : Second E-mail
+# --- English text = If you would like to enter a second email address here you will receive all mails sent from the Intervac online system, as well as forwarded messages at both addresses.
+msgid "contact_info.help_second_email"
+msgstr "Jos haluat antaa toisen sähköpostiosoitteen,sekä Intervacin verkkopalvelun että viestikeskuksen viestit toimitetaan molempiin sähköpostiosoitteisiin."
+
+# --- Help Text : Homepage
+# --- English text = A homepage of your own is a good way to show prospective partners more about your family, home and region. If you do not have your own homepage, consider entering a webpage from your local tourist bureau.
+msgid "contact_info.help_homepage"
+msgstr "Kotisivu oman hyvä tapa esitellä mahdollisille kumppaneillesi lisää omaa perhettäsi, kotiasi ja alueettasi. Jos sinulla ei ole omia kotisivuja, kannattaa harkita paikallisen matkailusivun linkittämistä tähän."
+
+# --- Help Text : Region
+# --- English text = Please select the region where your exchange home is located. // Please fill in the official region where your exchange home is located.
+msgid "home.help_region"
+msgstr "Valitse lääni, jossa tarjoamasi kodinvaihtokohde sijaitsee. // Laita tähän sen alueen virallinen nimi, jossa vaihtokohteesi on."
+
+# --- Help Text : Nearest City
+# --- English text = How many kilometres lie between your exchange home and the nearest major city?  Please fill in the distance, direction and choose/fill in the nearest city here.
+msgid "home.help_location"
+msgstr "Montako kilometriä on vaihtoon tarjoamastasi kodista lähimpään suureen kaupunkiin? Täytä etäisyys, suunta ja valitse lähin kaupunki tästä."
+
+# --- Help Text : Environment
+# --- English text = Choose urban if your exchange home is within the city limits of the nearest city you have chosen above.  Suburban is near to a major city, and rural is the correct choice if your exchange home is out in the country.
+msgid "home.help_environment"
+msgstr "Valitse kaupungissa, jos kodinvaihtokohteesi sijaitsee valitsemasi lähimmän suuren kaupungin rajojen sisäpuolella. Esikaupunki sijaitsee suuren kaupungin läheisyydessä. Maaseutu on oikea valinta, jos asut maalla."
+
+# --- Help Text : House Type
+# --- English text = What sort of structure is the home you are offering for exchange?  If this is your second or vacation home please choose accordingly.
+msgid "home.help_house_type"
+msgstr "Minkälainen kohde kodinvaihtoon tarjoamasi koti on? Jos kyseessä on perheesi kakkosasunto tai lomaasunto, valitse sitä kuvaava, oikea vaihtoehto."
+
+# --- Help Text : Floor
+# --- This choice is offered for single structures housing more than one family, buildings or large homes with more than one apartment inside.
+msgid "home.help_floor_number"
+msgstr "Tässä vaihtoehdossa tarjotaan usean perheen asuintalossa sijaitsevaa kodinvaihtokohdetta, rakennuksia tai kotia, jossa on useita asuntoja."
+
+# --- Help Text : People
+# --- English text = This refers to the number of people who could comfortably sleep in your home, not the number of people in your family.
+msgid "home.help_persons_suitable"
+msgstr "Tässä kerrotaan, kuinka monta henkilöä voi  mukavasti majoittua kotiisi, ei perheeseesi kuuluvien henkilöiden lukumäärää."
+
+# --- Help Text : Bedrooms
+# --- English text = How many bedrooms are there in your home or apartment?  A consideration slightly different than how many people can sleep comfortably in your home.
+msgid "home.help_bedrooms"
+msgstr "Kuinka monta makuuhuonetta talossasi tai huoneistossasi on? Tämä tieto poikkeaa hieman siitä, kuinka monta ihmistä mahtuu mukavasti majoittumaan kodissasi."
+
+# --- Help Text : Bathrooms
+# --- English text = How many bathrooms does your home or apartment have?
+msgid "home.help_bathrooms"
+msgstr "Kuinka monta kylpyhuonetta talossasi tai huoneistossasi on?"
+
+# --- Help Text : Number of Adults
+# --- English text = Choose 0 to indicate that you are looking for Youth Exchange only.
+msgid "family.help_adults"
+msgstr "Jos etsitte ainoastaan nuorisovaihtoa, valitse 0."
+
+# --- Help Text : Occupation
+# --- English text = Intervac started as home exchange between teachers.  What is your profession?
+msgid "family.help_occupation"
+msgstr "Intervac alkoi opettajien keskinäisenä kodinvaihtona. Missä ammattissa tai toimessa olette?"
+
+# --- Help Text : Ages of Sons
+# --- English text = Please use one dropdown to indicate the age of each of your sons.
+msgid "family.help_boys_ages"
+msgstr "Valitse valikosta, minkä ikäisiä poikasi ovat."
+
+# --- Help Text : Ages of Daughters
+# --- English text = Please use one dropdown to indicate the age of each of your daughters.
+msgid "family.help_girls_ages"
+msgstr "Valitse valikosta, minkä ikäisiä tyttäresi ovat."
+
+# --- Help Text : Number of past exchanges
+# --- English text = Are you an experienced exchanger, or new to the game? Please choose the number of exchanges has your family has made?
+msgid "family.help_exchanges_made"
+msgstr "Oletko kokenut kodinvaihtaja vai ensikertalainen? Valitse luku, joka kertoo, kuinka monta kertaa olette olleet kodinvaihtolomalla."
+
+# --- Help Text : Earliest Date
+# --- English text = This is the earliest date you and your family are available to make an exchange.
+msgid "timing.help_earliest_date"
+msgstr "Aikaisin päivä, jolloin sinä ja perheesi voitte aloittaa kodinvaihdon."
+
+# --- Help Text : Latest Date
+# --- English text = This is the latest date you and your family can be away from home.
+msgid "timing.help_latest_date"
+msgstr "Viimeisin päivä, jolloin sinä ja perheesi voitte olla poissa kotoa."
+
+# --- Help Text : Timing Comment
+# --- English text = Not July/August, or SH=School Holidays; ET=Easter; CT=Christmas holidays; x=Open to Other Periods
+msgid "timing.help_comment"
+msgstr "NOT July/August= EI heinä-elokuussa; SH=koulujen loma-aikoina; ET= pääsiäisenä; CT= joululomalla; x= muutkin ajankohdat käyvät"
+
+# --- Help Text : Home Exchange
+# --- English text = You are flexible and willing to consider any offer that comes your way.
+msgid "exchange_types.help_O"
+msgstr "Sinä voit joustaa ja otat minkä tahansa tarjouksen harkintaasi."
+
+# --- Help Text : Home Exchange
+# --- English text = The majority of our members prefer to exchange homes.  This is not only our most popular choice, but also the cornerstone of our success.
+msgid "exchange_types.help_X"
+msgstr "Valtaosa jäsenistämme hakee kodinvaihtolomaa. Kodinvaihto ei ole ainoastaan suosituin vaihtoehtomme, vaan myös menestyksemme perusta."
+
+# --- Help Text : Weekend Exchange
+# --- English text = Looking for a short get-away, then Weekend Exchange is a good choice.
+msgid "exchange_types.help_WE"
+msgstr "Jos etsit lyhyttä irtiottoa, silloin viikonloppuvaihto on hyvä vaihtoehto."
+
+# --- Help Text : Double Exchange
+# --- English text = A double exchange consists of two families searching 2 separate homes which are situated near to one another.
+msgid "exchange_types.help_DX"
+msgstr "Kaksoisvaihdossa kaksi perhettä etsii kahta eri kotia, jotka sijaitsevat lähekkäin toisiaan."
+
+# --- Help Text : Hospitality Exchange
+# --- English text = Hospitality exchange means you invite a member to visit you in your home, and are invited to visit in return.
+msgid "exchange_types.help_XH"
+msgstr "Vierasvaihtossa kutsut jäsenen vierailulle kotiisi ja sinut kutsutaan vastavierailulle."
+
+# --- Help Text : Long Term Exchange
+# --- English text = Long-term exchanges are generally 3 months or more in length.
+msgid "exchange_types.help_LX"
+msgstr "Pitkäaikaisella vaihdolla tarkoitetaan yli kolme (3) kuukautta kestävää vaihtoa."
+
+# --- English text : A non-simultaneuous exchange is when two parties make an exchange with two different dates.  This is comparable to an exchange of house-sitting services.  Let's say your family was attending a wedding away from home, and you will be staying with relatives.  Another family might be planning a weekend holiday, but were unable to find an exchange partner for a direct exchange.  You might agree to a non-simultaneous exchange whereby you stay in their home while they are away for the weekend, and they stay in your home while you are at the wedding.
+msgid "exchange_types.help_NX"
+msgstr "Eriaikaisessa vaihdossa molempien osapuolien vaihtojen päivämäärät ovat erilaiset. Tätä voi verrata talonvahtivaihtopalveluun. Esimerkiksi perheesi on häissä kotipaikkakunnan ulkopuolella, ja majoittuu sukulaisten luona. Toinen perhe suunnittelee viikonloppulomaa, mutta ei löydä vaihtokumppani kodinvaihtoon. Voit sitoutua eriaikaiseen vaihtoon, jossa olet heidän kotonaan perheen ollessa poissa viikonlopun, ja vaihtoperhe viettää lomaa kotonasi, kun itse olette häissä."
+
+# --- Help Text : Youth Exchange
+# --- English text = Members who have checked this box are looking for a youth exchange.
+msgid "exchange_types.help_XY"
+msgstr "Tämän valinneet jäsenet etsivät perheensä nuorille nuorisovaihtoa."
+
+# --- Help Text : Youth Hospitality
+# --- English text = Check this box if you are willing to host young adults as guests in your home.
+msgid "exchange_types.help_OY"
+msgstr "Valitse tämä, jos haluat nuoria aikuisia vierailulle kotiisi."
+
+# --- Help Text: Hospitality offered by a young person
+# --- English text = Check this box if you have a young adult in your family who would like to host visting youths.
+msgid "exchange_types.help_WY"
+msgstr "Valitse tämä, jos perheessäsi oleva nuori aikuinen haluaa toimia vierailulle tulevien nuorten isäntänä tai emäntänä."
+
+# --- Help Text: Hospitality
+# --- English text = Hospitality is offered by members who have checked this box.
+msgid "exchange_types.help_H"
+msgstr "Tämän valinneet jäsenet tarjoavat vierasvaihtoa."
+
+# --- Help Text : Offer home for house-sitting
+# --- English text = These members are searching a housesitter.  This option does not generally involve any payment.  This is ideal for when you must be away from home for a period of time, and would like for someone to pick up the mail, and feed the cat.
+msgid "exchange_types.help_AH"
+msgstr "Tämän vaihtoehdon valinneet etsivät talonvahtia. Tässä vaihtoehdossa ei yleensä peritä maksua. Tämä sopii hyvin, jos joudut olemaan poissa kotoasi tietyn ajan ja haluat esim. jonkun huolehtimaan postistasi, kastelemaan kukkasi ja ruokkimaan kissasi."
+
+# --- Help Text : Want to House-sit
+# --- English text = Choosing this option indicates a willingness to look after a home while the owners are away.  This usually includes picking up the mail, feeding pets and watering plants.
+msgid "exchange_types.help_HS"
+msgstr "Tämän vaihtoehdon valinta tarkoittaa, että olet valmis toimimaan talonvahtina, kun omistajat ovat poissa kotoa. Tähän yleensä sisältyy postin noutaminen, lemmikkien ruokinta ja kasvien kastelu."
+
+# --- Help Text : Hospitality Wanted
+# --- English text = Checking this box indicates that you are searching for a member willing to offer you hospitality.
+msgid "exchange_types.help_HW"
+msgstr "Tämän vaihtoehdon valinta kertoo, että etsit jäsentä, joka haluaa sinut vieraaksi kotiinsa."
+
+# --- Help Text : Long Term Rental
+# --- English text = The members who have checked this box are interested in a long term (usually 3 months or more) rental.
+msgid "exchange_types.help_LR"
+msgstr "Jäsen, joka on valinnut tämän, etsii pitkäaikaista (yleensä vähintään kolmen kuukauden mittaista) vuokrausta."
+
+# --- Help Text : Home for rent only
+# --- English text = The members who have checked this box are only interested in renting thier homes.  These members are not able to contact members who have checked the No Rental Offers Accepted box.
+msgid "exchange_types.help_ER"
+msgstr "Täman valinneet jäsenet ovat kiinnostuneita ainoastaan vuokraamaan kotinsa. He eivät voi ottaa yhteyttä jäseniin, jotka ovat   valinneet vaihtoehdon Emme hyväksy vuokraustarjouksia."
+
+# --- Help Text : Home for rent or exchange
+# --- English text = The members who have checked this box are interested in renting thier homes, but they are equally interested in exchange offers.
+msgid "exchange_types.help_RO"
+msgstr "Jäsenet, jotka ovat valinneet tämän, ovat kiinnostuneita vuokraamaan kotinsa mutta he ovat yhtä kiinnostuneita vaihtotarjouksista."
+
+# --- Help Text : Rental Required
+# --- English text = These members require a rental property.
+msgid "exchange_types.help_RR"
+msgstr "Nämä jäsenet vuokraavat asuntoaan."
+
+# --- Help Text : Skype
+# --- English text = If you want other members to contact you via Skype, please add your Skype-id here.
+msgid "other_details.help_skype"
+msgstr "Jos haluat jäsenten ottavan sinuun yhteyttä Skypen kautta, anna tässä Skype-osoitteesi."
+
+# --- ERROR TEXT ---
+# --- English text =  The latest date must be after the earliest date.
+msgid "errors.latest_date_must_be_after_earliest"
+msgstr "Viimeisen päivämäärän pitää olla myöhäisempi kuin ensimmäinen päivämäärä."
+
+# --- English text = Save my profile details
+msgid "save_button"
+msgstr "Tallenna profiilini tiedot"
+
+# --- HowTo: Change availiabilty status
+# --- English text = If you are not searching an exchange at this time, you can change your availability status by clicking once on the traffic light in the headline above.  When the light is green, other members know that you are actively searching an exchange partner.
+msgid "how_to_change_availability"
+msgstr "Jos et ole etsimässä vaihtoa juuri nyt, voit muuttaa ilmoituksesi statusta napsauttamalla liikennevaloa ylätunnisteessa. Vihreä valo kertoo muille jäsenille, että etsit aktiivisesti vaihtokumppania."
+
+# --- English text = My Listing Details
+msgid "headline"
+msgstr "Yhteenveto omista tiedoistani"
+
+# --- English text = Please do not forget to save your changes.
+msgid "dont_forget_to_save"
+msgstr "Älä unohda tallentaa tekemiäsi muutoksia."
+
+# --- NEW April 2008 :: English text = Text written above is visible to visitors.
+msgid "visible_for_visitors"
+msgstr "Yllä oleva teksti näkyy myös vierailijoille."
+
+# English Text = Close Window
+msgid "close_button"
+msgstr "Sulje ikkuna"
+
+# --- English text = Your personal data has been saved.
+# --- Location = This is the notice that confirms that changes to personal data have been saved to an invisible listing.
+msgid "error_messages.personal_data_saved"
+msgstr "Antamasi tiedot on tallennettu."
+
+# --- English text = Your listing will remain in-visible until you have filled in the following fields.
+# --- Location = This notice confirms that the listing remains invisible until all the fields required to build a complete listing are filled in.
+msgid "error_messages.listing_remains_invisible"
+msgstr "Ilmoituksesi ei näy muille jäsenille ennen kuin olet täyttänyt seuraavat kentät."
+
+# --- English text = Please select at least one language for correspondence
+# --- Location = Error text if Language for Correspondence is left blank
+# (June, 2011 - New)
+msgid "error.spoken_language"
+msgstr "Ole hyvä ja valitse vähintään yksi kieli kirjeenvaihtokieleksi"
+
+# --- English text = Please select at least one exchange preferences
+# --- Location = Error text if Exchange types are left blank
+# (June, 2011 - New)
+msgid "error.exchange_type"
+msgstr "Ole hyvä ja valitse vähintään yksi vaihtoon liittyvä mieltymys"
+
+# --- English text = Your listing remains invisible for other members until you have built your home exchange profile. Get started today!
+# --- Location =
+# (June, 2011)
+msgid "message.invisible_listing"
+msgstr "Tietosi ovat näkymättömiä muille jäsenille kunnes olet luonut oman kodinvaihtajaprofiilisi. Aloita jo tänään!"
+
+# --- English text = Before we can activate your trial membership, please upload a photo of your home.
+# --- Location = This is the success message that appears on the Main Photo page when an invisible member has filled out their listing details and been forwarded to the Main Photo page.
+# (Aug, 2011)
+msgid "message.invisible_listing_without_photo"
+msgstr "Ennen kuin voimme aktivoida koejäsenyytesi, lataa valokuva kodistasi."
+
+# --- English text = Time span
+# --- Location = Nov. 2011 - mobile application only
+# (New: November, 2011)
+msgid "availability.time_span"
+msgstr "Aikaväli"
+

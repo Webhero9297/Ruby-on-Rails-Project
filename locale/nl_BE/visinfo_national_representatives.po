@@ -1,0 +1,91 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-11 18:17+0100\n"
+"PO-Revision-Date: 2011-09-19 19:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = National Representatives
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Nationale vertegenwoordigers"
+
+# --- English text = Intervac International is administered by country representatives responsible for each national Intervac operation. Our organisers use standard procedures for dealing with member's requests and following up on your concerns.  They are also responsible for supporting you in your efforts to find a suitable exchange partner and for promoting the concept of home exchange within their country.  If we do not currently have an organizer in your country and you are interested, please <link>contact us</link>!
+# (June, 2011 - Reference:  This is a new text merged together out of: vtour_about_us.po => organization.nationally_owned_and_operated & organization.organizers_text)
+msgid "organizers.text"
+msgstr "Intervac International wordt bestuurd door vertegenwoordigers uit verschillende landen, die op hun beurt verantwoordelijk zijn voor de lokale werking van Intervac.  Onze organisatoren of vertegenwoordigers gebruiken standaard procedures in het behandelen van de vragen van hun leden.  Zij zijn ook verantwoordelijk voor de ondersteuning van de leden in het zoeken naar een gepaste ruilpartner en voor het promoten van het huisruilconcept in hun land. Als we momenteel geen organisator hebben in jouw land en je bent geïnteresseerd, klik dan op <link>contacteer ons</link>!"
+
+# --- English text = The Intervac Board of Directors
+# (June, 2011 - New)
+msgid "bd.headline"
+msgstr "Intervac Raad van Bestuur"
+
+# --- English text = Sitting on the Intervac Board of Directors is a challenging job for each of the four National Representatives elected to thier chairs.  They each serve at least one term of 2 years and as a group they are responsible for putting decisions made at the general meetings in action.
+# (June, 2011 - New)
+msgid "bd.introtext"
+msgstr "Deel uitmaken van de Raad van Bestuur is een uitdaging voor de vier verkozen nationale vertegenwoordigers.  Zij zijn verkozen voor een termijn van 2 jaar en zijn verantwoordelijk voor het uitvoeren van de beslissingen die genomen worden door de jaarlijkse Algemene Vergadering."
+
+# --- English text = The current members of the Intervac Board of Directors are:
+# (June, 2011 - As Is - vtour_about_us.po => organization.current_bd_headline)
+msgid "current_board.headline"
+msgstr "De huidige leden van de Raad van Bestuur zijn: "
+
+# --- English text = Our Mailing Address
+# (June, 2011 - As Is - vtour_about_us.po => organization.pullquote)
+msgid "mailing_address.headline"
+msgstr "Ons mail adres"
+
+# --- English text = Annual General Meetings
+# (June, 2011 - As Is - vtour_about_us.po => agm.headline)
+msgid "agm.headline"
+msgstr "Jaarlijkse Algemene Vergaderingen"
+
+# --- English text = Organisers from participating countries meet at Annual General Meetings (AGMs) to set world-wide policies and procedures and to elect a Board of Directors, who then coordinate international activities of INTERVAC on a day-to-day basis. INTERVAC organisers take turns in hosting AGMs in their country. Following is the schedule of forthcoming AGMs:
+# (June, 2011 - As Is - vtour_about_us.po => agm.text)
+msgid "agm.introtext"
+msgstr "Organisatoren van deelnemende landen ontmoeten elkaar op de Jaarlijkse Algemene Vergadering om een wereldwijd beleid en procedures te sturen.  Ze kiezen een Raad van Bestuur die de internationale activiteiten van INTERVAC coordineert en de dagelijkse leiding voert.  INTERVAC organisatoren ontvangen om beurt de Jaarlijkse Algemene Vergadering in hun land.  De volgende Jaarlijkse Algemene vergaderingen vinden plaats in:"
+
+# --- English text = 2008 - Great Britain
+# (June, 2011 - As Is - vtour_about_us.po => agm.2008)
+msgid "agm.2008"
+msgstr "2008 - Groot-Britannië"
+
+# --- English text = 2009 - Norway
+# (June, 2011 - As Is - vtour_about_us.po => agm.2009)
+msgid "agm.2009"
+msgstr "2009 - Noorwegen"
+
+# --- English text = 2010 - Portugal
+# (June, 2011 - As Is - vtour_about_us.po => agm.2010)
+msgid "agm.2010"
+msgstr "2010 - Portugal"
+
+# --- English text = 2011 - Belgium
+# (June, 2011 - As Is - vtour_about_us.po => agm.2011)
+msgid "agm.2011"
+msgstr "2011 - België"
+
+# --- English text = 2012 - Italy
+# (June, 2011 - As Is - vtour_about_us.po => agm.2012)
+msgid "agm.2012"
+msgstr "2012 - Italië"
+
+# --- English text = 2013 - Germany
+# (June, 2011 - As Is - vtour_about_us.po => agm.2013)
+msgid "agm.2013"
+msgstr "2013 - Duitsland"
+
+# --- English text = 2014 - USA
+# (June, 2011 - As Is - vtour_about_us.po => agm.2014)
+#, fuzzy
+msgid "agm.2014"
+msgstr "2014 - USA"
+

@@ -1,0 +1,63 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2011-06-18 16:00+0200\n"
+"PO-Revision-Date: 2011-10-16 18:40+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Subscribe to Our Newsletter
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (June, 2011 - New)
+msgid "subscription_box.headline"
+msgstr "インターバック・ニュースレターを購読する"
+
+# --- English text = Sign Up
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (June, 2011)
+msgid "subscription.button"
+msgstr "購読する"
+
+# --- English text = Subscribe To Our Newsletter
+# --- Location =
+# (June, 2011)
+msgid "subscription_form.headline"
+msgstr "インターバック・ニュースレターを購読する"
+
+# --- English text = We use our newsletter to keep our members; new members, experienced members and our soon-to-be members up on special offers, news, and anything interesting going on around Intervac.  We're glad to have you join us!
+# --- Location =
+# (June, 2011)
+msgid "subscription_form.text"
+msgstr "ニュースレターの内容は：　新しい会員、すでに経験をつんだ会員、そしてこれから会員になってくれる方々への特別オファーやニュース、その他インターバックの周辺で起こっている興味ある事柄全てをお知らせするものです。あなたの購読をお待ちしています！"
+
+# --- English text = Your Email Address
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (June, 2011)
+msgid "subscription_form.email_label"
+msgstr "メールアドレス"
+
+# --- English text = Your Newsletter Subscription
+# --- Location =
+# (June, 2011)
+msgid "confirmation.page.headline"
+msgstr "購入申し込み"
+
+# --- English text = Thanks! Your subscription to our Intervac Newsletter was successful. We will send you the next issue as soon as it is published.
+# --- Location =
+# (June, 2011)
+msgid "confirmation.success.thanks_text"
+msgstr "有難う！あなたのインターバック・ニュースレターの購読申し込みは受け付けられました。次回が発行され次第すぐに送付いたします。"
+
+# --- English text = That didn't work out.  It looks like this confirmation link is not valid or has already been used.  Please try again <link>here</link>.
+# --- Location =
+# (June, 2011)
+msgid "confirmation.failure.sorry_text"
+msgstr "エラーになりました。この確認リンクが無効になっているか、すでに使われてしまっているようです。もう一度 <link>ここ</link>.から試みてください。"
+

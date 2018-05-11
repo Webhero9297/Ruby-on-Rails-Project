@@ -1,0 +1,285 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-10-16 19:11+0100\n"
+"PO-Revision-Date: 2012-06-04 17:29+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# English text = Google Map Settings
+msgid "headline"
+msgstr "Google kart innstillinger"
+
+# English text = This marker may not pinpoint the member\'s exact street address.
+msgid "marker_text"
+msgstr "Denne markøren viser ikke medlemmets eksakte gateadresse."
+
+# --- English text = Disable the Google Map for my listing
+msgid "disable_map"
+msgstr "Ikke vis Google Map i min oppføring"
+
+# --- English text = Change Marker Placement
+msgid "change_placement_headline"
+msgstr "Endre kartnålen"
+
+# English text = If the marker on the map in your listing is wrong you can correct it on this page.  Whether you are offering your second home for exchange, or want a more precise placement through the use of latitude and longitude please select your choice below.
+msgid "change_placement_text"
+msgstr "Dersom merket på kartet i din annonse er feil plassert, kan du korrigere dette på denne siden. Enten du tilbyr ditt andre-hjem for boligbytte, eller ønsker en mer presis plassering ved bruk av koordinater, foreta ett av valgene nedenfor."
+
+# --- English text = Google will place the marker on your map using the following priority list
+msgid "marker_priority_text"
+msgstr "Google vil plassere kartnålen på kartet ditt i henhold til følgende prioriteringsliste"
+
+# English text = Latitude &amp; Longitude (gps coordinates)
+msgid "li_latitude_longitude"
+msgstr "Breddegrad; Lengdegrad (gps - loordinater)"
+
+# English text = Second home address
+msgid "li_second_home"
+msgstr "Andre-hjems adresse"
+
+# English text = Contact address in your listing
+msgid "li_contact_address"
+msgstr "Kontaktadresse i din annonse"
+
+# English text = What would you like to do?
+msgid "what_next.headline"
+msgstr "Hva ønsker du å gjøre?"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude"
+msgstr "Spesifiser breddegrad og lengdegrad for mitt hjem"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude_title"
+msgstr "Vennligst spesifiser posisjonen (lengdegrad og breddegrad) for mitt hjem"
+
+# English text = Latitude &amp; Longitude
+msgid "latitude_longitude.headline"
+msgstr "Breddegrad; lengdegrad"
+
+# --- English text = If you already know the latitude and longitude of your home or neighborhood, you can enter them below.  If you need help in finding the correct coordinates for your location, click on the help icon.
+msgid "latitude_longitude.intro_text"
+msgstr "Dersom du allerede kjenner breddegrad og lengdegrad for ditt hjem eller naboskap, kan du skrive inn disse verdiene nedenfor. Dersom du trenger hjelp til å finne de riktige koordinatene for din posisjon, bes du klikke på ikonet for hjelp."
+
+# --- (Dec 2008) English text = Link opens in a new window
+msgid "link_opens_new_window"
+msgstr "Linken åpnes i et nytt vindu"
+
+# --- English text = How to Find the Latitude &amp; Longitude of Your Home
+msgid "latitude_longitude.how_to_headline"
+msgstr "Hvordan finne posisjonen (breddegrad og lengdegrad) for ditt hjem"
+
+# English text = For an exact position of the google maps marker, you can enter the gps coordinates (latitude, longitude) of your home below.
+msgid "latitude_longitude.how_to_text_1"
+msgstr "For å få en eksakt posisjon for merket på Google-kartet, kan du legge inn gps-koordinatene (breddegrad og lengdegrad) for hjemmet ditt."
+
+# English text = You can get these coordinates from a hand-held GPS unit, or you might try the navigation system in your car.  There are also a number of free tools on the internet whereby you can find the latitude and longitude (GPS Co-ordinates) of your home. The best of them are
+msgid "latitude_longitude.how_to_text_2"
+msgstr "Du kan avlese disse koordinatene på en håndholdt GPS-enhet, eller du kan bruke navigasjonssytemet i bilen din. Det finnes også en rekke andre verktøy på Internatt hvor du kan finne breddegrader og lengdegrader(Gps Co-ordinater) for ditt hjem. De beste er"
+
+# English text = One Step Address Conversion
+msgid "latitude_longitude.onestep.headline"
+msgstr "Ett trinns adresse-endring"
+
+# English text = Go To: One Step Address Conversion
+msgid "latitude_longitude.onestep.link"
+msgstr "Gå til: Adresseendring - ett trinn"
+
+# English text = Click here for instructions on how to use the One Step Address Conversion utility.
+msgid "latitude_longitude.onestep.help"
+msgstr "Klikk her for å få instruksjon om hjelpemidlet: Adresseendring - ett trinn."
+
+# English text = Infosports
+msgid "latitude_longitude.infosports.headline"
+msgstr "Informasjonsporter"
+
+# English text = Go To: Infosports
+msgid "latitude_longitude.infosports.link"
+msgstr "Gå til: Informasjon"
+
+# English text = GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.headline"
+msgstr "GPS Synliggjører"
+
+# English text = Go To: GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.link"
+msgstr "Gå til: GPS synliggjørerr"
+
+# English text = It is not necessary to be too precise and remember that the map is visible to visitors as well as members.
+msgid "latitude_longitude.precision"
+msgstr "Det er ikke nødvendig å være alt for presis, for husk at kartet er synlig for så vel besøkende på denne siden som medlemmer."
+
+# English text = Latitude
+msgid "latitude_longitude.latitude"
+msgstr "Breddegrader"
+
+# English text = Longitude
+msgid "latitude_longitude.longitude"
+msgstr "Lengdegrader"
+
+# -- ERROR TEXT --
+# English text = Please enter both latitude and longitude as decimal values (39.002844), and not degrees (39° 0’ 10.8 ).
+msgid "errors.decimal_values_only"
+msgstr "Vennligst sett in både breddegrad og lengdegrad som desimalverdier (39.002844), og ikke som grader (39° 0’ 10.8 )."
+
+# -- ERROR TEXT --
+# English text = Sorry, both latitude and longitude must be set for this feature to work properly!
+msgid "errors.require_lat_and_long"
+msgstr "Beklager, men både breddegrad og lengdegrad må oppgis for at denne funksjonen skal virke skikkelig."
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home"
+msgstr "Sett inn adressen for det hjemmet jeg tilbyr for boligbytte"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home_title"
+msgstr "Sett inn adressen for det hjemmet jeg tilbyr for boligbytte"
+
+# English text = Exchange Home Address
+msgid "second_home.headline"
+msgstr "Hjemmeadresse for boligbytte"
+
+# English text = If the home you are offering for exchange is your second or holiday home, enter the address here. The map in your listing will use this address (if there is one) to place the marker before it uses your contact address.
+msgid "second_home.intro_text"
+msgstr "Dersom hjemmet du tilbyr for boligbytte er ditt andre hjem eller ditt feriested, bes du skrive adressen her. Kartet i din annonse vi da bruke denne adressen (dersom den finnes) når det gjelder å plassere merket før din kontaktadresse brukes."
+
+# English text = Street
+msgid "second_home.street"
+msgstr "Gate"
+
+# English text = Postal
+msgid "second_home.postal"
+msgstr "Postadresse"
+
+# English text = City
+msgid "second_home.city"
+msgstr "By"
+
+# English text = State
+msgid "second_home.state"
+msgstr "Fylke"
+
+# English text = Country
+msgid "second_home.country"
+msgstr "Land"
+
+# -- ERROR TEXT --
+# English text = Sorry, both city and postal code must be set for this feature to work properly!
+msgid "errors.require_city_and_postal"
+msgstr "Beklager, men både by og postnummer må oppgis for at denne funksjonen skal virke skikkelig."
+
+# -- BUTTON TEXT --
+# English text = Save Settings
+msgid "save_button"
+msgstr "Lagre opplysningene"
+
+# -- HELP TEXT --
+# English text = How to use One Step GPS coordinate search.
+msgid "latitude_longitude.onestep.how_to_use"
+msgstr "Hvordan bruke Ett Trinns GPS koordinatsøk."
+
+# -- HELP TEXT --
+# English text = Enter your address in the fields on the left hand side.
+msgid "latitude_longitude.onestep.step1"
+msgstr "Skriv inn din adresse på området til venstre."
+
+# -- HELP TEXT --
+# English text = Click the "Determine Latitude/Longitude" button
+msgid "latitude_longitude.onestep.step2"
+msgstr "Klikk på \"Bestem breddegrader/Lengdegrader\"- knappen."
+
+# -- HELP TEXT --
+# English text = Please be patient.  This easy to use tool queries many separate GPS databases, and takes a few minutes to work.  Depending on where you live you will receive several sets of results.  For houses located in Great Britain, the results from "locatienet" have proven more accurate than those from Google when using the postal code.
+msgid "latitude_longitude.onestep.step3"
+msgstr "Vær tålmodig. Dette enkele verktøyet involverer flere forskjellige GPS - databaser, så denne prosessen kan ta noen minutter."
+
+# -- HELP TEXT --
+# English text = How to use Infosports GPS coordinate search.
+msgid "latitude_longitude.infosports.how_to_use"
+msgstr "Hvordan bruke info for å søke etter GPS - koordinater."
+
+# -- HELP TEXT --
+# English text = Move the map by holding down the mouse button while moving the mouse.
+msgid "latitude_longitude.infosports.step1"
+msgstr "Beveg kartet ved å holde nede museknappen mens du beveger musa."
+
+# -- HELP TEXT --
+# English text = If you are not a resident of the US, zoom out by clicking on the grid lines (or the -) on the left until you have your country in the view.
+msgid "latitude_longitude.infosports.step2"
+msgstr "Hvis du ikke bor i USA, zoomer du ut ved å klikke på gitterlinjene (eller - tegnet) til venstre inntil du ser ditt land."
+
+# -- HELP TEXT --
+# English text = Create a marker by clicking on a spot near your area, and then zoom in by clicking on the grid lines (or the + sign).  Repeat this step until you can place the marker satisfactorily.
+msgid "latitude_longitude.infosports.step3"
+msgstr "Lag et merke ved å klikke på et punkt nær ditt område og zoom deretter inn ved å klikke på gitterlinjene (eller + tegnet). Gjenta dette flere ganger til du oppnår en tilfredsstillende plassering av merket."
+
+# -- HELP TEXT --
+# English text = Click on the final marker to display the longitude and latitude.
+msgid "latitude_longitude.infosports.step4"
+msgstr "Klikk på den siste markøren for å vise lengdegrader og breddegrader."
+
+# -- HELP TEXT --
+# English text = Copy and paste the coordinates into the boxes below.
+msgid "latitude_longitude.infosports.step5"
+msgstr "Kopier og lim inn koordinatene i boksene nedenfor."
+
+# -- HELP TEXT --
+# English text = How to use GPS Visualizer.
+msgid "latitude_longitude.gps_visualizer.how_to_use"
+msgstr "Hvordan bruke GPS Visualizer."
+
+# -- HELP TEXT --
+# English text = Type your address in the box and click the "Geocode it" button. Remember, if you live outside the USA to put, for example, “Boston, United Kingdom” rather than just “Boston”
+msgid "latitude_longitude.gps_visualizer.step1"
+msgstr "Skriv inn din adresse i boksen og klikk \"Geokod den\" - knappen. Husk at dersom du f. eks. bor utenfor USA, så skriv \"Boston, United Kingdom\" og ikke bare \"Boston\""
+
+# -- HELP TEXT --
+# English text = Enter (copy and paste) the coordinates in these boxes.
+msgid "latitude_longitude.gps_visualizer.step2."
+msgstr "Sett inn (kopier og lim inn) koordinatene i disse boksene."
+
+# -- HELP TEXT --
+# English text = Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank.
+msgid "second_home.street_help"
+msgstr "Google støtter ikke alltid geocoding til gateadresser i alle Intervac land. Om du har problemer med å få markøren til å settes på riktig sted, prøv å la dette feltet stå blank."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+msgid "second_home.state_help"
+msgstr "Om ditt land ikke benytter stater i postadressen, skal dette feltet være blankt."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+msgid "second_home.country_help"
+msgstr "Hvis dette ikke er landet der ditt boligbytte-hjem ligger, ber vi deg kontakte din nasjonale organisator for hjelp."
+
+# --- English text = Thank you, we saved your changes in our database!
+msgid "messages.save_successful"
+msgstr "Takk, vi har lagret dine endringer i vår database!"
+
+# --- English text = Sorry, either Google Map couldn't find the address or you have disabled the map for your listing.
+msgid "errors.no_map_found"
+msgstr "Sorry, either Google Map couldn't find the address or you have disabled the map for your listing."
+
+# --- English text = An error has occurred and we were unable to save your changes.  Please make sure you have entered your latitude and longitude in degrees instead of coordinates, and contact your local organizer for assistance if you continue to have difficulty
+# --- (1 July, 2010) Edited to add a reminder to the member to use degrees instead of coordinates when entering Latitude and Longitude.
+msgid "errors.general_fail"
+msgstr "En feil har oppstått og vi er ikke i stand til å lagre dine endringer. Vennligst prøv igjen, eller kontakt lederen for Intervac i ditt land for assistanse."
+
+# --- English text = Map of the Region
+msgid "map_of_region"
+msgstr "Kart over regionen"
+
+# --- English text = Not supported in all countries
+# --- Location: This is a little warning underneath the "street" text box in the Exchange Home Address form.
+msgid "second_home.street_not_supported_in_all_countries"
+msgstr "Ikke støttet i alle land"
+

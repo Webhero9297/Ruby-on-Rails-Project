@@ -1,0 +1,108 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-02 18:17+0100\n"
+"PO-Revision-Date: 2011-11-26 21:10+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thinking About Home Exchange
+# --- Location = Main headline
+# (June 2011)
+msgid "page.headline"
+msgstr "Tanker Omkring Boligbytte"
+
+# --- English text = So, if you've made it this far you are probably wondering what all you are going to need to think about before you make your first vacation swap.  At the beginning, it's a bunch of things, but once you've got them in place it'll be a lot easier the next time around.  Below we've gathered together a list of suggestions to help you feel secure in your decision.
+# --- Location = Introductory text
+# (June 2011)
+msgid "page.introtext"
+msgstr "Når du har kommet så langt som nå, lurer du sikkert på hva du må gjøre for å få til ditt første boligbytte. Først er det mange ting å tenke på, men så snart du har fått dette på plass vil alt blir mye lettere neste gang. Under her er en liste med forslag vi har samlet for at du skal være sikker når du tar din avgjørelse. "
+
+# --- English text = How Do I Find The Perfect Exchange Partner?
+# (June 2011)
+msgid "perfect_partner.headline"
+msgstr "Hvordan finner jeg den perfekte boligbyttepartner?"
+
+# --- English text = First, it's important to know that it takes some initiative to make an exchange happen.  We try to make it as simple as possible though.  Our members contact each other directly using our integrated messaging system to start a dialog that could lead to an exchange.  It is not unusual to make and receive several offers  before you find just the right partner.  Our online system supports many different types of alternative holiday forms.
+# (June 2011)
+msgid "perfect_partner.text"
+msgstr "Først og fremst er det viktig å vite at det kreves litt initiativ for å oppnå et boligbytte.  Likevel vil vi prøve å gjøre det så enkelt som mulig. Våre medlemmer kontakter hverandre direkte ved hjelp av et integrert meldingssystem for å starte en dialog som kan lede til et boligbytte. Det er ikke uvanlig at du vil motta adskillige tilbud før du finner akkurat den rette boligbyttepartneren.  Vårt online system støtter mange ulike typer av alternative ferieformer."
+
+# --- English text = How can I be sure that the exchange will be <italic>equal</italic>?
+# (June 2011)
+msgid "equal_exchange.headline"
+msgstr "Hvordan kan jeg være sikker på at boligbyttet vil bli <italic>likeverdig</italic>?"
+
+# --- English text = Many exchangers with large homes would be happy to trade for an adequate apartment/condominium in central Paris, London, Rome or San Francisco.  Others are looking for a quiet getaway.  An exchange is "equal" when both parties are satisfied with their arrangements.
+# (June 2011)
+msgid "equal_exchange.text"
+msgstr "Mange boligbyttere med store hus vil være glade for å bytte med en tilsvarende leilighet i sentrale Paris, London, Roma eller San Francisco. Andre ser etter en rolig ferie.  Et boligbytte er  \"likeverdig\" når begge parter er fornøyd med arrangementet. "
+
+# --- English text = Who would ever want to come to my area?
+# (June 2011)
+msgid "visit_my_area.headline"
+msgstr "Hvem kunne tenke seg å komme til mitt hjemsted?"
+
+# --- English text = You'll be surprised!  Take some time writing extra text for your listing and tell potential exchange partners all about your neighborhood, why you love living there, what can they see and do in the region.  Don't forget, your partner will be on holiday and has time to explore.  Everyone lives near something interesting, because "interesting" is often nothing more than the unfamiliar.
+# (June 2011)
+msgid "visit_my_area.text"
+msgstr "Du vil bli overrasket!  Bruk litt tid på å skrive en ekstra tekst i din Intervac-annonse og fortell potensielle boligbyttepartnere alt om ditt område, hvorfor du liker å bo der og hva de kan oppleve der du bor.  Glem ikke at din boligbyuttepartner vil være på ferie og har tid til å utforske området.  Alle bor vi nær noe som er interessant, fordi \"interessant\" er ofte ikke noe annet enn det ukjente."
+
+# --- English text = What about exchanging cars?
+# (June 2011)
+msgid "exchange_cars.headline"
+msgstr "Hva Med Bilbytte?"
+
+# --- English text = In many cases an exchange of cars is an important part of the exchange deal, but not always.  It's a good idea to think clearly about whether you are comfortable driving in New York City or London.
+# (June 2011)
+msgid "exchange_cars.text"
+msgstr "Mange ganger er bilbytte en viktig del av en boligbytteavtale, men ikke alltid. Det er lurt å tenke nøye gjennom hvorvidt du ønsker å kjøre bil i New York eller London."
+
+# --- English text = As for insurance, often your car insurance policy will already cover guest drivers. If it doesn't you can supplement your regular policy with additional short-term specific coverage for the length of your exchange. It is important to discuss this with your insurance agent and your exchange partner and agree in advance how to handle the responsibilities and liabilities for the financial aspect.
+# (June 2011)
+msgid "exchange_cars.insurance_text"
+msgstr "Din bilforsikring vil som hovedregel dekke gjestesjåfører, men sjekk ut dette med ditt forsikringsselskap. Noen har avtale om kun en sjåfør i sin forsikring, eller kanskje du ikke har lov til å la ungdommer under 25 kjøre bilen. Der dette er tilfelle med din bilforsikring kan du nok få til en kortidsavtale som dekker dette behovet i den perioden ekstraforsikringen skal gjelde. Husk å avtale med din byttepartner hvem som eventuelt skal betale egenandel om uhellet skulle være ute."
+
+# --- English text = Speaking of insurance, what about my home insurance?
+# (June 2011)
+msgid "home_insurance.headline"
+msgstr "Hvordan er det med Hjem-forsikringen?"
+
+# --- English text = Do check with your insurance provider and let them know that you will have guests while you are gone. Most companies will tell you that an unoccupied home is a bigger risk for theft and vandalism than an occupied one and they are happy to know that yours won't be sitting empty while you are away.  Ask if there are any special arrangements you need to make, and don't forget to let your exchange partner know about any insurance requirements for locking doors, activating alarm systems, etc.  This should be included in the information packet about your home that you will leave for them.
+# (June 2011)
+msgid "home_insurance.text"
+msgstr "Det er viktig at du sjekker med ditt forsikringsselskap hvordan huset er dekket når du låner det bort til gjester. Dette pleier ikke å være noe problem, de fleste forsikringsselskap er fullt klare over at risikoen med å la huset stå ubevoktet gjennom ferien er til større risiko enn om det bor noen der som du stoler på. Men det er lurt å sjekke om det er noe spesielt du må være obs på. Husk å informere dine byttepartnere hvis det er visse ting som må være på plass for forsikringens del, slik som låste dører, tyverialarm etc. Dette bør ligge i informasjonsfolderen som du lar ligge igjen til dine gjester. "
+
+# --- English text = We have special needs, can we still arrange an exchange?
+# (June 2011)
+msgid "special_needs.headline"
+msgstr "Vi har spesielle ønsker. Kan vi likevel arrangere et boligbytte?"
+
+# --- English text = Intervac's listing codes cover many preferences related to home exchange.  From <italic>non-smoking</italic>, to <italic>handicapped accessible</italic>, from <italic>pet care</italic> to <italic>private swimming pool</italic>  You can add an unlimited amount of text to your listing.  Go ahead and detail your needs clearly so that the perfect exchange partner (who is searching for you too) can find you.
+# (June 2011)
+msgid "special_needs.text"
+msgstr "Kodene i Intervacs annonser dekker mange preferanser knyttet til bologbytte.  Fra <italic>Røyking forbudt</italic>, til <italic>tilgjengelig for funksjonshemmede</italic>, fra <italic>tilsyn med katten</italic> til <italic>privat svømmebasseng</italic>  Du kan legge til en ubegrenset tekst i din annonse.  Sett i gang og detaljer dine behov nøyaktig slik at  den perfekte boligbyttepartner, (som søker etter deg) - kan finne deg."
+
+# --- English text = How Do I Get Started?
+# (June 2011)
+msgid "get_started.headline"
+msgstr "Hvordan begynner jeg?"
+
+# --- English text = It's easy, just fill out our short registration  and pay your membership fee or choose our free trial membership if you are not sure.  It's good for {{number}} days and gives you full access to our site. Then log in and begin building your listing right away. It will not be visible for other members until after you have filled in all the required fields.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (Last updated: November 2011)
+msgid "get_started.text"
+msgstr "Det er lett, bare start med å fylle inn registreringsskjemaet og betal for fullt medlemskap eller velg en uke med gratis medlemskap hvis du ikke har bestemt deg. Det gir deg {{number}} dager med full tilgang til din side og vår database. Så kan du logge inn og få laget din oppføring. Din oppføring vil ikke bli synlig før du har fyllt inn alle feltene som er obligatoriske. "
+
+# --- English text = INTERVAC listings are intended to convey a clear description of your residence, your family, and where and when you would like to travel. Personal preferences such as no smoking or no pets should also be noted in your listing.  So come on! <link>Join us today!</link>
+# (June 2011)
+msgid "get_started.about_listings"
+msgstr "INTERVAC oppføringer skal gi en klar beskrivelse av ditt hjem, din familie, samt når og hvor du vil reise. personlige preferanser slik som ikke røyking og ingen kjæledyr skal også komme med i din oppføring, så sett igang! <link>bli med i dag</link>"
+

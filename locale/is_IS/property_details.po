@@ -1,0 +1,261 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2011-10-12 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Air conditioning
+msgid "ac"
+msgstr "Loftræsting"
+
+# --- English text = Use/Exchange of car
+msgid "ae"
+msgstr "Afnot/Skipti á bílum"
+
+# --- English text = Car necessary
+msgid "an"
+msgstr "Bíll nauðsynlegur!"
+
+# --- English text = All appliances
+msgid "apl"
+msgstr "Öll heimilistæki."
+
+# --- English text = Balcony
+msgid "bc"
+msgstr "Verönd"
+
+# --- English text = Baby equipment
+msgid "be"
+msgstr "Smábarnadót fyrir hendi"
+
+# --- English text = Bicycle(s)
+msgid "bi"
+msgstr "Reiðhjól"
+
+# --- English text = Bicycle(s) available
+msgid "bi_ext"
+msgstr "Reiðhjól í boði"
+
+# --- English text = Use of caravan/camper
+msgid "ca"
+msgstr "Afnot af hjólhýsi/tjaldi"
+
+# --- English text = Central heating
+msgid "ch"
+msgstr "Miðstöðvarhiti"
+
+# --- English text = Tourist attractions
+msgid "cf"
+msgstr "Allt fyrir ferðamenn"
+
+# --- English text = Computer available
+msgid "cp"
+msgstr "Afnot af tölvu"
+
+# --- English text = Convenient shopping
+msgid "cs"
+msgstr "Verslanir "
+
+# --- English text = Shower
+msgid "d"
+msgstr "Sturta"
+
+# --- English text = Clothes dryer
+msgid "dr"
+msgstr "Tauþurrkari"
+
+# --- English text = Free internet access
+msgid "fi"
+msgstr "Ókeypis nettenging"
+
+# --- English text = Forest/Woods
+msgid "fo"
+msgstr "Tré/Skógur"
+
+# --- English text = Fireplace
+msgid "fp"
+msgstr "Arinn"
+
+# --- English text = Garden
+msgid "gd"
+msgstr "Garður"
+
+# --- English text = Garage
+msgid "gg"
+msgstr "Bílskúr"
+
+# --- English text = Golfing
+msgid "gp"
+msgstr "Golfvöllur"
+
+# --- English text = Close to golfing
+msgid "gp_ext"
+msgstr "Nálægt golfvelli"
+
+# --- English text = Suitable for disabled people
+msgid "hp"
+msgstr "Aðgengilegt fyrir fatlaða"
+
+# --- English text = Use of second home
+msgid "hs"
+msgstr "Afnot af öðru heimili"
+
+# --- English text = Lake
+msgid "la"
+msgstr "Stöðuvatn"
+
+# --- English text = Close to a lake
+msgid "la_ext"
+msgstr "Nálægt stöðuvatni"
+
+# --- English text = Lift/elevator
+msgid "li"
+msgstr "Lyfta"
+
+# --- English text = Mountains
+msgid "mt"
+msgstr "Fjöll"
+
+# --- English text = Close to the mountains
+msgid "mt_ext"
+msgstr "Nálægt fjalllendi"
+
+# --- English text = No (small) children
+msgid "nc"
+msgstr "Engin (unga) börn"
+
+# --- English text = No pets
+msgid "np"
+msgstr "Engin gæludýr"
+
+# --- English text = Non-smoking
+msgid "ns"
+msgstr "Reyklaus"
+
+# --- English text = Pet care wanted
+msgid "pc"
+msgstr "Óskað eftir vörslu gæludýra"
+
+# --- English text = Park/Playground
+msgid "pk"
+msgstr "Listigarður/Leikvöllur"
+
+# --- English text = Beach
+msgid "pl"
+msgstr "Strönd"
+
+# --- English text = Close to the beach
+msgid "pl_ext"
+msgstr "Nálægt strönd"
+
+# --- English text = Seclusion/Privacy
+msgid "pv"
+msgstr "Sérstætt/Prívat"
+
+# --- English text = Quiet neighborhood
+msgid "ro"
+msgstr "Rólegt umhverfi"
+
+# --- English text = River
+msgid "rv"
+msgstr "Á"
+
+# --- English text = Close to the river
+msgid "rv_ext"
+msgstr "Nálægt á"
+
+# --- English text = Sauna (private)
+msgid "sa"
+msgstr "Gufubað"
+
+# --- English text = Private swimming pool
+msgid "sb"
+msgstr "Einkasundlaug/heitur pottur"
+
+# --- English text = Security/Doorman
+msgid "sc"
+msgstr "Öryggi/Dyravörður"
+
+# --- English text = Boating/Sailing/Surfing
+msgid "se"
+msgstr "Bátaferðir/Siglingar/Öldubretti"
+
+# --- English text = Skiing
+msgid "sk"
+msgstr "Skíðaferðir"
+
+# --- English text = Swimming (public)
+msgid "sp"
+msgstr "Sundlaugar (Almennings)"
+
+# --- English text = Good public transport
+msgid "t"
+msgstr "Góðir  almenningsvagnar"
+
+# --- English text = Tennis
+msgid "te"
+msgstr "Tennis"
+
+# --- English text = Theatre
+msgid "tr"
+msgstr "Leikhús"
+
+# --- English text = Television
+msgid "tv"
+msgstr "Sjónvarp"
+
+# --- English text = Use of boat
+msgid "ub"
+msgstr "Afnot af báti"
+
+# --- English text = Video
+msgid "vr"
+msgstr "Video"
+
+# --- English text = Hiking/walking
+msgid "wa"
+msgstr "Fjallgöngur/gönguleiðir"
+
+# --- English text = Homepage
+msgid "web"
+msgstr "Heimasíða"
+
+# --- English text = Washing machine
+msgid "wm"
+msgstr "Þvottavél"
+
+# --- English text = Dishwasher
+msgid "wv"
+msgstr "Uppþvottavél"
+
+# --- English text = Sea
+msgid "z"
+msgstr "Sjór"
+
+# --- English text = Close to the sea
+msgid "z_ext"
+msgstr "Nálægt sjó."
+
+# --- English text = Lake/Beach/Sea
+# --- A collection - used on MatchAlert!
+msgid "laplz"
+msgstr "Stöðuvatn/Strönd/Sjór"
+
+# --- English text = Forest/Mountains
+# --- A collection - used on MatchAlert!
+msgid "fomt"
+msgstr "Skógur/Fjöll"
+
+# --- English text = DVD
+msgid "dvd"
+msgstr "DVD"
+

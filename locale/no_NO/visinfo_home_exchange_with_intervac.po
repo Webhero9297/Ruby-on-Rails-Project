@@ -1,0 +1,77 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (February, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-09 10:17+0100\n"
+"PO-Revision-Date: 2011-11-26 21:33+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Boligbytte Med Intervac"
+
+# --- English text = Exchanging your home with Intervac members is easy.  After you have signed up and filled in your listing you can get started right away looking for a potential exchange partner.  Your membership fee covers unlimited exchanges during a specific period of time (usually a year or more) and most of our members exchange several times a year.
+# (June, 2011 - New)
+msgid "page.introtext"
+msgstr "Å bytte bolig med Intervac er enkelt. Etter at du har meldt deg på og fylt ut din oppføring, kan du starte med en gang å lete etter en potensiell byttepartner. Ditt medlemskap dekker ubegrensede bytter gjennom en viss periode (vanligvis ett år eller mer) og de fleste av våre medlemmer bytter bolig flere ganger i året. "
+
+# --- English text = Thousands of Exchanges Each Year
+# (June, 2011 - New)
+msgid "annual_exchanges.headline"
+msgstr "Tusener Av Bytter Hvert År"
+
+# --- English text = Every day of the year intervac members are living in each other's homes, taking care of each other's pets and plants, and experiencing each other's neighborhoods.  Intervac members are host and guest to over {{annual_number_of_exchanges}} per year. And we've been in business since 1953!  When it comes to the security and enjoyablity of a home exchange holiday, those numbers speak volumes for the Intervac way of life.
+# --- IMPORTANT - Do not translate {{annual_number_of_exchanges}} - This is a placeholder that will be filled in by the system when the page is displayed.
+# (June, 2011 - New)
+msgid "annual_exchanges.text"
+msgstr "Hver eneste dag reiser medlemmer av Intervac fra sine hjem, og tar vare på andres dyr, planter og opplever andres nabolag. Intervac medlemmer er vertskap og gjester i over {{annual_number_of_exchanges}} bytter per år. Og vi har vært i denne businessen siden 1953! Når det gjelder sikkerhet og begeistring for boligbytte, snakker disse tallene for seg selv. "
+
+# --- English text = Many 2nd Generation Exchangers
+# (June, 2011 - New)
+msgid "second_generation.headline"
+msgstr "Mange 2. generasjons boligbyttere"
+
+# --- English text = And because we've been in business for {{number_of_years_in_business}} years and our concept is still fresh and innovative we are proud to have many second generation exchangers amongst our members.  These are adults who first experienced home exchange as kids and now they are sharing it with their children.
+# (June, 2011 - New)
+msgid "second_generation.text"
+msgstr "Siden vi har vært i denne businessen i {{number_of_years_in_business}} år og fortsatt holder vårt konsept friskt og innovativt er vi stolte av å ha mange andre generasjons boligbyttere blant våre medlemmer. Dette er voksne som fikk sine føste erfaringer med boligbytter mens de selv var barn, og som nå deler denne ferieformen med sine egne barn."
+
+# --- English text = Database Mix
+# (June, 2011 - New)
+msgid "database_mix.headline"
+msgstr "Spesifisert Miks "
+
+# --- English text = Another benefit of our extensive experience is what we refer to as our <italic>database mix</italic>.  This refers to the percentage of members we have in Europe -vs- North America, or English speaking countries -vs- the rest of the world.  We curate these ratios and use them when deciding where to spend our advertising budget so we can be sure that the exchange you are looking for is in our database. it.
+# (June, 2011 - New )
+msgid "database_mix.text"
+msgstr "En anne fordel ved å benytte vår ekspertise er hva vi kaller vår <italic>database mix</italic>. Dette refererer til prosenten av medlemmer vi har i Europa -vs- Nord Amerika, eller engelsk språklige land -vs- resten av verden. Vi regner ut disse og andre statistikker når vi bestemmer oss for hvor vi skal bruke vårt annonsebudsjett. Du kan være sikker på at det boligbytte du er ute etter er mulig å finne i Intervacs database."
+
+# --- English text = National Representatives in Your Country
+# (June, 2011 - New)
+msgid "personal_service.headline"
+msgstr "Nasjonal Representant I Ditt Land"
+
+# --- English text = We have thirty five national representatives around the world and most of them have been helping members like you find great exchanges for twenty years and more.  Our agents know the ropes, they know the best tips, and they will do everything they can to help you find a great exchange. Intervac is located in your country, and speaks your language.
+# (June, 2011 - Reference - vtour_why_intervac.po => personal_service.text)
+msgid "personal_service.text"
+msgstr "Vi har trettifem nasjonale representanter rundt om i verden og de fleste av dem har hjulpet medlemmer som deg til å finne gode boligbytter i 20 år eller mer. Vår agent kjenner knep, kan gi deg tips og hun vil gjøre hva hun kan for å hjelpe deg til å finne en flott byttepartner. Intervac holder til i ditt land og agenten snakker ditt språk. "
+
+# --- English text = Detailed Guidlines
+# (June, 2011 - New)
+msgid "detailed_guidlines.headline"
+msgstr "Detaljerte Retningslinjer og Online Hjelp"
+
+# --- English text = We have detailed guidelines for home exchange that are updated regularly in light of our organisers and their members' experience. Our online system is well documented with plenty of help text to give you a boost when find yourself stuck in the middle of the night.
+# --- Location =
+# (June, 2011 - As Is - vtour_why_intervac.po => detailed_guidelines.text)
+msgid "detailed_guidelines.text"
+msgstr "Vi har detaljerte retningslinjer for boligbytter som er oppdaterte og regulert i lys av våre organisatorers og deres medlemmers erfaringer. Vårt online system er godt oppdatert med mye hjelpetekst for å gi deg den hjelpen som skal til for å hjelpe deg om du står fast selv, og du ikke kan få hjelp av vår agent i området ditt. "
+

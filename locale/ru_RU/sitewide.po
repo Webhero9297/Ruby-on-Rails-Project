@@ -1,0 +1,515 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-12-18 16:00+0200\n"
+"PO-Revision-Date: 2012-04-03 08:01+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# House types
+# --- English text = 1-story house
+#, fuzzy
+msgid "house_types.A"
+msgstr "1-story house"
+
+# House types
+# --- English text = House
+#, fuzzy
+msgid "house_types.B"
+msgstr "House"
+
+# House types
+# --- English text = Flat
+#, fuzzy
+msgid "house_types.C"
+msgstr "Flat"
+
+# House types
+# --- English text = Mobile Home: Caravan
+#, fuzzy
+msgid "house_types.CA"
+msgstr "Mobile Home: Caravan"
+
+# House types
+# --- English text = Holiday Home
+#, fuzzy
+msgid "house_types.D"
+msgstr "Holiday Home"
+
+# --- English text = Email
+#, fuzzy
+msgid "labels.email"
+msgstr "Email"
+
+# --- English text = Click here for help
+#, fuzzy
+msgid "click_here_for_help"
+msgstr "Click here for help"
+
+# --- English text = Click for information
+#, fuzzy
+msgid "click_for_information"
+msgstr "Click for information"
+
+# --- English text = -- Please select one --
+#, fuzzy
+msgid "select_one"
+msgstr "-- Please select one --"
+
+# --- English text = -- Select from left --
+#, fuzzy
+msgid "select_left"
+msgstr "-- Select from left --"
+
+# --- English text = No photo available
+#, fuzzy
+msgid "no_photo"
+msgstr "No photo available"
+
+# Environment
+# --- English text = In the country
+#, fuzzy
+msgid "environment.r"
+msgstr "In the country"
+
+# Envrionment
+# --- English text = In the suburbs
+#, fuzzy
+msgid "environment.s"
+msgstr "In the suburbs"
+
+# Environment
+# --- English text = In the city
+#, fuzzy
+msgid "environment.u"
+msgstr "In the city"
+
+# Environment
+# --- English text = In a small town
+#, fuzzy
+msgid "environment.st"
+msgstr "In a small town"
+
+# Environment
+# --- English text = In the mountains
+#, fuzzy
+msgid "environment.mn"
+msgstr "In the mountains"
+
+# Environment
+# --- English text = At the seaside
+#, fuzzy
+msgid "environment.ss"
+msgstr "At the seaside"
+
+# --- English text = Baby
+#, fuzzy
+msgid "baby"
+msgstr "Baby"
+
+# --- English text = User has been updated
+#, fuzzy
+msgid "users.user_updated"
+msgstr "User has been updated"
+
+# --- English text = Sorry, the owners of listing number {{expr}} do not have an active membership with Intervac at this time.
+# --- IMPORTANT : the phrase "{{expr}}" will be replaced dynamically with the member number that was searched.
+#, fuzzy
+msgid "users.not_active"
+msgstr "Sorry, the owners of listing number {{expr}} do not have a visible membership with Intervac at this time."
+
+# --- English text = Sorry, {{member_number}} does not belong to you.
+# --- IMPORTANT : Please do not translate the phrase "{{member_number}}" it will be replaced dynamically.
+#, fuzzy
+msgid "users.not_your_member_id"
+msgstr "Sorry, {{member_number}} does not belong to you."
+
+# --- English text = Sorry, we could not find any member for {{expr}}
+#, fuzzy
+msgid "users.no_member_match"
+msgstr "Sorry, we could not find any member for {{expr}}"
+
+# --- English text = Photo for listing
+#, fuzzy
+msgid "photo_for_listing"
+msgstr "Photo for listing"
+
+# Direction
+# --- English text = North
+#, fuzzy
+msgid "directions.N"
+msgstr "North"
+
+# Direction
+# --- English text = North-East
+#, fuzzy
+msgid "directions.NE"
+msgstr "North-East"
+
+# Direction
+# --- English text = East
+#, fuzzy
+msgid "directions.E"
+msgstr "East"
+
+# Direction
+# --- English text = South-East
+#, fuzzy
+msgid "directions.SE"
+msgstr "South-East"
+
+# Direction
+# --- English text = South
+#, fuzzy
+msgid "directions.S"
+msgstr "South"
+
+# Direction
+# --- English text = South-West
+#, fuzzy
+msgid "directions.SW"
+msgstr "South-West"
+
+# Direction
+# --- English text = West
+#, fuzzy
+msgid "directions.W"
+msgstr "West"
+
+# Direction
+# --- English text = North-West
+#, fuzzy
+msgid "directions.NW"
+msgstr "North-West"
+
+# Lengthofstay
+# --- English text = day(s)
+#, fuzzy
+msgid "timing.dy"
+msgstr "day(s)"
+
+# --- English text = month
+#, fuzzy
+msgid "timing.mo"
+msgstr "month"
+
+# --- English text = week(s)
+#, fuzzy
+msgid "timing.we"
+msgstr "week(s)"
+
+# Timecomment
+# --- English text = Easter time
+#, fuzzy
+msgid "timing.ET"
+msgstr "Easter time"
+
+# Timecomment
+# --- English text = Christmas time
+#, fuzzy
+msgid "timing.CT"
+msgstr "Christmas time"
+
+# Timecomment
+# --- English text = School holidays
+#, fuzzy
+msgid "timing.SH"
+msgstr "School holidays"
+
+# Timecomment
+# --- English text = The period is flexible
+#, fuzzy
+msgid "timing.x"
+msgstr "The period is flexible"
+
+# --- English text = Offer is available
+#, fuzzy
+msgid "offer_available"
+msgstr "Offer is available"
+
+# --- English text = available
+# (June 2011) - Used on the summary/edit listing page in the member's area as part of a sentence.
+#, fuzzy
+msgid "available"
+msgstr "available"
+
+# --- English text = Offer is not available
+#, fuzzy
+msgid "offer_not_available"
+msgstr "Offer is not available"
+
+# --- English text = not available
+#, fuzzy
+msgid "not_available"
+msgstr "not available"
+
+# --- English text = click here
+#, fuzzy
+msgid "click_here"
+msgstr "click here"
+
+# --- English text = Mr.
+#, fuzzy
+msgid "greeting.mr"
+msgstr "Mr."
+
+# --- English text = Mrs.
+# Mrs. => a married woman
+#, fuzzy
+msgid "greeting.mrs"
+msgstr "Mrs."
+
+# --- English text = Ms.
+# Ms. => a woman, without marital status (could be married or un-married)
+#, fuzzy
+msgid "greeting.ms"
+msgstr "Ms."
+
+# --- English text = Miss
+# Miss => an un-married (usually young) woman.  Not often used these days.
+#, fuzzy
+msgid "greeting.miss"
+msgstr "Miss"
+
+# --- English text = Close Help
+# --- (button text for all help windows)
+#, fuzzy
+msgid "button.close_help"
+msgstr "Close Help"
+
+# --- English text = System Information
+#, fuzzy
+msgid "system_information.headline"
+msgstr "System Information"
+
+# --- English text = No rental offers accepted
+#, fuzzy
+msgid "no_rentals_accepted"
+msgstr "No rental offers accepted"
+
+# --- English text = or
+#, fuzzy
+msgid "or"
+msgstr "or"
+
+# --- English text = and
+#, fuzzy
+msgid "and"
+msgstr "and"
+
+# --- English text = Date
+# --- This is used  when displaying a date that needs to be labeled, for instance a message.
+#, fuzzy
+msgid "date"
+msgstr "Date"
+
+# --- English text = View
+#, fuzzy
+msgid "dashboard.view_link"
+msgstr "View"
+
+# --- English text = Country
+#, fuzzy
+msgid "country"
+msgstr "Country"
+
+# --- English text = Countries
+# --- (June 2009) This label is hidden text
+#, fuzzy
+msgid "countries"
+msgstr "Countries"
+
+# --- English text = -- Please select a country --
+#, fuzzy
+msgid "select_country"
+msgstr "-- Please select a country --"
+
+# --- English text = Add Country
+#, fuzzy
+msgid "add_country_button"
+msgstr "Add Country"
+
+# --- English text = Region
+#, fuzzy
+msgid "region"
+msgstr "Region"
+
+# --- English text = -- Please select region --
+#, fuzzy
+msgid "select_region"
+msgstr "-- Please select region --"
+
+# --- English text = Add Region
+#, fuzzy
+msgid "add_region_button"
+msgstr "Add Region"
+
+# --- English text = Nearest City
+#, fuzzy
+msgid "nearest_city"
+msgstr "Nearest City"
+
+# --- English text = -- Please select a city --
+#, fuzzy
+msgid "select_city"
+msgstr "-- Please select city --"
+
+# --- English text = Add City
+#, fuzzy
+msgid "add_city_button"
+msgstr "Add City"
+
+# --- English text = Sorry, we were unable to find any members in our database to match your search request.
+#, fuzzy
+msgid "users.no_match"
+msgstr "Sorry, we were unable to find any active members in our database to match your search request."
+
+# --- English text = Year
+#, fuzzy
+msgid "year"
+msgstr "Year"
+
+# --- English text = This member has 11+ documented exchanges.
+#, fuzzy
+msgid "rating.platinum"
+msgstr "This member has 11+ documented exchanges."
+
+# --- English text = This member has 6-10 documented exchanges.
+#, fuzzy
+msgid "rating.gold"
+msgstr "This member has 6-10 documented exchanges."
+
+# --- English text = This member has 3-5 documented exchanges.
+#, fuzzy
+msgid "rating.silver"
+msgstr "This member has 3-5 documented exchanges."
+
+# --- English text = This member has 1-2 documented exchanges.
+#, fuzzy
+msgid "rating.bronze"
+msgstr "This member has 1-2 documented exchanges."
+
+# --- English text = This member has no documented exchanges.
+#, fuzzy
+msgid "rating.ready"
+msgstr "This member has no documented exchanges."
+
+# --- English text = Yes
+#, fuzzy
+msgid "opinion.yes"
+msgstr "Yes"
+
+# --- English text = No
+#, fuzzy
+msgid "opinion.no"
+msgstr "No"
+
+# --- English text = Undecided
+#, fuzzy
+msgid "opinion.undecided"
+msgstr "Undecided"
+
+# --- English text = Many mobile devices do not support the use of rich text editors.  To make changes to this area, please use a desktop computer or laptop.
+# --- Location = Only shown to members using a mobile device (ipad, ipod, etc) on Additional Text and Photos page and on Message Templates page.
+#, fuzzy
+msgid "mobile.rich_text_editors_not_supported"
+msgstr "Many mobile devices do not support the use of rich text editors.  To make changes to this area, please use a desktop computer or laptop."
+
+# --- English text = North America
+#, fuzzy
+msgid "continents.north_america"
+msgstr "North America"
+
+# --- English text = South America
+#, fuzzy
+msgid "continents.south_america"
+msgstr "South America"
+
+# --- English text = Asia
+#, fuzzy
+msgid "continents.asia"
+msgstr "Asia"
+
+# --- English text = Africa
+#, fuzzy
+msgid "continents.africa"
+msgstr "Africa"
+
+# --- English text = Oceania
+#, fuzzy
+msgid "continents.oceania"
+msgstr "Oceania"
+
+# --- English text = Europe
+#, fuzzy
+msgid "continents.europe"
+msgstr "Europe"
+
+# --- WEB FEEDBACK ---
+# --- English Text = Web feedback form
+# --- Location => Footer and visitors info pages
+# (June 2011)
+#, fuzzy
+msgid "feedback.link_text"
+msgstr "Web feedback"
+
+# --- English Text = We want to hear from you!
+# --- Location => visitors info pages
+# (June 2011)
+#, fuzzy
+msgid "feedback.headline"
+msgstr "We want to hear from you!"
+
+# --- English Text = Fill out our web feedback form
+# --- Location => Footer and visitors info pages
+# => link titles are mouseover text
+# (June 2011)
+#, fuzzy
+msgid "feedback.link_title"
+msgstr "Fill out our web feedback form"
+
+# --- English text = {{number}} Day Trial Account
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (Last updated: November, 2011)
+msgid "trial_account.headline"
+msgstr "{{number}} Day Trial Account"
+
+# --- English text = Sign up
+# (New - November, 2011)
+#, fuzzy
+msgid "application_button.sign_up"
+msgstr "Sign up"
+
+# --- English text = Expires after {{number}} days
+# (New - November, 2011)
+#, fuzzy
+msgid "trial_membership.fine_print"
+msgstr "Expires after {{number}} days"
+
+# --- English text = Renew your membership
+# --- Location =
+# (New: October, 2011)
+#, fuzzy
+msgid "renew_box.headline"
+msgstr "Renew your membership"
+
+# --- English text = <link>Click here to choose your membership options.</link>
+# --- IMPORTANT:  Do not remove or translate <link> and </link>.  The system will automatically turn the text in between these tags into a link to the "Choose Membership Options" page of the payment process.
+# --- (December 2011 - New Text)
+#, fuzzy
+msgid "trial_membership.link_to_membership_options"
+msgstr "<link>Click here to choose your membership options.</link>"
+
+# --- English text = Delete
+# --- Location = 
+# (New: November, 2011)
+#, fuzzy
+msgid "command.delete"
+msgstr "Delete"

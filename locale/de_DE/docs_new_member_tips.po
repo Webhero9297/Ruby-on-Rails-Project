@@ -1,0 +1,111 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Tips for New Members
+msgid "page.headline"
+msgstr "Tipps für neue Mitglieder"
+
+# --- English text = If you are an experienced exchanger and have suggestions for improving this text, please send us a web feedback and use the category: Member Documents.
+msgid "page.ee_suggestions"
+msgstr "Wenn Sie als \"Erfahrener Tauscher\"  Verbesserungsvorschläge haben, senden Sie diese mit dem web-feedback-Formular direkt an Ihren lokalen Organisator - unter\"Mitglieder Dokumente\""
+
+# --- English text = Setting Up Your Listing
+msgid "set_up_your_listing.headline"
+msgstr "Ihr Angebot ausfüllen"
+
+# --- English text = As soon as you have completed the registration process you can log-in to your intervac listing and begin setting it up.  It is important to repeat that until you have actually finished filling in your listing, it remains invisible to other members.  So, let's do that...
+msgid "set_up_your_listing.introtext"
+msgstr "Sobald Sie sich registriert haben, können Sie sich einloggen und Ihr Angebot komplett ausfüllen. Es ist wichtig,  Ihre Angaben nochmals zu überprüfen - bis zur kompletten Dateneingabe ist Ihr Angebot für andere Mitglieder nicht sichtbar."
+
+# --- English text = After you have logged in, on the member home page, in the left-hand column just underneath the orange navigation box you will see a set of links titled \"My Listing\".  Begin by clicking on \"Edit My Listing\"
+msgid "set_up_your_listing.list_go_login"
+msgstr "Nachdem Sie sich auf der Mitglieder homepage eingeloggt haben, sehen Sie auf der linken Seite ( Orangebox)  mit \"Mein Angebot\" und \"Angebot editieren\" - hier klicken"
+
+# --- English text = Fill in the form with your desired travel dates, information about your family, your home, and your surroundings.  Don't forget to save your changes by clicking the orange button at the top, or the bottom of the page.
+msgid "set_up_your_listing.list_edit_listing"
+msgstr "Füllen Sie dieses Formular aus,  mit Ihren Wunsch- und  Urlaubsdaten, Informationen über Ihre Familien, Ihr Heim und Umgebung etc.! Vergessen Sie nicht,  Ihre Daten zu speichern -  klicken Sie den button (oben/unten auf der Seite)."
+
+# --- English text = Your Destinations Wishlist
+msgid "set_up_your_listing.destinations_wishlist_headline"
+msgstr "Gewünschte Reiseziele"
+
+# --- English text = Using the "My Listing" navigation click on "Destinations Wishlist" to begin to alert other members to your wish to visit their area.  By default "Open for All Countries" is chosen, but you can enter as many countries, regions, and cities as you like.  The more you choose, the better your chances of getting offers from people in those places using the Reverse Search to find potential exchange partners.
+msgid "set_up_your_listing.list_destinations_wishlist"
+msgstr "Gehen Sie auf \"Mein Angebot\" und klicken auf \"Gewünschte Reiseziele\", um anderen Mitgliedern Ihre Wünsche anzuzeigen. Oft wird \"Offen für alle Angebote\" gewählt,  Sie können aber auch Länder, Regionen und Städte eingeben - soviel Sie wollen! Je mehr Angaben Sie machen,  desto größer ist Ihre Chance,  Angebote von Partnern zu erhalten, die  \"Umkehrsuche\" benutzen, um einen potentiellen Tauschpartner zu finden."
+
+# --- English text = Place your Google Marker
+msgid "set_up_your_listing.google_marker_headline"
+msgstr "Platzieren Sie Ihren google marker"
+
+# --- English text = Using the "My Listing" navigation check the position of your Google Maps marker by clicking on the link "Place Google Marker".  If you are offering a second home, or want to use latitude and longitude to place the marker more exactly there are forms and instructions on this page for doing so.
+msgid "set_up_your_listing.list_gmap_marker"
+msgstr "Klicken Sie \"Mein Angebot\" und checken die Platzierung Ihres Heimes - link \"place Google Marker\"! Wenn Sie eine Zweitwohnung anbieten, oder den Längen-oder Breitengrad Ihrer  Platzierung ändern wollen, gibt es hierfür Erklärungen auf dieser Seite."
+
+# --- English text = Additional Text and Photos
+msgid "set_up_your_listing.text_and_photos_headline"
+msgstr "Zusätzliche Texte  und Fotos"
+
+# --- English text = Take some time and look at other member's listings.  Then gather together photos of your home, your family and pets, your neighborhood, and your region.  Now you are ready to upload them and to write (unlimited) free text to fill in your listing. You can do both of these things by clicking on "Add Text and Photos" in the "My Listing" navigation.
+msgid "set_up_your_listing.list_additional_text_and_photos"
+msgstr "Nehmen Sie sich etwas Zeit und schauen Angebote anderer Mitglieder an. Sammeln Sie Fotos Ihres Heimes,  Familie, Haustiere, Nachbarschaft und Ihrer Umgebung. Laden Sie diese zu Ihrem Angebot hoch und beschreiben Sie Ihr Heim,  Umgebung etc. - unbegrenzter Text - klicken Sie dafür \"Hinzufügen von Text and Fotos\" unter \"Mein Angebot\"."
+
+# --- English text = Contacting Prospective Partners
+msgid "contact_partners.headline"
+msgstr "Kontakt mit perspektiven Tauschpartnern."
+
+# --- English text = Our messaging service allows you to send an inquiry by clicking on the "Send Email" link you will find on every listing.  You will automatically receive a copy of messages that you send through the Intervac online system.
+msgid "contact_partners.how_it_works"
+msgstr "Unser Nachrichten-Service ermöglicht es Ihnen, eine Anfrage zu senden - klicken Sie auf \"send Email\". Sie finden alle Angebote, wenn Sie Mitglied sind. Sie erhalten eine automatische Nachricht vom System über Ihre gesandten mails."
+
+# --- English text = Logging in to answer your mail has advantages! You can compose unlimited templates for use and re-use when contacting new exchange partners, answering offers from other members, or during the agreement process.
+msgid "contact_partners.about_templates"
+msgstr "Loggen Sie sich ein, um Ihre mails zu beantworten - es hat Vorteile! Sie können Ihre Vorlagen unbegrenzt verwenden und wiederverwenden, um neue Partner zu kontakten, andere Angebote zu beantworten - während Ihrer Partner-Vereinbarung."
+
+# --- English text = For each holiday you are planning, compose a contact template introducing you and your family to potential exchange partners.  Include interesting information about your home and neighbourhood, and be sure to include the dates you are available for an exchange.
+msgid "contact_partners.contact_templates"
+msgstr "Wenn Sie einen Tausch mit Ihrem Partner fest ausgemacht haben, füllen Sie eine Tauschvereinbarung aus und geben darin alle Infos über Familie, Haus, Nachbarschaft etc. an. Bitte beachten Sie dabei das genaue Urlaubsdatum, bereits abgestimmt mit Ihrem Partner!"
+
+# --- English text = Prepare a couple of answer templates for replying easily to offers you receive.  Write one for offers that you are not interested in, and another one for offers that interest you but for dates when you already have an exchange, or are not available.  When you have received a message from another member, you can easily load one of these templates into the response box and edit/personalise the text for that response before sending.
+msgid "contact_partners.answer_templates"
+msgstr "Bereiten Sie einige Antworten auf Angebote vor,  die Sie erhalten! Eine Vorlage für Angebote, die Sie nicht interessieren und eine für bevorzugte Tauschpartner - beachten Sie dabei, Ihre bereits schon vergebenen Urlaubstermine anzugeben! Wenn Sie ein Angebot von einem anderen Mitglied bekommen haben, können Sie einfach eines dieser Vorlagen in der \"Wiedervorlage-Box\" bearbeiten, bevor Sie es versenden."
+
+# --- English text = You could also prepare a contact template for use in the initial agreement phase.  More tips about the Exchange Agreement can be found in the document: Reaching an Agreement.
+msgid "contact_partners.tips_for_exchange_agreement"
+msgstr "Sie können auch eine Vorlage für den ersten Kontakt vorbereiten, einer ursrpünglichen Vereinbarung. Mehr Tipps finden Sie in dem Dokument \" Erhalten einer Tauschvereinbung\"."
+
+# --- English text = Gather Information For Your Exchange Partner
+msgid "gathering_information.headline"
+msgstr "Sammeln sie Informationen für Ihre Tauschpartner."
+
+# --- English text = Visit your local Tourist Office and prepare an information pack with brochures from local museums, theatres and fun parks.  If your town doesn't have a tourist office, sometimes you can find these brochures in the lobby of a local hotel.
+msgid "gathering_information.information_pack"
+msgstr "Gehen Sie in eine lokale Touristinformation und holen Sie sich Broschüren über Museen, Theater und Erlebniszentren."
+
+# --- English text = Take some time to think about your community from a visitor's point of view.  Where is the local charm?  Collect a list of local restaurants, with information about the food and service. Add to that a list of grocery stores, and shopping centers.   One of the joys of home exchange is frequenting places that the locals do.
+msgid "gathering_information.local_charm"
+msgstr "Denken Sie über Ihre Stadt, Gemeinde, Umgebung aus der Sicht Ihres Tauschpartners nach - wo ist  der Charme? Stellen Sie eine Liste  mit lokalen Restaurants, Lebensmittelgeschäften und Shopping-Zentren zusammen.Das Interessanteste für Haustauscher ist, die Orte der \"Einheimischen\" kennenzulernen!"
+
+# --- English text = Consider your home from your guest's point of view.  Are there simple improvements that could make it more comfortable?  Is everything in working order?
+msgid "gathering_information.consider_your_home"
+msgstr "Betrachten Sie Ihr Heim aus der Sicht Ihrer Gäste. Gibt es evtl.  noch einige Verbesserungen vorzunehmen - ist alles in Ordnung?"
+
+# --- English text = Contact your insurance companies for household insurance and for your car (if you are swapping cars) to make sure everything is adequately covered.
+msgid "gathering_information.insurance"
+msgstr "Kontakten Sie Ihre verschiedenen  Versicherungen, wie Hausrat-, Kfz- (bei Autotausch) etc., um sicher zu gehen, dass alles ausreichend abgedeckt ist."
+
+# --- English text = Browse the internet and bookmark the homepage of your local cinema so your guests can find out what is playing during their visit.
+msgid "gathering_information.cinema"
+msgstr "Geben Sie Ihren Tauschpartnern die örtlichen Kinoangebote an, für einen evtl. Kinobesuch während dessen Aufenthalts."
+

@@ -1,0 +1,134 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-11-23 01:32+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thank you for taking the time to submit comments about our site.  They have been sent to your local organiser.
+msgid "messages.thanks_comments_sent_to_organizer"
+msgstr "我々のサイトにコメントをいただき有難うございます。これらのご意見はあなたの国の担当者に送りました。"
+
+# --- English text = Suggestions for Improvement
+msgid "headline"
+msgstr "重要な提案"
+
+# --- English text = Thanks for taking the time to offer suggestions about our site.  We are always happy to hear from our members and our interested visitors.  Your suggestions and comments guide our further development, so please tell us what you like and how we can improve!
+msgid "introtext"
+msgstr "我々のサイトへの提案をいただき有難うございます。私どもは会員の方や興味を持って訪問していただいたからの声を聞くことをいつも喜びとしております。あなたの提案やコメントは将来への発展へのガイドとなるでしょう。どうぞ何に興味をもたれたか、又は改良点等について我々に知らせください！"
+
+# --- English text = My Suggestions
+msgid "visitor.suggestions_headline"
+msgstr "私の提案"
+
+# --- English text = Where are you from?
+msgid "visitor.your_country"
+msgstr "どちらの国の方ですか？"
+
+# --- English text = Your Full Name
+msgid "visitor.full_name"
+msgstr "あなたのフルネーム"
+
+# --- English text = Your Email Address
+msgid "visitor.email"
+msgstr "メールアドレス"
+
+# --- English text = Feedback Category
+# --- (Feb 2011) Changed per BD request to: Subject
+msgid "visitor.category"
+msgstr "フィードバック・カテゴリー"
+
+# --- English text = Bad Experience
+msgid "category.bad_experience"
+msgstr "いやな経験"
+
+# --- English text = Broken Link
+msgid "category.broken_link"
+msgstr "リンクがカットされました。"
+
+# --- English text = Design and Content
+msgid "category.design_and_content"
+msgstr "デザインと内容"
+
+# --- English text = Feature Request
+msgid "category.feature_request"
+msgstr "将来へのご意見"
+
+# --- English text = Member Documents
+msgid "category.member_documents"
+msgstr "会員のドキュメント"
+
+# --- English text = Payment
+msgid "category.payment"
+msgstr "支払い"
+
+# --- English text = Registration
+msgid "category.registration"
+msgstr "登録"
+
+# --- English text = Usability
+msgid "category.usability"
+msgstr "有用性"
+
+# --- English text = Other
+msgid "category.other"
+msgstr "他："
+
+# --- English text = Help Text
+msgid "category.help_text"
+msgstr "ヘルプ・テキスト"
+
+# --- English text = Page URL
+msgid "visitor.page_url"
+msgstr " URL　ページ"
+
+# --- English text = Your Comment
+msgid "comment"
+msgstr "あなたのコメント"
+
+# --- English text = Submit Feedback
+msgid "submit_button"
+msgstr "あなたの意見を送ってください。"
+
+# --- English text = In order for your feedback to reach the widest audience among our organizers, please leave your comments in English.
+msgid "write_in_english"
+msgstr "あなたの意見を我々の組織の会員の多くに届けるために英語で残してください。"
+
+# --- English text = ^ Please fill in your name.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.name_is_blank"
+msgstr "^ あなたの名前を入れてください"
+
+# --- English text = ^ Please choose the category that best fits your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_category"
+msgstr "^ あなたのフィードバックにうまく一致するように、カテゴリーを選択してください。"
+
+# --- English text = ^ Please fill in your email address so that we can contact you if necessary regarding your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.email_address_required"
+msgstr "^あなたのフィードバックに関して必要な場合コンタクトするためのメールアドレスを書き込んでください。 "
+
+# --- English text = ^ Help us send your feedback to the correct person by choosing the country where you live.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_country"
+msgstr "^あなたの住んでいる国を選択して、適切な担当者に送るためにあなたの情報を我々に送ってください。"
+
+# --- English text = ^ Leave your feedback in the field labeled \"Your Comment\".
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.comment_required"
+msgstr "^あなたのフィードバックを\"あなたのコメント\"とラベルされたところへ残しておいてください。"
+
+# --- English text = ^ The code your typed in did not match the image.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.captcha_no_match"
+msgstr "^あなたがタイプしたコードはイメージと一致しません。 "
+

@@ -1,0 +1,268 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2012-08-09 23:23+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Nearest City
+msgid "nearest_city"
+msgstr "Lähin kaupunki"
+
+# --- English text = Earliest Date
+msgid "earliest_date"
+msgstr "Aikaisin päivä"
+
+# --- English text = Latest Date
+msgid "latest_date"
+msgstr "Viimeisin päivä"
+
+# --- English text = Maximum Stay
+msgid "maximum_stay"
+msgstr "Pisin kesto"
+
+# --- English text = Exchanges
+msgid "exchanges"
+msgstr "Aiemmat vaihdot"
+
+# --- English text = Destinations Wishlist
+# --- (Jan 2009) Changed text from: Destinations => to: Destinations Wishlist
+msgid "destinations"
+msgstr "Kohdetoiveiden listaust"
+
+# --- English text = Administer Destinations
+msgid "administer_destinations"
+msgstr "Hallinnoi kohteita"
+
+# --- English text = Exchange Type
+msgid "exchange_type"
+msgstr "Vaihdon tyyppi"
+
+# --- English text = Time Comment
+msgid "time_comment"
+msgstr "Ajankohdan tarkennust"
+
+# --- English text = Contact
+# --- (Mar 2009) Edited for precision: Member Information
+msgid "contact_headline"
+msgstr "Jäsenen yhteystiedot"
+
+# --- English text = Contact Address
+msgid "contact_address"
+msgstr "Yhteysosoite"
+
+# --- English text = Property Address
+msgid "property_address"
+msgstr "Kohteen osoite"
+
+# --- English text = Occupation
+msgid "occupation"
+msgstr "Ammatti / toimi"
+
+# --- English text = Activation
+msgid "activation"
+msgstr "Aktivoitu"
+
+# --- English text = Expiration
+msgid "expiration"
+msgstr "Jäsenyys päättyy"
+
+# --- English text = Phone
+msgid "phone"
+msgstr "Puhelin"
+
+# --- English text = E-mail
+msgid "E-mail"
+msgstr "Sähköposti"
+
+# --- English text = Fax
+msgid "fax"
+msgstr "Faksi"
+
+# --- English text = Mobile
+msgid "mobile"
+msgstr "Matkapuhelin"
+
+# --- English text = Skype
+msgid "skype"
+msgstr "Skype"
+
+# --- English text = Listing
+msgid "listing_id"
+msgstr "Listaus"
+
+# --- English text = Homepage
+msgid "homepage"
+msgstr "Kotisivut"
+
+# --- English text = Join Intervac now!
+msgid "join_now"
+msgstr "Liity Intervaciin nyt!"
+
+# --- English text = Contact information is available for full members only.
+msgid "contact_info.for_members_only"
+msgstr "Yhteystiedot ovat saatavilla vain jäsenille."
+
+# --- English text = Last update
+msgid "last_update"
+msgstr "Päivitetty viimeksi"
+
+# --- English text = ago
+# --- This term comes after the amount of time passed since a listing was last updated.
+# --- Example: (5 days ago)
+msgid "ago"
+msgstr "sitten"
+
+# --- English text = Map of the Region
+msgid "map_headline"
+msgstr "Läänikartta"
+
+# --- English text = Click here to change the placement of the marker
+msgid "edit_map_link"
+msgstr "Klikkaa tästä vaihtaaksesi osoittimen paikkaa"
+
+# --- English text = Our home is
+msgid "our_home_is"
+msgstr "Kotimme on"
+
+# --- English text = nearby
+msgid "nearby"
+msgstr "lähellä"
+
+# --- English text = Timing
+msgid "timing"
+msgstr "Ajoitus"
+
+# Family
+# --- English text = adult(s)
+msgid "adults"
+msgstr "aikuisia"
+
+# Family
+# --- English text = boy(s)
+msgid "boys"
+msgstr "poikia"
+
+# Family
+# --- English text = girl(s)
+msgid "girls"
+msgstr "tyttöjä"
+
+# Additionals
+# --- English text = floor
+msgid "floor"
+msgstr "kerros"
+
+# --- English text = person(s)
+msgid "persons"
+msgstr "henkilöä"
+
+# --- English text = max.
+msgid "max"
+msgstr "max."
+
+# --- English text = Languages spoken
+# --- (Jan 2009) Edited text for length.  It was: "Language for correspondence"
+msgid "language"
+msgstr "Käytetyt kielet"
+
+# --- English text = bedroom(s)
+msgid "bedrooms"
+msgstr "makuuhuone(tta)"
+
+# --- English text = bathroom(s)
+msgid "bathrooms"
+msgstr "kylpyhuone(tta)"
+
+# --- English text = Change the availability of your listing by clicking this icon.
+msgid "availability.click_here_to_change"
+msgstr "Vaihda listauksesi saatavuus painamalla tätä ikonia."
+
+# --- English text = Your offer is {{availability_status}}, click on the traffic light to change your status.
+# --- IMPORTANT : the phrase "{{availability_status}}" will be replaced with the member's availability status.
+msgid "availability.status"
+msgstr "Tarjouksesi on {{availability_status}}, paina liikennevaloa muuttaaksesi saatavuutesi toiseksi."
+
+# --- English text = Welcome to Intervac!
+msgid "invisible.headline"
+msgstr "Tervetuloa Intervaciin!"
+
+# --- English text = Your listing will be hidden from other members until you have filled in the necessary information.  If you are ready to do that now,
+# --- IMPORTANT : Next text fragment comes from sitewide.po and says "click here"
+msgid "invisible.build_listing"
+msgstr "Listauksesi on piilotettu muilta jäseniltä kunnes olet täyttänyt kaikki tarvittavat tiedot. Jos haluat tehdä sen nyt,"
+
+# --- English text = Our members are looking forward to getting to know you and your family.
+msgid "invisible.intro_text"
+msgstr "Jäsenemme haluavat tutustua sinuun ja perheeseesi."
+
+# --- English text = If you have questions about the form or need help, you can start by clicking this icon.  It will be located to the right of a heading if there is a help text for that heading available.  If you do not find the answer to your question there, your local Intervac organiser will be happy to lend you a hand.
+msgid "invisible.get_help"
+msgstr "Jos sinulla on kysymyksiä lomakkeen täytöstä tai tarvitset apua, aloita painamalla tätä ikonia. Ikonin löydät otsikon oikealta puolelta, jos tietoja on saatavilla, Jos et löydä vastausta kysymykseesi, paikallinen Intervacin asiamies auttaa sinua mielellään."
+
+# --- English text = Many happy exchanges!
+msgid "invisible.closing"
+msgstr "Monia onnellisia vaihtoja!"
+
+# --- English text = Exchange References
+# --- (Not in Use - March 2012)
+msgid "-x- references.title"
+msgstr "Vaihdon referenssit"
+
+# --- English text = Confirmed
+# --- Location = Subtitle in Exchange References section (left column - bottom) of the member listing
+msgid "references.headline"
+msgstr "Suositukset"
+
+# --- English text = Unconfirmed
+# --- Location = Subtitle in Exchange References section (left column - bottom) of the member listing
+# --- (Not in Use - March 2012)
+msgid "-x- references.unconfirmed_headline"
+msgstr "Vahvistamattomat suositukset"
+
+# --- English text = 30 and more
+msgid "ee.30_and_more"
+msgstr "Yli 30"
+
+# --- English text = Sorry, we do not provide contact information to trial members.
+# (December 2011 - New Text)
+msgid "contact_info.not_for_trial_members"
+msgstr "Valitettavasti koejäsenillä ei ole oikeutta nähdä jäsenten yhteystietoja."
+
+# --- English text = Contact info is available for visible members only.
+# (December 2011 - New Text)
+msgid "contact_info.only_for_visible_members"
+msgstr "Yhteystiedot ovat käytettävissä vain näkyvissä oleville jäsenille."
+
+# --- English text = New Member:
+# --- Location = Looking at an unfinished listing
+# (New: April, 2012)
+msgid "visit_invisible.headline"
+msgstr "Uusi jäsen:"
+
+# --- English text = Thanks for dropping by. This listing belongs to a new member and is not yet completed.
+# --- Location = Looking at an unfinished listing
+# (New: April, 2012)
+msgid "visit_invisible.intro_text"
+msgstr "Kiitos mielenkiinnosta. Tämä on uuden jäsenen listaus, ja vielä tietojen osalta vaillinainen."
+
+# --- English text = Remember how it was when you were a new member?  In the beginning you were looking at lots of other listings, collecting photos and writing text in order to present your home in an attactive manner.
+# --- Location = Looking at an unfinished listing
+# (New: April, 2012)
+msgid "visit_invisible.build_listing"
+msgstr "Muistatko, millaista oli, kun olit aloittanut jäsenenä?  Alussa tutustuit moniin listauksiin, keräsit valokuvia ja kirjoitit tekstejä, jotta kotisi tulisi esille edustavalla tavalla."
+
+# --- English text = Please come by again soon. Our new members are looking forward to meeting you.
+# --- Location =
+# (New: April, 2012)
+msgid "visit_invisible.yall_come_back_now_ya_hear"
+msgstr "Palaa pian takaisin. Uudet jäsenemme odottavat tapaamista innolla."
+

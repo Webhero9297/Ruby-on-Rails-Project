@@ -1,0 +1,159 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (June, 2010)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-06-24 20:25+0100\n"
+"PO-Revision-Date: 2011-12-02 21:59+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Welcome to Intervac Member's Area
+msgid "page.headline"
+msgstr "車のエクスチェンジの同意書"
+
+# --- English text = Sample porvided by Intervac International
+msgid "page.sample_disclaimer"
+msgstr "インターバック・インターナショナルにより提供された見本例"
+
+# --- English text = I, (car owner's name)
+msgid "form.name"
+msgstr "私（車の所有者）は、"
+
+# --- English text = Address
+msgid "form.address"
+msgstr "住所"
+
+# --- English text = "hereby loan to (user's name)
+msgid "form.loan_to_name"
+msgstr "この人（使用者の名前）に貸します。"
+
+# --- English text = of (address)
+msgid "form.loan_to_address"
+msgstr "of (住所)"
+
+# --- English text = my car registered in my name, stated below, for the period of __________ days
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to specify how many days they are loaning thier car.
+msgid "form.loan_number_of_days"
+msgstr "私の車は下記のように __________ 日間、私の名前で登録されている。"
+
+# --- English text = from ______________________________ to ______________________________ inclusive.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to the dates they are loaning thier car.
+msgid "form.dates_loaned"
+msgstr "から ______________________________ まで ______________________________ を含む."
+
+# --- English text = I also grant the above named person(s) permission to drive my car in the following countries:
+msgid "form.countries_allowed"
+msgstr "私は上記記載の人が次の国で私の車を使用することを許可する："
+
+# --- English text = The above permission excludes permission to drive my car in:
+msgid "form.countries_disallowed"
+msgstr "私の車の使用許可は次の地域限定："
+
+# --- English text = They understand that the driver(s) must be in possession of a valid driver's license:
+msgid "form.drivers_license_required"
+msgstr "運転者は有効な運転免許証を保持していなければならない："
+
+# --- English text = Expiration Date
+msgid "form.drivers_license_expiration"
+msgstr "終了日時"
+
+# --- English text = Driver's License Number
+msgid "form.drivers_license_number"
+msgstr "運転免許証番号"
+
+# --- English text = In the event of an accident in which the above named persons are blameworthy, they hereby agree to reimburse the vehicle owner
+msgid "form.reimbursement_text"
+msgstr "上記記載の側に重大な責任のある事故が発生した際は、車のオーナーにすべてを弁償をするという事をここに同意する。"
+
+# --- English text = Name
+msgid "form.reimburse_name"
+msgstr "名前"
+
+# --- English text = for the deductible portion of the insurance claim in the amount of __________ € / $ for collision.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to specify the amount of thier deductible.
+msgid "form.reimburse_deductible_amount"
+msgstr "衝突に対する損害額 __________ € / $(金額）の保険免責金額についての支払い "
+
+# --- English text = They also agree to reimburse the vehicle owner the full amount of any sum in excess of the owner's liability coverage should a legal suit for bodily injury and/or property damage result in an award in excess of the owner's insurance coverage.
+msgid "form.reimburse_excess_charges"
+msgstr "もし裁判において人的被害や物損額が車の保険の補償額を超えるときは、彼らはその超過額を車の持ち主に弁償することに同意します。"
+
+# --- English text = Furthermore, they hereby agree to reimburse the vehicle owner for the loss of his safe driving discount each year for a period of __________ years, or, at choice of __________ € / $, paid outright in addition to the total cost of any repairs required as a result of the accident.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to time period or amount to be paid.
+msgid "form.reimburse_safe_driving_discount"
+msgstr "さらに、車の持ち主の __________ 年間の無事故安全運転割引の適用ができなくなることによる損害額を弁償するか、又は__________ € / $(金額）を事故により生じる修理費に追加するかを選択する。"
+
+# --- English text = Car Designation
+msgid "car_designation.headline"
+msgstr "車種"
+
+# --- English text = Make
+msgid "car_designation.make"
+msgstr "メーカー名"
+
+# --- English text = Model
+msgid "car_designation.model"
+msgstr "モデル"
+
+# --- English text = Model year
+msgid "car_designation.model_year"
+msgstr "何年型"
+
+# --- English text = Serial number
+msgid "car_designation.serial_number"
+msgstr "車台番号"
+
+# --- English text = Registration Number
+msgid "car_designation.registration_number"
+msgstr "登録番号"
+
+# --- English text = License plate number
+msgid "car_designation.license_plate_number"
+msgstr "プレイト・ナンバー"
+
+# --- English text =
+msgid "car_designation.mileage"
+msgstr "総キロ数"
+
+# --- English text = Photo of the vehicle
+msgid "car_designation.photo_of_vehicle"
+msgstr "車の写真"
+
+# --- English text = In attachment
+msgid "car_designation.in_attachment"
+msgstr "追加情報"
+
+# --- English text = Members Identification
+msgid "members_identification.headline"
+msgstr "会員ID"
+
+# --- English text = Car Owner
+msgid "members_identification.car_owner"
+msgstr "車のオーナー"
+
+# --- English text = User
+msgid "members_identification.user"
+msgstr "使用者"
+
+# --- English text = Print Name
+msgid "members_identification.print_name"
+msgstr "名前（活字体で）"
+
+# --- English text = Intervac Member Number
+msgid "members_identification.member_number"
+msgstr "会員番号"
+
+# --- English text = Date
+msgid "members_identification.date"
+msgstr "日時"
+
+# --- English text = Signature
+msgid "members_identification.signature"
+msgstr "署名"
+

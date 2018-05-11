@@ -1,0 +1,63 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-11-27 00:30+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Destinations Wishlist
+msgid "headline"
+msgstr "Ønskeliste for destinasjoner"
+
+# --- English text = Add Destinations
+msgid "add_destination_headline"
+msgstr "Legg til destinasjoner"
+
+# --- English text = No regions available
+msgid "message.country_without_regions"
+msgstr "Ingen regioner er tilgjengeligee"
+
+# --- English text = No cities available
+msgid "message.country_without_cities"
+msgstr "Ingen byer er tilgjengelige."
+
+# --- English text = My Preferred Destinations
+msgid "preferred_destinations_headline"
+msgstr "Mine foretrukne destinasjoner"
+
+# --- English text = Delete entry
+msgid "delete_entry"
+msgstr "Slett oppføringen"
+
+# --- English text = 1st step: Choose a Country
+msgid "step_one.headline"
+msgstr "Første skritt: Velg et land."
+
+# --- English text = Now, click the Add Country button if you are generally interested in visiting this country.
+msgid "step_one.text"
+msgstr "Nå, klikk på Add Country-knappen dersom du generelt er interessert i å besøke dette landet."
+
+# --- English text = 2nd Step: Choose a Region
+msgid "step_two.add_region_headline"
+msgstr "Andre skritt: Velg en region."
+
+# --- English text = and click the Add Region button if you are interested in visiting anywhere within this region.
+msgid "step_two.add_region_text"
+msgstr "og klikk på Add Region-knappen dersom du er interessert i å besøke et eller annet sted i denne regionen."
+
+# --- English text = Or Alternately: Choose a City
+msgid "step_two.add_city_headline"
+msgstr "Eller alternativt: Velg en storby."
+
+# --- English text = and click the Add City button if you are very specifically interested in exchanging with members who live near this city.
+msgid "step_two.add_city_text"
+msgstr "og klikk på Add City-knappen dersom du er spesielt interessert i boligbytte med medlemmer som bor nær denne byen."
+

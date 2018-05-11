@@ -1,0 +1,172 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2009-12-02 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Our Online Services - Sitemap
+#, fuzzy
+msgid "headline"
+msgstr "Intervac Online Services - Sitemap"
+
+# --- English text = Open To The Public
+#, fuzzy
+msgid "subhead"
+msgstr "Open To The Public"
+
+# --- English text = Contact Our Agents Worldwide
+#, fuzzy
+msgid "contact"
+msgstr "Contact Our Agents Worldwide"
+
+# --- English text = Find contact names and addresses for Intervac Agents worldwide.
+#, fuzzy
+msgid "contact_text"
+msgstr "Find contact names and addresses for Intervac Agents worldwide."
+
+# --- English text = Visitors Tour
+#, fuzzy
+msgid "visitors_tour"
+msgstr "Visitors Tour"
+
+# --- English text = Take our visitors tour to find out all about the wonderful world of home exchange.
+#, fuzzy
+msgid "visitors_tour_text"
+msgstr "Take our visitors tour to find out all about the wonderful world of home exchange."
+
+# --- English text = Online Registration
+#, fuzzy
+msgid "online_registration"
+msgstr "Online Registration"
+
+# --- English text = Use our online registration form to become an Intervac member, and begin planning your next holiday adventure.
+#, fuzzy
+msgid "online_registration_text"
+msgstr "Use our online registration form to become an Intervac member, and begin planning your next holiday adventure."
+
+# --- English text = Preview Our Database
+#, fuzzy
+msgid "preview_database"
+msgstr "Preview Our Database"
+
+# --- English text = Take a few minutes to have a look around our database and search area.
+#, fuzzy
+msgid "preview_database_text"
+msgstr "Take a few minutes to have a look around our database and search area."
+
+# --- English text = Preview Our Last Minute Listings
+#, fuzzy
+msgid "preview_hotlist"
+msgstr "Preview Our Last Minute Listings"
+
+# --- English text = Our Hot List is an exclusive service especially designed to offer members searching last minute exchanges a special place to find each other.
+#, fuzzy
+msgid "preview_hotlist_text"
+msgstr "Our Hot List is an exclusive service especially designed to offer members searching last minute exchanges a special place to find each other."
+
+# --- English text = Preview Member Statistics (Example)
+#, fuzzy
+msgid "preview_member_stats"
+msgstr "Preview Member Statistics (Example)"
+
+# --- English text = Here you can preview our individual statistics.
+#, fuzzy
+msgid "preview_member_stats_text"
+msgstr "Here you can preview our individual statistics."
+
+# --- English text = For Members Only
+#, fuzzy
+msgid "members_only"
+msgstr "For Members Only"
+
+# --- English text = Members please login to
+# --- (Dec 2008) Edited --- Member login => Members please login to
+#, fuzzy
+msgid "login"
+msgstr "Members please login to"
+
+# --- English text = Edit profile details
+#, fuzzy
+msgid "edit_profile"
+msgstr "Edit profile details"
+
+# --- English text = Search by country/region
+#, fuzzy
+msgid "search_by_country"
+msgstr "Search by country/region"
+
+# --- English text = View last minute listings
+#, fuzzy
+msgid "view_hotlist"
+msgstr "View last minute listings"
+
+# --- English text = View listing statistics
+#, fuzzy
+msgid "view_statistics"
+msgstr "View listing statistics"
+
+# --- English text = Change you password
+#, fuzzy
+msgid "change_password"
+msgstr "Change your password"
+
+# --- English text = Upload your main photo
+#, fuzzy
+msgid "upload_photo"
+msgstr "Upload your main photo"
+
+# --- English text = Add more text and photos
+# --- (Dec. 2008) Edited slightly
+#, fuzzy
+msgid "extra_text_photo"
+msgstr "Add more text and photos"
+
+# --- English text = Search new listings
+#, fuzzy
+msgid "search_new_listings"
+msgstr "Search new listings"
+
+# --- English text = Administer Favorites
+# --- (Dec 2008)   New text
+#, fuzzy
+msgid "favorites"
+msgstr "Administer Favorites"
+
+# --- English text = Contact another member
+# --- (Dec 2008)  New Text
+#, fuzzy
+msgid "send_message"
+msgstr "Contact another member"
+
+# --- English text = Search a specific member
+# --- (Dec. 2008 )  New Text
+#, fuzzy
+msgid "search_specific_member"
+msgstr "Search a specific member"
+
+# --- English text = Set Match Alert criteria
+# --- (Dec 2008)  New Text
+#, fuzzy
+msgid "match_alert"
+msgstr "Set Match Alert criteria"
+
+# --- English text = Check your messages
+# --- (Dec 2008)  New Text
+#, fuzzy
+msgid "check_messages"
+msgstr "Check your messages"
+
+# --- English text = Write message templates
+#, fuzzy
+msgid "write_message_templates"
+msgstr "Write message templates"

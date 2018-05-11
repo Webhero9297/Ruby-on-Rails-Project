@@ -1,0 +1,162 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (June, 2010)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-06-24 20:25+0100\n"
+"PO-Revision-Date: 2010-09-16 16:56+0100\n"
+"Last-Translator: kristina caillaud <info@intervac.fr>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Welcome to Intervac Member's Area
+msgid "page.headline"
+msgstr "Contrat d'échange voiture"
+
+# --- English text = Sample porvided by Intervac International
+msgid "page.sample_disclaimer"
+msgstr "(modèle fourni par Intervac International)"
+
+# --- English text = I, (car owner's name)
+msgid "form.name"
+msgstr "Je soussigné, (nom propriétaire du véhicule)"
+
+# --- English text = Address
+msgid "form.address"
+msgstr "domicilié à"
+
+# --- English text = "hereby loan to (user's name)
+msgid "form.loan_to_name"
+msgstr "prête à (nom(s) emprunteur(s) du véhicule)"
+
+# --- English text = of (address)
+msgid "form.loan_to_address"
+msgstr "domicilié à"
+
+# --- English text = my car registered in my name, stated below, for the period of __________ days
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to specify how many days they are loaning thier car.
+msgid "form.loan_number_of_days"
+msgstr "mon véhicule déclaré à mon nom sous les références ci-dessous, pour une durée de  __________ jours"
+
+# --- English text = from ______________________________ to ______________________________ inclusive.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to the dates they are loaning thier car.
+msgid "form.dates_loaned"
+msgstr "à compter du ______________________________ jusqu'au ______________________________ inclus."
+
+# --- English text = I also grant the above named person(s) permission to drive my car in the following countries:
+msgid "form.countries_allowed"
+msgstr "J'autorise également la ou les personne(s) nommée(s) ci-dessus à conduire mon véhicule dans le(s) pays suivant(s) :"
+
+# --- English text = The above permission excludes permission to drive my car in:
+msgid "form.countries_disallowed"
+msgstr "à l'exclusion de"
+
+# --- English text = They understand that the driver(s) must be in possession of a valid driver's license:
+msgid "form.drivers_license_required"
+msgstr "Il est entendu que le(s) conducteur(s) emprunteur(s) doi(ven)t être en possession d'un permis de conduire en cours de validité :"
+
+# --- English text = Expiration Date
+msgid "form.drivers_license_expiration"
+msgstr "en date d'expiration du"
+
+# --- English text = Driver's License Number
+msgid "form.drivers_license_number"
+msgstr "et portant le n°"
+
+# --- English text = In the event of an accident in which the above named persons are blameworthy, they hereby agree to reimburse the vehicle owner
+msgid "form.reimbursement_text"
+msgstr "En cas de sinistre où la ou les personne(s) sus-mentionnée(s) aurai(en)t une responsabilité, elle(s) s'engage(nt) à rembourser le propriétaire du véhicule,"
+
+# --- English text = Name
+msgid "form.reimburse_name"
+msgstr "M. (nom)"
+
+# --- English text = for the deductible portion of the insurance claim in the amount of __________ € / $ for collision.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to specify the amount of thier deductible.
+msgid "form.reimburse_deductible_amount"
+msgstr "du montant de la franchise fixée par l'assurance à hauteur de __________ € / $."
+
+# --- English text = They also agree to reimburse the vehicle owner the full amount of any sum in excess of the owner's liability coverage should a legal suit for bodily injury and/or property damage result in an award in excess of the owner's insurance coverage.
+msgid "form.reimburse_excess_charges"
+msgstr "Elle(s) s'engage(nt) également à rembourser le propriétaire du montant total des sommes qui excèdent la couverture de la responsabilité civile en cas de poursuites pour dommages corporels et/ou matériels imputés en dommages-intérêts par la garantie assurance du propriétaire."
+
+# --- English text = Furthermore, they hereby agree to reimburse the vehicle owner for the loss of his safe driving discount each year for a period of __________ years, or, at choice of __________ € / $, paid outright in addition to the total cost of any repairs required as a result of the accident.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to time period or amount to be paid.
+msgid "form.reimburse_safe_driving_discount"
+msgstr "De plus, elle(s) s'engage(nt) à dédommager le propriétaire du véhicule de la perte de son bonus pendant une période de __________ années, ou, au choix, de lui verser la somme de __________ € / $, à régler en supplément des éventuels frais résultant du sinistre."
+
+# --- English text = Car Designation
+msgid "car_designation.headline"
+msgstr "Désignation du véhicule"
+
+# --- English text = Make
+msgid "car_designation.make"
+msgstr "Marque"
+
+# --- English text = Model
+msgid "car_designation.model"
+msgstr "Modèle"
+
+# --- English text = Model year
+msgid "car_designation.model_year"
+msgstr "Année"
+
+# --- English text = Serial number
+msgid "car_designation.serial_number"
+msgstr "Numéro de série"
+
+# --- English text = Registration Number
+msgid "car_designation.registration_number"
+msgstr "Numéro de carte grise"
+
+# --- English text = License plate number
+msgid "car_designation.license_plate_number"
+msgstr "Numéro d'immatriculation"
+
+# --- English text = 
+msgid "car_designation.mileage"
+msgstr "Kilométrage"
+
+# --- English text = Photo of the vehicle
+msgid "car_designation.photo_of_vehicle"
+msgstr "Photo du véhicule"
+
+# --- English text = In attachment
+msgid "car_designation.in_attachment"
+msgstr "en pièce jointe"
+
+# --- English text = Members Identification
+msgid "members_identification.headline"
+msgstr "Identification des adhérents"
+
+# --- English text = Car Owner
+msgid "members_identification.car_owner"
+msgstr "Propriétaire du véhicule"
+
+# --- English text = User 
+msgid "members_identification.user"
+msgstr "Utilisateur autorisé"
+
+# --- English text = Print Name
+msgid "members_identification.print_name"
+msgstr "Nom en lettres capitales"
+
+# --- English text = Intervac Member Number
+msgid "members_identification.member_number"
+msgstr "Numéro d'adhésion Intervac"
+
+# --- English text = Date
+#, fuzzy
+msgid "members_identification.date"
+msgstr "Date"
+
+# --- English text = Signature
+#, fuzzy
+msgid "members_identification.signature"
+msgstr "Signature"
+
+

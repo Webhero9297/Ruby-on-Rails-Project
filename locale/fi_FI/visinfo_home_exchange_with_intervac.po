@@ -1,0 +1,77 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (February, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-09 10:17+0100\n"
+"PO-Revision-Date: 2011-08-18 16:27+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Kodinvaihto Intervacissa"
+
+# --- English text = Exchanging your home with Intervac members is easy.  After you have signed up and filled in your listing you can get started right away looking for a potential exchange partner.  Your membership fee covers unlimited exchanges during a specific period of time (usually a year or more) and most of our members exchange several times a year.
+# (June, 2011 - New)
+msgid "page.introtext"
+msgstr "Kodinvaihtaminen Intervac jäsenenä on helppoa. Kun olet rekisteröitynyt ja täyttänyt tietosi, voit aloittaa heti etsimään potentiaalisia vaihto-kumppania. Jäsenmaksusi kattaa rajoittamattoman määrän vaihtoja tietyn ajan aikana (yleensä vuosi tai enemmän) ja useimmat jäsenet vaihtavat useita kertoja vuodessa."
+
+# --- English text = Thousands of Exchanges Each Year
+# (June, 2011 - New)
+msgid "annual_exchanges.headline"
+msgstr "Tuhansia vaihtoja joka vuosi"
+
+# --- English text = Every day of the year intervac members are living in each other's homes, taking care of each other's pets and plants, and experiencing each other's neighborhoods.  Intervac members are host and guest to over {{annual_number_of_exchanges}} per year. And we've been in business since 1953!  When it comes to the security and enjoyablity of a home exchange holiday, those numbers speak volumes for the Intervac way of life.
+# --- IMPORTANT - Do not translate {{annual_number_of_exchanges}} - This is a placeholder that will be filled in by the system when the page is displayed.
+# (June, 2011 - New)
+msgid "annual_exchanges.text"
+msgstr "Vuoden jokaisena päivänä Intervacin jäsenet elävät toistensa kodeissa, huolehtivat toistensa lemmikkeistä ja kasveista, ja kokevat toistensa naapuruston. Intervac jäsenet ovat isäntiä ja vieraita yli {{annual_number_of_exchanges}} kertaa vuodessa. Ja olemme olleet alalla vuodesta 1953! Kun kyse on turvallisuudesta ja ja kodinvaihto loman mukavuudesta, nuo luvut puhuvat puolestaan Intervacista elämäntapana."
+
+# --- English text = Many 2nd Generation Exchangers
+# (June, 2011 - New)
+msgid "second_generation.headline"
+msgstr "Paljon toisen polven vaihtajia"
+
+# --- English text = And because we've been in business for {{number_of_years_in_business}} years and our concept is still fresh and innovative we are proud to have many second generation exchangers amongst our members.  These are adults who first experienced home exchange as kids and now they are sharing it with their children.
+# (June, 2011 - New)
+msgid "second_generation.text"
+msgstr "Ja koska olemme toimineet jo {{number_of_years_in_business}} vuotta ja ajatuksemme on edelleen tuore ja innovatiivinen, olemme ylpeitä monista toisen sukupolven vaihtajista jäsentemme keskuudessa. Nämä ovat aikuisia, jotka kokivat ensimmäisen kodinvaihdon ollessaan lapsia, ja nyt he jakavat sen lastensa kanssa."
+
+# --- English text = Database Mix
+# (June, 2011 - New)
+msgid "database_mix.headline"
+msgstr "Apuna hyvä tietokanta"
+
+# --- English text = Another benefit of our extensive experience is what we refer to as our <italic>database mix</italic>.  This refers to the percentage of members we have in Europe -vs- North America, or English speaking countries -vs- the rest of the world.  We curate these ratios and use them when deciding where to spend our advertising budget so we can be sure that the exchange you are looking for is in our database. it.
+# (June, 2011 - New )
+msgid "database_mix.text"
+msgstr "Toisena etuna pitkässä kokemuksessa on, mitä me kutsumme <italic> tietokannan sekoitus </ Kursivoitu>. Tässä viitataan jäsenten osuus Euroopassa-vs-Pohjois-Amerikassa, tai englanti puhuvissa maissa-vs-muu maailma. Näiden ja muiden suhdelukujen avulla päätämme, miten paljon käytämme mainosbudjettiin varoja. Voit olla varma, että vaihto jota etsit, löytyy tietokannastamme."
+
+# --- English text = National Representatives in Your Country
+# (June, 2011 - New)
+msgid "personal_service.headline"
+msgstr "Kansallinen edustaja maassasi"
+
+# --- English text = We have thirty five national representatives around the world and most of them have been helping members like you find great exchanges for twenty years and more.  Our agents know the ropes, they know the best tips, and they will do everything they can to help you find a great exchange. Intervac is located in your country, and speaks your language.
+# (June, 2011 - Reference - vtour_why_intervac.po => personal_service.text)
+msgid "personal_service.text"
+msgstr "Meillä on kolmekymmentä viisi kansallista edustajaa ympäri maailmaa ja useimmat heistä ovat auttaneet jäseniä kuten sinä löytämään hienoja vaihtoja yli kaksikymmentä vuotta ja kauemmin. Agenttimme osaavat hommansa, he tietävät parhaat vinkit, ja he tekevät kaikkensa auttaakseen sinua löytämään hyvän vaihdon. Intervac sijaitsee maassasi, ja puhuu kieltäsi."
+
+# --- English text = Detailed Guidlines
+# (June, 2011 - New)
+msgid "detailed_guidlines.headline"
+msgstr "Yksityiskohtaiset ohjeet ja käytönaikainen opastus"
+
+# --- English text = We have detailed guidelines for home exchange that are updated regularly in light of our organisers and their members' experience. Our online system is well documented with plenty of help text to give you a boost when find yourself stuck in the middle of the night.
+# --- Location =
+# (June, 2011 - As Is - vtour_why_intervac.po => detailed_guidelines.text)
+msgid "detailed_guidelines.text"
+msgstr "Meillä on kodinvaihtoon yksityiskohtaiset ohjeet, joita päivitetään säännöllisesti huomioon ottaen järjestäjiemme ja näiden jäsenten kokemukset. Verkkopalvelumme järjestelmässä on hyvin dokumentoituna runsaasti aputekstejä antaa sinulle vauhtia, kun huomaat olevasi jumissa keskellä yötä."
+

@@ -1,0 +1,117 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2011-06-24 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+### --- INDEX PAGE
+# Last Updated => Aug, 2010
+msgid "title.index"
+msgstr "Huisruil Vakanties - Intervac"
+
+# Last Updated => Aug, 2010
+msgid "description.index"
+msgstr "De oudste huisruilorganisatie, hoe pak je een huisruil aan. Test het gratis uit. Last minute vakanties, getuigenissen, meest gestelde vragen, gratis foto's en huisruil in de media"
+
+# Last Updated => Aug, 2010
+msgid "keyword_set.index"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- VISITORS PAGES --- 
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.benefits_of_home_exchange"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.facts_about_intervac"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.home_exchange_with_intervac"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.membership_with_intervac"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.national_representatives"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.secure_exchanges"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.take_the_tour"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.thinking_about_home_exchange"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.what_is_home_exchange"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.what_to_think_about"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.exchange_tips"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.home_exchange_checklist"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- TESTIMONIALS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.testimonials"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- REGISTRATION FORM ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.registration"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- TEST OUR DATABASE ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.visitor_search"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- CONTACTS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.contacts"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- SITEMAP ---
+# Not in Use - June 2011
+msgid "-x- keyword_set.sitemap"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- TERMS AND CONDITIONS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.terms_and_conditions"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- PRIVACY POLICY ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.privacy_policy"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+
+### --- FACEBOOK COMPETITIONS - 60TH ANNIVERSARY ---
+# (New: June, 2012)
+msgid "keyword_set.facebook_competitions"
+msgstr "huisruil, huizenruil, woningruil, intervac, vakantie, home exchange, vacation home exchange, mutual home exchange, international home exchange"
+

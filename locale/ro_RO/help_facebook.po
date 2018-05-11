@@ -1,0 +1,105 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-11-03 19:11+0100\n"
+"PO-Revision-Date: 2010-11-03 18:02+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = How-to guide Facebook Integration
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.headline"
+msgstr "How-to guide Facebook Integration"
+
+# --- English text = This how-to guide will explain the different parts of the Facebook Integration. This guide assumes that you have access to a Facebook account.
+# --- Location: Help text on Login page 
+#, fuzzy
+msgid "help_login.introtext"
+msgstr "This how-to guide will explain the different parts of the Facebook Integration. This guide assumes that you have access to a Facebook account."
+
+# --- English text = Logging in from your Facebook Account
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.logging_in_headline"
+msgstr "Logging in from your Facebook Account"
+
+# --- English text = If you want to login using Facebook simply click the “Login with Facebook” button.
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.logging_in.step_one"
+msgstr "If you want to login using Facebook simply click the “Login with Facebook” button."
+
+# --- English text = Screenshot of the login page
+# --- Location: Help text on Login page - mouseover text on the 1st photo
+#, fuzzy
+msgid "help_login.screenshot.login_page"
+msgstr "Screenshot of the login page"
+
+# --- English text = You will be sent to the Facebook Login page, provided you are not already logged in to your Facebook account.
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.logging_in.step_two"
+msgstr "You will be sent to the Facebook Login page, provided you are not already logged in to your Facebook account."
+
+# --- English text = Screenshot of the Facebook login page
+# --- Location: Help text on Login page - mouseover text on the 2nd photo.
+#, fuzzy
+msgid "help_login.screenshot.facebook_login"
+msgstr "Screenshot of the Facebook login page"
+
+# --- English text = After you have logged in at Facebook you will be automatically sent back to the Intervac website. If you have used Facebook with Intervac before, or if you use the same e-mail address for Intervac and Facebook, you will automatically be logged in and taken to your member page. 
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.logging_in.step_three"
+msgstr "After you have logged in at Facebook you will be automatically sent back to the Intervac website. If you have used Facebook with Intervac before, or if you use the same e-mail address for Intervac and Facebook, you will automatically be logged in and taken to your member page. "
+
+# --- English text = If this is the first time you are using Facebook Connect with Intervac and you have a different e-mail address at facebook as you use for your Intervac account, you will be sent to the Create or Link page.
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.logging_in.step_four"
+msgstr "If this is the first time you are using Facebook Connect with Intervac and you have a different e-mail address at facebook as you use for your Intervac account, you will be sent to the Create or Link page."
+
+# --- English text = Screenshot of the Create or Link page
+# --- Location: Help text on Login page - mouseover text on the 3rd photo
+#, fuzzy
+msgid "help_login.screenshot.create_or_link_page"
+msgstr "Screenshot of the Create or Link page"
+
+# --- English text = On this page you have the option to create a new Intervac account using your Facebook credentials or to link your existing Intervac membership to your Facebook account. If you choose the create a new Intervac account you will be taken to the normal sign up form. If you choose to link your accounts you will be taken to Facebook's' link account page.
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.logging_in.step_five"
+msgstr "On this page you have the option to create a new Intervac account using your Facebook credentials or to link your existing Intervac membership to your Facebook account. If you choose the create a new Intervac account you will be taken to the normal sign up form. If you choose to link your accounts you will be taken to Facebook's' link account page."
+
+# --- English text = Linking your Intervac account with your Facebook account. 
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.linking_accounts.headline"
+msgstr "Linking your Intervac account with your Facebook account. "
+
+# --- English text = The system tries to do this automatically but it only works if your Facebook e-mail address and your Intervac e-mail address are identical. If this is not the case you can link your accounts by choosing "Link Intervac Account" when you are directed to the screen above. Then enter your Intervac account credentials in the form that you see in the screenshot below, and click the “Link Intervac account” button.
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.link_accounts.infotext"
+msgstr "The system tries to do this automatically but it only works if your Facebook e-mail address and your Intervac e-mail address are identical. If this is not the case you can link your accounts by choosing "Link Intervac Account" when you are directed to the screen above. Then enter your Intervac account credentials in the form that you see in the screenshot below, and click the “Link Intervac account” button."
+
+# --- English text = Linking your Intervac account to your Facebook
+# --- Location: Help text on Login page - mouseover text on the 4th photo
+#, fuzzy
+msgid "help_login.screenshot.link_accounts"
+msgstr "Linking your Intervac account to your Facebook"
+
+# --- English text = Congratulations! You are now done and your Facebook account is linked to your Intervac account.
+# --- Location: Help text on Login page
+#, fuzzy
+msgid "help_login.closing_text"
+msgstr "Congratulations! You are now done and your Facebook account is linked to your Intervac account."
+

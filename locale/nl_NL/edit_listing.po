@@ -1,0 +1,634 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-05 10:19+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Your Contact Information
+msgid "contact_info.headline"
+msgstr "Je contact informatie"
+
+# --- English text = Please note: All fields labeled with colored text are required and will return an error if not completed.
+msgid "required_fields"
+msgstr " Let wel: alle velden aangegeven met gekleurde tekst moeten ingevuld worden en zullen anders als een fout aangegeven worden."
+
+# --- English Text = Full Name <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.name"
+msgstr "Volledige naam <required>*</required>"
+
+# --- English text = First &amp; Last Name
+msgid "contact_info.name_reminder"
+msgstr "Voor- &amp; Familienaam "
+
+# --- English text = About your address
+msgid "contact_info.address"
+msgstr "Adresgegevens"
+
+# --- English text = This is your primary (mailing) address.  The address where you are most likely to be should a member want to contact you.  This should not be the address of your holiday home.  If you are looking for a way to change the placement of the marker on the Google map so that it displays the location of your second home, you can go to:
+msgid "contact_info.help_address"
+msgstr "Dit is het adres waar deelnemers het beste contact met u kunnen opnemen. Dit is niet het adres van je tweede- of vakantiewoning. Indien je een manier zoekt  om het adres van je tweede woning aan te geven op de Google-kaart ga dan naar:"
+
+# --- English text = Street <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.street"
+msgstr "Straat <required>*</required>"
+
+# --- English text = City/Town <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.city"
+msgstr "Woonplaats <required>*</required>"
+
+# --- English text = Postal Code
+msgid "contact_info.postal"
+msgstr "Postcode"
+
+# --- English text = State/Province
+msgid "contact_info.state"
+msgstr "State/Province"
+
+# --- English text = Telephone <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.telephone"
+msgstr "Telefoon <required>*</required>"
+
+# --- English text = Mobile Phone
+msgid "contact_info.mobile"
+msgstr "Mobiele telefoon"
+
+# --- English text = FAX
+msgid "contact_info.fax"
+msgstr "FAX"
+
+# --- English text = E-Mail <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.email"
+msgstr "E-mail <required>*</required>"
+
+# --- English text = Second E-Mail
+msgid "contact_info.second_email"
+msgstr "Tweede email-adres"
+
+# --- English text = Your homepage
+# --- CHANGED FROM: Your homepage (if available) => TO: Your homepage (Dec. 2008)
+msgid "contact_info.homepage"
+msgstr "Je website"
+
+# --- English text = Skype
+msgid "contact_info.skype"
+msgstr "Skype"
+
+# --- English text = About Your Home
+msgid "home.headline"
+msgstr "Over uw woning"
+
+# --- English text = Tell potential partners about the property that you are offering for exchange.
+msgid "home.property_intro_text"
+msgstr "Omschrijf de woning die u aanbiedt om te ruilen aan potentiële ruilpartners "
+
+# --- English text = Please choose the country in which your property is located if you are offering a home or apartment which is NOT in the same country as your residence.
+msgid "home.property_country_text"
+msgstr "Kies het land waar het huis of appartement zich bevindt dat je wenst te ruilen indien dit <strong>niet</strong> in hetzelfde land is waar je woont."
+
+# --- English text = Country of your exchange home <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.country_of_exchange_home"
+msgstr "Land van je ruiladres <required>*</required>"
+
+# --- English text = Property Location
+msgid "home.property_country"
+msgstr "Land waar de woning zich bevindt"
+
+# --- English text = My property lies <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.location"
+msgstr "Mijn woning ligt <required>*</required>"
+
+# --- English text = Property is located
+msgid "home.envrionment"
+msgstr "Uw omgeving"
+
+# --- English text = Nearest Airport
+msgid "home.nearest_airport"
+msgstr "Dichtstbijzijnde luchthaven"
+
+# --- English text = Type of home
+msgid "home.house_type"
+msgstr "Type woning"
+
+# --- English text = Floor number
+msgid "home.floor_number"
+msgstr "Verdieping"
+
+# --- English text = Sleeping capacity for
+msgid "home.persons_suitable"
+msgstr "Slaapgelegenheid voor"
+
+# --- English text = people
+msgid "home.people"
+msgstr "personen"
+
+# --- English text = Number of bedrooms
+msgid "home.bedrooms"
+msgstr "Aantal slaapkamers"
+
+# --- English text = Number of bathrooms
+msgid "home.bathrooms"
+msgstr "Aantal badkamers"
+
+# --- English text = of
+msgid "home.location_of"
+msgstr "van"
+
+# --- English text = Property setting
+msgid "home.environment"
+msgstr "Omgeving"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.region"
+msgstr "Regio <required>*</required>"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "show_listing.region"
+msgstr "Regio"
+
+# --- English text = About Your Family
+msgid "family.headline"
+msgstr "Over uw gezin"
+
+# --- English text = Number of Adults
+msgid "family.adults"
+msgstr "Aantal volwassenen"
+
+# --- English text = Your occupation or profession <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "family.occupation"
+msgstr "Je  beroep(en) <required>*</required>"
+
+# --- English text = Your son(s) age
+msgid "family.boys_ages"
+msgstr "Leeftijd van uw zoon/zonen"
+
+# --- English text = Your daughter(s) age
+msgid "family.girls_ages"
+msgstr "Leeftijd van uw dochter(s)"
+
+# --- English text = How many exchanges have you completed?
+msgid "family.exchanges_made"
+msgstr "Hoeveel keer heeft u reeds geruild?"
+
+# --- English text = text characters
+# --- CHANGED FROM: "text characters" => TO: "text characters allowed"  (Dec. 2008)
+msgid "character_limit"
+msgstr "toegestane tekst karakters"
+
+# --- English text = Your Travel Timing Preferences
+msgid "timing.headline"
+msgstr "De vakantieperiode die uw voorkeur geniet"
+
+# --- English text = Enhance the description of your timing preferences.
+msgid "timing.comment_headline"
+msgstr "Nadere omschrijving van uw beschikbare periode"
+
+# --- English text = Select the dates you are available for your next exchange.
+msgid "timing.intro_text"
+msgstr "Selecteer de mogelijke data voor uw volgende ruil"
+
+# --- English text = Earliest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.earliest_date"
+msgstr "Vroegste datum <required>*</required>"
+
+# --- English text = Latest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.latest_date"
+msgstr "Laatste datum <required>*</required>"
+
+# --- English text = Desired Length of Stay
+msgid "timing.vacation_length"
+msgstr "Gewenste duur van het verblijf"
+
+# --- English text = days
+msgid "timing.days"
+msgstr "dagen"
+
+# --- English text = weeks
+msgid "timing.weeks"
+msgstr "weken"
+
+# --- English text = months
+msgid "timing.months"
+msgstr "maanden"
+
+# --- English text = Optional text description
+msgid "timing.comment"
+msgstr "Aanvullende tekst"
+
+# --- English text = Your Exchange Preferences
+msgid "exchange_types.headline"
+msgstr "Gewenste formules"
+
+# --- English text = Types of Exchanges
+msgid "exchange_types.exchanges"
+msgstr "Types of Exchanges"
+
+# --- English text = Services Offered
+msgid "exchange_types.services"
+msgstr "Aangeboden mogelijkheden"
+
+# --- English text = Services Offered
+msgid "exchange_types.rental"
+msgstr "Mogelijkheden voor Verhuur"
+
+# --- English text = Youth Exchange
+msgid "exchange_types.youth"
+msgstr "Jongerenruil"
+
+# --- English text = Persons under 18 travelling alone
+msgid "exchange_types.under_18"
+msgstr "Personen jonger dan 18 die alleen reizen"
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Uw woning en de omgeving"
+
+# --- English text = Your Home Has
+msgid "other_details.home_headline"
+msgstr "Je woning heeft"
+
+# --- English text = You Offer
+msgid "other_details.offer_headline"
+msgstr "Aanvullende mogelijkheden"
+
+# --- English text = Language for Correspondence
+msgid "contact_info.spoken_languages"
+msgstr "Talen waarin u wilt/kunt corresponderen"
+
+# --- English text = Distances in km
+# --- Dec 2008 - New Text
+msgid "other_details.distances_headline"
+msgstr "Uw omgeving"
+
+# --- English text = Your Region
+# --- Dec 2008 - New Text
+msgid "other_details.your_region_headline"
+msgstr "Je regio"
+
+# --- English text = Forest/Woods
+msgid "other_details.km_forest_woods"
+msgstr "bos/woud"
+
+# --- English text = River
+msgid "other_details.km_river"
+msgstr "de rivier"
+
+# --- English text = Boating/Sailing
+msgid "other_details.km_boating"
+msgstr "gelegenheid tot varen/surfen/zeilen"
+
+# --- English text = Ocean/Sea
+msgid "other_details.km_ocean_sea"
+msgstr "de zee/oceaan"
+
+# --- English text = Shopping
+msgid "other_details.km_shopping"
+msgstr "winkelgelegenheid"
+
+# --- English text =  Beach / Surfing
+msgid "other_details.km_beach"
+msgstr "het strand"
+
+# --- English text = Mountains
+msgid "other_details.km_mountains"
+msgstr "de bergen"
+
+# --- English text = Lake
+msgid "other_details.km_lake"
+msgstr "Meer"
+
+# --- English text = Golfing
+msgid "other_details.km_golf"
+msgstr "Golf"
+
+# --- English text = Descriptive Phrase
+# --- (Dec 2008) This is being phased out - it's a left-over from catalogues, and is replaced by unlimited extra text.
+msgid "Descriptive Phrase"
+msgstr "Beschrijvende tekst"
+
+# --- Help Text : Name ---
+# --- English text = Fill in your name as you would like it to appear online. Please use both upper and lowercase letters.
+msgid "contact_info.help_name"
+msgstr "Vul uw naam in zoals hij in het boek kan gepubliceerd worden.  Gebruik zowel hoofdletters als kleine letters. "
+
+# --- Help Text : Street ---
+# --- English text = Please fill in your mailing address.
+msgid "contact_info.help_street"
+msgstr "Vul uw adres in."
+
+# --- Help Text : City ---
+# --- English text = The city where you live. Your mailing address
+msgid "contact_info.help_city"
+msgstr "De stad waar u woont.  Uw adres."
+
+# --- Help Text : Postal ---
+# --- English text = Your postal code.
+msgid "contact_info.help_postal"
+msgstr "Uw postcode"
+
+# --- Help Text : State ---
+# --- English text = This field is not required! Please only use this if your mailing address requires the use of state or region.
+msgid "contact_info.help_state"
+msgstr "Dit veld is niet verplicht! Gebruik dit enkel wanneer uw adres de vermelding van de provincie vereist."
+
+# --- Help Text : Telephone ---
+# --- English text = The country code for your country is already filled in.  Give the rest for your phone number in the correct form for calling from outside of your country. <strong>Only one telephone number is allowed.</strong>
+#, fuzzy
+msgid "contact_info.help_telephone"
+msgstr "Het nummer voor uw land is al ingevuld. Vul de rest van uw telefoonnummer op de goede manier in om u vanuit het buitenland te kunnen bellen. <strong>Er is slechts één telefoonnummer mogelijk.</strong>"
+
+# --- Help Text : Mobile Phone ---
+# --- English text = Enter your mobile phone number here if you wish to be contacted by other members that way.
+msgid "contact_info.help_mobile"
+msgstr "Geef hier je mobiele telefoonnummer, indien je wenst dat andere leden via je mobiele telefoon contact met u kunnen opnemen."
+
+# --- Help Text : Skype
+# --- English text = You can put your skype id in this field if you wish members to be able to contact you using this service.
+msgid "contact_info.help_skype"
+msgstr "Je kunt hier je Skype ID intypen indien je wilt dat deelnemers via deze dienst contact met je opnemen."
+
+# --- Help Text : Fax
+# --- English text = The country code for your country is already filled in.  Give the rest for your FAX number in the correct form for calling from outside of your country. <strong>Only one FAX number is allowed</strong>.
+msgid "contact_info.help_fax"
+msgstr "De landcode voor uw land is reeds ingevuld.  Geef de overige nummers van uw faxnummer in het correcte formaat zodat u kunt worden gefaxt vanuit het buitenland.<strong>Slechts één faxnummer is toegestaan.</strong>"
+
+# --- Help Text : E-mail
+# --- English text = Please enter here an email address you check often and where you would like to receive exchange offers from other members. <strong>Only one email address is allowed.</strong>
+msgid "contact_info.help_email"
+msgstr "Vul hier een e-mailadres in dat u regelmatig checkt en waar u aanbiedingen van andere deelnemers wilt ontvangen.  <strong>Slechts één e-mailadres is toegelaten.</strong>"
+
+# --- Help Text : Second E-mail
+# --- English text = If you would like to enter a second email address here you will receive all mails sent from the Intervac online system, as well as forwarded messages at both addresses.
+msgid "contact_info.help_second_email"
+msgstr "Indien je hier een tweede email-adres  toevoegt, zul je op beide adressen van het Intervac systeem mails ontvangen of berichten doorgestuurd krijgen "
+
+# --- Help Text : Homepage
+# --- English text = A homepage of your own is a good way to show prospective partners more about your family, home and region. If you do not have your own homepage, consider entering a webpage from your local tourist bureau.
+msgid "contact_info.help_homepage"
+msgstr "Een eigen webpagina is een leuke manier om uw familie, huis en regio uitgebreider voor te stellen aan geïnteresseerde ruilpartners. U kunt hier ook een link  leggen naar de webpagina van uw plaatselijk bureau voor toerisme."
+
+# --- Help Text : Region
+# --- English text = Please select the region where your exchange home is located. // Please fill in the official region where your exchange home is located.
+msgid "home.help_region"
+msgstr "Selecteer de regio waar uw ruilwoning zich bevindt. // Vul de officiële regio in waar uw ruilwoning zich bevindt."
+
+# --- Help Text : Nearest City
+# --- English text = How many kilometres lie between your exchange home and the nearest major city?  Please fill in the distance, direction and choose/fill in the nearest city here.
+msgid "home.help_location"
+msgstr "Hoeveel kilometers zijn er tussen jouw ruilwoning en de meeste nabije grote stad?  Vul hier de afstand  en richting in en kies  en vul de meest nabije grote stad in."
+
+# --- Help Text : Environment
+# --- English text = Choose urban if your exchange home is within the city limits of the nearest city you have chosen above.  Suburban is near to a major city, and rural is the correct choice if your exchange home is out in the country.
+msgid "home.help_environment"
+msgstr "Kies  voor stedelijk wannneer je ruilwoning zich bevindt binnen de stadsgrenzen van de meeste nabije stad die je hieroven hebt aangegeven. Voorstedelijk is in de onmiddellijke nabijheid van deze stad en landelijk is de juiste keuze wanneer je ruilwoning zich op het platteland bevindt."
+
+# --- Help Text : House Type
+# --- English text = What sort of structure is the home you are offering for exchange?  If this is your second or vacation home please choose accordingly.
+msgid "home.help_house_type"
+msgstr "Wat voor type woning is het huis dat je aanbiedr om te ruilen?  Indien het  een tweede huis  of een vakantiehuis betreft kies dan ook als zodanig."
+
+# --- Help Text : Floor
+# --- This choice is offered for single structures housing more than one family, buildings or large homes with more than one apartment inside.
+msgid "home.help_floor_number"
+msgstr "Deze keuze is bedoeld voor huizen waar meer dan één familie woont of flatgebouwen of grote huizen met meer dan één appartement."
+
+# --- Help Text : People
+# --- English text = This refers to the number of people who could comfortably sleep in your home, not the number of people in your family.
+msgid "home.help_persons_suitable"
+msgstr "Dit heeft betrekking op het aantal personen die comfortabel kunnen slapen in je woning en niet op het aantal gezinsleden van je familie."
+
+# --- Help Text : Bedrooms
+# --- English text = How many bedrooms are there in your home or apartment?  A consideration slightly different than how many people can sleep comfortably in your home.
+msgid "home.help_bedrooms"
+msgstr "Hoeveel slaapkamers zijn er in je huis of appartement? Dit is niet noodzakelijk gelijk aan het aantal personen die kunnen overnachten."
+
+# --- Help Text : Bathrooms
+# --- English text = How many bathrooms does your home or apartment have?
+msgid "home.help_bathrooms"
+msgstr "Hoeveel badkamers zijn er in je huis of appartement?"
+
+# --- Help Text : Number of Adults
+# --- English text = Choose 0 to indicate that you are looking for Youth Exchange only.
+msgid "family.help_adults"
+msgstr "Kies 0 om aan te geven dat je enkel geïnteresseerd bent in Jongerenuitwisseling"
+
+# --- Help Text : Occupation
+# --- English text = Intervac started as home exchange between teachers.  What is your profession?
+msgid "family.help_occupation"
+msgstr "Intervac is gestart met huizenruil tussen leerkrachten. Wat is jouw beroep?"
+
+# --- Help Text : Ages of Sons
+# --- English text = Please use one dropdown to indicate the age of each of your sons.
+msgid "family.help_boys_ages"
+msgstr "Gebruik de dropdown om de leeftijd van elk van je zonen aan te geven"
+
+# --- Help Text : Ages of Daughters
+# --- English text = Please use one dropdown to indicate the age of each of your daughters.
+msgid "family.help_girls_ages"
+msgstr "Gebruik de dropdown om de leeftijd van elk van je dochters aan te geven."
+
+# --- Help Text : Number of past exchanges
+# --- English text = Are you an experienced exchanger, or new to the game? Please choose the number of exchanges has your family has made?
+msgid "family.help_exchanges_made"
+msgstr "Heb je al veel ervaring met huisruil, of is dit je eerste keer? Geef het aantal ruilingen aan die je reeds hebt gerealiseerd."
+
+# --- Help Text : Earliest Date
+# --- English text = This is the earliest date you and your family are available to make an exchange.
+msgid "timing.help_earliest_date"
+msgstr "Dit is de vroegste datum dat jij en je familie beschikbaar zijn om te ruilen"
+
+# --- Help Text : Latest Date
+# --- English text = This is the latest date you and your family can be away from home.
+msgid "timing.help_latest_date"
+msgstr "Dit is de laatste datum dat jij en je familie beschikbaarzijn om te ruilen."
+
+# --- Help Text : Timing Comment
+# --- English text = Not July/August, or SH=School Holidays; ET=Easter; CT=Christmas holidays; x=Open to Other Periods
+msgid "timing.help_comment"
+msgstr "Niet juli /augustus, of SH=Schoolvakanties; ET=Pasen; CT=Kerstvakantie; x=Open voor andere periodes"
+
+# --- Help Text : Home Exchange
+# --- English text = You are flexible and willing to consider any offer that comes your way.
+msgid "exchange_types.help_O"
+msgstr "Je bent flexibel en je bent bereid om elk voorstel in overweging te nemen."
+
+# --- Help Text : Home Exchange
+# --- English text = The majority of our members prefer to exchange homes.  This is not only our most popular choice, but also the cornerstone of our success.
+msgid "exchange_types.help_X"
+msgstr "De meerderheid van onze deelnemers wil de woning ruilen. Dit is niet alleen de populairste keuze, het is de hoeksteen van ons succes."
+
+# --- Help Text : Weekend Exchange
+# --- English text = Looking for a short get-away, then Weekend Exchange is a good choice.
+msgid "exchange_types.help_WE"
+msgstr "Wanneer je op zoek bent naar een korte trip, dan is weekendruil een goede keuze."
+
+# --- Help Text : Double Exchange
+# --- English text = A double exchange consists of two families searching 2 separate homes which are situated near to one another.
+msgid "exchange_types.help_DX"
+msgstr "Een dubbele ruil betreft 2 families die op zoek zijn naar 2 afzonderlijke woningen in elkaars nabijheid."
+
+# --- Help Text : Hospitality Exchange
+# --- English text = Hospitality exchange means you invite a member to visit you in your home, and are invited to visit in return.
+msgid "exchange_types.help_XH"
+msgstr "Gastvrijheid ruilen betekent dat je een Intervac deelnemer bij jou thuis verblijft en dat jezelf uitgenodigd wordt om later bij die deelnemer te logeren"
+
+# --- Help Text : Long Term Exchange
+# --- English text = Long-term exchanges are generally 3 months or more in length.
+msgid "exchange_types.help_LX"
+msgstr "Lange termijn ruil is een ruil van meer dan 3 maanden."
+
+# --- English text : A non-simultaneuous exchange is when two parties make an exchange with two different dates.  This is comparable to an exchange of house-sitting services.  Let's say your family was attending a wedding away from home, and you will be staying with relatives.  Another family might be planning a weekend holiday, but were unable to find an exchange partner for a direct exchange.  You might agree to a non-simultaneous exchange whereby you stay in their home while they are away for the weekend, and they stay in your home while you are at the wedding.
+msgid "exchange_types.help_NX"
+msgstr "Een niet simultane ruil vindt plaats wanneer twee deelnemers een ruil doen op verschillende tijdstippen.  Het is vergelijkbaar met een ruil van house sitting. Bijvoorbeeld stel dat jouw familie een huwelijk bijwoont en je logeert bij familie, dan kun je je huis in ruil geven aan een familie die op dat ogenblik bijvoorbeeld een weekendruil wil doen in je regio.  Jij kunt dan later op jouw beurt met hen ruilen op een ogenblik dat zij niet thuis zijn."
+
+# --- Help Text : Youth Exchange
+# --- English text = Members who have checked this box are looking for a youth exchange.
+msgid "exchange_types.help_XY"
+msgstr "Deelnemers die deze checkbox aanvinken zijn op zoek naar een huisruil."
+
+# --- Help Text : Youth Hospitality
+# --- English text = Check this box if you are willing to host young adults as guests in your home.
+msgid "exchange_types.help_OY"
+msgstr "Vink deze checkbox aan als je bereid bent gastvrijheid te verlenen aan jonge mensen."
+
+# --- Help Text: Hospitality offered by a young person
+# --- English text = Check this box if you have a young adult in your family who would like to host visting youths.
+msgid "exchange_types.help_WY"
+msgstr "Vink deze checkbox aan als je een jonge volwassene in je familie hebt die andere jonge mensen wil ontvangen."
+
+# --- Help Text: Hospitality
+# --- English text = Hospitality is offered by members who have checked this box.
+msgid "exchange_types.help_H"
+msgstr "Deelnemers die deze checkbox aanvinken, bieden gastvrijheid aan."
+
+# --- Help Text : Offer home for house-sitting
+# --- English text = These members are searching a housesitter.  This option does not generally involve any payment.  This is ideal for when you must be away from home for a period of time, and would like for someone to pick up the mail, and feed the cat.
+msgid "exchange_types.help_AH"
+msgstr "Deze optie houdt geen financiële verplichtingen in.  Het is ideaal wanneer je een periode niet thuis bent en zou willen dat je post wordt opgehaald, en dat iemand je kat eten geeft."
+
+# --- Help Text : Want to House-sit
+# --- English text = Choosing this option indicates a willingness to look after a home while the owners are away.  This usually includes picking up the mail, feeding pets and watering plants.
+msgid "exchange_types.help_HS"
+msgstr "Kiezen voor deze optie geeft aan dat je bereid bent om op het huis van de eigenaars te passen wanneer deze afwezig zijn.  Dit houdt in dat je de post ophaalt, voor de huisdieren zorgt en de planten water geeft."
+
+# --- Help Text : Hospitality Wanted
+# --- English text = Checking this box indicates that you are searching for a member willing to offer you hospitality.
+msgid "exchange_types.help_HW"
+msgstr "Deze checkbox aanvinken betekent dat je eendeelnemer zoekt die  jou wil gastvrijheid bieden."
+
+# --- Help Text : Long Term Rental
+# --- English text = The members who have checked this box are interested in a long term (usually 3 months or more) rental.
+msgid "exchange_types.help_LR"
+msgstr "De deelnemers die deze checkbox hebben aangevinkt zijn geïnteresseerd in een lange termijn huur (gewoonlijk meer dan 3 maanden)"
+
+# --- Help Text : Home for rent only
+# --- English text = The members who have checked this box are only interested in renting thier homes.  These members are not able to contact members who have checked the No Rental Offers Accepted box.
+msgid "exchange_types.help_ER"
+msgstr "Deelnemers die deze mogelijkheid hebben gekozen, zijn alleen geinteresseerd in VERHUUR van hun huis. Deze deelnemers kunnen geen contacten leggen met deelnemers die het veld Huuraanbiedingen worden niet geaccepteerd hebben aangeklikt."
+
+# --- Help Text : Home for rent or exchange
+# --- English text = The members who have checked this box are interested in renting thier homes, but they are equally interested in exchange offers.
+msgid "exchange_types.help_RO"
+msgstr "Deelnemers die dit veld hebben aangeklikt, willen hun huis verhuren, maar zijn daarnaast ook geinteresseerd in ruilaanbiedingen."
+
+# --- Help Text : Rental Required
+# --- English text = These members require a rental property.
+msgid "exchange_types.help_RR"
+msgstr "Deze deelnemers vragen een huurwoning."
+
+# --- Help Text : Skype
+# --- English text = If you want other members to contact you via Skype, please add your Skype-id here.
+msgid "other_details.help_skype"
+msgstr "Wanneer je wilt dat andere deelnemers via Skype contact met je opnemen, vul dan hier je Skype ID in."
+
+# --- ERROR TEXT ---
+# --- English text =  The latest date must be after the earliest date.
+msgid "errors.latest_date_must_be_after_earliest"
+msgstr "Niet toegestaan: vroegste datum na laatste datum"
+
+# --- English text = Save my profile details
+msgid "save_button"
+msgstr "Bewaar mijn profiel"
+
+# --- HowTo: Change availiabilty status
+# --- English text = If you are not searching an exchange at this time, you can change your availability status by clicking once on the traffic light in the headline above.  When the light is green, other members know that you are actively searching an exchange partner.
+msgid "how_to_change_availability"
+msgstr "Wanneer je momenteel niet op zoek bent naar een ruil, kun je de status van beschikbaarheid wijzigen door het groene verkeerslicht bovenaan de pagina aan te klikken zodat het rood wordt.  Wanneer het licht op groen staat, weten andere deelnemers dat je beschikbaar bent voor een ruil."
+
+# --- English text = My Listing Details
+msgid "headline"
+msgstr "Details van mijn aanbieding"
+
+# --- English text = Please do not forget to save your changes.
+msgid "dont_forget_to_save"
+msgstr "Vergeet niet je wijzigingen op te slaan"
+
+# --- NEW April 2008 :: English text = Text written above is visible to visitors.
+msgid "visible_for_visitors"
+msgstr "De hierboven genoteerde tekst is zichtbaar voor bezoekers van de site"
+
+# English Text = Close Window
+msgid "close_button"
+msgstr "Sluiten"
+
+# --- English text = Your personal data has been saved.
+# --- Location = This is the notice that confirms that changes to personal data have been saved to an invisible listing.
+msgid "error_messages.personal_data_saved"
+msgstr "Uw persoonlijke gegevens zijn opgeslagen. "
+
+# --- English text = Your listing will remain in-visible until you have filled in the following fields.
+# --- Location = This notice confirms that the listing remains invisible until all the fields required to build a complete listing are filled in.
+msgid "error_messages.listing_remains_invisible"
+msgstr "Uw gegevens zijn onzichtbaar totdat je de volgende velden hebt ingevuld."
+
+# --- English text = Please select at least one language for correspondence
+# --- Location = Error text if Language for Correspondence is left blank
+# (June, 2011 - New)
+msgid "error.spoken_language"
+msgstr "Kies alstublieft minstens één taal voor correspondentie"
+
+# --- English text = Please select at least one exchange preferences
+# --- Location = Error text if Exchange types are left blank
+# (June, 2011 - New)
+msgid "error.exchange_type"
+msgstr "Kies minstens één van de ruil-optie voorkeuren"
+
+# --- English text = Your listing remains invisible for other members until you have built your home exchange profile. Get started today!
+# --- Location =
+# (June, 2011)
+msgid "message.invisible_listing"
+msgstr "Uw gegevens blijven onzichtbaar voor andere deelnemers totdat u uw volledige eigen webpagina heeft aangemaakt. Ga nog vandaag aan de slag!"
+
+# --- English text = Before we can activate your trial membership, please upload a photo of your home.
+# --- Location = This is the success message that appears on the Main Photo page when an invisible member has filled out their listing details and been forwarded to the Main Photo page.
+# (Aug, 2011)
+msgid "message.invisible_listing_without_photo"
+msgstr "Wij kunnen uw Test-Deelname pas activeren, nadat u een foto van uw huis heeft geplaatst. "
+
+# --- English text = Time span 
+# --- Location = Nov. 2011 - mobile application only
+# (New: November, 2011)
+#, fuzzy
+msgid "availability.time_span"
+msgstr "Time span"
+

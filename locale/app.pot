@@ -1,0 +1,1854 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: version 0.0.1\n"
+"POT-Creation-Date: 2014-02-14 15:54+0100\n"
+"PO-Revision-Date: 2012-08-09 11:01+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/views/conversations/show.html.erb:39
+msgid "%{SENT_BY_USER} wrote on %{MESSAGE_DATE}"
+msgstr ""
+
+#: app/views/dashboards/_awaiting_activation.html.erb:4
+msgid "Account not activated."
+msgstr ""
+
+#: app/views/accounts/match_alerts/_match_alert.html.erb:5
+msgid "Activate match alert"
+msgstr ""
+
+#: app/helpers/listings_helper.rb:99 app/helpers/listings_helper.rb:135
+#: app/views/favorites/destroy.js.erb:5
+msgid "Add to favorites"
+msgstr ""
+
+#: app/views/conversations/_conversation_menu.html.erb:14
+msgid "Archive"
+msgstr ""
+
+#: app/views/conversations/_conversation_envelope.html.erb:5
+msgid "Archive selected"
+msgstr ""
+
+#: app/views/searches/_searches_home.html.erb:3
+msgid "Back to search"
+msgstr ""
+
+#: app/views/conversations/_conversation_envelope.html.erb:23
+msgid "Between"
+msgstr ""
+
+#: app/views/dashboards/_my_listing_menu.html.erb:6
+msgid "Change My Listing"
+msgstr ""
+
+#: app/views/users/users/edit_primary_email.html.erb:10
+#: app/views/users/users/edit_secondary_email.html.erb:9
+msgid "Change email"
+msgstr ""
+
+#: app/views/listings/_change_my_listing_menu.html.erb:6
+msgid "Change my listing"
+msgstr ""
+
+#: app/views/users/users/edit_password.html.erb:1
+msgid "Change password"
+msgstr ""
+
+#: app/views/users/users/edit_primary_email.html.erb:1
+#: app/views/users/users/edit_secondary_email.html.erb:1
+msgid "Change your email"
+msgstr ""
+
+#: app/views/users/users/connect_facebook.html.erb:1
+msgid "Connect with Facebook"
+msgstr ""
+
+#: app/views/agent/contact_messages/new.html.erb:7
+msgid "Contact"
+msgstr ""
+
+#: app/views/accounts/contacts/show.html.erb:7
+#: app/views/dashboards/_membership_menu.html.erb:6
+msgid "Contact information"
+msgstr ""
+
+#: app/views/favorites/list.html.erb:10
+msgid "Contact multiple members"
+msgstr ""
+
+#: app/views/conversations/new_multi.html.erb:8
+msgid "Contact multiple members with one message"
+msgstr ""
+
+#: app/views/listings/_message_selector.html.erb:11
+#: app/views/member_messages/_member_message_form.html.erb:3
+msgid "Conversation message"
+msgstr ""
+
+#: app/views/message_templates/_message_templates_index_table.html.erb:1
+msgid "Create template"
+msgstr ""
+
+#: app/views/conversations/_conversation_envelope.html.erb:3
+msgid "Delete selected"
+msgstr ""
+
+#: app/views/dashboards/_main_menu.html.erb:9
+msgid "Destination Wishlist"
+msgstr ""
+
+#: app/views/accounts/match_alerts/index.html.erb:15
+msgid "Disable match alert"
+msgstr ""
+
+#: app/views/member/exchange_agreements/documents.html.erb:9
+msgid "Documents"
+msgstr ""
+
+#: app/views/accounts/profile_images/_image_card.html.erb:27
+#: app/views/listing/images/_listing_image.html.erb:27
+#: app/views/listings/main_photos/_main_photo_manager.html.erb:18
+msgid "Edit caption"
+msgstr ""
+
+#: app/views/accounts/match_alerts/index.html.erb:24
+msgid "Edit destinations"
+msgstr ""
+
+#: app/views/message_templates/edit.html.erb:8
+msgid "Edit message templates"
+msgstr ""
+
+#: app/views/accounts/contacts/_form.html.erb:71
+msgid "Email address (Always the same as your primary email address)"
+msgstr ""
+
+#: app/views/dashboards/_membership_menu.html.erb:8
+msgid "Emails & Logins"
+msgstr ""
+
+#: app/views/users/users/_user_settings_menu.html.erb:6
+msgid "Emails & logins"
+msgstr ""
+
+#: app/views/dashboards/_membership_menu.html.erb:4
+#: app/views/member/exchange_agreements/_menu.html.erb:6
+msgid "Exchange agreements"
+msgstr ""
+
+#: app/views/listings/_preview_listing_intro.html.erb:9
+msgid "Exchange dates"
+msgstr ""
+
+#: app/views/listings/_change_my_listing_menu.html.erb:11
+msgid "Exchange information"
+msgstr ""
+
+#: app/views/member/exchange_agreements/references.html.erb:7
+msgid "Exchange reference request"
+msgstr ""
+
+#: app/views/member/exchange_agreements/references.html.erb:8
+msgid "Exchange references"
+msgstr ""
+
+#: app/views/exchange_requests/_new.html.erb:3
+#: app/views/listings/_message_selector.html.erb:6
+msgid "Exchange request"
+msgstr ""
+
+#: app/views/listings/view_listing.html.erb:37
+#: app/views/listings/view_my_listing.html.erb:31
+msgid "Family"
+msgstr ""
+
+#: app/views/listings/_change_my_listing_menu.html.erb:13
+msgid "Family photos & texts"
+msgstr ""
+
+#: app/views/conversations/_conversation_menu.html.erb:16
+#: app/views/dashboards/_main_menu.html.erb:8
+#: app/views/favorites/conversation.html.erb:7
+#: app/views/favorites/index.html.erb:8
+msgid "Favorites"
+msgstr ""
+
+#: app/views/newsletters/new.html.erb:11
+msgid "Fill out your email address and hit the subscribe button to get the latest about home exchange with Intervac."
+msgstr ""
+
+#: app/views/dashboards/find_member_by_name.html.erb:10
+#: app/views/dashboards/index.html.erb:14 app/views/searches/find.html.erb:9
+msgid "Find a specific member"
+msgstr ""
+
+#: app/views/dashboards/find_member_by_name.html.erb:29
+msgid "Has no listing"
+msgstr ""
+
+#: app/controllers/listings/headlines_controller.rb:20
+msgid "Headline was updated"
+msgstr ""
+
+#: app/views/listings/_change_my_listing_menu.html.erb:12
+msgid "Home photos & texts"
+msgstr ""
+
+#: app/views/agent/translations/edit_changed.html.erb:11
+msgid "Hurray! There are no changed translations!"
+msgstr ""
+
+#: app/views/agent/translations/edit_missing.html.erb:21
+msgid "Hurray! There are no missing translations!"
+msgstr ""
+
+#: app/views/agent/conversations/index.html.erb:8
+#: app/views/conversations/_conversation_menu.html.erb:13
+#: app/views/conversations/index.html.erb:14
+msgid "Inbox"
+msgstr ""
+
+#: app/views/countries/show.html.erb:63
+msgid "Kind of country"
+msgstr ""
+
+#: app/views/conversations/_conversation_envelope.html.erb:40
+msgid "Last updated by %{UPDATED_BY} on %{UPDATED_ON}"
+msgstr ""
+
+#: app/views/listings/view_listing.html.erb:38
+#: app/views/listings/view_my_listing.html.erb:32
+msgid "Lifestyle"
+msgstr ""
+
+#: app/views/listings/_change_my_listing_menu.html.erb:14
+msgid "Lifestyle photos & texts"
+msgstr ""
+
+#: app/views/dashboards/index.html.erb:13
+msgid "Listing status"
+msgstr ""
+
+#: app/views/dashboards/find_member_by_name.html.erb:20
+msgid "Listings"
+msgstr ""
+
+#: app/views/agent/contact_messages/new.html.erb:11
+msgid "Local representative"
+msgstr ""
+
+#: app/views/listings/view_listing.html.erb:40
+#: app/views/listings/view_my_listing.html.erb:34
+msgid "Location surroundings"
+msgstr ""
+
+#: app/views/listing/images/_main_photo_figure.html.erb:7
+msgid "Main photo"
+msgstr ""
+
+#: app/views/listing/images/_main_photo_figure.html.erb:7
+#: app/views/listings/_change_my_listing_menu.html.erb:10
+msgid "Main settings"
+msgstr ""
+
+#: app/views/dashboards/_main_menu.html.erb:7
+msgid "Match alert"
+msgstr ""
+
+#: app/views/dashboards/_main_menu.html.erb:1
+#: app/views/dashboards/_member_home.html.erb:3
+msgid "Member home"
+msgstr ""
+
+#: app/views/accounts/payments/index.html.erb:11
+#: app/views/dashboards/_membership_menu.html.erb:7
+msgid "Membership"
+msgstr ""
+
+#: app/views/accounts/payments/index.html.erb:20
+msgid "Membership and payment information"
+msgstr ""
+
+#: app/views/accounts/payments/index.html.erb:7
+msgid "Membership information"
+msgstr ""
+
+#: app/views/users/users/show.html.erb:10
+msgid "Membership users"
+msgstr ""
+
+#: app/views/message_templates/index.html.erb:8
+msgid "Message Templates"
+msgstr ""
+
+#: app/helpers/dashboards_helper.rb:34 app/helpers/dashboards_helper.rb:36
+#: app/views/conversations/_conversation_menu.html.erb:9
+msgid "Messages"
+msgstr ""
+
+#: app/views/dashboards/_membership_menu.html.erb:1
+msgid "My Membership"
+msgstr ""
+
+#: app/views/dashboards/_my_listing_menu.html.erb:2
+msgid "My listing"
+msgstr ""
+
+#: app/views/dashboards/find_member_by_name.html.erb:19
+msgid "Name"
+msgstr ""
+
+#: app/views/listings/view_listing.html.erb:39
+#: app/views/listings/view_my_listing.html.erb:33
+msgid "Neighborhood"
+msgstr ""
+
+#: app/views/listings/_change_my_listing_menu.html.erb:15
+msgid "Neighborhood photos & texts"
+msgstr ""
+
+#: app/views/message_templates/new.html.erb:8
+msgid "New message templates"
+msgstr ""
+
+#: app/views/accounts/profile_images/_image_card.html.erb:18
+#: app/views/listing/images/_listing_image.html.erb:18
+#: app/views/listing/images/_main_photo_figure.html.erb:11
+msgid "No caption for this image"
+msgstr ""
+
+#: app/views/dashboards/find_member_by_name.html.erb:14
+msgid "No members with the name %{MEMBER_NAME} could be found"
+msgstr ""
+
+#: app/views/pages/not_found.html.erb:5
+msgid "Not found"
+msgstr ""
+
+#: app/views/users/users/_user_settings_menu.html.erb:10
+msgid "Overview"
+msgstr ""
+
+#: app/views/listing/statistics/index.html.erb:29
+msgid "Please set your correct time zone."
+msgstr ""
+
+#: app/views/listings/_view_listing_actions.html.erb:4
+msgid "Print listing"
+msgstr ""
+
+#: app/views/dashboards/_membership_menu.html.erb:5
+msgid "References"
+msgstr ""
+
+#: app/helpers/listings_helper.rb:87 app/helpers/listings_helper.rb:123
+#: app/views/favorites/add.js.erb:5
+msgid "Remove as favorite"
+msgstr ""
+
+#: app/views/dashboards/_main_menu.html.erb:4
+msgid "Search"
+msgstr ""
+
+#: app/views/dashboards/_find_member.html.erb:13
+msgid "Search by listing number"
+msgstr ""
+
+#: app/views/dashboards/find_member_by_name.html.erb:11
+msgid "Search results for: %{MEMBER_NAME}"
+msgstr ""
+
+#: app/views/listings/_view_listing_actions.html.erb:2
+msgid "Send a message"
+msgstr ""
+
+#: app/views/dashboards/_main_menu.html.erb:6
+#: app/views/listing/statistics/index.html.erb:13
+#: app/views/listing/statistics/index.html.erb:24
+msgid "Statistics"
+msgstr ""
+
+#: app/views/conversations/_conversation_envelope.html.erb:17
+#: app/views/conversations/_conversation_envelope.html.erb:19
+msgid "Subject"
+msgstr ""
+
+#: app/views/message_templates/_message_templates_index_table.html.erb:6
+msgid "Template name"
+msgstr ""
+
+#: app/views/conversations/_conversation_menu.html.erb:15
+msgid "Templates"
+msgstr ""
+
+#: app/views/pages/not_found.html.erb:7
+msgid "The information you are looking for could not be found"
+msgstr ""
+
+#: app/views/listings/_message_selector.html.erb:7
+#: app/views/listings/view_listing.html.erb:20
+msgid "This will send an exchange request to the owner of the listing using a specific exchange request message. You have the option to attach an additional message with the exchange request."
+msgstr ""
+
+#: app/views/listings/_message_selector.html.erb:12
+#: app/views/listings/view_listing.html.erb:24
+msgid "This will start a new conversation thread between you and the owner of the listing."
+msgstr ""
+
+#: app/views/dashboards/_useful_links_menu.html.erb:4
+msgid "Tips & Checklists"
+msgstr ""
+
+#: app/views/dashboards/_useful_links_menu.html.erb:1
+msgid "Useful links"
+msgstr ""
+
+#: app/views/dashboards/_my_listing_menu.html.erb:5
+#: app/views/listings/_change_my_listing_menu.html.erb:16
+msgid "View My listing"
+msgstr ""
+
+#: app/views/listings/_preview_listing_image_row.html.erb:15
+#: app/views/listings/_preview_listing_image_row.html.erb:19
+msgid "View large images"
+msgstr ""
+
+#: app/views/listing/images/_preview_listing_large_images.html.erb:12
+#: app/views/listing/images/_preview_listing_large_images.html.erb:16
+msgid "View small images"
+msgstr ""
+
+#: app/views/newsletters/new.html.erb:10
+msgid "We use our newsletter to keep our members; new members, experienced members and our soon-to-be members up on special offers, news, and anything interesting going on around Intervac. We're glad to have you join us!"
+msgstr ""
+
+#: app/views/accounts/match_alerts/index.html.erb:22
+msgid "Welcome to Match Alert"
+msgstr ""
+
+#: app/views/accounts/listings/statistics.html.erb:42
+msgid "Where are your visitors from"
+msgstr ""
+
+#: app/views/accounts/wish_lists/index.html.erb:7
+#: app/views/accounts/wish_lists/index.html.erb:11
+msgid "Wish list destinations"
+msgstr ""
+
+#: app/views/dashboards/_awaiting_activation.html.erb:4
+msgid "You account needs to be activated before you can use the full system. You representative will activate your account as soon as your payment is cleared."
+msgstr ""
+
+#: app/views/conversations/_conversation_envelope.html.erb:24
+msgid "You and"
+msgstr ""
+
+#: app/views/listing/images/_main_photo_figure.html.erb:7
+msgid "You can edit your main photo under"
+msgstr ""
+
+#: app/views/listings/main_photos/_main_photo_manager.html.erb:15
+msgid "You can simply uplaod a new main photo if you want to replace the one you currently have."
+msgstr ""
+
+#: app/views/accounts/listings/statistics.html.erb:12
+msgid "You listing in: "
+msgstr ""
+
+#: app/views/conversations/show.html.erb:27
+msgid "You wrote on %{MESSAGE_DATE}"
+msgstr ""
+
+#: app/views/favorites/_favorites_sidebar_menu.html.erb:6
+msgid "Your favorites"
+msgstr ""
+
+#: app/views/users/users/_primary_email.html.erb:1
+msgid "Your primary email address is used for login, messages, notifications and contact information."
+msgstr ""
+
+#: app/views/users/users/_secondary_email.html.erb:1
+msgid "Your secondary email is only used for messages and notifications, you can not login using your secondary email."
+msgstr ""
+
+#: app/views/listings/main_photos/_main_photo_manager.html.erb:10
+msgid "button.replace_main_photo"
+msgstr ""
+
+#: model.Country
+msgid "country.afghanistan"
+msgstr ""
+
+#: model.Country
+msgid "country.aland_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.albania"
+msgstr ""
+
+#: model.Country
+msgid "country.algeria"
+msgstr ""
+
+#: model.Country
+msgid "country.american_samoa"
+msgstr ""
+
+#: model.Country
+msgid "country.andorra"
+msgstr ""
+
+#: model.Country
+msgid "country.angola"
+msgstr ""
+
+#: model.Country
+msgid "country.anguilla"
+msgstr ""
+
+#: model.Country
+msgid "country.antarctica"
+msgstr ""
+
+#: model.Country
+msgid "country.antigua_and_barbuda"
+msgstr ""
+
+#: model.Country
+msgid "country.argentina"
+msgstr ""
+
+#: model.Country
+msgid "country.armenia"
+msgstr ""
+
+#: model.Country
+msgid "country.aruba"
+msgstr ""
+
+#: model.Country
+msgid "country.australia"
+msgstr ""
+
+#: model.Country
+msgid "country.austria"
+msgstr ""
+
+#: model.Country
+msgid "country.azerbaidjan"
+msgstr ""
+
+#: model.Country
+msgid "country.bahamas"
+msgstr ""
+
+#: model.Country
+msgid "country.bahrain"
+msgstr ""
+
+#: model.Country
+msgid "country.bangladesh"
+msgstr ""
+
+#: model.Country
+msgid "country.barbados"
+msgstr ""
+
+#: model.Country
+msgid "country.belarus"
+msgstr ""
+
+#: model.Country
+msgid "country.belgium"
+msgstr ""
+
+#: model.Country
+msgid "country.belize"
+msgstr ""
+
+#: model.Country
+msgid "country.benin"
+msgstr ""
+
+#: model.Country
+msgid "country.bermuda"
+msgstr ""
+
+#: model.Country
+msgid "country.bhutan"
+msgstr ""
+
+#: model.Country
+msgid "country.bolivia"
+msgstr ""
+
+#: model.Country
+msgid "country.bosnia-herzegovina"
+msgstr ""
+
+#: model.Country
+msgid "country.botswana"
+msgstr ""
+
+#: model.Country
+msgid "country.bouvet_island"
+msgstr ""
+
+#: model.Country
+msgid "country.brazil"
+msgstr ""
+
+#: model.Country
+msgid "country.british_indian_ocean_territory"
+msgstr ""
+
+#: model.Country
+msgid "country.brunei_darussalam"
+msgstr ""
+
+#: model.Country
+msgid "country.bulgaria"
+msgstr ""
+
+#: model.Country
+msgid "country.burkina_faso"
+msgstr ""
+
+#: model.Country
+msgid "country.burundi"
+msgstr ""
+
+#: model.Country
+msgid "country.cambodia"
+msgstr ""
+
+#: model.Country
+msgid "country.cameroon"
+msgstr ""
+
+#: model.Country
+msgid "country.canada"
+msgstr ""
+
+#: model.Country
+msgid "country.cape_verde"
+msgstr ""
+
+#: model.Country
+msgid "country.cayman_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.central_african_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.chad"
+msgstr ""
+
+#: model.Country
+msgid "country.chile"
+msgstr ""
+
+#: model.Country
+msgid "country.china"
+msgstr ""
+
+#: model.Country
+msgid "country.christmas_island"
+msgstr ""
+
+#: model.Country
+msgid "country.cocos_keeling_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.colombia"
+msgstr ""
+
+#: model.Country
+msgid "country.comoros"
+msgstr ""
+
+#: model.Country
+msgid "country.congo"
+msgstr ""
+
+#: model.Country
+msgid "country.cook_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.costa_rica"
+msgstr ""
+
+#: model.Country
+msgid "country.croatia"
+msgstr ""
+
+#: model.Country
+msgid "country.cuba"
+msgstr ""
+
+#: model.Country
+msgid "country.cyprus"
+msgstr ""
+
+#: model.Country
+msgid "country.czech_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.democratic_rep_of_congo_zaire"
+msgstr ""
+
+#: model.Country
+msgid "country.denmark"
+msgstr ""
+
+#: model.Country
+msgid "country.djibouti"
+msgstr ""
+
+#: model.Country
+msgid "country.dominica"
+msgstr ""
+
+#: model.Country
+msgid "country.dominican_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.east_timor"
+msgstr ""
+
+#: model.Country
+msgid "country.ecuador"
+msgstr ""
+
+#: model.Country
+msgid "country.egypt"
+msgstr ""
+
+#: model.Country
+msgid "country.el_salvador"
+msgstr ""
+
+#: model.Country
+msgid "country.equatorial_guinea"
+msgstr ""
+
+#: model.Country
+msgid "country.eritrea"
+msgstr ""
+
+#: model.Country
+msgid "country.estonia"
+msgstr ""
+
+#: model.Country
+msgid "country.ethiopia"
+msgstr ""
+
+#: model.Country
+msgid "country.falkland_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.faroe_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.fiji"
+msgstr ""
+
+#: model.Country
+msgid "country.finland"
+msgstr ""
+
+#: model.Country
+msgid "country.france"
+msgstr ""
+
+#: model.Country
+msgid "country.french_guyana"
+msgstr ""
+
+#: model.Country
+msgid "country.french_southern_territories"
+msgstr ""
+
+#: model.Country
+msgid "country.gabon"
+msgstr ""
+
+#: model.Country
+msgid "country.gambia"
+msgstr ""
+
+#: model.Country
+msgid "country.georgia"
+msgstr ""
+
+#: model.Country
+msgid "country.germany"
+msgstr ""
+
+#: model.Country
+msgid "country.ghana"
+msgstr ""
+
+#: model.Country
+msgid "country.gibraltar"
+msgstr ""
+
+#: model.Country
+msgid "country.great_britain"
+msgstr ""
+
+#: model.Country
+msgid "country.greece"
+msgstr ""
+
+#: model.Country
+msgid "country.greenland"
+msgstr ""
+
+#: model.Country
+msgid "country.grenada"
+msgstr ""
+
+#: model.Country
+msgid "country.guadeloupe"
+msgstr ""
+
+#: model.Country
+msgid "country.guam"
+msgstr ""
+
+#: model.Country
+msgid "country.guatemala"
+msgstr ""
+
+#: model.Country
+msgid "country.guernsey"
+msgstr ""
+
+#: model.Country
+msgid "country.guinea"
+msgstr ""
+
+#: model.Country
+msgid "country.guinea_bissau"
+msgstr ""
+
+#: model.Country
+msgid "country.guyana"
+msgstr ""
+
+#: model.Country
+msgid "country.haiti"
+msgstr ""
+
+#: model.Country
+msgid "country.heard_and_mcdonald_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.honduras"
+msgstr ""
+
+#: model.Country
+msgid "country.hong_kong"
+msgstr ""
+
+#: model.Country
+msgid "country.hungary"
+msgstr ""
+
+#: model.Country
+msgid "country.iceland"
+msgstr ""
+
+#: model.Country
+msgid "country.india"
+msgstr ""
+
+#: model.Country
+msgid "country.indonesia"
+msgstr ""
+
+#: model.Country
+msgid "country.iran"
+msgstr ""
+
+#: model.Country
+msgid "country.iraq"
+msgstr ""
+
+#: model.Country
+msgid "country.ireland"
+msgstr ""
+
+#: model.Country
+msgid "country.isle_of_man"
+msgstr ""
+
+#: model.Country
+msgid "country.israel"
+msgstr ""
+
+#: model.Country
+msgid "country.italy"
+msgstr ""
+
+#: model.Country
+msgid "country.ivory_coast"
+msgstr ""
+
+#: model.Country
+msgid "country.jamaica"
+msgstr ""
+
+#: model.Country
+msgid "country.japan"
+msgstr ""
+
+#: model.Country
+msgid "country.jersey"
+msgstr ""
+
+#: model.Country
+msgid "country.jordan"
+msgstr ""
+
+#: model.Country
+msgid "country.kazakhstan"
+msgstr ""
+
+#: model.Country
+msgid "country.kenya"
+msgstr ""
+
+#: model.Country
+msgid "country.kiribati"
+msgstr ""
+
+#: model.Country
+msgid "country.kuwait"
+msgstr ""
+
+#: model.Country
+msgid "country.kyrgyz_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.laos"
+msgstr ""
+
+#: model.Country
+msgid "country.latvia"
+msgstr ""
+
+#: model.Country
+msgid "country.lebanon"
+msgstr ""
+
+#: model.Country
+msgid "country.lesotho"
+msgstr ""
+
+#: model.Country
+msgid "country.liberia"
+msgstr ""
+
+#: model.Country
+msgid "country.libya"
+msgstr ""
+
+#: model.Country
+msgid "country.liechtenstein"
+msgstr ""
+
+#: model.Country
+msgid "country.lithuania"
+msgstr ""
+
+#: model.Country
+msgid "country.luxembourg"
+msgstr ""
+
+#: model.Country
+msgid "country.macau"
+msgstr ""
+
+#: model.Country
+msgid "country.macedonia"
+msgstr ""
+
+#: model.Country
+msgid "country.madagascar"
+msgstr ""
+
+#: model.Country
+msgid "country.malawi"
+msgstr ""
+
+#: model.Country
+msgid "country.malaysia"
+msgstr ""
+
+#: model.Country
+msgid "country.maldives"
+msgstr ""
+
+#: model.Country
+msgid "country.mali"
+msgstr ""
+
+#: model.Country
+msgid "country.malta"
+msgstr ""
+
+#: model.Country
+msgid "country.marshall_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.martinique"
+msgstr ""
+
+#: model.Country
+msgid "country.mauritania"
+msgstr ""
+
+#: model.Country
+msgid "country.mauritius"
+msgstr ""
+
+#: model.Country
+msgid "country.mayotte"
+msgstr ""
+
+#: model.Country
+msgid "country.mexico"
+msgstr ""
+
+#: model.Country
+msgid "country.micronesia"
+msgstr ""
+
+#: model.Country
+msgid "country.moldova"
+msgstr ""
+
+#: model.Country
+msgid "country.monaco"
+msgstr ""
+
+#: model.Country
+msgid "country.mongolia"
+msgstr ""
+
+#: model.Country
+msgid "country.montserrat"
+msgstr ""
+
+#: model.Country
+msgid "country.morocco"
+msgstr ""
+
+#: model.Country
+msgid "country.mozambique"
+msgstr ""
+
+#: model.Country
+msgid "country.myanmar"
+msgstr ""
+
+#: model.Country
+msgid "country.namibia"
+msgstr ""
+
+#: model.Country
+msgid "country.nauru"
+msgstr ""
+
+#: model.Country
+msgid "country.nepal"
+msgstr ""
+
+#: model.Country
+msgid "country.netherlands"
+msgstr ""
+
+#: model.Country
+msgid "country.netherlands_antilles"
+msgstr ""
+
+#: model.Country
+msgid "country.new_caledonia"
+msgstr ""
+
+#: model.Country
+msgid "country.new_zealand"
+msgstr ""
+
+#: model.Country
+msgid "country.nicaragua"
+msgstr ""
+
+#: model.Country
+msgid "country.niger"
+msgstr ""
+
+#: model.Country
+msgid "country.nigeria"
+msgstr ""
+
+#: model.Country
+msgid "country.niue"
+msgstr ""
+
+#: model.Country
+msgid "country.norfolk_island"
+msgstr ""
+
+#: model.Country
+msgid "country.north_korea"
+msgstr ""
+
+#: model.Country
+msgid "country.northern_mariana_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.norway"
+msgstr ""
+
+#: model.Country
+msgid "country.oman"
+msgstr ""
+
+#: model.Country
+msgid "country.pakistan"
+msgstr ""
+
+#: model.Country
+msgid "country.palau"
+msgstr ""
+
+#: model.Country
+msgid "country.palestinian_territory"
+msgstr ""
+
+#: model.Country
+msgid "country.panama"
+msgstr ""
+
+#: model.Country
+msgid "country.papua_new_guinea"
+msgstr ""
+
+#: model.Country
+msgid "country.paraguay"
+msgstr ""
+
+#: model.Country
+msgid "country.peru"
+msgstr ""
+
+#: model.Country
+msgid "country.philippines"
+msgstr ""
+
+#: model.Country
+msgid "country.pitcairn_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.poland"
+msgstr ""
+
+#: model.Country
+msgid "country.polynesia"
+msgstr ""
+
+#: model.Country
+msgid "country.portugal"
+msgstr ""
+
+#: model.Country
+msgid "country.puerto_rico"
+msgstr ""
+
+#: model.Country
+msgid "country.qatar"
+msgstr ""
+
+#: model.Country
+msgid "country.republic_of_montenegro"
+msgstr ""
+
+#: model.Country
+msgid "country.republic_of_serbia"
+msgstr ""
+
+#: model.Country
+msgid "country.reunion"
+msgstr ""
+
+#: model.Country
+msgid "country.romania"
+msgstr ""
+
+#: model.Country
+msgid "country.russia"
+msgstr ""
+
+#: model.Country
+msgid "country.rwanda"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_barthelemy"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_helena"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_kitts_and_nevis"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_lucia"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_martin"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_pierre_and_miquelon"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_vincent_grenadines"
+msgstr ""
+
+#: model.Country
+msgid "country.samoa"
+msgstr ""
+
+#: model.Country
+msgid "country.san_marino"
+msgstr ""
+
+#: model.Country
+msgid "country.sao_tome_and_principe"
+msgstr ""
+
+#: model.Country
+msgid "country.saudi_arabia"
+msgstr ""
+
+#: model.Country
+msgid "country.senegal"
+msgstr ""
+
+#: model.Country
+msgid "country.seychelles"
+msgstr ""
+
+#: model.Country
+msgid "country.sierra_leone"
+msgstr ""
+
+#: model.Country
+msgid "country.singapore"
+msgstr ""
+
+#: model.Country
+msgid "country.slovakia"
+msgstr ""
+
+#: model.Country
+msgid "country.slovenia"
+msgstr ""
+
+#: model.Country
+msgid "country.solomon_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.somalia"
+msgstr ""
+
+#: model.Country
+msgid "country.south_africa"
+msgstr ""
+
+#: model.Country
+msgid "country.south_georgia_sandwich_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.south_korea"
+msgstr ""
+
+#: model.Country
+msgid "country.spain"
+msgstr ""
+
+#: model.Country
+msgid "country.sri_lanka"
+msgstr ""
+
+#: model.Country
+msgid "country.sudan"
+msgstr ""
+
+#: model.Country
+msgid "country.suriname"
+msgstr ""
+
+#: model.Country
+msgid "country.svalbard_and_jan_mayen_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.swaziland"
+msgstr ""
+
+#: model.Country
+msgid "country.sweden"
+msgstr ""
+
+#: model.Country
+msgid "country.switzerland"
+msgstr ""
+
+#: model.Country
+msgid "country.syria"
+msgstr ""
+
+#: model.Country
+msgid "country.tadjikistan"
+msgstr ""
+
+#: model.Country
+msgid "country.taiwan"
+msgstr ""
+
+#: model.Country
+msgid "country.tanzania"
+msgstr ""
+
+#: model.Country
+msgid "country.thailand"
+msgstr ""
+
+#: model.Country
+msgid "country.togo"
+msgstr ""
+
+#: model.Country
+msgid "country.tokelau"
+msgstr ""
+
+#: model.Country
+msgid "country.tonga"
+msgstr ""
+
+#: model.Country
+msgid "country.trinidad_and_tobago"
+msgstr ""
+
+#: model.Country
+msgid "country.tunisia"
+msgstr ""
+
+#: model.Country
+msgid "country.turkey"
+msgstr ""
+
+#: model.Country
+msgid "country.turkmenistan"
+msgstr ""
+
+#: model.Country
+msgid "country.turks_and_caicos_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.tuvalu"
+msgstr ""
+
+#: model.Country
+msgid "country.uganda"
+msgstr ""
+
+#: model.Country
+msgid "country.ukraine"
+msgstr ""
+
+#: model.Country
+msgid "country.united_arab_emirates"
+msgstr ""
+
+#: model.Country
+msgid "country.uruguay"
+msgstr ""
+
+#: model.Country
+msgid "country.us_outlying_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.usa"
+msgstr ""
+
+#: model.Country
+msgid "country.uzbekistan"
+msgstr ""
+
+#: model.Country
+msgid "country.vanuatu"
+msgstr ""
+
+#: model.Country
+msgid "country.vatican_city_state"
+msgstr ""
+
+#: model.Country
+msgid "country.venezuela"
+msgstr ""
+
+#: model.Country
+msgid "country.vietnam"
+msgstr ""
+
+#: model.Country
+msgid "country.virgin_islands_british"
+msgstr ""
+
+#: model.Country
+msgid "country.virgin_islands_usa"
+msgstr ""
+
+#: model.Country
+msgid "country.wallis_and_futuna"
+msgstr ""
+
+#: model.Country
+msgid "country.western_sahara"
+msgstr ""
+
+#: model.Country
+msgid "country.yemen"
+msgstr ""
+
+#: model.Country
+msgid "country.zambia"
+msgstr ""
+
+#: model.Country
+msgid "country.zimbabwe"
+msgstr ""
+
+#: model.Environment
+msgid "environment.by_the_sea"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_small_town"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_city"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_country"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_mountains"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_suburbs"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.bed_and_breakfast"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.double_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.exchange_of_home"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.home_for_rent_only"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_by_young_persons"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_for_young_persons"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_offered"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_wanted"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.house_sitting"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.long_term_exchange_wanted"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.non_simultaneous_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.want_to_house_sit"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.weekend_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.youth_exchange"
+msgstr ""
+
+#: app/views/message_templates/_message_templates_index_table.html.erb:7
+msgid "global.delete"
+msgstr ""
+
+#: app/views/listing/statistics/index.html.erb:34
+msgid "global.save"
+msgstr ""
+
+#: app/views/listings/view_listing.html.erb:36
+#: app/views/listings/view_my_listing.html.erb:30
+msgid "home"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.1-story-house"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.caravan"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.flat"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.holiday-home"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.house"
+msgstr ""
+
+#: model.Language
+msgid "language.booboo"
+msgstr ""
+
+#: model.Language
+msgid "language.danish"
+msgstr ""
+
+#: model.Language
+msgid "language.dutch"
+msgstr ""
+
+#: model.Language
+msgid "language.english"
+msgstr ""
+
+#: model.Language
+msgid "language.esperanto"
+msgstr ""
+
+#: model.Language
+msgid "language.finnish"
+msgstr ""
+
+#: model.Language
+msgid "language.french"
+msgstr ""
+
+#: model.Language
+msgid "language.german"
+msgstr ""
+
+#: model.Language
+msgid "language.greek"
+msgstr ""
+
+#: model.Language
+msgid "language.icelandic"
+msgstr ""
+
+#: model.Language
+msgid "language.italian"
+msgstr ""
+
+#: model.Language
+msgid "language.japanese"
+msgstr ""
+
+#: model.Language
+msgid "language.norwegian"
+msgstr ""
+
+#: model.Language
+msgid "language.polish"
+msgstr ""
+
+#: model.Language
+msgid "language.portuguese"
+msgstr ""
+
+#: model.Language
+msgid "language.romanian"
+msgstr ""
+
+#: model.Language
+msgid "language.russian"
+msgstr ""
+
+#: model.Language
+msgid "language.spanish"
+msgstr ""
+
+#: model.Language
+msgid "language.swedish"
+msgstr ""
+
+#: model.Language
+msgid "pi"
+msgstr ""
+
+#: app/views/accounts/accounts/_account_profile_progress.html.erb:9
+msgid "profile.add_wish_list_destination"
+msgstr ""
+
+#: model.Language
+msgid "rr"
+msgstr ""
+
+#: app/views/listing/statistics/index.html.erb:9
+msgid "statistics"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.air_conditioning"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.all_appliances"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.baby_equipment"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.balcony"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.car_necessary"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.central_heating"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.clothes_dryer"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.computer_available"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.dishwasher"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.dvd"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.fireplace"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.free_internet_access"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.garage"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.garden"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.good_public_transport"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.hiking_walking"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.homepage"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.lift_elevator"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.no_pets"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.no_small_children"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.non_smoking"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.park_playground"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.pet_care_wanted"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.private_swimming_pool"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.quiet_neighborhood"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.sauna_private"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.seclusion_privacy"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.security_doorman"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.shower"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.skiing"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.suitable_for_disabled_people"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.swimming_public"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.television"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.tennis"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.theatre"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.tourist_attractions"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.use_exchange_of_car"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.use_of_boat"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.use_of_caravan_camper"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.use_of_second_home"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.video"
+msgstr ""
+
+#: model.PropertyDetail
+msgid "tag.washing_machine"
+msgstr ""
+
+#: model.Language
+msgid "tt"
+msgstr ""

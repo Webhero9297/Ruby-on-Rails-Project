@@ -1,0 +1,252 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-21 20:25+0100\n"
+"PO-Revision-Date: 2012-02-06 19:20-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Latest Listings at Intervac International
+# --- Location = Headline when no search criteria are chosen.
+# (June, 2011 - New)
+msgid "search_results.default.headline"
+msgstr "Recentste aanbiedingen van Intervac Internationaal"
+
+# --- English text = View Listing
+# (June, 2011 - New)
+msgid "view_listing.link_text"
+msgstr "Bekijk aanbieding"
+
+# --- English text = {{member_id}} - View Listing
+# --- IMPORTANT: Please do not translate the placeholder text inside of {{member_id}}.  This will be replaced by the system.
+# --- Location = mouseover text for the View Listing link at the bottom of a search results "card".
+# (June, 2011 - New)
+msgid "view_listing.link_text"
+msgstr "{{member_id}} - Bekijk aanbieding"
+
+# --- English text = Find exciting destinations that want to exchange with your location
+# --- Location = On the listings page for  visitors
+# (June, 2011 - New)
+msgid "finder_form.text"
+msgstr "Zoek beschikbare bestemmingen die wensen te ruilen met jouw regio"
+
+# --- English text = I live in:
+# --- Location = On the listings page for visitors
+# (June, 2011)
+msgid "finder_form.my_country"
+msgstr "Ik woon in:"
+
+# --- English text = Choose Country
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.select_country"
+msgstr "Kies land"
+
+# --- English text = Select the country where you live
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.my_country_title"
+msgstr "Selecteer het land waar je woont."
+
+# --- English text = Your location
+# (June, 2011)
+msgid "finder_form.country_selector.mouseover"
+msgstr "Jouw locatie"
+
+# --- English text = I want to go to:
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.my_destinations"
+msgstr "Ik wens te gaan naar:"
+
+# --- English text = Anywhere
+# --- Location = Default destination text in the destinations box.
+msgid "finder_form.default_destination"
+msgstr "Kies een land"
+
+# --- English text = Destinations
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.destinations"
+msgstr "Bestemmingen"
+
+# --- English text = Selected
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.selected"
+msgstr "Geselecteerd"
+
+# --- English text = Destination search
+# --- Location = This is one of the tabs on the listings page where you can switch between types of search
+# (June, 2011)
+msgid "finder_form.destination_tab"
+msgstr "Bestemming Zoeken"
+
+# --- English text = Map search
+# --- Location = This is one of the tabs on the listings page where you can switch between types of search
+# (June, 2011)
+msgid "finder_form.map_tab"
+msgstr "Zoek op kaart"
+
+# --- English text = Hot list
+# --- Location = This is one of the tabs on the listings page where you can switch between types of search
+# (June, 2011)
+msgid "finder_form.hotlist_tab"
+msgstr "Hot List"
+
+# --- English text = Search for your next exchange!
+# --- Location = HowTo bar when you first load the map search page
+# (June, 2011)
+msgid "map_search.how_to_hint"
+msgstr "Zoek voor je voor volgende ruil!"
+
+# --- English text = Accommodations
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.accomodations"
+msgstr "Voorzieningen"
+
+# --- English text = Equipment
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.equipment"
+msgstr "Uitrusting"
+
+# --- English text = Exchange type
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.exchange_type"
+msgstr "Ruiltype"
+
+# --- English text = Travel dates
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.travel_dates"
+msgstr "Ruildata"
+
+# --- English text = Correspondence
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.correspondence"
+msgstr "Correspondentie"
+
+# --- English text = Search order
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.search_order"
+msgstr "Zoekvolgorde"
+
+# --- English text = There is no map available for this listing
+# --- Location = Shown on listing when the map is not available.
+# (June, 2011)
+msgid "no_map"
+msgstr "Er is geen kaart beschikbaar voor dit aanbod"
+
+# --- English text = <link>Login</link> to contact this member.
+# --- Location = Underneath the Contact Member button if the viewer is not logged in.
+# (June, 2011)
+msgid "visitors.login_to_contact"
+msgstr "<link>Login</link> om dit lid te contacteren."
+
+# --- English text = Contact member
+# --- Location = Button - Right-hand Column
+# (June, 2011)
+msgid "button.contact_member"
+msgstr "Contacteer lid"
+
+# --- English text = Contact options
+# --- Location = Listing summary, only shown to logged in members.
+# (June, 2011)
+msgid "contact_options.headline"
+msgstr "Contact opties"
+
+# --- English text = Sign up
+# --- Location = Button - Right-hand Column - Shown to visitors.
+# (June, 2011)
+msgid "button.join_intervac"
+msgstr "Inschrijven"
+
+# --- English text = Join Intervac today, travel the world tomorrow.
+# --- Location = Underneath the "Sign up" button - Shown to visitors
+# (June, 2011)
+msgid "join_intervac.advertising_text"
+msgstr "Vandaag inschrijven en morgen de wereld rondreizen."
+
+# --- English text = Our Family
+# --- Location = Subheadline - Right hand column
+# (June, 2011)
+msgid "details.family.headline"
+msgstr "Onze familie"
+
+# --- English text = Adults
+# (June 2011) - Used on the search returns in public area as subheadline.
+msgid "details.family.adults"
+msgstr "Volwassenen"
+
+# --- English text = Children
+# (June 2011) - Used on the search returns in public area as subheadline.
+msgid "details.family.children"
+msgstr "Kinderen"
+
+# --- English text = Occupation
+# --- Location =
+# (June, 2011)
+msgid "details.family.occupation"
+msgstr "Beroep"
+
+# --- English text = Property Details
+# --- Location =
+# (June, 2011)
+msgid "details.property.headline"
+msgstr "Details van de woning"
+
+# --- English text = View all images
+# --- Location = Button in the bar underneath the main photo
+# (June, 2011)
+msgid "photos.button.view_all"
+msgstr "Bekijk alle fotos"
+
+# --- English text = Find homes
+# --- Location = green button next to the search box
+msgid "search.button"
+msgstr "Zoek woningen"
+
+# --- English text = Exchanges made
+# --- Location = 
+# (New: November, 2011)
+#, fuzzy
+msgid "details.our_family.exchanges_made"
+msgstr "Exchanges made"
+
+# --- English text = Member Finder
+# --- Location = Tab on search listings page
+# (June, 2011)
+msgid "finder_form.member_finder_tab"
+msgstr "Lid zoeken"
+
+# --- English text = Member Finder
+# --- Location = Click on the Member Finder tab on the search listings page
+# (June, 2011)
+msgid "member_id_search.placeholder"
+msgstr "Member ID invullen"
+
+# --- English text = Could not find member
+# --- Location = error text when no member can be found by the form (click Member finder tab on search listings page)
+# (June, 2011)
+msgid "member_id_search.error"
+msgstr "Lid kan niet gevonden worden"
+
+# --- English text = Find a member by member number
+# --- Location = Click on the Member Finder tab on the search listings page
+# (New: February, 2012)
+#, fuzzy
+msgid "finder_form.member_finder.label"
+msgstr "Find a member by member number"
+

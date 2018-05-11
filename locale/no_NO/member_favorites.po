@@ -1,0 +1,84 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-03-31 08:52+0100\n"
+"Last-Translator: HJ. Kjell Kristiansen <Søndre Rekvin 13, 1676 Kråkerøy>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member favorites
+msgid "headline"
+msgstr "Mine favorittoppføringer"
+
+# --- English text = Now you can keep track of listings that you want to visit here in your Member Favorites list.  It's easy to add an entry to your favorites.  When viewing a listing that interests you, just click on the link in the left-hand column.
+msgid "intro_text"
+msgstr "Noter deg annonser som som du ønsker å besøke her i din Medlemmets favorittliste.  Det er enkelt å lage et tillegg til dine favoritter.  Når du ser en annonse som interesserer deg, bes du klikke på linken i venstre kolonne.  Annonsen vil da bli lagt til din liste, og du b il bli sendt videre slik at du kan gjøre notater."
+
+# --- English text = Do you really want to delete this member favorite entry?
+msgid "delete_confirm"
+msgstr "Vill du virkelig slette denne oppføringen?"
+
+# --- English text = Delete this member favorite entry
+msgid "alt_delete"
+msgstr "Slett denne oppføringen."
+
+# --- English text = Edit this member favorite entry
+msgid "alt_edit"
+msgstr "Endre denne oppføringen."
+
+# --- English text = Save my text
+msgid "save_button"
+msgstr "Lagre min tekst."
+
+# --- English text = You do not have any entries in your Favorites list.
+msgid "no_favorites_yet"
+msgstr "Du har ingen oppføringer i din favorittliste."
+
+# --- English text = Photo for listing
+msgid "photo_for"
+msgstr "Foto til din Intervac-annonse."
+
+# --- English text was = Added to My Favorites
+# --- (Mar 2009) - edited the text for length.  New English text = "Added"
+msgid "added"
+msgstr "Tillagt"
+
+# --- English text = Sort Favorites by
+msgid "sort_by.label"
+msgstr "Sorter favorittene slik:"
+
+# --- English text = Date
+msgid "sort_by.date"
+msgstr "Dato."
+
+# --- English text = Country
+msgid "sort_by.country"
+msgstr "Land."
+
+# --- English text = Member id
+msgid "sort_by.member_id"
+msgstr "Medlemsidentifikasjon."
+
+# --- English text = Delete Checked Favorites
+msgid "delete_multiple.button_text"
+msgstr "Slett avmerkede favoritter."
+
+# --- English text = Please wait ...
+msgid "delete_multiple.disable_text"
+msgstr "Vennligst vent."
+
+# --- English text = Do you really want to delete all checked favorites?
+msgid "delete_multiple.confirm_text"
+msgstr "Ønsker du virkelig å slette alle valgte favoritter?"
+
+# --- English text = Delete multiple favorites
+msgid "delete_multiple.checkbox_title_tag"
+msgstr "Slett flere favoritter."
+

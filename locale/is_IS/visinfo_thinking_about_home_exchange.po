@@ -1,0 +1,108 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-02 18:17+0100\n"
+"PO-Revision-Date: 2011-11-06 23:39-0000\n"
+"Last-Translator: Sesselja Traustadóttir <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thinking About Home Exchange
+# --- Location = Main headline
+# (June 2011)
+msgid "page.headline"
+msgstr "Að hugleiða heimilaskipti"
+
+# --- English text = So, if you've made it this far you are probably wondering what all you are going to need to think about before you make your first vacation swap.  At the beginning, it's a bunch of things, but once you've got them in place it'll be a lot easier the next time around.  Below we've gathered together a list of suggestions to help you feel secure in your decision.
+# --- Location = Introductory text
+# (June 2011)
+msgid "page.introtext"
+msgstr "Nú ertu komin svona langt og ert sennilega farin að spá í hvað þú þarft að hafa í huga í tengslum við fyrstu heimilaskiptin þín. Í fyrstu eru það ótal hlutir sem þarf að huga að en í framhaldinu, þegar kemur að næstu skiptum, verður undirbúningurinn mun auðveldari. Hér fyrir neðan höfum við tekið saman lista yfir atriði sem styðja þig í undirbúningnum. "
+
+# --- English text = How Do I Find The Perfect Exchange Partner?
+# (June 2011)
+msgid "perfect_partner.headline"
+msgstr "Hvernig finn ég æskilegan skiptiaðila?"
+
+# --- English text = First, it's important to know that it takes some initiative to make an exchange happen.  We try to make it as simple as possible though.  Our members contact each other directly using our integrated messaging system to start a dialog that could lead to an exchange.  It is not unusual to make and receive several offers  before you find just the right partner.  Our online system supports many different types of alternative holiday forms.
+# (June 2011)
+msgid "perfect_partner.text"
+msgstr "Fyrst og fremst, er mikilvægt að hafa frumkvæðið í að komast í samband við aðra félagsmenn. Við reynum að gera það eins auðvelt og mögulegt er. Félagsmenn hafa beint samband hver við annan með fyrirspurnir um heimilaskipti. Það er oft sem fólk fær margar fyrirspurnir áður en það gerir upp hug sinn um hvern þeir vilji skipta við. Á vefsvæði okkar eru margvíslegir skiptimöguleikar í boði."
+
+# --- English text = How can I be sure that the exchange will be <italic>equal</italic>?
+# (June 2011)
+msgid "equal_exchange.headline"
+msgstr "Hvernig get ég verið viss um að skiptin verði <italic>jöfn</italic>?"
+
+# --- English text = Many exchangers with large homes would be happy to trade for an adequate apartment/condominium in central Paris, London, Rome or San Francisco.  Others are looking for a quiet getaway.  An exchange is "equal" when both parties are satisfied with their arrangements.
+# (June 2011)
+msgid "equal_exchange.text"
+msgstr "Margir skiptiaðilar með stór hús eru oft sáttir við  að skipta á smærra húsnæði  t.d lítilli  íbúð í miðri París, Róm eða San Franciskó. Aðrir eru að leita að rólegu umhverfi. Skiptin eru \"jöfn\" þegar báðir aðilar eru sáttir við samkomulagið."
+
+# --- English text = Who would ever want to come to my area?
+# (June 2011)
+msgid "visit_my_area.headline"
+msgstr "Hver myndi vilja vera í okkar hluta landsins?"
+
+# --- English text = You'll be surprised!  Take some time writing extra text for your listing and tell potential exchange partners all about your neighborhood, why you love living there, what can they see and do in the region.  Don't forget, your partner will be on holiday and has time to explore.  Everyone lives near something interesting, because "interesting" is often nothing more than the unfamiliar.
+# (June 2011)
+msgid "visit_my_area.text"
+msgstr "Það gæti komið ykkur á óvart. Takið smá tíma til að skrifa auka texta með skráningu ykkar til að kynna  ykkar nágrenni, af hverju ykkur þykir gott að búa þar. Hvað hægt er að gera og skoða á svæðinu, ekki má gleyma að viðkomandi er í fríi og hefur tíma til að skoða sig vel um. Allir búa við eitthvað  áhugavert, þó ekki sé neitt annað en hið ókunna."
+
+# --- English text = What about exchanging cars?
+# (June 2011)
+msgid "exchange_cars.headline"
+msgstr "Hvað með skipti á bílum?"
+
+# --- English text = In many cases an exchange of cars is an important part of the exchange deal, but not always.  It's a good idea to think clearly about whether you are comfortable driving in New York City or London.
+# (June 2011)
+msgid "exchange_cars.text"
+msgstr "Oft eru skipti á bílum mikilvægur hluti skiptasamningsins, en ekki alltaf. Það er gott að gera sér grein fyrir því hvort að manni þyki þægileg tilhugsun að vera á bíl í New York eða London."
+
+# --- English text = As for insurance, often your car insurance policy will already cover guest drivers. If it doesn't you can supplement your regular policy with additional short-term specific coverage for the length of your exchange. It is important to discuss this with your insurance agent and your exchange partner and agree in advance how to handle the responsibilities and liabilities for the financial aspect.
+# (June 2011)
+msgid "exchange_cars.insurance_text"
+msgstr "Þegar kemur að tryggingum ná venjulega tryggingar þínar á bílnum yfir þá gesti þína sem keyra bílinn. Sé svo ekki er væntanlega hægt að kaupa viðbótartryggingu fyrir skiptatímabilið. Það er mikilvægt að fá staðfestingu á þessu hjá tryggingarfélaginu og gera samkomulag við skiptifélaga þinn um hvernig ábyrgð og bótaskyldu verði háttað. "
+
+# --- English text = Speaking of insurance, what about my home insurance?
+# (June 2011)
+msgid "home_insurance.headline"
+msgstr "Talandi um tryggingar; hvað með tryggingar á heimilinu mínu?"
+
+# --- English text = Do check with your insurance provider and let them know that you will have guests while you are gone. Most companies will tell you that an unoccupied home is a bigger risk for theft and vandalism than an occupied one and they are happy to know that yours won't be sitting empty while you are away.  Ask if there are any special arrangements you need to make, and don't forget to let your exchange partner know about any insurance requirements for locking doors, activating alarm systems, etc.  This should be included in the information packet about your home that you will leave for them.
+# (June 2011)
+msgid "home_insurance.text"
+msgstr "Þið ættuð að kanna tryggingaskilmála ykkar og láta vita að það verða gestir heima á meðan þið eruð í burtu. Flest tryggingarfélög eru á því að ómannað heimili er væntanlegra til innbrota en hið mannaða og því séu þau sátt við að það verði ekki tómt á meðan þú ert að heiman. Spurðu eftir því hvort það sé eitthvert sérstakt samkomulag sem þú átt að gera og ekki gleyma að láta skiptifélaga þinn vita um mikilvæga tryggingarþætti eins og að læsa hurðum, þjófavarnarkerfi o.þ.h. Þetta ætti allt að koma fram í upplýsingunum um heimili þitt sem þú lætur gesti þína fá. "
+
+# --- English text = We have special needs, can we still arrange an exchange?
+# (June 2011)
+msgid "special_needs.headline"
+msgstr "Við erum með sérþarfir, er samt mögulegt fyrir okkur að skipta á húsnæði?"
+
+# --- English text = Intervac's listing codes cover many preferences related to home exchange.  From <italic>non-smoking</italic>, to <italic>handicapped accessible</italic>, from <italic>pet care</italic> to <italic>private swimming pool</italic>  You can add an unlimited amount of text to your listing.  Go ahead and detail your needs clearly so that the perfect exchange partner (who is searching for you too) can find you.
+# (June 2011)
+msgid "special_needs.text"
+msgstr "Intervac skráninga stuðlar ná yfir marga valmöguleika í sambandi við heimilaskipti. Frá <italic>non-smoking</italic> til <italic>handicapped accessible</italic>, from <italic>pet care</italic> að <italic>private swimming pool<italic>. Þú getur bætt inn ótakmörkuðum fjölda  texta í skráninguna þína. Aðeins  útlista allar ykkar þarir og óskir, svo þið fáið hinn fullkomna skipti aðila (sem er að leita að skiptum við ykkur)"
+
+# --- English text = How Do I Get Started?
+# (June 2011)
+msgid "get_started.headline"
+msgstr "Hvernig byrja ég? "
+
+# --- English text = It's easy, just fill out our short registration  and pay your membership fee or choose our free trial membership if you are not sure.  It's good for {{number}} days and gives you full access to our site. Then log in and begin building your listing right away. It will not be visible for other members until after you have filled in all the required fields.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (Last updated: November 2011)
+msgid "get_started.text"
+msgstr "Þetta er einfalt; byrjaðu á að fylla út skráningarformið og greiddu aðildargjaldið eða veldu að njóta prufuaðildarinnar frítt ef þú ert ekki alveg viss. Hún gildir í  {{number}} daga og veitir þér fullan aðgang að vefsetri okkar. Skráðu þig síðan inn og haltu áfram með þína eigin persónulegu skráningu. Hún verður sýnileg öðrum meðlimum Intervac þegar þú hefur fyllt í umbeðna reiti. "
+
+# --- English text = INTERVAC listings are intended to convey a clear description of your residence, your family, and where and when you would like to travel. Personal preferences such as no smoking or no pets should also be noted in your listing.  So come on! <link>Join us today!</link>
+# (June 2011)
+msgid "get_started.about_listings"
+msgstr "INTERVAC skráningu er ætlað að gefa skýra lýsingu á heimili ykkar og fjölskyldu, hvenær og hvert þið viljið ferðast. Persónuleg atriði svo sem reyklaus eða engin gæludýr geta einnig verið skráð á síðunni. Viltu reyna? <link>Gakktu í Intervac!</link>"
+

@@ -1,0 +1,118 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-11 18:17+0100\n"
+"PO-Revision-Date: 2011-08-03 23:52+0100\n"
+"Last-Translator: de cooman <decooman@intervac.be>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Facts About Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Over Intervac"
+
+# --- English text = This is Intervac
+# (June, 2011 - New)
+msgid "page.subhead"
+msgstr "Wij zijn van oorsprong de eerste Internationale Huisruil organisatie"
+
+# --- English text = What a way to travel! Intervac isn't just a company - but a way of life that our founders discovered and pioneered.  Since 1953 we have been leading the way facilitating home exchange between families, singles and retired people.  Within the organization our national representatives work together and beyond country borders to make sure that you find the perfect exchange partner and that your holidays are stress-free and fun.
+# (June, 2011 - Reference - vtour_lifestyle.po => intervac_leads_the_way_text)
+msgid "page.introtext"
+msgstr "Een originele en volledig aparte kijk op reizen!  Intervac is niet zomaar een organisatie, maar een unieke benadering van vakantie die werd ontdekt en uitgewerkt door de oprichters van onze service.  Sinds 1953 maken wij huisruil als vakantieformule mogelijk tussen gezinnen met en/of zonder kinderen, alleenstaanden en gepensioneerden.  Binnen onze organisatie werken de vertegenwoordigers in elk land over de grenzen samen, wereldwijd, om het mogelijk te maken dat u de perfecte ruilpartners kunt vinden en dat uw vakanties zorgenloos en heel prettig kunnen verlopen."
+
+# --- English text = Culturally-enriching, environmentally friendly and economical.
+# (June, 2011 - Reference: vtour_lifestyle.po => intervac_leads_the_way_text)
+msgid "cultural.headline"
+msgstr "Cultureel verrijkend , milieuvriendelijk en voordelig."
+
+# --- English text = INTERVAC was started in Europe in the early 1950's by a group of teachers with plenty of vacation time looking for economic means to travel internationally. After a few exchanges, they realized that living in each other's homes was great for cultivating international friendships.  Our concept has been growing ever since - primarily by referrals from satisfied home exchangers. Currently INTERVAC offers its services around the world and facilitates home exchanges for {{total_number_of_members}} families from all walks of life.
+# (June, 2011 - Reference - vtour_about_us.po => organization.history_text)
+# IMPORTANT - DO NOT TRANSLATE {{total_number_of_members}} - This is a placeholder that will be replaced by the sytem.
+msgid "intervac_history.text"
+msgstr "INTERVAC werd opgericht in 1953 in Europa door een groep leerkrachten met genoeg vrije tijd, die zochten naar een andere en betaalbare manier om internationaal te kunnen reizen.  Na enkele ruilvakanties bij collegas beseften zij dat het tijdelijk verblijven in het huis van iemand anders, tegelijk zo uniek en ook vanzelfsprekend, heel goed was voor het ontwikkelen en onderhouden van internationale vriendschappen. Het concept is vanaf die tijd voortdurend gegroeid vooral door de enthousiaste aanbevelingen van tevreden huisruilers.  Op dit moment biedt INTERVAC zijn diensten aan over de hele wereld en maakt vakantie-ruilafspraken mogelijk voor {{total_number_of_members}} gezinnen uit alle lagen van de bevolking."
+
+# --- English text = Even our online service is environmentally friendly.  In 2007 were again the first, and as far as we know we are still in 2011, the only home exchange organisation to host our servers in a high security server farm powered entirely by renewable hydro-electric power.  Intervac International is committed to keeping our planet healthy, without missing out on all the fun!
+# --- Location =
+# (June, 2011 - Reference - vtour_lifestyle.po => planet_friendly.green_power_text)
+msgid "green_power.text"
+msgstr "Zelfs onze online-service is milieuvriendelijk.  In 2007 waren wij de eerste en voor zover wij weten, in 2011, nog steeds de enige huisruil organisatie die onze servers host in een extra beveiligde server-farm, die wordt aangedreven door hydro-elektrische energie. Intervac International voelt zich verplicht om onze planeet zo goed mogelijk te onderhouden, schoon en gezond te  houden zonder de leuke dingen uit het leven te missen."
+
+# --- English text = We keep a low profile, taking care of our {{total_number_of_members}} members.  Our growth is fueled by referrals from satisfied members.  We have agents in {{number_of_agent_countries}} countries, we speak your language and live in your culture.  We are here to guide and advise you how to get the most out of your home exchange experiences.  If you have questions, we'd love to <link>hear from you</link>.
+# --- IMPORTANT - DO NOT TRANSLATE {{total_number_of_members}}, {{number_of_agent_countries}}, or <link>, </link>.  These are placeholders and will be replaced with information by the system.
+# (June, 2011 - Reference: vtour_lifestyle.po => intervac_around_the_world_longest_service_text)
+msgid "intervac_around_the_world.text"
+msgstr "Wij blijven low-profile ,maar zorgen zo goed mogelijk voor onze {{total_number_of_members}} leden. Wij groeien vooral door de vele aanbevelingen van onze tevreden leden.  Wij hebben vertegenwoordigers in {{number_of_agent_countries}} landen, we spreken uw taal en begrijpen uw cultuur.  Wij zijn er altijd om u te kunnen helpen en te adviseren om optimaal te kunnen genieten van uw ruilvakantie ervaringen. Mocht u nog vragen hebben, dan zouden wij u graag <link>van u horen</link>."
+
+# --- English text = About our Members
+# (June, 2011 - As Is - vtour_about_us.po => members_headline)
+msgid "our_members.headline"
+msgstr "Over onze leden"
+
+# --- English text = Our members are relatively affluent, well educated and passionate about expanding their horizons. Typically they are home owners with one or two incomes from professional and executive occupations, small business owners, or self-employed. Their average age is between 35 and 60 and often there are children living at home.  We are also happy to call an adventurous group of retirees, busy seeing the world and enjoying the benefits of home exchange, our members as well.
+# (June, 2011 - As Is - vtour_about_us.po => our_members_are_text)
+msgid "our_members.text"
+msgstr "Onze leden zijn doorgaans goed opgeleid, vrij bemiddeld en er steeds op uit om hun horizonten uit te breiden.  Meestal zijn het huiseigenaars met één of twee beroepsinkomens, kleine bedrijfseigenaars of zelfstandigen. De gemiddelde leeftijd van onze leden ligt tussen 35 en 60. Vaak zijn er kinderen die thuis leven. Onder onze leden tellen we eveneens een groep avontuurlijke gepensioneerden die de wereld willen zien en volop van de voordelen van huisruil genieten."
+
+# --- English text = The name INTERVAC is made from words <italic>international</italic> and <italic>vacations</italic> and is registered as a trademark in most countries where INTERVAC operates. In countries where we are represented we simply call ourselves INTERVAC followed by the country name. For example: we are INTERVAC Austria in Austria and INTERVAC Canada in Canada. Our umbrella organisation - INTERVAC International - is a registered non-profit organisation in Sweden.
+# (June, 2011 - Reference: Taken from vtour_about_us.po => organization.nationally_owned_and_operated)
+msgid "intervac_history.name"
+msgstr "De naam INTERVAC is samengesteld uit de woorden <italic>international</italic> en <italic>vacations</italic> en is als officieel handelsmerk geregistreerd in de meeste landen waar INTERVAC actief is.  In de landen waar wij zijn vertegenwoordigd, noemen wij ons INTERVAC, gevolgd door de naam van het land.  Wij zijn bijvoorbeeld  in ons land  een vzw met de naam INTERVAC.BE en INTERVAC.AT in Oostenrijk en INTERVAC.CA in Canada. Onze moeder organisatie -INTERVAC INTERNATIONAL - is een geregistreede non-profit organisatie in Zweden. "
+
+# --- English text = What types of vacation does Intervac's online system support?
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types.headline"
+msgstr "Welke types van vakantie biedt het  Intervac online systeem aan?"
+
+# --- English text = Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.home_exchange"
+msgstr "Huisruil is de meest voorkomende: 2 gezinnen die besluiten om voor een specifieke periode elkaars huis te bewonen."
+
+# --- English text = House Sitting: Looking after someone else's home, mail, pets while they are away.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.house_sitting"
+msgstr "House Sitting: zorg dragen voor iemand's huis, post, huisdieren,... terwijl zij weg zijn."
+
+# --- English text = Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.double_exchange"
+msgstr "Een dubbele ruil: twee families (meestal wonen ze dicht bij elkaar) die wensen te ruilen met 2 andere families.  Populair bij buren of uitgebreide families die wensen te  ruilen."
+
+# --- English text = Hospitality Exchange: Members agree to exchange visits in each other’s homes.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.hospitality_exchange"
+msgstr "Gastvrijheid: leden besluiten om niet-gelijktijdig elkaar gastvrijheid aan te bieden."
+
+# --- English text = Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.long_term_exchange"
+msgstr "Lange termijn ruilen: meestal tussen gepensioneerden, academisch staf of werknemers bij multinationals."
+
+# --- English text = Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.bed_and_breakfast"
+msgstr "Bed and Breakfast: de gekende formule maar dan tussen Intervacleden en op gratis basis."
+
+# --- English text = Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.rental"
+msgstr "Huur: soms bieden leden vakantiewoningen te huur aan, maar dan aan aanzienlijk lagere huurprijzen dan de marktprijzen. "
+
+# --- English text = Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.youth_exchange"
+msgstr "Jongerenruil: ruil van jongeren om andere talen of culturen te leren kennen"
+
+# --- English text = Youth Hospitality: Young people agree to visit each other.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.youth_hospitality"
+msgstr "Gastvrijheid voor jongeren: jonge mensen die besluiten elkaar te bezoeken."
+

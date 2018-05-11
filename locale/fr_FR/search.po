@@ -1,0 +1,187 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-01-19 18:57+0100\n"
+"PO-Revision-Date: 2011-10-12 18:02+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = All Countries
+msgid "all_countries_headline"
+msgstr "Liste des Pays"
+
+# --- English text = Change country
+msgid "change_country"
+msgstr "Changer la carte"
+
+# --- English text = City/Sort
+msgid "city_sort.headline"
+msgstr "Affichage des offres"
+
+# --- English text = Search a specific city
+msgid "city_sort.by_city"
+msgstr "selon une ville"
+
+# --- English text = Location
+msgid "city_sort.location"
+msgstr "selon l'environnement"
+
+# --- English text = Exchange Type
+msgid "exchange_type.headline"
+msgstr "Quelle transaction ?"
+
+##### --- English text = Search Criteria
+msgid "search_criteria"
+msgstr "Vos Critères de Recherche"
+
+# --- English text = Travel Dates
+msgid "travel_dates.headline"
+msgstr "À quelles dates ?"
+
+# --- English text = Earliest date
+msgid "travel_dates.earliest_date"
+msgstr "Au plus tôt"
+
+# --- English text = Latest date
+msgid "travel_dates.latest_date"
+msgstr "Au plus tard"
+
+# --- English text = Sleeping accommodations
+# --- (May 2010) => Changed text to: "Accommodations"
+msgid "accomodations.headline"
+msgstr "Quel hébergement ?"
+
+# --- English text = Type of Home
+msgid "accomodations.type_of_home"
+msgstr "Type de logement"
+
+# --- English text = Sleeping
+msgid "accomodations.sleeping"
+msgstr "Hébergement pour"
+
+# --- English text = people
+msgid "accomodations.people"
+msgstr "personnes"
+
+# --- English text = Find listings with
+msgid "accomodations.listings_with"
+msgstr "Trouver les offres pour"
+
+# --- English text = adults
+msgid "accomodations.adults"
+msgstr "adultes"
+
+# --- English text = child(ren)
+msgid "accomodations.children"
+msgstr "enfant(s)"
+
+# --- English text = with children
+msgid "accomodations.with_children"
+msgstr "avec enfants"
+
+# --- English text = without children
+msgid "accomodations.without_children"
+msgstr "sans enfants"
+
+# --- English text = with or without children
+msgid "accomodations.with_or_without"
+msgstr "avec ou sans enfants"
+
+# --- English text = Language for Correspondence
+msgid "language"
+msgstr "Quelles langues parlez-vous ?"
+
+# --- English text = Sort selected listings as follows
+msgid "sort_selected.headline"
+msgstr "selon l'ordre suivant"
+
+# --- English text = Reverse Search
+msgid "reverse_search.headline"
+msgstr "Recherche Inversée"
+
+# --- English text= Exchange with country
+msgid "reverse_search.country"
+msgstr "Offres demandant mon pays"
+
+# --- English text = Exchange with city
+msgid "reverse_search.city"
+msgstr "Échange avec la ville de "
+
+# --- English text = Include Keywords
+msgid "keywords.headline"
+msgstr "Inclure des mots-clés"
+
+# --- English text = First Keyword
+msgid "keywords.first"
+msgstr "Mot-Clé n°1"
+
+# --- English text = Second Keyword
+msgid "keywords.second"
+msgstr "Mot-Clé n°2"
+
+# --- English text = Third Keyword
+msgid "keywords.third"
+msgstr "Mot-Clé n°3"
+
+# --- English text = Most recent listing first
+msgid "sort_selected.most_recent"
+msgstr "offres nouvelles en priorité"
+
+# --- English text = Show Last Minute first
+msgid "sort_selected.hotlist"
+msgstr "offres de dernière minute"
+
+# --- Dropdown box for visitors to choose their country in connection with "exchange with my country"
+# --- English text = By country
+msgid "sort_selected.country"
+msgstr "offres par pays"
+
+# --- English text = Member number
+msgid "sort_selected.member_id"
+msgstr "offres par n° d'adhésion"
+
+# --- English text = Click on a region to start a search
+msgid "howto_start_region_search"
+msgstr "Cliquez sur une région pour lancer votre recherche"
+
+# --- English text = Other details
+msgid "other_details.headline"
+msgstr "Détails spécifiques"
+
+# --- English text = Search all regions
+msgid "all_regions_button"
+msgstr "Lancer la recherche sur l'ensemble du pays"
+
+# --- English text = Search selected countries
+msgid "selected_countries_button"
+msgstr "Recherche sur le(s) pays sélectionné(s)"
+
+# --- English text= Reset Search
+msgid "reset_search_button"
+msgstr "Effacer la sélection"
+
+# --- English text = Please keep in mind that the more narrowly you define a search, the fewer entries will be selected.  The listings that are selected, will be more exactly tailored to your search specifications.
+msgid "narrow_search_warning"
+msgstr "Plus vous affinez votre recherche multi-critères, plus le résultat obtenu est réduit afin que les offres sélectionnées correspondent exactement à vos souhaits. "
+
+# --- English text = To start your search, click a region on the map above.
+msgid "howto_start_page_bottom"
+msgstr "Indiquez vos critères, puis cliquez sur une région du pays ou sur le bouton orange pour une recherche sur l'ensemble du pays."
+
+# --- English text = Age
+msgid "accomodations.age"
+msgstr "Âge"
+
+# --- English text = Only currently available members are visible (green light).
+# --- Location = Underneath the Search Selected Countries / Search Selected Regions button
+#, fuzzy
+msgid "only_currently_available_visible"
+msgstr "Only currently available members are visible (green light)."
+

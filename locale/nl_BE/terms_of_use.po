@@ -1,0 +1,325 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-07-01 19:11+0100\n"
+"PO-Revision-Date: 2009-11-14 12:38+0100\n"
+"Last-Translator: intervac <decooman@intervac.be>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Page Headline
+# --- English text = Terms of Use
+msgid "headline"
+msgstr "Voorwaarden"
+
+# --- English text = Intervac Trust Agreement
+msgid "subhead"
+msgstr "Vertrouwensovereenkomst van Intervac"
+
+# --- English text = Fundamental Principals
+msgid "fundamental_principals.headline"
+msgstr "Basisprincipes"
+
+# --- Fundamental Principles
+# --- English text = Member must be fair and honest in all his dealings with Intervac and other Members and in particular and without prejudice to the generality of the preceding words;
+msgid "fundamental_principals.fair_and_honest"
+msgstr " Elk lid moet eerlijk en oprecht zijn in al zijn handelingen met Intervac en met andere leden  en  dit zonder eing voorbehoud."
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure that his home offered for exchange is fully and accurately described and illustrated on his listing;
+msgid "fundamental_principals.offer_is_accurate"
+msgstr " Een lid moet er zich van vergewissen dat het huis dat hij aanbiedt in zijn aankondiging volledig en correct is beschreven en geïllustreed ."
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure any Negotiation with other Members is conducted in good faith with an intent of Home Exchange  and that he is open, truthful, fair and reasonable in all such Negotiations;
+msgid "fundamental_principals.negotiate_in_good_faith"
+msgstr " Een lid moet garanderen dat hij in zijn contacten met andere leden ter goeder trouw handelt met  het opzet om zijn huis te ruilen en hierover open, eerlijk en redelijk onderhandelt."
+
+# --- Fundamental Principles
+# --- English text = a Member must be courteous and hospitable in all his dealings with other Members and must be responsive to all reasonable requests.
+msgid "fundamental_principals.courteous_and_responsive"
+msgstr "Een lid moet zich hoffelijk en gastvrij opstellen in al zijn contacten met andere leden en open staan voor alle redelijke verzoeken."
+
+# --- Fundamental Principles
+# --- English text = Member may not act in a manner that brings Intervac or Home Exchange into disrepute.
+msgid "fundamental_principals.protect_our_reputation"
+msgstr "Een lid mag niet handelen op een manier die Intervac of Huisruil schade kan berokkenen."
+
+# --- Cancellation
+# --- English text = Cancellation
+msgid "cancellation.headline"
+msgstr "Annulering"
+
+# --- Cancellation
+# --- English text = Member may not cancel a Home Exchange Agreement without a valid reason such as death, illness or other unforeseen circumstances beyond the Member's control.
+msgid "cancellation.not_without_valid_reason"
+msgstr "Geldige voorwaarden tot het annuleren van een overeenkomst tot huisruil zijn onvoorziene omstandigheden buiten de wil van het lid om zoals overlijden en ziekte."
+
+# --- Cancellation
+# --- English text = Member shall inform his National Representative before cancellation of a Home Exchange Agreement including the reasons for the cancellation.
+msgid "cancellation.must_inform_agent"
+msgstr "Bij annulering dient een lid steeds zijn nationale verantwoordelijke te verwittigen en de redenen voor die annulering mee te delen"
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Consequences of Invalid Cancellation
+msgid "consequences.headline"
+msgstr "Gevolgen van niet-correct annulering"
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Member shall be responsible for any costs incurred by another Member as a result of cancellation of a Home Exchange Agreement without a valid reason and, at the discretion of the National Representative and the Board, shall be subject to termination of his membership.
+msgid "consequences.member_responsibilities"
+msgstr "Bij een annulering zonder geldige reden zal het lid dat de annulering doorvoert verantwoordelijk gesteld worden voor de kosten die de andere partij oploopt tengevolge van deze annulering.De nationale verantwoordelijke en de Board zal oordelen over een eventuele uitsluiting van het lid "
+
+# --- Complaints
+# --- English text = Complaints
+msgid "complaints.headline"
+msgstr "Klachten"
+
+# --- Complaints
+# --- English text = If two Complaints are made against a Member he shall be liable to termination of his membership at the discretion of the National Representative and the Board.
+msgid "complaints.liability_for_termination"
+msgstr "De nationale verantwoordelijke en de Board kunnen een lid waartegen tweemaal een klacht werd ingediend uit de organisatie verwijderen"
+
+# --- Member's Offer Home
+# --- English text = Member's Offer Home
+msgid "offered_home.headline"
+msgstr "De ruilwoning"
+
+# --- Member's Offer Home
+# --- English text = Member must ensure that his home offered for exchange
+msgid "offered_home.intro_text "
+msgstr "Het huis dat wordt aangeboden om te worden geruild "
+
+# --- Member's Offer Home
+# --- English text = is available for exchange;
+msgid "offered_home.is_available"
+msgstr "is beschikbaar voor een ruil;"
+
+# --- Member's Offer Home
+# --- English text = is fully insured for fire, theft, burglary and, so far as is possible, accidental damage;
+msgid "offered_home.is_insured"
+msgstr "beschikt over een wettelijke verzekering tegen brand, diefstal, inbraak en, voor zover mogelijk, tegen toevallige schade"
+
+# --- Member's Offer Home
+# --- English text = is clean; and
+msgid "offered_home.is_clean"
+msgstr "is netjes en opgeruimd, en"
+
+# --- Member's Offer Home
+# --- English text = contains all the facilities described in his listing.
+msgid "offered_home.is_same_as_listing"
+msgstr "beschikt over alle voorzieningen zoals vermeld in de beschrijving."
+
+# --- Motor Vehicles
+# --- English text = Motor Vehicles
+msgid "motor_vehicles.headline"
+msgstr "Motorvoertuigen"
+
+# --- Motor Vehicles
+# --- English text = Member must ensure that any vehicle offered for exchange is in good working order, legally compliant and, except as is notified to and agreed with the exchanging Member, comprehensively insured.
+msgid "motor_vehicles.member_responsibilities"
+msgstr "Het voertuig, aangeboden voor ruil, verkeert in goede staat, is wettelijk in orde en is, tenzij anders is overeengekomen tussen de ruilpartners, volledig verzekerd."
+
+# --- Respect for Property
+# --- English text = Respect for Property
+msgid "respect_for_property.headline"
+msgstr "Respect voor eigendom van anderen"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they respect each others' Property at all times and in particular and without prejudice to the generality of the preceding words;
+msgid "respect_for_property.yes_you_must"
+msgstr "De leden respecteren het aan hen toevertrouwde bezit ten allen tijde;"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they keep the Exchange Property reasonably secure at all times and comply with the terms of any applicable insurance policies both in this respect and in respect of any other insurance condition communicated to them by the owner;
+msgid "respect_for_property.keep_it_secure"
+msgstr "De huisruilers zorgen voor de veiligheid van het hen toevertrouwde bezit. Enerzijds handelen ze in overeenstemming met de geldende verzekeringspolissen, anderzijds houden ze zich aan afspraken zoals op voorhand mondeling overeengekomen met de eigenaar;"
+
+# --- Respect for Property
+# --- English text = Members must accept responsibility for any uninsured damage caused by them to the Exchanged Property.
+msgid "respect_for_property.accept_responsibility"
+msgstr "De leden aanvaarden de verantwoordelijkheid voor om het even welke schade door hen berokkend aan de eigendom, ook als deze niet verzekerd is."
+
+# --- Pets
+# --- English text = Pets
+msgid "pets.headline"
+msgstr "Huisdieren"
+
+# --- Pets
+# --- English text = Members must ensure that any Pets are, so far as is possible, free of vermin including worms and fleas, vaccinated and otherwise free of health risk and clean. Members must also ensure that areas of the home to which pets have access are cleaned.
+msgid "pets.cleanliness"
+msgstr "Huisdieren moeten, voor zover mogelijk, vrij zijn van ongedierte waaronder wormen en vlooien. De dieren moeten ingeënt zijn of in ieder geval geen risico inhouden voor de gezondheid. Ze moeten zuiver zijn. Dat geldt ook voor die delen van het huis waarin ze verblijven of waartoe ze toegang hebben."
+
+# --- Pets
+# --- English text = Members must apply high standards of care to Pets.
+msgid "pets.standards"
+msgstr "De ruilers moeten garanderen goed zorg te dragen voor de hen toevertrouwde dieren."
+
+# --- Home Country
+# --- English text = Home Country
+msgid "home_country.headline"
+msgstr "Land van residentie"
+
+# --- Home Country
+# --- English text = Member must register on the Database under his Home Country. A Member may list a second home or holiday home situated outside his Home Country.
+msgid "home_country.required_on_registration"
+msgstr "De leden moeten zich registreren bij het eigen land. Dit is ook van toepassing voor een tweede huis of een vakantiehuis gesitueerd in een ander land."
+
+# --- Currency of Listing
+# --- English text = Currency of Listing
+msgid "listing_currency.headline"
+msgstr "Permanente aanpassing van de lijsten"
+
+# --- Currency of Listing
+# --- English text = Member is responsible for ensuring that his listing is kept current and up to date.
+msgid "listing_currency.member_responsibilities"
+msgstr "De leden zorgen ervoor eventuele veranderingen in hun gegevens tijdig aan te passen"
+
+# --- Use of Database
+# --- English text = Use of Database
+msgid "database.headline"
+msgstr "Gebruik van de databank"
+
+# --- Use of Database
+# --- English text = Member may use the Database for the purpose of negotiating Home Exchange and for no other purpose. A Member contravening this Rule is subject to immediate termination at the discretion of the National Representative and the Board.
+msgid "database.for_home_exchange_only."
+msgstr "De leden gebruiken de databank enkel voor het afsluiten van een huisruil Bij overtreding kan de nationale afgevaardigde of de board het lid onmiddellijk en permanent uitsluiten"
+
+# --- Confidentiality
+# --- English text = Confidentiality
+msgid "confidentiality.headline"
+msgstr "Vertrouwelijkheid"
+
+# --- Confidentiality
+# --- English text = Member shall keep confidential at all times all information obtained on the Database and all other information obtained from Members.
+msgid "confidentiality.member_responsibilities"
+msgstr "De gegevens die een lid krijgt via de databank of van andere leden zijn vertrouwelijk."
+
+# --- Responsibility for negotiations
+# --- English text = Responsibility for negotiations
+msgid "negotiations.headline"
+msgstr "Verantwoordelijkheid bij het onderhandelen"
+
+# --- Responsibility for negotiations
+# --- English text = Members accept that they are solely responsible for all negotiations for Home Exchange with other Members.
+msgid "negotiations.member_responsibilities"
+msgstr "De leden aanvaarden de volledige verantwoordelijkheid bij het onderhandelen over een huis ruil met een ander lid."
+
+# --- Fees
+# --- English text = Fees
+msgid "fees.headline"
+msgstr "Lidgeld"
+
+# --- Fees
+# --- English text = A Member must pay reasonable fees to a National Representative and upon such payment his listing will be activated by the Representative.
+msgid "fees.must_be_paid"
+msgstr "Pas na het betalen van het lidgeld wordt het lidmaatschap geactiveerd via de nationale verantwoordelijke."
+
+# --- Definitions
+# --- English text = Definitions
+msgid "definitions.headline"
+msgstr "Definities"
+
+# --- Definitions
+# --- English text = In these Rules unless the context otherwise implies:
+msgid "definitions.intro_text"
+msgstr "In deze afspraken, tenzij anders bepaald door de context:"
+
+# --- Definitions
+# --- English text = "Board" means the Board of Directors of Intervac.
+msgid "definitions.board"
+msgstr "\"Board\"\ : internationaal bestuur van Intervac"
+
+# --- Definitions
+# --- English text = "Complaint" means a complaint made by a Member to a Representative that is upheld by the Board to the effect that another Member's actions are in contravention of these Rules.
+msgid "definitions.complaint"
+msgstr "\"Klachten\":  een klacht van een lid aan een verantwoordelijke"
+
+# --- Definitions
+# --- English text = "Database" means the Intervac international database operated at the domain names intervac.com and intervac-online.com and any other domains on which the Database may be maintained from time to time.
+msgid "definitions.database"
+msgstr "\"Databank\" : de internationale databank van Intervac voor de domeinnamen intervac.com en intervac-online.com en alle andere domeinen waarvoor de databank geregeld van toepassing is"
+
+# --- Definitions
+# --- English text = "Exchanged Property" means any Property which Members have agreed to exchange and which is occupied or used during the exchange and in particular and without prejudice to the generality of these words Property that is the subject of a Home Exchange Agreement.
+msgid "definitions.exchanged_property"
+msgstr "\"Ruilhuis\" : de eigendom die, na gezamenlijk akkoord, geruild wordt onder leden. Het lijdt hier geen twijfel dat het woord “eigendom” zich situeert binnen het kader van  huisruil  zoals bepaald in Home Exchange Agreement."
+
+# --- Definitions
+# --- English text = "Home Country" means the country of normal residence (at least six months per year) of a Member in which his principal home is situated.
+msgid "definitions.home_country"
+msgstr "\"Land van residentie\": het land waar men normaal resideert en minstens zes maand per jaar woont."
+
+# --- Definitions
+# --- English text = "Home Exchange" means the process of exchanging homes for vacation or holiday purposes or of providing rental, hospitality or other services facilitated from time to time on the Database.
+msgid "definitions.home_exchange"
+msgstr "\"Huisruil\": het ruilen van huizen voor vakantie. Op de databank worden ook huizen te huur aangeboden, gastvrijheid en diverse andere diensten behoren hier ook bij."
+
+# --- Definitions
+# --- English text = "Home Exchange Agreement" means an agreement for Home Exchange in Standard Form entered into by Members and Notified to Intervac.
+msgid "definitions.home_exchange_agreement"
+msgstr "\"Huisruilovereenkomst\": akkoord tot ruil waarbij een standaardformulier wordt ondertekend door beide partijen en doorgestuurd naar Intervac"
+
+# --- Definitions
+# --- English text = "Intervac" means Intervac International and includes its Representatives.
+msgid "definitions.intervac"
+msgstr "\"Intervac\":  Intervac Internationaal en de nationale vertegenwoordigers."
+
+# --- Definitions
+# --- English text = "Member" means a member of Intervac who has registered a listing on the Database.
+msgid "definitions.member"
+msgstr "\"Lid\": lid van Intervac opgenomen in de databank"
+
+# --- Definitions
+# --- English text = "Negotiation" means any negotiation conducted orally, by email or in writing.
+msgid "definitions.negotiation"
+msgstr "\"Onderhandeling\" : elke onderhandeling mondeling, per e-mail of brief"
+
+# --- Definitions
+# --- English text = "Notified" and "Notification" means in relation to a Home Exchange Agreement notification of such Agreement to Intervac or a Representative.
+msgid "definitions.notification"
+msgstr "\"Kennisgeving\": in  verband met elke kennisgeving over een huisruilovereenkomst aan Intervac of aan een verantwoordelijke"
+
+# --- Definitions
+# --- English text = "Pet" means a dog, cat or other pet and includes any animal or bird that might occupy a Member's property, garden or surroundings.
+msgid "definitions.pet"
+msgstr "\"Huisdier\" : huisdier, elk dier (ook vogel) dat in het huis van de eigenaar, de tuin of de omgeving  verblijft"
+
+# --- Definitions
+# --- English text = "Property" includes homes, vehicles and all other forms of Members' property.
+msgid "definitions.property"
+msgstr "\"Eigendom\" : huizen, voertuigen en alle andere vormen van eigendom"
+
+# --- Definitions
+# --- English text = Representative" and "National Representative" means an Agent or Local Organiser of Intervac.
+msgid "definitions.representative"
+msgstr "\"Organisator\" and \"Nationale vertegenwoordiger\" : lokale verantwoordelijke of vertegenwoordiger van Intervac"
+
+# --- Definitions
+# --- English text = "Rule" means a rule or clause of these terms of use and this agreement;
+msgid "definitions.rule"
+msgstr "\"Afspraken\" : regel, voorschrift, afspraak of clausule, passage van gebruiksvoorschriften en  afspraken"
+
+# --- Definitions
+# --- English text = "Standard Form" means the standard form of Home Exchange Agreement provided by Intervac.
+msgid "definitions.standard_form"
+msgstr "\"Standaardformulier\" : standaardformulier zoals voorzien door Intervac voor het bevestigen van een huisruil."
+
+# --- English text = References to the plural include references to the singular and vice versa.
+msgid "definitions.references_to_plural_singular"
+msgstr "Verwijzingen naar het meervoud houden ook verwijzingen naar het enkelvoud in en omgekeerd"
+
+# --- English text = References to any gender include references to all other genders.
+msgid "definitions.references_to_gender"
+msgstr "Verwijzingen naar het geslacht gelden algemeen."
+
+# --- English text = Headings are for convenience only and do not affect the interpretation of any Rule.
+msgid "definitions.headings_are_convenience"
+msgstr "Titels werden ingelast voor het gemakkelijk lezen en hebben geen enkele invloed op het interpreteren van de voorschriften of afspraken."
+

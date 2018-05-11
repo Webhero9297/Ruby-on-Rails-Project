@@ -1,0 +1,139 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-06-16 19:52+0100\n"
+"PO-Revision-Date: 2012-06-06 16:56+0100\n"
+"Last-Translator: kristina caillaud <info@intervac.fr>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Save Text
+msgid "save_text_button"
+msgstr "Enregistrer le texte"
+
+# --- English text = Picture Upload
+# --- (Mar. 2009) Edited to read: Upload Pictures
+msgid "upload_title"
+msgstr "Télécharger les photos supplémentaires"
+
+# --- English text = Do you really want to delete this photo?
+msgid "confirm_photo_delete"
+msgstr "Voulez-vous vraiment supprimer cette photo ?"
+
+# --- English text = Delete Photo
+# --- Location = This text appears when you put your mouse pointer over the trash can icon.
+msgid "thumbnails.delete_photo"
+msgstr "Supprimer cette photo"
+
+# --- English text = Primary Photo
+msgid "Primary Photo"
+msgstr "Photographie Principale"
+
+##### --- English text = Photos
+msgid "left_column.photos"
+msgstr "Vos photos"
+
+# --- English text = You have not uploaded a primary photo yet!  This way please...
+msgid "messages.no_primary_photo"
+msgstr "Vous n'avez pas publié de photographie ! Cliquez ici SVP..."
+
+# --- English text = Additional Text and Photos
+msgid "headline"
+msgstr "Vos photos supplémentaires & textes libres"
+
+# --- English text = You can post up to twenty additional photos, which you should sort into different categories. Choose the category from the box below. For comments on each category you can also insert as much text as you like.
+msgid "allowed_photos_and_text"
+msgstr "Vous pouvez télécharger jusqu'à 20 photographies supplémentaires et écrire vos textes libres dans les différentes rubriques, que vous choisissez ci-dessous. N'oubliez pas de sauvegarder vos textes !"
+
+##### --- English text = Upload This Photo
+msgid "upload_button"
+msgstr "Télécharger cette photographie"
+
+# --- English text = Only jpg files will be accepted.
+msgid "upload_jpg"
+msgstr "Sélection de votre photo :"
+
+# --- English text = Change the category
+msgid "change_category"
+msgstr "Déterminer la rubrique"
+
+# --- English text was = Additional Descriptive Text
+# --- (Mar. 2009)  Edited for clarity = Add Category Text
+msgid "additional_text_title"
+msgstr "Écrire les textes correspondants"
+
+# --- Error Text
+# --- English text = You have reached the maximum limit of 20 photos
+msgid "messages.maximum_photos_reached"
+msgstr "Limite atteinte de 20 photographies maximum en illustration"
+
+# --- Error Text
+# --- English text = Your text has been saved successfully.
+msgid "messages.text_save_successful"
+msgstr "Votre texte est bien enregistré !"
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "errors.incorrect_file_type"
+msgstr "Seul le format JPEG est accepté"
+
+# --- English text = Please click the browse button to select a photo to upload.
+msgid "errors.no_photo_selected"
+msgstr "Utilisez le bouton \"Parcourir\" pour sélectionner la photo à télécharger."
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+msgid "messages.photo_upload_successful"
+msgstr "Téléchargement réussi de votre photographie !"
+
+# --- English text = To delete a photo click the orange garbage bin.
+msgid "how_to_delete_photo"
+msgstr "Pour supprimer une photo, cliquez sur sa corbeille orange."
+
+# --- English text = Do you want to edit or delete the comments you have already written? Choose the right category in the dropdown box and the appropriate text will be loaded into the editor. Make your changes and remember to press the \"Save Text\" button.
+msgid "how_to_edit"
+msgstr "Vous souhaitez modifier/supprimer vos textes ? Sélectionnez la rubrique concernée pour afficher le texte correspondant. Effectuez ensuite vos changements dans le texte, enfin sauvegardez.  "
+
+# --- English text = To post a photo browse your computer files to find the right one, then press <strong>\"Upload This Photo\"</strong>.  Please be patient until you get a response. Depending on the size of your photo and the speed of your internet connection this could take a little while.
+msgid "how_to_upload"
+msgstr "Cliquez sur \"Parcourir\" pour localiser depuis votre ordinateur et sélectionner une photo supplémentaire, lancez le téléchargement et patientez quelques instants. Procédez ainsi pour chaque photo. Chaque nouveau téléchargement remplace la photo précédemment enregistrée. "
+
+# --- English text = Or you can write as much as you like about each category here. Whatever you write will be visible only to other members.
+msgid "additional_text_intro"
+msgstr "Vous disposez pour chacune des rubriques descriptives d'un espace illimité quant à la taille de vos textes.  Vous pouvez écrire/effacer vos textes en caractères gras, italiques, soulignés, barrés, et créer des listes numériques ou à puces. Vos textes libres sont exclusivement diffusés aux membres adhérents."
+
+# --- English text = <strong>Tip:</strong> Remember when composing your comments that you are addressing an international audience. Your choice of language could be important in talking to potential exchange partners from other countries.
+# --- Writing Tip: inside the <strong></strong> tags makes the text bold.
+msgid "language_tip"
+msgstr "Afin de faciliter les premiers contacts, il est judicieux d'écrire en anglais (ou dans la langue du pays concerné) vos textes libres en description de votre offre d'échange."
+
+# --- English text = Choose a category
+msgid "choose_category.headline"
+msgstr "Choisir une rubrique"
+
+# --- English text = Caption Your Photo
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.headline"
+msgstr "Légendez votre photo !"
+
+# --- English text = If you like you can add a short caption for your photo by typing it in the box below.
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.introtext"
+msgstr "Vous pouvez donner un titre à votre photo en écrivant dans le champ ci-dessous."
+
+# --- English text = Caption:
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.label"
+msgstr "Légende pour cette photo :"
+
+# --- English text = Before you copy your text from a Microsoft Word document you should save your document as a filtered web page.  This is easy to do.  Click the Help icon above for step-by-step instructions.
+# --- Location = 1st orange "Tip" in "Step #3 Add Category Text"
+msgid "ms_word_tip"
+msgstr "Avant de copier votre texte à partir d'un document Microsoft Word, vous devez enregistrer votre document comme une page Web filtrée. C'est facile à faire. Cliquez sur l'icône ci-dessus pour suivre les instructions, étape par étape."
+

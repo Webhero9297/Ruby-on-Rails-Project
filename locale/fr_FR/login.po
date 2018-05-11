@@ -1,0 +1,126 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 19:43+0100\n"
+"PO-Revision-Date: 2011-10-28 12:14+0100\n"
+"Last-Translator: kristina caillaud <info@intervac.fr>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member Login
+msgid "member_login.headline"
+msgstr "Votre accès membre Intervac International"
+
+# --- English text = Login to Intervac International
+msgid "headline"
+msgstr "Se connecter"
+
+# --- English text = Members Login Here
+msgid "here"
+msgstr "Votre accès membre ici"
+
+# --- English text = Login
+msgid "login"
+msgstr "Email / Identifiant"
+
+# --- English text = Password
+msgid "password"
+msgstr "Mot de passe"
+
+# --- English text = Remain logged in (on this computer)
+msgid "remember_me"
+msgstr "Garder ma session active"
+
+# --- Button text
+# --- English text = Login Now
+msgid "button_text"
+msgstr "Se connecter"
+
+# --- English text = Having trouble?
+# (Not in use - October, 2011)
+msgid "-x- help_headline"
+msgstr "Besoin d'aide ?"
+
+# --- English text = HELP! I forgot my password.
+msgid "forgotten_password_title"
+msgstr "Besoin d'aide ?"
+
+# --- English text = I have forgotten my password or can\'t login
+msgid "forgotten_password_link"
+msgstr "Mot de passe oublié ? Cliquez ici..."
+
+# --- English text = I would like to apply for membership
+msgid "apply_for_membership_link"
+msgstr "Cliquez ici pour vous inscrire"
+
+# --- English text = I'm not a member but I'd like to be!
+msgid "apply_for_membership_title"
+msgstr "Je ne suis pas encore membre Intervac mais je souhaite le devenir !"
+
+# --- English text = Please be sure that your browser accepts cookies!
+msgid "errors.cookies"
+msgstr "Assurez-vous SVP que votre ordinateur accepte les cookies !"
+
+# --- English text = Could not log you in as {{login}}, your login or password is incorrect.
+# --- IMPORTANT - DO NOT TRANSLATE OR REMOVE "{{login}}"  The system will automatically replace this with the login name the user tried to use.
+msgid "errors.username_or_password_incorrect"
+msgstr "Connexion impossible avec {{login}}, vérifiez vos identifiants SVP."
+
+# --- English text = Login Help
+msgid "help.headline"
+msgstr "Aide à la connexion"
+
+# --- English text = If you are seeing this message, you have tried at least twice to login without success.  Following are some tips to help you:
+# (Not in use - October, 2011)
+msgid "-x- help.introtext"
+msgstr "Vous avez tenté de vous connecter, sans succés. Voici quelques conseils pour vous aider :"
+
+# --- English text = If you are not sure of your login, you can use the email address in your listing in this field instead.
+# (Not in use - October, 2011)
+msgid "-x- help.login"
+msgstr "Vous pouvez inscrire votre adresse e-mail à la place de votre numéro d'adhésion Intervac."
+
+# --- English text = Passwords are case-sensitive.  To successfully login you must type your password using upper and lower case characters so that it matches the one you have saved in our database.
+# (Not in use - October, 2011)
+msgid "-x- help.password"
+msgstr "Le mot de passe doit être tapé selon les différents caractères enregistrés dans la base de données (lettres minuscules/majuscules et/ou chiffres)."
+
+# --- English text = Don't remember your login credentials? <link>Click here</link> to request a password reset link be sent to your email address.  The reset password email will tell you your login, and include a link you can click on to choose a new password.
+# (Not in use - October, 2011)
+msgid "-x- help.password_reset_link"
+msgstr "Impossible de vous souvenir de votre mot de passe ? <link>Cliquez ici SVP</link> pour lancer la procédure de restitution de mot de passe."
+
+# --- English text = Try Again
+# (Not in use - October, 2011)
+msgid "-x- help.close_button"
+msgstr "Essayez à nouveau"
+
+# --- English text = You can login to Intervac using your Facebook account.
+# --- Location = Above the Facebook Connect button
+# (June, 2011)
+msgid "facebook.text"
+msgstr "Vous pouvez vous connecter à Intervac avec votre compte Facebook."
+
+# --- English text = Apply for membership
+# --- Location = 
+# (New: October, 2011)
+msgid "apply_for_membership_headline"
+msgstr "Pas encore membre ? "
+
+# --- English text = Renew membership
+# (New: October, 2011)
+msgid "renew_membership.headline"
+msgstr "Ancien membre ?"
+
+# --- English text = To renew any expired membership, please login and click the <em>Renew Now button</em> at the top of the page.
+# --- IMPORTANT = Do not translate or remove the tags <em> and </em>.  These are used to set the text in between them in italic type.
+# (New: October, 2011)
+msgid "renew_membership.text"
+msgstr "Pour renouveler votre adhésion, veuillez vous connecter et cliquez sur le bouton <em>Renouveler</em> de votre page d'accueil."
+

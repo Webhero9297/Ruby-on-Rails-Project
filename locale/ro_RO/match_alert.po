@@ -1,0 +1,174 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-01-19 19:43+0100\n"
+"PO-Revision-Date: 2011-09-01 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Match Alert - For Busy Exchangers!
+msgid "headline"
+msgstr "Avertizarea de potrivire- Pentru Membrii Ocupati "
+
+# --- English text = You decide what is right for you!
+msgid "slogan"
+msgstr "Decideti  ce vi  se potriveste!"
+
+# --- English text = We will send you a up to ten emails in total at the frequency you choose. Each email will contain up to twenty new and/or recently changed listings which correspond closely to the settings you select below.
+# --- (Jan, 2009)  Edited text... please compare.
+msgid "intro_text"
+msgstr "O runda de Avertizare de potrivire contine un total de zece e-mailuri in functie de frecventa pe care o alegeti.Fiecare e-mail  va contine pana la douazeci de listari noi sau recent schimbate, care corespund setarilor pe care le veti alege in continuare."
+
+# --- English text = Match alert emails left in this round
+msgid "number_left_to_send"
+msgstr "E-mailuri de Avertizare de potrivire ramase in aceasta runda."
+
+# --- English text = Save My Settings
+msgid "save_button"
+msgstr "Salveaza setarile"
+
+# --- English text = Mail Settings
+msgid "mail_settings.headline"
+msgstr "Setari Mail"
+
+# --- English text = Frequency
+msgid "mail_settings.frequency"
+msgstr "Frecventa"
+
+# --- English text = Content
+msgid "content.headline"
+msgstr "Continut"
+
+# --- English text = Match Settings
+msgid "settings.headline"
+msgstr "Setari de potrivire"
+
+# --- English text = Destinations
+msgid "settings.destinations"
+msgstr "Destinatii"
+
+# --- English text = Destinations Available
+msgid "settings.destinations_available"
+msgstr "Destinatii disponibile"
+
+# --- English text = Destinations Chosen
+msgid "settings.destinations_chosen"
+msgstr "Destinatii alese"
+
+# --- English text = You can save any number of destinations in this section by clicking on the orange boxes to add desired destinations at (1) country level OR (2) country-region level OR (3) country-region-city level.
+# --- Location = Introductory text found underneath the headline "Destinations Wishlist"
+#, fuzzy
+msgid "destinations.introtext"
+msgstr "You can save any number of destinations in this section by clicking on the orange boxes to add desired destinations at (1) country level OR (2) country-region level OR (3) country-region-city level."
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Alte detalii"
+
+# --- English text = Email language
+msgid "mail_settings.language"
+msgstr "Limba e-mail"
+
+# --- English text = Include only new listings
+msgid "content.only_new"
+msgstr "Include doar listarile noi"
+
+# --- English text = Send both new and changed listings
+msgid "content.new_and_changed"
+msgstr "Salveaza atat listarile noi cat si cele modificate"
+
+# --- English text = None of the adjustments you make to these categories will change your profile.  They are used only for Match Alert!
+msgid "no_change_to_profile"
+msgstr "Niciuna din modificarile facute la aceste categorii nu va schimba profilul dvs. Acestea sunt folosite doar pentru Avertizarile de potrivire"
+
+# --- English text = Minimum number of adults
+msgid "settings.minimum_adults"
+msgstr "Numarul minim de adulti"
+
+# --- English text = with children
+msgid "settings.with_children"
+msgstr "cu copii"
+
+# --- English text = without children
+msgid "settings.without_children"
+msgstr "fara copii"
+
+# --- English text = with or without children
+msgid "settings.with_or_without_children"
+msgstr "cu sau fara copii"
+
+# --- This label is hidden text.
+# --- English text = Children
+msgid "settings.children"
+msgstr "Copii"
+
+# --- English text = Success!  Your MatchAlert settings have been saved
+msgid "messages.settings_saved_successfully"
+msgstr "Succes!  Setarile dvs referitoare la Avertizarile de potrivire au fost salvate!"
+
+# --- English text = There was an error!
+msgid "errors.undefined"
+msgstr "S-a produs o eroare!"
+
+# --- English text = Thanks!  You are registered to receive 10 MatchAlert emails.  They will be sent to the email address(s) in your listing.
+msgid "messages.ok_send_to_address"
+msgstr "Va multumim! Sunteţi înregistrat pentru a primi 10 e-mailuri de Avertizare de potrivire.Acestea vor fi trimise la adresa / adresele e-mail  din listarea dvs ."
+
+# --- English text = Sleeping Accommodations
+msgid "settings.accommodations_headline"
+msgstr "Cazare"
+
+# --- English text = Exchange Family
+msgid "settings.exchange_family"
+msgstr "Schimb familial"
+
+# --- Button Text
+# --- English text = Send 10 more emails
+msgid "send_another_round"
+msgstr "Trimiteti inca 10 e-mailuri"
+
+# --- English text = <strong>Stop!</strong> Set the frequency to \"never\" to stop the delivery of these Match Alert! Emails.
+msgid "stop_the_mails"
+msgstr "<strong>Stop!</strong> Setati frecventa la \"niciodata \"pentru a opri trimiterea acestor e-mailuri de Avertizare de potrivire"
+
+# --- English text = The number of Match Alert emails left is set out below. To begin another round please check the frequency, settings and destinations and click the button below that says: Send 10 more emails.
+# --- Text change/clarification requested by B. Hayes (Aug, 2010)
+msgid "stopped_start_again"
+msgstr "Avertizarea de potrivire nu va mai trimite mesaje!f you want to begin another round, please check the frequency under Mail Settings below, update it and save your settings, then press the button below."
+
+# --- English text = Listing Types
+# --- This is hidden text
+msgid "content.listing_types"
+msgstr "Tipuri de listari"
+
+# Frequency
+# --- English text = once a week
+msgid "mail_settings.weekly"
+msgstr "o data pe saptamana "
+
+# Frequency
+# --- English text = every other week
+msgid "mail_settings.bi-weekly"
+msgstr "in fiecare saptamana"
+
+# Frequency
+# --- English text = once a month
+msgid "mail_settings.monthly"
+msgstr "o data pe luna"
+
+# Frequency
+# --- English text = never
+msgid "mail_settings.never"
+msgstr "niciodata "
+
+# --- English text = My Match Alert Status
+msgid "my_status"
+msgstr "Statutul meu pentru Avertizare de potrivire"
+

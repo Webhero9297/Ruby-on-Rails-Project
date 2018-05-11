@@ -1,0 +1,287 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-10-16 19:11+0100\n"
+"PO-Revision-Date: 2011-08-31 11:26+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# English text = Google Map Settings
+msgid "headline"
+msgstr "Los Ajustes del Mapa de Google"
+
+# English text = This marker may not pinpoint the member\'s exact street address.
+msgid "marker_text"
+msgstr "Este marcador no señala la calle  exacta\ de la dirección del socio"
+
+# --- English text = Disable the Google Map for my listing
+msgid "disable_map"
+msgstr "No mostrar ningún mapa en mi anuncio"
+
+# --- English text = Change Marker Placement
+msgid "change_placement_headline"
+msgstr "Cambiar el Marcador de lugar"
+
+# English text = If the marker on the map in your listing is wrong you can correct it on this page.  Whether you are offering your second home for exchange, or want a more precise placement through the use of latitude and longitude please select your choice below.
+msgid "change_placement_text"
+msgstr "Si el marcador del mapa en su anuncio no es correcto Ud. puede corregirlo en esta página.  Tanto si ofrece su segunda vivienda para intercambiar, como si desea una señal más precisa mediante el uso de la latitud y longitud por favor seleccione su elección."
+
+# --- English text = Google will place the marker on your map using the following priority list
+msgid "marker_priority_text"
+msgstr "Google colocará el marcador en su mapa usando la siguiente lista de prioridades"
+
+# English text = Latitude &amp; Longitude (gps coordinates)
+msgid "li_latitude_longitude"
+msgstr "Latitud &amp;  Longitud (coordinadas de gps)"
+
+# English text = Second home address
+msgid "li_second_home"
+msgstr "Dirección de su segunda vivienda"
+
+# English text = Contact address in your listing
+msgid "li_contact_address"
+msgstr "Dirección de contacto en su anuncio"
+
+# English text = What would you like to do?
+msgid "what_next.headline"
+msgstr "¿Qué le gustaría hacer?"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude"
+msgstr "Especificar la latitud y longitud de mi casa"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude_title"
+msgstr "Especificar la latitud y longitud de mi casa"
+
+# English text = Latitude &amp; Longitude
+msgid "latitude_longitude.headline"
+msgstr "Latitude &amp; Longitude"
+
+# --- English text = If you already know the latitude and longitude of your home or neighborhood, you can enter them below.  If you need help in finding the correct coordinates for your location, click on the help icon.
+msgid "latitude_longitude.intro_text"
+msgstr "Su usted ya sabe la latitud y longitud de su casa o barrio, puede entrarlas aquí debajo.  Si necesita ayuda para encontrar las coordinadas correctas para su localización, haga click en el icono de ayuda."
+
+# --- (Dec 2008) English text = Link opens in a new window
+msgid "link_opens_new_window"
+msgstr "El link abre una nueva ventana"
+
+# --- English text = How to Find the Latitude &amp; Longitude of Your Home
+msgid "latitude_longitude.how_to_headline"
+msgstr "Cómo Encontrar la Latitud &amp; Longitud de Su Casa"
+
+# English text = For an exact position of the google maps marker, you can enter the gps coordinates (latitude, longitude) of your home below.
+msgid "latitude_longitude.how_to_text_1"
+msgstr "Para una posición exacta del marcador de los mapas de google, puede entrar las coordinadas de gps (latitud, longitud) de la casa abajo."
+
+# English text = You can get these coordinates from a hand-held GPS unit, or you might try the navigation system in your car.  There are also a number of free tools on the internet whereby you can find the latitude and longitude (GPS Co-ordinates) of your home. The best of them are
+msgid "latitude_longitude.how_to_text_2"
+msgstr "Ud. puede conseguir estas coordenadas de un GPS de mano, o bien puede probar el sistema de navegación de su coche.  También existen una gran cantidad de webs en internet donde puede encontrar la latidud y longitud (Coordinadas GPS) de su casa. Las mejores son"
+
+# English text = One Step Address Conversion
+msgid "latitude_longitude.onestep.headline"
+msgstr "Conversión de la Dirección"
+
+# English text = Go To: One Step Address Conversion
+msgid "latitude_longitude.onestep.link"
+msgstr "Vaya:  Conversión de la Dirección"
+
+# English text = Click here for instructions on how to use the One Step Address Conversion utility.
+msgid "latitude_longitude.onestep.help"
+msgstr "Haga Click aquí para leer las instrucciones de como usar el Conversor de la Dirección."
+
+# English text = Infosports
+msgid "latitude_longitude.infosports.headline"
+msgstr "Infosports"
+
+# English text = Go To: Infosports
+msgid "latitude_longitude.infosports.link"
+msgstr "Vaya a:  Infosports"
+
+# English text = GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.headline"
+msgstr "Visor de GPS"
+
+# English text = Go To: GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.link"
+msgstr "Vaya a: al Visor de GPS"
+
+# English text = It is not necessary to be too precise and remember that the map is visible to visitors as well as members.
+msgid "latitude_longitude.precision"
+msgstr "No es necesario ser demasiado preciso y recuerde que el mapa es visible tanto para los visitantes como para los socios."
+
+# English text = Latitude
+msgid "latitude_longitude.latitude"
+msgstr "Latitud"
+
+# English text = Longitude
+msgid "latitude_longitude.longitude"
+msgstr "Longitud"
+
+# -- ERROR TEXT --
+# English text = Please enter both latitude and longitude as decimal values (39.002844), and not degrees (39° 0’ 10.8 ).
+msgid "errors.decimal_values_only"
+msgstr "Por favor introduzca tanto la latitud como la longitud en decimales (39.002844), y no en grados  (39° 0’ 10.8 )."
+
+# -- ERROR TEXT --
+# English text = Sorry, both latitude and longitude must be set for this feature to work properly!
+msgid "errors.require_lat_and_long"
+msgstr "¡Lo sentimos pero ha de introducir tanto la latitud como la longitud!"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home"
+msgstr "La dirección de la casa que ofrezco para intercambiar"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home_title"
+msgstr "La dirección de la casa que ofrezco para intercambiar"
+
+# English text = Exchange Home Address
+msgid "second_home.headline"
+msgstr "Dirección de la Casa objeto del Intercambio"
+
+# English text = If the home you are offering for exchange is your second or holiday home, enter the address here. The map in your listing will use this address (if there is one) to place the marker before it uses your contact address.
+msgid "second_home.intro_text"
+msgstr "Si la casa que ofrece para intercambiar es su segunda vivienda o de vacaciones, ponga la dirección aquí.  El mapa en su anuncio usará esta dirección (si la hay) para colocar el marcador antes de usar su direcciónd de contacto."
+
+# English text = Street
+msgid "second_home.street"
+msgstr "Calle"
+
+# English text = Postal
+msgid "second_home.postal"
+msgstr "Postal"
+
+# English text = City
+msgid "second_home.city"
+msgstr "Ciudad"
+
+# English text = State
+msgid "second_home.state"
+msgstr "Provincia"
+
+# English text = Country
+msgid "second_home.country"
+msgstr "País"
+
+# -- ERROR TEXT --
+# English text = Sorry, both city and postal code must be set for this feature to work properly!
+msgid "errors.require_city_and_postal"
+msgstr "Lo sentimos, tanto la ciudad como el código postal han de ser indicados."
+
+# -- BUTTON TEXT --
+# English text = Save Settings
+msgid "save_button"
+msgstr "Guardar "
+
+# -- HELP TEXT --
+# English text = How to use One Step GPS coordinate search.
+msgid "latitude_longitude.onestep.how_to_use"
+msgstr "Cómo usar la busqueda de coordenadas:"
+
+# -- HELP TEXT --
+# English text = Enter your address in the fields on the left hand side.
+msgid "latitude_longitude.onestep.step1"
+msgstr "Ponga su dirección en los espacios en el lado izquierdo."
+
+# -- HELP TEXT --
+# English text = Click the "Determine Latitude/Longitude" button
+msgid "latitude_longitude.onestep.step2"
+msgstr "Haga Click en el botón\"Determine Latitud/Longitud\""
+
+# -- HELP TEXT --
+# English text = Please be patient.  This easy to use tool queries many separate GPS databases, and takes a few minutes to work.  Depending on where you live you will receive several sets of results.  For houses located in Great Britain, the results from "locatienet" have proven more accurate than those from Google when using the postal code.
+msgid "latitude_longitude.onestep.step3"
+msgstr "Por favor sea paciente.  El sistema pregunta a distintas de GPS y tarda unos minutos."
+
+# -- HELP TEXT --
+# English text = How to use Infosports GPS coordinate search.
+msgid "latitude_longitude.infosports.how_to_use"
+msgstr "Cómo usar la busqueda de coordinadas GPS Infosports."
+
+# -- HELP TEXT --
+# English text = Move the map by holding down the mouse button while moving the mouse.
+msgid "latitude_longitude.infosports.step1"
+msgstr "Mueva el mapa arrastrando el botón del ratón mientras mueve el ratón."
+
+# -- HELP TEXT --
+# English text = If you are not a resident of the US, zoom out by clicking on the grid lines (or the -) on the left until you have your country in the view.
+msgid "latitude_longitude.infosports.step2"
+msgstr "Si usted no es un residente de los US, salga haciendo \"zoom\" y haga click en las líneas a la izquierda hasta que tenga a la vista su país."
+
+# -- HELP TEXT --
+# English text = Create a marker by clicking on a spot near your area, and then zoom in by clicking on the grid lines (or the + sign).  Repeat this step until you can place the marker satisfactorily.
+msgid "latitude_longitude.infosports.step3"
+msgstr "Cree un marcador haciendo click en un punto cerca de su zona, y entonces haga zoom haciendo click en la línea de regilla (o en la señal +). Repita este paso hasta que pueda colocar el marcador satisfactoriamente."
+
+# -- HELP TEXT --
+# English text = Click on the final marker to display the longitude and latitude.
+msgid "latitude_longitude.infosports.step4"
+msgstr "Click"
+
+# -- HELP TEXT --
+# English text = Copy and paste the coordinates into the boxes below.
+msgid "latitude_longitude.infosports.step5"
+msgstr "Copia y pegue las coordinadas en los espacios al pie."
+
+# -- HELP TEXT --
+# English text = How to use GPS Visualizer.
+msgid "latitude_longitude.gps_visualizer.how_to_use"
+msgstr "Cómo usar el Visor del GPS"
+
+# -- HELP TEXT --
+# English text = Type your address in the box and click the "Geocode it" button. Remember, if you live outside the USA to put, for example, “Boston, United Kingdom” rather than just “Boston”
+msgid "latitude_longitude.gps_visualizer.step1"
+msgstr "Escriba su dirección en el espacio y haga click en el botón de \"Geocode it\"  Si vive fuera de los USA recuerde poner, por ejemplo: “Boston, Reino Unido” en lugar de sólo “Boston”"
+
+# -- HELP TEXT --
+# English text = Enter (copy and paste) the coordinates in these boxes.
+msgid "latitude_longitude.gps_visualizer.step2."
+msgstr "Ponga (copie y pegue) las coordinadas en estos espacios."
+
+# -- HELP TEXT --
+# English text = Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank.
+msgid "second_home.street_help"
+msgstr "Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+#, fuzzy 
+msgid "second_home.state_help"
+msgstr "If your country doesn't require you to put a state on your postal mail, then you should leave this field blank."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+msgid "second_home.country_help"
+msgstr "Si este no es el país donde se encuentra la casa a intercambiar, por favor contacte a su organizador nacional para que le ayude."
+
+# --- English text = Thank you, we saved your changes in our database!
+msgid "messages.save_successful"
+msgstr "Gracias, hemos guardado sus cambios en nuetra base de datos"
+
+# --- English text = Sorry, either Google Map couldn't find the address or you have disabled the map for your listing.
+msgid "errors.no_map_found"
+msgstr "Lo sentimos, o bien el Mapa de Google no ha podido encontrar su direccitón o usted ha eliminado el mapa de su anuncio."
+
+# --- English text = An error has occurred and we were unable to save your changes.  Please make sure you have entered your latitude and longitude in degrees instead of coordinates, and contact your local organizer for assistance if you continue to have difficulty
+# --- (1 July, 2010) Edited to add a reminder to the member to use degrees instead of coordinates when entering Latitude and Longitude.
+#, fuzzy
+msgid "errors.general_fail"
+msgstr "Ha ocurrido un error y no podemos guardar sus cambios.  Por favor, inténtelo de nuevo o contacte con su organizador local para que le ayude."
+
+# --- English text = Map of the Region
+msgid "map_of_region"
+msgstr "Mapa de la Región"
+
+# --- English text = Not supported in all countries
+# --- Location: This is a little warning underneath the "street" text box in the Exchange Home Address form.
+#, fuzzy
+msgid "second_home.street_not_supported_in_all_countries"
+msgstr "Not supported in all countries"

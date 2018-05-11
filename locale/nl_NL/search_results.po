@@ -1,0 +1,129 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 20:27+0100\n"
+"PO-Revision-Date: 2012-02-06 10:38+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Sorry we could not find any listings to match your search criteria.
+msgid "errors.no_listings_found"
+msgstr "Sorry, er is geen aanbieding die overeenkomt met uw zoekcriteria."
+
+# --- English text = Your Search Results
+msgid "headline"
+msgstr "Uw zoekresultaten"
+
+# --- English text = Next
+msgid "next"
+msgstr "Volgende"
+
+# --- English text = Previous
+msgid "previous"
+msgstr "Voorgaande"
+
+# --- English text = entries per page
+msgid "entries_per_page"
+msgstr "aanbiedingen per pagina"
+
+# --- English text = This listing belongs to a new member.
+# --- Mouseover text is hidden text
+msgid "icons.new_listing"
+msgstr "Dit is een aanbieding van een nieuwe deelnemer."
+
+# --- English text = This member has changed their listing recently.
+# --- Mouseover text is hidden text
+msgid "icons.changed_listing"
+msgstr "Deze deelnemer heeft recent wijzigingen aangebracht."
+
+# --- English text  = This member requests no smoking exchanges
+msgid "icons.no_smoking"
+msgstr "Deze deelnemerit wil ruilen met niet-rokers"
+
+# --- English text = Car exchange is offered
+msgid "icons.car_exchange"
+msgstr "Men biedt autoruil aan "
+
+# --- English text = We have a computer available for your use.
+msgid "icons.computer_available"
+msgstr "Wij hebben een computer die je kunt gebruiken."
+
+# --- English text = Internet use is free.
+msgid "icons.free_internet"
+msgstr "Internetgebruik is kosteloos"
+
+# --- English text = This member is actively looking for an exchange partner.
+# --- Mouseover text is hidden text
+msgid "icons.green_light"
+msgstr "Deze deelnemer is actief op zoek naar een ruilpartner."
+
+# --- English text = This member is not currently looking for an exchange partner.
+# --- Mouseover text is hidden text
+msgid "icons.red_light"
+msgstr "Deze deelnemer is momenteel niet op zoek naar een ruilpartner."
+
+# --- English text = Photo for listing
+# --- Mouseover text is hidden text
+msgid "photo_for"
+msgstr "Foto voor aanbieding"
+
+# --- English text = Choose the number of listings you would like to see on a page.
+# --- This is hidden text for accessability
+msgid "number_of_listings_select"
+msgstr "Kies het aantal aanbiedingen weergegeven per pagina."
+
+# --- English text = Below are the listings in our database which match your search criteria. To move to the next page, click on the numbered boxes.
+msgid "intro_text"
+msgstr "Hieronder vind je de aanbiedingen die overeenkomen met je zoekcriteria. Om te bladeren van pagina naar pagina kun je klikken op de genummerde vakken."
+
+# --- English text = You have looked at this listing recently.
+msgid "You have looked at this listing recently."
+msgstr "Je hebt onlangs deze aanbieding bekeken. "
+
+# --- English text = Listings with this mark beside them are ones you have visited recently.
+msgid "recently_visited"
+msgstr "Aanbiedingen met dit teken ernaast heb je onlangs bekeken."
+
+# --- English text = Africa
+msgid "collected.africa"
+msgstr "Afrika"
+
+# --- English text = Asia
+msgid "collected.asia"
+msgstr "Azië"
+
+# --- English text = South America
+msgid "collected.south_america"
+msgstr "Zuid-Amerika"
+
+# --- English text = South Pacific Islands
+msgid "collected.south_pacific_islands"
+msgstr "South Pacific Islands"
+
+# --- English text = Reverse Search Results
+msgid "reverse_search.headline"
+msgstr "Zoekresultaten Andersom"
+
+# --- English text = LTo discover the name of a listing country place your mouse pointer over the member id.
+msgid "find_country_name"
+msgstr "Om de naam van een land te zien, kun je de muis op het member id plaatsen"
+
+# --- English text = Available
+# (June 2011) - Used on the search returns in public area as subheadline.
+msgid "available"
+msgstr "Beschikbaar"
+
+# --- English text = Last Minute Exchanges
+# --- Location =
+# (June, 2011)
+#, fuzzy
+msgid "hotlist_tab.page.headline"
+msgstr "Last Minute Exchanges"
+

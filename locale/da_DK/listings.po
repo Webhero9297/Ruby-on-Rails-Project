@@ -1,0 +1,250 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-21 20:25+0100\n"
+"PO-Revision-Date: 2012-07-13 14:05+0100\n"
+"Last-Translator: Michael Støvelbæk <m@intervac.dk>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Latest Listings at Intervac International
+# --- Location = Headline when no search criteria are chosen.
+# (June, 2011 - New)
+msgid "search_results.default.headline"
+msgstr "Sidste nye medlemsprofiler"
+
+# --- English text = View Listing
+# (June, 2011 - New)
+msgid "view_listing.link_text"
+msgstr "Vis profil"
+
+# --- English text = {{member_id}} - View Listing
+# --- IMPORTANT: Please do not translate the placeholder text inside of {{member_id}}.  This will be replaced by the system.
+# --- Location = mouseover text for the View Listing link at the bottom of a search results "card".
+# (June, 2011 - New)
+msgid "view_listing.link_text"
+msgstr "{{member_id}} - Se profil"
+
+# --- English text = Find exciting destinations that want to exchange with your location
+# --- Location = On the listings page for  visitors
+# (June, 2011 - New)
+msgid "finder_form.text"
+msgstr "Søg efter en byttepartner"
+
+# --- English text = I live in:
+# --- Location = On the listings page for visitors
+# (June, 2011)
+msgid "finder_form.my_country"
+msgstr "Jeg bor i:"
+
+# --- English text = Choose Country
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.select_country"
+msgstr "Vælg et land"
+
+# --- English text = Select the country where you live
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.my_country_title"
+msgstr "Vælg dit bopælsland"
+
+# --- English text = Your location
+# (June, 2011)
+msgid "finder_form.country_selector.mouseover"
+msgstr "Bopælsland"
+
+# --- English text = I want to go to:
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.my_destinations"
+msgstr "Jeg vil til:"
+
+# --- English text = Anywhere
+# --- Location = Default destination text in the destinations box.
+msgid "finder_form.default_destination"
+msgstr "Vælg et land"
+
+# --- English text = Destinations
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.destinations"
+msgstr "Destination"
+
+# --- English text = Selected
+# --- Location = This is part of the search form on the listings page.
+# (June, 2011)
+msgid "finder_form.selected"
+msgstr "Valgt"
+
+# --- English text = Destination search
+# --- Location = This is one of the tabs on the listings page where you can switch between types of search
+# (June, 2011)
+msgid "finder_form.destination_tab"
+msgstr "Søg på land"
+
+# --- English text = Map search
+# --- Location = This is one of the tabs on the listings page where you can switch between types of search
+# (June, 2011)
+msgid "finder_form.map_tab"
+msgstr "Søg på kort"
+
+# --- English text = Hot list
+# --- Location = This is one of the tabs on the listings page where you can switch between types of search
+# (June, 2011)
+msgid "finder_form.hotlist_tab"
+msgstr "Rejs NU!"
+
+# --- English text = Search for your next exchange!
+# --- Location = HowTo bar when you first load the map search page
+# (June, 2011)
+msgid "map_search.how_to_hint"
+msgstr "Søg medlemsprofiler"
+
+# --- English text = Accommodations
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.accomodations"
+msgstr "Sovepladser"
+
+# --- English text = Equipment
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.equipment"
+msgstr "Udstyr"
+
+# --- English text = Exchange type
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.exchange_type"
+msgstr "Type af bytte"
+
+# --- English text = Travel dates
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.travel_dates"
+msgstr "Rejsedatoer"
+
+# --- English text = Correspondence
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.correspondence"
+msgstr "Sprog"
+
+# --- English text = Search order
+# --- Location = Text on detail search filter tabs
+# (June, 2011)
+msgid "filter_tabs.search_order"
+msgstr "Prioritet"
+
+# --- English text = There is no map available for this listing
+# --- Location = Shown on listing when the map is not available.
+# (June, 2011)
+msgid "no_map"
+msgstr "Der er ikke noget for til denne medlemsprofil"
+
+# --- English text = <link>Login</link> to contact this member.
+# --- Location = Underneath the Contact Member button if the viewer is not logged in.
+# (June, 2011)
+msgid "visitors.login_to_contact"
+msgstr "<link>Login</link> for at kontakte dette medlem"
+
+# --- English text = Contact member
+# --- Location = Button - Right-hand Column
+# (June, 2011)
+msgid "button.contact_member"
+msgstr "Kontakt"
+
+# --- English text = Contact options
+# --- Location = Listing summary, only shown to logged in members.
+# (June, 2011)
+msgid "contact_options.headline"
+msgstr "Muligheder"
+
+# --- English text = Sign up
+# --- Location = Button - Right-hand Column - Shown to visitors.
+# (June, 2011)
+msgid "button.join_intervac"
+msgstr "Bliv medlem"
+
+# --- English text = Join Intervac today, travel the world tomorrow.
+# --- Location = Underneath the "Sign up" button - Shown to visitors
+# (June, 2011)
+msgid "join_intervac.advertising_text"
+msgstr "Opret en medlemsprofil her"
+
+# --- English text = Our Family
+# --- Location = Subheadline - Right hand column
+# (June, 2011)
+msgid "details.family.headline"
+msgstr "Familien"
+
+# --- English text = Adults
+# (June 2011) - Used on the search returns in public area as subheadline.
+msgid "details.family.adults"
+msgstr "Voksne"
+
+# --- English text = Children
+# (June 2011) - Used on the search returns in public area as subheadline.
+msgid "details.family.children"
+msgstr "Børn"
+
+# --- English text = Occupation
+# --- Location =
+# (June, 2011)
+msgid "details.family.occupation"
+msgstr "Beskæftigelse"
+
+# --- English text = Property Details
+# --- Location =
+# (June, 2011)
+msgid "details.property.headline"
+msgstr "Boligen"
+
+# --- English text = View all images
+# --- Location = Button in the bar underneath the main photo
+# (June, 2011)
+msgid "photos.button.view_all"
+msgstr "Se alle billeder"
+
+# --- English text = Find homes
+# --- Location = green button next to the search box
+msgid "search.button"
+msgstr "Søg"
+
+# --- English text = Exchanges made
+# --- Location =
+# (New: November, 2011)
+msgid "details.our_family.exchanges_made"
+msgstr "Bytteaftaler gennemført"
+
+# --- English text = Member Finder
+# --- Location = Tab on search listings page
+# (June, 2011)
+msgid "finder_form.member_finder_tab"
+msgstr "Søg specifikt medlem"
+
+# --- English text = Member Finder
+# --- Location = Click on the Member Finder tab on the search listings page
+# (June, 2011)
+msgid "member_id_search.placeholder"
+msgstr "Medlemsnummer"
+
+# --- English text = Could not find member
+# --- Location = error text when no member can be found by the form (click Member finder tab on search listings page)
+# (June, 2011)
+msgid "member_id_search.error"
+msgstr "Kunne ikke finde medlemmet"
+
+# --- English text = Find a member by member number
+# --- Location = Click on the Member Finder tab on the search listings page
+# (New: February, 2012)
+msgid "finder_form.member_finder.label"
+msgstr "Indtast medlemsnummer"
+

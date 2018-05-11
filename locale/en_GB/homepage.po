@@ -1,0 +1,338 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2011-06-01 19:11+0100\n"
+"PO-Revision-Date: 2012-07-17 19:27+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Find your next home exchange holiday
+# --- Location = Main headline above the large search box
+# Not in Use (October, 2011)
+msgid "-x- search.headline.old"
+msgstr "Find your next home exchange holiday"
+
+# --- English text = Home Exchange all over the world!
+# --- Location = Main headline
+# (New: October, 2011)
+msgid "search.headline"
+msgstr "Home Exchange all over the world!"
+
+# --- English text = Where do you want to spend your next holiday?
+# --- Location = Search Box
+# (New: October, 2011)
+msgid "search.placeholder"
+msgstr "Where do you want to spend your next holiday?"
+
+# --- English text = Find homes
+# --- Location = green button next to the search box
+# Not in Use (October, 2011)
+msgid "-x- search.button.old"
+msgstr "Find homes"
+
+# --- English text = Search
+# --- Location = Green Search button
+# (New: October, 2011)
+msgid "search.button"
+msgstr "Search"
+
+# --- English text = Find your next home exchange
+# --- Location = Mouseover the green button next to the search box
+msgid "search.button_mouseover"
+msgstr "Find your next home exchange"
+
+# --- English text = Search for a region or country, for example: France or Tuscany
+# --- Location = underneath search box
+msgid "search.example_text"
+msgstr "Search for a region or country, for example: France or Tuscany"
+
+# --- English text = Join Intervac today!
+# --- Location = next to search box
+# (June, 2011)
+msgid "join.headline"
+msgstr "Join Intervac today!"
+
+# --- English text = Try Us Free
+# --- Location = Orange button in the Join Intervac area (next to search)
+msgid "join.button_text"
+msgstr "Try Us Free"
+
+# --- English text = Try out Intervac's Home Exchange service free for {{number}} Days.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# --- Location = Mouseover the orange "Try us Free" button
+msgid "join.button_mouseover"
+msgstr "Try out Intervac's Home Exchange service free for {{number}} Days."
+
+# --- English text = No credit card required
+# --- Location = Text underneath the orange Try Us Free button
+msgid "join.no_cc_required"
+msgstr "No credit card required"
+
+# --- English text = Secure and Easy Home Exchange
+# --- Location = Left-hand section beneath search box and map
+msgid "secure_and_easy.headline"
+msgstr "Secure and Easy Home Exchange"
+
+# --- English text = For nearly 60 years we have helped people exchange homes all over the world. We have the most experienced members and our friendly staff works hard to guarantee you a worry-free and enjoyable home exchange holiday.
+# --- Location = Left-hand section beneath search box and map
+msgid "secure_and_easy.text"
+msgstr "For nearly 60 years we have helped people exchange homes all over the world. We have the most experienced members and our friendly staff works hard to guarantee you a worry-free and enjoyable home exchange holiday."
+
+# --- English text = Take the Tour
+# --- Location = Left-hand section beneath search box and map
+msgid "secure_and_easy.button_text"
+msgstr "Take the Tour"
+
+# --- English text = Intervac home exchange tour
+# --- Location = Left-hand section beneath search box and map (mouseover the button)
+msgid "secure_and_easy.button_mouseover"
+msgstr "Intervac home exchange tour"
+
+# --- English text = Intervac At A Glance
+# --- Location = Center section beneath the search box and map - headline over the video presentation
+msgid "presentation.headline"
+msgstr "Intervac At A Glance"
+
+# --- English text = Learn all about Intervac International
+# --- Location = Center section beneath the search box and map - mouseover the video presentation
+msgid "presentation.mouseover"
+msgstr "Learn all about Intervac International"
+
+# --- English text = Close
+# --- Location = Closing the window with the video presentation in it.
+msgid "presentation.close"
+msgstr "Close"
+
+# --- English text = Loading video. Please have JavaScipt and Flash enabled.
+# --- Location = Displayed while waiting for the video to load.
+msgid "presentation.loading_message"
+msgstr "Loading video. Please have JavaScipt and Flash enabled."
+
+# --- English text = National Representatives
+# (June, 2011 - New)
+msgid "national_representatives.headline"
+msgstr "National Representatives"
+
+# --- English text = {{national_representative}} is one of our dedicated representatives. She is responsible for our members in {{agent_country_name}}.
+# --- Do Not Translate {{national_representative}} or {{agent_country_name}}.  These are placeholders which will be replaced by the system with correct information.
+# (June, 2011 - New)
+msgid "national_representatives.text"
+msgstr "{{national_representative}} is one of our dedicated representatives. She is responsible for our members in {{agent_country_name}}."
+
+# --- English text = Find your national representative
+# (June, 2011)
+msgid "national_representatives.button"
+msgstr "Find your local representative"
+
+# --- English text = New Listings at Intervac Home Exchange
+# --- Location = Headline text above the listings at the bottom of the page.
+msgid "new_listings.headline"
+msgstr "New Listings at Intervac Home Exchange"
+
+# --- English text = More listings
+# --- Location = Green button below the new listings (even more bottom-er of the page)
+msgid "new_listings.more_button"
+msgstr "More listings"
+
+# --- English text = View more listings
+# --- Location = Mouseover text for the green button below the new listings (even more bottom-er of the page)
+msgid "new_listings.more_button_mouseover"
+msgstr "View more listings"
+
+# --- English text = Unexpected Destinations
+# (June 2011)
+msgid "unexpected_destinations.headline"
+msgstr "Unexpected Destinations"
+
+# --- English text = More Unexpected Destinations
+# --- Location = underneath the gallery row
+# (June, 2011 - New)
+msgid "unexpected_destinations.more_link"
+msgstr "More Unexpected Destinations"
+
+# --- English text = New York, New York! Experience the Big Apple with Intervac.
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.new_york"
+msgstr "New York, New York! Experience the Big Apple with Intervac."
+
+# --- English text = View all listings in USA
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.link_to.usa"
+msgstr "View all listings in USA"
+
+# --- English text = London. A city full of discovery and entertainment.
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.london"
+msgstr "London. A city full of discovery and entertainment."
+
+# --- English text = View all listings in Great Britain
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.link_to.gb"
+msgstr "View all listings in Great Britain"
+
+# --- English text = Paris. The city of love is filled with museums and art.
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.paris"
+msgstr "Paris. The city of love is filled with museums and art."
+
+# --- English text = View all listings in France
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.link_to.fr"
+msgstr "View all listings in France"
+
+# --- English text = Enjoy the good life in sunny southern Spain
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.southern_spain"
+msgstr "Enjoy the good life in sunny southern Spain"
+
+# --- English text = View all listings in Spain
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "slide_show.link_to.es"
+msgstr "View all listings in Spain"
+
+# --- English text = Norway. The perfect place for family fun in the snow.
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "-x- slide_show.norway"
+msgstr "Norway. The perfect place for family fun in the snow."
+
+# --- English text = View all listings in Norway
+# --- Location = Slideshow
+# (New: October, 2011)
+msgid "-x- slide_show.link_to.no"
+msgstr "View all listings in Norway"
+
+# --- English text = Beautiful home for exchange on Vancouver Island
+# --- Location = Slideshow
+# (New: October, 2011)
+#, fuzzy
+msgid "slide_show.canada"
+msgstr "Beautiful home for exchange on Vancouver Island"
+
+# --- English text = View all listings in Canada
+# --- Location = Slideshow
+# (New: October, 2011)
+#, fuzzy
+msgid "slide_show.link_to.ca"
+msgstr "View all listings in Canada"
+
+# --- English text = Plans &amp; Pricing
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.headline"
+msgstr "Plans & Pricing"
+
+# --- English text = Sign up with Intervac <strong>TODAY</strong> for only
+# --- Location = Plans and Pricing Box
+# IMPORTANT: Do not translate <strong> and </strong>.  These are used to make the text between them bold
+# (New: October, 2011)
+msgid "pricing_box.text_1"
+msgstr "Sign up with Intervac <strong>TODAY</strong> for only"
+
+# --- English text = {{price}} / month
+# --- Location = Plans and Pricing Box
+# IMPORTANT: Do not translate or remove the placeholder {{price}}
+# (New: October, 2011)
+msgid "pricing_box.price"
+msgstr "{{price}} / month"
+
+# --- English text = possible to pay in other currencies
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.text_2"
+msgstr "possible to pay in other currencies"
+
+# --- English text = See our plans and pricing
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.button.main_text"
+msgstr "See our plans and pricing"
+
+# --- English text = From {{price}}/month
+# --- Location = Plans and Pricing Box
+# IMPORTANT: Do not translate or remove the placeholder {{price}}
+# (New: October, 2011)
+msgid "pricing_box.button.footnote"
+msgstr "From {{price}}/month"
+
+# --- English text = Agents that speak your language
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.national_reps.text"
+msgstr "Agents that speak your language"
+
+# --- English text = Exchange guarantee
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.guarantee.headline"
+msgstr "Exchange guarantee"
+
+# --- English text = Learn more about our guarantee
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.guarantee.text"
+msgstr "Learn more about our guarantee"
+
+# --- English text = Experienced members
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.experienced_members.headline"
+msgstr "Experienced members"
+
+# --- English text = We've been around since 1953
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.experienced_members.text"
+msgstr "We've been around since 1953"
+
+# --- English text = Try before you buy
+# --- Location = Plans and Pricing Box
+# (New: October, 2011)
+msgid "pricing_box.trial_membership.headline"
+msgstr "Try before you buy"
+
+# --- English text = {{length}} days free trial. No credit card required.
+# --- Location = Plans and Pricing Box
+# IMPORTANT: Do not translate the placeholder {{length}} - the system will replace this with the current length of the trial membership.
+# (New: October, 2011)
+msgid "pricing_box.trial_membership.text"
+msgstr "{{length}} days free trial. No credit card required."
+
+# --- English text = To renew any expired membership, please <link>login here</link> and click the <em>Renew Now</em> button at the top of the page. 
+# --- Location = 
+# (New: October, 2011)
+msgid "renew_box.text"
+msgstr "To renew any expired membership, please <link>login here</link> and click the <em>Renew Now</em> button at the top of the page. "
+
+# --- English text = Intervac Turns Sixty!
+# --- Location = Left-hand column 
+# (New: June, 2012)
+msgid "birthday_box.headline"
+msgstr "Intervac Turns Sixty!"
+
+# --- English text = And you are invited to our party at Facebook.  Come join us for some fun competitions and a piece of virtual birthday cake.
+# --- Location = Left-hand column
+# (New: June, 2012)
+msgid "birthday_box.introtext"
+msgstr "And you are invited to our party at Facebook.  Come join us for some fun competitions and a piece of virtual birthday cake."
+
+# --- English text = Find out more here.
+# --- Location = Left-hand column
+# (New: June, 2012)
+msgid "birthday_box.more_link"
+msgstr "Find out more here."

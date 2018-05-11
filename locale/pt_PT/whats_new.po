@@ -1,0 +1,100 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2009-07-23 11:53-0000\n"
+"Last-Translator: Ana Neto <intervac.pt@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = New and Recently Updated Listings
+msgid "headline"
+msgstr "Membros Novos ou com Alterações Recentes"
+
+# --- English text = Could your next exchange partner be here? Search our database for new listings or those with recent updates by selecting from the options below. This search will show you a list of new and updated member profiles.
+msgid "intro_text"
+msgstr "Será que o seu próximo parceiro de troca está aqui? Procure na nossa base de dados os membros novos ou os membros que alteraram a sua ficha recentemente utilizando as opções abaixo. Assim poderá consultar rapidamente os membros novos ou com alterações recentes."
+
+# --- English text = Search Criteria
+msgid "search_criteria"
+msgstr "Critérios de Pesquisa"
+
+# --- English text = New or updated listings in the last
+msgid "updated_within"
+msgstr "Membros novos ou com alterações nos últimos"
+
+# --- English text = Your desired destination
+msgid "destination"
+msgstr "Destino pretendido"
+
+# --- English text = Wanting to exchange with my country
+msgid "my_country"
+msgstr "Membros que queiram efectuar trocas com o meu país"
+
+# --- English text = Include listings with \"Open for all offers\".
+# --- (Jan 2009) - Edited to remove Europe.  Please change local versions.
+msgid "include_o"
+msgstr "Incluir os membros que tenham as opções \"Aberto a todas as ofertas\"."
+
+# --- English text = Display selected listings
+msgid "sort_by"
+msgstr "Ordenar os resultados"
+
+# --- English text = by last update
+msgid "sort.last_update"
+msgstr "por data de actualização"
+
+# --- English text = by country
+msgid "sort.country"
+msgstr "por país"
+
+# --- English text = new listings first
+msgid "sort.new_listings"
+msgstr "fichas novas primeiro"
+
+# --- English text = Search now
+msgid "search_button"
+msgstr "Procurar"
+
+##### --- English text = All countries
+msgid "quick_search.all_countries"
+msgstr "Todos os países"
+
+# --- English text = The listings are updated every hour.
+msgid "update_frequency"
+msgstr "A nossa base de dados é actualizada de hora a hora."
+
+# --- English text = Last updated
+msgid "last_updated"
+msgstr "Última alteração"
+
+# --- English text = Quick Search
+msgid "quick_search.headline"
+msgstr "Pesquisa rápida"
+
+# --- English text = Show all new and changed listings within the last 24 hours.
+msgid "quick_search.24_hours_title"
+msgstr "Mostra todos os membros que se inscreveram ou alteraram as suas fichas nas últimas 24 horas."
+
+# --- English text = Show all new and changed listings within the last 48 hours.
+msgid "quick_search.48_hours_title"
+msgstr "Mostra todos os membros que se inscreveram ou alteraram as suas fichas nas últimas 48 horas."
+
+# --- English text = Show all new and changed listings within the last 4days.
+msgid "quick_search.4_days_title"
+msgstr "Mostra todos os membros que se inscreveram ou alteraram as suas fichas nos últimos 4 dias."
+
+# --- English text = Show all new and changed listings within the last 7 days.
+msgid "quick_search.7_days_title"
+msgstr "Mostra todos os membros que se inscreveram ou alteraram as suas fichas nos últimos 7 dias."
+
+# --- English text = What's New for the last
+msgid "whats_new_for_the_last_duration.headline"
+msgstr "O que há de novo"
+

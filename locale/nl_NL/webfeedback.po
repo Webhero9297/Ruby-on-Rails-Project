@@ -1,0 +1,134 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2012-02-21 18:00+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thank you for taking the time to submit comments about our site.  They have been sent to your local organiser.
+msgid "messages.thanks_comments_sent_to_organizer"
+msgstr "We vinden het heel fijn dat je de tijd hebt genomen om commentaar te geven op onze site. Je bedenkingen werden verstuurd naar de lokale organisator."
+
+# --- English text = Suggestions for Improvement
+msgid "headline"
+msgstr "Voorstellen tot verbetering"
+
+# --- English text = Thanks for taking the time to offer suggestions about our site.  We are always happy to hear from our members and our interested visitors.  Your suggestions and comments guide our further development, so please tell us what you like and how we can improve!
+msgid "introtext"
+msgstr "We vinden het fijn dat je de tijd neemt om commentaar te geven op onze site. Je voorstellen en bedenkingen zullen ons helpen om onze diensten in de toekomst nog te verbeteren!"
+
+# --- English text = My Suggestions
+msgid "visitor.suggestions_headline"
+msgstr "Mijn voorstellen"
+
+# --- English text = Where are you from?
+msgid "visitor.your_country"
+msgstr "Van waar ben je?"
+
+# --- English text = Your Full Name
+msgid "visitor.full_name"
+msgstr "Je volledige naam"
+
+# --- English text = Your Email Address
+msgid "visitor.email"
+msgstr "Je e-mail adres"
+
+# --- English text = Feedback Category
+# --- (Feb 2011) Changed per BD request to: Subject
+msgid "visitor.category"
+msgstr "Onderwerp "
+
+# --- English text = Bad Experience
+msgid "category.bad_experience"
+msgstr "Slechte Ervaring "
+
+# --- English text = Broken Link
+msgid "category.broken_link"
+msgstr "Verbroken Link"
+
+# --- English text = Design and Content
+msgid "category.design_and_content"
+msgstr "Design en inhoud"
+
+# --- English text = Feature Request
+msgid "category.feature_request"
+msgstr "Verzoek voor de toekomst"
+
+# --- English text = Member Documents
+msgid "category.member_documents"
+msgstr "Leden pagina"
+
+# --- English text = Payment
+msgid "category.payment"
+msgstr "Betaling"
+
+# --- English text = Registration
+msgid "category.registration"
+msgstr "Inschrijving"
+
+# --- English text = Usability
+msgid "category.usability"
+msgstr "Gebruiksvriendelijkheid"
+
+# --- English text = Other
+msgid "category.other"
+msgstr "Andere"
+
+# --- English text = Help Text
+msgid "category.help_text"
+msgstr "Hulp tekst"
+
+# --- English text = Page URL
+msgid "visitor.page_url"
+msgstr "URL pagina"
+
+# --- English text = Your Comment
+msgid "comment"
+msgstr "Jouw bedenkingen"
+
+# --- English text = Submit Feedback
+msgid "submit_button"
+msgstr "Je bedenkigen voorleggen"
+
+# --- English text = In order for your feedback to reach the widest audience among our organizers, please leave your comments in English.
+msgid "write_in_english"
+msgstr "Formuleer jouw bedenkingen in het Engels om ze een zo ruim mogelijke weerklank te geven bij onze organisatoren."
+
+# --- English text = ^ Please fill in your name.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.name_is_blank"
+msgstr "^ Vul alstublieft uw naam in. "
+
+# --- English text = ^ Please choose the category that best fits your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_category"
+msgstr "^ Kies de catagorie die voor u het beste past."
+
+# --- English text = ^ Please fill in your email address so that we can contact you if necessary regarding your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.email_address_required"
+msgstr "^ Vul uw email adres in, zodat wij contact met u  kunnen opnemen indien nodig met het oog op uw feedback."
+
+# --- English text = ^ Help us send your feedback to the correct person by choosing the country where you live.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_country"
+msgstr "^ Help ons om uw reactie naar de juiste persoon te sturen door het land te kiezen waarin u woont. "
+
+# --- English text = ^ Leave your feedback in the field labeled \"Your Comment\".
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.comment_required"
+msgstr "^ Laat uw reactie achter in het veld getiteld \"Your Comment\"."
+
+# --- English text = ^ The code your typed in did not match the image.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.captcha_no_match"
+msgstr "^ De code die je hebt ingetypt klopte niet."
+

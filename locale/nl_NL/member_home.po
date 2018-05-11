@@ -1,0 +1,277 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-21 20:25+0100\n"
+"PO-Revision-Date: 2012-02-05 19:42+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Logged in
+msgid "logged_in_as"
+msgstr "Ingelogd"
+
+# --- English text = Welcome,
+# --- (Aug 2009) Changed from "My Dashboard" per AGM 2009
+msgid "system_messages.headline"
+msgstr "Welkom,"
+
+# --- English text = Read Now
+msgid "dashboard.msg_waiting_link"
+msgstr "Lees nu"
+
+# --- English text = Read messages from other members
+msgid "dashboard.msg_waiting_title"
+msgstr "Lees berichten van andere deelnemers"
+
+# --- English text = You have 1 new message.
+msgid "dashboard.messages_waiting.one"
+msgstr "Je hebt 1 nieuw bericht."
+
+# --- English text = You have {{count}} new messages.
+# --- IMPORTANT - The placeholder {{count}} will be automatically replaced with a number.
+# --- PLEASE DO NOT TRANSLATE {{count}}
+msgid "dashboard.messages_waiting.other"
+msgstr "Je hebt {{count}} nieuwe berichten."
+
+# --- English text =
+# --- IMPORTANT : Some languages have a third case. Please leave this entry blank if your language only requires singular and plural.
+msgid "dashboard.messages_waiting.few"
+msgstr ""
+
+# --- English text = It is necessary to finish your registration before we can process your membership.
+msgid "system_messages.finish_registration"
+msgstr "Je moet je inschrijving afmaken, zodat we je deelname kunnen aanmaken."
+
+# --- English text = Next step
+msgid "system_messages.next_step"
+msgstr "Volgende stap"
+
+# --- English text = Pay for my membership here
+msgid "system_messages.pay_here_link"
+msgstr "Betaal hier voor deelname"
+
+# --- English text = Your membership has expired on
+msgid "system_messages.expired_headline"
+msgstr "Je deelname is afgelopen op"
+
+# --- English text = Your membership will expire in {{count}} day.
+msgid "system_messages.expiration_warning.one"
+msgstr "Je deelname zal aflopen over {{count}} dagen."
+
+# --- English text = Your membership will expire in {{count}} days.
+msgid "system_messages.expiration_warning.other"
+msgstr "Je deelname loopt af over {{count}} dagen."
+
+# --- English text = Thank you for renewing your expired membership.
+msgid "system_messages.thanks_renew_expired"
+msgstr "Onze dank voor uw her-inschrijving na het aflopen van uw deelname."
+
+# --- English text = Thank you for renewing your membership.
+msgid "system_messages.thanks_renew"
+msgstr "Onze dank voor uw her-inschrijving."
+
+# --- English text = Thanks for your early renewal! Your current membership is active until
+msgid "system_messages.thanks_early_renewal"
+msgstr "Bedankt voor uw snelle her-inschrijving! Uw deelname is nu geldig tot"
+
+# --- English text = Renew here
+# --- Adjusted text for length from "Renew your membership today" to "Renew"
+msgid "system_messages.renew_today"
+msgstr "Schrijf nog vandaag opnieuw in als deelnemer."
+
+# --- English text = Get more offers from other members. Fill out your <link>Destinations Wishlist</link>.
+# --- Location = This text comes in the dashboard when the member has an active membership but an empty Destinations Wishlist.
+msgid "system_messages.destinations_wishlist"
+msgstr "Probeer meer aanbiedingen te krijgen van andere deelnemers. Vul daarvoor in uw <link>Gewenste Bestemmingen</link>."
+
+# --- SEARCH A SPECIFIC MEMBER ---
+# --- English text = Find a Specific Member
+msgid "member_search_headline"
+msgstr "Zoek een deelnemer"
+
+# --- English text = Go!
+msgid "go"
+msgstr "Ga verder!"
+
+# --- English text = Member ID
+msgid "id"
+msgstr "Identificatie deelnemer :"
+
+# --- English text = Member Name
+msgid "name"
+msgstr "Naam deelnemer :"
+
+# --- USEFUL LINKS ---
+# --- Headline Text ---
+# --- English Text = Useful Links
+msgid "useful_links.headline"
+msgstr "nuttige links"
+
+# --- English text = Register Your Next Exchange
+# --- (26 Jan 10) Edited to read: Create an Exchange Agreement.
+msgid "register_exchange.headline"
+msgstr "Registreer je ruilafspraakl"
+
+# --- English text = My Exchange Agreements
+msgid "register_exchange.my_agreements"
+msgstr "Mijn ruilovereenkomsten"
+
+# --- English text = Review my exchange agreements
+msgid "register_exchange.my_agreements_title"
+msgstr "Bekijk mijn ruilovereenkomsten"
+
+# --- English Text = Register your next home exchange here.
+# => link title is mouseover text
+msgid "register_exchange.text"
+msgstr "Registreer je volgende huisruil hier."
+
+# --- English Text = Choose Membership
+msgid "change_membership.choose"
+msgstr "Kies soort deelname"
+
+# --- English Text = Your Memberships
+msgid "change_membership.your_memberships"
+msgstr "Je deelname"
+
+# --- English Text = Change your password
+# --- (Mar 2009) Edited for perspective (from "your" to "my").
+# --- New English Text = Change My Password
+msgid "useful_links.change_password"
+msgstr "Wijzig je password"
+
+# --- English Text = It's a good idea to change your password from time to time.
+# => link titles are mouseover text
+msgid "useful_links.change_password_title"
+msgstr "Het is een goed idee om je password regelmatig te wijzigen."
+
+# --- English text = Region Search
+msgid "map_region_search_headline"
+msgstr "Zoek regio's"
+
+# --- English text = Look For An Exchange Partner
+msgid "map_search_headline"
+msgstr "Zoek een huisruilpartner"
+
+# --- English text = Click on a region to start a search
+msgid "map_search_text"
+msgstr "Klik op een regio om je zoektocht te starten"
+
+# --- Current English text = The travel dates in your listing are in the past.
+# --- (April 2009)  Edited heavily for length!
+msgid "system_messages.obsolete_dates"
+msgstr "De reisdata in je aanbieding zijn verlopen.  Waarom zou je ze nu niet aanpassen?  Zoniet, verander je verkeerslicht in rood en geef op die manier aan dat je op dit moment niet op zoek bent naar een huisruilpartner."
+
+# --- English text = Update
+msgid "system_messages.obsolete_dates_link"
+msgstr "Update"
+
+# --- English text =  An exchange agreement is waiting for you.
+msgid "dashboard.exchange_agreement_waiting"
+msgstr "Er ligt een ruilovereenkomst voor je klaar."
+
+# --- English text = Welcome back from your exchange with {{partner_name}}. Our system has automatically updated your exchange counter from {{old_exchange_count}} to {{new_exchange_count}}. If you were satisfied with your exchange and your partner, you can act as a reference for them.
+# --- IMPORTANT : Never translate placeholders (example: {{partner_name}})  They will be replaced with information from the database.
+msgid "dashboard.exchange_welcome_back"
+msgstr "Nogmaals Welkom na uw ruilafspraak met {{partner_name}}. Ons systeem heeft automatisch uw afspraken-teller verhoogd van {{old_exchange_count}} naar {{new_exchange_count}}. Als u tevreden bent over uw ruil en over uw partner, kun je je als referentie voor hen opgeven."
+
+# --- English text = Quick Reverse Search
+msgid "reverse_search.headline"
+msgstr "Snelle Omgekeerde Zoekactie"
+
+# --- English text = Show all the members in
+msgid "reverse_search.show_all_members_text"
+msgstr "Toon alle deelnemers in"
+
+# --- English text = Wanting to exchange with my
+msgid "reverse_search.exchange_with_my"
+msgstr "Wil ruilen met mijn"
+
+# --- English text = Your new password has been saved.
+msgid "messages.changed_password_success"
+msgstr "Je nieuwe password is opgeslagen"
+
+# --- English text = As an OpenID user you cannot change your password here.  You must change do this at your OpenID provider.
+msgid "errors.open_id_user"
+msgstr "Als gebruiker kunt u hier uw password niet veranderen. You must do this at your Open ID provider."
+
+# --- English text = This search is available as soon as you have finished filling in your listing details.
+msgid "reverse_search.invisible_listing_error"
+msgstr "De zoekmogelijkheid is beschikbaar zo gauw je de details van je aanbieding aangevuld hebt."
+
+# --- English text By creating an agreement you register your exchange. The badge you are awarded (bronze, silver, gold or platinum) now depends on the exchanges you register. You also become eligible to win a free membership!
+msgid "register_agreement.free_membership"
+msgstr "Door officieel op de site een afspraak te melden, registreer je daarmee uw vakantie. De badge die u verddient ( brons, zilver, goud of platina ) hangt nu af van het aantal afspraken die u registreert. U komt ook in aanmerking om een gratis jaar deelname te winnen!"
+
+# --- English text = Begin the process by entering the member id of your exchange partner below.
+msgid "register_agreement.how_to_begin"
+msgstr "Start het registratieproces door het deelnemersnummer van je ruilpartner hieronder in te vullen."
+
+# --- English text = Click here to begin setting up your home exchange details now.
+msgid "dashboard.new_before_activation"
+msgstr "Start hier met invullen van de gegevens voor je huisruil."
+
+# --- English text = Your membership is active, but your listing remains invisible until complete. Click here to setup your home exchange details.
+msgid "dashboard.active_but_invisible"
+msgstr "Je deelname is actief, maar je aanbieding blijft onzichtbaar tot je gegevens ingevuld zijn. Je moet de details van je aanbieding nog verder volledig invullen."
+
+# --- English text = Your national representative is:
+msgid "contact_your_agent.headline"
+msgstr "Uw nationale organisator is:"
+
+# --- (Feb 2011) Edited per BD request to read => Contact Us
+msgid "contact_your_agent.contact_link"
+msgstr "Neem Contact met ons op"
+
+# --- English text = Click here to send your national representative an email
+msgid "contact_your_agent.contact_link_title"
+msgstr "Klik hier om een e-mailtje naar uw nationale organisator te sturen"
+
+# --- English text = how the exchange agreement tracking system works
+msgid "help.exchange_agreements.headline"
+msgstr "Hoe het Exchange Agreement Tracking Systeem werkt"
+
+# --- English text = Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system.
+msgid "help.exchange_agreements.getting_started"
+msgstr "Zodra een afspraak is vastgelegd, vullen beide partijen hun partner's deelnemersnummer in op ons online-formulier. Beide formulieren worden in ons systeem opgeslagen."
+
+# --- English text = <highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side.
+msgid "help.exchange_agreements.my_perspective"
+msgstr "<highlight>Ieder formulier wordt eerst door de ene partij ingevuld.</highlight> U moet uw eigen gegevens invullen plus verdere informatie van uw kant van de afspraak. Uw partner zal hetzelfde doen voor de andere kant. "
+
+# --- English text = <highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight> 
+msgid "help.exchange_agreements.notification"
+msgstr "<highlight>Uw partner krijgt automatisch bericht per e-mail, wanneer u een ruilafspraak heeft ingezonden.</highlight>"
+
+# --- English text = <highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries.
+msgid "help.exchange_agreements.visibility"
+msgstr "<highlight>U kunt uw afspraken bekijken en uitprinten onder MIJN RUILAFSPRAKEN in het grijze blok links op uw deelnemerspagina.</highlight> Totdat uw partner het andere formulier heeft ingevuld, kunt u alleen hun Deelnemersnummer zien. Later wordt hun deelnemersnummer een link naar uw partner's volledig ingevulde formulier. Jullie beide volledig ingevulde formulieren zijn alleen zichtbaar voor jullie en jullie ruilpartner, plus voor de beide organisatoren in de desbetreffende landen. "
+
+# --- English text = <highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement.
+msgid "help.exchange_agreements.changes_allowed"
+msgstr "<highlight>U kunt uw eigen afspraken-formulier aanpassen/veranderen tot de datum van vertrek. </highlight> Zorg er dus voor dat u uw afspraak goed heeft doorgenomen met uw partner. Uw partner krijgt altijd per e-mail bericht als u een verandering aanbrengt in uw afspraak."
+
+# --- English text = Documented Experience Badges
+msgid "help.exchange_agreements.ee_increased_headline"
+msgstr "Badges voor Uitgevoerde Ruilafspraken"
+
+# --- English text = After your exchange is completed both you and your partner will automatically have an additional registered exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can range from Ready-to-Go (for new members) to Gold (6+ exchanges) and beyond.
+msgid "help.exchange_agreements.ee_increased"
+msgstr "Nadat uw ruil voorbij is, krijgen zowel u als uw partner een hoger getal toegewezen op de teller voor de aantallen geslaagde ruilvakanties. Het scala van geregistreerde ervaringen kan lopen van Ready-to-Go ( voor nieuwe deelnemers ) naar Gold ( meer dan 6 afspraken ) en verder."
+
+# --- English text = Tips and Checklists
+msgid "useful_links.tips_and_checklists"
+msgstr "Tips and Checklijsten"
+
+# --- English text = Become a Full Member
+# --- Location = This button is shown to trial members.  They click it and go to the payment page.
+# (June, 2011 - New)
+msgid "system_messages.full_member_button"
+msgstr "Word Volledig Deelnemer"
+

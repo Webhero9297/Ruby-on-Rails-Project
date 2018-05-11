@@ -1,0 +1,77 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (February, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-09 10:17+0100\n"
+"PO-Revision-Date: 2011-08-24 10:12+0100\n"
+"Last-Translator: gaby zanobetti <info@intervac.it>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Lo scambio Casa con Intervac"
+
+# --- English text = Exchanging your home with Intervac members is easy.  After you have signed up and filled in your listing you can get started right away looking for a potential exchange partner.  Your membership fee covers unlimited exchanges during a specific period of time (usually a year or more) and most of our members exchange several times a year.
+# (June, 2011 - New)
+msgid "page.introtext"
+msgstr "Scambiare la vostra casa con Intervac é facile. Dopo che vi siete iscritti e compilato la vostra pagina  potete iniziare a  cercare un partner potenziale . La quota di iscrizione é valida per un numero illimitato di scambi durante un periodo definito (normalmente un anno o più), e la maggior parte dei nostri soci scambia varie volte durante l'anno"
+
+# --- English text = Thousands of Exchanges Each Year
+# (June, 2011 - New)
+msgid "annual_exchanges.headline"
+msgstr "Migliaia di scambi ogni anno"
+
+# --- English text = Every day of the year intervac members are living in each other's homes, taking care of each other's pets and plants, and experiencing each other's neighborhoods.  Intervac members are host and guest to over {{annual_number_of_exchanges}} per year. And we've been in business since 1953!  When it comes to the security and enjoyablity of a home exchange holiday, those numbers speak volumes for the Intervac way of life.
+# --- IMPORTANT - Do not translate {{annual_number_of_exchanges}} - This is a placeholder that will be filled in by the system when the page is displayed.
+# (June, 2011 - New)
+msgid "annual_exchanges.text"
+msgstr "Ogni giorno dell'anno i soci di Intervac vivono nelle case dei loro partner, prendendsi cura delle piante, degli  animali  e esperimentando i reciproci vicini. I soci di intervac sono ospiti per oltre {{annual_number_of_exchanges}} scambi ogni anno.E noi ci stiamo occupando di loro fin dal 1953.  Questi numeri dicono tutto sul modo di vita di Intervac quando si arriva alla sicurezza e alla piacevoilezza di una vacanza con lo scambio casa."
+
+# --- English text = Many 2nd Generation Exchangers
+# (June, 2011 - New)
+msgid "second_generation.headline"
+msgstr "Molti scambisti della seconda generazione"
+
+# --- English text = And because we've been in business for {{number_of_years_in_business}} years and our concept is still fresh and innovative we are proud to have many second generation exchangers amongst our members.  These are adults who first experienced home exchange as kids and now they are sharing it with their children.
+# (June, 2011 - New)
+msgid "second_generation.text"
+msgstr "E poiché ci occupiamo dello scambio casa  da{{number_of_years_in_business}} anni  e le nostre idee sono sempre fresche i innovative  siamo orgogliosi di avre molti scambisti di seconda generazione fra i nostri soci. Essi sono degli adulti che hanno fatto già sperimentato lo  scambio casa , da bambini, con le loro famiglie  e adesso  stanno condividendo questa esperienza con i loro figli"
+
+# --- English text = Database Mix
+# (June, 2011 - New)
+msgid "database_mix.headline"
+msgstr "Un database con una  accurata combinazione di giovani, pensionati ecc."
+
+# --- English text = Another benefit of our extensive experience is what we refer to as our <italic>database mix</italic>.  This refers to the percentage of members we have in Europe -vs- North America, or English speaking countries -vs- the rest of the world.  We curate these ratios and use them when deciding where to spend our advertising budget so we can be sure that the exchange you are looking for is in our database. it.
+# (June, 2011 - New )
+msgid "database_mix.text"
+msgstr "Un altro vantaggio della nostra lunga esperienza é quello che noi chiamiamo il nostro <italic>database misto </italic>.  Questo si riferisce alla percentuale di soci che abbiamo in Europa  verso il Nord America o i paesi di lingua inglese, e il resto del mondo.Noi facciamo attenzione a questo rapporto, come ad altri e li usiamo quando dobbiamo decidere come spendere il nostro budget.Potete essere certi che lo scambio che state cercando é nel nostro database."
+
+# --- English text = National Representatives in Your Country
+# (June, 2011 - New)
+msgid "personal_service.headline"
+msgstr "Rappresentante Nazionale nel vostro Paese"
+
+# --- English text = We have thirty five national representatives around the world and most of them have been helping members like you find great exchanges for twenty years and more.  Our agents know the ropes, they know the best tips, and they will do everything they can to help you find a great exchange. Intervac is located in your country, and speaks your language.
+# (June, 2011 - Reference - vtour_why_intervac.po => personal_service.text)
+msgid "personal_service.text"
+msgstr "Abbiamo trentacinque Rappresentanti nazionali sparsi nel mondo e la maggior parte di loro ha aiutato soci come voi a trovare scambi bellissimi per venti anni e più. I nostri agenti conoscono i trucchi del mestiere, sanno quali consigli darvi e faranno del loro meglio per aiutarvi a trovare lo scambio che desiderate. Intervac si trova anche nel vostro Paese e parla la vostra lingua."
+
+# --- English text = Detailed Guidlines
+# (June, 2011 - New)
+msgid "detailed_guidlines.headline"
+msgstr " Guida dettagliate e Aiuto online"
+
+# --- English text = We have detailed guidelines for home exchange that are updated regularly in light of our organisers and their members' experience. Our online system is well documented with plenty of help text to give you a boost when find yourself stuck in the middle of the night.
+# --- Location =
+# (June, 2011 - As Is - vtour_why_intervac.po => detailed_guidelines.text)
+msgid "detailed_guidelines.text"
+msgstr "Abbiamo delle linee guida dettagliate per lo scambio casa che vengono regolarmente aggiornate . Il nostro sistema online é ben documentato con molti testi di aiuto  per darvi uno sprone quando vi sentite bloccati."
+

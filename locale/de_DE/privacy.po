@@ -1,0 +1,91 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-11-23 19:11+0100\n"
+"PO-Revision-Date: 2011-10-11 17:16+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Privacy Policy
+msgid "privacy_policy"
+msgstr "Verhaltensweise - vertraulich"
+
+# --- English text = Intervac may only be used for non commercial individual home exchange purposes. When a member joins Intervac and uses the database, he agrees not to contact other members of Intervac for any other purpose than to arrange a personal home exchange. Anyone who contacts Intervac members for any other purpose than to arrange a personal home exchange will be immediately barred from Intervac and face severe penalties starting at, but not limited to, $125 per member contacted.
+msgid "only_non-commercial"
+msgstr "INTERVAC sollte nicht für kommerzielle Zwecke benutzt werden. Wenn Sie  INTERVAC als  Mitglied beitreten und deren  Datenbank benutzen stimmen Sie gleichzeitig zu, mit den anderen INTERVAC-Mitgliedern    n u  r  Kontakt aufzunehmen,   um einen Haustausch zu  arrangieren. Mitglieder, die dies nicht einhalten, werden sofort bei INTERVAC ausgeschlossen und müssen u.U. mit einer Strafe rechnen!"
+
+# --- English text = All listings posted on the Intervac web site may not under any circumstances be posted on another web site or in any other media for any purposes. Any offenders agree that by posting Intervac's listing information on another web site or in any other media for any purposes will be subject to severe penalties starting at, but not limited to, $125 per listing.
+msgid "cross-posting_not_allowed"
+msgstr "Alle INTERVAC-Angebote auf der website sollten unter keinen Umständen für irgendwelche andere Medien-Zwecke weitergegeben werden. Jeder Anbieter stimmt zu, dass es in angegebenem Falle zu einer Strafe kommen kann - bis zu $125/per Mitglied!"
+
+# --- English text = By joining Intervac, you agree that any home exchange, hospitality offer or rental transaction you arrange is between you and the other party. You agree that neither Intervac nor any of its affiliates bear any responsibility for the arrangement and it's completely up to you to find the right partner.
+msgid "responsibility_lies_with_member"
+msgstr "Als INTERVAC- Mitglied sind Sie damit einverstanden, dass jede Haustausch-, Miet-  oder Vermietvereinbarung nur zwischen Ihnen und Ihrem Partner stattfinden. INTERVAC ist nicht verantwortllich, wenn sie keinen Tauschpartner finden!"
+
+# --- English text = Protection of your Personal Information
+msgid "protection_headline"
+msgstr "Schutz Ihrer persönlichen Informationen."
+
+# --- English text = Intervac International Home Exchange Holiday Service is committed to protecting your privacy. We provide this notice to explain our online information practices and the choices you can make about the way information is collected and used. We will only use the information we collect for the purposes of enhancing your Intervac International online service experience. At no time will we sell, trade, rent or disclose your personal information to third parties unless we have obtained consent to such use.
+msgid "intro_and_no_sell"
+msgstr "INTERVAC International - Haus-und Wohnungstausch-Service ist verpflichtet,   Ihre Sicherheit zu schützen.  Wir geben Ihnen hier Informationen, wie Sie in gegebenen Falle vorgehen können. Wir sammeln  diese  Informationen,  um den Wert des INTERVAC-online-Services zu erhöhen!Wir werden  Ihre persönlichen Informationen an  niemals an \"Dritte\"  weiterleiten, es sei denn, wir erhalten dafür die Erlaubnis!"
+
+# --- English text = Security of your Personal Information
+msgid "security_headline"
+msgstr "Sicherheit für Ihre persönlichen Informationen"
+
+# --- English text = Any personal information we collect will be stored in our secure database. The information published at the international database for each listing has been provided by members either directly online or through an Intervac national agent and can be modified by the member at any time, according to database procedure.
+msgid "stored_in_database"
+msgstr "Alle persönlichen Informationen,  werden in unserer Sicherheits-Datenbank gespeichert. Diese Informationen werden jeweils  in der internationalen Datenbank bereitgestellt, entweder von den Mitgliedern direkt per online oder durch einen INTERVAC Organisator. Änderungen können jederzeit  vom Mitglied selbst  vorgenommen werden, anhand der Database-Erläuterungen."
+
+# --- English text = As an Intervac International member, you may occasionally receive e-mail updates from us, including newsletters, special offers we think you will find valuable, important changes to the functionality of the Web site, and new Intervac International services. These e-mail communications may be sent or personalized based on information you provide on the Intervac International database. You may, at any time, decline to receive e-mail notifications by replying to any e-mail with 'REMOVE' in the subject line.
+msgid "receive_email_updates"
+msgstr "Als ein INTERVAC International Mitglied, können Sie hin und wieder e-mail updates von uns erhalten, incl. Newsletters - für spezielle Angebote finden Sie verschiedene, interessante Änderungen auf unserer website und dem neuen INTERVAC International Service. Diese e-mail Kommunikationen sollten gesendet oder persönlich basiert auf Informationen sein,  die Sie der INTERVAC Datenbank zur Verfügung stellen.Sie können zu jeder Zeit  e-mail Mitteilungen ablehnen, indem Sie beim Antworten dieser e-mails auf  \"entfernen\" in  der Themenliste gehen."
+
+# --- English text = IP Addresses and Links
+msgid "ip_and_links_headline"
+msgstr "IP Adressen und links"
+
+# --- English text = IP addresses are not linked to personally identifiable information, and Intervac International does not use those for tracking purposes.
+msgid "ip_not_personal"
+msgstr "IP Adressen sind nicht verlinkt zu Ihren  persönlichen Informationen und INTERVAC  International gebraucht diese nicht  für ihre Zwecke"
+
+# --- English text = Our Web site contains many links to other sites. Intervac International is not responsible for the privacy practices of such other sites. This privacy statement applies solely to information collected by this web site.
+msgid "outside_links_disclaimer"
+msgstr "Unsere website enthält viele links zu anderen Seites. INTERVAC International ist nicht verantwortlich für die vertrauliche Praxis dieser Seiten. Diese vertrauliche Erklärung bestätigt nur Informationen die auf dieser website gesammelt sind."
+
+# --- English text = Cookies
+msgid "cookies_headline"
+msgstr "cookies"
+
+# --- English text = Personal information may also be collected by cookies, which are pieces of data stored by a web browser that contain information relating to use of Intervac International web site. A cookie can not read data off your hard disc or read cookie files created by other sites. Intervac does not use cookies to track personal information and uses them for internal management purposes only. Our web site requires that cookies be active to use member functions.
+msgid "cookies_text"
+msgstr "Persönliche Infos dürfen auch in cookies gesammelt werden. Diese  Daten sind im web browser gespeichert. Dieser nimmt alle Informationen auf hinsichtlich  Ihrer  Benutzung der  INTERVAC International website. Cookies  können  keine Daten der  hard disc lesen oder files anderer Seiten. INTERVAC benutzt keine cookies, um  persönliche Informationen zu bekommen, sie benutzt sie nur für internationales Management! Unsere website erfordert, dass cookies aktiv sind, damit sie die Funktionen der Mitglieder ermöglichen."
+
+# --- English text = If you have any questions about the security at our Web site, please send an e-mail to security@intervac.org.
+msgid "security_questions"
+msgstr "Haben Sie irgendwelche Fragen über die Sicherheit aus unserer website, bitte senden Sie ein mail an security@intervac.orgIf you have any questions about the security at our Web site, please send an e-mail to security@intervac.org."
+
+# --- English text = Contacting Intervac International
+msgid "how_to_contact_headline"
+msgstr "Kontakten Sie INTERVAC International"
+
+# --- English text = If you have any questions about this privacy policy statement or the practices of this site, you can e-mail the-board@intervac.org, or call your National Intervac agent or send direct correspondence to Intervac International Home Exchange Holiday Service, PO Box 561, SE – 114 79 Stockholm, Sweden
+msgid "how_to_contact_text"
+msgstr "Wenn Sie Fragen haben zu den Sicherheitsvorkehrungen auf dieser Seite, senden Sie bitte ein mail an the-board@intervac.org. oder rufen Sie Ihren lokalen Organisator an!Sie können auch direkt mit INTERVAC International Home Excahnge, POBox561, SE 11479 Stockholm/Sweden korrespondieren."
+
+# --- English text = Changes to the Privacy Policy
+msgid "changes_headline"
+msgstr "Änderungen bei  \"Privacy Policy\""
+
+# --- English text = If we decide to change our privacy policy, we will post notice of a privacy policy update on our Home page so that our users may view our updated policy and be aware on an ongoing basis of what information we collect, how we use it, and under which circumstances, if any, we disclose it. 
+msgid "changes_text"
+msgstr "Wenn Änderungen Ihrer Daten anstehen, sollten Sie diese in Ihrem Angebot angeben. Damit können Sie den entsprechenden Tauschpartnern Ihr aktuelles Angebot anzeigen und bekanntmachen."
+

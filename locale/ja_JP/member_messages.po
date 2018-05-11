@@ -1,0 +1,355 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-01-18 16:00+0200\n"
+"PO-Revision-Date: 2011-12-22 14:07+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Message Center
+msgid "submenu.headline"
+msgstr "メッセージ　ｾﾝﾀｰ"
+
+# --- English text = Inbox
+msgid "submenu.inbox"
+msgstr "受信箱"
+
+# --- English text = Read waiting messages
+msgid "submenu.inbox_title"
+msgstr "返事を待っているメッセージを読む"
+
+# --- English text = Send new message
+msgid "submenu.send_new"
+msgstr "新しいメッセージを送る"
+
+# --- English text = Send a message to a member
+msgid "submenu.send_new_title"
+msgstr "メンバーにメッセージを送る"
+
+# --- English text = Sent Messages
+msgid "submenu.sent_messages"
+msgstr "メッセージを送信済み"
+
+# --- English text = Look at messages you have sent
+msgid "submenu.sent_messages_title"
+msgstr "送信済みメッセージを見る"
+
+# --- English text = Message Archive
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "submenu.archive"
+msgstr "受信トレイ（保管）"
+
+# --- English text = Look at messages in the archive
+msgid "submenu.archive_title"
+msgstr "保存メッセージを見る"
+
+# --- English text = Administer Templates
+msgid "submenu.templates"
+msgstr "テンプレートの取り扱い"
+
+# --- English text = Write and save message templates.
+msgid "submenu.templates_title"
+msgstr "テンプレイトメッセージを書いて保存"
+
+# --- English text = Create a Message Template
+msgid "templates.headline"
+msgstr "テンプレートメッセージを作る"
+
+# --- English text = Create a Message Template
+msgid "templates.use_headline"
+msgstr "テンプレートメッセージを作る"
+
+# --- English text = The type of template I want to write is
+msgid "templates.intro_text"
+msgstr "書きたいテンプレートのタイプは、"
+
+# --- English text = Reply
+msgid "templates.reply_label"
+msgstr "返答"
+
+# --- English text = Answer Template
+msgid "templates.answer_template"
+msgstr "テンプレートに返答する"
+
+# --- English text = Contact Template
+msgid "templates.contact_template"
+msgstr "テンプレートにコンタクト"
+
+# --- English text = Load
+msgid "templates.load"
+msgstr "読み込む"
+
+# --- English text = Template Name
+msgid "templates.name"
+msgstr "テンプレートの名前"
+
+# --- English text = Message Subject
+msgid "templates.subject"
+msgstr "メッセージの主題"
+
+# --- English text = Save My Template
+msgid "templates.save_button"
+msgstr "私のテンプレートを保存する"
+
+# --- English text = Your template has been saved.
+msgid "templates.successful_save"
+msgstr "あなたのテンプレートは保存されました。"
+
+# --- English text = Delete this template
+msgid "templates.delete_template"
+msgstr "このテンプレートを削除する"
+
+# --- English text = Are you sure you want to delete this template?
+msgid "templates.confirm_delete"
+msgstr "あなたは本当にこのテンプレートを削除したいのですか？"
+
+# --- English text = Use a template
+msgid "templates.use_a_template"
+msgstr "テンプレートを用いる"
+
+# --- English text = Messages you have sent
+msgid "sent_messages.headline"
+msgstr "送信済みメッセージ"
+
+# --- English text = Write a new message
+msgid "new_message.headline"
+msgstr "新しいメッセージを書く"
+
+# --- English text = This member speaks
+# --- Example: "This member speaks German, French, English"
+# --- The system fills in the languages of the receiving member for you.
+msgid "new_message.language"
+msgstr "この会員が使用する言語："
+
+# --- English text = This member does not accept rental offers
+# --- This message appears if the sending member has RO in his listing, and the receiving member has "No Rental Offers Accepted" in thiers.
+msgid "new_message.no_rental_accepted"
+msgstr "この会員は賃貸のオファーは受け付けません。"
+
+# --- English text = Send Message
+msgid "new_message.send_button"
+msgstr "メッセージを送る"
+
+# --- English text = From
+msgid "from"
+msgstr "差出人："
+
+# --- English text = To
+msgid "to"
+msgstr "相手先："
+
+# --- English text = Subject
+msgid "subject"
+msgstr "主題"
+
+# --- English text = create new
+msgid "templates.create_new"
+msgstr "新しく作る"
+
+# --- English text = You read this message on
+# --- Example:  You read this message on: 13 July, 2009
+msgid "message_received.message_read_on"
+msgstr "このメッセージを読んだ日："
+
+# --- English text = You have not read this message yet
+# --- For received messages
+msgid "message_received.message_not_read"
+msgstr "このメッセージは未開封です"
+
+# --- English text = Your message has not been read yet
+msgid "message_sent.not_read"
+msgstr "あなたのメッセージはまだ未読です。"
+
+# --- English text = Sent on
+# --- Used to label a date when a message was sent.  Example: -- Sent on: 9 July, 2009
+msgid "sent_on"
+msgstr "送付日："
+
+# --- English text = Received on
+# --- Used to label a date when a message was sent.  Example: -- Received on: 9 July, 2009
+msgid "received_on"
+msgstr "受信日："
+
+# --- English text = This message has been answered on
+# --- Used to label a date when a message was answered.  Example: -- Ths message has been answered on: 9 July, 2009
+msgid "message_sent.answered_on"
+msgstr "このメッセージの送信日："
+
+# --- English text = Your message has been read on
+# --- Used to label a date when a message was read.  Example: -- Your message has been read on: 9 July, 2009
+msgid "message_sent.read_on"
+msgstr "あなたのメッセージが開封された日："
+
+# --- English text = Welcome to the Intervac In-House Messaging System.  Messages that you send here will never be lost in foreign spam filters again.  Because they are messages and not email you can login any time and from any internet connection to check for offers, or contact exchange partners.
+msgid "help_send_message.intro_text"
+msgstr "インターバック専用メッセージシステムへようこそ。あなたが送ったメッセージは外国の迷惑メールフィルターでなくなってしまうようなことはありません。それはメッセージであって、メールではないからです。あなたはいつでもログインし、どのインターネット・コネクションからもオファーをチェックしたり、又はエクスチェンジのパートナーにコンタクトを取ったりすることが出来ます。　"
+
+# --- English text = It's easy to send a message
+msgid "help_send_message.howto_headline"
+msgstr "メッセージを送るのは簡単です"
+
+# --- English text = Click on the search button in the orange navigation.
+msgid "help_send_message.howto_step_1"
+msgstr "オレンジ色のナビゲーションの中の検索ボタンをクリックする。"
+
+# --- English text = Do a search to find a possible exchange partner.
+msgid "help_send_message.howto_step_2"
+msgstr "可能性のあるエクスチェンジの相手先を見つけるために検索する。"
+
+# --- English text = While viewing the other member's listing click the button: Send Message.
+msgid "help_send_message.howto_step_3"
+msgstr "他の会員のリスティングを見ながらボタンをクリックする：　メッセージの送信"
+
+# --- English text = Write a message to your prospective exchange partner.
+msgid "help_send_message.howto_step_4"
+msgstr "見込みのありそうなエクスチェンジのパートナーにメッセージを書く。"
+
+# --- English text = Sorry, expired or invisible members can't use our messaging system.
+msgid "errors.expired_or_invisible"
+msgstr "残念ながら、期限切れ又は他からはまだ見られない状態である会員は我々のメッセージ・システムを使うことは出来ません。"
+
+# --- English text = You haven't sent any messages yet.
+msgid "info.no_messages_sent_yet"
+msgstr "まだメッセージは送られていません"
+
+# --- English text = You haven't answered any messages yet.
+msgid "info.no_messages_answered_yet"
+msgstr "あなたはまだどのメッセージに返答していません"
+
+# --- English text = Your message has been sent!
+msgid "info.message_sent"
+msgstr "あなたのメッセージは送られました！"
+
+# --- English text = Please don't forget to include your answer.
+msgid "errors.forgotten_answer_text"
+msgstr "どうぞあなたの答えを含める事を忘れないで下さい、"
+
+# --- English text = Thank you, your answer has been sent.
+msgid "info.answer_sent"
+msgstr "有難う、あなたの返事は送られました。"
+
+# --- English text = Message Templates
+msgid "edit_template.headline"
+msgstr "メッセージテンプレート"
+
+# --- English text = Edit an existing template
+msgid "edit_template.subhead"
+msgstr "既存のテンプレートを編集する"
+
+# --- English text = Choose a template to edit
+msgid "edit_template.choose_template"
+msgstr "編集するテンプレートを選択する"
+
+# --- English text = Do you really want to delete this message template?
+msgid "delete_template.confirm"
+msgstr "本当にこのメッセージ・テンプレートを削除したいですか？"
+
+# --- English text = Answered Messages
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "answered_messages.headline"
+msgstr "返答済みメッセージ"
+
+# --- English text = Do you want to send a copy of this message to your email address?
+msgid "send_as_email"
+msgstr "このメッセージのコピーをあなたのメールアドレスへ送りたいですか？"
+
+# --- English text = Received Message
+msgid "received_message.headline"
+msgstr "受信メッセージ"
+
+# --- English text = Sent Message
+msgid "sent_message.headline"
+msgstr "送信済みメッセージ"
+
+# --- English text = Messages for
+msgid "dashboard.for_label"
+msgstr "メッセージ"
+
+# --- English text = Listing
+msgid "dashboard.listing_label"
+msgstr "リスティング"
+
+# --- English text = unanswered messages
+msgid "dashboard.unanswered_messages_label"
+msgstr "未返答メッセージ"
+
+# --- English text = has <highlight>{{count}}</highlight> unread messages
+# --- IMPORTANT => the placeholder {{count}} will be replaced with the number of unread messages.
+# --- IMPORTANT => If you want to have the number of unread messages in bold text be sure not to remove or translate the <highlight> or </highlight> tags.
+msgid "dashboard.unread_messages"
+msgstr "未開封メッセージ： <highlight>{{count}}</highlight> "
+
+# --- English text = This mail does not appear to have been answered. Are you sure you want to delete it?
+# --- Location = This message is shown to members when they want to delete an unanswered message.
+msgid "unanswered_messages.delete_warning"
+msgstr "このメールは返信を受け取っていません。本当に削除したいのですか？"
+
+# --- English text = Are you sure you want to delete this message?
+# --- Location = This message is shown to members when they want to delete a message.
+msgid "answered_messages.delete_warning"
+msgstr "あなたはこのメッセージを本当に削除したいのですか？"
+
+# --- English text = Delete Message
+msgid "delete_message.alt_tag"
+msgstr "このメッセージを削除する。"
+
+# --- English text = Send a jpg, pdf, doc or docx as attachment
+# --- Location = Text at the add attachment box
+# (June, 2011 - New)
+msgid "new_message.attachment"
+msgstr " jpg、 pdf　doc 又は docx をアタッチして送付してください。"
+
+# --- English text = Sorry, this family has not yet decided to join Intervac as full members.  Until they do, contacting them is not possible.
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_to_trial_members"
+msgstr "残念ですが、この家族はまだインターバックの正会員ではありません。会員登録を済ませるまでは、コンタクトは不可能です。"
+
+# --- English text = Sorry, trial members are not allowed to contact other members. If you are ready to contact a member about an exchange, you can <link>click here</link> to pay for your membership.
+# --- IMPORTANT: Do not translate the text <link> or </link> and do not leave them away.  They make a link to the payment page of the text in the middle.  
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_for_trial_members"
+msgstr "残念ながら、トライアル期間中は他の会員とコンタクトを取ることは出来ません。もし会員とエクスチェンジのコンタクトを取りたい場合は、<link>ここをクリックclick here</link> して、あなたの会員資格ための会費を支払ってください。"
+
+# --- English Text = Sorry, only full members can read incoming messages.
+# --- (December, 2011 - New Text)
+msgid "errors.no_inbox_for_trial_members"
+msgstr "Sorry, only full members can read incoming messages."
+
+# --- English text = Thank you, your message has been forwarded to our member with the listing {{member_id}}.  You will be able to access copies of your sent messages as well as read any replies you receive as soon as you have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_full"
+msgstr "Thank you, your message has been forwarded to our member with the listing {{member_id}}.  You will be able to access copies of your sent messages as well as read any replies you receive as soon as you have paid for a full membership."
+
+# --- English text = Thank you for replying to trial member: {{member_id}}. Your message has been saved in your sent box and an email notification has been sent to {{member_id}} informing them of a waiting reply. Please be patient, trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.reply_to_trial"
+msgstr "Thank you for replying to trial member: {{member_id}}. Your message has been saved in your sent box and an email notification has been sent to {{member_id}} informing them of a waiting reply. <p_break>Please be patient, trial members are not able to read messages until they have paid for a full membership.</p_break>"
+
+# --- English text = Thank you, your message has been forwarded to the trial member with the listing {{member_id}}. Trial members can not read messages, but we have sent a notification email to let them know that they have a message from you waiting. The email includes a link to the public version of your listing. We appreciate your encouraging people experiencing Intervac for the first time with your offer of interest in an exchange with them.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- IMPORTANT: Do not translate the tags: <p_break> and </p_break>.  These give the illusion of three paragraphs instead of one for easier reading.
+# --- (December 2011 - New Text)
+msgid "message_sent.full_to_trial"
+msgstr "Thank you, your message has been forwarded to the trial member with the listing {{member_id}}. <p_break>Trial members can not read messages, but we have sent a notification email to let them know that they have a message from you waiting. The email includes a link to the public version of your listing.</p_break> <p_break>We appreciate your encouraging people experiencing Intervac for the first time with your offer of interest in an exchange with them.</p_break>"
+
+# --- English text = Thank you, your message has been stored in trial member {{member_id}}'s inbox. Please be patient for the reply, Intervac's messaging system is available for full members. Trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_trial"
+msgstr "Thank you, your message has been stored in trial member {{member_id}}'s inbox. Please be patient for the reply, Intervac's messaging system is available for full members. Trial members are not able to read messages until they have paid for a full membership."
+

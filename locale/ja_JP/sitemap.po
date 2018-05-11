@@ -1,0 +1,142 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2010-08-28 18:38+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Our Online Services - Sitemap
+msgid "headline"
+msgstr "オンラインサービス・サイトマップ"
+
+# --- English text = Open To The Public
+msgid "subhead"
+msgstr "全員へオープン"
+
+# --- English text = Contact Our Agents Worldwide
+msgid "contact"
+msgstr "世界のエージェントへのコンタクト"
+
+# --- English text = Find contact names and addresses for Intervac Agents worldwide.
+msgid "contact_text"
+msgstr "世界のインターバック・エージェントの名前と住所を見つける。"
+
+# --- English text = Visitors Tour
+msgid "visitors_tour"
+msgstr "訪問ツアー"
+
+# --- English text = Take our visitors tour to find out all about the wonderful world of home exchange.
+msgid "visitors_tour_text"
+msgstr "訪問ツアーでホームエクスチェンジのすばらしい世界のすべてを見せる。"
+
+# --- English text = Online Registration
+msgid "online_registration"
+msgstr "オンライン登録"
+
+# --- English text = Use our online registration form to become an Intervac member, and begin planning your next holiday adventure.
+msgid "online_registration_text"
+msgstr "インターバックの会員になるためにオンライン登録を使う。そして次の興奮あふれる休暇の計画を立て始める。"
+
+# --- English text = Preview Our Database
+msgid "preview_database"
+msgstr "我々のデーターベースのプレビュー"
+
+# --- English text = Take a few minutes to have a look around our database and search area.
+msgid "preview_database_text"
+msgstr "データーベースと検索エリアをみるために数分かかります。"
+
+# --- English text = Preview Our Last Minute Listings
+msgid "preview_hotlist"
+msgstr "ラーストミニッツ・リストのプレビュー"
+
+# --- English text = Our Hot List is an exclusive service especially designed to offer members searching last minute exchanges a special place to find each other.
+msgid "preview_hotlist_text"
+msgstr "ホットリストは特別なサービスです。それはラーストミニッツでの交換を検索している会員に特別な場所を提供するためのものです。"
+
+# --- English text = Preview Member Statistics (Example)
+msgid "preview_member_stats"
+msgstr "会員のデータのプレビュー（例）"
+
+# --- English text = Here you can preview our individual statistics.
+msgid "preview_member_stats_text"
+msgstr "ここでは個々のデータをプレビューすることが出来ます。"
+
+# --- English text = For Members Only
+msgid "members_only"
+msgstr "会員のみ"
+
+# --- English text = Members please login to
+# --- (Dec 2008) Edited --- Member login => Members please login to
+msgid "login"
+msgstr "会員はログインしてください"
+
+# --- English text = Edit profile details
+msgid "edit_profile"
+msgstr "プロフィールの詳細を編集する"
+
+# --- English text = Search by country/region
+msgid "search_by_country"
+msgstr "国/地域で検索する"
+
+# --- English text = View last minute listings
+msgid "view_hotlist"
+msgstr "ラストミニット・リストを見る"
+
+# --- English text = View listing statistics
+msgid "view_statistics"
+msgstr "リスティングのデータを見る"
+
+# --- English text = Change you password
+msgid "change_password"
+msgstr "パスワードを変更する"
+
+# --- English text = Upload your main photo
+msgid "upload_photo"
+msgstr "主の写真をアップロードする"
+
+# --- English text = Add more text and photos
+# --- (Dec. 2008) Edited slightly
+msgid "extra_text_photo"
+msgstr "本文と写真を追加する"
+
+# --- English text = Search new listings
+msgid "search_new_listings"
+msgstr "新しいリスティングを検索する"
+
+# --- English text = Administer Favorites
+# --- (Dec 2008)   New text
+msgid "favorites"
+msgstr "お気に入りを管理する"
+
+# --- English text = Contact another member
+# --- (Dec 2008)  New Text
+msgid "send_message"
+msgstr "他の会員にコンタクトを取る"
+
+# --- English text = Search a specific member
+# --- (Dec. 2008 )  New Text
+msgid "search_specific_member"
+msgstr "特定の会員を検索する"
+
+# --- English text = Set Match Alert criteria
+# --- (Dec 2008)  New Text
+msgid "match_alert"
+msgstr "マッチアラートの条件を定める"
+
+# --- English text = Check your messages
+# --- (Dec 2008)  New Text
+msgid "check_messages"
+msgstr "あなたのメッセージをチェックする"
+
+# --- English text = Write message templates
+msgid "write_message_templates"
+msgstr "メッセージをテンプレイトに書く条件"
+

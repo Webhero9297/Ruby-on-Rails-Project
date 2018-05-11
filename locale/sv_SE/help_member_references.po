@@ -1,0 +1,95 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-05-22 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = About Member References
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "headline"
+msgstr "OM Member References"
+
+# --- English text = References are a way to show other members that you are a good exchange party. When you agree to act as your exchange partner's reference, you are agreeing to vouch for them as reliable and responsible exchange partners. 
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "introtext"
+msgstr "Referenser är ett sätt att visa andra medlemmar att du är en bra utbytes partner. När du/ni samtycker till att agera som referens till tidigare byten, ger du en indikation att denna medlem ansåg du/ni vara en bra och ansvarsfull utbyte partners."
+
+# --- English text = Intervac has two different types of references: confirmed and unconfirmed.  A confirmed reference is of course the best as it states that both parties have confirmed thier good will.  The label confirmed reference is given when the reference giver has chosen <highlight>Yes</highlight> to the question: <highlight>Act as Reference?</highlight> and the reference receiver has chosen <highlight>Yes</highlight> to the question <highlight>Allow as Reference?</highlight>
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "confirmed_unconfirmed.introtext"
+msgstr "Intervac medlemmar har två olika typer av referenser: bekräftade och obekräftade En bekräftad referens är naturligtvis det bästa eftersom det står att båda parter har bekräftat. Etiketten bekräftade referens visas när den andra medlemmen har valt <highlight> Ja </highlight> på frågan: <highlight> vara referens </highlight> och referens medlemmen har valt <highlight> Ja </highlight> på frågan <highlight> Tillåt att visas som Referens </highlight>?"
+
+# --- English text = Why are some references unconfirmed?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.headline"
+msgstr "Varför är vissa referenser inte bekr?"
+
+# --- English text = Unconfirmed references are usually because either the member's exchange partner has not yet specifically chosen <highlight>Yes</highlight> or <highlight>No</highlight> to the question <highlight>Act as Reference?</highlight>, or it relates to an older exchange and the other member does not currently have an active membership. This could be the case especially with exchanges before April, 2011 when we launched the expanded version of our Exchange Agreements and Member References modules.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.introtext"
+msgstr "Obekräftade referenser är oftast på grund av att den andra medlemmen/ bytes-partnern har ännu inte svarat <highlight> Ja </highlight> eller <highlight> Nej </highlight> på förfrågan <highlight> att vara referens? </highlight>, eller att detta byte hänför sig till en äldre utbyte och denna/dessa medlemmar har för närvarande inte ett aktivt medlemskap. Detta kan vara fallet i synnerhet med utbyte före april 2011 när vi lanserade den nya versionen av vår Online – bytesöverenskommelser."
+
+# --- English text = After you return from your exchange it's a good idea to log in and choose whether or not you want to act as your partner's reference. 
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "after_return.text"
+msgstr "När du återvänder från ditt/ert byte kan det vara en bra idé att logga in och välja om du vill agera som din bytespartners referens."
+
+# --- English text = Act as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.headline"
+msgstr "Agera som referens?"
+
+# --- English text = Were you satisfied with your exchange and your partner? Select <highlight>Yes</highlight> to add your member id to your partner's list of confirmed exchange references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.satisfied"
+msgstr "Were you satisfied with your exchange and your partner? Select <highlight>Yes</highlight> to add your member id to your partner's list of confirmed exchange references."
+
+# --- English text = Dissatisfied with your exchange or your partner? Choose <highlight>No</highlight> in this box to keep your id from being displayed as an unconfirmed reference.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.dissatisfied"
+msgstr "Missnöjd med ditt utbyte eller din partner? Välj <highlight> Nej </ highlight> i denna ruta för att du skall visas som en obekräftad referens."
+
+# --- English text = Allow as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.headline"
+msgstr "Tillåt som referens?"
+
+# --- English text = This control allows you the final say as to which of your exchange partners are displayed in your reference list. 
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.introtext"
+msgstr "Här kan du kontrollera vilka av dina bytespartner du vill visa i din referenslista."
+
+# --- English text = If you were satisfied, you don't need to do anything here, <highlight>Yes<highlight> is the default so as soon as your partner chooses <highlight>Yes<highlight> in his <highlight>Acts as Reference</highlight>, his member id will be added to your confirmed references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.satisfied"
+msgstr "Om medlemsreferenser"
+
+# --- English text = Dissatisfied? Choose <hightlight>No</highlight> here If you prefer that a former partner not be allowed to act as your reference.  This will over-ride any choice made by your partner and their member number will not be displayed in your references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.dissatisfied"
+msgstr "Missnöjd? Välj <hightlight> Nej </ highlight här> Om du föredrar att en före detta partner inte tillåtas fungera som referens. Detta kommer i stället att åsidosätta eventuella val som din partner och deras medlemsnummer kommer inte att visas i din referens lista"
+
+# --- English text = Added as Reference
+# --- Location = Headline after all past agreements are listed
+msgid "added_as_reference.headline"
+msgstr "Tillagd som referens"
+
+# --- English text = Why does it say Added as Reference instead of showing the icons?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "added_as_reference.question"
+msgstr "Varför står det införas med referensnummer istället för att visa ikoner?"
+
+# --- English text = These are references you have added afterwards for which there is no exchange agreement on record.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+#, fuzzy
+msgid "added_as_reference.answer"
+msgstr "These are references you have added afterwards for which there is no exchange agreement on record."

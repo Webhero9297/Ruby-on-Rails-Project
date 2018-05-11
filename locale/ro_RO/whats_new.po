@@ -1,0 +1,100 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2010-06-20 17:50+0200\n"
+"Last-Translator: carmen duta <info@intervac.ro>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = New and Recently Updated Listings
+msgid "headline"
+msgstr "Listari Noi sau Recent Modificate"
+
+# --- English text = Could your next exchange partner be here? Search our database for new listings or those with recent updates by selecting from the options below. This search will show you a list of new and updated member profiles.
+msgid "intro_text"
+msgstr "Partenerul dumneavoastra pentru urmatorul  schimb ar putea fi  aici? Cauta in baza noastra de date listarile noi sau cele actualizate recent prin selectarea optiunilor de mai jos.Această căutare vă va arăta o listă de profiluri noi şi actualizate ale membrilor nostri."
+
+# --- English text = Search Criteria
+msgid "search_criteria"
+msgstr "Criterii de Cautare"
+
+# --- English text = New or updated listings in the last
+msgid "updated_within"
+msgstr "Listari noi sau modificate"
+
+# --- English text = Your desired destination
+msgid "destination"
+msgstr "Destinatia preferata"
+
+# --- English text = Wanting to exchange with my country
+msgid "my_country"
+msgstr "Doresc sa schimb in tara mea"
+
+# --- English text = Include listings with \"Open for all offers\".
+# --- (Jan 2009) - Edited to remove Europe.  Please change local versions.
+msgid "include_o"
+msgstr "Include listari de genul\"Orice Oferta\"."
+
+# --- English text = Display selected listings
+msgid "sort_by"
+msgstr "Clasati listarile selectionate"
+
+# --- English text = by last update
+msgid "sort.last_update"
+msgstr "Dupa cea mai recenta modificare"
+
+# --- English text = by country
+msgid "sort.country"
+msgstr "Dupa tara"
+
+# --- English text = new listings first
+msgid "sort.new_listings"
+msgstr "Listari noi in primul rand"
+
+# --- English text = Search now
+msgid "search_button"
+msgstr "Cauta acum"
+
+##### --- English text = All countries
+msgid "quick_search.all_countries"
+msgstr "Toate tarile"
+
+# --- English text = The listings are updated every hour.
+msgid "update_frequency"
+msgstr "Listarile sunt actualizate in fiecare ora."
+
+# --- English text = Last updated
+msgid "last_updated"
+msgstr "Ultimele actualizari"
+
+# --- English text = Quick Search
+msgid "quick_search.headline"
+msgstr "Cautare rapida"
+
+# --- English text = Show all new and changed listings within the last 24 hours.
+msgid "quick_search.24_hours_title"
+msgstr "Arata toate listarile noi si modificate in ultimele 24 ore"
+
+# --- English text = Show all new and changed listings within the last 48 hours.
+msgid "quick_search.48_hours_title"
+msgstr "Arata toate listarile noi si modificate in ultimele 48 ore"
+
+# --- English text = Show all new and changed listings within the last 4days.
+msgid "quick_search.4_days_title"
+msgstr "Arata toate listarile noi si modificate in ultimele 4 zile."
+
+# --- English text = Show all new and changed listings within the last 7 days.
+msgid "quick_search.7_days_title"
+msgstr "Arata toate listarile noi si modificate in ultimele 7 zile."
+
+# --- English text = What's New In The Last
+msgid "whats_new_for_the_last_duration.headline"
+msgstr "Care sunt ultimele noutati"
+

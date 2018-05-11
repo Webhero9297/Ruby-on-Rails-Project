@@ -1,0 +1,125 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-02 18:17+0100\n"
+"PO-Revision-Date: 2011-11-01 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thinking About Home Exchange
+# --- Location = Main headline
+# (June 2011)
+#, fuzzy
+msgid "page.headline"
+msgstr "Thinking About Home Exchange"
+
+# --- English text = So, if you've made it this far you are probably wondering what all you are going to need to think about before you make your first vacation swap.  At the beginning, it's a bunch of things, but once you've got them in place it'll be a lot easier the next time around.  Below we've gathered together a list of suggestions to help you feel secure in your decision.
+# --- Location = Introductory text
+# (June 2011)
+#, fuzzy
+msgid "page.introtext"
+msgstr "So, if you've made it this far you are probably wondering what all you are going to need to think about before you make your first vacation swap.  At the beginning, it's a bunch of things, but once you've got them in place it'll be a lot easier the next time around.  Below we've gathered together a list of suggestions to help you feel secure in your decision."
+
+# --- English text = How Do I Find The Perfect Exchange Partner?
+# (June 2011) 
+#, fuzzy
+msgid "perfect_partner.headline"
+msgstr "How do I find the perfect exchange partner?"
+
+# --- English text = First, it's important to know that it takes some initiative to make an exchange happen.  We try to make it as simple as possible though.  Our members contact each other directly using our integrated messaging system to start a dialog that could lead to an exchange.  It is not unusual to make and receive several offers  before you find just the right partner.  Our online system supports many different types of alternative holiday forms.
+# (June 2011)
+#, fuzzy
+msgid "perfect_partner.text"
+msgstr "First, it's important to know that it takes some initiative to make an exchange happen.  We try to make it as simple as possible though.  Our members contact each other directly using our integrated messaging system to start a dialog that could lead to an exchange.  It is not unusual to make and receive several offers  before you find just the right partner.  Our online system supports many different types of alternative holiday forms."
+
+# --- English text = How can I be sure that the exchange will be <italic>equal</italic>?
+# (June 2011)
+#, fuzzy
+msgid "equal_exchange.headline"
+msgstr "How can I be sure that the exchange will be <italic>equal</italic>?"
+
+# --- English text = Many exchangers with large homes would be happy to trade for an adequate apartment/condominium in central Paris, London, Rome or San Francisco.  Others are looking for a quiet getaway.  An exchange is "equal" when both parties are satisfied with their arrangements. 
+# (June 2011)
+#, fuzzy
+msgid "equal_exchange.text"
+msgstr "Many exchangers with large homes would be happy to trade for an adequate apartment/condominium in central Paris, London, Rome or San Francisco.  Others are looking for a quiet getaway.  An exchange is "equal" when both parties are satisfied with their arrangements. "
+
+# --- English text = Who would ever want to come to my area?
+# (June 2011)
+#, fuzzy
+msgid "visit_my_area.headline"
+msgstr "Who would ever want to come to my area?"
+
+# --- English text = You'll be surprised!  Take some time writing extra text for your listing and tell potential exchange partners all about your neighborhood, why you love living there, what can they see and do in the region.  Don't forget, your partner will be on holiday and has time to explore.  Everyone lives near something interesting, because "interesting" is often nothing more than the unfamiliar.
+# (June 2011)
+#, fuzzy
+msgid "visit_my_area.text"
+msgstr "You'll be surprised!  Take some time writing extra text for your listing and tell potential exchange partners all about your neighborhood, why you love living there, what can they see and do in the region.  Don't forget, your partner will be on holiday and has time to explore.  Everyone lives near something interesting, because \"interesting\" is often nothing more than the unfamiliar."
+
+# --- English text = What about exchanging cars?
+# (June 2011)
+#, fuzzy
+msgid "exchange_cars.headline"
+msgstr "What about exchanging cars?"
+
+# --- English text = In many cases an exchange of cars is an important part of the exchange deal, but not always.  It's a good idea to think clearly about whether you are comfortable driving in New York City or London.
+# (June 2011)
+#, fuzzy
+msgid "exchange_cars.text"
+msgstr "In many cases an exchange of cars is an important part of the exchange deal, but not always.  It's a good idea to think clearly about whether you are comfortable driving in New York City or London."
+
+# --- English text = As for insurance, often your car insurance policy will already cover guest drivers. If it doesn't you can supplement your regular policy with additional short-term specific coverage for the length of your exchange. It is important to discuss this with your insurance agent and your exchange partner and agree in advance how to handle the responsibilities and liabilities for the financial aspect.
+# (June 2011)
+#, fuzzy
+msgid "exchange_cars.insurance_text"
+msgstr "As for insurance, often your car insurance policy will already cover guest drivers. If it doesn't you can supplement your regular policy with additional short-term specific coverage for the length of your exchange. It is important to discuss this with your insurance agent and your exchange partner and agree in advance how to handle the responsibilities and liabilities for the financial aspect."
+
+# --- English text = Speaking of insurance, what about my home insurance?
+# (June 2011)
+#, fuzzy
+msgid "home_insurance.headline"
+msgstr "Speaking of insurance, what about my home insurance?"
+
+# --- English text = Do check with your insurance provider and let them know that you will have guests while you are gone. Most companies will tell you that an unoccupied home is a bigger risk for theft and vandalism than an occupied one and they are happy to know that yours won't be sitting empty while you are away.  Ask if there are any special arrangements you need to make, and don't forget to let your exchange partner know about any insurance requirements for locking doors, activating alarm systems, etc.  This should be included in the information packet about your home that you will leave for them.
+# (June 2011)
+#, fuzzy
+msgid "home_insurance.text"
+msgstr "Do check with your insurance provider and let them know that you will have guests while you are gone. Most companies will tell you that an unoccupied home is a bigger risk for theft and vandalism than an occupied one and they are happy to know that yours won't be sitting empty while you are away.  Ask if there are any special arrangements you need to make, and don't forget to let your exchange partner know about any insurance requirements for locking doors, activating alarm systems, etc.  This should be included in the information packet about your home that you will leave for them."
+
+# --- English text = We have special needs, can we still arrange an exchange?
+# (June 2011)
+#, fuzzy
+msgid "special_needs.headline"
+msgstr "We have special needs, can we still arrange an exchange?"
+
+# --- English text = Intervac's listing codes cover many preferences related to home exchange.  From <italic>non-smoking</italic>, to <italic>handicapped accessible</italic>, from <italic>pet care</italic> to <italic>private swimming pool</italic>  You can add an unlimited amount of text to your listing.  Go ahead and detail your needs clearly so that the perfect exchange partner (who is searching for you too) can find you.
+# (June 2011)
+#, fuzzy
+msgid "special_needs.text"
+msgstr "Intervac's listing codes cover many preferences related to home exchange.  From <italic>non-smoking</italic>, to <italic>handicapped accessible</italic>, from <italic>pet care</italic> to <italic>private swimming pool</italic>  You can add an unlimited amount of text to your listing.  Go ahead and detail your needs clearly so that the perfect exchange partner (who is searching for you too) can find you."
+
+# --- English text = How Do I Get Started?
+# (June 2011)
+#, fuzzy
+msgid "get_started.headline"
+msgstr "How Do I Get Started?"
+
+# --- English text = It's easy, just fill out our short registration  and pay your membership fee or choose our free trial membership if you are not sure.  It's good for {{number}} days and gives you full access to our site. Then log in and begin building your listing right away. It will not be visible for other members until after you have filled in all the required fields.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (Last updated: November 2011)
+#, fuzzy
+msgid "get_started.text"
+msgstr "It's easy, just fill out our short registration  and pay your membership fee or choose our free trial membership if you are not sure.  It's good for {{number}} days and gives you full access to our site. Then log in and begin building your listing right away. It will not be visible for other members until after you have filled in all the required fields."
+
+# --- English text = INTERVAC listings are intended to convey a clear description of your residence, your family, and where and when you would like to travel. Personal preferences such as no smoking or no pets should also be noted in your listing.  So come on! <link>Join us today!</link>
+# (June 2011)
+#, fuzzy
+msgid "get_started.about_listings"
+msgstr "INTERVAC listings are intended to convey a clear description of your residence, your family, and where and when you would like to travel. Personal preferences such as no smoking or no pets should also be noted in your listing.  So come on! <link>Join us today!</link>"

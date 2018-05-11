@@ -1,0 +1,193 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (June, 2010)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-06-24 20:25+0100\n"
+"PO-Revision-Date: 2010-06-28 19:20-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Welcome to Intervac Member's Area
+#, fuzzy
+msgid "page.headline"
+msgstr "Car Exchange Agreement"
+
+# --- English text = Sample porvided by Intervac International
+#, fuzzy
+msgid "page.sample_disclaimer"
+msgstr "(Sample provided by Intervac International)"
+
+# --- English text = I, (car owner's name)
+#, fuzzy
+msgid "form.name"
+msgstr "I, (car owner's name)"
+
+# --- English text = Address
+#, fuzzy
+msgid "form.address"
+msgstr "Address"
+
+# --- English text = "hereby loan to (user's name)
+#, fuzzy
+msgid "form.loan_to_name"
+msgstr "hereby loan to (user's name)"
+
+# --- English text = of (address)
+#, fuzzy
+msgid "form.loan_to_address"
+msgstr "of (address)"
+
+# --- English text = my car registered in my name, stated below, for the period of __________ days
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to specify how many days they are loaning thier car.
+#, fuzzy
+msgid "form.loan_number_of_days"
+msgstr "my car registered in my name, stated below, for the period of __________ days"
+
+# --- English text = from ______________________________ to ______________________________ inclusive.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to the dates they are loaning thier car.
+#, fuzzy
+msgid "form.dates_loaned"
+msgstr "from ______________________________ to ______________________________ inclusive."
+
+# --- English text = I also grant the above named person(s) permission to drive my car in the following countries:
+#, fuzzy
+msgid "form.countries_allowed"
+msgstr "I also grant the above named person(s) permission to drive my car in the following countries:"
+
+# --- English text = The above permission excludes permission to drive my car in:
+#, fuzzy
+msgid "form.countries_disallowed"
+msgstr "but not in:"
+
+# --- English text = They understand that the driver(s) must be in possession of a valid driver's license:
+#, fuzzy
+msgid "form.drivers_license_required"
+msgstr "They understand that the driver(s) must be in possession of a valid driver's license:"
+
+# --- English text = Expiration Date
+#, fuzzy
+msgid "form.drivers_license_expiration"
+msgstr "Expiration Date"
+
+# --- English text = Driver's License Number
+#, fuzzy
+msgid "form.drivers_license_number"
+msgstr "Driver's License Number"
+
+# --- English text = In the event of an accident in which the above named persons are blameworthy, they hereby agree to reimburse the vehicle owner
+#, fuzzy
+msgid "form.reimbursement_text"
+msgstr "In the event of an accident in which the above named persons are blameworthy, they hereby agree to reimburse the vehicle owner"
+
+# --- English text = Name
+#, fuzzy
+msgid "form.reimburse_name"
+msgstr "Name"
+
+# --- English text = for the deductible portion of the insurance claim in the amount of __________ € / $ for collision.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to specify the amount of thier deductible.
+#, fuzzy
+msgid "form.reimburse_deductible_amount"
+msgstr "for the deductible portion of the insurance claim in the amount of __________ € / $ for collision."
+
+# --- English text = They also agree to reimburse the vehicle owner the full amount of any sum in excess of the owner's liability coverage should a legal suit for bodily injury and/or property damage result in an award in excess of the owner's insurance coverage.
+#, fuzzy
+msgid "form.reimburse_excess_charges"
+msgstr "They also agree to reimburse the vehicle owner the full amount of any sum in excess of the owner's liability coverage should a legal suit for bodily injury and/or property damage result in an award in excess of the owner's insurance coverage."
+
+# --- English text = Furthermore, they hereby agree to reimburse the vehicle owner for the loss of his safe driving discount each year for a period of __________ years, or, at choice of __________ € / $, paid outright in addition to the total cost of any repairs required as a result of the accident.
+# Important: Please do not remove the underline "__________" from your translation.  The form requires a line at this place for members to time period or amount to be paid.
+#, fuzzy
+msgid "form.reimburse_safe_driving_discount"
+msgstr "Furthermore, they hereby agree to reimburse the vehicle owner for the loss of his safe driving discount each year for a period of __________ years, or, at choice of __________ € / $, paid outright in addition to the total cost of any repairs required as a result of the accident."
+
+# --- English text = Car Designation
+#, fuzzy
+msgid "car_designation.headline"
+msgstr "Car Designation"
+
+# --- English text = Make
+#, fuzzy
+msgid "car_designation.make"
+msgstr "Make"
+
+# --- English text = Model
+#, fuzzy
+msgid "car_designation.model"
+msgstr "Model"
+
+# --- English text = Model year
+#, fuzzy
+msgid "car_designation.model_year"
+msgstr "Model year"
+
+# --- English text = Serial number
+#, fuzzy
+msgid "car_designation.serial_number"
+msgstr "Serial number"
+
+# --- English text = Registration Number
+#, fuzzy
+msgid "car_designation.registration_number"
+msgstr "Registration Number"
+
+# --- English text = License plate number
+#, fuzzy
+msgid "car_designation.license_plate_number"
+msgstr "License plate number"
+
+# --- English text = 
+#, fuzzy
+msgid "car_designation.mileage"
+msgstr "Mileage"
+
+# --- English text = Photo of the vehicle
+#, fuzzy
+msgid "car_designation.photo_of_vehicle"
+msgstr "Photo of the vehicle"
+
+# --- English text = In attachment
+#, fuzzy
+msgid "car_designation.in_attachment"
+msgstr "In attachment"
+
+# --- English text = Members Identification
+#, fuzzy
+msgid "members_identification.headline"
+msgstr "Members Identification"
+
+# --- English text = Car Owner
+#, fuzzy
+msgid "members_identification.car_owner"
+msgstr "Car Owner"
+
+# --- English text = User 
+#, fuzzy
+msgid "members_identification.user"
+msgstr "User"
+
+# --- English text = Print Name
+#, fuzzy
+msgid "members_identification.print_name"
+msgstr "Print Name"
+
+# --- English text = Intervac Member Number
+#, fuzzy
+msgid "members_identification.member_number"
+msgstr "Member Number"
+
+# --- English text = Date
+#, fuzzy
+msgid "members_identification.date"
+msgstr "Date"
+
+# --- English text = Signature
+#, fuzzy
+msgid "members_identification.signature"
+msgstr "Signature"

@@ -1,0 +1,636 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-07-13 14:23+0100\n"
+"Last-Translator: Michael Støvelbæk <m@intervac.dk>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Your Contact Information
+msgid "contact_info.headline"
+msgstr "Dine kontaktinformationer"
+
+# --- English text = Please note: All fields labeled with colored text are required and will return an error if not completed.
+msgid "required_fields"
+msgstr "Bemærk: Alle felter mærket med farvet tekst er obligatoriske og skal udfyldes. "
+
+# --- English Text = Full Name <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.name"
+msgstr "Navn <required>*</required>"
+
+# --- English text = First &amp; Last Name
+msgid "contact_info.name_reminder"
+msgstr "Fornavn &amp; Efternavn"
+
+# --- English text = About your address
+msgid "contact_info.address"
+msgstr "Adresse"
+
+# --- English text = This is your primary (mailing) address.  The address where you are most likely to be should a member want to contact you.  This should not be the address of your holiday home.  If you are looking for a way to change the placement of the marker on the Google map so that it displays the location of your second home, you can go to:
+msgid "contact_info.help_address"
+msgstr "Dette er din primære postadresse. Det bør ikke være adressen på din feriebolig, hvis det ikke er det samme. Hvis du leder efter en måde at ændre placeringen af markøren på Google-kort, så det viser placeringen af dit andet hjem, kan du gå til:http://stevemorse.org/jcal/latlon.php og få de nøjagtige koordinater."
+
+# --- English text = Street <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.street"
+msgstr "Adresse <required>*</required>"
+
+# --- English text = City/Town <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.city"
+msgstr "By <required>*</required>"
+
+# --- English text = Postal Code
+msgid "contact_info.postal"
+msgstr "Postnummer"
+
+# --- English text = State/Province
+msgid "contact_info.state"
+msgstr "Område"
+
+# --- English text = Telephone <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.telephone"
+msgstr "Telefon <required>*</required>"
+
+# --- English text = Mobile Phone
+msgid "contact_info.mobile"
+msgstr "Mobil"
+
+# --- English text = FAX
+msgid "contact_info.fax"
+msgstr "FAX"
+
+# --- English text = E-Mail <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.email"
+msgstr "Email <required>*</required>"
+
+# --- English text = Second E-Mail
+msgid "contact_info.second_email"
+msgstr "Alternativ Email "
+
+# --- English text = Your homepage
+# --- CHANGED FROM: Your homepage (if available) => TO: Your homepage (Dec. 2008)
+msgid "contact_info.homepage"
+msgstr "Evt. egen hjemmeside"
+
+# --- English text = Skype
+msgid "contact_info.skype"
+msgstr "Skype"
+
+# --- English text = About Your Home
+msgid "home.headline"
+msgstr "Beskrivelse af din byttebolig"
+
+# --- English text = Tell potential partners about the property that you are offering for exchange.
+msgid "home.property_intro_text"
+msgstr "Beskriv så detaljeret og ærligt som muligt din byttebolig så andre får et godt og korrekt indtryk af den. "
+
+# --- English text = Please choose the country in which your property is located if you are offering a home or apartment which is NOT in the same country as your residence.
+msgid "home.property_country_text"
+msgstr "Hvis den bolig du bytter med IKKE ligger i Danmark skal du angive det land bytteboligen ligger i her. Ellers skal du blot gå videre til feltet Region."
+
+# --- English text = Country of your exchange home <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.country_of_exchange_home"
+msgstr "Land, hvor din byttebolig er. <required>*</required>"
+
+# --- English text = Property Location
+msgid "home.property_country"
+msgstr "Land"
+
+# --- English text = My property lies <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.location"
+msgstr "Min byttebolig ligger <required>*</required>"
+
+# --- English text = Property is located
+msgid "home.envrionment"
+msgstr "Omgivelserne"
+
+# --- English text = Nearest Airport
+msgid "home.nearest_airport"
+msgstr "Nærmeste lufthavn"
+
+# --- English text = Type of home
+msgid "home.house_type"
+msgstr "Boligtype"
+
+# --- English text = Floor number
+msgid "home.floor_number"
+msgstr "Antal etager"
+
+# --- English text = Sleeping capacity for
+msgid "home.persons_suitable"
+msgstr "Sovekapacitet til"
+
+# --- English text = people
+msgid "home.people"
+msgstr "personer"
+
+# --- English text = Number of bedrooms
+msgid "home.bedrooms"
+msgstr "Antal soveværelser"
+
+# --- English text = Number of bathrooms
+msgid "home.bathrooms"
+msgstr "Antal badeværelser"
+
+# --- English text = of
+msgid "home.location_of"
+msgstr "for"
+
+# --- English text = Property setting
+msgid "home.environment"
+msgstr "Beliggenhed"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.region"
+msgstr "Region <required>*</required>"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "show_listing.region"
+msgstr "Region"
+
+# --- English text = About Your Family
+msgid "family.headline"
+msgstr "Beskrivelse af din familie"
+
+# --- English text = Number of Adults
+msgid "family.adults"
+msgstr "Antal voksne"
+
+# --- English text = Your occupation or profession <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "family.occupation"
+msgstr "Dit erhverv eller profession <required>*</required>"
+
+# --- English text = Your son(s) age
+msgid "family.boys_ages"
+msgstr "Din søn/sønners alder"
+
+# --- English text = Your daughter(s) age
+msgid "family.girls_ages"
+msgstr "Din datter/døtres alder"
+
+# --- English text = How many exchanges have you completed?
+msgid "family.exchanges_made"
+msgstr "Hvor mange bytteaftaler har du haft?"
+
+# --- English text = text characters
+# --- CHANGED FROM: "text characters" => TO: "text characters allowed"  (Dec. 2008)
+msgid "character_limit"
+msgstr "Tekst"
+
+# --- English text = Your Travel Timing Preferences
+msgid "timing.headline"
+msgstr "Tidspunkter for ferien"
+
+# --- English text = Enhance the description of your timing preferences.
+msgid "timing.comment_headline"
+msgstr "Uddyb beskrivelsen af dine ønskede rejsetidspunkter."
+
+# --- English text = Select the dates you are available for your next exchange.
+msgid "timing.intro_text"
+msgstr "Vælg den periode, hvor du gerne vil rejse"
+
+# --- English text = Earliest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.earliest_date"
+msgstr "Tidligste dato <required>*</required>"
+
+# --- English text = Latest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.latest_date"
+msgstr "Seneste dato <required>*</required>"
+
+# --- English text = Desired Length of Stay
+msgid "timing.vacation_length"
+msgstr "Ønsket ferielængde"
+
+# --- English text = days
+msgid "timing.days"
+msgstr "dage"
+
+# --- English text = weeks
+msgid "timing.weeks"
+msgstr "uger"
+
+# --- English text = months
+msgid "timing.months"
+msgstr "måneder"
+
+# --- English text = Optional text description
+msgid "timing.comment"
+msgstr "Valgfri tekst "
+
+# --- English text = Your Exchange Preferences
+msgid "exchange_types.headline"
+msgstr "Aftaletyper"
+
+# --- English text = Types of Exchanges
+msgid "exchange_types.exchanges"
+msgstr "Typer af bytte (boligbytte er standard)"
+
+# --- English text = Services Offered
+msgid "exchange_types.services"
+msgstr "Særlige muligheder"
+
+# --- English text = Services Offered
+msgid "exchange_types.rental"
+msgstr "Udlejning"
+
+# --- English text = Youth Exchange
+msgid "exchange_types.youth"
+msgstr "Ungdomsudveksling"
+
+# --- English text = Persons under 18 travelling alone
+msgid "exchange_types.under_18"
+msgstr "Personer under 18 som rejser alene"
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Din byttebolig og dets omgivelser"
+
+# --- English text = Your Home Has
+msgid "other_details.home_headline"
+msgstr "Dit hjem har"
+
+# --- English text = You Offer
+msgid "other_details.offer_headline"
+msgstr "Dit tilbud"
+
+# --- English text = Language for Correspondence
+msgid "contact_info.spoken_languages"
+msgstr "Kontaktsprog "
+
+# --- English text = Distances in km
+# --- Dec 2008 - New Text
+msgid "other_details.distances_headline"
+msgstr "Afstand i km til"
+
+# --- English text = Your Region
+# --- Dec 2008 - New Text
+msgid "other_details.your_region_headline"
+msgstr "I nærheden findes"
+
+# --- English text = Forest/Woods
+msgid "other_details.km_forest_woods"
+msgstr "Skov"
+
+# --- English text = River
+msgid "other_details.km_river"
+msgstr "Å"
+
+# --- English text = Boating/Sailing
+msgid "other_details.km_boating"
+msgstr "Sejlads"
+
+# --- English text = Ocean/Sea
+msgid "other_details.km_ocean_sea"
+msgstr "Havet"
+
+# --- English text = Shopping
+msgid "other_details.km_shopping"
+msgstr "Indkøbsmuligheder"
+
+# --- English text =  Beach / Surfing
+msgid "other_details.km_beach"
+msgstr "Strand"
+
+# --- English text = Mountains
+msgid "other_details.km_mountains"
+msgstr "Bjerge"
+
+# --- English text = Lake
+msgid "other_details.km_lake"
+msgstr "Sø"
+
+# --- English text = Golfing
+msgid "other_details.km_golf"
+msgstr "Golfbane"
+
+# --- English text = Descriptive Phrase
+# --- (Dec 2008) This is being phased out - it's a left-over from catalogues, and is replaced by unlimited extra text.
+msgid "Descriptive Phrase"
+msgstr "Beskrivelse"
+
+# --- Help Text : Name ---
+# --- English text = Fill in your name as you would like it to appear online. Please use both upper and lowercase letters.
+msgid "contact_info.help_name"
+msgstr "Udfyld dit navn, som du ønsker det skal se ud på profilen. Brug venligst både store og små bogstaver. "
+
+# --- Help Text : Street ---
+# --- English text = Please fill in your mailing address.
+msgid "contact_info.help_street"
+msgstr "Udfyld din postadresse. "
+
+# --- Help Text : City ---
+# --- English text = The city where you live. Your mailing address
+msgid "contact_info.help_city"
+msgstr "Den by, hvor du bor. Din postadresse "
+
+# --- Help Text : Postal ---
+# --- English text = Your postal code.
+msgid "contact_info.help_postal"
+msgstr "Dit postnummer."
+
+# --- Help Text : State ---
+# --- English text = This field is not required! Please only use this if your mailing address requires the use of state or region.
+msgid "contact_info.help_state"
+msgstr "Dette felt er ikke nødvendigt. Udfyldes kun hvis din postadresse kræver brugen af stat eller region."
+
+# --- Help Text : Telephone ---
+# --- English text = The country code for your country is already filled in.  Give the rest for your phone number in the correct form for calling from outside of your country. <strong>Only one telephone number is allowed.</strong>
+#, fuzzy
+msgid "contact_info.help_telephone"
+msgstr "The country code for your country is already filled in.  Give the rest for your phone number in the correct form for calling from outside of your country. <strong>Only one telephone number is allowed.</strong>"
+
+# --- Help Text : Mobile Phone ---
+# --- English text = Enter your mobile phone number here if you wish to be contacted by other members that way.
+msgid "contact_info.help_mobile"
+msgstr "Indtast dit mobilnummer her, hvis du ønsker andre medlemmer skal kunne kontakte dig på din mobiltelefon "
+
+# --- Help Text : Skype
+# --- English text = You can put your skype id in this field if you wish members to be able to contact you using this service.
+msgid "contact_info.help_skype"
+msgstr "Du kan indtaste din Skype-id i dette felt, hvis du ønsker medlemmerne skal være i stand til at kontakte dig på denne tjeneste. "
+
+# --- Help Text : Fax
+# --- English text = The country code for your country is already filled in.  Give the rest for your FAX number in the correct form for calling from outside of your country. <strong>Only one FAX number is allowed</strong>.
+msgid "contact_info.help_fax"
+msgstr "Landekoden for dit land er allerede udfyldt. Skriv resten af dit faxnummer i den rigtige form for opkald fra steder uden for dit land. <strong> Kun ét Faxnummer er tilladt. </ strong>"
+
+# --- Help Text : E-mail
+# --- English text = Please enter here an email address you check often and where you would like to receive exchange offers from other members. <strong>Only one email address is allowed.</strong>
+msgid "contact_info.help_email"
+msgstr "Angiv en email adresse du tjekker ofte. <strong> Kun én email adresse er tilladt. </ strong>"
+
+# --- Help Text : Second E-mail
+# --- English text = If you would like to enter a second email address here you will receive all mails sent from the Intervac online system, as well as forwarded messages at both addresses.
+msgid "contact_info.help_second_email"
+msgstr "Hvis du ønsker kan du indtaste en anden email adresse her."
+
+# --- Help Text : Homepage
+# --- English text = A homepage of your own is a good way to show prospective partners more about your family, home and region. If you do not have your own homepage, consider entering a webpage from your local tourist bureau.
+msgid "contact_info.help_homepage"
+msgstr "Din egen hjemmeside er en god måde at vise potentielle byttepartnere mere om din familie, hjem og regionen. Hvis du ikke har din egen hjemmeside, overvej at indtaste en hjemmeside fra din lokale turistbureau."
+
+# --- Help Text : Region
+# --- English text = Please select the region where your exchange home is located. // Please fill in the official region where your exchange home is located.
+msgid "home.help_region"
+msgstr "Vælg den region, hvor din udvekslings bolig er beliggende. / / Udfyld den officielle region, hvor din udveksling hjem er beliggende."
+
+# --- Help Text : Nearest City
+# --- English text = How many kilometres lie between your exchange home and the nearest major city?  Please fill in the distance, direction and choose/fill in the nearest city here.
+msgid "home.help_location"
+msgstr "Hvor mange kilometer er der imellem din byttebolig og den nærmeste større by? Udfyld by, afstand og retning."
+
+# --- Help Text : Environment
+# --- English text = Choose urban if your exchange home is within the city limits of the nearest city you have chosen above.  Suburban is near to a major city, and rural is the correct choice if your exchange home is out in the country.
+msgid "home.help_environment"
+msgstr "Vælg den beskrivelse af din bytteboligs beliggenhed der passer bedst: Byområde, Forstad eller Landligt."
+
+# --- Help Text : House Type
+# --- English text = What sort of structure is the home you are offering for exchange?  If this is your second or vacation home please choose accordingly.
+msgid "home.help_house_type"
+msgstr "Angiv om din byttebolig er din egen helårsbolig, et fritidshus, ferielejlighed eller andet."
+
+# --- Help Text : Floor
+# --- This choice is offered for single structures housing more than one family, buildings or large homes with more than one apartment inside.
+msgid "home.help_floor_number"
+msgstr "Bor du i lejlighed angiv da på, hvilken sal lejligheden ligger"
+
+# --- Help Text : People
+# --- English text = This refers to the number of people who could comfortably sleep in your home, not the number of people in your family.
+msgid "home.help_persons_suitable"
+msgstr "Dette refererer til det antal personer, der kan sove i din bolig, ikke antallet af personer i din familie. "
+
+# --- Help Text : Bedrooms
+# --- English text = How many bedrooms are there in your home or apartment?  A consideration slightly different than how many people can sleep comfortably in your home.
+msgid "home.help_bedrooms"
+msgstr "Hvor mange soveværelser er der i din bolig?"
+
+# --- Help Text : Bathrooms
+# --- English text = How many bathrooms does your home or apartment have?
+msgid "home.help_bathrooms"
+msgstr "Hvor mange badeværelser er der i din bolig?"
+
+# --- Help Text : Number of Adults
+# --- English text = Choose 0 to indicate that you are looking for Youth Exchange only.
+msgid "family.help_adults"
+msgstr "Vælg 0 for at indikere at du kun ønsker Ungdoms Udveksling."
+
+# --- Help Text : Occupation
+# --- English text = Intervac started as home exchange between teachers.  What is your profession?
+msgid "family.help_occupation"
+msgstr "Hvad er din profession eller erhverv? "
+
+# --- Help Text : Ages of Sons
+# --- English text = Please use one dropdown to indicate the age of each of your sons.
+msgid "family.help_boys_ages"
+msgstr "Angiv alder på din søn/sønner "
+
+# --- Help Text : Ages of Daughters
+# --- English text = Please use one dropdown to indicate the age of each of your daughters.
+msgid "family.help_girls_ages"
+msgstr "Angiv alder på din datter/døtre"
+
+# --- Help Text : Number of past exchanges
+# --- English text = Are you an experienced exchanger, or new to the game? Please choose the number of exchanges has your family has made?
+msgid "family.help_exchanges_made"
+msgstr "Er du en erfaren boligbytter eller helt ny? Vælg antallet af bytteaftaler din familie har haft? "
+
+# --- Help Text : Earliest Date
+# --- English text = This is the earliest date you and your family are available to make an exchange.
+msgid "timing.help_earliest_date"
+msgstr "Dette er den tidligste dato, hvor du og din familie er til rådighed til at foretage en bytteaftale. "
+
+# --- Help Text : Latest Date
+# --- English text = This is the latest date you and your family can be away from home.
+msgid "timing.help_latest_date"
+msgstr "Dette er den seneste dato, hvor du og din familie kan være væk fra hjemmet. "
+
+# --- Help Text : Timing Comment
+# --- English text = Not July/August, or SH=School Holidays; ET=Easter; CT=Christmas holidays; x=Open to Other Periods
+msgid "timing.help_comment"
+msgstr "SH = skoleferierne; ET = påske; CT = juleferien; X = Åben for andre perioder "
+
+# --- Help Text : Home Exchange
+# --- English text = You are flexible and willing to consider any offer that comes your way.
+msgid "exchange_types.help_O"
+msgstr "Du er fleksibel og villig til at overveje ethvert tilbud, du får tilbudt. "
+
+# --- Help Text : Home Exchange
+# --- English text = The majority of our members prefer to exchange homes.  This is not only our most popular choice, but also the cornerstone of our success.
+msgid "exchange_types.help_X"
+msgstr "De fleste af vores medlemmer foretrækker at udveksle bolig. Det er ikke kun vores mest populære valg, men også hjørnestenen af vores succes."
+
+# --- Help Text : Weekend Exchange
+# --- English text = Looking for a short get-away, then Weekend Exchange is a good choice.
+msgid "exchange_types.help_WE"
+msgstr "Leder du efter en kort \"get-away\", så er Weekendbytte et godt valg. "
+
+# --- Help Text : Double Exchange
+# --- English text = A double exchange consists of two families searching 2 separate homes which are situated near to one another.
+msgid "exchange_types.help_DX"
+msgstr "En dobbelt udveksling består af to familier, der søger 2 separate huse, der ligger tæt på hinanden. "
+
+# --- Help Text : Hospitality Exchange
+# --- English text = Hospitality exchange means you invite a member to visit you in your home, and are invited to visit in return.
+msgid "exchange_types.help_XH"
+msgstr "Gæstfrihedsaftale betyder, at du inviterer et medlem til at besøge dig i dit hjem, og er inviteret til at besøge dem. "
+
+# --- Help Text : Long Term Exchange
+# --- English text = Long-term exchanges are generally 3 months or more in length.
+msgid "exchange_types.help_LX"
+msgstr "Langtidsbytte er normalt 3 måneder eller længere. "
+
+# --- English text : A non-simultaneuous exchange is when two parties make an exchange with two different dates.  This is comparable to an exchange of house-sitting services.  Let's say your family was attending a wedding away from home, and you will be staying with relatives.  Another family might be planning a weekend holiday, but were unable to find an exchange partner for a direct exchange.  You might agree to a non-simultaneous exchange whereby you stay in their home while they are away for the weekend, and they stay in your home while you are at the wedding.
+msgid "exchange_types.help_NX"
+msgstr "Et ikke-simultanbytte er, når to parter bytter på forskellige datoer. Dette kan sammenlignes med en udveksling af boligpasning. Lad os sige at din familie deltog i et bryllup væk fra hjemmet, og du skal bo hos slægtninge. En anden familie kan planlægge en weekend ferie, men kunne ikke finde en byttepartner for et direkte bytte. Du kan måske blive enig om en ikke-simultan udveksling, hvor du kan blive i deres hjem, mens de er væk i weekenden, og de opholder sig i dit hjem, mens du er til bryllup."
+
+# --- Help Text : Youth Exchange
+# --- English text = Members who have checked this box are looking for a youth exchange.
+msgid "exchange_types.help_XY"
+msgstr "Medlemmer, der har markeret dette felt er på udkig efter en ungdomsudveksling. "
+
+# --- Help Text : Youth Hospitality
+# --- English text = Check this box if you are willing to host young adults as guests in your home.
+msgid "exchange_types.help_OY"
+msgstr "Marker dette felt, hvis du er villig til at være vært for unge som gæster i dit hjem. "
+
+# --- Help Text: Hospitality offered by a young person
+# --- English text = Check this box if you have a young adult in your family who would like to host visting youths.
+msgid "exchange_types.help_WY"
+msgstr "Marker dette felt, hvis du har en  i din familie, som ønsker at være vært for besøgende unge. "
+
+# --- Help Text: Hospitality
+# --- English text = Hospitality is offered by members who have checked this box.
+msgid "exchange_types.help_H"
+msgstr "Gæstfrihed tilbydes af medlemmer, der har markeret dette felt. "
+
+# --- Help Text : Offer home for house-sitting
+# --- English text = These members are searching a housesitter.  This option does not generally involve any payment.  This is ideal for when you must be away from home for a period of time, and would like for someone to pick up the mail, and feed the cat.
+msgid "exchange_types.help_AH"
+msgstr "Denne mulighed indebærer generelt ikke nogen betaling. Dette er ideelt til når du skal være væk fra hjemmet i en periode, og ønsker for nogen til at afhente din post, og fodre katten."
+
+# --- Help Text : Want to House-sit
+# --- English text = Choosing this option indicates a willingness to look after a home while the owners are away.  This usually includes picking up the mail, feeding pets and watering plants.
+msgid "exchange_types.help_HS"
+msgstr "Du vælger denne mulighed, hvis du ønsker nogen til at se efter (bo i) dit hjem, mens du selv er borte."
+
+# --- Help Text : Hospitality Wanted
+# --- English text = Checking this box indicates that you are searching for a member willing to offer you hospitality.
+msgid "exchange_types.help_HW"
+msgstr "Hvis du markere dette felt angiver du at du søger efter et medlem som er villig til at tilbyde dig gæstfrihed. "
+
+# --- Help Text : Long Term Rental
+# --- English text = The members who have checked this box are interested in a long term (usually 3 months or more) rental.
+msgid "exchange_types.help_LR"
+msgstr "De medlemmer, der har markeret dette felt er interesseret i en langvarig (normalt 3 måneder eller mere) aftale. "
+
+# --- Help Text : Home for rent only
+# --- English text = The members who have checked this box are only interested in renting thier homes.  These members are not able to contact members who have checked the No Rental Offers Accepted box.
+msgid "exchange_types.help_ER"
+msgstr "Medlemmer der har sat kryds her er kun interesseret i at leje deres bolig ud. De kan ikke kontakte andre medlemmer, der har givet udtryk for, at de ikke ønsker at modtage lejetilbud."
+
+# --- Help Text : Home for rent or exchange
+# --- English text = The members who have checked this box are interested in renting thier homes, but they are equally interested in exchange offers.
+msgid "exchange_types.help_RO"
+msgstr "Medlemmer der har sat kryds her er både interesserede i at leje deres bolig ud og indgå aftale om boligbytte."
+
+# --- Help Text : Rental Required
+# --- English text = These members require a rental property.
+msgid "exchange_types.help_RR"
+msgstr "Disse medlemmer ønsker en bolig til leje"
+
+# --- Help Text : Skype
+# --- English text = If you want other members to contact you via Skype, please add your Skype-id here.
+msgid "other_details.help_skype"
+msgstr "Hvis du ønsker andre medlemmer skal kontakte dig via Skype, kan du tilføje dit Skype-id her. "
+
+# --- ERROR TEXT ---
+# --- English text =  The latest date must be after the earliest date.
+msgid "errors.latest_date_must_be_after_earliest"
+msgstr "Ikke gyldig: Tidligste dato er efter seneste dato."
+
+# --- English text = Save my profile details
+msgid "save_button"
+msgstr "Gem ændringer"
+
+# --- HowTo: Change availiabilty status
+# --- English text = If you are not searching an exchange at this time, you can change your availability status by clicking once on the traffic light in the headline above.  When the light is green, other members know that you are actively searching an exchange partner.
+msgid "how_to_change_availability"
+msgstr "Lyssignalet herover viser om du er aktivt søgende og gerne vil modtage tilbud (grønt) eller ikke er søgende i øjeblikket og ikke ønsker tilbud (rødt). Du skifter farve ved blot at klikke på lyssignalet."
+
+# --- English text = My Listing Details
+msgid "headline"
+msgstr "Mine profildetaljer"
+
+# --- English text = Please do not forget to save your changes.
+msgid "dont_forget_to_save"
+msgstr "Husk at gemme dine ændringer."
+
+# --- NEW April 2008 :: English text = Text written above is visible to visitors.
+msgid "visible_for_visitors"
+msgstr "Teksten ovenfor er synlig for gæster."
+
+# English Text = Close Window
+msgid "close_button"
+msgstr "Luk Vindue"
+
+# --- English text = Your personal data has been saved.
+# --- Location = This is the notice that confirms that changes to personal data have been saved to an invisible listing.
+msgid "error_messages.personal_data_saved"
+msgstr "Dine oplysninger er nu gemt"
+
+# --- English text = Your listing will remain in-visible until you have filled in the following fields.
+# --- Location = This notice confirms that the listing remains invisible until all the fields required to build a complete listing are filled in.
+msgid "error_messages.listing_remains_invisible"
+msgstr "Din medlemsprofil kan ikke ses af andre før du har udfyldt disse felter:"
+
+# --- English text = Please select at least one language for correspondence
+# --- Location = Error text if Language for Correspondence is left blank
+# (June, 2011 - New)
+#, fuzzy
+msgid "error.spoken_language"
+msgstr "Please select at least one language for correspondence"
+
+# --- English text = Please select at least one exchange preferences
+# --- Location = Error text if Exchange types are left blank
+# (June, 2011 - New)
+#, fuzzy
+msgid "error.exchange_type"
+msgstr "Please select at least one exchange preferences"
+
+# --- English text = Your listing remains invisible for other members until you have built your home exchange profile. Get started today!
+# --- Location =
+# (June, 2011)
+msgid "message.invisible_listing"
+msgstr "Din medlemsprofil kan ikke ses af andre medlemmer før du har indtastet oplysninger om dig selv og din bolig."
+
+# --- English text = Before we can activate your trial membership, please upload a photo of your home.
+# --- Location = This is the success message that appears on the Main Photo page when an invisible member has filled out their listing details and been forwarded to the Main Photo page.
+# (Aug, 2011)
+msgid "message.invisible_listing_without_photo"
+msgstr "Du skal lægge et foto ind på din profil før den bliver aktiv og kan ses af andre."
+
+# --- English text = Time span
+# --- Location = Nov. 2011 - mobile application only
+# (New: November, 2011)
+#, fuzzy
+msgid "availability.time_span"
+msgstr "Time span"
+

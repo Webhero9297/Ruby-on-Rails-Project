@@ -1,0 +1,245 @@
+# --- RAILS DEFAULTS ---
+
+
+en:
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%Y-%m-%d"
+      short: "%b %d"
+      long: "%B %d, %Y"
+      long_ordinal: "%e %B %Y"
+      only_day: "%e"
+
+    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
+    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+    # Used in date_select and datime_select.
+    order: [ :year, :month, :day ]
+
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      long: "%B %d, %Y %H:%M"
+      time: "%H:%M"
+      # long_ordinal: "%A %d %B %Y %H:%M:%S %Z"
+      only_second: "%S"
+    am: "am"
+    pm: "pm"
+
+  # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
+  datetime:
+    distance_in_words:
+      half_a_minute: "half a minute"
+    # --- Seconds ---
+      less_than_x_seconds:
+        one: "less than 1 second"
+        few: ""
+        other: "less than {{count}} seconds"
+      about_x_seconds:
+        one: "about 1 second"
+        few: ""
+        other: "about {{count}} seconds"
+      x_seconds:
+        one: "1 second"
+        few: ""
+        other: "{{count}} seconds"
+    # --- Minutes ---
+      less_than_x_minutes:
+        zero: "less than a minute"
+        one: "less than a minute"
+        few: ""
+        other: "less than {{count}} minutes"
+      about_x_minutes:
+        one: "about 1 minute"
+        few:  ""
+        other: "about {{count}} minutes"
+      x_minutes:
+        one: "1 minute"
+        few: ""
+        other: "{{count}} minutes"
+    # --- Hours ---
+      less_than_x_hours:
+        one: "less than an hour"
+        other: "less than {{count}} hours"
+      about_x_hours:
+        one: "about 1 hour"
+        other: "about {{count}} hours"
+      x_hours:
+        one: "1 hour"
+        other: "{{count}} hours"
+    # --- Days ---
+      less_than_x_days:
+        one: "less than a day"
+        other: "less than {{count}} days"
+      about_x_days:
+        one: "about 1 day"
+        other: "about {{count}} days"
+      x_days:
+        one: "1 day"
+        other: "{{count}} days"
+    # --- Weeks ---
+      less_than_x_weeks:
+        one: "less than a week"
+        other: "less than {{count}} weeks"
+      about_x_weeks:
+        one: "about 1 week"
+        other: "about {{count}} weeks"
+      x_weeks:
+        one: "1 week"
+        other: "{{count}} weeks"
+    # --- Months ---
+      less_than_x_months:
+        one: "less than a month"
+        other: "less than {{count}} months"
+      about_x_months:
+        one: "about 1 month"
+        other: "about {{count}} months"
+      x_months:
+        one: "1 month"
+        few: ""
+        other: "{{count}} months"
+    # --- Years ---
+      less_than_x_years:
+        one: "less than a year"
+        other: "less than {{count}} years"
+      about_x_years:
+        one: "about 1 year"
+        other: "about {{count}} years"
+      x_years:
+        one: "1 year"
+        other: "{{count}} years"
+      over_x_years:
+        one: "over 1 year"
+        few: ""
+        other: "over {{count}} years"
+    prompts:
+      year: "Year"
+      month: "Month"
+      day: "Day"
+      hour: "Hour"
+      minute: "Minute"
+      second: "Seconds"
+
+  number:
+    # Used in number_with_delimiter()
+    # These are also the defaults for 'currency', 'percentage', 'precision', and 'human'
+    format:
+      # Sets the separator between the units, for more precision (e.g. 1.0 / 2.0 == 0.5)
+      separator: "."
+      # Delimits thousands (e.g. 1,000,000 is a million) (always in groups of three)
+      delimiter: ","
+      # Number of decimals, behind the separator (the number 1 with a precision of 2 gives: 1.00)
+      precision: 2
+
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        unit: "$"
+        format: "%u%n"
+        # These three are to override number.format and are optional
+        separator: "."
+        delimiter: ","
+        precision: 2
+    # Used in number_to_percentage()
+    percentage:
+      format:
+        # These three are to override number.format and are optional
+        separator:
+        delimiter: ""
+        precision: ""
+    # Used in number_to_precision()
+    precision:
+      format:
+        # These three are to override number.format and are optional
+        separator:
+        delimiter: ""
+        precision:
+
+    # Used in number_to_human_size()
+    human:
+      format:
+        # These three are to override number.format and are optional
+        separator:
+        delimiter: ""
+        precision: 1
+      storage_units: [Bytes, KB, MB, GB, TB]
+
+  activerecord:
+    errors:
+      template:
+        header:
+          one:    "This {{model}} object could not be saved: 1 error."
+          other:  "This {{model}} object could not be saved: {{count}} errors."
+        # The variable :count is also available
+        body:   "The following errors have been discovered.  Please correct the fields listed below before continuing."
+      # The values :model, :attribute and :value are always available for interpolation
+      # The value :count is available when applicable. Can be used for pluralization.
+      messages:
+        inclusion:                  "is not included in the list"
+        exclusion:                  "is reserved"
+        invalid:                    "is invalid"
+        confirmation:               "doesn't match confirmation"
+        accepted:                   "must be accepted"
+        empty:                      "can't be empty"
+        blank:                      "can't be blank"
+        too_long:                   "is too long (maximum is {{count}} characters)"
+        too_short:                  "is too short (minimum is {{count}} characters)"
+        wrong_length:               "is the wrong length (should be {{count}} characters)"
+        taken:                      "has already been taken"
+        not_a_number:               "is not a number"
+        greater_than:               "must be greater than {{count}}"
+        greater_than_or_equal_to:   "must be greater than or equal to {{count}}"
+        equal_to:                   "must be equal to {{count}}"
+        less_than:                  "must be less than {{count}}"
+        less_than_or_equal_to:      "must be less than or equal to {{count}}"
+        odd:                        "must be odd"
+        even:                       "must be even"
+        # Append your own errors here or at the model/attributes scope.
+
+      # You can define own errors for models or model attributes.
+      # The values :model, :attribute and :value are always available for interpolation.
+      #
+      # For example,
+      # models:
+      # user:
+      # blank: "This is a custom blank message for {{model}}: {{attribute}}"
+      # attributes:
+      # login:
+      # blank: "This is a custom blank message for User login"
+      # Will define custom blank validation message for User model and
+      # custom blank validation message for login attribute of User model.
+      # models:
+        
+    # Translate model names. Used in Model.human_name().
+    #models:
+      # For example,
+      # user: "Dude"
+      # will translate User model name to "Dude"
+    
+    # Translate model attribute names. Used in Model.human_attribute_name(attribute).
+    #attributes:
+      # For example,
+      # user:
+      # login: "Handle"
+      # will translate User attribute "login" as "Handle"
+ 
+ 
+      full_messages:
+        format: "{{attribute}}{{message}}"
+
+
+# Used in array.to_sentence.
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " and "
+      last_word_connector: ", and "
+      sentence_connector: "and"
+      skip_last_comma: true

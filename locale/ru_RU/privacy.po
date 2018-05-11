@@ -1,0 +1,109 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-11-23 19:11+0100\n"
+"PO-Revision-Date: 2011-10-11 17:16+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Privacy Policy
+#, fuzzy
+msgid "privacy_policy"
+msgstr "Privacy Policy"
+
+# --- English text = Intervac may only be used for non commercial individual home exchange purposes. When a member joins Intervac and uses the database, he agrees not to contact other members of Intervac for any other purpose than to arrange a personal home exchange. Anyone who contacts Intervac members for any other purpose than to arrange a personal home exchange will be immediately barred from Intervac and face severe penalties starting at, but not limited to, $125 per member contacted.
+#, fuzzy
+msgid "only_non-commercial"
+msgstr "Intervac may only be used for non commercial individual home exchange purposes. When a member joins Intervac and uses the database, he agrees not to contact other members of Intervac for any other purpose than to arrange a personal home exchange. Anyone who contacts Intervac members for any other purpose than to arrange a personal home exchange will be immediately barred from Intervac and face severe penalties starting at, but not limited to, $125 per member contacted."
+
+# --- English text = All listings posted on the Intervac web site may not under any circumstances be posted on another web site or in any other media for any purposes. Any offenders agree that by posting Intervac's listing information on another web site or in any other media for any purposes will be subject to severe penalties starting at, but not limited to, $125 per listing.
+#, fuzzy
+msgid "cross-posting_not_allowed"
+msgstr "All listings posted on the Intervac web site may not under any circumstance be posted on another web site or in any other media for any purposes. Any offenders agree that by posting Intervac's listing information on another web site or in any other media for any purposes will be subject to severe penalties starting at, but not limited to, $125 per listing."
+
+# --- English text = By joining Intervac, you agree that any home exchange, hospitality offer or rental transaction you arrange is between you and the other party. You agree that neither Intervac nor any of its affiliates bear any responsibility for the arrangement and it's completely up to you to find the right partner.
+#, fuzzy
+msgid "responsibility_lies_with_member"
+msgstr "By joining Intervac, you agree that any home exchange, hospitality offer or rental transaction you arrange is between you and the other party. You agree that neither Intervac nor any of its affiliates bear any responsibility for the arrangement and it's completely up to you to find the right partner."
+
+# --- English text = Protection of your Personal Information
+#, fuzzy
+msgid "protection_headline"
+msgstr "Protection of your Personal Information"
+
+# --- English text = Intervac International Home Exchange Holiday Service is committed to protecting your privacy. We provide this notice to explain our online information practices and the choices you can make about the way information is collected and used. We will only use the information we collect for the purposes of enhancing your Intervac International online service experience. At no time will we sell, trade, rent or disclose your personal information to third parties unless we have obtained consent to such use.
+#, fuzzy
+msgid "intro_and_no_sell"
+msgstr "Intervac International Home Exchange Holiday Service is committed to protecting your privacy. We provide this notice to explain our online information practices and the choices you can make about the way information is collected and used. We will only use the information we collect for the purposes of enhancing your Intervac International online service experience. At no time will we sell, trade, rent or disclose your personal information to third parties unless we have obtained consent to such use."
+
+# --- English text = Security of your Personal Information
+#, fuzzy
+msgid "security_headline"
+msgstr "Security of your Personal Information"
+
+# --- English text = Any personal information we collect will be stored in our secure database. The information published at the international database for each listing has been provided by members either directly online or through an Intervac national agent and can be modified by the member at any time, according to database procedure.
+#, fuzzy
+msgid "stored_in_database"
+msgstr "Any personal information we collect will be stored in our secure database. The information published at the international database for each listing has been provided by members either directly online or through an Intervac national agent and can be modified by the member at any time, according to database procedure."
+
+# --- English text = As an Intervac International member, you may occasionally receive e-mail updates from us, including newsletters, special offers we think you will find valuable, important changes to the functionality of the Web site, and new Intervac International services. These e-mail communications may be sent or personalized based on information you provide on the Intervac International database. You may, at any time, decline to receive e-mail notifications by replying to any e-mail with 'REMOVE' in the subject line.
+#, fuzzy
+msgid "receive_email_updates"
+msgstr "As an Intervac International member, you may occasionally receive e-mail updates from us, including newsletters, special offers we think you will find valuable, important changes to the functionality of the Web site, and new Intervac International services. These e-mail communications may be sent or personalized based on information you provide on the Intervac International database. You may, at any time, decline to receive e-mail notifications by replying to any e-mail with 'REMOVE' in the subject line."
+
+# --- English text = IP Addresses and Links
+#, fuzzy
+msgid "ip_and_links_headline"
+msgstr "IP Addresses and Links"
+
+# --- English text = IP addresses are not linked to personally identifiable information, and Intervac International does not use those for tracking purposes.
+#, fuzzy
+msgid "ip_not_personal"
+msgstr "IP addresses are not linked to personally identifiable information, and Intervac International does not use those for tracking purposes."
+
+# --- English text = Our Web site contains many links to other sites. Intervac International is not responsible for the privacy practices of such other sites. This privacy statement applies solely to information collected by this web site.
+#, fuzzy
+msgid "outside_links_disclaimer"
+msgstr "Our Web site contains many links to other sites. Intervac International is not responsible for the privacy practices of such other sites. This privacy statement applies solely to information collected by this web site."
+
+# --- English text = Cookies
+#, fuzzy
+msgid "cookies_headline"
+msgstr "Cookies"
+
+# --- English text = Personal information may also be collected by cookies, which are pieces of data stored by a web browser that contain information relating to use of Intervac International web site. A cookie can not read data off your hard disc or read cookie files created by other sites. Intervac does not use cookies to track personal information and uses them for internal management purposes only. Our web site requires that cookies be active to use member functions.
+#, fuzzy
+msgid "cookies_text"
+msgstr "Personal information may also be collected by cookies, which are pieces of data stored by a web browser that contain information relating to use of Intervac International web site. A cookie can not read data off your hard disc or read cookie files created by other sites. Intervac does not use cookies to track personal information and uses them for internal management purposes only. Our web site requires that cookies be active to use member functions."
+
+# --- English text = If you have any questions about the security at our Web site, please send an e-mail to security@intervac.org.
+#, fuzzy
+msgid "security_questions"
+msgstr "If you have any questions about the security at our Web site, please send an e-mail to security@intervac.org."
+
+# --- English text = Contacting Intervac International
+#, fuzzy
+msgid "how_to_contact_headline"
+msgstr "Contacting Intervac International"
+
+# --- English text = If you have any questions about this privacy policy statement or the practices of this site, you can e-mail the-board@intervac.org, or call your National Intervac agent or send direct correspondence to Intervac International Home Exchange Holiday Service, PO Box 561, SE – 114 79 Stockholm, Sweden
+#, fuzzy
+msgid "how_to_contact_text"
+msgstr "If you have any questions about this privacy policy statement or the practices of this site, you can e-mail the-board@intervac.org, or call your National Intervac agent or send direct correspondence to Intervac International Home Exchange Holiday Service, PO Box 561, SE - 114 79 Stockholm, Sweden"
+
+# --- English text = Changes to the Privacy Policy
+#, fuzzy
+msgid "changes_headline"
+msgstr "Changes to the Privacy Policy"
+
+# --- English text = If we decide to change our privacy policy, we will post notice of a privacy policy update on our Home page so that our users may view our updated policy and be aware on an ongoing basis of what information we collect, how we use it, and under which circumstances, if any, we disclose it. 
+#, fuzzy
+msgid "changes_text"
+msgstr "If we decide to change our privacy policy, we will post notice of a privacy policy update on our Home page so that our users may view our updated policy and be aware on an ongoing basis of what information we collect, how we use it, and under which circumstances, if any, we disclose it."

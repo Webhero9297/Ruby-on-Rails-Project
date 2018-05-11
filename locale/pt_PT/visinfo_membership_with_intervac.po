@@ -1,0 +1,244 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Membership with Intervac
+# (June, 2011 - New)
+#, fuzzy
+msgid "page.headline"
+msgstr "Membership with Intervac"
+
+# --- English text = Free Trial Membership
+# (June, 2011 - New)
+#, fuzzy
+msgid "trial_membership.headline"
+msgstr "Free Trial Membership"
+
+# --- English text = Are you new to home exchange?  We believe we have the best home exchangers in our community.  If you'd like to find out for yourself, join us today and choose our trial membership.  You will receive unlimited access to our site for {{number}} days to try out all the features listed below, browse our database and contact our members.  You can upgrade to a full membership any time.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+#, fuzzy
+msgid "trial_membership.text"
+msgstr "Are you new to home exchange?  We believe we have the best home exchangers in our community.  If you'd like to find out for yourself, join us today and choose our trial membership.  You will receive unlimited access to our site for {{number}} days to try out all the features listed below, browse our database and contact our members.  You can upgrade to a full membership any time."
+
+# --- English text = Site Features at Intervac.com
+# (June 2011)
+msgid "site_features.headline"
+msgstr "Site Features at Intervac.com"
+
+# --- English text = Your Listing
+# (June 2011)
+msgid "your_listing.headline"
+msgstr "Your Listing"
+
+# --- English text = Your online entry allows you to record a great deal of information about your home and surroundings. To get the most from your membership it is essential to promote your home and its area, indicating where you are, how best to be reached and what's on offer. The more information you can give in the form of photos and text, the more it helps other members to decide that your offer is exactly what they are searching.
+# (June 2011)
+msgid "your_listing.text"
+msgstr "Your online entry allows you to record a great deal of information about your home and surroundings. To get the most from your membership it is essential to promote your home and its area, indicating where you are, how best to be reached and what's on offer. The more information you can give in the form of photos and text, the more it helps other members to decide that your offer is exactly what they are searching."
+
+# --- English text = Photos and Descriptive Text
+# (June 2011)
+msgid "text_and_photos.headline"
+msgstr "Photos and Descriptive Text"
+
+# --- English text = Intervac provides facilities for you to post up to twenty photos and write (unlimited!) descriptive text under the headings: your home, family, lifestyle and neighbourhood. Multi-lingual members often post descriptions in their various languages in order to improve the findability of their listing by keyword searches. It is all quite easy to do, there is lots of help text available on the site, and your local organiser is happy to help if you find you have questions that are not already answered.
+# (June 2011)
+msgid "text_and_photos.text"
+msgstr "Intervac provides facilities for you to post up to twenty photos and write (unlimited!) descriptive text under the headings: your home, family, lifestyle and neighbourhood. Multi-lingual members often post descriptions in their various languages in order to improve the findability of their listing by keyword searches. It is all quite easy to do, there is lots of help text available on the site, and your local organiser is happy to help if you find you have questions that are not already answered."
+
+# --- English text = A Map of Your Surroundings
+# (June 2011)
+msgid "map.headline"
+msgstr "A Map of Your Surroundings"
+
+# --- English text = Every listing has an (optional) Google map so that prospective partners can get a good picture of the neighborhood where your home is located.  The marker is not by default placed precisely on your home.  If you like though, you can place it yourself using latitude and longitude.
+# (June 2011)
+msgid "map.text"
+msgstr "Every listing has an (optional) Google map so that perspective partners can get a good picture of the neighborhood where your home is located.  The marker is not by default placed precisely on your home.  If you like though, you can place it yourself using latitude and longitude."
+
+# --- English text = Search Facilities
+# (June 2011)
+msgid "search_facilities.headline"
+msgstr "Search Facilities"
+
+# --- English text = The right combination search facility is important to your ease of finding the perfect partner.  Our online system supports searching by:
+# (June 2011)
+msgid "search_facilities.text"
+msgstr "The right combination search facility is important to your ease of finding the perfect partner.  Our online system supports searching by:"
+
+# --- English text = Country
+# (June 2011)
+msgid "search_facilities_list.country"
+msgstr "Country"
+
+# --- English text = Region
+# (June 2011)
+msgid "search_facilities_list.region"
+msgstr "Region"
+
+# --- English text = Exchange dates
+# (June 2011)
+msgid "search_facilities_list.exchange_dates"
+msgstr "Exchange dates"
+
+# --- English text = Exchange types
+# (June 2011)
+msgid "search_facilities_list.exchange_types"
+msgstr "Exchange types"
+
+# --- English text = Keyword (within the extra text in a listing)
+# (June 2011)
+msgid "search_facilities_list.keyword"
+msgstr "Keyword (within the extra text in a listing)"
+
+# --- English text = Spoken language of exchange partner
+# (June 2011 )
+msgid "search_facilities_list.spoken_language"
+msgstr "Spoken language of exchange partner"
+
+# --- English text = Sleeping accommodations
+# (June 2011)
+msgid "search_facilities_list.sleeping_accomodation"
+msgstr "Sleeping accommodations"
+
+# --- English text = Family - number of adults, with or without kids
+# (June 2011)
+msgid "search_facilities_list.family"
+msgstr "Family - number of adults, with or without kids"
+
+# --- English text = Twenty-three important detail criteria
+# (June 2011)
+msgid "search_facilities_list.other_details"
+msgstr "Twenty-three important detail criteria"
+
+# --- English text = Or, any combination of the above.
+# (June 2011)
+msgid "search_facilities_list.combination"
+msgstr "Or, any combination of the above."
+
+# --- English text = Want to make the same search in a week?  No problem, our system allows you to name and save your searches for reuse later.  Keep a search for Paris in the spring and Austria at Christmas time.  The number of searches you can keep is unlimited.
+# -- (Feb 2009) Hi Translators => This feature is not implemented yet, and Jens thinks he won't get to it before we launch the new system.  It is on his list of things to do though, so I've just hidden it on the page.  As soon as Jens has programmed the saved search feature, I'll un-hide this text.
+# -- (June 2011 - Not In Use)
+msgid "-x- search_facilities.named_search"
+msgstr "Want to make the same search in a week?  No problem, our system allows you to name and save your searches for reuse later.  Keep a search for Paris in the spring and Austria at Christmas time.  The number of searches you can keep is unlimited."
+
+# --- English text = Reverse Search?
+# (June 2011)
+msgid "reverse_search.headline"
+msgstr "Reverse Search?"
+
+# --- English text = We sure do, and it's the most comprehensive "reverse search" in the industry.  We encourage our members to fill in as many regions and cities as they like (it's unlimited, really!) so that you can find all members who are specifically interested in visiting your country, region or nearest city.  That's service!
+# (June 2011)
+msgid "reverse_search.text"
+msgstr "We sure do, and it's the most comprehensive "reverse search" in the industry.  We encourage our members to fill in as many regions and cities as they like (it's unlimited!) so that you can find all members who are specifically interested in visiting your country, region or nearest city.  That's service!"
+
+# --- English text = What types of vacation does Intervac's online system support?
+# (June 2011)
+msgid "exchange_types.headline"
+msgstr "What types of vacation does Intervac's online system support?"
+
+# --- English text = Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time.
+# (June 2011)
+msgid "exchange_types_list.home_exchange"
+msgstr "Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time."
+
+# --- English text = House Sitting: Looking after someone else's home, mail, pets while they are away.
+# (June 2011)
+msgid "exchange_types_list.house_sitting"
+msgstr "House Sitting: Looking after someone else's home, mail, pets while they are away."
+
+# --- English text = Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# (June 2011)
+msgid "exchange_types_list.double_exchange"
+msgstr "Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families."
+
+# --- English text = Hospitality Exchange: Members agree to exchange visits in each other’s homes.
+# (June 2011)
+msgid "exchange_types_list.hospitality_exchange"
+msgstr "Hospitality Exchange: Members agree to exchange visits in each other’s homes."
+
+# --- English text = Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies.
+# (June 2011)
+msgid "exchange_types_list.long_term_exchange"
+msgstr "Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies."
+
+# --- English text = Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# (June 2011)
+msgid "exchange_types_list.bed_and_breakfast"
+msgstr "Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies."
+
+# --- English text = Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members.
+# (June 2011)
+msgid "exchange_types_list.rental"
+msgstr "Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members."
+
+# --- English text = Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# (June 2011)
+msgid "exchange_types_list.youth_exchange"
+msgstr "Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time."
+
+# --- English text = Youth Hospitality: Young people agree to visit each other.
+# (June 2011)
+msgid "exchange_types_list.youth_hospitality"
+msgstr "Youth Hospitality: Young people agree to visit each other."
+
+# --- English text = Integrated Messaging System
+# (June 2011)
+msgid "messages.headline"
+msgstr "Integrated Messaging System"
+
+# --- English text = Email can get lost or sucked into a spam filter - but a an offer sent through our system is waiting for you when you login.
+msgid "messages.pullquote"
+msgstr "Email can get lost or sucked into a spam filter - but a an offer sent through our system is waiting for you when you login."
+
+# --- English text = Yes, that's right, we have an integrated messaging system that allows you to contact other members in rich text (with links!) and without ever leaving our system.  You can see that a message has been sent and when it was read.   Offers and answers to your messages be waiting for you to when you login and they are super easy to answer with templates in rich text - click a button.
+# (June 2011)
+msgid "messages.messages_text"
+msgstr "Yes, that's right, we have an integrated messaging system that allows you to contact other members in rich text (with links!) and without ever leaving our system.  You can see that a message has been sent and when it was read.   Offers and answers to your messages be waiting for you to when you login and they are super easy to answer with templates in rich text - click a button."
+
+# --- English text = Write unlimited templates for both sending and answering your messages.  For example: write a "send" template named "France - Spring Next Year" or an "answer" template "No thanks" in which you politely tell an enquiring member that their offer is not what you are looking for at the moment.  There is no limit to the number of templates you can write.  Compose more than one "No thanks" template: one for offers in which you are definitely not interested, and one for ones you might want to come back to at a later date. Or use different "send" templates to plan several holidays at once.
+# (June 2011)
+msgid "messages.templates_text"
+msgstr "Write unlimited templates for both sending and answering your messages.  For example: write a "send" template named "France - Spring Next Year" or an "answer" template "No thanks" in which you politely tell an enquiring member that their offer is not what you are looking for at the moment.  There is no limit to the number of templates you can write.  Compose more than one "No thanks" template: one for offers in which you are definitely not interested, and one for ones you might want to come back to at a later date. Or use different "send" templates to plan several holidays at once."
+
+# --- English text = Member Favorites
+# (June 2011)
+msgid "member_favorites.headline"
+msgstr "Member Favorites"
+
+# --- English text = And speaking of coming back to an offer at a later date, that's where your Favorites list can help you keep track of your dream vacations.  With the click of a button, you can add a listing to your favorites.  Write notes in unlimited rich text in the notes section and keep track of your contacts.
+# (June 2011)
+msgid "member_favorites.text"
+msgstr "And speaking of coming back to an offer at a later date, that's where your Favorites list can help you keep track of your dream vacations.  With the click of a button, you can add a listing to your favorites.  Write notes in unlimited rich text in the notes section and keep track of your contacts."
+
+# --- English text = Match Alert!
+# (June 2011)
+msgid "match_alert.headline"
+msgstr "Match Alert!"
+
+# --- English text = Here is a nifty tool designed with the frequent exchanger in mind.  Tell our system what sort of offers interest you, and how frequently you would like to be notified of potential matches and we'll send you an email with up to twenty potential exchange partners.  What is special about that?  The settings you put in your Match Alert profile can be completely different from those in your listing!  So, if you are trying to arrange two exchanges, one for Spring and one at Christmas, set your Christmas date preferences in your Match Alert profile, and we'll let you know about the hot prospects while you advertise in your listing for your Spring holiday dates.
+# (June 2011)
+msgid "match_alert.text"
+msgstr "Here is a nifty tool designed with the frequent exchanger in mind.  Tell our system what sort of offers interest you, and how frequently you would like to be notified of potential matches and we'll send you an email with up to twenty potential exchange partners.  What is special about that?  The settings you put in your Match Alert profile can be completely different from those in your listing!  So, if you are trying to arrange two exchanges, one for Spring and one at Christmas, set your Christmas date preferences in your Match Alert profile, and we'll let you know about the hot prospects while you advertise in your listing for your Spring holiday dates."
+
+# --- English text = Last Minute Listings
+# (June 2011)
+msgid "hotlist.headline"
+msgstr "Last Minute Listings"
+
+# --- English text = This is a succinct list of members looking for a partner for an exchange within the next eight weeks.  Adding your listing to the Last Minute List is easy as clicking a button.  Your listing will appear on the Last Minute List for four days, after which you can click to add it again if you are still looking.
+# (June 2011)
+msgid "hotlist.text"
+msgstr "This is a succinct list of members looking for a partner for an exchange within the next eight weeks.  Adding your listing to the Last Minute List is easy as clicking a button.  Your listing will appear on the Last Minute List for four days, after which you can click to add it again if you are still looking."
+

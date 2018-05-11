@@ -1,0 +1,140 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-06-16 19:52+0100\n"
+"PO-Revision-Date: 2011-10-12 17:12+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Save Text
+msgid "save_text_button"
+msgstr "Bewaar tekst"
+
+# --- English text = Picture Upload
+# --- (Mar. 2009) Edited to read: Upload Pictures
+msgid "upload_title"
+msgstr "Foto opladen"
+
+# --- English text = Do you really want to delete this photo?
+msgid "confirm_photo_delete"
+msgstr "Wil je deze foto verwijderen?"
+
+# --- English text = Delete Photo
+# --- Location = This text appears when you put your mouse pointer over the trash can icon.
+msgid "thumbnails.delete_photo"
+msgstr "Verwijder deze foto"
+
+# --- English text = Primary Photo
+msgid "Primary Photo"
+msgstr "Basisfoto"
+
+##### --- English text = Photos
+msgid "left_column.photos"
+msgstr "Foto's"
+
+# --- English text = You have not uploaded a primary photo yet!  This way please...
+msgid "messages.no_primary_photo"
+msgstr "Je hebt nog geen basisfoto opgeladen! Hier kan je dit doen."
+
+# --- English text = Additional Text and Photos
+msgid "headline"
+msgstr "Bijkomende tekst en foto's"
+
+# --- English text = You can post up to twenty additional photos, which you should sort into different categories. Choose the category from the box below. For comments on each category you can also insert as much text as you like.
+msgid "allowed_photos_and_text"
+msgstr "Je kan tot 20 bijkomende foto's opladen, en een ongelimiteerd stukje tekst in verschillende categorien, door de categorie hieronder te kiezen alvorens op te laden."
+
+##### --- English text = Upload This Photo
+msgid "upload_button"
+msgstr "Deze foto opladen"
+
+# --- English text = Only jpg files will be accepted.
+msgid "upload_jpg"
+msgstr "Alleen .jpg formaat wordt aanvaard"
+
+# --- English text = Change the category
+msgid "change_category"
+msgstr "Wijzig de categorie"
+
+# --- English text was = Additional Descriptive Text
+# --- (Mar. 2009)  Edited for clarity = Add Category Text
+#, fuzzy
+msgid "additional_text_title"
+msgstr "Bijkomende beschrijvende tekst"
+
+# --- Error Text
+# --- English text = You have reached the maximum limit of 20 photos
+msgid "messages.maximum_photos_reached"
+msgstr "Je hebt de maximum limiet van 20 foto's bereikt"
+
+# --- Error Text
+# --- English text = Your text has been saved successfully.
+msgid "messages.text_save_successful"
+msgstr "Je tekst is met succes bewaard."
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "errors.incorrect_file_type"
+msgstr "Alleen JPG bestanden opladen."
+
+# --- English text = Please click the browse button to select a photo to upload.
+msgid "errors.no_photo_selected"
+msgstr "Gelieve op de browser knop te klikken om een foto te selecteren"
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+msgid "messages.photo_upload_successful"
+msgstr "Afbeelding is met succes opgeladen!"
+
+# --- English text = To delete a photo click the orange garbage bin.
+msgid "how_to_delete_photo"
+msgstr "Om een foto te verwijderen klik op de oranje prullenmand."
+
+# --- English text = Do you want to edit or delete the comments you have already written? Choose the right category in the dropdown box and the appropriate text will be loaded into the editor. Make your changes and remember to press the \"Save Text\" button.
+msgid "how_to_edit"
+msgstr "Wil je de tekst die je al geschreven hebt bewerken of verwijderen?  Kies de juiste categorie in de keuzelijst en de juiste tekst  zal worden opgeladen. Voer je wijzigingen uit en vergeet niet te klikken op \"Bewaar tekst\""
+
+# --- English text = To post a photo browse your computer files to find the right one, then press <strong>\"Upload This Photo\"</strong>.  Please be patient until you get a response. Depending on the size of your photo and the speed of your internet connection this could take a little while.
+msgid "how_to_upload"
+msgstr "Om een foto op te laden zoek de juiste foto in je computerbestanden en klik op <strong>\"Deze foto opladen\"</strong>. Dit kan een poosje duren, afhankelijk van het formaat van je foto en de snelheid van je internetaansluiting."
+
+# --- English text = Or you can write as much as you like about each category here. Whatever you write will be visible only to other members.
+msgid "additional_text_intro"
+msgstr "Hier kan je kan zoveel tekst schrijven als je maar wil over elke categorie. Wat je schrijft zal enkel zichtbaar zijn voor andere leden."
+
+# --- English text = <strong>Tip:</strong> Remember when composing your comments that you are addressing an international audience. Your choice of language could be important in talking to potential exchange partners from other countries.
+# --- Writing Tip: inside the <strong></strong> tags makes the text bold.
+msgid "language_tip"
+msgstr "Denk er aan dat wanneer je een tekst schrijft je je richt tot een internationaal publiek. De keuze van de taal waarin je schrijft kan belangrijk zijn om een eventuele ruilpartner in een ander land aan te spreken."
+
+# --- English text = Choose a category
+msgid "choose_category.headline"
+msgstr "Kies een catagorie"
+
+# --- English text = Caption Your Photo
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.headline"
+msgstr "Onderschrift bij de foto"
+
+# --- English text = If you like you can add a short caption for your photo by typing it in the box below.
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.introtext"
+msgstr "Indien je een kort onderschrift wil toevoegen aan je foto, schrijf een korte text in het vak hieronder."
+
+# --- English text = Caption:
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.label"
+msgstr "Onderschrift:"
+
+# --- English text = Before you copy your text from a Microsoft Word document you should save your document as a filtered web page.  This is easy to do.  Click the Help icon above for step-by-step instructions.
+# --- Location = 1st orange "Tip" in "Step #3 Add Category Text"
+#, fuzzy
+msgid "ms_word_tip"
+msgstr "Before you copy your text from a Microsoft Word document you should save your document as a filtered web page.  This is easy to do.  Click the Help icon above for step-by-step instructions."

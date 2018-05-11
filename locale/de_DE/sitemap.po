@@ -1,0 +1,142 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2009-12-02 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Our Online Services - Sitemap
+msgid "headline"
+msgstr "Unsere Online Services - Standort-Landkarte"
+
+# --- English text = Open To The Public
+msgid "subhead"
+msgstr "Für Besucher"
+
+# --- English text = Contact Our Agents Worldwide
+msgid "contact"
+msgstr "Weltweiter Kontakt zu unseren Repräsentanten"
+
+# --- English text = Find contact names and addresses for Intervac Agents worldwide.
+msgid "contact_text"
+msgstr "Hier finden Sie Name und Adresse von INTERVAC - Organisatoren - weltweit"
+
+# --- English text = Visitors Tour
+msgid "visitors_tour"
+msgstr "Besucher-Tour"
+
+# --- English text = Take our visitors tour to find out all about the wonderful world of home exchange.
+msgid "visitors_tour_text"
+msgstr "Klicken Sie auf unsere Besucher-Tour und entdecken Sie die grandiose Welt des Haustausches."
+
+# --- English text = Online Registration
+msgid "online_registration"
+msgstr "Online Anmeldung"
+
+# --- English text = Use our online registration form to become an Intervac member, and begin planning your next holiday adventure.
+msgid "online_registration_text"
+msgstr "Benutzen Sie unser Online-Anmeldeformular um Mitglied bei INTERVAC zu werden - planen Sie Ihren nächsten Erlebnisurlaub!"
+
+# --- English text = Preview Our Database
+msgid "preview_database"
+msgstr "Schauen Sie in unsere Datenbank"
+
+# --- English text = Take a few minutes to have a look around our database and search area.
+msgid "preview_database_text"
+msgstr "Nehmen Sie sich ein paar Minuten Zeit und sehen Sie sich in unserer Datenbank und den Suchkriterien um."
+
+# --- English text = Preview Our Last Minute Listings
+msgid "preview_hotlist"
+msgstr "Schauen Sie  in unsere HOT-LIST"
+
+# --- English text = Our Hot List is an exclusive service especially designed to offer members searching last minute exchanges a special place to find each other.
+msgid "preview_hotlist_text"
+msgstr "Unsere HOT-LIST  ist ein SUPER-Service - ganz speziell für Mitglieder, die einen LAST-MINUTE  Haustausch-Urlaub organisieren wollen!"
+
+# --- English text = Preview Member Statistics (Example)
+msgid "preview_member_stats"
+msgstr "Vorschau über die Mitgliederstatistik (Beispiel)"
+
+# --- English text = Here you can preview our individual statistics.
+msgid "preview_member_stats_text"
+msgstr "Hier eine Vorschau in die inividuelle Statistik."
+
+# --- English text = For Members Only
+msgid "members_only"
+msgstr "Nur für Mitglieder"
+
+# --- English text = Members please login to
+# --- (Dec 2008) Edited --- Member login => Members please login to
+msgid "login"
+msgstr "Mitglieder-Login"
+
+# --- English text = Edit profile details
+msgid "edit_profile"
+msgstr "Ausgabe der Profildetails"
+
+# --- English text = Search by country/region
+msgid "search_by_country"
+msgstr "Suche mittels Land/Region"
+
+# --- English text = View last minute listings
+msgid "view_hotlist"
+msgstr "Ansicht der Last Minute Angebote"
+
+# --- English text = View listing statistics
+msgid "view_statistics"
+msgstr "Ansicht der Angebots-Statistik"
+
+# --- English text = Change you password
+msgid "change_password"
+msgstr "Ändern Sie Ihr Passwort"
+
+# --- English text = Upload your main photo
+msgid "upload_photo"
+msgstr "Laden Sie Ihr Hauptphoto hoch"
+
+# --- English text = Add more text and photos
+# --- (Dec. 2008) Edited slightly
+msgid "extra_text_photo"
+msgstr "Zusatztext und - photos"
+
+# --- English text = Search new listings
+msgid "search_new_listings"
+msgstr "Suche nach neuen Angeboten"
+
+# --- English text = Administer Favorites
+# --- (Dec 2008)   New text
+msgid "favorites"
+msgstr "Favoriten bearbeiten"
+
+# --- English text = Contact another member
+# --- (Dec 2008)  New Text
+msgid "send_message"
+msgstr "Nachricht senden"
+
+# --- English text = Search a specific member
+# --- (Dec. 2008 )  New Text
+msgid "search_specific_member"
+msgstr "spezielles Mitglied suchen"
+
+# --- English text = Set Match Alert criteria
+# --- (Dec 2008)  New Text
+msgid "match_alert"
+msgstr "Match Alert "
+
+# --- English text = Check your messages
+# --- (Dec 2008)  New Text
+msgid "check_messages"
+msgstr "Nachrichten checken"
+
+# --- English text = Write message templates
+msgid "write_message_templates"
+msgstr "Nachrichten Vorlagen verfassen"
+

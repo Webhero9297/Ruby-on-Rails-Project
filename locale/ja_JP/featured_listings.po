@@ -1,0 +1,79 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-11-24 19:11+0100\n"
+"PO-Revision-Date: 2011-11-17 22:02+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = <highlight>FI0739 - Tampere, Finland.</highlight> Beautiful area between two lakes. Famous for lake cruises. Small apartment near Lake Pyhajarvi. Not far away from Russia, Estonia and Finnish "Alps" in Lappland. Two persons.
+msgid "-x- november2009.FI0739"
+msgstr "F10739 - タンペレ、フインランド。二つの湖に囲まれた美しい場所。湖のクルーズで有名。Ｐｙｈａｊａｒｖｉ湖の近くの小さいアパート。ロシアから遠くない。"
+
+# --- English text = <highlight>FR010142 - South of France.</highlight> Quiet modern flat with a view over the bay of Cannes/Mandelieu. Private swimming pool. Near shops. Two persons.
+msgid "-x- november2009.FR010142"
+msgstr "ＦＲ０１０１４２－南フランス。カンヌ/マンドリュの湾が望める静かでモダンなフラット。プライベートの水泳プール。商店に近い。２人。"
+
+# --- English text = <highlight>SE9335 - Boras, Gothenberg.</hightlight> Comfortable family home close to lakes and woods. Nice garden with fruit trees, garden furniture, swing and small sandpit. Good facilities for children. Six persons.
+msgid "-x- november2009.SE9335"
+msgstr "ＳＥ９３３５－ボラス、ゴーゼンベルグ県。湖や森林に近い快適なファミリーホーム。フルーツの木や必要なものが備えてある庭、ブランコや砂場のある素晴らしいガーデン。子供達のとってよい環境。６人。"
+
+# --- English text = <highlight>FR020030 - Bordeaux.</highlight> Quiet village 30 minutes from Bordeaux. House with shaded garden. Close to forest. Horse riding club nearby. Four kilometres from St Medard en Jalles with every shopping facility. Eight persons
+msgid "-x- november2009.FR020030"
+msgstr "ＦＲ０２００３０－ボルドー。ボルドー市から３０分の静かな村。日陰のある庭あり。森に近い。近くに馬術クラブあり。日常の買い物の出来るサン・メダールアンジャルから４ｋｍで。８人。"
+
+# --- English text = <highlight>SE10287 - Stenungsund, near Gothenberg.</highlight> Close to the sea and forest. Good facilities for children. Six persons.
+msgid "-x- november2009.SE10287"
+msgstr "ＳＥ１０２８７－　Ｓｔｅｎｕｎｇｓｕｎｄ,、ゴゼンベルグ市に近い。海や森林へ近い。子供への環境よし。６人。"
+
+# --- English text = <highlight>USMA1045 - Boston, Massachusetts.</highlight> Spacious child friendly home in central part of Boston. Short walk to the City train system. Twenty-minute train ride to Boston Common, Faneuil Hall, the Freedom Trail, the North End, and the rest of the Boston historic sites. Seven persons.
+msgid "-x- november2009.USMA1045"
+msgstr "ＵＳＭＡ１０４５－ボストン、マサチューセット州。ボストン市内の広々として子供に最適でフレンドリーな家。市電は近い。ボストン・コモン、ファニュール・ホール、フリードムトレイル、ノースエンド、ボストンの歴史的な場所などへも徒歩圏。"
+
+# --- English text = <highlight>NZ0010 - Christchurch.</highlight> Lovely home/garden set on the surrounding rim of an extinct volcano in a region which offers mountains, lakes, beaches, national park walkways and every kind of sporting activity. Six persons.
+msgid "april2010.NZ0010"
+msgstr "ＮＺ００１０－　クライストチャーチ。山々、湖、海岸、国立公園遊歩道などに囲まれ、スポーツ活動もできる死火山の周辺地域にあるラブリーな家とガーデン。６人。"
+
+# --- English text = <highlight>BE338 - Brugges, Belgium</highlight> Located in a quiet neighborhood near the historical city of Brugges. Good public transportation is available and this home is located only fifteeen kilometers from the sea, boating and sailing.  Home Exchange for six persons.
+msgid "dec2010.BE338"
+msgstr "<highlight>BE３３８ - ブリュッヘ、ベルギー</highlight>。 歴史的なブリュッヘ市近郊の静かな環境にある。公共交通機関あり便利。海岸から１５ｋｍにありボートやヨットが楽しめる。ホームエクスチェンジの最大受け入れ人数は６人まで。"
+
+# --- English text = <highlight>AU09019 - Newcastle, Australia</highlight> Located directly on Lake Macquarie, the largest costal lake in Australia.  Nearly all water sports imaginable just out the door.  Thirty minutes to the vineyards, restaurants and art galleries of Hunter Valley and forty minutes from Newcastle.  Home Exchange for six persons.
+msgid "dec.2010.AU09019"
+msgstr "<highlight>AU０９０１９ - ニューカッスル市,オーストラリア</highlight>。オーストラリア最大のマクォーリー湖に面している。ウォータースポーツはすべてドア先で可能。ぶどう園、レストラン、ハンターヴァレイのアートギャラリーなどへは30分の距離で ニューカッスルからは40分。ホームエクスチェンジの最大受け入れ人数は6人。"
+
+# --- English text = <highlight>GB091535 - Plymouth, Great Britain</highlight> This lovely four bedroom home is located in the countryside in a peaceful Cornish village twenty-five minutes drive from Plymouth fifteen minutes drive from Tavistock. Home Exchange for seven persons.
+msgid "dec.2010.GB091535"
+msgstr "<highlight>GB０９１５３５ - プリマス市, 英国</highlight>。4つの寝室を持つラブリーな家で美しいコーンウォール県の田舎に位置する。 プリマス市から車で25分、タビストック市から車で15分。ホームエクスチェンジの最大受け入れ人数は7人。"
+
+# --- English text = <highlight>ES2392 - Pontevedre, Spain</highlight> A modern home near the city center of the small and beautiful city capital of the  Galician Rias Baixas, Pontevedra.  A cosy garden and an outdoor pool with a security fence make it the perfect place for children. Home Exchange for maximum six persons
+msgid "dec2010.ES2392"
+msgstr "<highlight>ES２３９２ - ポンテベドラ、スペイン</highlight>。ポンテベドラのガリツィア・ピアス・ガリシアンの小さな美しい都市の中心地から近いモダンな家。こじんまりした庭と屋外プールは安全柵があって子供達には最適。ホームエクスチェンジの最大受け入れ人数は6人。 "
+
+# --- English text = <highlight>NO545915 - Oslo, Norway</highlight> In our town Asker, from our own kitchen window, we can see Skaugum, where the crown prince, Haakon, and his family live.  In a quiet neighborhood thirty minutes from Oslo. Home Exchange for maximum seven persons
+msgid "dec2010.NO545915"
+msgstr "<highlight>NO545915 -オスロ市, ノールウェイ</highlight>。アスカー市内。 我が家のキッチンの窓から、Haakon,皇太子とその家族が住んでいるスカウガムが見える。オスロ市から30分の距離で静かな環境。ホームエクスチェンジの最大受け入れ人数は7人。"
+
+# --- English text = <highlight>AT00054 - Wien, Austria</highlight> Non-smoking home with pets, located in the country approximately 80 km outside of Vienna. Near lovely local tourist attractions, forest and river.  Here is sleeping capacity for maximum six people.
+msgid "jan2011.AT00054"
+msgstr "<highlight>AT00054 - ウィーン市, オーストリア</highlight>。喫煙不可でペット有。ウィーン市からおよそ８０ｋｍに位置する。近郊は森や川があり、ローカルな魅力のあふれる環境。止まれる最大人数は6人。"
+
+# --- English text = <highlight>FR060477 - Pau, France</highlight> Situated between the Atlantic Ocean and the Pyranees mountains this large home offers sleeping capacity for ten people.  Lots of fun for children in the garden including table-tennis, a trampoline and a large sandbox.
+msgid "jan2011.FR060477"
+msgstr "<highlight>FR060477 - ポー市、フランス</highlight>。大西洋とピレネー山脈に囲まれて位置する。最大の泊まれる人数は10人の大きな家。卓球台やトランポリン、大きな砂場があり、子供達には楽しい環境。"
+
+# --- English text = <highlight>IE9021 - Dublin, Ireland</highlight> Our home in Dublin is a large, bright  comfortable home within easy reach of the city  yet only 15mins from  the Dublin Mountains and the border with Wicklow National Park.
+msgid "jan2011.IE9021"
+msgstr "<highlight>IE9021 - ダブリン市、アイルランド</highlight>。ダブリン市の我が家は大きくて、光にあふれた快適な家。市内はどこへでも容易に行け、ダブリン森やウィックロー国立公園からは15分の距離。 "
+
+# --- English text = <highlight>USMA1066 - Boston, USA</highlight> Our 18th century home is comfortable and spacious. It is an old farmhouse in an historic part of New England - great for families or couples.
+msgid "jan2011.USMA1066"
+msgstr "<highlight>USMA1066 -ボストン市、米国</highlight>。18世紀の家で快適で広々している。ニューイングランドの古くて歴史的な地域である。家族やカップルに最適。"
+

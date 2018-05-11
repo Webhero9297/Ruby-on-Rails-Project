@@ -1,0 +1,150 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-11-03 19:11+0100\n"
+"PO-Revision-Date: 2011-11-22 01:10+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Search Criteria
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.headline"
+msgstr "検索条件"
+
+# --- English text = About Exchange Types
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.headline"
+msgstr "エクスチェンジのタイプについて"
+
+# --- English text = Exchange types are evaluated as follows: any listing returned will fulfill your other criteria <highlight>and</highlight> at least one of the exchange types you have chosen below.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.evaluation_rules"
+msgstr "エクスチェンジのタイプは次のようになっている：　あなたの他の条件を満たし、<highlight>そして</highlight>少なくとも下で選択したエクスチェンジ・タイプの一つであるリスティング。"
+
+# --- English text = Following is a list of all the exchange types supported by our online system, and their definitions.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.list_intro"
+msgstr "次は我々のオンラインシステムでサポートしているすべてのエクスチェンジ・タイプのリストです。"
+
+# --- English text = <highlight>Home Exchange: </highlight>Our main focus - two families agree to live in each other's homes over a specified period of time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.home_exchange"
+msgstr "<highlight>ホームエクスチェンジ： </highlight>我々の活動の中心的なもの　－　２つの家族が同意してそれぞれが相手方の家に決められた期間住むことを。"
+
+# --- English text = <highlight>House Sitting: </highlight>Looking after someone else's home, mail, pets while they are away.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.house_sitting"
+msgstr "<highlight>ハウス・シッティング： </highlight>会員の家に留守の間に住み込んで郵便、ペットなどの世話をする事。"
+
+# --- English text = <highlight>Double Exchange: </highlight>Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.double_exchange"
+msgstr "<highlight>ダブル・エクスチェンジ: </highlight>２つの家族が（お互い近くに住む家族の場合がよくある）２つの家族とのエクスチェンジを望んでいるケース。このタイプは隣人と休暇も一緒にしたいと望む家族に好まれる。"
+
+# --- English text = <highlight>Hospitality Exchange: </highlight>Members agree to exchange visits in each other’s homes.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.hospitality_exchange"
+msgstr "<highlight>ホスピタリティ・エクスチェンジ(無料の食事付き宿泊）： </highlight>会員間でお互いの家を訪問することに同意する。"
+
+# --- English text = <highlight>Long Term Exchanges: </highlight>A favorite between retired people, university staff, or employees of global multi-national companies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.long_term_exchanges"
+msgstr "<highlight>長期間のエクスチェンジ： </highlight>退職者や大学関係者、大企業勤務社員などに好まれる。"
+
+# --- English text = <highlight>Bed and Breakfast: </highlight>This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.bed_and_breakfast"
+msgstr "<highlight>ベット・アンド・ブレックファスト： </highlight>これはよく知られているものであるが、ここでは会員間で提供するもので金銭の受取はない。"
+
+# --- English text = <highlight>Rentals: </highlight>Members sometimes list holiday homes which they usually rent offering a reduced price to Intervac members.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.rentals"
+msgstr "<highlight>賃貸： </highlight>会員で休暇用の家を持っている場合などに、その家を会員に廉価で提供する場合など。"
+
+# --- English text = <highlight>Youth Exchange:  </highlight>A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_exchange"
+msgstr "<highlight>子供達の交換:  </highlight>小さい子供達がいつも身近に居る親から離れて新しい文化を知る機会になる。"
+
+# --- English text = <highlight>Youth Hospitality: </highlight>Young people agree to visit each other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_hospitality"
+msgstr "<highlight>子供達のホームステイ交換： </highlight>子供達がお互いの家を訪問しあう。"
+
+# --- English text = About Exchange Dates
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.headline"
+msgstr "エクスチェンジの期間について"
+
+# --- English text = Exchange dates require at least one overlapping day in order to be included in your search results.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.evaluation_rules"
+msgstr "エクスチェンジの期間はあなたの検索結果に含ませるため少なくとも一日は重なることが要求されます。"
+
+# --- English text = In these fields you should show the earliest date you are available to travel, and the latest date by which you must return home.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.best_practice"
+msgstr "ここでは、エクスチェンジを始められる最も早い日付と帰宅するための一番遅い日付を示さなければいけない。"
+
+# --- English text = About Sleeping Accomodations
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.headline"
+msgstr "宿泊できる施設について"
+
+# --- English text = Sleeping accomodations is evaluated as an <highlight>and</highlight> condition to your other search criteria.  This means any listing returned will have your other criteria <highlight>and</highlight> fulfill the ones below as well.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.evaluation_rules"
+msgstr "宿泊施設は一つ<highlight>そして</highlight>あなたの他の検索条件で評価します。この意味はどんなリスティングでもあなたの他の条件<highlight>そして</highlight>下記の条件が含まれているという事です。"
+
+# --- English text = <highlight>Sleeping/People</highlight> This refers to the number of people who can sleep in an exchange home.  It includes beds, pull-out sofas, etc.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.sleeps_people"
+msgstr "<highlight>泊まれる/人数</highlight> これは何人の人が泊まる事ができるかということで、ベットやソファベットなどの寝台になるものを含む。"
+
+# --- English text = <highlight>Find listings with -- adults </highlight> This is evaluated as an exact number.  So if you choose to search for listings with 2 adults, the system will not return listings with 1 adult.  If you do not want to use this criteria in your search just set the dropdown to the double dash (--).
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.number_of_adults"
+msgstr "<highlight>大人の数を（－－）と表示してリスティングを見る </highlight>。これは正確な人数が求められます。だからもし大人2名でリスティングの検索をすると、大人１名の数のリスティングは一致しません。もしこの検索基準を使いたくないときは、ドロップダウンをダブルダッシュ（－－）とセットしてください"
+
+# --- English text = <highlight>With or without children </highlight>Choose the double dash (--) if you don't care one way or the other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.children"
+msgstr "<highlight>子供連れ、子供なし </highlight>Choose the double dash (--) if you don't care one way or the other."
+
+# --- English text = About Keyword Search
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.headline"
+msgstr "キイワード検索について"
+
+# --- English text = Keywords are the way to search within a member's free text.
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.introtext"
+msgstr "キイワードは会員のフリーテキストの中で検索できる方法です。"
+
+# --- English text = <highlight>How do they work?</highlight> Keywords are OR conditions.  A given listing will be returned if it contains the first keyword, OR the second one, OR the third one.</p>
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.evaluation_rules"
+msgstr "<highlight>どのように機能するか？k?</highlight> キーワードはOR(又は） conditions.です。リスティングはもし最初のキーワードが含まれていれば一致します。OR(又は）二番目のキーワード、OR（又は）三番目のキーワード</p>。"
+
+# --- English text = About Reverse Search
+# --- Location:
+msgid "reverse_search.headline"
+msgstr "逆検索について"
+
+# --- English text = Introducing reverse search!  It's the best way to find other members who are specifically interested in visiting your country, your region or your nearest city.
+# --- Location:
+msgid "reverse_search.introtext"
+msgstr "逆検索を紹介します！このシステムは特にあなたの国や地域、近くの市を訪問したいと思っている他の会員を見つけるのには最上の方法です。"
+
+# --- English text = In the Destinations Wishlist you can enter an unlimited number of countries, regions and cities that you would like to visit. This search draws from that information and will return listings of members who have indicated in thier Destinations Wishlist that they would like to visit the same country, region, or nearest city as yours. The more you define your preferred destinations, the richer this feature will become for everyone.
+# --- Location:
+msgid "reverse_search.evaluation_rules"
+msgstr "希望行き先リストにはあなたが訪問したいと思っている国名、地域、市などを無制限に入力する事が出来ます。この検索は同じ国、地域や近くの市を訪問したいと思っている希望行き先リストが一致する会員のリスティングを知らせるものです。あなたが希望する行き先が多くなればなるほど、多くの人にこの機能がはっきされ使いやすいものとなるでしょう。"
+

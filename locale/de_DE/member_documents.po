@@ -1,0 +1,83 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2010-06-29 18:17+0100\n"
+"PO-Revision-Date: 2011-09-01 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Tips and Checklists
+msgid "page.headline"
+msgstr "Tipps, Checklisten und downloads"
+
+# --- English text = Car Exchange Template
+msgid "car_exchange_template.headline"
+msgstr "Autotausch-Vereinbarung"
+
+# --- English text = Download a sample Car Exchange Agreement (.pdf)
+msgid "car_exchange_template.download_pdf"
+msgstr "Autotausch-Vereinbarung: Beispiel zum Herunterladen (.pdf)"
+
+# --- English text = Member Tips and HowTos
+msgid "tips_and_howtos.headline"
+msgstr "Tipps von Mitgliedern"
+
+# --- English text = Our <link>Tips for New Members</link> document contains some basic information about using the Intervac online system to find and secure exchanges all over the world, as well as great starter tips from our experienced members.
+msgid "tips_and_howtos.new_member_tips.introtext"
+msgstr "Unsere<link>Tipps für neue Mitglieder</link> Formular enthält einige grundlegende Informationen für die  Anwendung des INTERVAC online Systems, um einen Tauschpartner auf der ganzen Welt zu finden.Sie erhalten auch Tipps von unseren erfahrenen Mitgliedern."
+
+# --- English text = Download Tips for New Members (.pdf)
+msgid "tips_and_howtos.new_member_tips.download_pdf"
+msgstr "Tipps für neue Mitglieder zum Herunterladen (.pdf)"
+
+# --- English text = <link>About Exchange Agreements</link> will give you information about how to start the exchange agreement process, how it works, and suggestions for reaching a satisfactory agreement.
+msgid "tips_and_howtos.about_exchange_agreements.introtext"
+msgstr "<link>Über Haustausch-Vereinbarung</link> gibt Ihnen Auskunft, wie die Tauschvereinbarung funktioniert und Vorschläge für eine zufriedenstellende Einigung. "
+
+# --- English text = Download About Exchange Agreements (.pdf)
+msgid "tips_and_howtos.about_exchange_agreements.download_pdf"
+msgstr "Über Tauschvereinbarungen zum Herunterladen (.pdf)"
+
+# --- English text = Checklists for a Successful Exchange
+msgid "checklists.headline"
+msgstr "Checkliste für einen erfolgreichen Tausch"
+
+# --- English text = Below you will find links to our helpful checklists.  You can view these in your browser or download the pdf for printing at home.
+msgid "checklists.introtext"
+msgstr "Unten finden Sie links zu den hilfreichen Checklisten. Sie können diese in Ihrem Browser sehen oder auch herunterladen (pdf), um zu diese auszudrucken."
+
+# --- English text = download (.pdf)
+msgid "checklists.download_pdf"
+msgstr "Herunterladen (.pdf)"
+
+# --- English text = view in browser
+msgid "checklists.browser_view"
+msgstr "Ansicht im Browser"
+
+# --- English text = Prepare for Guests
+msgid "checklists.prepare_for_guests_text"
+msgstr "Vorbereitung für Gäste"
+
+# --- English text = Before You Go Home
+msgid "checklists.before_you_go_home_text"
+msgstr "Bevor Sie nach Hause gehen"
+
+# --- English text = About Exchange Agreements
+msgid "documents.about_exchange_agreements.pdf_title"
+msgstr "Über Haustausch-Vereinbarung"
+
+# --- English text = Tips for New Members
+msgid "documents.new_member_tips.pdf_title"
+msgstr "Tipps für neue Mitglieder"
+
+# --- English text = About Exchange Agreements
+msgid "documents.car_exchange_template.pdf_title"
+msgstr "Autotausch-Vorlage"
+

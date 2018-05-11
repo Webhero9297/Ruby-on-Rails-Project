@@ -1,0 +1,83 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-01 17:46-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = My Primary Photo
+msgid "headline"
+msgstr "Mit primære billede"
+
+# --- English  text = We will also use the photo you upload here in our colour catalogue.  We require a photo of a minimum size 480 pixels by 480 pixels (length and width). If you are scanning photos please scan them at 300 dpi. We can only accept photos in a .jpg format.
+msgid "used_for_catalog"
+msgstr "Det billede der indsættes her vil også blive brugt i kataloget. Billedet skal minimum være 480 pixels (bredde og højde). For at opnå det bedste resultat skal billedet have en opløsning på minimum 300 dpi og SKAL være i * .jpg format."
+
+# --- English text = Recommended size is larger than 1024 pixels x 768 pixels.
+msgid "recommended_size"
+msgstr "Vi anbefaler 1024x768 pixel eller større og med 300dpi."
+
+# --- English text = The maximum file size is limited to 4MB.
+msgid "max_file_size"
+msgstr "Maksimum filstørrelse er 4MB."
+
+# --- English text = Please note that your photo will be optimised for display online.
+msgid "photo_will_be_optimised"
+msgstr "Dit billede vil blive optimeret til at kunne ses online på Internettet."
+
+# --- English text = To continue, press "browse" to find your photo, then press upload and be patient until you get a response. A new upload will replace the main photo you may already have displayed.
+msgid "to_continue_press_browse"
+msgstr "Klil på \"browse\" for at finde din billedfil på din computer. Klik dernæst på \"upload\" og vent til der kommer svar tilbage. Det billede du uploader vil erstatte det der var der i forvejen."
+
+# --- English text = When returning to your profile, if your new photo does not appear, try pressing the reload button on your browser.
+msgid "important_reload_browser"
+msgstr "Hvis du kommer tilbage til din annonce og dit billede ikke er der, så prøv at klikke på \"reload\" knappen i din browser."
+
+# --- English text = Find my picture on my computer
+msgid "find_my_picture"
+msgstr "Find mit billede på min computer"
+
+# --- English text = Upload a JPG-Image
+msgid "upload_a_jpg-image"
+msgstr "Upload et JPG-billede"
+
+# --- English text = Depending on the size of your photo file and the speed of your internet connection your upload could take a few minutes.
+msgid "depending_on_the_size"
+msgstr "Afhængig af størrelsen på dit billede og hastigheden på din Internetopkobling, så kan det tage nogle minutter at indsætte billedet."
+
+# --- Button Text
+# --- English text = Upload Now!
+msgid "upload_now"
+msgstr "Indsæt billedet nu!"
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "jpg_only"
+msgstr "Du kan kun indsætte billeder af typen *.jpg"
+
+# --- English text = Please select a photo to upload before pressing the button.
+msgid "error.forgot_to_choose_a_photo"
+msgstr "Vælg venligst et foto til at uploade, før du trykker på knappen. "
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+msgid "messages.upload_successful"
+msgstr "Billedet er nu indsat!"
+
+# --- Error Text
+# --- English text = The size of your uploaded picture exceeded 4 MByte.
+msgid "file_size_too_large"
+msgstr "Størrelsen på billedet må ikke overstige 4 Mbyte."
+
+# --- English text = Do you really want to delete your main photo?
+msgid "confirm_delete"
+msgstr "Vil du virkelig slette dit primære billede?"
+

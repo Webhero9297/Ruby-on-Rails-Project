@@ -1,0 +1,312 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-08-26 19:11+0100\n"
+"PO-Revision-Date: 2011-08-17 01:23+0100\n"
+"Last-Translator: Leoni Günzler <info@haustausch.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Page Headline
+# --- English text = Words From Our Members
+# (June 2011 - New)
+msgid "page.headline"
+msgstr "Nachrichten unserer Mitglieder"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 1
+# --- English text = Three Exchanges in 2010!
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_1.headline"
+msgstr "Wir sind begeistert!"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 1
+# --- English text = We have arranged three exchanges in 2010 which has surprised and delighted us! July in San Francisco, August in Hawaii and a couple of months wintertime in New Zealand. How lucky are we!
+# --- NEW TESTIMONIAL => 2010
+msgid "local_1.text"
+msgstr "Wir sind sehr zufrieden und  begeistert von den Möglichkeiten, die uns Intervac bietet!  Vergangenen Sommer haben wir wunderbare Ferien in Cahor/ Dordogne verbracht..... <strong>Wir haben uns noch nie im Urlaub so \"zu Hause\" gefühlt;</strong> alles war super!Wiir konnten sogar unseren Hund mitnehmen.....im Angebot stand  aber \" keine Haustiere\", d.h. alles ist möglich nach Absprache!"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 1
+# --- English text = Dorothy Dey (GB)
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_1.cite"
+msgstr "Matthias und Claudia Ditthardt"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 2
+# --- English text = Just Returned from our First Intervac Exchange
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_2.headline"
+msgstr "Ganz besondere Freundschaften entstehen"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 2
+# --- English text = We have just returned from our first Intervac exchange. We exchanged homes with a couple from Mississauga (Canada)and what a wonderful experience it has been: charming people, generous and welcoming, beautiful home, great car. When we had to extend our stay because of the volcanic ash cloud, they never objected, on the contrary. For our first Intervac experience, we have been more that lucky, we have been positively blessed!!!
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_2.text"
+msgstr "Mittlerweile versuchen wir immer, unsere Partner persönlich kennenzulernen. So wurden wir bei unserer Ankunft in Bunnik (Utrecht/NL) mit einer herrlichen Fischsuppe begrüßt, bei der wir uns kennenlernten."
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 2
+# --- English text = Jacques and Greet (Belgium)
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_2.cite"
+msgstr "Karin und Konrad Holl"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 3
+# --- English text = I have had great joy with Intervac
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_3.headline"
+msgstr "Urlaub in Paris!"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 3
+# --- English text = I have had great joy with Intervac. But, in my last tourist trip in Praha (Chec Republic, where I'd been in an hotel, I couldn't left by plane because volcon ash, and I got a gret help of our Intervac friends CZ837023 Pavel Cingl and his beautiful wife Simona (and Oliver). Great people, large heart, kind and helpfull, since understand our situation (my niece, 11 years old, and myself)... Thanks Intervac! Thanks nice Intervac members!!
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_3.text"
+msgstr "Bei Camillo in Belleville kamen wir uns richtig französisch vor - wenn wir us aus dem Schlafzimmerfenster gelehnt haben, konnten wir sogar den Eiffelturm sehen. Die Wohnung war richtig süß und pariserisch."
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 3
+# --- English text = Maria Georgina Alves (Portugal)
+# --- NEW TESTIMONIAL => 2010
+#, fuzzy
+msgid "local_3.cite"
+msgstr "Susanne Kippenberger"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 4
+# --- English text = Six Swaps in One Year
+# --- NEW TESTIMONIAL => 2010
+msgid "local_4.headline"
+msgstr "Tolle Kontakte zu netten Leuten"
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 4
+# --- English text = We have traded six times--and we really like Intervac! The people we have exchanged our homes with have been wonderful & we have kept in touch with each family over te years. Without Intervac we could not travel like to we do every summer for 4 weeks. Long live Intervac!
+# --- NEW TESTIMONIAL => 2010
+msgid "local_4.text"
+msgstr "Wir sind nach wie vor begeisterte \"Haustauscher\", schätzen am meisten die persönlichen Kontakte und auch den Einblick in das normale alltägliche Leben dort. Darüber hinaus freuen wir uns, dass wir unsere Sprachkenntnisse ausbauen können."
+
+# --- REPLACED - NOT TRANSLATED
+# --- Testimonial Number 4
+# --- English text = Jennifer M. Eisenlau
+# --- NEW TESTIMONIAL => 2010
+msgid "local_4.cite"
+msgstr "Christel Vojinovic"
+
+# --- Testimonial Number 5
+# --- English text = Happy and Telling Friends about Intervac
+msgid "local_5.headline"
+msgstr "Irland!"
+
+# --- Testimonial Number 5
+# --- English text = We've had four exchanges through Intervac so far and have discussed it with far too many people, increasing the San Francisco pool too much, we fear. Nevertheless, here we are again.
+msgid "local_5.text"
+msgstr "In den Osterferien waren wir in der schönen irischen Stadt Galway, d.h. wir wohnten in einem sehr großen Einfamilienhaus etwas außerhalb der Stadt."
+
+# --- Testimonial Number 5
+# --- English text = Carol Livingston
+msgid "local_5.cite"
+msgstr "Familie Sternberg"
+
+# --- Testimonial Number 6
+# --- English text = More Activity in Europe than Competitors
+msgid "local_6.headline"
+msgstr "Fünf Wochen Kanada!"
+
+# --- Testimonial Number 6
+# --- English text = Wow! Members for one week. One offer from Finland, two from Sweden, one from Switzerland and two from France. Looks like we're going to central Paris. The other company we joined three weeks ago, no offers! Thank You Intervac!!! Many thanks for our Honeymoon, a dream come true!
+msgid "local_6.text"
+msgstr "Niemals hätten wir uns ohne Haustausch als fünfköpfige Familie einen fünfeinhalbwöchigen Urlaub in Kanada leisten können. So war es nicht viel teurer als drei Wochen Ferienwohnung irgendwo im Süden in Strandnähe."
+
+# --- Testimonial Number 6
+# --- English text = Gordon &amp; Kathy Poulson
+msgid "local_6.cite"
+msgstr "Ulla &amp; Thomas Bäurle"
+
+# --- Testimonial Number 7
+# --- English text = Wonderful Italian Home Exchange
+msgid "local_7.headline"
+msgstr "Reiseziel: Loire!"
+
+# --- Testimonial Number 7
+# --- English text = The family in Bologna we did a non-simultaneous exchange with were wonderful. We stayed there for one week and they will stay here this summer.
+msgid "local_7.text"
+msgstr "wir hatten einen sehr schönen Tausch in einer französischen Familie (sehr erfahren, über 50mal getauscht) und waren in einem kleinen Dorf direkt an der Loire in einem großen Haus mit Klavier(!), was für uns als Musikerfamilie wirklich großartig war."
+
+# --- Testimonial Number 7
+# --- English text = Angie Keller
+msgid "local_7.cite"
+msgstr "Rosemarie Arzt"
+
+# --- Testimonial Number 8
+# --- English text = A Wonderful Experience
+msgid "local_8.headline"
+msgstr "Wie immer ging es nach Schweden"
+
+# --- Testimonial Number 8
+# --- English text = We love to travel to foreign and exotic places as well as the good ole USA.  Exchanging homes through Intervac USA has been a wonderful experience--being in Key West makes it fairly easy to find suitable exchanges.  In August 2003, we exchanged homes in Paris and we did a second trade with folks from New York City for the holidays.  We returned from California in a non-simultaneous exchange in May of 2004 and a simultaneuous exchange in New Orleans for Thanksgiving.
+msgid "local_8.text"
+msgstr "...zuerst mit dem Flugzeug von Haan nach Göteborg, dort stand der 250 PS starke Volvo der schwedischen Familie geparkt. Wir hatten dann noch 3 Stunden zu fahren bis wir an unserem Urlaubsziel angekommen waren: Ein traumhaftes Haus, direkt gelegen am See, mit eigenem Bootssteg mit Badeleiter und einem kleinen Boot. Zur Benutzung standen auch zur Verfügung ein Kanu, 2 Kajak, normale Fahrräder sowie Mountainbikes."
+
+# --- Testimonial Number 8
+# --- English text = Guillermo and Kent
+msgid "local_8.cite"
+msgstr "Ragnar & Dietlinde Nagel"
+
+# --- Testimonial Number 9
+# --- English text = 61 Home Swap Offers in One Year
+msgid "local_9.headline"
+msgstr "Ideal für Alleinerziehende"
+
+# --- Testimonial Number 9
+# --- English text = We once got 61 (yes, sixty-one!) home exchange offers in one season. Fully expect the upcoming season to be another year, which will provide exciting opportunities for fascinating exchanges and the making of new friends in some corner of the world.
+msgid "local_9.text"
+msgstr "Für mich als alleinerziehende Mutter dreier Kinder ist diese Form des \"Urlaubens\" ideal!  Wir wurden immer in den jeweiligen Bekannten- oder Verwandtenkreis eingebunden. In Irland wurden wir durch den gleichzeitigen Autotausch (irisches Kennzeichen!), gutes englische Sprachkenntnisse und meine rötlichen Haare sogar als Iren angesehen und fühlten uns somit überhaupt nicht fremd."
+
+# --- Testimonial Number 9
+# --- English text = George Rausch
+msgid "local_9.cite"
+msgstr "Heike Haas"
+
+# --- Testimonial Number 10
+# --- English text = Four House Exchanges in France
+msgid "local_10.headline"
+msgstr "Frisch auf unseren Tisch"
+
+# --- Testimonial Number 10
+# --- English text = You provide a wonderful service, and our Intervac exchanges - the first in Amsterdam, the last four in France have been both exciting and deepening. We are excited about making another exchange this summer.
+msgid "local_10.text"
+msgstr "In dem tollen Bauerngarten mit Zucchini, Tomaten, Auberginen, Zwiebeln etc. durften auch wir ernten und so konnten wir Ratatouille zubereiten mit den kompletten Zutaten aus dem \"eigenen\" Garten!"
+
+# --- Testimonial Number 10
+# --- English text = Denis Clifford &amp; Naomi Puro
+msgid "local_10.cite"
+msgstr "Rosemarie Arzt"
+
+# --- Testimonial Number 11
+# --- English text = Spain, France, Oregon and Counting
+msgid "local_11.headline"
+msgstr "Ärger?  Niemals."
+
+# --- Testimonial Number 11
+# --- English text = Your deal is so great. We have been to Spain, France and Oregon. All have been with people who are hip to the zip, and respectful and aware of what it takes to trade. I thank you for it. You have made it possible for us to have really great experiences.
+msgid "local_11.text"
+msgstr "Wenn ich richtig gezählt habe, so haben wir schon 34mal getauscht. In all den Jahren hatten wir noch niemals Ärger mit den Tauschpartnern."
+
+# --- Testimonial Number 11
+# --- English text = Steve Plesa
+msgid "local_11.cite"
+msgstr "Gisela und Werner Kimmel"
+
+# --- Testimonial Number 12
+# --- English text = Second Generation Home Exchanger
+msgid "local_12.headline"
+msgstr "Begeisterte Home-Exchanger"
+
+# --- Testimonial Number 12
+# --- English text = This is our first exchange. I'm familiar with the whole concept, however, because as a child my family did three exchanges from Boston to London, Laguna Beach and Newfoundland. Great memories!
+msgid "local_12.text"
+msgstr "Unsere Begeisterung für INTERVAC festigt sich von mal zu mal und wenn es die Sache nicht schon gäbe, müßte man sie schnellstens erfinden."
+
+# --- Testimonial Number 12
+# --- English text =
+msgid "local_12.cite"
+msgstr "R. Ritzer-Windpassinger"
+
+# --- Testimonial Number 13
+# --- English text = Three for Three
+msgid "local_13.headline"
+msgstr "Freunde aus aller Welt"
+
+# --- Testimonial Number 13
+# --- English text = Thanks again for your help in enabling our third marvelous house trade! We were in Nice for three weeks this last summer thanks to you.
+msgid "local_13.text"
+msgstr "Wir fanden einen englischen Rasen mit der Nagelschere geschnitten vor, wie wir ihn vorher und nachher nicht mehr hatten. Die Meerschweinchen waren wohlgenährt, das Haus perfekt sauber gemacht und aufgeräumt, in jedem Zimmer Blümchen und einen begeisterten Abschiedsbrief von Engländern, die zu Freunden wurden."
+
+# --- Testimonial Number 13
+# --- English text = Karyn Hollis
+msgid "local_13.cite"
+msgstr "Dr. Dieter Münker"
+
+# --- Testimonial Number 14
+# --- English text = Lifelong Friendships around the World
+msgid "local_14.headline"
+msgstr "Ja, das ist INTERVAC"
+
+# --- Testimonial Number 14
+# --- English text = Your company has brought our family many wonderful vacation opportunities to establish life long friendships. We sing your praises to all our friends. Thank you! Thank you!
+msgid "local_14.text"
+msgstr "Auch in unserem diesjährigen Sommerurlaub in Dänemark trafen wir uns mit ehemaligen Tauschpartnern die uns in unserem Urlaubsort besuchten. Auf dem Rückweg führte uns der Weg an Ihrem Wohnort vorbei und so ergab sich, da wir dort vorbeischauten, könnten und auch übernachteten. Bei diesem Treffen meinte Torben unser Gastgeber so treffend \"Ja, das ist INTERVAC\"."
+
+# --- Testimonial Number 14
+# --- English text = Sally Johnson
+msgid "local_14.cite"
+msgstr "Peter Reppich"
+
+# --- Testimonial Number 15
+# --- English text = Good Friends in Toulouse
+msgid "local_15.headline"
+msgstr "Sprachkenntnisse verbessern"
+
+# --- Testimonial Number 15
+# --- English text = Our home exchange in Toulouse couldn't have been better; we now have good friends in Toulouse.
+msgid "local_15.text"
+msgstr "Wir persönlich schätzen den Kontakt mit der Bevölkerung sehr und verbessern weiter unsere Sprachkenntnisse. Insgesamt können wir bestätigen, daß es sich bei Intervac um eine fantastische Art handel Urlaub zu planen und zugenießen."
+
+# --- Testimonial Number 15
+# --- English text =
+msgid "local_15.cite"
+msgstr "Vilmar &amp; Marianne Herden"
+
+# --- Testimonial Number 16
+# --- English text = Better than Homelink for Europe
+msgid "local_16.headline"
+msgstr "Vielen Dank!"
+
+# --- Testimonial Number 16
+# --- English text = There are more exchanges with Europeans through Intervac than there is with Homelink.
+msgid "local_16.text"
+msgstr "Heute möchten wir uns bei Ihnen, liebe Frau Günzler, für Ihre aufmerksame Betreuung in all den Jahren bedanken und wünschen Ihnen persönlich alles Gute."
+
+# --- Testimonial Number 16
+# --- English text = Joe Larkin
+msgid "local_16.cite"
+msgstr "Gisela und Werner Kimmel"
+
+# --- Testimonial Number 17
+# --- English text = Saved $10,000+ in Hotel and Car Rental Expenses
+msgid "local_17.headline"
+msgstr "Es hat einfach alles!"
+
+# --- Testimonial Number 17
+# --- English text = I am in, can you believe, La Ciotat, France one block from the beach in an imaculate little villa that has everything.  The owners are at my home in San Diego it is amazing how great Intervac is. Roberte and Jacques contacted me and the rest is history.  Thank you so very much for Intervac.  We are saving over ten thousand dollars in hotel  bills and car rentals.  Fantastique!
+msgid "local_17.text"
+msgstr "Dies ist zusammengefasst die kulturell beeindruckenste, finanziell günstigste, seelisch und geistig die lehr- und aufschlussreichste Urlaubserfahrung, die man machen kann! Ich will nicht mehr anders \"urlauben\"!"
+
+# --- Testimonial Number 17
+# --- English text = Bill Zimmerman
+msgid "local_17.cite"
+msgstr "Heike Haas"
+
+# --- English text = More International Voices
+msgid "more_voices"
+msgstr "Mehr internationale Erfahrungen"
+

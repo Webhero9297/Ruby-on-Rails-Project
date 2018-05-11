@@ -1,0 +1,4101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: version 0.0.1\n"
+"POT-Creation-Date: 2012-05-09 21:47+0200\n"
+"PO-Revision-Date: 2011-12-23 09:50+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/views/member/exchange_agreements/edit.html.erb:290
+msgid "\"#{@member.contact.name} and party is welcome to use our linen.\""
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:289
+msgid "\"#{@member.contact.name} guests are welcome in our home.\""
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:291
+msgid "\"#{@member.contact.name} may bring pet(s) to our home.\""
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:285
+msgid "\"#{@partner.contact.name} and party is welcome to use our linen.\""
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:284
+msgid "\"#{@partner.contact.name} guests are welcome in our home.\""
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:286
+msgid "\"#{@partner.contact.name} may bring pet(s) to our home.\""
+msgstr ""
+
+#: app/helpers/feedbacks_helper.rb:7
+msgid "\"webfeedback.category.#{cat}\""
+msgstr ""
+
+#: app/views/registration/trial_plans/new.html.erb:5
+msgid "7 days trial plan"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:137
+msgid "About our cars"
+msgstr ""
+
+#: app/views/member/exchange_agreements/_term_buttons.html.erb:7
+msgid "Accept"
+msgstr ""
+
+#: app/views/member/exchange_agreements/_approval_label.html.erb:2
+msgid "Accepted by exchange partner!"
+msgstr ""
+
+#: app/views/dashboards/_unconfirmed_account.html.erb:3
+msgid "Activate your account!"
+msgstr ""
+
+#: app/views/member/listings/surroundings/edit.html.erb:32
+msgid "Activities"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:14
+msgid "Add exchange dates"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/new.html.erb:6
+msgid "Add new exchange period"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:87
+msgid "Add participant"
+msgstr ""
+
+#: app/views/member/exchange_agreements/_menu.html.erb:7
+msgid "Add reference"
+msgstr ""
+
+#: app/views/member/hot_lists/_hotlist_listing_card.html.erb:19
+msgid "Add to hotlist"
+msgstr ""
+
+#: app/views/admin/translations/index.html.erb:7
+msgid "Add translation"
+msgstr ""
+
+#: app/views/member/listings/index.html.erb:26
+msgid "Additional listing"
+msgstr ""
+
+#: app/views/member/listings/property_settings/edit.html.erb:21
+msgid "Additional services offered"
+msgstr ""
+
+#: app/views/representatives/_country_agent.html.erb:29
+msgid "Address"
+msgstr ""
+
+#: app/views/listings/show.html.erb:147
+msgid "Adults"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:96
+#: app/views/member/exchange_agreements/edit.html.erb:125
+msgid "Age"
+msgstr ""
+
+#: app/views/admin/agent_images/index.html.erb:4
+#: app/views/admin/agent_members/index.html.erb:4
+msgid "Agent"
+msgstr ""
+
+#: app/views/layouts/admin_dashboard.html.erb:22
+msgid "Agent management"
+msgstr ""
+
+#: app/views/conversations/show.html.erb:8
+msgid "Archive conversation"
+msgstr ""
+
+#: app/views/admin/agents/country_assignment.html.erb:14
+#: app/views/admin/country_assignments/index.html.erb:36
+msgid "Assign to country:"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:159
+msgid "Auto insurance"
+msgstr ""
+
+#: app/views/listings/show.html.erb:174
+msgid "Bathrooms"
+msgstr ""
+
+#: app/views/listings/show.html.erb:170
+msgid "Bedrooms"
+msgstr ""
+
+#: app/helpers/listings_helper.rb:8 app/helpers/listings_helper.rb:29
+msgid "Bookmark"
+msgstr ""
+
+#: app/views/family_members/new.html.erb:35
+#: app/views/feedbacks/_guest_form.html.erb:64
+#: app/views/feedbacks/_member_form.html.erb:47
+#: app/views/users/passwords/edit.html.erb:24
+#: app/views/users/passwords/new.html.erb:20
+#: app/views/users/registrations/_registration_form.html.erb:45
+msgid "Cancel"
+msgstr ""
+
+#: app/views/admin/translations/new.html.erb:16
+msgid "Category"
+msgstr ""
+
+#: app/views/listings/show.html.erb:151
+msgid "Children"
+msgstr ""
+
+#: app/views/family_members/index.html.erb:6
+msgid "Co-members"
+msgstr ""
+
+#: app/views/dashboards/index.html.erb:59
+#: app/views/favorites/_favorite_listing_card.html.erb:18
+msgid "Contact"
+msgstr ""
+
+#: app/views/listings/show.html.erb:124
+msgid "Contact member"
+msgstr ""
+
+#: app/views/favorites/index.html.erb:7
+msgid "Contact multiple favorites"
+msgstr ""
+
+#: app/views/representatives/index.html.erb:2
+msgid "Contact representatives of Intervac Home Exchange"
+msgstr ""
+
+#: app/views/favorites/list.html.erb:7
+msgid "Contact selected listings"
+msgstr ""
+
+#: app/views/favorites/_favorite_listing_card.html.erb:18
+msgid "Contact the owner of this listing"
+msgstr ""
+
+#: app/views/representatives/index.html.erb:3
+msgid "Contacts page description text"
+msgstr ""
+
+#: app/views/member/feedbacks/thank_you.html.erb:8
+msgid "Continue where you left off!"
+msgstr ""
+
+#: app/views/admin/agents/index.html.erb:9
+msgid "Create agent"
+msgstr ""
+
+#: app/views/member/exchange_agreements/start.html.erb:17
+msgid "Create and exchange between these listings"
+msgstr ""
+
+#: app/views/member/hot_lists/overview.html.erb:8
+#: app/views/member/listings/index.html.erb:31
+#: app/views/member/listings/index.html.erb:42
+msgid "Create listing"
+msgstr ""
+
+#: app/views/layouts/admin_dashboard.html.erb:20
+#: app/views/layouts/agent_dashboard.html.erb:20
+#: app/views/layouts/member_dashboard.html.erb:21
+msgid "Dashboard"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:34
+msgid "Date & Time"
+msgstr ""
+
+#: app/views/member/exchange_agreements/_term_buttons.html.erb:13
+msgid "Decline"
+msgstr ""
+
+#: app/views/family_members/index.html.erb:35
+#: app/views/wish_lists/_wish_list.html.erb:12
+msgid "Delete"
+msgstr ""
+
+#: app/views/member/listings/images/edit.html.erb:24
+#: app/views/profile_images/edit.html.erb:24
+msgid "Delete image"
+msgstr ""
+
+#: app/views/member/listings/settings/index.html.erb:37
+msgid "Delete listing"
+msgstr ""
+
+#: app/views/member/listings/settings/index.html.erb:33
+msgid "Delete your listing"
+msgstr ""
+
+#: app/views/member/listings/surroundings/edit.html.erb:4
+msgid "Describe your home surroundings"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:6
+msgid "Description"
+msgstr ""
+
+#: app/views/listings/show.html.erb:50 app/views/listings/show.html.erb:97
+msgid "Destination wish list"
+msgstr ""
+
+#: app/views/member/listings/_listings_card.html.erb:20
+#: app/views/member/listings/settings/index.html.erb:17
+msgid "Disable for public view"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:21
+msgid "Earliest date"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:25
+msgid "Edit"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/edit.html.erb:6
+msgid "Edit exchange period"
+msgstr ""
+
+#: app/views/member/listings/_listings_card.html.erb:22
+#: app/views/member/listings/settings/index.html.erb:22
+msgid "Enable for public view"
+msgstr ""
+
+#: app/views/member/listings/settings/index.html.erb:12
+msgid "Enable or disable your listing for public view"
+msgstr ""
+
+#: app/views/layouts/agent_dashboard.html.erb:24
+#: app/views/member/exchange_agreements/index.html.erb:7
+msgid "Exchange agreements"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:11
+msgid "Exchange dates"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:5
+msgid "Exchange dates for your listing"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:86
+msgid "Exchange participants"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:28
+msgid "Exchange partner"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:12
+msgid "Exchange types"
+msgstr ""
+
+#: app/views/layouts/member_dashboard.html.erb:26
+msgid "Exchanges"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:9
+msgid "Facilities"
+msgstr ""
+
+#: app/views/profile_images/index.html.erb:11
+msgid "Family photos"
+msgstr ""
+
+#: app/views/favorites/list.html.erb:6
+msgid "Favorites overview"
+msgstr ""
+
+#: app/views/dashboards/_unread_feedbacks.html.erb:3
+msgid "Feedback messages!"
+msgstr ""
+
+#: app/views/feedbacks/_show.html.erb:7 app/views/feedbacks/_show.html.erb:10
+msgid "Feedback overview"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:46
+#: app/views/member/exchange_agreements/edit.html.erb:71
+msgid "From"
+msgstr ""
+
+#: app/views/member/exchange_agreements/_menu.html.erb:5
+msgid "Future vacations"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:14
+msgid "Get started with your exchange today!"
+msgstr ""
+
+#: app/views/pages/logged_out.html.erb:7
+msgid "Have a really nice day! - The Intervac Team"
+msgstr ""
+
+#: app/views/dashboards/index.html.erb:65
+msgid "Help us improve Intervac"
+msgstr ""
+
+#: app/views/member/hot_lists/overview.html.erb:6
+msgid "Hi there!"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:40
+msgid "Holiday dates"
+msgstr ""
+
+#: app/views/pages/_open_graph_tags_listings.html.erb:1
+msgid "Home exchange listing presented by Intervac"
+msgstr ""
+
+#: app/views/listings/show.html.erb:55
+msgid "Home presentation"
+msgstr ""
+
+#: app/views/pages/logged_out.html.erb:6
+msgid "Hope you had a good time using Intervac Home Exchange."
+msgstr ""
+
+#: app/views/member/listings/descriptions/edit.html.erb:38
+msgid "House attributes"
+msgstr ""
+
+#: app/views/listings/show.html.erb:68
+msgid "House extras"
+msgstr ""
+
+#: app/views/member/listings/property_settings/edit.html.erb:30
+msgid "House rules"
+msgstr ""
+
+#: app/views/listings/show.html.erb:165
+msgid "House type"
+msgstr ""
+
+#: app/views/users/sessions/new.html.erb:27
+msgid "I Forgot my password!"
+msgstr ""
+
+#: app/views/users/registrations/_registration_form.html.erb:40
+msgid "I accept the Terms and Conditions for Intervac International"
+msgstr ""
+
+#: app/views/users/registrations/_registration_form.html.erb:5
+msgid "I live in"
+msgstr ""
+
+#: app/views/users/registrations/_registration_form.html.erb:33
+msgid "I verify my password"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:165
+msgid "Insurance requirements for my auto are in place"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:172
+msgid "Insurance requirements for my auto are in place."
+msgstr ""
+
+#: app/views/pages/_open_graph_tags_listings.html.erb:7
+msgid "Intervac Home Exchange - The original home exchange holiday service"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:2
+msgid "Intervac Home Exchange Guarantee"
+msgstr ""
+
+#: app/views/family_members/new.html.erb:34
+msgid "Invite"
+msgstr ""
+
+#: app/views/family_members/index.html.erb:15
+msgid "Invite family member"
+msgstr ""
+
+#: app/views/family_members/index.html.erb:14
+msgid "Invite your other family members to your Intervac memberhip"
+msgstr ""
+
+#: app/views/users/passwords/edit.html.erb:35
+#: app/views/users/sessions/new.html.erb:38
+msgid "Join Intervac Home Exchange"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:32
+msgid "Last action"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:22
+msgid "Latest date"
+msgstr ""
+
+#: app/views/listings/index.html.erb:10
+msgid "Latest listings"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:23
+msgid "Length of stay"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:30
+msgid "Listing number"
+msgstr ""
+
+#: app/views/member/listings/settings/index.html.erb:5
+msgid "Listing settings"
+msgstr ""
+
+#: app/views/registration/trial_plans/new.html.erb:15
+msgid "Local representative"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:31
+#: app/views/member/listings/_listings-menu.html.erb:5
+msgid "Location"
+msgstr ""
+
+#: app/views/pages/login_window.html.erb:7
+msgid "Login"
+msgstr ""
+
+#: app/views/users/sessions/new.html.erb:2
+msgid "Login to Intervac International"
+msgstr ""
+
+#: app/views/member/listings/images/index.html.erb:13
+msgid "Main photo"
+msgstr ""
+
+#: app/views/listings/show.html.erb:48
+msgid "Map"
+msgstr ""
+
+#: app/views/contacts/_form.html.erb:7
+msgid "Member number"
+msgstr ""
+
+#: app/views/layouts/member_dashboard.html.erb:25
+msgid "Membership information"
+msgstr ""
+
+#: app/views/conversations/show.html.erb:7
+msgid "Messages"
+msgstr ""
+
+#: app/views/dashboards/_unread_conversations.html.erb:3
+msgid "Messages!"
+msgstr ""
+
+#: app/views/favorites/index.html.erb:5 app/views/favorites/list.html.erb:5
+msgid "My Favorites"
+msgstr ""
+
+#: app/views/users/registrations/_registration_form.html.erb:26
+msgid "My chosen password"
+msgstr ""
+
+#: app/views/users/registrations/_registration_form.html.erb:19
+msgid "My email is"
+msgstr ""
+
+#: app/views/layouts/member_dashboard.html.erb:24
+msgid "My listings"
+msgstr ""
+
+#: app/views/agent/members/index.html.erb:4
+#: app/views/layouts/agent_dashboard.html.erb:21
+msgid "My members"
+msgstr ""
+
+#: app/views/agent/members/list.html.erb:4
+msgid "My members in"
+msgstr ""
+
+#: app/views/users/registrations/_registration_form.html.erb:12
+msgid "My name is"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:93
+#: app/views/member/exchange_agreements/edit.html.erb:124
+msgid "Name"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:6
+msgid "New exchange agreement"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:67
+msgid "No dates specified"
+msgstr ""
+
+#: app/views/listings/_listing_card.html.erb:22
+msgid "No exchange dates"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:121
+msgid "No participants added"
+msgstr ""
+
+#: app/views/member/listings/images/_listing_image.html.erb:21
+msgid "Not publicly visible"
+msgstr ""
+
+#: app/views/member/exchange_agreements/_approval_label.html.erb:4
+msgid "Not yet accepted by exchange partner!"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:24
+msgid "Notes"
+msgstr ""
+
+#: app/views/listings/show.html.erb:155
+msgid "Occupation"
+msgstr ""
+
+#: app/views/listings/show.html.erb:130
+msgid "Open for exchange"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:260
+msgid "Other special requests"
+msgstr ""
+
+#: app/views/agent/dashboards/_dashboard_menu.html.erb:4
+#: app/views/member/exchange_agreements/_menu.html.erb:4
+msgid "Overview"
+msgstr ""
+
+#: app/views/member/exchange_agreements/_menu.html.erb:6
+msgid "Past agreements"
+msgstr ""
+
+#: app/views/layouts/agent_dashboard.html.erb:22
+msgid "Payment"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:33
+msgid "Performed by"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:7
+msgid "Photos"
+msgstr ""
+
+#: app/views/listings/show.html.erb:47
+msgid "Presentation"
+msgstr ""
+
+#: app/views/layouts/agent_dashboard.html.erb:26
+msgid "Profile"
+msgstr ""
+
+#: app/views/listings/show.html.erb:78
+msgid "Property Details"
+msgstr ""
+
+#: app/views/member/listings/images/index.html.erb:6
+msgid "Property images"
+msgstr ""
+
+#: app/views/member/listings/images/index.html.erb:29
+msgid "Property photos"
+msgstr ""
+
+#: app/views/listings/show.html.erb:49 app/views/listings/show.html.erb:65
+msgid "Property profile"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:8
+msgid "Property settings"
+msgstr ""
+
+#: app/views/member/listings/images/_listing_image.html.erb:19
+msgid "Publicly visible"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:183
+msgid "Regarding long distance calls"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:241
+msgid "Regarding pets"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:221
+msgid "Regarding the keys to my home"
+msgstr ""
+
+#: app/views/listings/show.html.erb:198
+msgid "Related listings"
+msgstr ""
+
+#: app/views/admin/country_assignments/index.html.erb:23
+#: app/views/member/listings/exchange_dates/index.html.erb:26
+msgid "Remove"
+msgstr ""
+
+#: app/views/member/hot_lists/_hotlist_listing_card.html.erb:17
+msgid "Remove from hotlist"
+msgstr ""
+
+#: app/views/dashboards/_unconfirmed_account.html.erb:5
+msgid "Resend activation e-mail"
+msgstr ""
+
+#: app/views/users/confirmations/new.html.erb:5
+msgid "Resend confirmation instructions"
+msgstr ""
+
+#: app/views/users/passwords/edit.html.erb:2
+#: app/views/users/passwords/new.html.erb:5
+msgid "Reset your password"
+msgstr ""
+
+#: app/views/favorites/add.html.erb:32
+msgid "Save as favorite"
+msgstr ""
+
+#: app/views/member/listings/locations/edit.html.erb:35
+msgid "Save changes"
+msgstr ""
+
+#: app/views/member/listings/new.html.erb:33
+msgid "Save your listing"
+msgstr ""
+
+#: app/views/layouts/member_dashboard.html.erb:22
+msgid "Search listings"
+msgstr ""
+
+#: app/views/member/listings/images/index.html.erb:37
+#: app/views/profile_images/index.html.erb:20
+#: app/views/profile_images/index.html.erb:38
+msgid "Select images"
+msgstr ""
+
+#: app/views/spoken_languages/edit.html.erb:6
+msgid "Select your languages for correspondence"
+msgstr ""
+
+#: app/views/feedbacks/_guest_form.html.erb:63
+#: app/views/feedbacks/_member_form.html.erb:46
+msgid "Send feedback"
+msgstr ""
+
+#: app/views/member/listings/images/edit.html.erb:14
+msgid "Set as publicly visible"
+msgstr ""
+
+#: app/views/member/listings/exchange_types/edit.html.erb:4
+msgid "Set your exchange types"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:13
+msgid "Settings"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:23
+msgid "Show my partner my email address"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:22
+msgid "Show my partner my mobile number"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:12
+#: app/views/registration/price_plans/index.html.erb:21
+msgid "Sign up"
+msgstr ""
+
+#: app/views/users/passwords/edit.html.erb:36
+#: app/views/users/sessions/new.html.erb:39
+msgid "Sign up with Intervac International"
+msgstr ""
+
+#: app/views/pages/index.html.erb:16
+msgid "Sign up with Intervac today!"
+msgstr ""
+
+#: app/views/listings/show.html.erb:178
+msgid "Sleeping capacity"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:202
+msgid "Special cleaning requests"
+msgstr ""
+
+#: app/views/listings/show.html.erb:183
+msgid "Spoken languages"
+msgstr ""
+
+#: app/views/member/exchange_agreements/new.html.erb:6
+msgid "Start exchange agreement"
+msgstr ""
+
+#: app/views/member/exchange_agreements/start.html.erb:6
+msgid "Start new Exchange agreement"
+msgstr ""
+
+#: app/views/agent/dashboards/_dashboard_menu.html.erb:5
+msgid "Statistics & Reports"
+msgstr ""
+
+#: app/views/layouts/admin_dashboard.html.erb:23
+msgid "Statistics & reports"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:35
+msgid "Status"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:280
+msgid "Stipulations"
+msgstr ""
+
+#: app/views/member/listings/_listings-menu.html.erb:10
+msgid "Surroundings"
+msgstr ""
+
+#: app/views/pages/logged_out.html.erb:5
+msgid "Thank you for using Intervac!"
+msgstr ""
+
+#: app/views/feedbacks/thank_you.html.erb:4
+msgid "Thank you!"
+msgstr ""
+
+#: app/views/admin/country_assignments/index.html.erb:16
+msgid "The agent is not assigned to any countries"
+msgstr ""
+
+#: app/views/profile_images/_no_images.html.erb:2
+msgid "There are no images connected to this category. Get started and upload images right now!"
+msgstr ""
+
+#: app/views/admin/agent_images/index.html.erb:14
+msgid "This agent does not have an agent profile image."
+msgstr ""
+
+#: app/views/listings/show.html.erb:101
+msgid "This member has not yet filled out any wish list destinations"
+msgstr ""
+
+#: app/views/member/exchange_agreements/edit.html.erb:54
+#: app/views/member/exchange_agreements/edit.html.erb:75
+msgid "To"
+msgstr ""
+
+#: app/views/layouts/admin_dashboard.html.erb:25
+#: app/views/layouts/agent_dashboard.html.erb:25
+msgid "Translations"
+msgstr ""
+
+#: app/views/profile_images/index.html.erb:18
+msgid "Upload family photos"
+msgstr ""
+
+#: app/views/profile_images/index.html.erb:36
+msgid "Upload lifestyle photos"
+msgstr ""
+
+#: app/views/member/listings/images/index.html.erb:35
+msgid "Upload photos"
+msgstr ""
+
+#: app/views/member/listings/images/edit.html.erb:15
+msgid "Use as main photo"
+msgstr ""
+
+#: app/views/feedbacks/_guest_form.html.erb:21
+msgid "Where are you from?"
+msgstr ""
+
+#: app/views/member/listings/images/index.html.erb:16
+msgid "Why not upload a few photos of your home and select the best one as main photo?"
+msgstr ""
+
+#: app/views/agent/profiles/country_assignments.html.erb:4
+msgid "You are assigned as agents for the following countries"
+msgstr ""
+
+#: app/views/family_members/index.html.erb:19
+msgid "You can not add any more family members. The current limit is 2 additional family members"
+msgstr ""
+
+#: app/views/member/exchange_agreements/index.html.erb:24
+msgid "You don not have any active exchange agreements"
+msgstr ""
+
+#: app/views/member/hot_lists/overview.html.erb:6
+msgid "You have not created a listing yet. Why not create one right now?"
+msgstr ""
+
+#: app/views/agent/profile_images/show.html.erb:14
+msgid "You have not uploaded an image profile"
+msgstr ""
+
+#: app/views/pages/login_window.html.erb:3
+msgid "You must be logged in"
+msgstr ""
+
+#: app/views/pages/login_window.html.erb:5
+msgid "You must be logged on in order to "
+msgstr ""
+
+#: app/views/agent/profile_images/show.html.erb:4
+msgid "Your agent profile image"
+msgstr ""
+
+#: app/views/contacts/show.html.erb:4
+msgid "Your contact details"
+msgstr ""
+
+#: app/views/dashboards/index.html.erb:26
+msgid "Your national representative"
+msgstr ""
+
+#: app/views/admin/dashboards/index.html.erb:9
+#: app/views/dashboards/index.html.erb:9
+msgid "Your statistics"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:9
+msgid "application.full_membership.headline"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:14
+msgid "application.plans_and_pricing.full_membership.fine_print"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:5
+msgid "application.plans_and_pricing.headline"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:72
+msgid "application.price_comparison.able_to_send_proposals"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:57
+msgid "application.price_comparison.access_to_contact_info"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:77
+msgid "application.price_comparison.assistance_from_local_organizer"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:97
+msgid "application.price_comparison.create_exchange_agreements"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:36
+msgid "application.price_comparison.full_headline"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:52
+msgid "application.price_comparison.includes_photos_and_text"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:87
+msgid "application.price_comparison.new_message_notification"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:92
+msgid "application.price_comparison.read_messages"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:67
+msgid "application.price_comparison.receive_match_alerts"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:102
+msgid "application.price_comparison.receive_newsletter"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:62
+msgid "application.price_comparison.save_favorites"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:35
+msgid "application.price_comparison.text_headline"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:37
+msgid "application.price_comparison.trial_headline"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:42
+msgid "application.price_comparison.unlimited_access"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:82
+msgid "application.price_comparison.view_listing_statistics"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:47
+msgid "application.price_comparison.visible_listing"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:18
+msgid "application.trial_membership.headline"
+msgstr ""
+
+#: app/views/representatives/_country_agent.html.erb:23
+msgid "contacts.contact_your_agent_link"
+msgstr ""
+
+#: app/views/representatives/_country_agent.html.erb:23
+msgid "contacts.contact_your_agent_link_title"
+msgstr ""
+
+#: app/views/representatives/index.html.erb:10
+msgid "contacts.headline"
+msgstr ""
+
+#: app/views/representatives/_country_agent.html.erb:41
+msgid "contacts.office_hours"
+msgstr ""
+
+#: model.Country
+msgid "country.afghanistan"
+msgstr ""
+
+#: model.Country
+msgid "country.aland_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.albania"
+msgstr ""
+
+#: model.Country
+msgid "country.algeria"
+msgstr ""
+
+#: model.Country
+msgid "country.american_samoa"
+msgstr ""
+
+#: model.Country
+msgid "country.andorra"
+msgstr ""
+
+#: model.Country
+msgid "country.angola"
+msgstr ""
+
+#: model.Country
+msgid "country.anguilla"
+msgstr ""
+
+#: model.Country
+msgid "country.antarctica"
+msgstr ""
+
+#: model.Country
+msgid "country.antigua_and_barbuda"
+msgstr ""
+
+#: model.Country
+msgid "country.argentina"
+msgstr ""
+
+#: model.Country
+msgid "country.armenia"
+msgstr ""
+
+#: model.Country
+msgid "country.aruba"
+msgstr ""
+
+#: model.Country
+msgid "country.australia"
+msgstr ""
+
+#: model.Country
+msgid "country.austria"
+msgstr ""
+
+#: model.Country
+msgid "country.azerbaidjan"
+msgstr ""
+
+#: model.Country
+msgid "country.bahamas"
+msgstr ""
+
+#: model.Country
+msgid "country.bahrain"
+msgstr ""
+
+#: model.Country
+msgid "country.bangladesh"
+msgstr ""
+
+#: model.Country
+msgid "country.barbados"
+msgstr ""
+
+#: model.Country
+msgid "country.belarus"
+msgstr ""
+
+#: model.Country
+msgid "country.belgium"
+msgstr ""
+
+#: model.Country
+msgid "country.belize"
+msgstr ""
+
+#: model.Country
+msgid "country.benin"
+msgstr ""
+
+#: model.Country
+msgid "country.bermuda"
+msgstr ""
+
+#: model.Country
+msgid "country.bhutan"
+msgstr ""
+
+#: model.Country
+msgid "country.bolivia"
+msgstr ""
+
+#: model.Country
+msgid "country.bosnia-herzegovina"
+msgstr ""
+
+#: model.Country
+msgid "country.botswana"
+msgstr ""
+
+#: model.Country
+msgid "country.bouvet_island"
+msgstr ""
+
+#: model.Country
+msgid "country.british_indian_ocean_territory"
+msgstr ""
+
+#: model.Country
+msgid "country.brunei_darussalam"
+msgstr ""
+
+#: model.Country
+msgid "country.bulgaria"
+msgstr ""
+
+#: model.Country
+msgid "country.burkina_faso"
+msgstr ""
+
+#: model.Country
+msgid "country.burundi"
+msgstr ""
+
+#: model.Country
+msgid "country.cambodia"
+msgstr ""
+
+#: model.Country
+msgid "country.cameroon"
+msgstr ""
+
+#: model.Country
+msgid "country.canada"
+msgstr ""
+
+#: model.Country
+msgid "country.cape_verde"
+msgstr ""
+
+#: model.Country
+msgid "country.cayman_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.central_african_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.chad"
+msgstr ""
+
+#: model.Country
+msgid "country.chile"
+msgstr ""
+
+#: model.Country
+msgid "country.china"
+msgstr ""
+
+#: model.Country
+msgid "country.christmas_island"
+msgstr ""
+
+#: model.Country
+msgid "country.cocos_keeling_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.colombia"
+msgstr ""
+
+#: model.Country
+msgid "country.comoros"
+msgstr ""
+
+#: model.Country
+msgid "country.congo"
+msgstr ""
+
+#: model.Country
+msgid "country.cook_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.croatia"
+msgstr ""
+
+#: model.Country
+msgid "country.cuba"
+msgstr ""
+
+#: model.Country
+msgid "country.cyprus"
+msgstr ""
+
+#: model.Country
+msgid "country.czech_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.democratic_rep_of_congo_zaire"
+msgstr ""
+
+#: model.Country
+msgid "country.denmark"
+msgstr ""
+
+#: model.Country
+msgid "country.djibouti"
+msgstr ""
+
+#: model.Country
+msgid "country.dominica"
+msgstr ""
+
+#: model.Country
+msgid "country.dominican_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.east_timor"
+msgstr ""
+
+#: model.Country
+msgid "country.egypt"
+msgstr ""
+
+#: model.Country
+msgid "country.el_salvador"
+msgstr ""
+
+#: model.Country
+msgid "country.equatorial_guinea"
+msgstr ""
+
+#: model.Country
+msgid "country.eritrea"
+msgstr ""
+
+#: model.Country
+msgid "country.estonia"
+msgstr ""
+
+#: model.Country
+msgid "country.ethiopia"
+msgstr ""
+
+#: model.Country
+msgid "country.falkland_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.faroe_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.fiji"
+msgstr ""
+
+#: model.Country
+msgid "country.finland"
+msgstr ""
+
+#: model.Country
+msgid "country.france"
+msgstr ""
+
+#: model.Country
+msgid "country.french_guyana"
+msgstr ""
+
+#: model.Country
+msgid "country.french_southern_territories"
+msgstr ""
+
+#: model.Country
+msgid "country.gabon"
+msgstr ""
+
+#: model.Country
+msgid "country.gambia"
+msgstr ""
+
+#: model.Country
+msgid "country.georgia"
+msgstr ""
+
+#: model.Country
+msgid "country.germany"
+msgstr ""
+
+#: model.Country
+msgid "country.ghana"
+msgstr ""
+
+#: model.Country
+msgid "country.gibraltar"
+msgstr ""
+
+#: model.Country
+msgid "country.great_britain"
+msgstr ""
+
+#: model.Country
+msgid "country.greece"
+msgstr ""
+
+#: model.Country
+msgid "country.greenland"
+msgstr ""
+
+#: model.Country
+msgid "country.grenada"
+msgstr ""
+
+#: model.Country
+msgid "country.guadeloupe"
+msgstr ""
+
+#: model.Country
+msgid "country.guam"
+msgstr ""
+
+#: model.Country
+msgid "country.guatemala"
+msgstr ""
+
+#: model.Country
+msgid "country.guernsey"
+msgstr ""
+
+#: model.Country
+msgid "country.guinea"
+msgstr ""
+
+#: model.Country
+msgid "country.guinea_bissau"
+msgstr ""
+
+#: model.Country
+msgid "country.guyana"
+msgstr ""
+
+#: model.Country
+msgid "country.haiti"
+msgstr ""
+
+#: model.Country
+msgid "country.heard_and_mcdonald_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.honduras"
+msgstr ""
+
+#: model.Country
+msgid "country.hong_kong"
+msgstr ""
+
+#: model.Country
+msgid "country.iceland"
+msgstr ""
+
+#: model.Country
+msgid "country.indonesia"
+msgstr ""
+
+#: model.Country
+msgid "country.iran"
+msgstr ""
+
+#: model.Country
+msgid "country.iraq"
+msgstr ""
+
+#: model.Country
+msgid "country.ireland"
+msgstr ""
+
+#: model.Country
+msgid "country.isle_of_man"
+msgstr ""
+
+#: model.Country
+msgid "country.israel"
+msgstr ""
+
+#: model.Country
+msgid "country.italy"
+msgstr ""
+
+#: model.Country
+msgid "country.ivory_coast"
+msgstr ""
+
+#: model.Country
+msgid "country.jamaica"
+msgstr ""
+
+#: model.Country
+msgid "country.jersey"
+msgstr ""
+
+#: model.Country
+msgid "country.jordan"
+msgstr ""
+
+#: model.Country
+msgid "country.kazakhstan"
+msgstr ""
+
+#: model.Country
+msgid "country.kenya"
+msgstr ""
+
+#: model.Country
+msgid "country.kiribati"
+msgstr ""
+
+#: model.Country
+msgid "country.kuwait"
+msgstr ""
+
+#: model.Country
+msgid "country.kyrgyz_republic"
+msgstr ""
+
+#: model.Country
+msgid "country.laos"
+msgstr ""
+
+#: model.Country
+msgid "country.latvia"
+msgstr ""
+
+#: model.Country
+msgid "country.lebanon"
+msgstr ""
+
+#: model.Country
+msgid "country.lesotho"
+msgstr ""
+
+#: model.Country
+msgid "country.liberia"
+msgstr ""
+
+#: model.Country
+msgid "country.libya"
+msgstr ""
+
+#: model.Country
+msgid "country.liechtenstein"
+msgstr ""
+
+#: model.Country
+msgid "country.lithuania"
+msgstr ""
+
+#: model.Country
+msgid "country.luxembourg"
+msgstr ""
+
+#: model.Country
+msgid "country.macau"
+msgstr ""
+
+#: model.Country
+msgid "country.macedonia"
+msgstr ""
+
+#: model.Country
+msgid "country.madagascar"
+msgstr ""
+
+#: model.Country
+msgid "country.malawi"
+msgstr ""
+
+#: model.Country
+msgid "country.malaysia"
+msgstr ""
+
+#: model.Country
+msgid "country.maldives"
+msgstr ""
+
+#: model.Country
+msgid "country.mali"
+msgstr ""
+
+#: model.Country
+msgid "country.malta"
+msgstr ""
+
+#: model.Country
+msgid "country.marshall_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.martinique"
+msgstr ""
+
+#: model.Country
+msgid "country.mauritania"
+msgstr ""
+
+#: model.Country
+msgid "country.mauritius"
+msgstr ""
+
+#: model.Country
+msgid "country.mayotte"
+msgstr ""
+
+#: model.Country
+msgid "country.mexico"
+msgstr ""
+
+#: model.Country
+msgid "country.micronesia"
+msgstr ""
+
+#: model.Country
+msgid "country.moldova"
+msgstr ""
+
+#: model.Country
+msgid "country.monaco"
+msgstr ""
+
+#: model.Country
+msgid "country.mongolia"
+msgstr ""
+
+#: model.Country
+msgid "country.montserrat"
+msgstr ""
+
+#: model.Country
+msgid "country.morocco"
+msgstr ""
+
+#: model.Country
+msgid "country.mozambique"
+msgstr ""
+
+#: model.Country
+msgid "country.myanmar"
+msgstr ""
+
+#: model.Country
+msgid "country.namibia"
+msgstr ""
+
+#: model.Country
+msgid "country.nauru"
+msgstr ""
+
+#: model.Country
+msgid "country.nepal"
+msgstr ""
+
+#: model.Country
+msgid "country.netherlands"
+msgstr ""
+
+#: model.Country
+msgid "country.netherlands_antilles"
+msgstr ""
+
+#: model.Country
+msgid "country.new_caledonia"
+msgstr ""
+
+#: model.Country
+msgid "country.new_zealand"
+msgstr ""
+
+#: model.Country
+msgid "country.nicaragua"
+msgstr ""
+
+#: model.Country
+msgid "country.niger"
+msgstr ""
+
+#: model.Country
+msgid "country.nigeria"
+msgstr ""
+
+#: model.Country
+msgid "country.niue"
+msgstr ""
+
+#: model.Country
+msgid "country.norfolk_island"
+msgstr ""
+
+#: model.Country
+msgid "country.north_korea"
+msgstr ""
+
+#: model.Country
+msgid "country.northern_mariana_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.norway"
+msgstr ""
+
+#: model.Country
+msgid "country.oman"
+msgstr ""
+
+#: model.Country
+msgid "country.pakistan"
+msgstr ""
+
+#: model.Country
+msgid "country.palau"
+msgstr ""
+
+#: model.Country
+msgid "country.palestinian_territory"
+msgstr ""
+
+#: model.Country
+msgid "country.panama"
+msgstr ""
+
+#: model.Country
+msgid "country.papua_new_guinea"
+msgstr ""
+
+#: model.Country
+msgid "country.paraguay"
+msgstr ""
+
+#: model.Country
+msgid "country.peru"
+msgstr ""
+
+#: model.Country
+msgid "country.philippines"
+msgstr ""
+
+#: model.Country
+msgid "country.pitcairn_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.poland"
+msgstr ""
+
+#: model.Country
+msgid "country.polynesia"
+msgstr ""
+
+#: model.Country
+msgid "country.portugal"
+msgstr ""
+
+#: model.Country
+msgid "country.puerto_rico"
+msgstr ""
+
+#: model.Country
+msgid "country.qatar"
+msgstr ""
+
+#: model.Country
+msgid "country.republic_of_montenegro"
+msgstr ""
+
+#: model.Country
+msgid "country.republic_of_serbia"
+msgstr ""
+
+#: model.Country
+msgid "country.reunion"
+msgstr ""
+
+#: model.Country
+msgid "country.rwanda"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_barthelemy"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_helena"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_kitts_and_nevis"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_lucia"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_martin"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_pierre_and_miquelon"
+msgstr ""
+
+#: model.Country
+msgid "country.saint_vincent_grenadines"
+msgstr ""
+
+#: model.Country
+msgid "country.samoa"
+msgstr ""
+
+#: model.Country
+msgid "country.san_marino"
+msgstr ""
+
+#: model.Country
+msgid "country.sao_tome_and_principe"
+msgstr ""
+
+#: model.Country
+msgid "country.saudi_arabia"
+msgstr ""
+
+#: model.Country
+msgid "country.senegal"
+msgstr ""
+
+#: model.Country
+msgid "country.seychelles"
+msgstr ""
+
+#: model.Country
+msgid "country.sierra_leone"
+msgstr ""
+
+#: model.Country
+msgid "country.singapore"
+msgstr ""
+
+#: model.Country
+msgid "country.slovakia"
+msgstr ""
+
+#: model.Country
+msgid "country.slovenia"
+msgstr ""
+
+#: model.Country
+msgid "country.solomon_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.somalia"
+msgstr ""
+
+#: model.Country
+msgid "country.south_georgia_sandwich_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.south_korea"
+msgstr ""
+
+#: model.Country
+msgid "country.spain"
+msgstr ""
+
+#: model.Country
+msgid "country.sri_lanka"
+msgstr ""
+
+#: model.Country
+msgid "country.sudan"
+msgstr ""
+
+#: model.Country
+msgid "country.suriname"
+msgstr ""
+
+#: model.Country
+msgid "country.svalbard_and_jan_mayen_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.swaziland"
+msgstr ""
+
+#: model.Country
+msgid "country.sweden"
+msgstr ""
+
+#: model.Country
+msgid "country.switzerland"
+msgstr ""
+
+#: model.Country
+msgid "country.syria"
+msgstr ""
+
+#: model.Country
+msgid "country.tadjikistan"
+msgstr ""
+
+#: model.Country
+msgid "country.taiwan"
+msgstr ""
+
+#: model.Country
+msgid "country.tanzania"
+msgstr ""
+
+#: model.Country
+msgid "country.thailand"
+msgstr ""
+
+#: model.Country
+msgid "country.togo"
+msgstr ""
+
+#: model.Country
+msgid "country.tokelau"
+msgstr ""
+
+#: model.Country
+msgid "country.tonga"
+msgstr ""
+
+#: model.Country
+msgid "country.trinidad_and_tobago"
+msgstr ""
+
+#: model.Country
+msgid "country.tunisia"
+msgstr ""
+
+#: model.Country
+msgid "country.turkey"
+msgstr ""
+
+#: model.Country
+msgid "country.turkmenistan"
+msgstr ""
+
+#: model.Country
+msgid "country.turks_and_caicos_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.tuvalu"
+msgstr ""
+
+#: model.Country
+msgid "country.uganda"
+msgstr ""
+
+#: model.Country
+msgid "country.ukraine"
+msgstr ""
+
+#: model.Country
+msgid "country.united_arab_emirates"
+msgstr ""
+
+#: model.Country
+msgid "country.uruguay"
+msgstr ""
+
+#: model.Country
+msgid "country.us_outlying_islands"
+msgstr ""
+
+#: model.Country
+msgid "country.usa"
+msgstr ""
+
+#: model.Country
+msgid "country.uzbekistan"
+msgstr ""
+
+#: model.Country
+msgid "country.vanuatu"
+msgstr ""
+
+#: model.Country
+msgid "country.vatican_city_state"
+msgstr ""
+
+#: model.Country
+msgid "country.venezuela"
+msgstr ""
+
+#: model.Country
+msgid "country.vietnam"
+msgstr ""
+
+#: model.Country
+msgid "country.virgin_islands_british"
+msgstr ""
+
+#: model.Country
+msgid "country.virgin_islands_usa"
+msgstr ""
+
+#: model.Country
+msgid "country.wallis_and_futuna"
+msgstr ""
+
+#: model.Country
+msgid "country.western_sahara"
+msgstr ""
+
+#: model.Country
+msgid "country.yemen"
+msgstr ""
+
+#: model.Country
+msgid "country.zambia"
+msgstr ""
+
+#: model.Country
+msgid "country.zimbabwe"
+msgstr ""
+
+#: app/views/member/listings/images/_listing_image.html.erb:13
+#: app/views/profile_images/_profile_image.html.erb:13
+msgid "delete"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:7
+msgid "details.family.adults"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:11
+msgid "details.family.children"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.confirmations.confirmed"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.confirmations.send_instructions"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.confirmations.send_paranoid_instructions"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.already_authenticated"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.inactive"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.invalid"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.invalid_token"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.locked"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.timeout"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.unauthenticated"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.failure.unconfirmed"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.mailer.confirmation_instructions.subject"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.mailer.reset_password_instructions.subject"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.mailer.unlock_instructions.subject"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.omniauth_callbacks.failure"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.omniauth_callbacks.success"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.passwords.send_instructions"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.passwords.send_paranoid_instructions"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.passwords.updated"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.passwords.updated_not_active"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.registrations.destroyed"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.registrations.signed_up"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.registrations.signed_up_but_inactive"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.registrations.signed_up_but_locked"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.registrations.signed_up_but_unconfirmed"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.registrations.update_needs_confirmation"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.registrations.updated"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.sessions.signed_in"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.sessions.signed_out"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.unlocks.send_instructions"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.unlocks.send_paranoid_instructions"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "devise.unlocks.unlocked"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:37
+msgid "docs_before_you_go_home.list.clean_up"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:38
+msgid "docs_before_you_go_home.list.leave_cash"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:39
+msgid "docs_before_you_go_home.list.leaving_early"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:36
+msgid "docs_before_you_go_home.list.replace_basic_foods"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:41
+msgid "docs_before_you_go_home.list.say_thank_you"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:40
+msgid "docs_before_you_go_home.list.security"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:33
+msgid "docs_before_you_go_home.page.headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:34
+msgid "docs_before_you_go_home.page.introtext"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:32
+msgid "docs_new_member_tips.contact_partners.about_templates"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:35
+msgid "docs_new_member_tips.contact_partners.answer_templates"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:34
+msgid "docs_new_member_tips.contact_partners.contact_templates"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:30
+msgid "docs_new_member_tips.contact_partners.headline"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:31
+msgid "docs_new_member_tips.contact_partners.how_it_works"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:36
+msgid "docs_new_member_tips.contact_partners.tips_for_exchange_agreement"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:45
+msgid "docs_new_member_tips.gathering_information.cinema"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:43
+msgid "docs_new_member_tips.gathering_information.consider_your_home"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:39
+msgid "docs_new_member_tips.gathering_information.headline"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:41
+msgid "docs_new_member_tips.gathering_information.information_pack"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:44
+msgid "docs_new_member_tips.gathering_information.insurance"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:42
+msgid "docs_new_member_tips.gathering_information.local_charm"
+msgstr ""
+
+#: app/views/pages/exchange/_sub_menu.html.erb:11
+#: app/views/pages/exchange/exchange_tips.html.erb:2
+#: app/views/pages/exchange/exchange_tips.html.erb:3
+#: app/views/pages/exchange/exchange_tips.html.erb:9
+msgid "docs_new_member_tips.page.headline"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:21
+msgid "docs_new_member_tips.set_up_your_listing.destinations_wishlist_headline"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:24
+msgid "docs_new_member_tips.set_up_your_listing.google_marker_headline"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:3
+#: app/views/pages/exchange/exchange_tips.html.erb:13
+msgid "docs_new_member_tips.set_up_your_listing.headline"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:14
+msgid "docs_new_member_tips.set_up_your_listing.introtext"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:28
+msgid "docs_new_member_tips.set_up_your_listing.list_additional_text_and_photos"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:22
+msgid "docs_new_member_tips.set_up_your_listing.list_destinations_wishlist"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:18
+msgid "docs_new_member_tips.set_up_your_listing.list_edit_listing"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:25
+msgid "docs_new_member_tips.set_up_your_listing.list_gmap_marker"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:17
+msgid "docs_new_member_tips.set_up_your_listing.list_go_login"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:27
+msgid "docs_new_member_tips.set_up_your_listing.text_and_photos_headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:20
+msgid "docs_prepare_for_guests.list.appliance_instructions"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:16
+msgid "docs_prepare_for_guests.list.beds_and_food"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:15
+msgid "docs_prepare_for_guests.list.bottle_of_wine"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:18
+msgid "docs_prepare_for_guests.list.clean_refrigerator"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:22
+msgid "docs_prepare_for_guests.list.emergency_phone_numbers"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:28
+msgid "docs_prepare_for_guests.list.expense_notebook"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:30
+msgid "docs_prepare_for_guests.list.info_pack"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:27
+msgid "docs_prepare_for_guests.list.internet_access"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:24
+msgid "docs_prepare_for_guests.list.local_life"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:29
+msgid "docs_prepare_for_guests.list.off_limits"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:19
+msgid "docs_prepare_for_guests.list.pay_your_bills"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:21
+msgid "docs_prepare_for_guests.list.pets_and_plants"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:23
+msgid "docs_prepare_for_guests.list.security_instructions"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:17
+msgid "docs_prepare_for_guests.list.staple_foods"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:25
+msgid "docs_prepare_for_guests.list.store_breakables"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:26
+msgid "docs_prepare_for_guests.list.wardrobe_space"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:3
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:12
+msgid "docs_prepare_for_guests.page.headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:13
+msgid "docs_prepare_for_guests.page.introtext"
+msgstr ""
+
+#: app/views/pages/exchange/_sub_menu.html.erb:10
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:2
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:3
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:9
+msgid "docs_prepare_for_guests.visinfo_checklist.headline"
+msgstr ""
+
+#: app/views/member/listings/_listings_card.html.erb:2
+#: app/views/member/listings/exchange_dates/index.html.erb:36
+#: app/views/member/listings/images/_listing_image.html.erb:12
+#: app/views/profile_images/_profile_image.html.erb:12
+msgid "edit"
+msgstr ""
+
+#: model.Environment
+msgid "environment.by_the_sea"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_small_town"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_city"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_country"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_mountains"
+msgstr ""
+
+#: model.Environment
+msgid "environment.in_the_suburbs"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "errors.messages.already_confirmed"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "errors.messages.expired"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "errors.messages.not_found"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "errors.messages.not_locked"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "errors.messages.not_saved.one"
+msgstr ""
+
+#: config/locales/devise.en.yml
+msgid "errors.messages.not_saved.other"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.bed_&_breakfast"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.double_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.exchange_of_home"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.home_for_rent_only"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.home_for_rent_or_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.home_wanted_to_rent"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_by_young_persons"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_for_young_persons"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_offered"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.hospitality_wanted"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.house-sitting"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.long-term_exchange_wanted"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.long-term_rental_wanted"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.non-simultaneous_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.open_for_all_offers"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.want_to_house-sit"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.weekend_exchange"
+msgstr ""
+
+#: model.ExchangeType
+msgid "exchangetype.youth_exchange"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:125
+msgid "feedback.link_text"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:10
+msgid "guarantee.page.guarantee_text"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:9
+msgid "guarantee.page.headline"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:12
+msgid "guarantee.page.requirements"
+msgstr ""
+
+#: app/views/pages/_trial_account_sidebox.html.erb:3
+msgid "homepage.join.button_mouseover"
+msgstr ""
+
+#: app/views/pages/_trial_account_sidebox.html.erb:3
+msgid "homepage.join.button_text"
+msgstr ""
+
+#: app/views/pages/_local_representative.html.erb:8
+msgid "homepage.national_representatives.button"
+msgstr ""
+
+#: app/views/pages/_local_representative.html.erb:3
+#: app/views/pages/index.html.erb:21
+msgid "homepage.national_representatives.headline"
+msgstr ""
+
+#: app/views/pages/_local_representative.html.erb:4
+msgid "homepage.national_representatives.text"
+msgstr ""
+
+#: app/views/pages/index.html.erb:18
+msgid "homepage.pricing_box.button.main_text"
+msgstr ""
+
+#: app/views/pages/index.html.erb:25
+msgid "homepage.pricing_box.experienced_members.headline"
+msgstr ""
+
+#: app/views/pages/index.html.erb:26
+msgid "homepage.pricing_box.experienced_members.text"
+msgstr ""
+
+#: app/views/pages/index.html.erb:23
+msgid "homepage.pricing_box.guarantee.headline"
+msgstr ""
+
+#: app/views/pages/index.html.erb:24
+msgid "homepage.pricing_box.guarantee.text"
+msgstr ""
+
+#: app/views/pages/index.html.erb:14
+msgid "homepage.pricing_box.headline"
+msgstr ""
+
+#: app/views/pages/index.html.erb:22
+msgid "homepage.pricing_box.national_reps.text"
+msgstr ""
+
+#: app/views/pages/index.html.erb:27
+msgid "homepage.pricing_box.trial_membership.headline"
+msgstr ""
+
+#: app/views/pages/index.html.erb:28
+msgid "homepage.pricing_box.trial_membership.text"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.1-story-house"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.caravan"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.flat"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.holiday-home"
+msgstr ""
+
+#: model.HouseType
+msgid "housetype.house"
+msgstr ""
+
+#: app/views/representatives/index.html.erb:4
+msgid "intervac, contacts, local, representatives"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:4
+msgid "intervac, home, exchange, guarantee, "
+msgstr ""
+
+#: model.Language
+msgid "language.danish"
+msgstr ""
+
+#: model.Language
+msgid "language.dutch"
+msgstr ""
+
+#: model.Language
+msgid "language.english"
+msgstr ""
+
+#: model.Language
+msgid "language.finnish"
+msgstr ""
+
+#: model.Language
+msgid "language.french"
+msgstr ""
+
+#: model.Language
+msgid "language.german"
+msgstr ""
+
+#: model.Language
+msgid "language.greek"
+msgstr ""
+
+#: model.Language
+msgid "language.icelandic"
+msgstr ""
+
+#: model.Language
+msgid "language.italian"
+msgstr ""
+
+#: model.Language
+msgid "language.japanese"
+msgstr ""
+
+#: model.Language
+msgid "language.norwegian"
+msgstr ""
+
+#: model.Language
+msgid "language.polish"
+msgstr ""
+
+#: model.Language
+msgid "language.portuguese"
+msgstr ""
+
+#: model.Language
+msgid "language.romanian"
+msgstr ""
+
+#: model.Language
+msgid "language.russian"
+msgstr ""
+
+#: model.Language
+msgid "language.spanish"
+msgstr ""
+
+#: model.Language
+msgid "language.swedish"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:15
+#: app/views/users/passwords/edit.html.erb:36
+#: app/views/users/sessions/new.html.erb:39
+msgid "login.apply_for_membership_title"
+msgstr ""
+
+#: app/views/users/sessions/new.html.erb:45
+msgid "login.facebook.text"
+msgstr ""
+
+#: app/views/users/passwords/edit.html.erb:30
+#: app/views/users/sessions/new.html.erb:33
+msgid "login.renew_membership.headline"
+msgstr ""
+
+#: app/views/users/passwords/edit.html.erb:31
+#: app/views/users/sessions/new.html.erb:34
+msgid "login.renew_membership.text"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:3
+msgid "maximum_stay"
+msgstr ""
+
+#: app/views/member/exchange_agreements/new.html.erb:14
+msgid "member_home.register_agreement.free_membership"
+msgstr ""
+
+#: app/views/member/exchange_agreements/new.html.erb:37
+msgid "member_home.register_agreement.how_to_begin"
+msgstr ""
+
+#: app/views/admin/agent_members/index.html.erb:4
+msgid "members"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.association_cant_have_inverse_of"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.blank"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.blank_on_locale"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.callbacks"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.calling_document_find_with_nil_is_invalid"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.dependent_only_references_one_or_many"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.document_not_found"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.eager_load"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.embedded_in_must_have_inverse_of"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.invalid_collection"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.invalid_database"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.invalid_field"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.invalid_options"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.invalid_time"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.invalid_type"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.mixed_relations"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.no_environment"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.scope_overwrite"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.taken"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.too_many_nested_attribute_records"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.unsaved_document"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.unsupported_version"
+msgstr ""
+
+#: config/locales/mongoid.en.yml
+msgid "mongoid.errors.messages.validations"
+msgstr ""
+
+#: app/views/pages/index.html.erb:17
+msgid "month"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:124
+msgid "navigation.footer.about_intervac"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:107
+msgid "navigation.footer.contact_headline"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:126
+msgid "navigation.footer.intervac_blog"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:128
+msgid "navigation.footer.join_text"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:133
+msgid "navigation.footer.legal_headline"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:122
+msgid "navigation.footer.listings"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:127
+msgid "navigation.footer.newsletter"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:136
+msgid "navigation.footer.privacy_policy"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:136
+msgid "navigation.footer.privacy_policy_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:121
+msgid "navigation.footer.start_page"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:135
+msgid "navigation.footer.terms_of_use"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:135
+msgid "navigation.footer.terms_of_use_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:123
+msgid "navigation.footer.what_is_home_exchange"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:51
+msgid "navigation.header.login"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:52
+msgid "navigation.header.plans_and_pricing"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:127
+msgid "navigation.navigation.footer.newsletter"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:124
+msgid "navigation.navigation.public_navigation.about_us_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:126
+msgid "navigation.navigation.public_navigation.blog_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:121
+msgid "navigation.navigation.public_navigation.home_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:128
+msgid "navigation.navigation.public_navigation.join_link_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:122
+msgid "navigation.navigation.public_navigation.listings_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:123
+msgid "navigation.navigation.public_navigation.what_is_home_exchange_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:84
+msgid "navigation.public_navigation.about_us"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:85
+msgid "navigation.public_navigation.about_us_subtext"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:83
+msgid "navigation.public_navigation.about_us_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:90
+msgid "navigation.public_navigation.contacts"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:91
+msgid "navigation.public_navigation.contacts_subtext"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:89
+msgid "navigation.public_navigation.contacts_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:66
+msgid "navigation.public_navigation.home"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:78
+msgid "navigation.public_navigation.home_exchange"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:79
+msgid "navigation.public_navigation.home_exchange_subtext"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:67
+msgid "navigation.public_navigation.home_subtext"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:65
+msgid "navigation.public_navigation.home_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:72
+msgid "navigation.public_navigation.listings"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:73
+msgid "navigation.public_navigation.listings_subtext"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:71
+msgid "navigation.public_navigation.listings_title"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:77
+msgid "navigation.public_navigation.what_is_home_exchange_title"
+msgstr ""
+
+#: app/views/pages/_news_letter_sidebox.html.erb:4
+msgid "newsletter.subscription.button"
+msgstr ""
+
+#: app/views/pages/_news_letter_sidebox.html.erb:3
+#: app/views/pages/_news_letter_sidebox.html.erb:4
+msgid "newsletter.subscription_box.headline"
+msgstr ""
+
+#: app/views/users/registrations/new.html.erb:2
+msgid "page1.headline"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:45
+msgid "privacy.changes_headline"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:46
+msgid "privacy.changes_text"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:34
+msgid "privacy.cookies_headline"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:35
+msgid "privacy.cookies_text"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:12
+msgid "privacy.cross-posting_not_allowed"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:40
+msgid "privacy.how_to_contact_headline"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:41
+msgid "privacy.how_to_contact_text"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:18
+msgid "privacy.intro_and_no_sell"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:28
+msgid "privacy.ip_and_links_headline"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:29
+msgid "privacy.ip_not_personal"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:11
+msgid "privacy.only_non-commercial"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:30
+msgid "privacy.outside_links_disclaimer"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:2
+#: app/views/pages/legal/privacy_policy.html.erb:3
+#: app/views/pages/legal/privacy_policy.html.erb:8
+msgid "privacy.privacy_policy"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:3
+#: app/views/pages/legal/privacy_policy.html.erb:17
+msgid "privacy.protection_headline"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:24
+msgid "privacy.receive_email_updates"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:13
+msgid "privacy.responsibility_lies_with_member"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:22
+msgid "privacy.security_headline"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:36
+msgid "privacy.security_questions"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:23
+msgid "privacy.stored_in_database"
+msgstr ""
+
+#: app/views/admin/agent_images/index.html.erb:4
+msgid "profile image"
+msgstr ""
+
+#: app/views/member/listings/index.html.erb:10
+msgid "prohibited this listing from become active"
+msgstr ""
+
+#: app/views/member/listings/exchange_dates/index.html.erb:37
+msgid "remove"
+msgstr ""
+
+#: app/views/pages/legal/privacy_policy.html.erb:4
+msgid "seo.keyword_set.privacy_policy"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:4
+msgid "seo.keyword_set.terms_and_conditions"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:4
+msgid "seo.keyword_set.testimonials"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:4
+msgid "seo.keyword_set.visinfo.benefits_of_home_exchange"
+msgstr ""
+
+#: app/views/pages/exchange/exchange_tips.html.erb:4
+msgid "seo.keyword_set.visinfo.exchange_tips"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:4
+msgid "seo.keyword_set.visinfo.facts_about_intervac"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_checklist.html.erb:4
+msgid "seo.keyword_set.visinfo.home_exchange_checklist"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:4
+msgid "seo.keyword_set.visinfo.home_exchange_with_intervac"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:4
+msgid "seo.keyword_set.visinfo.membership_with_intervac"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:4
+msgid "seo.keyword_set.visinfo.national_representatives"
+msgstr ""
+
+#: app/views/pages/intervac/secure_exchanges.html.erb:4
+msgid "seo.keyword_set.visinfo.secure_exchanges"
+msgstr ""
+
+#: app/views/pages/exchange/what_is_home_exchange.html.erb:4
+msgid "seo.keyword_set.visinfo.what_is_home_exchange"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:4
+msgid "seo.keyword_set.visinfo.what_to_think_about"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:110
+msgid "sitewide.continents.africa"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:109
+msgid "sitewide.continents.asia"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:111
+msgid "sitewide.continents.europe"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:113
+msgid "sitewide.continents.north_america"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:112
+msgid "sitewide.continents.oceania"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:114
+msgid "sitewide.continents.south_america"
+msgstr ""
+
+#: app/views/pages/_feedback_sidebox.html.erb:2
+msgid "sitewide.feedback.headline"
+msgstr ""
+
+#: app/views/pages/_feedback_sidebox.html.erb:3
+msgid "sitewide.feedback.link_text"
+msgstr ""
+
+#: app/views/layouts/application.html.erb:125
+#: app/views/pages/_feedback_sidebox.html.erb:3
+msgid "sitewide.feedback.link_title"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:23
+#: app/views/pages/intervac/local_representatives.html.erb:29
+msgid "sitewide.greeting.mr"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:59
+#: app/views/registration/price_plans/index.html.erb:94
+#: app/views/registration/price_plans/index.html.erb:99
+msgid "sitewide.opinion.no"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:43
+#: app/views/registration/price_plans/index.html.erb:44
+#: app/views/registration/price_plans/index.html.erb:48
+#: app/views/registration/price_plans/index.html.erb:49
+#: app/views/registration/price_plans/index.html.erb:53
+#: app/views/registration/price_plans/index.html.erb:54
+#: app/views/registration/price_plans/index.html.erb:58
+#: app/views/registration/price_plans/index.html.erb:63
+#: app/views/registration/price_plans/index.html.erb:64
+#: app/views/registration/price_plans/index.html.erb:68
+#: app/views/registration/price_plans/index.html.erb:69
+#: app/views/registration/price_plans/index.html.erb:73
+#: app/views/registration/price_plans/index.html.erb:74
+#: app/views/registration/price_plans/index.html.erb:78
+#: app/views/registration/price_plans/index.html.erb:79
+#: app/views/registration/price_plans/index.html.erb:83
+#: app/views/registration/price_plans/index.html.erb:84
+#: app/views/registration/price_plans/index.html.erb:88
+#: app/views/registration/price_plans/index.html.erb:89
+#: app/views/registration/price_plans/index.html.erb:93
+#: app/views/registration/price_plans/index.html.erb:98
+#: app/views/registration/price_plans/index.html.erb:103
+#: app/views/registration/price_plans/index.html.erb:104
+msgid "sitewide.opinion.yes"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:110
+msgid "sitewide.renew_box.headline"
+msgstr ""
+
+#: app/views/feedbacks/_guest_form.html.erb:44
+#: app/views/feedbacks/_member_form.html.erb:27
+msgid "sitewide.select_one"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:10
+#: app/views/registration/price_plans/index.html.erb:19
+msgid "sitewide.timing.mo"
+msgstr ""
+
+#: app/views/pages/_trial_account_sidebox.html.erb:2
+msgid "sitewide.trial_account.headline"
+msgstr ""
+
+#: app/views/registration/price_plans/index.html.erb:23
+msgid "sitewide.trial_membership.fine_print"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:31
+msgid "tag.computer_available"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:27
+msgid "tag.free_internet_access"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:19
+msgid "tag.non_smoking"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:23
+msgid "tag.pet_care"
+msgstr ""
+
+#: app/views/listings/_listing_card_table.html.erb:15
+msgid "tag.use_exchange_of_car"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:24
+msgid "terms_of_use.cancellation.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:27
+msgid "terms_of_use.cancellation.must_inform_agent"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:26
+msgid "terms_of_use.cancellation.not_without_valid_reason"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:40
+msgid "terms_of_use.complaints.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:42
+msgid "terms_of_use.complaints.liability_for_termination"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:108
+msgid "terms_of_use.confidentiality.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:110
+msgid "terms_of_use.confidentiality.member_responsibilities"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:32
+msgid "terms_of_use.consequences.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:34
+msgid "terms_of_use.consequences.member_responsibilities"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:103
+msgid "terms_of_use.database.for_home_exchange_only"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:101
+msgid "terms_of_use.database.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:131
+msgid "terms_of_use.definitions.board"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:132
+msgid "terms_of_use.definitions.complaint"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:133
+msgid "terms_of_use.definitions.database"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:135
+msgid "terms_of_use.definitions.exchanged_property"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:152
+msgid "terms_of_use.definitions.headings_are_convenience"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:129
+msgid "terms_of_use.definitions.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:136
+msgid "terms_of_use.definitions.home_country"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:137
+msgid "terms_of_use.definitions.home_exchange"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:138
+msgid "terms_of_use.definitions.home_exchange_agreement"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:139
+msgid "terms_of_use.definitions.intervac"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:140
+msgid "terms_of_use.definitions.member"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:142
+msgid "terms_of_use.definitions.negotiation"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:143
+msgid "terms_of_use.definitions.notification"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:144
+msgid "terms_of_use.definitions.pet"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:145
+msgid "terms_of_use.definitions.property"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:151
+msgid "terms_of_use.definitions.references_to_gender"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:150
+msgid "terms_of_use.definitions.references_to_plural_singular"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:146
+msgid "terms_of_use.definitions.representative"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:147
+msgid "terms_of_use.definitions.rule"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:149
+msgid "terms_of_use.definitions.standard_form"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:122
+msgid "terms_of_use.fees.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:124
+msgid "terms_of_use.fees.must_be_paid"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:16
+msgid "terms_of_use.fundamental_principals.courteous_and_responsive"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:12
+msgid "terms_of_use.fundamental_principals.fair_and_honest"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:3
+#: app/views/pages/legal/terms_of_use.html.erb:10
+msgid "terms_of_use.fundamental_principals.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:15
+msgid "terms_of_use.fundamental_principals.negotiate_in_good_faith"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:14
+msgid "terms_of_use.fundamental_principals.offer_is_accurate"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:19
+msgid "terms_of_use.fundamental_principals.protect_our_reputation"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:2
+#: app/views/pages/legal/terms_of_use.html.erb:3
+#: app/views/pages/legal/terms_of_use.html.erb:8
+msgid "terms_of_use.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:87
+msgid "terms_of_use.home_country.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:89
+msgid "terms_of_use.home_country.required_on_registration"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:94
+msgid "terms_of_use.listing_currency.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:96
+msgid "terms_of_use.listing_currency.member_responsibilities"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:60
+msgid "terms_of_use.motor_vehicles.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:62
+msgid "terms_of_use.motor_vehicles.member_responsibilities"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:115
+msgid "terms_of_use.negotiations.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:117
+msgid "terms_of_use.negotiations.member_responsibilities"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:47
+msgid "terms_of_use.offered_home.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:49
+msgid "terms_of_use.offered_home.intro_text"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:51
+msgid "terms_of_use.offered_home.is_available"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:53
+msgid "terms_of_use.offered_home.is_clean"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:52
+msgid "terms_of_use.offered_home.is_insured"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:54
+msgid "terms_of_use.offered_home.is_same_as_listing"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:81
+msgid "terms_of_use.pets.cleanliness"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:79
+msgid "terms_of_use.pets.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:82
+msgid "terms_of_use.pets.standards"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:72
+msgid "terms_of_use.respect_for_property.accept_responsibility"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:67
+msgid "terms_of_use.respect_for_property.headline"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:71
+msgid "terms_of_use.respect_for_property.keep_it_secure"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:69
+msgid "terms_of_use.respect_for_property.yes_you_must"
+msgstr ""
+
+#: app/views/pages/legal/terms_of_use.html.erb:2
+#: app/views/pages/legal/terms_of_use.html.erb:8
+msgid "terms_of_use.subhead"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:14
+#: app/views/pages/intervac/words_from_our_members.html.erb:16
+msgid "testimonials.local_1.cite"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:3
+#: app/views/pages/intervac/words_from_our_members.html.erb:3
+#: app/views/pages/intervac/words_from_our_members.html.erb:13
+msgid "testimonials.local_1.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:15
+msgid "testimonials.local_1.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:86
+#: app/views/pages/intervac/words_from_our_members.html.erb:88
+msgid "testimonials.local_10.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:85
+msgid "testimonials.local_10.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:87
+msgid "testimonials.local_10.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:94
+#: app/views/pages/intervac/words_from_our_members.html.erb:96
+msgid "testimonials.local_11.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:93
+msgid "testimonials.local_11.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:95
+msgid "testimonials.local_11.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:102
+#: app/views/pages/intervac/words_from_our_members.html.erb:104
+msgid "testimonials.local_12.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:101
+msgid "testimonials.local_12.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:103
+msgid "testimonials.local_12.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:110
+#: app/views/pages/intervac/words_from_our_members.html.erb:112
+msgid "testimonials.local_13.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:109
+msgid "testimonials.local_13.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:111
+msgid "testimonials.local_13.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:118
+#: app/views/pages/intervac/words_from_our_members.html.erb:120
+msgid "testimonials.local_14.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:117
+msgid "testimonials.local_14.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:119
+msgid "testimonials.local_14.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:126
+#: app/views/pages/intervac/words_from_our_members.html.erb:128
+msgid "testimonials.local_15.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:125
+msgid "testimonials.local_15.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:127
+msgid "testimonials.local_15.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:134
+#: app/views/pages/intervac/words_from_our_members.html.erb:136
+msgid "testimonials.local_16.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:133
+msgid "testimonials.local_16.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:135
+msgid "testimonials.local_16.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:142
+#: app/views/pages/intervac/words_from_our_members.html.erb:144
+msgid "testimonials.local_17.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:141
+msgid "testimonials.local_17.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:143
+msgid "testimonials.local_17.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:22
+#: app/views/pages/intervac/words_from_our_members.html.erb:24
+msgid "testimonials.local_2.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:21
+msgid "testimonials.local_2.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:23
+msgid "testimonials.local_2.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:30
+#: app/views/pages/intervac/words_from_our_members.html.erb:32
+msgid "testimonials.local_3.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:29
+msgid "testimonials.local_3.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:31
+msgid "testimonials.local_3.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:38
+#: app/views/pages/intervac/words_from_our_members.html.erb:40
+msgid "testimonials.local_4.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:37
+msgid "testimonials.local_4.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:39
+msgid "testimonials.local_4.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:46
+#: app/views/pages/intervac/words_from_our_members.html.erb:48
+msgid "testimonials.local_5.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:45
+msgid "testimonials.local_5.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:47
+msgid "testimonials.local_5.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:54
+#: app/views/pages/intervac/words_from_our_members.html.erb:56
+msgid "testimonials.local_6.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:53
+msgid "testimonials.local_6.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:55
+msgid "testimonials.local_6.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:62
+#: app/views/pages/intervac/words_from_our_members.html.erb:64
+msgid "testimonials.local_7.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:61
+msgid "testimonials.local_7.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:63
+msgid "testimonials.local_7.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:70
+#: app/views/pages/intervac/words_from_our_members.html.erb:72
+msgid "testimonials.local_8.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:69
+msgid "testimonials.local_8.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:71
+msgid "testimonials.local_8.text"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:78
+#: app/views/pages/intervac/words_from_our_members.html.erb:80
+msgid "testimonials.local_9.cite"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:77
+msgid "testimonials.local_9.headline"
+msgstr ""
+
+#: app/views/pages/intervac/words_from_our_members.html.erb:79
+msgid "testimonials.local_9.text"
+msgstr ""
+
+#: app/views/pages/intervac/guarantee.html.erb:3
+#: app/views/pages/intervac/words_from_our_members.html.erb:2
+#: app/views/pages/intervac/words_from_our_members.html.erb:3
+#: app/views/pages/intervac/words_from_our_members.html.erb:9
+msgid "testimonials.page.headline"
+msgstr ""
+
+#: app/views/favorites/_favorite_listing_card.html.erb:19
+#: app/views/favorites/_favorite_listing_row.html.erb:11
+#: app/views/listings/_listing_card.html.erb:29
+#: app/views/listings/show.html.erb:209
+msgid "view_listing.link_text"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:21
+msgid "visinfo_benefits_of_home_exchange.comfort.headline"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:21
+msgid "visinfo_benefits_of_home_exchange.comfort.subhead"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:15
+msgid "visinfo_benefits_of_home_exchange.eliminate_expenses.headline"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:15
+msgid "visinfo_benefits_of_home_exchange.eliminate_expenses.subhead"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:16
+msgid "visinfo_benefits_of_home_exchange.eliminate_expenses.text"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:18
+msgid "visinfo_benefits_of_home_exchange.extra_luggage.headline"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:18
+msgid "visinfo_benefits_of_home_exchange.extra_luggage.subhead"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:19
+msgid "visinfo_benefits_of_home_exchange.extra_luggage.text"
+msgstr ""
+
+#: app/views/pages/exchange/_sub_menu.html.erb:7
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:2
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:3
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:9
+msgid "visinfo_benefits_of_home_exchange.page.headline"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:28
+msgid "visinfo_benefits_of_home_exchange.planet_friendly.headline"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:29
+msgid "visinfo_benefits_of_home_exchange.planet_friendly.text"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:3
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:12
+msgid "visinfo_benefits_of_home_exchange.promote_goodwill.headline"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:12
+msgid "visinfo_benefits_of_home_exchange.promote_goodwill.subhead"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:13
+msgid "visinfo_benefits_of_home_exchange.promote_goodwill.text"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:24
+msgid "visinfo_benefits_of_home_exchange.security.headline"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:26
+msgid "visinfo_benefits_of_home_exchange.security.pets_text"
+msgstr ""
+
+#: app/views/pages/exchange/benefits_of_home_exchange.html.erb:25
+msgid "visinfo_benefits_of_home_exchange.security.text"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:16
+msgid "visinfo_facts_about_intervac.cultural.headline"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:25
+msgid "visinfo_facts_about_intervac.exchange_types.headline"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:32
+msgid "visinfo_facts_about_intervac.exchange_types_list.bed_and_breakfast"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:29
+msgid "visinfo_facts_about_intervac.exchange_types_list.double_exchange"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:27
+msgid "visinfo_facts_about_intervac.exchange_types_list.home_exchange"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:30
+msgid "visinfo_facts_about_intervac.exchange_types_list.hospitality_exchange"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:28
+msgid "visinfo_facts_about_intervac.exchange_types_list.house_sitting"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:31
+msgid "visinfo_facts_about_intervac.exchange_types_list.long_term_exchange"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:33
+msgid "visinfo_facts_about_intervac.exchange_types_list.rental"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:34
+msgid "visinfo_facts_about_intervac.exchange_types_list.youth_exchange"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:35
+msgid "visinfo_facts_about_intervac.exchange_types_list.youth_hospitality"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:20
+msgid "visinfo_facts_about_intervac.green_power.text"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:18
+msgid "visinfo_facts_about_intervac.intervac_history.name"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:17
+msgid "visinfo_facts_about_intervac.intervac_history.text"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:22
+msgid "visinfo_facts_about_intervac.our_members.headline"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:23
+msgid "visinfo_facts_about_intervac.our_members.text"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:2
+#: app/views/pages/intervac/facts_about_intervac.html.erb:3
+#: app/views/pages/intervac/facts_about_intervac.html.erb:10
+msgid "visinfo_facts_about_intervac.page.headline"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:14
+msgid "visinfo_facts_about_intervac.page.introtext"
+msgstr ""
+
+#: app/views/pages/intervac/facts_about_intervac.html.erb:3
+#: app/views/pages/intervac/facts_about_intervac.html.erb:13
+msgid "visinfo_facts_about_intervac.page.subhead"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:3
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:14
+msgid "visinfo_home_exchange_with_intervac.annual_exchanges.headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:15
+msgid "visinfo_home_exchange_with_intervac.annual_exchanges.text"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:17
+msgid "visinfo_home_exchange_with_intervac.database_mix.headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:27
+msgid "visinfo_home_exchange_with_intervac.detailed_guidelines.text"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:26
+msgid "visinfo_home_exchange_with_intervac.detailed_guidlines.headline"
+msgstr ""
+
+#: app/views/pages/exchange/_sub_menu.html.erb:8
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:2
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:3
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:9
+msgid "visinfo_home_exchange_with_intervac.page.headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:12
+msgid "visinfo_home_exchange_with_intervac.page.introtext"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:23
+msgid "visinfo_home_exchange_with_intervac.personal_service.headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:24
+msgid "visinfo_home_exchange_with_intervac.personal_service.text"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:20
+msgid "visinfo_home_exchange_with_intervac.second_generation.headline"
+msgstr ""
+
+#: app/views/pages/exchange/home_exchange_with_intervac.html.erb:21
+msgid "visinfo_home_exchange_with_intervac.second_generation.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:54
+msgid "visinfo_membership_with_intervac.hotlist.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:55
+msgid "visinfo_membership_with_intervac.hotlist.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:22
+msgid "visinfo_membership_with_intervac.map.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:23
+msgid "visinfo_membership_with_intervac.map.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:51
+msgid "visinfo_membership_with_intervac.match_alert.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:52
+msgid "visinfo_membership_with_intervac.match_alert.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:48
+msgid "visinfo_membership_with_intervac.member_favorites.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:49
+msgid "visinfo_membership_with_intervac.member_favorites.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:44
+msgid "visinfo_membership_with_intervac.messages.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:45
+msgid "visinfo_membership_with_intervac.messages.messages_text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:46
+msgid "visinfo_membership_with_intervac.messages.templates_text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:2
+#: app/views/pages/intervac/membership_with_intervac.html.erb:3
+#: app/views/pages/intervac/membership_with_intervac.html.erb:10
+msgid "visinfo_membership_with_intervac.page.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:41
+msgid "visinfo_membership_with_intervac.reverse_search.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:42
+msgid "visinfo_membership_with_intervac.reverse_search.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:26
+msgid "visinfo_membership_with_intervac.search_facilities.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:27
+msgid "visinfo_membership_with_intervac.search_facilities.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:38
+msgid "visinfo_membership_with_intervac.search_facilities_list.combination"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:29
+msgid "visinfo_membership_with_intervac.search_facilities_list.country"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:31
+msgid "visinfo_membership_with_intervac.search_facilities_list.exchange_dates"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:32
+msgid "visinfo_membership_with_intervac.search_facilities_list.exchange_types"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:36
+msgid "visinfo_membership_with_intervac.search_facilities_list.family"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:33
+msgid "visinfo_membership_with_intervac.search_facilities_list.keyword"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:37
+msgid "visinfo_membership_with_intervac.search_facilities_list.other_details"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:30
+msgid "visinfo_membership_with_intervac.search_facilities_list.region"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:35
+msgid "visinfo_membership_with_intervac.search_facilities_list.sleeping_accomodation"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:34
+msgid "visinfo_membership_with_intervac.search_facilities_list.spoken_language"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:16
+msgid "visinfo_membership_with_intervac.site_features.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:19
+msgid "visinfo_membership_with_intervac.text_and_photos.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:20
+msgid "visinfo_membership_with_intervac.text_and_photos.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:3
+#: app/views/pages/intervac/membership_with_intervac.html.erb:13
+msgid "visinfo_membership_with_intervac.trial_membership.headline"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:14
+msgid "visinfo_membership_with_intervac.trial_membership.text"
+msgstr ""
+
+#: app/views/pages/intervac/membership_with_intervac.html.erb:17
+msgid "visinfo_membership_with_intervac.your_listing.text"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:60
+msgid "visinfo_national_representatives.agm.2012"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:61
+msgid "visinfo_national_representatives.agm.2013"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:62
+msgid "visinfo_national_representatives.agm.2014"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:57
+msgid "visinfo_national_representatives.agm.headline"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:58
+msgid "visinfo_national_representatives.agm.introtext"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:3
+#: app/views/pages/intervac/local_representatives.html.erb:15
+msgid "visinfo_national_representatives.bd.headline"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:16
+msgid "visinfo_national_representatives.bd.introtext"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:18
+msgid "visinfo_national_representatives.current_board.headline"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:43
+msgid "visinfo_national_representatives.mailing_address.headline"
+msgstr ""
+
+#: app/views/pages/intervac/local_representatives.html.erb:2
+#: app/views/pages/intervac/local_representatives.html.erb:3
+#: app/views/pages/intervac/local_representatives.html.erb:10
+msgid "visinfo_national_representatives.page.headline"
+msgstr ""
+
+#: app/views/pages/intervac/secure_exchanges.html.erb:16
+msgid "visinfo_secure_exchanges.member_references.headline"
+msgstr ""
+
+#: app/views/pages/intervac/secure_exchanges.html.erb:17
+msgid "visinfo_secure_exchanges.member_references.text"
+msgstr ""
+
+#: app/views/pages/intervac/secure_exchanges.html.erb:2
+#: app/views/pages/intervac/secure_exchanges.html.erb:3
+#: app/views/pages/intervac/secure_exchanges.html.erb:9
+msgid "visinfo_secure_exchanges.page.headline"
+msgstr ""
+
+#: app/views/pages/intervac/secure_exchanges.html.erb:3
+#: app/views/pages/intervac/secure_exchanges.html.erb:12
+msgid "visinfo_secure_exchanges.trust_a_stranger.headline"
+msgstr ""
+
+#: app/views/pages/intervac/secure_exchanges.html.erb:13
+msgid "visinfo_secure_exchanges.trust_a_stranger.not_a_stranger"
+msgstr ""
+
+#: app/views/pages/intervac/secure_exchanges.html.erb:14
+msgid "visinfo_secure_exchanges.trust_a_stranger.our_members"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:18
+msgid "visinfo_thinking_about_home_exchange.equal_exchange.text"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:23
+msgid "visinfo_thinking_about_home_exchange.exchange_cars.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:25
+msgid "visinfo_thinking_about_home_exchange.exchange_cars.insurance_text"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:24
+msgid "visinfo_thinking_about_home_exchange.exchange_cars.text"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:33
+msgid "visinfo_thinking_about_home_exchange.get_started.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:34
+msgid "visinfo_thinking_about_home_exchange.get_started.text"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:27
+msgid "visinfo_thinking_about_home_exchange.home_insurance.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:28
+msgid "visinfo_thinking_about_home_exchange.home_insurance.text"
+msgstr ""
+
+#: app/views/pages/exchange/_sub_menu.html.erb:9
+#: app/views/pages/exchange/what_to_think_about.html.erb:2
+#: app/views/pages/exchange/what_to_think_about.html.erb:3
+#: app/views/pages/exchange/what_to_think_about.html.erb:9
+msgid "visinfo_thinking_about_home_exchange.page.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:12
+msgid "visinfo_thinking_about_home_exchange.page.introtext"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:3
+#: app/views/pages/exchange/what_to_think_about.html.erb:14
+msgid "visinfo_thinking_about_home_exchange.perfect_partner.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:15
+msgid "visinfo_thinking_about_home_exchange.perfect_partner.text"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:30
+msgid "visinfo_thinking_about_home_exchange.special_needs.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:20
+msgid "visinfo_thinking_about_home_exchange.visit_my_area.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_to_think_about.html.erb:21
+msgid "visinfo_thinking_about_home_exchange.visit_my_area.text"
+msgstr ""
+
+#: app/views/pages/exchange/_sub_menu.html.erb:6
+#: app/views/pages/exchange/what_is_home_exchange.html.erb:2
+#: app/views/pages/exchange/what_is_home_exchange.html.erb:3
+#: app/views/pages/exchange/what_is_home_exchange.html.erb:10
+msgid "visinfo_what_is_home_exchange.page.headline"
+msgstr ""
+
+#: app/views/pages/exchange/what_is_home_exchange.html.erb:14
+msgid "visinfo_what_is_home_exchange.page.opening_quote"
+msgstr ""
+
+#: app/views/pages/exchange/what_is_home_exchange.html.erb:18
+msgid "visinfo_what_is_home_exchange.page.serendipity_text"
+msgstr ""
+
+#: app/views/pages/exchange/what_is_home_exchange.html.erb:17
+msgid "visinfo_what_is_home_exchange.page.what_is_home_exchange"
+msgstr ""
+
+#: app/views/feedbacks/new.html.erb:3
+msgid "webfeedback.visitor.suggestions_headline"
+msgstr ""

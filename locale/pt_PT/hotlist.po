@@ -1,0 +1,69 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-01 17:54+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Error Text
+# --- English text = Your earliest for travel is not within the next 8 weeks.
+msgid "errors.earliest_date"
+msgstr "As suas datas de viagem não são nas próximas 8 semanas."
+
+# --- Error Text
+# --- English text = Your offer is not available! Please change your availability status in your profile.
+msgid "errors.offer_not_available"
+msgstr "A sua oferta não está disponível! Por favor altere o seu estado no seu perfil."
+
+# --- Error Text
+# --- English text = Your offer is already listed in the hotlist.
+msgid "errors.offer_already_listed"
+msgstr "A sua ficha já está na Hotlist (lista de trocas de última hora)."
+
+# --- Error Text
+# --- English text = Sorry, your membership has expired.
+msgid "errors.expired_membership"
+msgstr "Desculpe, mas a validade da sua conta expirou."
+
+# --- English text = Last Minute Travel Opportunities
+msgid "headline"
+msgstr "Oportunidades de Última Hora"
+
+# --- Button Text
+# --- English text = Add my offer to the hotlist
+msgid "add_my_offer_button"
+msgstr "Adicionar a minha oferta à lista de trocas de última hora"
+
+# --- English text = Added
+msgid "added"
+msgstr "Adicionado"
+
+# --- English text = Looking for a spontaneous exchange? The listings below belong to members actively searching an exchange partner and wanting to travel in the coming eight weeks. The last minute offer expires after three days and the listing is removed from the Last Minute list. Our members can renew their Last Minute list entries at any time.
+msgid "intro_text"
+msgstr "Está à procura de uma troca de útima hora? Esta lista (Hotlist) corresponde aos membros que estão à procura de trocas nas próximas oito semanas. A oferta de última hora expira após três dias sendo então removida da Hotlist (lista de última hora). Os nossos membros podem renovar presença na Hotlist em qualquer altura."
+
+# --- English text = Sorry, there are currently no hotlist entries available.
+msgid "messages.no_hotlist_entries"
+msgstr "Desculpe, mas não existem dados na Hotlist (lista de trocas de última hora) neste momento."
+
+# --- English text = Sorry, your offer is still not complete. Please use "Edit Listing Details" to add necessary information.
+msgid "errors.listing_incomplete"
+msgstr "Desculpe, mas a sua ficha ainda não está completa. Use o botão \"Editar Ficha\" para acrescentar a informação em falta."
+
+# --- English text = At the moment, your listing is inelegible for our hotlist.  Please contact your local organiser for help.
+# --- (Edited - Mar, 2009) 
+msgid "errors.listing_ineligible"
+msgstr "Neste momento a sua ficha não pode ser colocada na Hotlist. Por favor contacte o representante do seu país para saber como a colocar."
+
+# --- English text = Thanks! Your offer has been added to our hotlist.
+msgid "messages.success_add_to_hotlist"
+msgstr "Obrigado! A sua ficha já foi adicionada à Hotlist."
+

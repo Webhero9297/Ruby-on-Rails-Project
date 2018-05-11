@@ -1,0 +1,47 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-03-23 18:17+0100\n"
+"PO-Revision-Date: 2011-08-09 20:42+0100\n"
+"Last-Translator: de cooman <decooman@intervac.be>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Leaving Your Exchange Home
+msgid "page.headline"
+msgstr "Je ruilhuis opnieuw verlaten"
+
+# --- English text = Just before you go...
+msgid "page.introtext"
+msgstr "Je hebt een fijne ruilvakantie gehad en nu is het tijd om naar huis te gaan.  Gebruik onderstaande checklist met enkel belangrijke punten die je niet mag vergeten te doen, vlak voordat je naar je eigen huis vertrekt."
+
+# --- English text = Replace basic foods (coffee, tea, sugar, salt...) and leave linens as arranged with your exchange partner in advance.
+msgid "list.replace_basic_foods"
+msgstr "Vul zonodig de hoeveelheden basisvoedingsmiddelen aan (koffie,suiker, zout,...)"
+
+# --- English text = Clean up so as to return your partner's home to them to the same (or better!) condition as you found it. Obviously standards will differ, but aim high! Be sure to leave the linens as arranged with your exchange partner in advance.
+msgid "list.clean_up"
+msgstr "Maak het huis van je ruilpartner schoon, zoals het was ( of zo mogelijk beter!) bij aankomst.  Het is duidelijk dat de normen van netheid wel kunnen verschillen, maar leg de lat hoog!  Verzeker je ervan dat je alles achterlaat zoals het is afgesproken, inclusief het bed- en badlinnen."
+
+# --- English text = Leave cash for phone calls and any minor breakage.  Be sure to leave a note of any incidents or items replaced or broken.
+msgid "list.leave_cash"
+msgstr "Leg eventueel contant geld neer voor mogelijke telefoongesprekken die je hebt gevoerd, of voor kleine dingen die je hebt stuk gemaakt.  Laat in ieder geval een briefje achter over alles wat is fout gegaan, vervangen of gebroken."
+
+# --- English text = If you depart early for any reason, make sure that your exchange partners and their neighbours are notified.
+msgid "list.leaving_early"
+msgstr "Als je om één of andere reden heel vroeg moet vertrekken, communiceer dat dan in ieder geval van te voren met je partners en/of hun buren, zodat die het ook weten."
+
+# --- English text = Follow your partner's home security procedures prior to leaving, including returning keys to designated locations or people.
+msgid "list.security"
+msgstr "Volg de veiligheidsprocedures van je partner voordat je bijvoorbeeld vertrekt naar de luchthaven.  Zorg dat je de sleutels achterlaat op de afgesproken plaats."
+
+# --- English text = A thank you note, and perhaps a small gift as a token of your appreciation is always a welcome homecoming.
+msgid "list.say_thank_you"
+msgstr "Een bedankingsbriefje met een kort verslag van je verbblijf en/of eventueel een cadeautje is altijd een leuk teken van waardering voor je ruilpartner bij hun thuiskomst."
+

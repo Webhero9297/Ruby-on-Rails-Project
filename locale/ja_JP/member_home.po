@@ -1,0 +1,277 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-21 20:25+0100\n"
+"PO-Revision-Date: 2011-11-22 23:55+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Logged in
+msgid "logged_in_as"
+msgstr "ログイン"
+
+# --- English text = Welcome,
+# --- (Aug 2009) Changed from "My Dashboard" per AGM 2009
+msgid "system_messages.headline"
+msgstr "ようこそ、"
+
+# --- English text = Read Now
+msgid "dashboard.msg_waiting_link"
+msgstr "今読む"
+
+# --- English text = Read messages from other members
+msgid "dashboard.msg_waiting_title"
+msgstr "他の会員からのメッセージを読む"
+
+# --- English text = You have 1 new message.
+msgid "dashboard.messages_waiting.one"
+msgstr "一件の新しいメッセージがあります"
+
+# --- English text = You have {{count}} new messages.
+# --- IMPORTANT - The placeholder {{count}} will be automatically replaced with a number.
+# --- PLEASE DO NOT TRANSLATE {{count}}
+msgid "dashboard.messages_waiting.other"
+msgstr " {{count}}件の新しいメッセージがあります。"
+
+# --- English text =
+# --- IMPORTANT : Some languages have a third case. Please leave this entry blank if your language only requires singular and plural.
+msgid "dashboard.messages_waiting.few"
+msgstr ""
+
+# --- English text = It is necessary to finish your registration before we can process your membership.
+msgid "system_messages.finish_registration"
+msgstr "あなたの会員資格の手続きの前に登録を済ませる必要があります。"
+
+# --- English text = Next step
+msgid "system_messages.next_step"
+msgstr "次のステップ"
+
+# --- English text = Pay for my membership here
+msgid "system_messages.pay_here_link"
+msgstr "ここで会員費を払う"
+
+# --- English text = Your membership has expired on
+msgid "system_messages.expired_headline"
+msgstr "あなたの会員資格の期限が切れました。"
+
+# --- English text = Your membership will expire in {{count}} day.
+msgid "system_messages.expiration_warning.one"
+msgstr "あなたの会員資格は {{count}}日に終了します。"
+
+# --- English text = Your membership will expire in {{count}} days.
+msgid "system_messages.expiration_warning.other"
+msgstr "あなたの会員資格は {{count}}日に終了します。"
+
+# --- English text = Thank you for renewing your expired membership.
+msgid "system_messages.thanks_renew_expired"
+msgstr "会員資格を更新していただいて有難うございます。"
+
+# --- English text = Thank you for renewing your membership.
+msgid "system_messages.thanks_renew"
+msgstr "会員資格を更新いただいて有難う。"
+
+# --- English text = Thanks for your early renewal! Your current membership is active until
+msgid "system_messages.thanks_early_renewal"
+msgstr "あなたの早めの更新に感謝します！あなたの現在の会員資格は："
+
+# --- English text = Renew here
+# --- Adjusted text for length from "Renew your membership today" to "Renew"
+msgid "system_messages.renew_today"
+msgstr "更新"
+
+# --- English text = Get more offers from other members. Fill out your <link>Destinations Wishlist</link>.
+# --- Location = This text comes in the dashboard when the member has an active membership but an empty Destinations Wishlist.
+msgid "system_messages.destinations_wishlist"
+msgstr "他の会員からのオファーをもっと貰うために、あなたの <link>希望行き先リスト</link>を書き込んでください"
+
+# --- SEARCH A SPECIFIC MEMBER ---
+# --- English text = Find a Specific Member
+msgid "member_search_headline"
+msgstr "特別な会員の検索"
+
+# --- English text = Go!
+msgid "go"
+msgstr "GO!"
+
+# --- English text = Member ID
+msgid "id"
+msgstr "会員ＩＤ"
+
+# --- English text = Member Name
+msgid "name"
+msgstr "会員の名前"
+
+# --- USEFUL LINKS ---
+# --- Headline Text ---
+# --- English Text = Useful Links
+msgid "useful_links.headline"
+msgstr "役に立つリンクス"
+
+# --- English text = Register Your Next Exchange
+# --- (26 Jan 10) Edited to read: Create an Exchange Agreement.
+msgid "register_exchange.headline"
+msgstr "エクスチェンジ同意書の作成"
+
+# --- English text = My Exchange Agreements
+msgid "register_exchange.my_agreements"
+msgstr "私のエクスチェンジ同意書"
+
+# --- English text = Review my exchange agreements
+msgid "register_exchange.my_agreements_title"
+msgstr "私のエクスチェンジ同意書の再検討"
+
+# --- English Text = Register your next home exchange here.
+# => link title is mouseover text
+msgid "register_exchange.text"
+msgstr "あなたの次回のホーム・エクスチェンジをここに登録する。"
+
+# --- English Text = Choose Membership
+msgid "change_membership.choose"
+msgstr "会員資格の選択"
+
+# --- English Text = Your Memberships
+msgid "change_membership.your_memberships"
+msgstr "あなたの会員資格"
+
+# --- English Text = Change your password
+# --- (Mar 2009) Edited for perspective (from "your" to "my").
+# --- New English Text = Change My Password
+msgid "useful_links.change_password"
+msgstr "パスワードの変更"
+
+# --- English Text = It's a good idea to change your password from time to time.
+# => link titles are mouseover text
+msgid "useful_links.change_password_title"
+msgstr "時々パスワードを変更することを勧めます。"
+
+# --- English text = Region Search
+msgid "map_region_search_headline"
+msgstr "地域検索"
+
+# --- English text = Look For An Exchange Partner
+msgid "map_search_headline"
+msgstr "エクスチェンジの相手方を探す"
+
+# --- English text = Click on a region to start a search
+msgid "map_search_text"
+msgstr "検索を始めるために地域をクリックする"
+
+# --- Current English text = The travel dates in your listing are in the past.
+# --- (April 2009)  Edited heavily for length!
+msgid "system_messages.obsolete_dates"
+msgstr "あなたのリスティングの旅行の日付がすでに過去になっています。"
+
+# --- English text = Update
+msgid "system_messages.obsolete_dates_link"
+msgstr "アップデート"
+
+# --- English text =  An exchange agreement is waiting for you.
+msgid "dashboard.exchange_agreement_waiting"
+msgstr "エクスチェンジ同意書があなたを待っています。"
+
+# --- English text = Welcome back from your exchange with {{partner_name}}. Our system has automatically updated your exchange counter from {{old_exchange_count}} to {{new_exchange_count}}. If you were satisfied with your exchange and your partner, you can act as a reference for them.
+# --- IMPORTANT : Never translate placeholders (example: {{partner_name}})  They will be replaced with information from the database.
+msgid "dashboard.exchange_welcome_back"
+msgstr " {{partner_name}}. さんとのエクスチェンジからもどられて歓迎いたします。我々のシステムではあなたのエクスチェンジ・カウンターが{{old_exchange_count}} 回から {{new_exchange_count}}へと自動的にアップデートしました。もし今回のエクスチェンジに満足されましたら、これから彼等の照会先として推薦してあげてください。"
+
+# --- English text = Quick Reverse Search
+msgid "reverse_search.headline"
+msgstr "クイック逆検索"
+
+# --- English text = Show all the members in
+msgid "reverse_search.show_all_members_text"
+msgstr "すべての会員を見せる："
+
+# --- English text = Wanting to exchange with my
+msgid "reverse_search.exchange_with_my"
+msgstr "エクスチェンジ希望"
+
+# --- English text = Your new password has been saved.
+msgid "messages.changed_password_success"
+msgstr "あなたの新しいパスワードが保存されました。"
+
+# --- English text = As an OpenID user you cannot change your password here.  You must change do this at your OpenID provider.
+msgid "errors.open_id_user"
+msgstr "あなたは OpenID useｒ なので、ここでパスワードの変更はできません。あなたの OpenID provider から変更を行ってください。"
+
+# --- English text = This search is available as soon as you have finished filling in your listing details.
+msgid "reverse_search.invisible_listing_error"
+msgstr "この検索は、あなたのリスティングの項目をすべて書き入れたときに使えます。"
+
+# --- English text By creating an agreement you register your exchange. The badge you are awarded (bronze, silver, gold or platinum) now depends on the exchanges you register. You also become eligible to win a free membership!
+msgid "register_agreement.free_membership"
+msgstr "同意書を作成することによってあなたはエクスチェンジを登録します。あなたのもらえる記章は（ブロンズ、銀、金又はプラチナ）今やあなたの登録したエクスチェンジによります。あなたは又、無料の会員資格を獲得資格が出来てくるでしょう！"
+
+# --- English text = Begin the process by entering the member id of your exchange partner below.
+msgid "register_agreement.how_to_begin"
+msgstr "下にあるエクスチェンジの相手方の会員ＩＤを入力して登録プロセスを始めてください。"
+
+# --- English text = Click here to begin setting up your home exchange details now.
+msgid "dashboard.new_before_activation"
+msgstr "今、あなたのホームエクスチェンジの設定を始めてください。"
+
+# --- English text = Your membership is active, but your listing remains invisible until complete. Click here to setup your home exchange details.
+msgid "dashboard.active_but_invisible"
+msgstr "あなたの会員資格は有効です、があなたのリスティングがすべて完成するまで見ることができません。あなたのホームエクスチェンジ項目を設定しなければいけません。"
+
+# --- English text = Your national representative is:
+msgid "contact_your_agent.headline"
+msgstr "あなたの国の担当者："
+
+# --- (Feb 2011) Edited per BD request to read => Contact Us
+msgid "contact_your_agent.contact_link"
+msgstr "メールを送る"
+
+# --- English text = Click here to send your national representative an email
+msgid "contact_your_agent.contact_link_title"
+msgstr "あなたの国の担当者にメールを送るためにここをクリックする。"
+
+# --- English text = how the exchange agreement tracking system works
+msgid "help.exchange_agreements.headline"
+msgstr "エクスチェンジ同意書の軌道システムの働き方"
+
+# --- English text = Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system.
+msgid "help.exchange_agreements.getting_started"
+msgstr "エクスチェンジ同意書を結ぶ時は、それぞれの会員が自分の相手方の会員ＩＤを入力し、オンラインフォームに書き込む。両方のフォームは我々のシステムに保存されます。"
+
+# --- English text = <highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side.
+msgid "help.exchange_agreements.my_perspective"
+msgstr "<highlight>どちらからでもいいがフォームに書き込む</highlight>あなたが自分の方に契約する約束と情報を書き込むべきです。相手方は同じことを自分の側でします。"
+
+# --- English text = <highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight> 
+msgid "help.exchange_agreements.notification"
+msgstr "<highlight>相手方はあなたがエクスチェンジ契約に同意したとき、メールで自動的に通知します</highlight>"
+
+# --- English text = <highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries.
+msgid "help.exchange_agreements.visibility"
+msgstr "<highlight>あなたのインターバック会員ホームページの「私のエクスチェンジ同意書」であなたの同意書を見て印刷できます。<highlight>このセクションは会員ホームページ左手コラムのグレイの「役に立つリンクス」ボックス内にあります。あなたの相手方が彼らの情報を書き込むまでは彼らの会員ＩＤしか見ることが出来ません。その後、会員ＩＤはあなたの相手方の完全なフォームへのリンクになります。あなたの書き込んだフォームはあなたとあなたのエクスチェンジの相手方だけが見ることが出来ます。それとあなたの国のインターバック担当者も同様に見ることが出来ます。"
+
+# --- English text = <highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement.
+msgid "help.exchange_agreements.changes_allowed"
+msgstr "<highlight>あなたは出発の日まであなた自身のエクスチェンジ同意書を編集/又は変更することが出来ます。<highlight>ですから相手方と同意書について良く話し合いをすることが大事です。あなたの相手方はあなたが同意書を変更する時はメールにて通知されます。"
+
+# --- English text = Documented Experience Badges
+msgid "help.exchange_agreements.ee_increased_headline"
+msgstr "経験により与えられる記章"
+
+# --- English text = After your exchange is completed both you and your partner will automatically have an additional registered exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can range from Ready-to-Go (for new members) to Gold (6+ exchanges) and beyond.
+msgid "help.exchange_agreements.ee_increased"
+msgstr "エクスチェンジが終った後、あなたと相手方は各々のリスティング上のエクスチェンジカウンターに経験レベルが自動的に追加されます。与えられる経験の分類は「出発準備」（初めての経験の会員へ）からゴールドクラス（６回以上の経験者）、それ以上のレベルです。"
+
+# --- English text = Tips and Checklists
+msgid "useful_links.tips_and_checklists"
+msgstr "助言とチェックリスト"
+
+# --- English text = Become a Full Member
+# --- Location = This button is shown to trial members.  They click it and go to the payment page.
+# (June, 2011 - New)
+msgid "system_messages.full_member_button"
+msgstr "本会員になる"
+

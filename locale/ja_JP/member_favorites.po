@@ -1,0 +1,84 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-08-28 18:18+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member favorites
+msgid "headline"
+msgstr "会員のお気に入り"
+
+# --- English text = Now you can keep track of listings that you want to visit here in your Member Favorites list.  It's easy to add an entry to your favorites.  When viewing a listing that interests you, just click on the link in the left-hand column.
+msgid "intro_text"
+msgstr "会員のお気に入りリストの中のここを訪れたいと思うものをリスティングに整理する事が出来ます。あなたのお気に入りに追加するのは簡単です。あなたの興味を引くリスティングを見ながら、左欄のリンクをクリックすれば、そのリスティングはあなたのリストに追加されるでしょう。そうすればこれから先進めるのに役立つでしょう。"
+
+# --- English text = Do you really want to delete this member favorite entry?
+msgid "delete_confirm"
+msgstr "このエントリーをあなたは本当に削除したいのですか？"
+
+# --- English text = Delete this member favorite entry
+msgid "alt_delete"
+msgstr "この会員お気に入りを削除"
+
+# --- English text = Edit this member favorite entry
+msgid "alt_edit"
+msgstr "この会員お気に入りを編集"
+
+# --- English text = Save my text
+msgid "save_button"
+msgstr "説明文を保存"
+
+# --- English text = You do not have any entries in your Favorites list.
+msgid "no_favorites_yet"
+msgstr "あなたのお気に入りリストには何もない。"
+
+# --- English text = Photo for listing
+msgid "photo_for"
+msgstr "リスティング用の写真"
+
+# --- English text was = Added to My Favorites
+# --- (Mar 2009) - edited the text for length.  New English text = "Added"
+msgid "added"
+msgstr "追加された："
+
+# --- English text = Sort Favorites by
+msgid "sort_by.label"
+msgstr "お気に入りのタイプ："
+
+# --- English text = Date
+msgid "sort_by.date"
+msgstr "日付"
+
+# --- English text = Country
+msgid "sort_by.country"
+msgstr "国"
+
+# --- English text = Member id
+msgid "sort_by.member_id"
+msgstr "会員ＩＤ"
+
+# --- English text = Delete Checked Favorites
+msgid "delete_multiple.button_text"
+msgstr "お気に入りに入れたものを削除する"
+
+# --- English text = Please wait ...
+msgid "delete_multiple.disable_text"
+msgstr "ちょっと待ってください・・・"
+
+# --- English text = Do you really want to delete all checked favorites?
+msgid "delete_multiple.confirm_text"
+msgstr "あなたはお気に入りに入れたものを本当に削除したいのですか？"
+
+# --- English text = Delete multiple favorites
+msgid "delete_multiple.checkbox_title_tag"
+msgstr "お気に入りの削除"
+

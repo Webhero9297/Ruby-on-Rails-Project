@@ -1,0 +1,111 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-07 18:17+0100\n"
+"PO-Revision-Date: 2011-08-02 20:55+0100\n"
+"Last-Translator: de cooman <decooman@intervac.be>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Benefits of Home Exchange
+# --- Location = Main headline
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Voordelen van Huisruil"
+
+# --- English text = Promote international and cultural goodwill<br />You can make a difference!
+# --- (June 2011 - As Is - vtour_lifestyle.po => pullquote.promote_goodwill)
+msgid "promote_goodwill.headline"
+msgstr "Help mee aan het uitbouwen van internationale en culturele goodwill"
+
+# --- English text = You can make a difference!
+# (June, 2011 - Split out - Reference - vtour_lifestyle.po => pullquote.promote_goodwill)
+msgid "promote_goodwill.subhead"
+msgstr "Je kan het verschil maken!"
+
+# --- English text = Home exchange is the most authentic approach to living in a foreign country or culture. You find yourself immersed in your exchange partner's culture and lifestyle. The chances are excellent that you will meet their neighbours or friends. You will discover local stores, sights and flavour. This is a personalized and realistic travel experience that can't be beat.  Many exchange families remain friends long after their exchange, keeping up with each other's families per telephone and email.
+# (June 2011 - As Is (2 texts) =  vtour_lifestyle.po => more_reasons.pullquote + more_reasons.text)
+msgid "promote_goodwill.text"
+msgstr "Huisruil is de meest authentieke manier om een vreemd land of cultuur te ontdekken. Huisruil is je onderdompelen in de leefstijl en cultuur van je ruipartners. Het is ook een beetje je buren en vrienden ruilen. Je kan proeven van de charme van de lokale smaken en kleuren. Een op maat geschreven en onvervalste reiservaring die onbetaalbaar is. Vele ruilfamilies blijven bovendien vaak vrienden voor het leven."
+
+# --- English text = Eliminate Hotel and Car Expenses
+# (June 2011 - As Is - vtour_why_exchange.po => eliminate_expenses.headline)
+msgid "eliminate_expenses.headline"
+msgstr "Geen kosten meer voor hotel en autohuur"
+
+# --- English text = Suddenly, any destination in the world is a lot more affordable!
+# (June 2011 - As Is - vtour_why_exchange.po => eliminate_expenses.pullquote)
+msgid "eliminate_expenses.subhead"
+msgstr "Meteen wordt elke bestemming in de wereld haalbaar."
+
+# --- English text = While exchanging there is no pressing reason for you to blow your budget on hotels or car rentals. Home exchange is the way that your family can afford to visit places you have only dreamed about.   Exchanging homes leaves your budget free to spring for special tours, dining or entertainment.
+# --- (June 2011) EDITED - Removed a sentence in the middle about having a kitchen to prepare family meals.
+# (June 2011 - Reference: vtour_why_exchange.po => eliminate_expenses.text )
+msgid "eliminate_expenses.text"
+msgstr "Door het ruilen van je woning moet je niet meer een groot deel van je budget spenderen aan hotelkosten en autohuur.  Je zal beschikken over een ingerichte keuken om rustig te kunnen koken zodat je niet verplicht bent om steeds naar een restaurant te gaan. Op deze manier kan je meer budget besteden aan droomuitstapjes en alle andere vormen van ontspanning."
+
+# --- English text = No More Expensive Charges For Extra Luggage
+# (June, 2011 - New)
+msgid "extra_luggage.headline"
+msgstr "Geen dure rekeningen meer voor extra bagage"
+
+# --- English text = No need to lug three weeks worth of toys and games through a foreign airport.
+# (June 2011 - As Is - vtour_why_exchange.po => kids_and_pets.pullquote)
+msgid "extra_luggage.subhead"
+msgstr "Je moet niet meer sleuren met speelgoed om je kinderen drie weken te boeien."
+
+# --- English text = Go ahead, imagine your luggage from your last holiday.   Open it up, and remove all the stuff you took, because you might need it.  Now, dare to imagine this:  You are exchanging with a family in Sweden, and they have kids the same ages as yours.  Just as adults enjoy driving a holiday car, kids delight in a temporary toy exchange.  There will be something for everyone: a different "favorite coffee cup", different books to read at bedtime, movies you might not have seen or music you haven't heard.  These are all a part of your exchange partner's every day lifestyle and they are available for your use at your exchange partner's home.
+# (June 2011 - As Is - vtour_why_exchange.po => kids_and_pets.luggage_text)
+msgid "extra_luggage.text"
+msgstr "Denk even aan je bagage van je laatste vakantie. Doe ze nog eens open en haal al de spullen eruit die je meenam en die je dacht nodig te kunnen hebben. Stel je nu even voor dat je gaat ruilen met een Zweedse familie en dat ze kinderen hebben van dezelfde leeftijd. Zoals jij zal genieten van het rijden met de ruilwagen, zullen de kinderen genieten van het tijdelijke ruilspeelgoed. Er zal voor elk wat wils zijn: een favoriete koffiekop, andere boeken om te lezen bij bedtijd, speelfilms die je nog niet gezien hebt en nieuw muziek om te ontdekken. Ze maken deel uit van het leefkader van je ruilpartners en zijn volledig voor jullie ter beschikking."
+
+# --- English text = The Comfort of Living in a House
+# (June 2011 - As Is - vtour_why_exchange.po => comfort.headline)
+msgid "comfort.headline"
+msgstr "Het thuiscomfort "
+
+# --- English text = Let the kids play outside in the yard while you take a hot bath.
+# (June 2011 - As Is - vtour_why_exchange.po => comfort.pullquote)
+msgid "comfort.subhead"
+msgstr "Laat de kinderen spelen in de tuin terwijl jij geniet van een lekker warm bad."
+
+# --- English text = Come home after a hard day of shopping and sightseeing to the <italic>warmth of a friend's home</italic>.  Sit down in a comfortable chair, and put your feet up, you are on vacation. You have time and space enough for everyone.  You are not confined to a dinky hotel room with your whole family, nor do you need to run off to a restaurant or try to heat the baby's bottle in a bathroom sink.  Hang out instead and cook a family dinner together. Watch a movie, enjoy each other.  Slow down.  Take time. You've earned it.
+# --- MINOR EDIT => added <italic> and </italic> around the words "warmth of a friend's home" to make these words italic.
+# (June 2011 - MINOR EDIT - Reference: vtour_why_exchange.po => comfort.text)
+msgid "comfort.text"
+msgstr "Na een dag van shopping en sightseeing kan je heerlijk thuiskomen in de warmte van een gezellig huis. Laat je neerploffen in een comfortabele zetel, je bent immers op vakantie. Je kan tijd aan alles en iedereen spenderen. Je bent niet vastgekluisterd met je gezin aan een soms enge hotelkamer en je moet je niet steeds haasten naar een restaurant om te gaan eten. Geniet van het samen bereiden van een avondmaal. Pik een filmpje mee op de DVD. Kortom geniet van de welverdiende vakantietijd."
+
+# --- English text = Security = Peace of Mind
+# --- MINOR EDIT - changed "=" to "and"
+# (June 2011 - AS IS - vtour_why_exchange.po => security.headline)
+msgid "security.headline"
+msgstr "Veiligheid is een heerlijk gevoel"
+
+# --- English text = Your home is not empty, and the newspapers and mail are not piling up, the plants are watered, the lawn mowed.  The dog is still barking in the back yard and, even though you are happily touring Chateaux on the Loire, at home life appears to go on as usual.  Our members take excellent care of each other's property while vacationing.
+# --- MINOR EDIT => Removed last sentence about insurance company.
+# (June 2011 - Reference vtour_why_exchange.po => security.text)
+msgid "security.text"
+msgstr "Je huis blijft niet onbewoond achter, de post en de  kranten puilen niet uit je brievenbus, je kamerplanten krijgen water en het gazon wordt gemaaid. Je hond krijgt zijn gewone verzorging en terwijl jij heerlijk aan het rondtoeren bent aan de kastelen van de Loire gaat bij jouw thuis alles zijn rustig gangetje. Huisruilers zorgen uitstekend tijdens de vakantie voor elkaars eigendom. Je verzekering zal blij zijn te horen dat je huis bewoond wordt tijdens je afwezigheid."
+
+# --- English text = Your pets remain in the comfort of their own homes.  No more expensive pet hotels, no more worrying whether the neighbor remembered to feed your fish.  Our members are happy to exchange pet-care as part of the deal and it is a relief to know that while you are away, your animals are well cared for. Neither humans nor animals will miss out on the petting and companionship that is a necessary part of life for animal lovers.
+# (June 2011 - MINOR EDITS - Reference: vtour_why_exchange.po => kids_and_pets.pets_text)
+msgid "security.pets_text"
+msgstr "Wanneer onze leden ruilen blijven de huisdieren genieten van het comfort van hun eigen huis en omgeving. Dus geen nood meer aan dure dierenhotels en geen vrees meer dat je buurman zal vergeten om de goudvis te voederen .  De meeste leden beschouwen de zorg voor huisdieren als een deel van de ruil. Het is een een heerlijk gevoel te weten dat iemand zorgt voor je huisdieren terwijl je weg bent en het is fijn om zelf even nieuwe huisdieren als vriend te hebben. Zowel de baasjes als de dieren zullen dus tijdens de vakantie gezelschap hebben. "
+
+# --- English text = Home Exchanging is Planet Friendly
+# --- move_to: benefits of home exchange
+# (June 2011 - As Is - vtour_lifestyle.po => planet_friendly.headline)
+msgid "planet_friendly.headline"
+msgstr "Huisruil is milieubewust en een vorm van duurzaam toerisme"
+
+# --- English text = In addition to creating a more authentic travel experiences, home exchange also takes pressure off the environment by reducing the need for new hotel and resort construction in heavily frequented international destinations. Home exchangers help local merchants by shopping in local markets and using local services. The increasing interest in home exchange is a natural outgrowth of the movement for responsible travel.
+# (June 2011 - As Is - vtour_lifestyle.po => planet_friendly.reduce_pressure_buy_locally_text)
+msgid "planet_friendly.text"
+msgstr "Wij geloven dat huisruil, naast het creëeren van een authentieke reiservaring, meehelpt aan het inperken van milieubelastende inftrastructuur in drukbezochte toeristische plaatsen, zoals hotels en vakantieparken. Huisruil bevordert de lokale handel en maakt gebruik van plaatselijke dienstverlening. Huisruil sluit aan bij de verhoogde interesse voor duurzaam toerisme."
+

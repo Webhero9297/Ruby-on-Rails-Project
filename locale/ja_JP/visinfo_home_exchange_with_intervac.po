@@ -1,0 +1,77 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (February, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-09 10:17+0100\n"
+"PO-Revision-Date: 2011-11-25 17:49+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "インターバックでのホームエクスチェンジ"
+
+# --- English text = Exchanging your home with Intervac members is easy.  After you have signed up and filled in your listing you can get started right away looking for a potential exchange partner.  Your membership fee covers unlimited exchanges during a specific period of time (usually a year or more) and most of our members exchange several times a year.
+# (June, 2011 - New)
+msgid "page.introtext"
+msgstr "あなたの家をエクスチェンジするのは簡単です。契約をし、リスティング（登録事項）にすべて書き込めば直ちににエクスチェンジのパートナーをさがし始めることが出来ます。会費を支払えば、特定の期間中（普通は１年又はそれ以上）は何回でも無制限でエクスチェンジする事だできます。会員の大半は一年に数回のエクスチェンジをしています。"
+
+# --- English text = Thousands of Exchanges Each Year
+# (June, 2011 - New)
+msgid "annual_exchanges.headline"
+msgstr "毎年数千回のエクスチェンジ"
+
+# --- English text = Every day of the year intervac members are living in each other's homes, taking care of each other's pets and plants, and experiencing each other's neighborhoods.  Intervac members are host and guest to over {{annual_number_of_exchanges}} per year. And we've been in business since 1953!  When it comes to the security and enjoyablity of a home exchange holiday, those numbers speak volumes for the Intervac way of life.
+# --- IMPORTANT - Do not translate {{annual_number_of_exchanges}} - This is a placeholder that will be filled in by the system when the page is displayed.
+# (June, 2011 - New)
+msgid "annual_exchanges.text"
+msgstr "いつの年でも、どの日であってもインターバックの会員達はお互いのパートナーの家に滞在し、互いのペットや植木の世話をし、隣人達と交流しながら休暇をすごしているのです。インターバックの会員は年間{{annual_number_of_exchanges}}  回以上、ホストとして迎えたりゲストとして迎え入れられたりしています。そして我々はこの仕事を１９５３年から続けているのです！ホームエクスチェンジの安全性と楽しみを、たくさんの会員がインターバックでの生活方法として語っています。"
+
+# --- English text = Many 2nd Generation Exchangers
+# (June, 2011 - New)
+msgid "second_generation.headline"
+msgstr "多数の２世代にわたる会員達"
+
+# --- English text = And because we've been in business for {{number_of_years_in_business}} years and our concept is still fresh and innovative we are proud to have many second generation exchangers amongst our members.  These are adults who first experienced home exchange as kids and now they are sharing it with their children.
+# (June, 2011 - New)
+msgid "second_generation.text"
+msgstr "そして我々はこの仕事に {{number_of_years_in_business}}年間もかかわってきていますが、このコンセプトはいまだ現代においても新鮮で革新的であるといえます。つまり会員の中から２代目にあたる会員が出てきているという事で、我々はそれをとても誇りに思っています。この世代は最初は子供としてホームエクスチェンジを経験してきたのが、いまや自分達の子供を連れて率先して会員となって参加しているのです。"
+
+# --- English text = Database Mix
+# (June, 2011 - New)
+msgid "database_mix.headline"
+msgstr "データベース・ミックス"
+
+# --- English text = Another benefit of our extensive experience is what we refer to as our <italic>database mix</italic>.  This refers to the percentage of members we have in Europe -vs- North America, or English speaking countries -vs- the rest of the world.  We curate these ratios and use them when deciding where to spend our advertising budget so we can be sure that the exchange you are looking for is in our database. it.
+# (June, 2011 - New )
+msgid "database_mix.text"
+msgstr "我々の広範囲にわたる経験からくる別の特権といえるものは、我々が <italic>データーミックス</italic>と呼んでいるものです。ヨーロッパ対北アメリカ、又は英語圏の国対他の国などの会員のパーセンテージを分類しています。我々はこれらと他のものを分析し、広告予算を実行する際の参考にしています。あなたが探しているエクスチェンジは我々のデーターベースの中にあると確信しています。"
+
+# --- English text = National Representatives in Your Country
+# (June, 2011 - New)
+msgid "personal_service.headline"
+msgstr "あなたの国の担当者"
+
+# --- English text = We have thirty five national representatives around the world and most of them have been helping members like you find great exchanges for twenty years and more.  Our agents know the ropes, they know the best tips, and they will do everything they can to help you find a great exchange. Intervac is located in your country, and speaks your language.
+# (June, 2011 - Reference - vtour_why_intervac.po => personal_service.text)
+msgid "personal_service.text"
+msgstr "世界の３５の国・地域に担当者がいます。担当者の大半は２０年からそれ以上の経験を持ち、会員がエクスチェンジの相手を見つけるためのお手伝いをしてきました。我々のエージェントはエクスチェンジのやり方のこつや秘訣などを良く知っていますので、その成功のためには最大の努力をしています。インターバックはあなたの国にあり、あなたと同じ言葉を話します。"
+
+# --- English text = Detailed Guidlines
+# (June, 2011 - New)
+msgid "detailed_guidlines.headline"
+msgstr "ガイドラインとオンライン・ヘルプの詳細"
+
+# --- English text = We have detailed guidelines for home exchange that are updated regularly in light of our organisers and their members' experience. Our online system is well documented with plenty of help text to give you a boost when find yourself stuck in the middle of the night.
+# --- Location =
+# (June, 2011 - As Is - vtour_why_intervac.po => detailed_guidelines.text)
+msgid "detailed_guidelines.text"
+msgstr "ホームエクスチェンジの詳細なガイドラインは各国の担当者や会員からの情報で常にアップデイトされています。我々のオンラインシステムはあなたが暗闇の中で途方に暮れている時にためにたくさんのヘルプテキストを提供しています。"
+

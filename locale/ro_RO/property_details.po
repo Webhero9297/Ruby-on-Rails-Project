@@ -1,0 +1,262 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2011-10-12 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Air conditioning
+msgid "ac"
+msgstr "Aer conditionat"
+
+# --- English text = Use/Exchange of car
+msgid "ae"
+msgstr "Foloseste/ Schimba autoturismul"
+
+# --- English text = Car necessary
+msgid "an"
+msgstr "Necesita masina"
+
+# --- English text = All appliances
+msgid "apl"
+msgstr "cu toata aparatura "
+
+# --- English text = Balcony
+msgid "bc"
+msgstr "Balcon"
+
+# --- English text = Baby equipment
+msgid "be"
+msgstr "Echipament pentru copii"
+
+# --- English text = Bicycle(s)
+msgid "bi"
+msgstr "Bicicleta/e"
+
+# --- English text = Bicycle(s) available
+msgid "bi_ext"
+msgstr "Bicicleta/e disponibila/e"
+
+# --- English text = Use of caravan/camper
+msgid "ca"
+msgstr "Folosirea caravanei"
+
+# --- English text = Central heating
+msgid "ch"
+msgstr "Incalzire centrala"
+
+# --- English text = Tourist attractions
+msgid "cf"
+msgstr "Atractii turistice"
+
+# --- English text = Computer available
+msgid "cp"
+msgstr "Computer diponibil"
+
+# --- English text = Convenient shopping
+msgid "cs"
+msgstr "Cu facilitati pt efectuarea cumparaturilor"
+
+# --- English text = Shower
+msgid "d"
+msgstr "Dus"
+
+# --- English text = Clothes dryer
+msgid "dr"
+msgstr "Uscatorie"
+
+# --- English text = Free internet access
+msgid "fi"
+msgstr "Acces Internet gratuit"
+
+# --- English text = Forest/Woods
+msgid "fo"
+msgstr "Padure"
+
+# --- English text = Fireplace
+msgid "fp"
+msgstr "soba/ camin"
+
+# --- English text = Garden
+msgid "gd"
+msgstr "Gradina"
+
+# --- English text = Garage
+msgid "gg"
+msgstr "Garaj"
+
+# --- English text = Golfing
+msgid "gp"
+msgstr "Golf"
+
+# --- English text = Close to golfing
+msgid "gp_ext"
+msgstr "In apropierea terenului de golf"
+
+# --- English text = Suitable for disabled people
+msgid "hp"
+msgstr "Potrivit persoanelor cu disabilitati"
+
+# --- English text = Use of second home
+msgid "hs"
+msgstr "Folosirea celei de-a doua proprietati"
+
+# --- English text = Lake
+msgid "la"
+msgstr "la Lac"
+
+# --- English text = Close to a lake
+msgid "la_ext"
+msgstr "In apropierea lacului"
+
+# --- English text = Lift/elevator
+msgid "li"
+msgstr "ascensor"
+
+# --- English text = Mountains
+msgid "mt"
+msgstr "la Munte"
+
+# --- English text = Close to the mountains
+msgid "mt_ext"
+msgstr "In apropierea muntelui"
+
+# --- English text = No (small) children
+msgid "nc"
+msgstr "Fara copii mici"
+
+# --- English text = No pets
+msgid "np"
+msgstr "Fara animale de companie"
+
+# --- English text = Non-smoking
+msgid "ns"
+msgstr "Nefumatori"
+
+# --- English text = Pet care wanted
+msgid "pc"
+msgstr "Cu ingrijirea animalelor de companie"
+
+# --- English text = Park/Playground
+msgid "pk"
+msgstr "Parc/ Loc de joaca"
+
+# --- English text = Beach
+msgid "pl"
+msgstr "la Plaja"
+
+# --- English text = Close to the beach
+msgid "pl_ext"
+msgstr "In apropierea plajei"
+
+# --- English text = Seclusion/Privacy
+msgid "pv"
+msgstr "Izolat"
+
+# --- English text = Quiet neighborhood
+msgid "ro"
+msgstr "Imprejurimi linistite"
+
+# --- English text = River
+msgid "rv"
+msgstr "La Rau"
+
+# --- English text = Close to the river
+msgid "rv_ext"
+msgstr "In apropierea raului"
+
+# --- English text = Sauna (private)
+msgid "sa"
+msgstr "Sauna proprie"
+
+# --- English text = Private swimming pool
+msgid "sb"
+msgstr "Private swimming pool"
+
+# --- English text = Security/Doorman
+msgid "sc"
+msgstr "Securitate/Portar"
+
+# --- English text = Boating/Sailing/Surfing
+msgid "se"
+msgstr "Plimbari cu barca/ Navigatie / Surfing"
+
+# --- English text = Skiing
+msgid "sk"
+msgstr "Schi"
+
+# --- English text = Swimming (public)
+msgid "sp"
+msgstr "Inot( comun)"
+
+# --- English text = Good public transport
+msgid "t"
+msgstr "Facilitati pt transport in comun"
+
+# --- English text = Tennis
+msgid "te"
+msgstr "Tenis"
+
+# --- English text = Theatre
+msgid "tr"
+msgstr "Teatru"
+
+# --- English text = Television
+msgid "tv"
+msgstr "Televizor"
+
+# --- English text = Use of boat
+msgid "ub"
+msgstr "Cu folosirea barcii"
+
+# --- English text = Video
+msgid "vr"
+msgstr "Video"
+
+# --- English text = Hiking/walking
+msgid "wa"
+msgstr "Drumetii"
+
+# --- English text = Homepage
+msgid "web"
+msgstr "Pagina de start"
+
+# --- English text = Washing machine
+msgid "wm"
+msgstr "Masina de spalat rufe"
+
+# --- English text = Dishwasher
+msgid "wv"
+msgstr "Masina de spalat vase"
+
+# --- English text = Sea
+msgid "z"
+msgstr "La mare"
+
+# --- English text = Close to the sea
+msgid "z_ext"
+msgstr "In apropierea marii"
+
+# --- English text = Lake/Beach/Sea
+# --- A collection - used on MatchAlert!
+msgid "laplz"
+msgstr "Lac/Plaja/ Mare"
+
+# --- English text = Forest/Mountains
+# --- A collection - used on MatchAlert!
+msgid "fomt"
+msgstr "Padure / Munte"
+
+# --- English text = DVD
+#, fuzzy
+msgid "dvd"
+msgstr "DVD"
+

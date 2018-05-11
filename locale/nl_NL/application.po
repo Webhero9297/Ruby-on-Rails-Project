@@ -1,0 +1,572 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-07 09:55+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Become a Member
+msgid "page1.headline"
+msgstr "Deelnemer Worden"
+
+# --- English text = Now, joining Intervac is easier than ever!  We offer a free trial membership for {{number}} days.  Sign up (no credit card required) and set up your listing.  Take some time and have a look around our online facilities.  We are improving them all the time.  If you're not satisfied that Intervac, <italic>the original home exchangers</italic> is the right service for you, no problem.  After {{number}} days your membership will expire.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June 2011 - New)
+msgid "page1.intro_text"
+msgstr "Nu is inschrijven voor Intervac gemakkelijker dan ooit!  Wij bieden een gratis {{number}}-dagen testdeelname aan.  Schrijf in ( geen credit card nodig ) en maak uw eigen webpagina aan. Neem even de tijd om de mogelijkheden op onze website te bekijken. Wij zijn nog voortdurend bezig met het aanbrengen van verbeteringen. Als je niet tevreden bent over Intervac, <italic> de oorspronkelijke home exchangers</italic> en vindt dat het niet de geschikte organisatie voor u is, geen probleem. Na {{number}} dagen loopt uw deelname af."
+
+# --- English text = <strong>Step #1:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_1"
+msgstr "<strong>Stap #1:</strong> "
+
+# --- English text = Create your membership
+# (June 2011) Not In Use
+msgid "-x- page1.step_1_text"
+msgstr "Als Deelnemer Inschrijven"
+
+# --- English text = <strong>Step #2:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_2"
+msgstr "<strong>Stap #2:</strong> "
+
+# --- English text = Make your payment
+# (June 2011) Not In Use
+msgid "page1.step_2_text"
+msgstr "Contributie Betaling "
+
+# --- English text = <strong>Step #3:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_3"
+msgstr "<strong>Stap #3:</strong> "
+
+# --- English text = Build your listing
+# (September 2011)
+msgid "last_step.breadcrumbs"
+msgstr "Invullen Verdere Gegevens"
+
+# --- English text = Your Country of Residence
+msgid "page1.country_headline"
+msgstr "Het land waar je woont"
+
+# --- English text = Select the country where you live
+msgid "page1.select_country_text"
+msgstr "Selecteer het land waar je woont"
+
+# --- English text = To renew your expired membership, please <link>login here</link> and click the <italic>Renew Now</italic> button at the top of the page.
+# (June, 2011 - New)
+msgid "page1.how_to_renew"
+msgstr "Als uw deelname is afgelopen, dan kunt u Her-Inschrijven door te klikken op deze link: <link>hier inloggen</link>  <italic>   </italic> "
+
+# --- English text = Annual Membership
+# --- (Sept 2009) Edited to read: Membership Prices
+msgid "page1.prices_headline"
+msgstr "Contributie Bedragen"
+
+# --- English text = Your membership details
+# --- (May 2009) EDITED - Please change to read : Your Contact Information
+msgid "page1.contact_information_headline"
+msgstr "Details van je Deelname"
+
+# --- English text = First Name <required>*</required>
+msgid "page1.first_name"
+msgstr "Voornaam <required>*</required>"
+
+# --- English text = Last Name <required>*</required>
+msgid "page1.last_name"
+msgstr "Familienaam <required>*</required>"
+
+# --- English text = Email Address <required>*</required>
+msgid "page1.email"
+msgstr "Email adres <required>*</required>"
+
+# --- English text = Login and Password
+# (June, 2011 - New)
+msgid "page1.login_and_password"
+msgstr "Login en Password"
+
+# --- English text = Choose Login <required>*</required>
+msgid "page1.choose_login"
+msgstr "Kies een login <required>*</required>"
+
+# --- English text = Choose Password <required>*</required>
+msgid "page1.choose_password"
+msgstr "Kies een password <required>*</required>"
+
+# --- English text = Confirm Password <required>*</required>
+msgid "page1.confirm_password"
+msgstr "Bevestig je password <required>*</required>"
+
+# --- English text = I agree to the Intervac {TERMS_AND_CONDITIONS} and {PRIVACY_POLICY}
+msgid "page1.agree_terms_privacy"
+msgstr "Ik ga akkoord met de Intervac {TERMS_AND_CONDITIONS} en {PRIVACY_POLICY}"
+
+# --- English text = Proceed to Payment
+# (June, 2011 - New)
+msgid "page1.proceed_to_payment_button"
+msgstr "Verdergaan naar Betaling"
+
+# --- English text = Continue
+# (June, 2011 - New)
+msgid "page1.continue_button"
+msgstr "Doorgaan"
+
+# --- English text = Try Intervac {{number}} Days Free
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+msgid "page1.trial_offer_button"
+msgstr "Probeer {{number}} dagen gratis deelname"
+
+# --- English text = No country selected
+msgid "page1.default_no_country_selected"
+msgstr "Geen land geselecteerd"
+
+# --- English text = Please agree to Intervac Terms and Conditions and Privacy Policy
+msgid "page1.errors.agree_to_conditions"
+msgstr "Accepteer de Intervac Voorwaarden en het Privacy Beleid"
+
+# --- English text = That email address is already in use in our database.  Please login to renew your membership.
+# --- (May 2009) Edited => Removed the suggestion to use another email address.
+msgid "page1.errors.email_taken"
+msgstr "Dit email adres is al in gebruik in onze database.  U kunt nog als deelnemer inloggen en je deelname weer te activeren, of gebruik een ander email adres."
+
+# --- English text = Sorry, your chosen login is already in use.  Please choose another one.
+msgid "page1.errors.login_taken"
+msgstr "Het spijt ons, maar je gekozen login is al in gebruik.  Kies een andere login."
+
+# --- English text = Login and password cannot be blank.
+msgid "page1.errors.username_password_cannot_be_blank"
+msgstr "Login en Password moeten worden ingevuld."
+
+# --- English text = Choose Your Membership Options
+msgid "page2.headline"
+msgstr "Kies uit de volgende Deelname-Opties"
+
+# --- English text = Welcome back to Intervac, {{member_name}}. Thank you for renewing your membership {{membership_number}}.  (If this is not your name, or this is not the member id for the property you wish to renew, please contact your local agent who will be able to help you further.)
+# --- IMPORTANT:  Do not translate  {{member_name}} or {{membership_number} = These will be replaced automatically with the correct information.
+msgid "page2.renewal_welcome_text"
+msgstr "Opnieuw welkom bij Intervac, {{member_name}}. Dank je voor de her-inschrijving als deelnemer {{membership_number}}."
+
+# --- English text = If this is not your name, or member id, please contact your local agent who will be able to help you further.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will  be linked automatically.
+msgid "page2.renewal_not_you"
+msgstr "Indien dit niet je naam of deelnemers-identificatie is, neem dan contact op met <link>je lokale organisator</link> die je verder kan helpen."
+
+# --- English text = Hello, {{member_name}}.  You already have an active membership with Intervac, but you have not finished filling in the details of your listing. Please <link>log-in here</link> and follow the link to Change you Listing.  After you have done this and saved, your listing will be visible to all our members and you will be able to begin your search for a home exchange in earnest.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will  be linked automatically.
+# --- IMPORTANT:  Do not translate the placeholder {{member_name}}.  The system will replace this with the member's name.
+msgid "page2.renewal_not_for_active_invisible"
+msgstr "Dag, {{member_name}}.  Je bent reeds actief deelnemer van Intervac, maar je hebt de details van je aanbieding nog niet ingevuld.  Log hier in <link>hier in te loggen</link> en volg de link naar Wijzig mijn aanbieding.  Nadat je de wijzigingen hebt bewaard, zal je aanbieding beschikbaar zijn voor alle deelnemers en kun je zelf op zoek gaan naar een ruilafspraak."
+
+# --- English text = Hello, {{member_name}}.  You already have an active membership with Intervac which expires on {{expiration_date}}.  Please <link>click here</link> to continue and renew your listing for another year.  Or you can <link>login</link> here if you did not intend to renew.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will be linked automatically.
+# --- IMPORTANT:  Do not translate the placeholder {{member_name}}, or {{expiration_date}}.  The system will replace this with the member's name, and the date his currently active membership will expire.
+msgid "page2.renewal_active_invisible"
+msgstr "Dag, {{member_name}}.  Je bent reeds actief deelnemer van Intervac en je password zal pas vervallen op {{expiration_date}}.  Klik hier <link>hier te klikken</link>  om verder te gaan en je deelname nu te hernieuwen, of je kunt  hier<link>inloggen</link> wanneer je verkiest te wachten om te opnieuw in te schrijven. Vanaf dertig dagen voordat je deelname afloopt, zul je een link zien op de deelnemers homepagina."
+
+# --- English text = Membership Options
+msgid "page2.membership_options_headline"
+msgstr "Opties voor Deelname"
+
+# --- English text = Additional Services
+msgid "page2.additional_services_headline"
+msgstr "Extra diensten"
+
+# --- English text = Total
+msgid "page2.total"
+msgstr "Totaal"
+
+# --- English text = Payment Options and Confirmation
+# --- (May 2009) EDITED Change to read : Continue to Payment
+msgid "page2.button_text"
+msgstr "Opties voor Betaling en Bevestiging"
+
+# --- English text = Confirm your order
+msgid "page2.breadcrumbs"
+msgstr "Kies Deelnameopties"
+
+# --- English text = Enter promotion code if available
+msgid "page2.promotion_code"
+msgstr "Voer Promotie Code in indien beschikbaar"
+
+# --- English text = Confirm your order
+msgid "page3.breadcrumbs"
+msgstr "Kies Betalingsopties"
+
+# --- English text = Order Confirmation and Payment Options
+msgid "page3.headline"
+msgstr "Bevestigen en betalingsopties"
+
+# --- English text = Order Summary
+msgid "page3.summary_headline"
+msgstr "Overzicht van je inschrijving"
+
+# --- English text = Description
+msgid "page3.description"
+msgstr "Omschrijving"
+
+# --- English text = Price
+msgid "page3.price"
+msgstr "Prijs"
+
+# --- English text = Promotional discount
+msgid "page3.promotion_discount"
+msgstr "Promotie Korting "
+
+# --- English text = Total
+msgid "page3.total"
+msgstr "Totaal"
+
+# --- English text = Change your membership options
+msgid "page3.change_options"
+msgstr "Wijzig je Deelnameopties"
+
+# --- English text = Payment Options
+msgid "page3.payment_options.headline"
+msgstr "Betalingsopties"
+
+# --- Text for countries with local payment pages only.
+# --- English text = Your account has been created and your order has been stored in the Intervac International database.  Your listing is inactive and invisible to other members.  As soon as your local organiser has received your payment your listing will be activated.  You must also log-in and finish filling out your travel details before your offer can be viewed by other members.
+msgid "page3.payment_options.no_cc_important"
+msgstr "Je deelname is nu aangemaakt en opgeslagen in de Intervac International database.  Je deelname is nog niet geactiveerd en daarom nog onzichtbaar voor andere deelnemers.  Zo gauw je lokale organisator je betaling heeft ontvangen, zal je password worden geactiveerd. Je moet ook nog inloggen om alle verder noodzakelijke gegevens in te vullen voordat je aanbieding door anderen kan worden ingezien."
+
+# --- Text for countries with local payment pages only.
+# --- English text = Activation can take up to 48 hours after receipt of payment.  Your organiser will set your membership dates to reflect that actual date of activation so that you receive the full length of your  membership.
+msgid "page3.payment_options.delayed_activation"
+msgstr "De activering van je deelname gebeurt normaal binnen 12 uur na ontvangst van je betaling ( of machtiging ).  De organisator past de data van je deelname zodanig aan dat je van de volledige duur van je deelname kunt genieten. "
+
+# --- Text for countries with local payment pages only.
+# --- English text = While you are waiting for activation, feel free to log-in to our system (using the login and password you chose on the first page), and finsh filling out your listing details.  You will be ready to begin contacting other members from the first day!
+msgid "page3.payment_options.while_you_wait"
+msgstr "Terwijl je wacht op de activering, kun je reeds inloggen in het systeem (gebruik hiervoor de login en het password dat je gekozen hebt op de eerste pagina), en ga verder met het invullen van je gegevens. Zo ben je klaar om meteen van start te gaan!"
+
+# --- English text = Continue
+msgid "page3.payment_options.continue_button"
+msgstr "Ga door"
+
+# --- English text = Pay with Credit Card
+# --- Location = Only used by countries who take payments through PayPal
+# (New: November, 2011)
+msgid "page3.payment_options.paypal_headline"
+msgstr "Betaal met Credit Card"
+
+# --- English text = The following credit cards are supported. Continue by clicking the \"Continue to payment\" button
+# --- Location = Only used by countries who take payments through PayPal
+# (New: November, 2011)
+msgid "page3.payment_options.paypal_text"
+msgstr "De volgende Credit Cards worden geaccepteerd. Ga verder door op de Knop te klikken."
+
+# --- English text = Continue to payment
+msgid "page3.payment_options.paypal_button"
+msgstr "Betaal met PayPal"
+
+# --- English text = Pay with credit card
+msgid "page3.payment_options.pay_cc_button"
+msgstr "Betaal met een creditkaart"
+
+# --- English text = "Use your VISA card"
+msgid "page3.payment_options.visa_alt"
+msgstr "Betaal met Visa"
+
+# --- English text = "Use your American Express card"
+msgid "page3.payment_options.amex_alt"
+msgstr "Betaal met American Express"
+
+# --- English text = "Use your MasterCard"
+msgid "page3.payment_options.mastercard_alt"
+msgstr "Betaal met  MasterCard"
+
+# --- English text = Pay by Invoice
+# --- Location: Page 3 of the application process - Headline.  Only shows for Agents who have allowed Payment by Invoice on thier Payment Settings page.
+msgid "page3.pay_by_invoice.headline"
+msgstr "Betaal via Factuur"
+
+# --- English text = (Immediate Activation)
+# --- Location: Page 3 of the application process - Payment choices.  Only shows for Agents who have allowed Payment by Invoice AND who have checked the Auto-Activation box in the Pay By Invoice section on thier Payment Settings page.
+msgid "page3.pay_by_invoice.immediate_activation"
+msgstr "(Onmiddellijke Activering)"
+
+# --- English text = Pay by Invoice
+# --- Location: Page 3 of the application process - This is the button text.  Only shows for Agents who have allowed Payment by Invoice on thier Payment Settings page.
+msgid "page3.pay_by_invoice.button_text"
+msgstr "Betaal via Factuur"
+
+# --- English text = An error has occurred
+msgid "page3.errors.undefined"
+msgstr "Er heeft zich een fout voorgedaan"
+
+# --- English text = Thank you for choosing Intervac
+msgid "thanks.headline"
+msgstr "Onze dank dat u voor Intervac kiest."
+
+# --- English text = If you have paid with a credit card, your listing will be activated and you should receive an automatic email in a few minutes giving you more details about how to proceed.
+msgid "thanks.auto_activation"
+msgstr "Indien je betaald hebt met een creditkaart, zal je aankondiging geactiveeerd worden en zal je binnen een paar minuten een automatische email ontvangen met meer details om verder te gaan."
+
+# --- English text = Your listing will be activated by your local organizer as soon as your payment has been received. You will receive a separate confirmation email at that time.
+msgid "thanks.organizer_activation"
+msgstr "Je aankondiging zal door je organisator geactiveerd worden meteen na ontvangst van je betaling of machtiging."
+
+# --- English text = New Members
+msgid "thanks.new_members.headline"
+msgstr "Nieuwe deelnemers"
+
+# --- English text = It is important that you complete your listing as soon as possible. It will not be visible to other members until you have filled in all the necessary information.
+msgid "thanks.new_members.invisible_listing_text"
+msgstr "Het is belangrijk om je aankondiging zo snel mogelijk in te vullen. Pas wanneer je alle nodige informatie hebt ingevuld, zal je aankondiging zichtbaar worden voor andere deelnemers."
+
+# --- English text = If you want to get started right away, you can <link>login here</link>
+msgid "thanks.login"
+msgstr "Indien je meteen wil starten, kun je <link>hier inloggen</link>"
+
+# --- English text = We are always curious to to hear how you have found us. Please take a second to let us know. Thank you!
+msgid "thanks.how_did_you_find_intervac"
+msgstr "Wij zijn steeds benieuwd om te vernemen hoe je ons gevonden hebt. Neem een ogenblik de tijd om het ons te vertellen. Dank je"
+
+# --- English text = How did you hear of us?
+msgid "thanks.how_did_you_find_us_label"
+msgstr "Hoe heb je ons leren kennen?"
+
+# --- English text = Login Now
+msgid "payment_accepted_login_button"
+msgstr "Nu inloggen"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Payment accepted
+msgid "payment_accepted_headline"
+msgstr "Betaling is aanvaard."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Thank you very much. Your payment has been accepted.
+msgid "payment_accepted_text"
+msgstr "Dank je wel. Je betaling werd aanvaard. "
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = is a required field
+msgid "page1.errors.required_field"
+msgstr "Is een verplicht veld"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Your payment has been declined
+msgid "payment_declined_headline"
+msgstr "Je  betaling werd geweigerd"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = For some reason unknown to us, the credit card authorization has been declined for the credit card you entered.  Please contact your local agent for further assistance.
+msgid "payment_declined_text"
+msgstr "Voor ons onbekende redenen werd je creditkaart geweigerd. Neem contact op met je organisator voor verdere assistentie."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Credit Card Authorization Incomplete
+msgid "payment_exception_headline"
+msgstr "Goedkeuring van de creditkaart is onvolledig"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = For some reason, the credit card authorization has returned an exception for the credit card you entered.  It could be that the authorizing server is overloaded or down for the moment. Please contact your local agent for further assistance.
+msgid "payment_exception_text"
+msgstr "Om bepaalde redenen is er een voorbehoud om uw creditkaart goed te keuren. Het zou kunnen dat de server, die moet goedkeuren, overbelast is of momenteel buiten werking. Neem contact op met je organisator voor verdere assistentie"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Cancelled Payment
+msgid "payment_cancelled_headline"
+msgstr "Betaling geannuleerd"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = You have chosen to cancel your credit card payment at this time.
+msgid "payment_cancelled_text"
+msgstr "Je hebt gekozen om je betaling met creditkaart momenteel te annuleren"
+
+# --- English text = Your National Representative in {{country_name}} is:
+# --- Location =
+# (June, 2011)
+msgid "agent_info.headline"
+msgstr "Uw Nationale Organisator in {{country_name}} is:"
+
+# --- English text = Trial Membership
+# --- Location = In the prices box
+# (June, 2011 - New)
+msgid "trial_membership.headline"
+msgstr "Test-Deelname"
+
+# --- English text = FREE
+# --- Location = Price of trial membership
+# (June, 2011 - New)
+msgid "trial_membership.price"
+msgstr "GRATIS"
+
+# --- English text = {{number}} days full membership privileges
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# --- Location = Description of trial membership
+# (October 2011 - not in use)
+msgid "-x- trial_membership.description"
+msgstr "{{number}} dagen volledige deelname met alle mogelijkheden"
+
+# --- English text = Save
+# --- Location = Payment Accepted - How did you hear about intervac?
+# (June, 2011 - New)
+msgid "thanks.how_did_you_find_us_button"
+msgstr "Opslaan"
+
+# --- English text = Thank you for registering a FREE account. Please log-in now and begin building your profile.
+# --- Location =
+# (June, 2011)
+msgid "messages.thanks_free_account"
+msgstr "Onze dank dat u uw GRATIS account heeft aangemaakt. Log nu in en begin met het verder invullen van al uw gegevens."
+
+# --- English text = Renew membership
+# (New: October, 2011)
+msgid "renew_button.text"
+msgstr "Opnieuw Inschrijven"
+
+# --- English text = Sign up with Intervac - Experience the world
+# (New: October, 2011)
+msgid "plans_and_pricing.headline"
+msgstr "Inschrijven voor Intervac - Ervaar de Hele Wereld"
+
+# --- English text = Step 1: Select your country
+# (New: October, 2011)
+msgid "plans_and_pricing.step_1"
+msgstr " Stap 1: Kies uw Land"
+
+# --- English text = Step 2: Chose a price plan
+# (New: October, 2011)
+msgid "plans_and_pricing.step_2"
+msgstr "Stap 2: Maak uw Keuze"
+
+# --- English text = Full membership
+# (New: October, 2011)
+msgid "full_membership.headline"
+msgstr "Volledige Deelname"
+
+# --- English text = Billed annually as one payment of
+# --- The annual price for a membership in your country is shown after this text, so the full sentence reads: "Billed annually as one payment of €110."
+# (New: October, 2011)
+msgid "plans_and_pricing.full_membership.fine_print"
+msgstr "Jaarlijks totaalbedrag in rekening gebracht van"
+
+# --- English text = Fill out your contact details
+# (New: October, 2011)
+msgid "sign_up.contact_details_instruction"
+msgstr "Vul uw contactgegevens in "
+
+# --- English text = You have chosen the following price plan
+# (New: October, 2011)
+msgid "sign_up.chosen_price_plan.headline"
+msgstr "U heeft de volgende keuze gemaakt"
+
+# --- English text = Your trial membership will be valid for {{number}} days.  To be able to enjoy all the benefits of Intervac you need to pay for your membership. You can do that when ever you like by clicking on the button <em>Become A Full Member</em> at the top of the member homepage.
+# (Edited for correctness: January, 2012)
+msgid "sign_up.trial_membership.fine_print"
+msgstr "Uw Test-Deelname zal {{number}} dagen geldig zijn. Om alle mogelijkheden van Intervac te kunnen gebruiken, moet u daarvoor betalen. U kunt dat elk moment doen, door boven aan de Deelnemers-pagina te klikken op de knop <em>Become Full Member</em>."
+
+# --- English text = The annual fee for using Intervac Home Exchange in your region is {{annual_price}}.
+# (New: November, 2011)
+msgid "sign_up.trial_membership.price_for_full"
+msgstr "De jaarlijkse contributie voor Intervac in uw land is {{annual_price}}."
+
+# --- English text = What is included in your membership?
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February 2012)
+msgid "price_comparison.text_headline"
+msgstr "Wat is inbegrepen in Deelname?"
+
+# --- English text = TRIAL {{number}} days
+# --- Location = Price comparison table on the Plans and Pricing page
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (New: February 2012)
+msgid "price_comparison.trial_headline"
+msgstr "TEST {{number}} dagen"
+
+# --- English text = FULL
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.full_headline"
+msgstr "Volledig"
+
+# --- English text = Unlimited access to all listings
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.unlimited_access"
+msgstr "Onbeperkte toegang tot alle aanbiedingen"
+
+# --- English text = Your listing is visible to all members so you can receive proposals
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.visible_listing"
+msgstr "Uw gegevens zijn zichtbaar voor alle deelnemers, dus u kunt aanbiedingen ontvangen"
+
+# --- English text = Your listing posted with photos and free extra text
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.includes_photos_and_text"
+msgstr "Uw gegevens verstuurd met foto's en extra vrije tekst"
+
+# --- English text = Access to member contact information
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.access_to_contact_info"
+msgstr "Toegang tot deelnemer contact informatie"
+
+# --- English text = Save your favorite listings
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.save_favorites"
+msgstr "Bewaar de gegevens van uw uw favoriete deelnemers"
+
+# --- English text = Receive match alerts when listings meet your wishes
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.receive_match_alerts"
+msgstr "Ontvang Match-Alerts als aanbiedingen voldoen aan uw wensen"
+
+# --- English text = Send proposals to individual/multiple members/recipients
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.able_to_send_proposals"
+msgstr "Stuur voorstellen naar individuele/naar meerdere deelenemers"
+
+# --- English text = Personal assistance and service from your local Intervac representative
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.assistance_from_local_organizer"
+msgstr "Persoonlijke assistentie en service van uw lokale Intervac Organisator"
+
+# --- English text = See your personal statistics of the top 5 individual countries whose members have visited your listing, how many times in a day your listing was displayed to other members over the last 21 days.
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.view_listing_statistics"
+msgstr "Bekijk uw persoonlijke statistieken van de verschillende top-5 landen, van waaruit deelnemers uw gegevens hebben bezocht, en hoe vaak per dag uw aanbieding aan andere deelnemers werd getoond gedurende de laatste 21 dagen. "
+
+# --- English text = Notification about new messages
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.new_message_notification"
+msgstr "Mededeling over nieuwe berichten"
+
+# --- English text = Read your messages
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.read_messages"
+msgstr "Lees uw berichten"
+
+# --- English text = Create unlimited exchange agreements
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.create_exchange_agreements"
+msgstr "Leg een onbeperkt aantal ruilafspraken vast "
+
+# --- English text = Free newsletter
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.receive_newsletter"
+msgstr "Free newsletter"
+

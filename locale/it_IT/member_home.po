@@ -1,0 +1,306 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-21 20:25+0100\n"
+"PO-Revision-Date: 2011-09-01 08:43+0100\n"
+"Last-Translator: gaby zanobetti <info@intervac.it>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+##### --- English text = Welcome to Intervac Member's Area
+##### --- (Jan 2009) Not in use
+msgid "-x- headline"
+msgstr "Benvenuto nell'area riservata dei Soci Intervac"
+
+# --- English text = Logged in
+msgid "logged_in_as"
+msgstr "Registrato"
+
+# --- English text = My Dashboard
+msgid "-x- system_messages.headline"
+msgstr " Il mio  Dashboard (tabella di marcia)"
+
+# --- English text = Welcome,
+# --- (Aug 2009) Changed from "My Dashboard" per AGM 2009
+msgid "system_messages.headline"
+msgstr "Diamo il Benvenuto a "
+
+# --- English text = Read Now
+msgid "dashboard.msg_waiting_link"
+msgstr "Leggi adesso"
+
+# --- English text = Read messages from other members
+msgid "dashboard.msg_waiting_title"
+msgstr "Leggi i messaggi degli altri Soci"
+
+# --- English text = You have 1 new message.
+msgid "dashboard.messages_waiting.one"
+msgstr "Lei ha un nuovo messaggio."
+
+# --- English text = You have {{count}} new messages.
+# --- IMPORTANT - The placeholder {{count}} will be automatically replaced with a number.
+# --- PLEASE DO NOT TRANSLATE {{count}}
+msgid "dashboard.messages_waiting.other"
+msgstr "Lei ha  {{count}} nuovi messaggi"
+
+# --- English text =
+# --- IMPORTANT : Some languages have a third case. Please leave this entry blank if your language only requires singular and plural.
+msgid "dashboard.messages_waiting.few"
+msgstr ""
+
+# --- English text = It is necessary to finish your registration before we can process your membership.
+msgid "system_messages.finish_registration"
+msgstr "E' necessario che lei completi la sua registrazione e in seguito attiveremo l' iscrizione "
+
+# --- English text = Next step
+msgid "system_messages.next_step"
+msgstr "Prossimo passo"
+
+# --- English text = Pay for my membership here
+msgid "system_messages.pay_here_link"
+msgstr "Qui le informazioni per pagare l'iscrizione"
+
+# --- English text = Your membership has expired on
+msgid "system_messages.expired_headline"
+msgstr "La sua iscrizione é scaduta il "
+
+# --- English text = Your membership will expire in {{count}} day.
+msgid "system_messages.expiration_warning.one"
+msgstr "La sua iscrizione scadrà fra {{count}} giorno"
+
+# --- English text = Your membership will expire in {{count}} days.
+msgid "system_messages.expiration_warning.other"
+msgstr "La sua iscrizione scadrà fra {{count}} giorni"
+
+# --- English text = Thank you for renewing your expired membership.
+msgid "system_messages.thanks_renew_expired"
+msgstr "Grazie per aver rinnovato la sua iscrizione scaduta"
+
+# --- English text = Thank you for renewing your membership.
+msgid "system_messages.thanks_renew"
+msgstr "Grazie per aver rinnovato la sua iscrizione"
+
+# --- English text =We have notified your organiser, who will complete your renewal shortly after you have paid your next subscription.  Click on the headline above to continue the payment process.
+##### --- (Jan 2009) Not in use
+msgid "-x- We have notified your organiser, who will complete your renewal shortly after you have paid your next subscription.  Click on the headline above to continue the payment process."
+msgstr "Abbiamo avvisato il suo Organizzatore che completerà il suo  rinnovo non appena lei avrà pagato la sua quota di iscrizione"
+
+# --- English text = Thanks for your early renewal! Your current membership is active until
+msgid "system_messages.thanks_early_renewal"
+msgstr "Grazie per aver rinnovato in anticipo la sua iscrizione.L'iscrizione é valida fino al"
+
+# --- English text = Renew here
+# --- Adjusted text for length from "Renew your membership today" to "Renew"
+msgid "system_messages.renew_today"
+msgstr "Rinnovi oggi la sua iscrizione"
+
+# --- English text = Get more offers from other members. Fill out your <link>Destinations Wishlist</link>.
+# --- Location = This text comes in the dashboard when the member has an active membership but an empty Destinations Wishlist.
+msgid "system_messages.destinations_wishlist"
+msgstr "Cercate di avere più offerte dagli altri soci. Compilate la vostra lista delle  <link>Destinazioni Preferite</link>."
+
+# --- SEARCH A SPECIFIC MEMBER ---
+# --- English text = Find a Specific Member
+msgid "member_search_headline"
+msgstr "Cerca questo Socio"
+
+# --- English text = Go!
+msgid "go"
+msgstr "Vai !"
+
+# --- English text = Member ID
+msgid "id"
+msgstr "Numero Identificativo (Login)"
+
+# --- English text = Member Name
+msgid "name"
+msgstr "Nome del Socio"
+
+# --- USEFUL LINKS ---
+# --- Headline Text ---
+# --- English Text = Useful Links
+msgid "useful_links.headline"
+msgstr "Links utili"
+
+##### --- English Text = Exchange Agreement Form (chgd request: Richard - 7Jan08)
+##### --- (Jan 2009) Not in use
+msgid "-x- Exchange Agreement Form"
+msgstr "Agreement Form per lo scambio"
+
+# --- English text = Register Your Next Exchange
+# --- (26 Jan 10) Edited to read: Create an Exchange Agreement.
+msgid "register_exchange.headline"
+msgstr "Registri il suo prossimo scambio.Testo in italiano in Pagine di Utilità su www.intervac.it"
+
+# --- English text = My Exchange Agreements
+msgid "register_exchange.my_agreements"
+msgstr "I miei Agreements per gli scambi"
+
+# --- English text = Review my exchange agreements
+msgid "register_exchange.my_agreements_title"
+msgstr "Rivedi i miei Agreements"
+
+# --- English Text = Register your next home exchange here.
+# => link title is mouseover text
+msgid "register_exchange.text"
+msgstr "Registri qui il suo prossimo scambio"
+
+# --- English Text = Choose Membership
+msgid "change_membership.choose"
+msgstr "Scelga il tipo di iscrizione"
+
+# --- English Text = Your Memberships
+msgid "change_membership.your_memberships"
+msgstr "La sua iscrizione"
+
+# --- English Text = Change your password
+# --- (Mar 2009) Edited for perspective (from "your" to "my").
+# --- New English Text = Change My Password
+msgid "useful_links.change_password"
+msgstr "Cambi la  password"
+
+# --- English Text = It's a good idea to change your password from time to time.
+# => link titles are mouseover text
+msgid "useful_links.change_password_title"
+msgstr "E' una buona cosa cambiare la password di tanto in tanto"
+
+# --- English text = Region Search
+msgid "map_region_search_headline"
+msgstr "Ricerca per Regioni"
+
+# --- English text = Look For An Exchange Partner
+msgid "map_search_headline"
+msgstr "Cerca  un partner per lo scambio"
+
+# --- English text = Click on a region to start a search
+msgid "map_search_text"
+msgstr "Clicchi su una regione per cominciare le ricerche"
+
+# --- English text = New Listings
+##### --- (Jan 2009) Not in use
+msgid "-x- New Listings"
+msgstr "Nuove iscrizioni"
+
+# --- English text = Logged in as
+##### --- (Jan 2009) Not in use
+msgid "-x- Logged in as"
+msgstr "Iscritto come"
+
+# --- Current English text = The travel dates in your listing are in the past.
+# --- English text was: The travel dates in your listing are now in the past. Why not update them now? Otherwise, please change your availablity light to red to indicate that you are not currently seeking an exchange partner.
+# --- (April 2009)  Edited heavily for length!
+msgid "system_messages.obsolete_dates"
+msgstr "Le date di viaggio nella sua iscrizione sono ormai scadute. Perché non aggiornarle adesso? Altrimenti cambiate per favore la vostra disponibilità mettendo il semaforo rosso per indicare che per il momento non state cercando un partner"
+
+# --- English text = Update
+msgid "system_messages.obsolete_dates_link"
+msgstr "da aggiornare"
+
+# --- English text = has left an exchange agreement for you.
+# --- System automatically puts the exchange partner's member id in front of this text
+# --- Example:  DE1111 has left an exchange agreement for you.
+# --- (Mar, 2009)  Changed in case more than one exchange agreement is waiting...
+# --- (Mar, 2009)  New English text =>  An exchange agreement is waiting for you.
+msgid "dashboard.exchange_agreement_waiting"
+msgstr "ha lasciato un Agreement Form per lei"
+
+# --- English text = Welcome back from your exchange with {{partner_name}}. Our system has automatically updated your exchange counter from {{old_exchange_count}} to {{new_exchange_count}}. If you were satisfied with your exchange and your partner, you can act as a reference for them.
+# --- IMPORTANT : Never translate placeholders (example: {{partner_name}})  They will be replaced with information from the database.
+msgid "dashboard.exchange_welcome_back"
+msgstr "Bentornato dal suo scambio con {{partner_name}}. Il nostro sistema ha automaticamente aggiornato il numero dei suoi scambio da {{old_exchange_count}} a  {{new_exchange_count}}. Se lei é stato soddisfatto sia  dello  scambio  sia del  partner , questo può servire di referenza per lui ."
+
+# --- English text = Quick Reverse Search
+msgid "reverse_search.headline"
+msgstr "Ricerca rapida"
+
+# --- English text = Show all the members in
+msgid "reverse_search.show_all_members_text"
+msgstr "Mostra tutti i Soci"
+
+# --- English text = Wanting to exchange with my
+msgid "reverse_search.exchange_with_my"
+msgstr "Che desiderano  scambiare con me"
+
+# --- English text = Your new password has been saved.
+msgid "messages.changed_password_success"
+msgstr "La sua nuova password é stata salvata"
+
+# --- English text = As an OpenID user you cannot change your password here.  You must change do this at your OpenID provider.
+msgid "errors.open_id_user"
+msgstr "Come utente (Open ID) del Sito lei non può cambiare qui la sua password. Deve richiederlo al suo Agente"
+
+# --- English text = This search is available as soon as you have finished filling in your listing details.
+msgid "reverse_search.invisible_listing_error"
+msgstr "Questa ricerca sarà possibile appena lei avrà terminato di inserire tutti i dettagli nella sua iscrizione"
+
+# --- English text = Register your exchange and you are automatically registered to win a free membership!
+# --- (26 Jan 10) Edited to read: By creating an agreement you register your exchange. The badge you are awarded (bronze, silver, gold or platinum) now depends on the exchanges you register. You also become eligible to win a free membership!
+msgid "register_agreement.free_membership"
+msgstr "Creando un Accordo di Scambio (Agreement) lei registra il suo scambio. Il Badge che ne risulta (bronzo, argento, oro o platino) dipende dal numero degli scambi registrati. Lei diventa anche  un possibile vincitore di una iscrizione gratuita"
+
+# --- English text = Begin the process by entering the member id of your exchange partner below.
+msgid "register_agreement.how_to_begin"
+msgstr "Inizi la registrazione inserendo l' ID del suo futuro partener qui sotto"
+
+# --- English text = Click here to begin setting up your home exchange details now.
+msgid "dashboard.new_before_activation"
+msgstr "Clicchi qui per cominciare a inserire  i dettagli del suo scambio"
+
+# --- English text = Your membership is active, but your listing remains invisible until complete. Click here to setup your home exchange details.
+msgid "dashboard.active_but_invisible"
+msgstr "La sua iscrizione é attiva ma rimane invisibile se non é completata. Inserisca per favore i dettagli nella sua iscrizione"
+
+# --- English text = Your national representative is:
+msgid "contact_your_agent.headline"
+msgstr "Il suo Agente nazionale é :"
+
+# --- (Feb 2011) Edited per BD request to read => Contact Us
+msgid "contact_your_agent.contact_link"
+msgstr "Manda una email"
+
+# --- English text = Click here to send your national representative an email
+msgid "contact_your_agent.contact_link_title"
+msgstr "Clicca qui per mandare una mail al tuo Agente nazionale"
+
+# --- English text = how the exchange agreement tracking system works
+msgid "help.exchange_agreements.headline"
+msgstr "Come funziona il sistema dell'Exchange Agreement (Accordo di Scambio)"
+
+# --- English text = Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system.
+msgid "help.exchange_agreements.getting_started"
+msgstr "Nella prospettiva di effettuare uno scambio ciascuna delle due parti inserisce il numero di iscrizione (ID) del partners nel nostro  formulario online  di Accordo di Scambio. Ambedue i formulari vengono salvati nel nostro database"
+
+# --- English text = <highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side.
+msgid "help.exchange_agreements.my_perspective"
+msgstr "<highlight>Ogni formulario viene riempito nell'ottica della prima persona.</highlight> Lei dovrà quindi scrivere le sue personali informazioni e indicare chiaramente quanto chiede in questo scambio. Il suo partner farà la stessa cosa per quanto lo riguarda"
+
+# --- English text = <highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight> 
+msgid "help.exchange_agreements.notification"
+msgstr "<highlight>Il suo partner sarà automaticamente informato  via mail quando lei avrà compilato un accordo di Scambio.</highlight>"
+
+# --- English text = <highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries.
+msgid "help.exchange_agreements.visibility"
+msgstr "<highlight>Lei può vedere e stampare i suoi Accordi di scambio nella sezione I MIEI SCAMBI  nella sua pagina iniziale (Home Page).</highlight>  Per trovare questa sezione  guardi nella colonna grigia a sinistra della sua home opage  e clicchi su LINKS UTILI . Fintanto che il suo partner non avrà completato il suo formulario lei vedrà soltanto il suo ID. In seguito l'ID del partner  diventa un link che le mostrerà il formulario completo. I vostri formulari per l'Agreement saranno visibili soltanto a lei, al suo partner e al Responsabile Intervac del  Paese."
+
+# --- English text = <highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement.
+msgid "help.exchange_agreements.changes_allowed"
+msgstr "<highlight>Lei potrà modificare il suo Accordo di Scambio fino alla data della partenza.</highlight> Per questo consigliamo di parlare a lungo con il partner su tutti i vari punti. Il suo partner sarà sempre informato via email quando lei fa una modifica all'accordo"
+
+# --- English text = Documented Experience Badges
+msgid "help.exchange_agreements.ee_increased_headline"
+msgstr "Badges delle esperienze di scambio documentate"
+
+# --- English text = After your exchange is completed both you and your partner will automatically have an additional registered exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can range from Ready-to-Go (for new members) to Gold (6+ exchanges) and beyond.
+msgid "help.exchange_agreements.ee_increased"
+msgstr "Dopo che il  suo  scambio sarà completato sia lei che il suo partner avrete uno scambio supplementare aggiunto  alle esperienze effettuate e che sarà indicato sulla sua pagina.Le esperienze documentate vanno da  Pronto a Partire (per i nuovi soci) a Oro (6 scambi e oltre)"
+
+# --- English text = Tips and Checklists
+msgid "useful_links.tips_and_checklists"
+msgstr "Suggerimenti e liste di Controllo"
+

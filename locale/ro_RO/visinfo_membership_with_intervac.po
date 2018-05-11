@@ -1,0 +1,245 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Membership with Intervac
+# (June, 2011 - New)
+#, fuzzy
+msgid "page.headline"
+msgstr "Membership with Intervac"
+
+# --- English text = Free Trial Membership
+# (June, 2011 - New)
+#, fuzzy
+msgid "trial_membership.headline"
+msgstr "Free Trial Membership"
+
+# --- English text = Are you new to home exchange?  We believe we have the best home exchangers in our community.  If you'd like to find out for yourself, join us today and choose our trial membership.  You will receive unlimited access to our site for {{number}} days to try out all the features listed below, browse our database and contact our members.  You can upgrade to a full membership any time.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+#, fuzzy
+msgid "trial_membership.text"
+msgstr "Are you new to home exchange?  We believe we have the best home exchangers in our community.  If you'd like to find out for yourself, join us today and choose our trial membership.  You will receive unlimited access to our site for {{number}} days to try out all the features listed below, browse our database and contact our members.  You can upgrade to a full membership any time."
+
+# --- English text = Site Features at Intervac.com
+# (June 2011)
+msgid "site_features.headline"
+msgstr "Serviciile oferite de  Intervac.com"
+
+# --- English text = Your Listing
+# (June 2011)
+msgid "your_listing.headline"
+msgstr "Listarea dvs"
+
+# --- English text = Your online entry allows you to record a great deal of information about your home and surroundings. To get the most from your membership it is essential to promote your home and its area, indicating where you are, how best to be reached and what's on offer. The more information you can give in the form of photos and text, the more it helps other members to decide that your offer is exactly what they are searching.
+# (June 2011)
+msgid "your_listing.text"
+msgstr "Faptul ca ati devenit membru Intervac , va permite sa prezentati in listarea dvs numeroase detalii privind casa dvs si imprejurimile in care se afla. Pentru a obtine cat mai rapid rezultate si a primi cat mai multe oferte de schimb , este esential sa descrieti cat mai amanuntit casa , localitatea , sa indicati modul in care se ajunge cat mai rapid la dvs si care sunt atractiile turistice. Numarul mare de fotografii si informatiile oferite ,vor ajuta membrii Intervac sa se decida rapid si sa-si doreasca se efectueze schimbul cu dvs."
+
+# --- English text = Photos and Descriptive Text
+# (June 2011)
+msgid "text_and_photos.headline"
+msgstr "Fotografii si text descriptiv"
+
+# --- English text = Intervac provides facilities for you to post up to twenty photos and write (unlimited!) descriptive text under the headings: your home, family, lifestyle and neighbourhood. Multi-lingual members often post descriptions in their various languages in order to improve the findability of their listing by keyword searches. It is all quite easy to do, there is lots of help text available on the site, and your local organiser is happy to help if you find you have questions that are not already answered.
+# (June 2011)
+msgid "text_and_photos.text"
+msgstr "Intervac va ajuta sa postati in listarea dvs pana la 20 fotografii si sa scrieti o prezentare (nelimitata) a caminului dvs , a familiei , a stilului dvs de viata si a imprejurimilor in care se afla casa. Unii dintre membrii nostri posteaza descrieri in mai multe limbi a face mai usoara gasirea lor prin folosirea cuvintelor cheie.Procedeele sunt foarte usoare si gasiti pe site-ul nostru multe texte ajutatoare , iar reprezentantul local -Intervac , va sta la dispozitie pentru orice informatii suplimentare."
+
+# --- English text = A Map of Your Surroundings
+# (June 2011)
+msgid "map.headline"
+msgstr "Harta Imprejurimilor casei dvs"
+
+# --- English text = Every listing has an (optional) Google map so that prospective partners can get a good picture of the neighborhood where your home is located.  The marker is not by default placed precisely on your home.  If you like though, you can place it yourself using latitude and longitude.
+# (June 2011)
+msgid "map.text"
+msgstr "Fiecare listare contine (optional) harta Google, pentru ca partenerul dvs sa poata gasi locul in care este situata casa .Indicatorul nu este plasat automat pe locul exact . Daca doriti , il puteti plasa dvs , folosind latitudinea si longitudinea. "
+
+# --- English text = Search Facilities
+# (June 2011)
+msgid "search_facilities.headline"
+msgstr "Facilitati de cautare"
+
+# --- English text = The right combination search facility is important to your ease of finding the perfect partner.  Our online system supports searching by:
+# (June 2011)
+msgid "search_facilities.text"
+msgstr "Sistemul nostru online , va propune cautare dupa urmatoarele criterii :"
+
+# --- English text = Country
+# (June 2011)
+msgid "search_facilities_list.country"
+msgstr "Tara"
+
+# --- English text = Region
+# (June 2011)
+msgid "search_facilities_list.region"
+msgstr "Regiunea"
+
+# --- English text = Exchange dates
+# (June 2011)
+msgid "search_facilities_list.exchange_dates"
+msgstr "Date pentru schimb"
+
+# --- English text = Exchange types
+# (June 2011)
+msgid "search_facilities_list.exchange_types"
+msgstr "Tipuri de schimb"
+
+# --- English text = Keyword (within the extra text in a listing)
+# (June 2011)
+msgid "search_facilities_list.keyword"
+msgstr "Cuvant cheie (din textul descriptiv al listarii)"
+
+# --- English text = Spoken language of exchange partner
+# (June 2011 )
+msgid "search_facilities_list.spoken_language"
+msgstr "Limba vorbita de partenerul de schimb"
+
+# --- English text = Sleeping accommodations
+# (June 2011)
+msgid "search_facilities_list.sleeping_accomodation"
+msgstr "Facilitati pentru  innoptare"
+
+# --- English text = Family - number of adults, with or without kids
+# (June 2011)
+msgid "search_facilities_list.family"
+msgstr "Familie- numarul adultilor , cu sau fara copii"
+
+# --- English text = Twenty-three important detail criteria
+# (June 2011)
+msgid "search_facilities_list.other_details"
+msgstr "23 de criterii pentru aflarea detaliilor importante"
+
+# --- English text = Or, any combination of the above.
+# (June 2011)
+msgid "search_facilities_list.combination"
+msgstr "sau , orice combinatie a celor de mai sus"
+
+# --- English text = Want to make the same search in a week?  No problem, our system allows you to name and save your searches for reuse later.  Keep a search for Paris in the spring and Austria at Christmas time.  The number of searches you can keep is unlimited.
+# -- (Feb 2009) Hi Translators => This feature is not implemented yet, and Jens thinks he won't get to it before we launch the new system.  It is on his list of things to do though, so I've just hidden it on the page.  As soon as Jens has programmed the saved search feature, I'll un-hide this text.
+# -- (June 2011 - Not In Use)
+msgid "-x- search_facilities.named_search"
+msgstr "Doriti sa repetam cautarea peste o saptamana? Nici o problemă, sistemul nostru vă permite să denumiţi şi să salvaţi căutările pentru o reutilizare ulterioară. Păstraţi o căutare pentru Paris, primăvara şi pentru Austria, de Crăciun. Numărul de căutări pe care puteţi să le  păstraţi este nelimitat."
+
+# --- English text = Reverse Search?
+# (June 2011)
+msgid "reverse_search.headline"
+msgstr "Cautare inversa?"
+
+# --- English text = We sure do, and it's the most comprehensive "reverse search" in the industry.  We encourage our members to fill in as many regions and cities as they like (it's unlimited, really!) so that you can find all members who are specifically interested in visiting your country, region or nearest city.  That's service!
+# (June 2011)
+msgid "reverse_search.text"
+msgstr "Totodata , va punem la dispozitie , sistemul  \"cautarii inverse\" . Ii incurajam pe membrii nostri sa completeze cat mai multe regiuni si orase ( nelimitat) pe care ar dori sa le viziteze. Astfel , veti putea gasi membrii care sunt interesati sa viziteze tara , regiunea sau orasul cel mai apropiat de dvs.  "
+
+# --- English text = What types of vacation does Intervac's online system support?
+# (June 2011)
+msgid "exchange_types.headline"
+msgstr "Ce tip de vacante pune la dispozitie  Intervac prin sistemul online?"
+
+# --- English text = Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time.
+# (June 2011)
+msgid "exchange_types_list.home_exchange"
+msgstr "Schimbul de Case: Telul nostru principal- doua familii sunt de acord sa locuiasca fiecare in caminul celeilalte pe o durata determinata ."
+
+# --- English text = House Sitting: Looking after someone else's home, mail, pets while they are away.
+# (June 2011)
+#, fuzzy
+msgid "exchange_types_list.house_sitting"
+msgstr "House Sitting: Looking after someone else's home, mail, pets while they are away."
+
+# --- English text = Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# (June 2011)
+msgid "exchange_types_list.double_exchange"
+msgstr "Schimbul Dublu : Doua familii( de obicei vecine) doresc sa efectueze un schimb de case cu alte doua familii.  Acest tip de schimb este preferat de vecinii care doresc sa-si petreaca vacantele impreuna , sau de familiiile numeroase. "
+
+# --- English text = Hospitality Exchange: Members agree to exchange visits in each other’s homes.
+# (June 2011)
+msgid "exchange_types_list.hospitality_exchange"
+msgstr "Schimbul de Ospitalitate:Membrii nostri decid sa se viziteze si sa-si ofere gazduire pe rand"
+
+# --- English text = Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies.
+# (June 2011)
+msgid "exchange_types_list.long_term_exchange"
+msgstr "Schimburile pe termen lung : intre pensionari , cadre universitare sau angajati de la companii multi-nationale. "
+
+# --- English text = Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# (June 2011)
+msgid "exchange_types_list.bed_and_breakfast"
+msgstr "Pat si Mic dejun : Cunoscuta formula , dar prin care , membrii Intervac isi ofera gazduire  intre ei , gratuit."
+
+# --- English text = Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members.
+# (June 2011)
+msgid "exchange_types_list.rental"
+msgstr "Inchirieri :Unii dintre membrii nostri , inscriu in listarea lor si casele de vacanta pe care doresc sa le inchirieze la un pret foarte scazut celorlati membrii Intervac."
+
+# --- English text = Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# (June 2011)
+msgid "exchange_types_list.youth_exchange"
+msgstr "Schimbul intre Tineri:  Este o buna ocazie pentru tinerii sub 18 ani sa invete mai multe despre alte culturi . Aceste schimburi se pot realiza prin aderarea parintilor la Intervac."
+
+# --- English text = Youth Hospitality: Young people agree to visit each other.
+# (June 2011)
+msgid "exchange_types_list.youth_hospitality"
+msgstr "Ospitalitate intre tineri: Pentru tinerii sub 18 ani care doresc sa fie gazduiti de familiile altor tineri . Schimbul se realizeaza gratuit si doar in cazul in care in cele doua familii exista membrii Intervac"
+
+# --- English text = Integrated Messaging System
+# (June 2011)
+msgid "messages.headline"
+msgstr "Sistemul de Mesajerie Intervac"
+
+# --- English text = Email can get lost or sucked into a spam filter - but a an offer sent through our system is waiting for you when you login.
+msgid "messages.pullquote"
+msgstr "Primirea si trimiterea mesajelor email prin Intervac , este garantata 100%. E-mail-urile dvs beneficiaza de confidentialitate totala.Nu exista nici un risc de spam."
+
+# --- English text = Yes, that's right, we have an integrated messaging system that allows you to contact other members in rich text (with links!) and without ever leaving our system.  You can see that a message has been sent and when it was read.   Offers and answers to your messages be waiting for you to when you login and they are super easy to answer with templates in rich text - click a button.
+# (June 2011)
+msgid "messages.messages_text"
+msgstr "Corespondenta intre membrii Intervac este strict confidentiala ( adresele e-mail sunt protejate si raman invizibile) si garantata de sitemul nostru de mesajerie , care dispune de o tehnologie avansata. Fara sa parasiti site-ul , puteti compune , trimite si primi mesaje cu text nelimitat( si link-uri) . Datorita sistemului nostru de mesajerie , aveti garantia ca mesajele dvs au ajuns la destinatar si ca pot fi citite de catre acesta. Sistemul nostru detecteaza deasemenea orice adresa email gresita."
+
+# --- English text = Write unlimited templates for both sending and answering your messages.  For example: write a "send" template named "France - Spring Next Year" or an "answer" template "No thanks" in which you politely tell an enquiring member that their offer is not what you are looking for at the moment.  There is no limit to the number of templates you can write.  Compose more than one "No thanks" template: one for offers in which you are definitely not interested, and one for ones you might want to come back to at a later date. Or use different "send" templates to plan several holidays at once.
+# (June 2011)
+msgid "messages.templates_text"
+msgstr "Fiecare membru dispune de un spatiu de folosire a mesajeriei personale prin Intervac: sa scrie si sa trimita mesaje , sa citeasca mesajele primite , sa le arhiveze , sa compuna si sa intregistreze un numar nelimitat de mesaje ,pentru  a putea raspunde cererilor ( modele tip- de raspuns) si pentru a trimite propuneri de schimb ( modele tip- de contact ). Exemple tip - de raspuns \" Multumesc pentru propunere\" sau de contact \" Franta- Vara viitoare\""
+
+# --- English text = Member Favorites
+# (June 2011)
+msgid "member_favorites.headline"
+msgstr "Lista favoritilor"
+
+# --- English text = And speaking of coming back to an offer at a later date, that's where your Favorites list can help you keep track of your dream vacations.  With the click of a button, you can add a listing to your favorites.  Write notes in unlimited rich text in the notes section and keep track of your contacts.
+# (June 2011)
+msgid "member_favorites.text"
+msgstr "Intervac va permite sa inregistrati intr-o lista personala , ofertele de schimb pe care le preferati si membrii carora ati dori sa le trimiteti corespondenta. Puteti adauga/ sterge in aceasta lista , toate ofertele pe care le doriti si sa scrieti/ modificati notele personale referitoare la acestea."
+
+# --- English text = Match Alert!
+# (June 2011)
+msgid "match_alert.headline"
+msgstr "Alerta de potrivire!"
+
+# --- English text = Here is a nifty tool designed with the frequent exchanger in mind.  Tell our system what sort of offers interest you, and how frequently you would like to be notified of potential matches and we'll send you an email with up to twenty potential exchange partners.  What is special about that?  The settings you put in your Match Alert profile can be completely different from those in your listing!  So, if you are trying to arrange two exchanges, one for Spring and one at Christmas, set your Christmas date preferences in your Match Alert profile, and we'll let you know about the hot prospects while you advertise in your listing for your Spring holiday dates.
+# (June 2011)
+msgid "match_alert.text"
+msgstr "Profitati de ingeniozitatea Alertelor e-mail pentru a va usura cautarile . Este suficient sa informati sistemul de mesajerie (fara a schimba continutul ofertei dvs) indicand tara pe care o cautati si precizand cat de des doriti sa primiti alertele noastre. De indata ce o oferta corespunde cererii dvs , veti primi un mesaj de alerta , ceea ce va va permite sa trimiteti primul propunerea de schimb. Daca solicitati sa primiti alerte email pentru vacanta de Craciun , trimiteti cererea primavara sau vara, pentru a avea timp sa alegeti schimbul cel  mai convenabil."
+
+# --- English text = Last Minute Listings
+# (June 2011)
+msgid "hotlist.headline"
+msgstr "Lista pentru schimburi rapide- Listari de ultima ora!"
+
+# --- English text = This is a succinct list of members looking for a partner for an exchange within the next eight weeks.  Adding your listing to the Last Minute List is easy as clicking a button.  Your listing will appear on the Last Minute List for four days, after which you can click to add it again if you are still looking.
+# (June 2011)
+msgid "hotlist.text"
+msgstr "Daca nu dispuneti de prea mult timp si doriti sa incheiati un schimb in cel mult opt saptamani , folositi aceasta lista. Printr-un simplu clic , va adaugati oferta la aceasta lista si ea va aparea pe site timp de patru zile. Oferta poate fi reinnoitai de cate ori doriti."
+

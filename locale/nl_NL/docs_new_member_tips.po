@@ -1,0 +1,111 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2012-02-27 12:24+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Tips for New Members
+msgid "page.headline"
+msgstr "Tips for Nieuwe Deelnemers"
+
+# --- English text = If you are an experienced exchanger and have suggestions for improving this text, please send us a web feedback and use the category: Member Documents.
+msgid "page.ee_suggestions"
+msgstr "Als u een ervaren deelnemer bent, en u heeft mogelijk suggesties om deze tekst te verbeteren, stuur ons dan alstublieft een Web feedback bericht daarover en gebruik daarbij de categorie: Member Documents."
+
+# --- English text = Setting Up Your Listing
+msgid "set_up_your_listing.headline"
+msgstr "Uw Aanbieding opzetten en invullen"
+
+# --- English text = As soon as you have completed the registration process you can log-in to your intervac listing and begin setting it up.  It is important to repeat that until you have actually finished filling in your listing, it remains invisible to other members.  So, let's do that...
+msgid "set_up_your_listing.introtext"
+msgstr "Zodra u uw registratie compleet heeft gemaakt, kunt u inloggen naar uw aanbieding en beginnen die in te vullen. Het is belangrijk te herhalen, dat uw aanbieding onzichtbaar blijft voor andere deelnemers, totdat u al uw gegevens in uw aanbieding compleet heeft ingevuld. Dus, laten wij dat nu maar even gaan doen ................."
+
+# --- English text = After you have logged in, on the member home page, in the left-hand column just underneath the orange navigation box you will see a set of links titled \"My Listing\".  Begin by clicking on \"Edit My Listing\"
+msgid "set_up_your_listing.list_go_login"
+msgstr "Nadat u heeft ingelogd op de Deelnemers Homepage, ziet u in de linker kolom juist onder het oranje blok, een aantal navigatie mogelijkheden met titels als \"Mijn Aanbieding\".  Begin door te klikken op \"Wijzig mijn Aanbieding\""
+
+# --- English text = Fill in the form with your desired travel dates, information about your family, your home, and your surroundings.  Don't forget to save your changes by clicking the orange button at the top, or the bottom of the page.
+msgid "set_up_your_listing.list_edit_listing"
+msgstr "Vul het formulier in met je gewenste reisdata, informatie over uw gezin, uw huis, en de omgeving. Vergeet niet om uw veranderingen op te slaan door te klikken op de oranje knop bovenaan de bladzijde, of onderaan de bladzijde."
+
+# --- English text = Your Destinations Wishlist
+msgid "set_up_your_listing.destinations_wishlist_headline"
+msgstr "Lijst met door u Gewenste Bestemmingen"
+
+# --- English text = Using the "My Listing" navigation click on "Destinations Wishlist" to begin to alert other members to your wish to visit their area.  By default "Open for All Countries" is chosen, but you can enter as many countries, regions, and cities as you like.  The more you choose, the better your chances of getting offers from people in those places using the Reverse Search to find potential exchange partners.
+msgid "set_up_your_listing.list_destinations_wishlist"
+msgstr "Gebruik de optie \"Mijn Aanbieding\" en klik op \"Lijst met Gewenste Bestemmingen\" om te beginnen andere deelnemers attent te maken op uw wens om hun omgeving te bezoeken. Als default wordt gekozen \"Open voor Alle Landen\", maar u kunt zoveel landen, landstreken en grote steden invullen als u maar wilt. Hoe meer u er kiest, des te groter uw kansen worden om aanbiedingen te krijgen van mensen vanuit die plaatsen, die gebruik maken van \"Omgekeerd Zoeken\" om mogelijke vakantiepartners te vinden."
+
+# --- English text = Place your Google Marker
+msgid "set_up_your_listing.google_marker_headline"
+msgstr "Plaats uw Google Markeerder"
+
+# --- English text = Using the "My Listing" navigation check the position of your Google Maps marker by clicking on the link "Place Google Marker".  If you are offering a second home, or want to use latitude and longitude to place the marker more exactly there are forms and instructions on this page for doing so.
+msgid "set_up_your_listing.list_gmap_marker"
+msgstr "Onder \"Mijn Aanbieding\" kunt u de positie van uw GoogleMaps-markeerder controleren door te klikken op de link \"Plaats de Google Markeerder\". Als u een 2e-huis aanbiedt, of u wilt gebruikmaken van de breedtegraden en lengtegraden in het systeem om de Markeerder preciezer te plaatsen, zijn er formulieren en instructies op deze pagina om dat te kunnen doen."
+
+# --- English text = Additional Text and Photos
+msgid "set_up_your_listing.text_and_photos_headline"
+msgstr "Aanvullende tekst en Foto's."
+
+# --- English text = Take some time and look at other member's listings.  Then gather together photos of your home, your family and pets, your neighborhood, and your region.  Now you are ready to upload them and to write (unlimited) free text to fill in your listing. You can do both of these things by clicking on "Add Text and Photos" in the "My Listing" navigation.
+msgid "set_up_your_listing.list_additional_text_and_photos"
+msgstr "Neem even wat tijd en bekijk wat aanbiedingen van andere deelnemers. Verzamel dan wat foto's van uw huis, uw gezin en huisdieren, uw buurt en omgeving. Nu bent u klaar om die te kunnen opladen, en ( een onbeperkte hoeveelheid ) vrije tekst te schrijven en in uw aanbieding te aetten. U kunt dit allebei doen door in de optie \"Mijn Aanbieding \" te klikken op \"Voeg Foto's en Tekst toe \"."
+
+# --- English text = Contacting Prospective Partners
+msgid "contact_partners.headline"
+msgstr "Contacten leggen met Mogelijke Vakantiepartners"
+
+# --- English text = Our messaging service allows you to send an inquiry by clicking on the "Send Email" link you will find on every listing.  You will automatically receive a copy of messages that you send through the Intervac online system.
+msgid "contact_partners.how_it_works"
+msgstr "Ons Berichtensysteem stelt u in staat om een bericht te versturen door te klikken op de link \"Verstuur Email\", die je op iedere aanbieding kunt vinden, waarop u bent ingelogd. U ontvangt automatisch een copie van de berichten die u verstuurt via het Intervac online-systeem. "
+
+# --- English text = Logging in to answer your mail has advantages! You can compose unlimited templates for use and re-use when contacting new exchange partners, answering offers from other members, or during the agreement process.
+msgid "contact_partners.about_templates"
+msgstr "Inloggen om uw mail te beantwoorden heeft zijn voordelen! U kunt een onbeperkt aantal concepten maken voor gebruik en her-gebruik voor het contacten leggen met nieuwe vakantiepartners, het beantwoorden van voorstellen van andere deelnemers, of gedurende het proces van het vastleggen van de overeenkomst. "
+
+# --- English text = For each holiday you are planning, compose a contact template introducing you and your family to potential exchange partners.  Include interesting information about your home and neighbourhood, and be sure to include the dates you are available for an exchange.
+msgid "contact_partners.contact_templates"
+msgstr "Maak voor iedere vakantie die u van plan bent te maken, vooraf een concept om uzelf en uw gezin te introduceren bij uw mogelijke vakantiepartners. Geef daarbij ook interessante informatie over uw huis en buurt, geef in ieder geval ook de datums waarbinnen je beschikbaar bent voor een mogelijke ruil. "
+
+# --- English text = Prepare a couple of answer templates for replying easily to offers you receive.  Write one for offers that you are not interested in, and another one for offers that interest you but for dates when you already have an exchange, or are not available.  When you have received a message from another member, you can easily load one of these templates into the response box and edit/personalise the text for that response before sending.
+msgid "contact_partners.answer_templates"
+msgstr "Bereid een aantal antwoord-concepten voor, om vlug te kunnen eageren op aanbiedingen die je ontvangt. Je kunt er een schrijven voor aanbiedingen waarin je niet bent geïnteresseerd, en een andere voor aanbiedingen waarin je wel bent geïnteresseerd maar voor datums waarop je al een afspraak hebt, of in ieder geval niet beschikbaar bent. Zodra je een aanbod krijgt van een andere deelnemer, kun je heel gemakkelijk een van deze concepten in het online antwoord-veld copiëren en de tekst voor dit specifieke bericht even wat aanpassen en/of persoonlijker maken voordat u het verstuurt. "
+
+# --- English text = You could also prepare a contact template for use in the initial agreement phase.  More tips about the Exchange Agreement can be found in the document: Reaching an Agreement.
+msgid "contact_partners.tips_for_exchange_agreement"
+msgstr "U kunt ook een concept-bericht maken als voorbereiding voor de overeenstemmings-fase. Meer tips over de Ruilovereenkomst kan worden gevonden in het document: Het bereiken van Overeenstemming."
+
+# --- English text = Gather Information For Your Exchange Partner
+msgid "gathering_information.headline"
+msgstr "Verzamel informatie voor uw Vakantiepartner"
+
+# --- English text = Visit your local Tourist Office and prepare an information pack with brochures from local museums, theatres and fun parks.  If your town doesn't have a tourist office, sometimes you can find these brochures in the lobby of a local hotel.
+msgid "gathering_information.information_pack"
+msgstr "Bezoek het kantoor van uw lokale VVV en bereid een pakket voor met folders van musea, theaters, en pretparken in de buurt. Als uw woonplaats geen VVV-kantoor heeft, kun je dit soort informatiefolders kaarten vaak vinden in de lobby van een lokaal hotel. "
+
+# --- English text = Take some time to think about your community from a visitor's point of view.  Where is the local charm?  Collect a list of local restaurants, with information about the food and service. Add to that a list of grocery stores, and shopping centers.   One of the joys of home exchange is frequenting places that the locals do.
+msgid "gathering_information.local_charm"
+msgstr "Neem even wat tijd om na te denken over uw omgeving vanuit het oogpunt van een bezoeker. Wat maakt uw woonplaats aantrekkelijk? Leg een lijst aan met lokale restaurants, met informatie over hun maaltijden en de service. Voeg er ook een lijst aan toe met winkelcentra, supermarkten en andere winkels. Een van de voordelen van woningruil is het regelmatig bezoeken brengen aan plaatsen die door de lokale bevolking ook worden bezocht. "
+
+# --- English text = Consider your home from your guest's point of view.  Are there simple improvements that could make it more comfortable?  Is everything in working order?
+msgid "gathering_information.consider_your_home"
+msgstr "Bekijk uw huis vanuit het oogpunt van uw gast. Zijn er simpele verbeteringen mogelijk, die het gerieflijker zouden kunnen maken? Werkt alles goed en verder ook in orde?"
+
+# --- English text = Contact your insurance companies for household insurance and for your car (if you are swapping cars) to make sure everything is adequately covered.
+msgid "gathering_information.insurance"
+msgstr "Neem eventueel contact op met uw inboedelverzekering en uw autoverzekering ( als u ook de auto's uitruilt ) om er zeker van te zijn, dat alles goed is gedekt."
+
+# --- English text = Browse the internet and bookmark the homepage of your local cinema so your guests can find out what is playing during their visit.
+msgid "gathering_information.cinema"
+msgstr "Zoek op het Internet en bookmark de homepage ( of schrijf het even op ) van de plaatselijke bioscoop, zodat uw gasten ook kunnen vinden wat er zoal draait tijdens hun bezoek. "
+

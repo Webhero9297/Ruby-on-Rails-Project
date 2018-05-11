@@ -1,0 +1,853 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 19:43+0100\n"
+"PO-Revision-Date: 2012-02-06 16:18-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Banner ---
+# --- English text = International Home Exchange Holiday Service
+# => this is hidden text for accessability
+# (June 2011 - Firefox Tab Text)
+msgid "banner.intervac"
+msgstr "Intervac - Home Exchange Holiday Service"
+
+# --- English text = Skip Navigation
+# => this is hidden text
+msgid "banner.skip_navigation"
+msgstr "Skip Navigation"
+
+# --- English text = Skip to Content
+msgid "banner.skip_to_content"
+msgstr "Skip to Content"
+
+# --- Public Navigation ---
+# --- English text = Start
+# --- (June 2011)
+msgid "public_navigation.home"
+msgstr "Hem"
+
+# --- English text = Go to the member home page
+# => link title is mouseover text
+# (June 2011)
+msgid "public_navigation.home_title"
+msgstr "Till hemsidan"
+
+# --- Public Navigation ---
+# SEO --- Your SEO text (Aug, 2010) = Semesterbyte
+# --- Please coordinate all changes to this text with Nancy.
+msgid "public_navigation.secondary_home"
+msgstr "Semesterbyte"
+
+# --- English text = Go to the member home page
+# => link title is mouseover text
+msgid "public_navigation.secondary_home_title"
+msgstr "Till hemsidan"
+
+# --- Public Navigation ---
+# --- English text = Become a Member
+msgid "public_navigation.become_a_member"
+msgstr "Bli medlem"
+
+# --- English text = Apply for membership
+# => link title is mouseover text
+# (June 2011)
+msgid "public_navigation.join_link_title"
+msgstr "Ansök om medlemskap"
+
+# --- Public Navigation ---
+# --- English text = Testimonials
+msgid "public_navigation.testimonials"
+msgstr "Medlemmar berättar"
+
+# --- English text = Read what people are saying
+# => link title is mouseover text
+msgid "public_navigation.testimonials_title"
+msgstr "Läs vad medlemmar skriver"
+
+# --- Public Navigation ---
+# --- English text = Last Minute Listings
+# --- 12/08 Changed to: Last Minute Exchanges
+msgid "public_navigation.last_minute_exchanges"
+msgstr "Sista minuten, "
+
+# --- English text = Look here for a last minute exchange
+# => link title is mouseover text
+msgid "public_navigation.last_minute_exchanges_title"
+msgstr "Byten aktuella just nu, sista minuten"
+
+# --- English text = Read our frequently asked questions
+# => link title is mouseover text
+msgid "public_navigation.faq_title"
+msgstr "vanliga frågor"
+
+# --- Public Navigation ---
+# --- English text = Contacts
+# --- (Jan 2011)
+msgid "public_navigation.contacts"
+msgstr "Intervac i Världen"
+
+# --- English text = A list of national agents
+# => link title is mouseover text
+msgid "public_navigation.contacts_title"
+msgstr "Intervac agentewr i världen"
+
+# --- Member Navigation ---
+# --- English text = Member Home
+msgid "member_navigation.home"
+msgstr "För medlemmar"
+
+# --- English text = Go to the member home page
+# => link title is mouseover text
+msgid "member_navigation.home_title"
+msgstr "Till din medlems profil"
+
+# --- English text = Member Messages
+msgid "member_navigation.member_messages"
+msgstr "Member Messages"
+
+# --- English text = Member Messages
+msgid "member_navigation.member_messages_title"
+msgstr "Send or Receive a Message"
+
+# --- Member Navigation ---
+# --- English text = Member Favorites
+msgid "member_navigation.my_favorites"
+msgstr "Mina favoriter"
+
+# --- English text = My favorite listings
+# => link title is mouseover text
+msgid "member_navigation.my_favorites_title"
+msgstr "Sparade medlemmar, ev bytes objekt"
+
+# --- Member Navigation ---
+# --- English text = What's New
+msgid "member_navigation.whats_new"
+msgstr "Nytt!"
+
+# --- English text = New and amended listings
+# => link title is mouseover text
+msgid "member_navigation.whats_new_title"
+msgstr "Nya och uppdaterade medlemmar!"
+
+# --- Member Navigation ---
+# --- English text = Match-Alert!
+msgid "member_navigation.match_alert"
+msgstr "Automatisk matchning"
+
+# --- English text = Match-Alert! Get an email from us
+# => link title is mouseover text
+msgid "member_navigation.match_alert_title"
+msgstr "Match-Alert! Få en Email när nya medlemmar tillkommer!"
+
+# --- Member Navigation ---
+# --- English text = My Statistics
+msgid "member_navigation.statistics"
+msgstr "My Statistics"
+
+# --- English text = Listings statistics for the past 14 days
+# => link title is mouseover text
+msgid "member_navigation.statistics_title"
+msgstr "Medlemmar från de senaste 14 dagarna"
+
+# --- Member Navigation ---
+# --- English text = Logout
+# (June 2011)
+msgid "member_navigation.logout"
+msgstr "Logga ut"
+
+# --- English text = Bye bye. Come back soon!
+# => link title is mouseover text
+msgid "member_navigation.logout_title"
+msgstr "Hej då! Välkommen åter."
+
+# --- Member Listing Navigation ---
+# --- Headline Text
+# --- English text = My Listing
+msgid "my_listing.headline"
+msgstr "Mina uppgifter"
+
+# --- English text = View My Listing
+msgid "my_listing.view_listing"
+msgstr "Se mina uppgifter"
+
+# --- English text = Test our database
+msgid "public_navigation.test_database"
+msgstr "Sök som gäst i vår databas"
+
+# --- English text = Test our database
+msgid "public_navigation.test_database_title"
+msgstr "Look for an exchange partner before you join"
+
+# --- English text = Search
+msgid "member_navigation.search"
+msgstr "Sök"
+
+# --- English text = Search across countries for an exchange partner
+msgid "member_navigation.search_title"
+msgstr "Search across countries for an exchange partner"
+
+# --- English text = See your listing exactly as other members do complete with details and extra text/photos.
+# => link title is mouseover text
+msgid "my_listing.view_listing_title"
+msgstr "Se alla uppgifter med text och foton"
+
+# --- English text = Edit Listing Details
+# --- 12/08 Change to: Change My Listing
+msgid "my_listing.change_listing"
+msgstr "Ändra Era uppgifter"
+
+# --- English text = Edit your home and family specifics.
+# => link title is mouseover text
+msgid "my_listing.change_listing_title"
+msgstr "Ändra uppgifterna om Ert objekt "
+
+# --- English text = Destinations Wishlist
+msgid "my_listing.holiday_destinations"
+msgstr "Destinations Wishlist"
+
+# --- English text = Tell members who live in your desired destinations that you are interested in an exchange.
+# => link title is mouseover text
+msgid "my_listing.holiday_destinations_title"
+msgstr "Tell members who live in your desired destinations that you are interested in an exchange."
+
+# --- English text = Upload Primary Photo
+msgid "my_listing.upload_photo"
+msgstr "Ladda upp Ert huvudfoto"
+
+# --- English text = This photo is the main (large) photo in your listing.
+# => link title is mouseover text
+msgid "my_listing.upload_photo_title"
+msgstr "Detta foto kommer att vara Ert huvudfoto"
+
+# --- English text = Add Photos &amp; Text
+# --- Note: " &amp; " stands for '&'
+msgid "my_listing.additional_text_and_photos"
+msgstr "Ändra text och foto"
+
+# --- English text = Add text and up to 20 additional photos to your listing.
+# => link title is mouseover text
+msgid "my_listing.additional_text_and_photos_title"
+msgstr "Lägg till text och upp till 20 foton"
+
+# --- English text = Edit Google Map
+msgid "my_listing.place_google_marker"
+msgstr "Märk  ut med en Google Marker"
+
+# --- English text = Enter 2nd home address or latitude and longitude.
+msgid "my_listing.place_google_marker_title"
+msgstr "Adressen till ert fritidshus/ andra hem eller ange longitud och latitud."
+
+##### --- EXCHANGE AGREEMENT BOX ---
+##### --- English Text = Exchange Agreement
+##### IMPORTANT: don't delete the span tags around the word "Agreement" - these make your headline pretty...
+msgid "Exchange <span class=\"green\">Agreement</span>"
+msgstr "Exchange <span class=\"green\">Bytes formulär</span>"
+
+##### --- English Text = Register here
+msgid "Register here"
+msgstr "Regitrera här"
+
+# --- FOOTER TEXT ---
+# --- English Text = Site Map
+msgid "footer.sitemap"
+msgstr "Site Map"
+
+# --- English Text = Our site map
+# => link titles are mouseover text
+msgid "footer.sitemap_title"
+msgstr "Our site map"
+
+# --- FOOTER TEXT ---
+# --- English Text = Terms of Use
+# (June 2011)
+msgid "footer.terms_of_use"
+msgstr "Användar villkor"
+
+# --- FOOTER TEXT ---
+# --- English Text = Terms of Use
+# (June 2011)
+#, fuzzy
+msgid "footer.terms_of_use_title"
+msgstr "Terms and Conditions"
+
+# --- FOOTER TEXT ---
+# --- English Text = Privacy Policy
+# NOT IN USE ON APPLICATION => application.po
+# (June 2011)
+msgid "footer.privacy_policy"
+msgstr "Privacy Policy"
+
+# --- FOOTER TEXT ---
+# --- English Text = Read our Privacy Policy
+# NOT IN USE ON THE APPLICATION => application.po
+# (June 2011)
+msgid "footer.privacy_policy_title"
+msgstr "Read our Privacy Policy"
+
+# --- Visitors Tour ---
+# --- English text = More Visitors Tour
+#, fuzzy
+msgid "visitor_navigation.more_visitors_tour"
+msgstr "More Visitors Tour"
+
+# --- Visitors Tour ---
+# --- English text = Lifestyle
+msgid "visitor_navigation.lifestyle"
+msgstr "An International Lifestyle"
+
+# --- Visitors Tour ---
+# --- English text = Read about the international lifestyle our members enjoy
+#, fuzzy
+msgid "visitor_navigation.lifestyle_title"
+msgstr "Read about the international lifestyle our members enjoy"
+
+# --- Visitors Tour ---
+# --- English text = Why Exchange Homes?
+#, fuzzy
+msgid "visitor_navigation.why_exchange"
+msgstr "Why Exchange Homes?"
+
+# --- Visitors Tour ---
+# --- English text = More reasons to exchange homes
+#, fuzzy
+msgid "visitor_navigation.why_exchange_title"
+msgstr "More reasons to exchange homes"
+
+# --- Visitors Tour ---
+# --- English text = Why Join Intervac
+#, fuzzy
+msgid "visitor_navigation.why_intervac"
+msgstr "Why Join Intervac"
+
+# --- Visitors Tour ---
+# --- English text = Why you should choose Intervac over other home exchange services.
+#, fuzzy
+msgid "visitor_navigation.why_intervac_title"
+msgstr "Why you should choose Intervac over other home exchange services."
+
+# --- Visitors Tour ---
+# --- English text = Our Site Features
+#, fuzzy
+msgid "visitor_navigation.site_features"
+msgstr "Our Site Features"
+
+# --- Visitors Tour ---
+# --- English text = Features on our site help you find a home exchange
+#, fuzzy
+msgid "visitor_navigation.site_features_title"
+msgstr "Features on our site help you find a home exchange"
+
+# --- Visitors Tour ---
+# --- English text = Prepare for Guests
+#, fuzzy
+msgid "visitor_navigation.guests"
+msgstr "Prepare for Guests"
+
+# --- Visitors Tour ---
+# --- English text = You found a partner! Prepare for guests...
+#, fuzzy
+msgid "visitor_navigation.guests_title"
+msgstr "You found a partner! Prepare for guests..."
+
+# --- Visitors Tour ---
+# --- English text = What are the costs involved in exchanging homes?
+#, fuzzy
+msgid "visitor_navigation.prices"
+msgstr "What Are The Costs Involved"
+
+# --- Visitors Tour ---
+# --- English text = What are the costs involved in exchanging homes?
+#, fuzzy
+msgid "visitor_navigation.prices_title"
+msgstr "What are the costs involved in exchanging homes?"
+
+# --- Visitors Tour ---
+# --- English text = About Intervac
+# --- (June 2011) - Remove the word "International"
+msgid "public_navigation.about_us"
+msgstr "About Intervac"
+
+# --- Visitors Tour ---
+# --- English text = Read about our members and our organisation
+# (June 2011)
+msgid "public_navigation.about_us_title"
+msgstr "Read about our members and our organisation"
+
+# --- Visitors Tour ---
+# --- English text = Frequently Asked Questions
+#, fuzzy
+msgid "visitor_navigation.faq"
+msgstr "Frequently Asked Questions"
+
+# --- Visitors Tour ---
+# --- English text = Frequently Asked Questions about home exchange
+# (June 2011)
+msgid "public_navigation.what_is_home_exchange_title"
+msgstr "Frequently Asked Questions about home exchange"
+
+# --- Cross Links ---
+# --- English text = Send a message
+#, fuzzy
+msgid "crosslinks.send_message"
+msgstr "Send a message"
+
+# --- Cross Links ---
+# --- English text = Reply to message
+#, fuzzy
+msgid "crosslinks.reply_message"
+msgstr "Reply to message"
+
+# --- Cross Links ---
+# --- English text = Click here to send a message to this member
+#, fuzzy
+msgid "crosslinks.send_message_alt"
+msgstr "Click here to send a message to this member"
+
+# --- Cross Links ---
+# --- English Text = Back to Search
+msgid "crosslinks.back_to_search"
+msgstr "Tillbaka till söka"
+
+# --- Cross Links ---
+# --- English Text = Go back to the search page
+# => link titles are mouseover text
+msgid "crosslinks.back_to_search_title"
+msgstr "Tillbaka till sök sidan."
+
+# --- Cross Links ---
+# --- English Text = Search Results
+msgid "crosslinks.search_results"
+msgstr "Sök resultat"
+
+# --- Cross Links ---
+# --- English Text = Go back to the search results page
+# => link titles are mouseover text
+msgid "crosslinks.search_results_title"
+msgstr "Tillbaka till sök resultat"
+
+# --- Cross Links ---
+# --- English Text = Go back
+msgid "crosslinks.go_back"
+msgstr "Tillbaka"
+
+# --- Cross Links ---
+# --- English Text = Go back to the page before this one
+#, fuzzy
+msgid "crosslinks.alt_go_back"
+msgstr "Go back to the page before this one"
+
+# --- Cross Links ---
+# --- English Text = Print this Page
+msgid "crosslinks.print_page"
+msgstr "Skriv ut sidan"
+
+# --- Cross Links ---
+# --- English Text = New Search
+msgid "crosslinks.new_search"
+msgstr "Ny sökning"
+
+# --- Cross Links ---
+# --- English Text = Begin a new search
+msgid "crosslinks.new_search_title"
+msgstr "Begin a new search"
+
+# --- Cross Links ---
+# --- English Text = Add Favorite
+# (June 2011 - Edited to make shorter)
+#, fuzzy
+msgid "crosslinks.add_to_favorites"
+msgstr "Lägg till mina favoriter"
+
+# --- Cross Links ---
+# --- English Text = Add a link to this listing on My Favorites page
+# => link titles are mouseover text
+msgid "crosslinks.add_to_favorites_title"
+msgstr "Lägg en länk till denna medlem i mina favoriter"
+
+# --- Help Links ---
+# --- English text = If your google map is not displaying properly, or if you are offering your second home for exchange, you can easily change the placement of the marker.  Follow the link below, and you will find easy instructions and tools to help you place the marker as precisely as you wish.
+#, fuzzy
+msgid "helplinks.goto_place_google_marker"
+msgstr "If your google map is not displaying properly, or if you are offering your second home for exchange, you can easily change the placement of the marker.  Follow the link below, and you will find easy instructions and tools to help you place the marker as precisely as you wish."
+
+# --- LANGUAGE SWITCHER ---
+# --- English text = Choose Language
+# --- (June 2011) Added "Choose" to make text more active.
+#, fuzzy
+msgid "crosslinks.choose_language"
+msgstr "Språk"
+
+# --- English text = Tip
+msgid "labels.tip"
+msgstr "Tip"
+
+# --- English text = My Primary Photo
+#, fuzzy
+msgid "labels.primary_photo"
+msgstr "My Primary Photo"
+
+# --- English text = Austrian flag
+# => alternate text for images are hidden text
+msgid "flag.at"
+msgstr "Österrikes flagga"
+
+# --- English text = Danish flag
+# => alternate text for images are hidden text
+msgid "flag.dk"
+msgstr "Dansk flagga"
+
+# --- English text = Finnish flag
+# => alternate text for images are hidden text
+msgid "flag.fi"
+msgstr "Finsk fallag"
+
+# --- English text = French flag
+# => alternate text for images are hidden text
+msgid "flag.fr"
+msgstr "Fransk flagga"
+
+# --- English text = German flag
+# => alternate text for images are hidden text
+msgid "flag.de"
+msgstr "Tysklands flagga"
+
+# --- English text = British flag
+# => alternate text for images are hidden text
+msgid "flag.gb"
+msgstr "Storbritanniens flagga"
+
+# --- English text = Greek flag
+# => alternate text for images are hidden text
+msgid "flag.gr"
+msgstr "Greklands flagga"
+
+# --- English text = Italian flag
+# => alternate text for images are hidden text
+msgid "flag.it"
+msgstr "Italiens flagga"
+
+# --- English text = Flag of Iceland
+# => alternate text for images are hidden text
+msgid "flag.is"
+msgstr "Islands flagga"
+
+# --- English text = Japanese flag
+# => alternate text for images are hidden text
+msgid "flag.jp"
+msgstr "Japans flagga"
+
+# --- English text = Netherlands flag
+# => alternate text for images are hidden text
+msgid "flag.nl"
+msgstr "Nederländernas flagga"
+
+# --- English text = Norwegian flag
+# => alternate text for images are hidden text
+msgid "flag.no"
+msgstr "Norska flagga"
+
+# --- English text = Polish flag
+# => alternate text for images are hidden text
+msgid "flag.pl"
+msgstr "Polens flagga"
+
+# --- English text = Polish flag
+# => alternate text for images are hidden text
+msgid "flag.pt"
+msgstr "Portugals flagga"
+
+# --- English text = Spanish flag
+# => alternate text for images are hidden text
+msgid "flag.es"
+msgstr "Spaniens flagga"
+
+# --- English text = Swedish flag
+# => alternate text for images are hidden text
+msgid "flag.se"
+msgstr "Sveriges flagga"
+
+# --- English text = Blog
+# --- Location = Main navigation
+# (June 2011)
+#, fuzzy
+msgid "public_navigation.blog"
+msgstr "Blog"
+
+# --- English text = Read our blog and tell us what you think.
+# --- Location = mouseover the "Blog" link in the main navigation
+# (June 2011)
+#, fuzzy
+msgid "public_navigation.blog_title"
+msgstr "Read our blog and tell us what you think."
+
+# --- English text = LIFESTYLE
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.lifestyle"
+msgstr "LIFESTYLE"
+
+# --- English text = WHY EXCHANGE
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.why_exchange"
+msgstr "WHY EXCHANGE"
+
+# --- English text = WHY INTERVAC
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.why_intervac"
+msgstr "WHY INTERVAC"
+
+# --- English text = SITE FEATURES
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.site_features"
+msgstr "SITE FEATURES"
+
+# --- English text = ABOUT OUR MEMBERS
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.about_our_members"
+msgstr "ABOUT OUR MEMBERS"
+
+# --- English text = TESTIMONIALS
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.testimonials"
+msgstr "TESTIMONIALS"
+
+# --- English text = "LAST MINUTE HOLIDAYS
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.last_minute_holidays"
+msgstr "LAST MINUTE HOLIDAYS"
+
+# --- English text = VISITORS TOUR
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.visitors_tour"
+msgstr "VISITORS TOUR"
+
+# --- English text = MEMBERS
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.members"
+msgstr "MEMBERS"
+
+# --- English text = Member Login
+# --- Location = Top of homepage
+# (June 2011)
+#, fuzzy
+msgid "header.login"
+msgstr "Member Login"
+
+# --- English text = Member Home
+# --- Location = Top of homepage
+# (June, 2011)
+#, fuzzy
+msgid "header.logged_in.dashboard"
+msgstr "Member Home"
+
+# --- English text = RULES OF INTERVAC
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.rules_of_intervac"
+msgstr "RULES OF INTERVAC"
+
+# --- English text = PRIVACY
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.privacy"
+msgstr "PRIVACY"
+
+# --- English text = FAQS
+# --- (Jan 2010) Changed to Uppercase Letters
+#, fuzzy
+msgid "main_navigation.faq"
+msgstr "FAQS"
+
+# --- GREEN START TODAY BOX ---
+# --- English text = Start Today
+#, fuzzy
+msgid "visitors_tour.start_today"
+msgstr "Start Today"
+
+# --- English text = Apply for membership
+#, fuzzy
+msgid "visitors_tour.apply_for_membership"
+msgstr "Apply for membership"
+
+# --- English text = apply here
+#, fuzzy
+msgid "visitors_tour.apply_here"
+msgstr "apply here"
+
+# --- English text = Sign Up with Intervac
+# --- Location = Header of the Homepage
+# (June 2011 - New)
+#, fuzzy
+msgid "header.sign_up_with_intervac"
+msgstr "Sign Up with Intervac"
+
+# --- Public Navigation ---
+# --- English text = Listings
+# --- Location = Horizontal navigation in the public area
+# --- (June 2011)
+#, fuzzy
+msgid "public_navigation.listings"
+msgstr "Listings"
+
+# --- Public Navigation ---
+# --- English text = Look through our listings
+# --- Location = Horizontal navigation in the public area
+# (June 2011)
+#, fuzzy
+msgid "public_navigation.listings_title"
+msgstr "Look through our listings"
+
+# --- Public Navigation ---
+# --- English text = What is Home Exchange
+# --- Location = Horizontal navigation in the public area
+# (June 2011)
+#, fuzzy
+msgid "public_navigation.what_is_home_exchange"
+msgstr "What is Home Exchange"
+
+# --- English text = Start page
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+#, fuzzy
+msgid "footer.start_page"
+msgstr "Start page"
+
+# --- English text = Listings
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+#, fuzzy
+msgid "footer.listings"
+msgstr "Listings"
+
+# --- English text = What is home exchange?
+# --- Location = Footer - Please use correct upper and lower case lettering and punctuation.
+# (June 2011)
+#, fuzzy
+msgid "footer.what_is_home_exchange"
+msgstr "What is home exchange?"
+
+# --- English text = About Intervac
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+#, fuzzy
+msgid "footer.about_intervac"
+msgstr "About Intervac"
+
+# --- English text = The Intervac Blog
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+#, fuzzy
+msgid "footer.intervac_blog"
+msgstr "The Intervac Blog"
+
+# --- English text = Get our newsletter
+# --- Location =
+# (June, 2011)
+#, fuzzy
+msgid "footer.newsletter"
+msgstr "Get our newsletter"
+
+# --- English text = Sign up with Intervac
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+#, fuzzy
+msgid "footer.join_text"
+msgstr "Sign up with Intervac"
+
+# --- English text = Contact information
+# --- Location = Footer Headline
+# (June 2011)
+#, fuzzy
+msgid "footer.contact_headline"
+msgstr "Contact information"
+
+# --- English text = Legal information
+# --- Location = Footer headline
+# (June 2011)
+#, fuzzy
+msgid "footer.legal_headline"
+msgstr "Legal information"
+
+# --- English text = Member Finder
+# --- Location = Header, next to Member Login
+# (MOVED TO listings.po - February 2012)
+msgid "-x- header.member_id_search.headline"
+msgstr "Member Finder"
+
+# --- English text = Member Finder
+# --- Location = Header, next to Member Login
+# (MOVED TO listings.po - February 2012)
+msgid "-x- header.member_id_search.placeholder"
+msgstr "Enter Member ID"
+
+# --- English text = Could not find member
+# --- Location =
+# (MOVED TO listings.po - February 2012)
+msgid "-x- header.member_id_search.error"
+msgstr "Could not find member"
+
+# --- English text = Plans & Pricing
+# --- Location = Top of the page in the masthead
+# (New: October, 2011)
+#, fuzzy
+msgid "header.plans_and_pricing"
+msgstr "Plans & Pricing"
+
+# --- English text = site overview
+# --- Location = Main navigation bar
+# (New: October, 2011)
+#, fuzzy
+msgid "public_navigation.home_subtext"
+msgstr "site overview"
+
+# --- English text = Find your next holiday
+# --- Location = Main navigation bar
+# (New: October, 2011)
+#, fuzzy
+msgid "public_navigation.listings_subtext"
+msgstr "Find your next holiday"
+
+# --- English text = Home Exchange
+# --- Location = Main navigation bar
+# (New: October, 2011)
+#, fuzzy
+msgid "public_navigation.home_exchange"
+msgstr "Home Exchange"
+
+# --- English text = Learn all about it!
+# --- Location = Main navigation bar
+# (New: October, 2011)
+#, fuzzy
+msgid "public_navigation.home_exchange_subtext"
+msgstr "Learn all about it!"
+
+# --- English text = Home exchange at its best
+# --- Location = Main navigation bar
+# (New: October, 2011)
+#, fuzzy
+msgid "public_navigation.about_us_subtext"
+msgstr "Home exchange at its best"
+
+# --- English text = National Representatives
+# --- Location = Main navigation bar
+# (New: October, 2011)
+#, fuzzy
+msgid "public_navigation.contacts_subtext"
+msgstr "National Representatives"
+

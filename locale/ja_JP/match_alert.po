@@ -1,0 +1,173 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-01-19 19:43+0100\n"
+"PO-Revision-Date: 2011-11-22 23:46+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Match Alert - For Busy Exchangers!
+msgid "headline"
+msgstr "マッチ・アラート　－　多忙なエクスチェンジャーのために！"
+
+# --- English text = You decide what is right for you!
+msgid "slogan"
+msgstr "あなたにとって何が正しいのかを決める！"
+
+# --- English text = We will send you a up to ten emails in total at the frequency you choose. Each email will contain up to twenty new and/or recently changed listings which correspond closely to the settings you select below.
+# --- (Jan, 2009)  Edited text... please compare.
+msgid "intro_text"
+msgstr "マッチ・アラート・メールはあなたが選んだ回数で全部で１０通です。各メールは２０通の新しいものと、（又は）リスティングで変更された回数です。それらはあなたが下で選択したセッティングに近いものでしょう。"
+
+# --- English text = Match alert emails left in this round
+msgid "number_left_to_send"
+msgstr "このセットに残っているマッチ・アラート・メール数"
+
+# --- English text = Save My Settings
+msgid "save_button"
+msgstr "マイ・セッティングの保存"
+
+# --- English text = Mail Settings
+msgid "mail_settings.headline"
+msgstr "メールのセッティング"
+
+# --- English text = Frequency
+msgid "mail_settings.frequency"
+msgstr "頻度"
+
+# --- English text = Content
+msgid "content.headline"
+msgstr "内容"
+
+# --- English text = Match Settings
+msgid "settings.headline"
+msgstr "マッチ・セッティング"
+
+# --- English text = Destinations
+msgid "settings.destinations"
+msgstr "目的地"
+
+# --- English text = Destinations Available
+msgid "settings.destinations_available"
+msgstr "可能な目的地"
+
+# --- English text = Destinations Chosen
+msgid "settings.destinations_chosen"
+msgstr "選択された目的地"
+
+# --- English text = You can save any number of destinations in this section by clicking on the orange boxes to add desired destinations at (1) country level OR (2) country-region level OR (3) country-region-city level.
+# --- Location = Introductory text found underneath the headline "Destinations Wishlist"
+msgid "destinations.introtext"
+msgstr "このセクションでは希望する行き先はいくつでも保存できます。まずオレンジボックスをクリックして希望行き先を（１）国名レベル、（２）地域レベル、（３）国名ー地域ー市のレベルと加えていきます。"
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "その他"
+
+# --- English text = Email language
+msgid "mail_settings.language"
+msgstr "メールでの使用言語"
+
+# --- English text = Include only new listings
+msgid "content.only_new"
+msgstr "新しいリストのみを含む"
+
+# --- English text = Send both new and changed listings
+msgid "content.new_and_changed"
+msgstr "新しいのと変更されたリストの両方を送る"
+
+# --- English text = None of the adjustments you make to these categories will change your profile.  They are used only for Match Alert!
+msgid "no_change_to_profile"
+msgstr "このカテゴリーであなたが調整した項目は、あなたのプロファイルでは変更されていません。3月のアラートで使われるだけです！"
+
+# --- English text = Minimum number of adults
+msgid "settings.minimum_adults"
+msgstr "大人の最小数"
+
+# --- English text = with children
+msgid "settings.with_children"
+msgstr "子供達"
+
+# --- English text = without children
+msgid "settings.without_children"
+msgstr "子供はなし"
+
+# --- English text = with or without children
+msgid "settings.with_or_without_children"
+msgstr "子供連れ、または子供無し"
+
+# --- This label is hidden text.
+# --- English text = Children
+msgid "settings.children"
+msgstr "子供達"
+
+# --- English text = Success!  Your MatchAlert settings have been saved
+msgid "messages.settings_saved_successfully"
+msgstr "成功です！　あなたのマッチアラートのセッティングは保存されました。"
+
+# --- English text = There was an error!
+msgid "errors.undefined"
+msgstr "エラーがありました！"
+
+# --- English text = Thanks!  You are registered to receive 10 MatchAlert emails.  They will be sent to the email address(s) in your listing.
+msgid "messages.ok_send_to_address"
+msgstr "有難うございます！１０のマッチアラートメールを受けられるように登録されました。あなたのリストのメールアドレスに送られるでしょう。"
+
+# --- English text = Sleeping Accommodations
+msgid "settings.accommodations_headline"
+msgstr "宿泊施設"
+
+# --- English text = Exchange Family
+msgid "settings.exchange_family"
+msgstr "エクスチェンジする家族"
+
+# --- Button Text
+# --- English text = Send 10 more emails
+msgid "send_another_round"
+msgstr "１０のメールが送られる"
+
+# --- English text = <strong>Stop!</strong> Set the frequency to \"never\" to stop the delivery of these Match Alert! Emails.
+msgid "stop_the_mails"
+msgstr "<strong>止めて!</strong>で 回数を \"決して\"に設定すれば、マッチ・アラート！メールは止まります。"
+
+# --- English text = The number of Match Alert emails left is set out below. To begin another round please check the frequency, settings and destinations and click the button below that says: Send 10 more emails.
+# --- Text change/clarification requested by B. Hayes (Aug, 2010)
+msgid "stopped_start_again"
+msgstr "マッチアラートはあなたにメールを送るのを止めました。もし又始めたいと希望するなら下のマッチアラートの頻度をチェックし、それをアップデートしてあなたのセッティングを保存し、下のボタンを押してください。"
+
+# --- English text = Listing Types
+# --- This is hidden text
+msgid "content.listing_types"
+msgstr "リストのタイプ"
+
+# Frequency
+# --- English text = once a week
+msgid "mail_settings.weekly"
+msgstr "週に一度"
+
+# Frequency
+# --- English text = every other week
+msgid "mail_settings.bi-weekly"
+msgstr "隔週"
+
+# Frequency
+# --- English text = once a month
+msgid "mail_settings.monthly"
+msgstr "月に一回"
+
+# Frequency
+# --- English text = never
+msgid "mail_settings.never"
+msgstr "決して"
+
+# --- English text = My Match Alert Status
+msgid "my_status"
+msgstr "私のマッチアラートの状態"
+

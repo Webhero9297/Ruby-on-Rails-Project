@@ -1,0 +1,426 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-12-18 16:00+0200\n"
+"PO-Revision-Date: 2012-05-08 07:50+0100\n"
+"Last-Translator: Gabriella Zanobetti <info@intervac.it>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# House types
+# --- English text = 1-story house
+msgid "house_types.A"
+msgstr "Casa a 1 piano"
+
+# House types
+# --- English text = House
+msgid "house_types.B"
+msgstr " 2 o più piani"
+
+# House types
+# --- English text = Flat
+msgid "house_types.C"
+msgstr "Appartamento"
+
+# House types
+# --- English text = Mobile Home: Caravan
+msgid "house_types.CA"
+msgstr "Roulotte, Caravan"
+
+# House types
+# --- English text = Holiday Home
+msgid "house_types.D"
+msgstr "Casa di vacanze"
+
+# --- English text = Email
+msgid "labels.email"
+msgstr "Email"
+
+# --- English text = Click here for help
+msgid "click_here_for_help"
+msgstr "cliccate qui per un aiuto"
+
+# --- English text = Click for information
+msgid "click_for_information"
+msgstr "cliccate qui per avere informazioni"
+
+# --- English text = -- Please select one --
+msgid "select_one"
+msgstr "-- Per favore fate una selezione --"
+
+# --- English text = -- Select from left --
+msgid "select_left"
+msgstr "-- Selezionate da sinistra --"
+
+# --- English text = No photo available
+msgid "no_photo"
+msgstr "Fotografia non disponibile"
+
+# Environment
+# --- English text = In the country
+msgid "environment.r"
+msgstr "Nella campagna"
+
+# Envrionment
+# --- English text = In the suburbs
+msgid "environment.s"
+msgstr "In periferia"
+
+# Environment
+# --- English text = In the city
+msgid "environment.u"
+msgstr "In città"
+
+# Environment
+# --- English text = In a small town
+msgid "environment.st"
+msgstr "Piccola città"
+
+# Environment
+# --- English text = In the mountains
+msgid "environment.mn"
+msgstr "In montagna"
+
+# Environment
+# --- English text = At the seaside
+msgid "environment.ss"
+msgstr "Al mare"
+
+# --- English text = Baby
+msgid "baby"
+msgstr "Bambini piccoli"
+
+# --- English text = User has been updated
+msgid "users.user_updated"
+msgstr "Socio riattivato"
+
+# --- English text = Sorry, the owners of listing number {{expr}} do not have an active membership with Intervac at this time.
+# --- IMPORTANT : the phrase "{{expr}}" will be replaced dynamically with the member number that was searched.
+msgid "users.not_active"
+msgstr " Spiacenti, ma il socio con questo numero di adesione  {{expr}} non é attivo per il momento"
+
+# --- English text = Sorry, {{member_number}} does not belong to you.
+# --- IMPORTANT : Please do not translate the phrase "{{member_number}}" it will be replaced dynamically.
+msgid "users.not_your_member_id"
+msgstr "Spiacenti, {{member_number}}  non é il suo numero indicativo"
+
+# --- English text = Sorry, we could not find any member for {{expr}}
+msgid "users.no_member_match"
+msgstr "Spiacenti, non abbiamo tyrovato nessun socio per {{expr}}"
+
+# --- English text = Photo for listing
+msgid "photo_for_listing"
+msgstr "Foto per l'iscrizione"
+
+# Direction
+# --- English text = North
+msgid "directions.N"
+msgstr "Nord"
+
+# Direction
+# --- English text = North-East
+msgid "directions.NE"
+msgstr "Nord-Est"
+
+# Direction
+# --- English text = East
+msgid "directions.E"
+msgstr "Est"
+
+# Direction
+# --- English text = South-East
+msgid "directions.SE"
+msgstr "Sud-Est"
+
+# Direction
+# --- English text = South
+msgid "directions.S"
+msgstr "Sud"
+
+# Direction
+# --- English text = South-West
+msgid "directions.SW"
+msgstr "Sud-Ovest"
+
+# Direction
+# --- English text = West
+msgid "directions.W"
+msgstr "Ovest"
+
+# Direction
+# --- English text = North-West
+msgid "directions.NW"
+msgstr "Nord-Ovest"
+
+# Lengthofstay
+# --- English text = day(s)
+msgid "timing.dy"
+msgstr "giorni"
+
+# --- English text = month
+msgid "timing.mo"
+msgstr "mese(i)"
+
+# --- English text = week(s)
+msgid "timing.we"
+msgstr "settimana (e)"
+
+# Timecomment
+# --- English text = Easter time
+msgid "timing.ET"
+msgstr "Vacanze Pasquali"
+
+# Timecomment
+# --- English text = Christmas time
+msgid "timing.CT"
+msgstr "Vacanze di Natale"
+
+# Timecomment
+# --- English text = School holidays
+msgid "timing.SH"
+msgstr "Vacanze scolastiche"
+
+# Timecomment
+# --- English text = The period is flexible
+msgid "timing.x"
+msgstr "Il periodo è flessibile"
+
+# --- English text = Offer is available
+msgid "offer_available"
+msgstr "L'offerta é disponibile"
+
+# --- English text = available
+# (June 2011) - Used on the summary/edit listing page in the member's area as part of a sentence.
+msgid "available"
+msgstr "disponibile"
+
+# --- English text = Offer is not available
+msgid "offer_not_available"
+msgstr "L'offerta non é disponibile"
+
+# --- English text = not available
+msgid "not_available"
+msgstr "Non disponibile"
+
+# --- English text = click here
+msgid "click_here"
+msgstr "cliccate qui"
+
+# --- English text = Mr.
+msgid "greeting.mr"
+msgstr "Signor"
+
+# --- English text = Mrs.
+# Mrs. => a married woman
+msgid "greeting.mrs"
+msgstr "Signora"
+
+# --- English text = Ms.
+# Ms. => a woman, without marital status (could be married or un-married)
+msgid "greeting.ms"
+msgstr "Gentile Signora"
+
+# --- English text = Miss
+# Miss => an un-married (usually young) woman.  Not often used these days.
+msgid "greeting.miss"
+msgstr "Gentile Signorina"
+
+# --- English text = Close Help
+# --- (button text for all help windows)
+msgid "button.close_help"
+msgstr "Chiudi il tasto di Aiuto"
+
+# --- English text = System Information
+msgid "system_information.headline"
+msgstr "Informazioni sul Sisterma"
+
+# --- English text = No rental offers accepted
+msgid "no_rentals_accepted"
+msgstr "Non si accettano  offerte di affitto"
+
+# --- English text = or
+msgid "or"
+msgstr "o"
+
+# --- English text = and
+msgid "and"
+msgstr "e"
+
+# --- English text = Date
+# --- This is used  when displaying a date that needs to be labeled, for instance a message.
+msgid "date"
+msgstr "Data"
+
+# --- English text = View
+msgid "dashboard.view_link"
+msgstr "Visualizzazione"
+
+# --- English text = Country
+msgid "country"
+msgstr "Paese"
+
+# --- English text = Countries
+# --- (June 2009) This label is hidden text
+msgid "countries"
+msgstr "Paesi"
+
+# --- English text = -- Please select a country --
+msgid "select_country"
+msgstr "Per favore selezioni un Paese"
+
+# --- English text = Add Country
+msgid "add_country_button"
+msgstr "Aggiungi il Paese"
+
+# --- English text = Region
+msgid "region"
+msgstr "Regione"
+
+# --- English text = -- Please select region --
+msgid "select_region"
+msgstr "Per cortesia selezioni la Regione"
+
+# --- English text = Add Region
+msgid "add_region_button"
+msgstr "Aggiungi la Regione"
+
+# --- English text = Nearest City
+msgid "nearest_city"
+msgstr "Città più vicina"
+
+# --- English text = -- Please select a city --
+msgid "select_city"
+msgstr "Per cortesia selezioni una Città"
+
+# --- English text = Add City
+msgid "add_city_button"
+msgstr "Aggiungi la Città"
+
+# --- English text = Sorry, we were unable to find any members in our database to match your search request.
+msgid "users.no_match"
+msgstr "Ci dispiace ma non abbiamo trovato nel nostro database nessun socio che corrisponda alle richieste della sua ricerca"
+
+# --- English text = Year
+msgid "year"
+msgstr "Anno"
+
+# --- English text = This member has 11+ documented exchanges.
+msgid "rating.platinum"
+msgstr "Questo Socio ha 11  scambi documentati"
+
+# --- English text = This member has 6-10 documented exchanges.
+msgid "rating.gold"
+msgstr "Questo Socio ha 6-10 scambi documentati"
+
+# --- English text = This member has 3-5 documented exchanges.
+msgid "rating.silver"
+msgstr "QAuesto Socio ha 3-5 scambi documentati"
+
+# --- English text = This member has 1-2 documented exchanges.
+msgid "rating.bronze"
+msgstr "Questo socio ha 1-2 scambi documentati"
+
+# --- English text = This member has no documented exchanges.
+msgid "rating.ready"
+msgstr "Questo socio non ha scambi documentati"
+
+# --- English text = Yes
+msgid "opinion.yes"
+msgstr "Si"
+
+# --- English text = No
+msgid "opinion.no"
+msgstr "  No"
+
+# --- English text = Undecided
+msgid "opinion.undecided"
+msgstr "Indeciso"
+
+# --- English text = Many mobile devices do not support the use of rich text editors.  To make changes to this area, please use a desktop computer or laptop.
+# --- Location = Only shown to members using a mobile device (ipad, ipod, etc) on Additional Text and Photos page and on Message Templates page.
+msgid "mobile.rich_text_editors_not_supported"
+msgstr "Molti dispositivi mobili non supportano l'uso di testi in alcuni formati speciali. Per fare dei cambiamenti nella vostra scheda usate per favore un computer o un laptop"
+
+# --- English text = North America
+msgid "continents.north_america"
+msgstr "Nord America"
+
+# --- English text = South America
+msgid "continents.south_america"
+msgstr "Sud America"
+
+# --- English text = Asia
+msgid "continents.asia"
+msgstr "  Asia"
+
+# --- English text = Africa
+msgid "continents.africa"
+msgstr "  Africa"
+
+# --- English text = Oceania
+msgid "continents.oceania"
+msgstr "  Oceania"
+
+# --- English text = Europe
+msgid "continents.europe"
+msgstr "Europa"
+
+# --- English text = intervac-homeexchange.com
+# --- Location = wherever the homepage address stands alone.  For instance in the footer...
+msgid "intervac.base_url"
+msgstr "  intervac-homeexchange.com"
+
+# --- WEB FEEDBACK ---
+# --- English Text = Web feedback form
+# --- Location => Footer and visitors info pages
+# (June 2011)
+msgid "feedback.link_text"
+msgstr " Feed-back del Web"
+
+# --- English Text = We want to hear from you!
+# --- Location => visitors info pages
+# (June 2011)
+msgid "feedback.headline"
+msgstr "Vogliamo avere le vostre opinioni"
+
+# --- English Text = Fill out our web feedback form
+# --- Location => Footer and visitors info pages
+# => link titles are mouseover text
+# (June 2011)
+msgid "feedback.link_title"
+msgstr "Compila i il nostro formulario per il Feed.back"
+
+# --- English text = {{number}} Day Trial Account
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (Last updated: November, 2011)
+msgid "trial_account.headline"
+msgstr "{{number}}  Giorni di Prova"
+
+# --- English text = Sign up
+# (New - November, 2011)
+msgid "application_button.sign_up"
+msgstr "Si iscriva"
+
+# --- English text = Expires after {{number}} days
+# (New - November, 2011)
+msgid "trial_membership.fine_print"
+msgstr "Scade dopo {{number}} giorni"
+
+# --- English text = Renew your membership
+# --- Location =
+# (New: October, 2011)
+msgid "renew_box.headline"
+msgstr "Rinnovi la sua iscrizione"
+
+# --- English text = <link>Click here to choose your membership options.</link>
+# --- IMPORTANT:  Do not remove or translate <link> and </link>.  The system will automatically turn the text in between these tags into a link to the "Choose Membership Options" page of the payment process.
+# --- (December 2011 - New Text)
+msgid "trial_membership.link_to_membership_options"
+msgstr "<link>Cliccate qui per scegliere la vostra opzione di adesione</link>"
+

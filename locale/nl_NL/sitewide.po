@@ -1,0 +1,427 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-12-18 16:00+0200\n"
+"PO-Revision-Date: 2012-04-03 08:01+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# House types
+# --- English text = 1-story house
+msgid "house_types.A"
+msgstr "Bungalow"
+
+# House types
+# --- English text = House
+msgid "house_types.B"
+msgstr "Huis (2 of meer verdiepingen)"
+
+# House types
+# --- English text = Flat
+msgid "house_types.C"
+msgstr "Appartement/Flat"
+
+# House types
+# --- English text = Mobile Home: Caravan
+msgid "house_types.CA"
+msgstr "Mobilhome / Caravan"
+
+# House types
+# --- English text = Holiday Home
+msgid "house_types.D"
+msgstr "Vakantiewoning"
+
+# --- English text = Email
+msgid "labels.email"
+msgstr "E-mail"
+
+# --- English text = Click here for help
+msgid "click_here_for_help"
+msgstr "Klik hier voor hulp"
+
+# --- English text = Click for information
+msgid "click_for_information"
+msgstr "Klik voor informatie"
+
+# --- English text = -- Please select one --
+msgid "select_one"
+msgstr "-- Maak een keuze --"
+
+# --- English text = -- Select from left --
+msgid "select_left"
+msgstr "-- Selecteer van links --"
+
+# --- English text = No photo available
+msgid "no_photo"
+msgstr "Geen foto beschikbaar"
+
+# Environment
+# --- English text = In the country
+msgid "environment.r"
+msgstr "Op het platte land"
+
+# Envrionment
+# --- English text = In the suburbs
+msgid "environment.s"
+msgstr "In de voorstad"
+
+# Environment
+# --- English text = In the city
+msgid "environment.u"
+msgstr "In de stad"
+
+# Environment
+# --- English text = In a small town
+msgid "environment.st"
+msgstr "In een kleine gemeente"
+
+# Environment
+# --- English text = In the mountains
+msgid "environment.mn"
+msgstr "In de bergen"
+
+# Environment
+# --- English text = At the seaside
+msgid "environment.ss"
+msgstr "Aan de zee"
+
+# --- English text = Baby
+msgid "baby"
+msgstr "Baby"
+
+# --- English text = User has been updated
+msgid "users.user_updated"
+msgstr "Gebruiker is geactualiseerd "
+
+# --- English text = Sorry, the owners of listing number {{expr}} do not have an active membership with Intervac at this time.
+# --- IMPORTANT : the phrase "{{expr}}" will be replaced dynamically with the member number that was searched.
+msgid "users.not_active"
+msgstr "Sorry, deelnemer nummer {{expr}} is op dit ogenblik niet actief."
+
+# --- English text = Sorry, {{member_number}} does not belong to you.
+# --- IMPORTANT : Please do not translate the phrase "{{member_number}}" it will be replaced dynamically.
+msgid "users.not_your_member_id"
+msgstr "Sorry, {{member_number}} behoort je niet toe."
+
+# --- English text = Sorry, we could not find any member for {{expr}}
+msgid "users.no_member_match"
+msgstr "Sorry, we kunnen geen deelnemer vinden met {{expr}}"
+
+# --- English text = Photo for listing
+msgid "photo_for_listing"
+msgstr "Foto voor de aanbieding"
+
+# Direction
+# --- English text = North
+msgid "directions.N"
+msgstr "ten noorden"
+
+# Direction
+# --- English text = North-East
+msgid "directions.NE"
+msgstr "ten noordoosten"
+
+# Direction
+# --- English text = East
+msgid "directions.E"
+msgstr "ten oosten"
+
+# Direction
+# --- English text = South-East
+msgid "directions.SE"
+msgstr "ten zuidoosten"
+
+# Direction
+# --- English text = South
+msgid "directions.S"
+msgstr "ten zuiden"
+
+# Direction
+# --- English text = South-West
+msgid "directions.SW"
+msgstr "ten zuidwesten"
+
+# Direction
+# --- English text = West
+msgid "directions.W"
+msgstr "ten westen"
+
+# Direction
+# --- English text = North-West
+msgid "directions.NW"
+msgstr "ten noordwesten"
+
+# Lengthofstay
+# --- English text = day(s)
+msgid "timing.dy"
+msgstr "dagen"
+
+# --- English text = month
+msgid "timing.mo"
+msgstr "maand"
+
+# --- English text = week(s)
+msgid "timing.we"
+msgstr "week"
+
+# Timecomment
+# --- English text = Easter time
+msgid "timing.ET"
+msgstr "Paasvakantie"
+
+# Timecomment
+# --- English text = Christmas time
+msgid "timing.CT"
+msgstr "Kerstvakantie"
+
+# Timecomment
+# --- English text = School holidays
+msgid "timing.SH"
+msgstr "schoolvakanties"
+
+# Timecomment
+# --- English text = The period is flexible
+msgid "timing.x"
+msgstr "De periode is flexibel"
+
+# --- English text = Offer is available
+msgid "offer_available"
+msgstr "Aanbod is beschikbaar"
+
+# --- English text = available
+# (June 2011) - Used on the summary/edit listing page in the member's area as part of a sentence.
+msgid "available"
+msgstr "Beschikbaar"
+
+# --- English text = Offer is not available
+msgid "offer_not_available"
+msgstr "Aanbod is niet beschikbaar"
+
+# --- English text = not available
+msgid "not_available"
+msgstr "niet beschikbaar"
+
+# --- English text = click here
+msgid "click_here"
+msgstr "klik hier "
+
+# --- English text = Mr.
+msgid "greeting.mr"
+msgstr "Dhr."
+
+# --- English text = Mrs.
+# Mrs. => a married woman
+msgid "greeting.mrs"
+msgstr "Mevr."
+
+# --- English text = Ms.
+# Ms. => a woman, without marital status (could be married or un-married)
+msgid "greeting.ms"
+msgstr "Mevr."
+
+# --- English text = Miss
+# Miss => an un-married (usually young) woman.  Not often used these days.
+msgid "greeting.miss"
+msgstr "Juffrouw"
+
+# --- English text = Close Help
+# --- (button text for all help windows)
+msgid "button.close_help"
+msgstr "Hulp"
+
+# --- English text = System Information
+msgid "system_information.headline"
+msgstr "Systeeminformatie"
+
+# --- English text = No rental offers accepted
+msgid "no_rentals_accepted"
+msgstr "Huuraanbiedingen worden niet aanvaard."
+
+# --- English text = or
+msgid "or"
+msgstr "of"
+
+# --- English text = and
+msgid "and"
+msgstr "en"
+
+# --- English text = Date
+# --- This is used  when displaying a date that needs to be labeled, for instance a message.
+msgid "date"
+msgstr "Datum"
+
+# --- English text = View
+msgid "dashboard.view_link"
+msgstr "Bekijk"
+
+# --- English text = Country
+msgid "country"
+msgstr "Land"
+
+# --- English text = Countries
+# --- (June 2009) This label is hidden text
+msgid "countries"
+msgstr "Landen"
+
+# --- English text = -- Please select a country --
+msgid "select_country"
+msgstr "-- Kies een land --"
+
+# --- English text = Add Country
+msgid "add_country_button"
+msgstr "Voeg een land toe"
+
+# --- English text = Region
+msgid "region"
+msgstr "Regio"
+
+# --- English text = -- Please select region --
+msgid "select_region"
+msgstr "-- Kies een regio --"
+
+# --- English text = Add Region
+msgid "add_region_button"
+msgstr "Voeg een regio toe"
+
+# --- English text = Nearest City
+msgid "nearest_city"
+msgstr "Meest nabije stad"
+
+# --- English text = -- Please select a city --
+msgid "select_city"
+msgstr "-- Kies een stad--"
+
+# --- English text = Add City
+msgid "add_city_button"
+msgstr "Voeg een stad toe"
+
+# --- English text = Sorry, we were unable to find any active members in our database to match your search request.
+msgid "users.no_match"
+msgstr "Sorry, we vinden geen actieve deelnemer in ons bestand die overeenkomt met je zoekcriteria."
+
+# --- English text = Year
+msgid "year"
+msgstr "Jaar"
+
+# --- English text = This member has 11+ documented exchanges.
+msgid "rating.platinum"
+msgstr "Deze deelnemer heeft 11+ ruilvakanties geregistreerd."
+
+# --- English text = This member has 6-10 documented exchanges.
+msgid "rating.gold"
+msgstr "Deze deelnemer heeft 6-10 ruilvakanties geregistreerd."
+
+# --- English text = This member has 3-5 documented exchanges.
+msgid "rating.silver"
+msgstr "Deze deelnemer heeft 3-5 ruilvakanties geregistreerd."
+
+# --- English text = This member has 1-2 documented exchanges.
+msgid "rating.bronze"
+msgstr "Deze deelnemer heeft 1-2 ruilvakanties geregistreerd."
+
+# --- English text = This member has no documented exchanges.
+msgid "rating.ready"
+msgstr "Deze deelnemer heeft geen ruilvakanties geregistreerd."
+
+# --- English text = Yes
+msgid "opinion.yes"
+msgstr "Ja"
+
+# --- English text = No
+msgid "opinion.no"
+msgstr "Neen"
+
+# --- English text = Undecided
+msgid "opinion.undecided"
+msgstr "Onbeslist"
+
+# --- English text = Many mobile devices do not support the use of rich text editors.  To make changes to this area, please use a desktop computer or laptop.
+# --- Location = Only shown to members using a mobile device (ipad, ipod, etc) on Additional Text and Photos page and on Message Templates page.
+msgid "mobile.rich_text_editors_not_supported"
+msgstr "Veel mobiele computers/telefoons ondersteunen niet het gebruik van \"rich text editors\". Om veranderingen aan te brengen in dit gedeelte kunt u beter een desktop of laptop computer gebruiken. "
+
+# --- English text = North America
+msgid "continents.north_america"
+msgstr "Noord Amerika"
+
+# --- English text = South America
+msgid "continents.south_america"
+msgstr "Zuid Amerika "
+
+# --- English text = Asia
+msgid "continents.asia"
+msgstr "Azië "
+
+# --- English text = Africa
+msgid "continents.africa"
+msgstr "Afrika"
+
+# --- English text = Oceania
+msgid "continents.oceania"
+msgstr "Oceanië"
+
+# --- English text = Europe
+msgid "continents.europe"
+msgstr "Europa"
+
+# --- WEB FEEDBACK ---
+# --- English Text = Web feedback form
+# --- Location => Footer and visitors info pages
+# (June 2011)
+msgid "feedback.link_text"
+msgstr "Web feedback"
+
+# --- English Text = We want to hear from you!
+# --- Location => visitors info pages
+# (June 2011)
+msgid "feedback.headline"
+msgstr "We willen graag van je horen!"
+
+# --- English Text = Fill out our web feedback form
+# --- Location => Footer and visitors info pages
+# => link titles are mouseover text
+# (June 2011)
+msgid "feedback.link_title"
+msgstr "Vul het formulier in voor web feedback"
+
+# --- English text = {{number}} Day Trial Account
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (Last updated: November, 2011)
+msgid "trial_account.headline"
+msgstr "{{number}} Day Trial Account"
+
+# --- English text = Sign up
+# (New - November, 2011)
+msgid "application_button.sign_up"
+msgstr "Inschrijven"
+
+# --- English text = Expires after {{number}} days
+# (New - November, 2011)
+msgid "trial_membership.fine_print"
+msgstr "Verloopt na {{number}} dagen"
+
+# --- English text = Renew your membership
+# --- Location =
+# (New: October, 2011)
+msgid "renew_box.headline"
+msgstr "Schrijf Opnieuw in als Deelnemer"
+
+# --- English text = <link>Click here to choose your membership options.</link>
+# --- IMPORTANT:  Do not remove or translate <link> and </link>.  The system will automatically turn the text in between these tags into a link to the "Choose Membership Options" page of the payment process.
+# --- (December 2011 - New Text)
+msgid "trial_membership.link_to_membership_options"
+msgstr "<link>Klik hier voor uw Deelname-Opties.</link>"
+
+# --- English text = Delete
+# --- Location = 
+# (New: November, 2011)
+#, fuzzy
+msgid "command.delete"
+msgstr "Delete"

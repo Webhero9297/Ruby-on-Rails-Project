@@ -1,0 +1,213 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2012-06-12 19:11+0100\n"
+"PO-Revision-Date: 2012-07-10 11:28+0100\n"
+"Last-Translator: Intervac <intervac@grossi-sas.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text =
+# --- Location =
+# (New: June, 2012)
+msgid "page.headline"
+msgstr "Esto es el Intercambio de Casas!"
+
+# --- English text =
+# --- Location =
+# (New: June, 2012)
+msgid "page.subhead"
+msgstr "Concursos del 60 Aniversario en Facebook"
+
+# --- English text = Rules & Terms
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.headline"
+msgstr "Normas y Condiciones"
+
+# --- English text = Who May Participate
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.participants.headline"
+msgstr "Quién puede Participar"
+
+# --- English text = The Intervac International 60th Anniversary competitions (the "competitions") are open to all participants, active or non-active INTERVAC members regardless of residence or citizenship, provided the laws of their jurisdiction allow participation.
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.participants.introtext"
+msgstr "Los concursos del 60 Aniversario de Intervac Internacional (los “concursos”) están abiertos a todos los participantes, socios activos o no activos de INTERVAC indistintamente de su lugar de residencia o nacionalidad, siempre y cuando las leyes de su jurisdicción les permitan participar."
+
+# --- English text = One person may enter each competition only once.
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.participants.entries_allowed"
+msgstr "Una persona puede participaro solamente una vez en cada concurso."
+
+# --- English text = If you are below 18 years of age, you must get your parent/guardian to upload entries on your behalf.
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.participants.under_18"
+msgstr "Si tiene menos de 18 años de edad, su padre o tutor deberá colgar el material en su nombre"
+
+# --- English text = Communication
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.communication.headline"
+msgstr "Comunicación"
+
+# --- English text = For entries in either the photo or film competition, please ensure that your Facebook profile is valid and operational.  This is the principal means through which organisers will communicate with you.
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.communication.photo_film"
+msgstr "Para entrar tanto en el concurso fotográfico como en el de vídeo, asegúrese de que su perfil en Facebook es válido y operativo.  Por este conducto es por el cual los organizadores se comunicarán con usted."
+
+# --- English text =
+# --- Location = When taking part in the story competition please ensure that the email address you are using is valid and operational.  This is the principal means through which organisers will contact you.
+# (New: June, 2012)
+msgid "rules_and_terms.communication.story"
+msgstr "Cuando participe en la competición escrita por favor asegúrese de que su dirección de correo electrónico es válida y funciona.  Por este medio los organizadores le contactarán."
+
+# --- English text = Timeline
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.timeline.headline"
+msgstr "Fechas"
+
+# --- English text = Entries must be submitted between 1 July, 2012 - 15 November, 2012
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.timeline.introtext"
+msgstr "Pueden enviar su material entre el 1 de Julio y el 15 de noviembre de 2012"
+
+# --- English text = Previously Published Material
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.previously_published.headline"
+msgstr "Material Perviamente Publicado"
+
+# --- English text = You may submit previously published material to this competition provided the previous publication was under non-exclusive rights and you retain the right to make them available under the terms of this competition.  We recommend that you disclose all previous publications when you submit the materials.
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.previously_published.introtext"
+msgstr "Puede enviar material previamente publicado a este concurso siempre y cuando la publicación anterior no tuviera los derechos en exclusiva y usted tiene el derecho de enviarlos con las condiciones de este concurso. Le recomendamos que las anule de anteriores publicaciones al enviarnos este material."
+
+# --- English text = Consent and Copyright
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.consent_and_copyright.headline"
+msgstr "Permiso y Copyright"
+
+# --- English text = The entrant must be the sole author and owner of the copyright.  By entering your materials into the competition, you grant Intervac International the non-commrcial, non-exclusive right to use your materials for promotion of Intervac International in any media.  The authors will be credited whenever possible.  Entrants must not infringe on the privacy rights, copyright or other rights of any person.  Anyone found infringing on others' copyright will be disqualified from the competition.  The organisers do not bear any responsibility for copyright violations or infringements of intellectual property carried out by the participants.
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.consent_and_copyright.introtext"
+msgstr "El participante tiene que ser el único autor y dueño del copyright.  Al entrar un material en el concurso, le otorga a Intervac Internacional el derecho de no comerciar y de no tener la exclusiva para usar sus materiales para la promoción de Intervac Internacional.  Los autores serán acreditados siempre que sea posible. Los participantes no deben infringir en los derechos de privacidad, copyright u otros derechos de cualquier persona.  Cualquiera que infrinja el copyright de alguien será expulsado del concurso.  Los organizadores no tienen ninguna responsabilidad si algún participante infringe el copyright o la propiedad intelectual de otro participante."
+
+# --- English text = Our Rights
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.our_rights.headline"
+msgstr "Nuestros Derechos"
+
+# --- English text = Intervac International reserves the right to exclude entrants and withhold prizes for violating any of the above rules and terms.  Should the quality of entries fall below the standard required we reserve the right not to award prizes.  Intervac International reserves the right to amend these terms and conditions.
+# --- Location =
+# (New: June, 2012)
+msgid "rules_and_terms.our_rights.introtext"
+msgstr "Intervac Internacional se reserva el derecho de expulsar participantes y retirar premios si se infringe cualquiera de las condiciones antes expuestas.  Si la calidad del material está muy por debajo de lo requerido nos reservamos el derecho de no entregar premios.  Intervac Internacional se reserva el derecho de rectificar estas normas y condiciones."
+
+# --- English text = Previously Published Material
+# --- Location =
+# (New: June, 2012)
+msgid "judging.headline"
+msgstr "Juzgado"
+
+# --- English text = Entries will be judged on creativity, originality, composition and relevance to Intervac International.  The judges will be appointed by Intervac International Board of Directors.
+# --- Location =
+# (New: June, 2012)
+msgid "judging.introtext"
+msgstr "Los materiales serán juzgados por su creatividad, originalidad, composición y relevancia para Intervac Internacional.  Los jueces serán elegidos por el Comite Ejecutivo de Intervac Internacional"
+
+# --- English text = Competitions:
+# --- Location =
+# (New: June, 2012)
+msgid "prizes.headline"
+msgstr "¡Gane Buenos Premios!"
+
+# --- English text = We are awarding 10 great prizes in each competition.  Everything from free annual memberships to city sightseeing tours, train and plane tickets, family museum tickets and Disneyland/Legoland admission.
+# --- Location =
+# (New: June, 2012)
+msgid "prizes.introtext"
+msgstr "Ofrecemos 10 premios en cada concurso.  Desde una inscripción anual gratis a billetes de avión, de tren, visitas turísticas, entradas para toda la familia a museos o a Disneyland/Legoland y otros parques de atracciones."
+
+# --- English text = Competitions:
+# --- Location =
+# (New: June, 2012)
+msgid "prizes.winners.headline"
+msgstr "Ganadores"
+
+# --- English text = The ten best entries in each of the three competitions will be selected.  In order to qualify for the prize, the winner must be/become an active Intervac member.  Winners will be notified via email or Facebook and information will be displayed on Intervac International Facebook fanpage and official website.
+# --- Location =
+# (New: June, 2012)
+msgid "prizes.winners.introtext"
+msgstr "Los mejores diez materiales de cada uno de los tres concursos serán seleccionados.  Para conseguir el premio, el ganador deberá ser o convertirse en un socio activo de Intervac.  A los ganadores se les notificará por e-mail o Facebook y la información aparecerá en la página de Intervac Internacional en Facebook y en la web oficial. "
+
+# --- English text = The winning photographs / films / reports will be featured in the Intervac 60th Anniversary portfolio on the Intervac International website.
+# --- Location =
+# (New: June, 2012)
+msgid "prizes.winners.featured_where"
+msgstr "Las fotografías /películas/reportajes ganadores aparecerán en el portafolio del 60 Aniversario de Intervac Internacional en nuestra web."
+
+# --- English text = The judge's decisions are final and prizes may not be exchanged.
+# --- Location =
+# (New: June, 2012)
+msgid "prizes.winners.decisions_are_final"
+msgstr "Las decisiones del juez son definitivas y los premios no pueden ser intercambiados."
+
+# --- English text = Competitions:
+# --- Location =
+# (New: June, 2012)
+msgid "competitions.headline"
+msgstr "Estos son los Concursos del Intercambio de Casas"
+
+# --- English text = Photo Competition
+# --- Location =
+# (New: June, 2012)
+msgid "competitions.photo_competition.headline"
+msgstr "Esto es el concurso de fotos del Intercambio de Casas"
+
+# --- English text = Upload 3-5 of your best, funniest or most characteristic home exchange photos to the Intervac International Facebook page.  Each photo must include a short caption telling us why home exchange is the best way to travel.  Older photos can be scanned, we are not judging on image quality but on image content and pertinence to home exchange the Intervac way.
+# --- Location =
+# (New: June, 2012)
+msgid "competitions.photo_competition.introtext"
+msgstr "Cuelgue 3-5 de sus mejores/más divertidas/o más características fotos en la página de Intervac Internacional en Facebook.  Escriba debajo una pequeña descripción que de una idea de porque les gusta pertenecer a Intervac (las fotos antiguas pueden “scanearse”, no juzgaremos la calidad , tan sólo el contenido!).  IMPORTANTE:  Cada foto debe tener una descripción al pie ."
+
+# --- English text = Film Competition
+# --- Location =
+# (New: June, 2012)
+msgid "competitions.film_competition.headline"
+msgstr "Esta es la competición de Víedo del Intercambio de Casas"
+
+# --- English text = Make us laugh, make us cry, show us the story of home exchange in your family. To enter, upload a 3-5 minute travelogue, family film, My Home Exchange Review film to the Intervac International Facebook Page.
+# --- Location =
+# (New: June, 2012)
+msgid "competitions.film_competition.introtext"
+msgstr "Háganos reír, háganos llorar, muéstrenos la historias del intercambio de casas en su familia.  Cuelgue 3-5 minutos de película de su familia:  Mi Intercambio de Casas en la página de Facebook de Intervac Internacional."
+
+# --- English text = Story or Essay Competition
+# --- Location =
+# (New: June, 2012)
+msgid "competitions.story_competition.headline"
+msgstr "Este es el concurso de narrativa o redacción del Intercambio de Casa.  "
+
+# --- English text = Remember the time...?  Tell us all about it!  We want to read your stories, your reports, your most memorable home-exchange experiences. To enter: Send your text in the body of an email to {{competition_email_address}}
+# --- Location =
+# (New: June, 2012)
+msgid "competitions.story_competition.introtext"
+msgstr "Cuéntenoslo todo!  Queremos leer sus historias, sus reportajes, sus mejores experiencias de intercambio.  Mande su texto en un e-mail a{{competition_email_address}}"
+

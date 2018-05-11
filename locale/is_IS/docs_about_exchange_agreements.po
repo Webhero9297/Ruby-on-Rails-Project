@@ -1,0 +1,96 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-03-23 18:17+0100\n"
+"PO-Revision-Date: 2011-07-29 15:09-0000\n"
+"Last-Translator: Sesselja Traustadóttir <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = About Exchange Agreements
+msgid "page.headline"
+msgstr "Um heimilaskiptasamninga"
+
+# --- English text = Following are items which you could agree upon with your exchange partner.  Many of these are covered in our online Exchange Agreement which you should fill out for each exchange you make. 
+msgid "page.introtext"
+msgstr "Eftirfarandi eru hlutir sem þú gætir vilja semja um við skiptifélaga þinn. Margt af þessu kemur einnig fram í samningum um heimilaskipti á heimasvæði þínu sem þú ættir að fylla í fyrir öll þín heimilaskipti. "
+
+# --- English text = How to Register an Exchange
+msgid "how_to_register.headline"
+msgstr "Svona skráum við heimilaskipti"
+
+# --- English text = Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system.
+msgid "how_to_register.getting_started"
+msgstr "Til þess að ganga frá samningi þarf hvor skiptiaðilinn að fara inn á sínu aðildarnúmeri og fylla í samninginn á netinu. Báðir samningarnir eru vistaðir á kerfi Intervac."
+
+# --- English text = To begin the process scroll down to the bottom of the right-hand column of the member home page, and enter your exchange partner's member id into the box then click the button to begin customising your agreement.
+msgid "how_to_register.how_to_begin"
+msgstr "Til þess að hefja samninginn skrunaðu niður síðuna á heimasvæði þínu og hægra megin er reitur þar sem þú setur inn aðildarnúmer skiptifélaga þíns. Síðan smellir þú á hnappinn, færðu upp samninginn og fyllir í þinn hluta. "
+
+# --- English text = Suggestions for Discussion
+msgid "for_discussion.headline"
+msgstr "Tillögur að umræðum"
+
+# --- English text = The names and ages of adults and children staying in your partner's home. You should include any expected visitors on the agreement form.
+msgid "for_discussion.expected_people"
+msgstr "Nöfn og aldur fullorðinna og barna sem fylgja þér á heimili skiptifélaga þíns. Þú ættir einnig að segja frá í samningnum, gestum sem þið eigið von á. "
+
+# --- English text = The use of exchanged cars and their maintenance.
+msgid "for_discussion.cars"
+msgstr "Notkun á bílum sem skipt er á og viðhaldi þeirra. "
+
+# --- English text = Where are the keys located?  We recommend that you leave them with friends or neighbours who can also welcome your exchange guests.  It is a good idea to leave a second set of keys with your neighbors or friends in case of an emergency.
+msgid "for_discussion.keys"
+msgstr "Hvar eru lyklarnir staðsettir? Við mælum með því að þú skiljir þá eftir hjá vinum eða nágrönnum sem gætu líka tekið á móti skiptivinum ykkar. Það er líka góð hugmynd að skilja eftir auka lykla hjá nágrönnum eða vinum fyrir neyðartilvik. "
+
+# --- English text = Each home owner is usually responsible for the fuel bills in his/her own home, unless otherwise agreed.
+msgid "for_discussion.energy_costs"
+msgstr "Húseigandi er venjulega ábyrgur fyrir kyndi- og rafmagnskostnaði heimilis síns nema annað sé ákveðið. "
+
+# --- English text = What linen (sheets, towels, etc.) will be available in your home, and who is responsible for laundering.
+msgid "for_discussion.linens"
+msgstr "Segðu til um hvaða lín (rúmföt, handklæði o.s.frv.) verður til staðar á heimili þínu og hver sér um þvott á því. "
+
+# --- English text = Arrange for record keeping of long distance telephone calls and settlement of cost.  Usually a note pad next to the telephone and a cheque or cash left at the time of departure is the simplest method.
+msgid "for_discussion.telephone_costs"
+msgstr "Semjið um notkun á síma vegna langlínusamtala úr heimasíma og kostnað vegna þeirra. Venjulega er einfaldast að hafa skrifblokk við hliðina á símanum og skilja eftir reiðufé vegna símtala. "
+
+# --- English text = Agree that if repairs are necessary that cost above, say €25, a telephone call to the home owner is necessary to ensure payment by the owners, otherwise cost is borne by the exchange guests.
+msgid "for_discussion.repairs"
+msgstr "Semjið um að ef eitthvað þarf að laga sem kostar meira en t.d. 25 EUR, þarf að afla samþykkis hjá eiganda til þess að tryggja að hann beri kostnaðinn, annars beri gesturinn kostnaðinn."
+
+# --- English text = Documented Experience Badges
+msgid "ee_increased_headline"
+msgstr "Sjálfvirk skráning heimilaskiptanna"
+
+# --- English text = After your exchange is completed both you and your partner will automatically have an additional registered exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can range from Ready-to-Go (for new members) to Gold (6+ exchanges) and beyond.
+msgid "ee_increased"
+msgstr "Eftir að heimilaskiptum ykkar er lokið, færð bæði þú og skiptifélagi þinn sjálfvirka skráningu á skiptunum á heimasvæðum ykkar ef þið hafið gert með ykkur heimilaskiptasamning á vefnum okkar. Þá kemur reynsla ykkar fram með þeim hætti að Ready-to-Go (fyrir nýliða) uppfærist í Bronze og með fleiri samningum er mest hægt að fá Platinu viðurkenningu. Þetta staðfestir reynslu og byggir upp gott orðspor félagsmanna. "
+
+# --- English text = Things to Know
+msgid "things_to_know.headline"
+msgstr "Sitthvað sem gott er að vita"
+
+# --- English text = <highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side.
+##### --- (April 2011) This text is no longer correct.
+msgid "-x- things_to_know.my_perspective"
+msgstr "Hvern lið skaltu fylla inn í fyrstu persónu. Þú ættir að skrifa inn þínar eigin athugasemdir og upplýsingar til upplýsingar um þína hlið samningsins. Skiptifélagi þinn mun gera það sama á sínum hluta. "
+
+# --- English text = <highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight>  
+msgid "things_to_know.notification"
+msgstr "Skiptifélagi þinn fær sjálfkrafa meldingu með netpósti þegar þú hefur sent inn heimilaskiptasamning."
+
+# --- English text = <highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries.
+msgid "things_to_know.visibility"
+msgstr "Þú getur skoðað og prentað út samninginn þinn undir SAMNINGUR UM HEIMILASKIPTI á þínu heimasvæði hjá Intervac. Til að finna þann reit, leitar þú undir gráu tökkunum vinstra megin á síðunni; HAGNÝTAR TENGINGAR. Þar til að skiptifélagi þinn hefur fyllt í sinn hluta samningsins, sérðu aðeins aðildarnúmerið hans. Eftirá, verður aðildarnúmer hans tenging á hans hluta samningsins. Þinn útfyllti hluti samningsins verður sýnilegur þér og skiptifélaga þínum sem og umboðsmanni Intervac í ykkar löndum. "
+
+# --- English text = <highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement.
+msgid "things_to_know.changes_allowed"
+msgstr "Þú getur breytt þínum hluta samningsins allt fram að brottfarardag. Til öryggis skaltu ræða samninginn við skiptifélaga þinn. Hann fær alltaf meldingu með netpósti þegar þú breytir einhverju í samningnum. "
+

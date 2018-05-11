@@ -1,0 +1,143 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2009-12-02 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Our Online Services - Sitemap
+msgid "headline"
+msgstr "Intervac Online-Tjänst - Beskrivning Över Sidan"
+
+# --- English text = Open To The Public
+msgid "subhead"
+msgstr "Öppet för allmänheten"
+
+# --- English text = Contact Our Agents Worldwide
+msgid "contact"
+msgstr "Kontakta ombud"
+
+# --- English text = Find contact names and addresses for Intervac Agents worldwide.
+msgid "contact_text"
+msgstr "Hitta namn och adresser för Intervas ombud i världen."
+
+# --- English text = Visitors Tour
+msgid "visitors_tour"
+msgstr "Rundvisning"
+
+# --- English text = Take our visitors tour to find out all about the wonderful world of home exchange.
+msgid "visitors_tour_text"
+msgstr "Genom vår rundtur får ni reda på allt om bostadsutbyte."
+
+# --- English text = Online Registration
+msgid "online_registration"
+msgstr "Online-registrering"
+
+# --- English text = Use our online registration form to become an Intervac member, and begin planning your next holiday adventure.
+msgid "online_registration_text"
+msgstr "Använd vår registrering på nätet för att bli Intervacmedlem så att ni kan planera ert nästa semesteräventyr."
+
+# --- English text = Preview Our Database
+msgid "preview_database"
+msgstr "Förhandstitta i vår databas"
+
+# --- English text = Take a few minutes to have a look around our database and search area.
+msgid "preview_database_text"
+msgstr "Ta ett par minuter för att titta runt i vår databas och sökfunktion."
+
+# --- English text = Preview Our Last Minute Listings
+msgid "preview_hotlist"
+msgstr "Förhandstitta på vår Hot List"
+
+# --- English text = Our Hot List is an exclusive service especially designed to offer members searching last minute exchanges a special place to find each other.
+msgid "preview_hotlist_text"
+msgstr "Vår Hot List är en exklusiv tjänst för medlemmar som söker varandra i sista minuten."
+
+# --- English text = Preview Member Statistics (Example)
+msgid "preview_member_stats"
+msgstr "Exempel på statistik"
+
+# --- English text = Here you can preview our individual statistics.
+msgid "preview_member_stats_text"
+msgstr "Här kan ni förhandstitta på er individuella statistik."
+
+# --- English text = For Members Only
+msgid "members_only"
+msgstr "Endast medlemmar"
+
+# --- English text = Members please login to
+# --- (Dec 2008) Edited --- Member login => Members please login to
+msgid "login"
+msgstr "Medlemsinloggning"
+
+# --- English text = Edit profile details
+msgid "edit_profile"
+msgstr "Ändra min profil"
+
+# --- English text = Search by country/region
+msgid "search_by_country"
+msgstr "Sök ett utbyte"
+
+# --- English text = View last minute listings
+msgid "view_hotlist"
+msgstr "View last minute listings"
+
+# --- English text = View listing statistics
+msgid "view_statistics"
+msgstr "Min statistik"
+
+# --- English text = Change you password
+msgid "change_password"
+msgstr "Ändra lösenord"
+
+# --- English text = Upload your main photo
+msgid "upload_photo"
+msgstr "Upload your main photo"
+
+# --- English text = Add more text and photos
+# --- (Dec. 2008) Edited slightly
+msgid "extra_text_photo"
+msgstr "Extra text and photos"
+
+# --- English text = Search new listings
+msgid "search_new_listings"
+msgstr "Search new listings"
+
+# --- English text = Administer Favorites
+# --- (Dec 2008)   New text
+msgid "favorites"
+msgstr "Editera dina favoriter"
+
+# --- English text = Contact another member
+# --- (Dec 2008)  New Text
+msgid "send_message"
+msgstr "Kontakta en annan medlem"
+
+# --- English text = Search a specific member
+# --- (Dec. 2008 )  New Text
+msgid "search_specific_member"
+msgstr "Sök en specifik medlem"
+
+# --- English text = Set Match Alert criteria
+# --- (Dec 2008)  New Text
+msgid "match_alert"
+msgstr "Sätta upp kriterier för \"Match Altert\" "
+
+# --- English text = Check your messages
+# --- (Dec 2008)  New Text
+msgid "check_messages"
+msgstr "Sök efter nya meddelanden"
+
+# --- English text = Write message templates
+msgid "write_message_templates"
+msgstr "Skapa en mall för meddelanden"
+

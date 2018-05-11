@@ -1,0 +1,789 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-20 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ad"
+msgstr "Andora"
+
+msgid "ar"
+msgstr "Argentina"
+
+msgid "au"
+msgstr "Australia"
+
+msgid "at"
+msgstr "Austria"
+
+msgid "bz"
+msgstr "Belize"
+
+msgid "be"
+msgstr "Belgia"
+
+msgid "bm"
+msgstr "Bermude"
+
+msgid "vr"
+msgstr "Brazilia"
+
+msgid "ca"
+msgstr "Canada"
+
+msgid "Caribbean"
+msgstr "Caraibe"
+
+msgid "ck"
+msgstr "Insulele Cook"
+
+msgid "cr"
+msgstr "Costa Rica"
+
+msgid "hr"
+msgstr "Croatia"
+
+msgid "cy"
+msgstr "Cipru"
+
+msgid "cz"
+msgstr "Republica Ceha"
+
+msgid "dk"
+msgstr "Danemarca"
+
+msgid "do"
+msgstr "Republica Dominicana "
+
+msgid "eg"
+msgstr "Egipt"
+
+msgid "sv"
+msgstr "El Salvador"
+
+msgid "fi"
+msgstr "Finlanda"
+
+msgid "fr"
+msgstr "Franta"
+
+msgid "de"
+msgstr "Germania"
+
+msgid "gb"
+msgstr "Marea Britanie"
+
+msgid "gr"
+msgstr "Grecia"
+
+msgid "gt"
+msgstr "Guatemala"
+
+msgid "hn"
+msgstr "Honduras"
+
+msgid "hk"
+msgstr "Hong Kong"
+
+msgid "hu"
+msgstr "Ungaria"
+
+msgid "in"
+msgstr "India"
+
+msgid "id"
+msgstr "Indonezia"
+
+msgid "is"
+msgstr "Islanda"
+
+msgid "ir"
+msgstr "Iran"
+
+msgid "ie"
+msgstr "Irlanda"
+
+msgid "il"
+msgstr "Israel"
+
+msgid "it"
+msgstr "Italia"
+
+msgid "jp"
+msgstr "Japonia"
+
+msgid "li"
+msgstr "Liechtenstein"
+
+msgid "lu"
+msgstr "Luxemburg"
+
+msgid "my"
+msgstr "Malaesia"
+
+msgid "mt"
+msgstr "Malta"
+
+msgid "mu"
+msgstr "Mauritius"
+
+msgid "mx"
+msgstr "Mexic"
+
+msgid "mc"
+msgstr "Monaco"
+
+msgid "ma"
+msgstr "Maroc"
+
+msgid "np"
+msgstr "Nepal"
+
+msgid "nl"
+msgstr "Olanda"
+
+msgid "nz"
+msgstr "Noua Zeelanda"
+
+msgid "no"
+msgstr "Norvegia"
+
+msgid "pl"
+msgstr "Polonia"
+
+msgid "pt"
+msgstr "Portugalia"
+
+msgid "ru"
+msgstr "Rusia"
+
+msgid "sg"
+msgstr "Singapore"
+
+msgid "sk"
+msgstr "Slovacia"
+
+msgid "si"
+msgstr "Slovenia"
+
+msgid "za"
+msgstr "Africa de Sud"
+
+msgid "es"
+msgstr "Spania"
+
+msgid "lk"
+msgstr "Sri Lanka"
+
+msgid "se"
+msgstr "Suedia"
+
+msgid "ch"
+msgstr "Elvetia"
+
+msgid "th"
+msgstr "Thailanda"
+
+msgid "tn"
+msgstr "Tunisia"
+
+msgid "tr"
+msgstr "Turcia"
+
+msgid "ae"
+msgstr "Emiratele Arabe Unite"
+
+msgid "us"
+msgstr "SUA"
+
+msgid "ve"
+msgstr "Venezuela"
+
+msgid "vn"
+msgstr "Vietnam"
+
+msgid "Open_for_all_countries"
+msgstr "Deschis pentru toate tarile"
+
+msgid "eu"
+msgstr "Europa"
+
+msgid "usne"
+msgstr "SUA - Nord Est"
+
+msgid "usnw"
+msgstr "SUA Nord-Vest"
+
+msgid "usse"
+msgstr "SUA Sud -Est"
+
+msgid "ussw"
+msgstr "SUA Sud-Vest"
+
+msgid "oc"
+msgstr "Toate celelalte tari"
+
+msgid "all_countries"
+msgstr "Toate tarile"
+
+msgid "af"
+msgstr "Afganistan"
+
+msgid "ax"
+msgstr "Insulele Aland"
+
+msgid "al"
+msgstr "Albania"
+
+msgid "dz"
+msgstr "Algeria"
+
+msgid "as"
+msgstr " Samoa American"
+
+msgid "ao"
+msgstr "Angola"
+
+msgid "ai"
+msgstr "Anguilla"
+
+msgid "aq"
+msgstr "Antarctica"
+
+msgid "ag"
+msgstr "Antigua si  Barbuda"
+
+msgid "am"
+msgstr "Armenia"
+
+msgid "aw"
+msgstr "Aruba"
+
+msgid "az"
+msgstr "Azerbaidjan"
+
+msgid "bs"
+msgstr "Bahamas"
+
+msgid "bh"
+msgstr "Bahrein"
+
+msgid "bd"
+msgstr "Bangladesh"
+
+msgid "bb"
+msgstr "Barbados"
+
+msgid "by"
+msgstr "Bielorusia"
+
+msgid "bj"
+msgstr "Benin"
+
+msgid "bl"
+msgstr "St Bartolomeu"
+
+msgid "bt"
+msgstr "Bhutan"
+
+msgid "bo"
+msgstr "Bolivia"
+
+msgid "br"
+msgstr "Brazilia"
+
+msgid "ba"
+msgstr "Bosnia-Hertegovina"
+
+msgid "bw"
+msgstr "Botswana"
+
+msgid "bv"
+msgstr "Insula Bouvet"
+
+msgid "bn"
+msgstr "Brunei Darussalam"
+
+msgid "bg"
+msgstr "Bulgaria"
+
+msgid "bf"
+msgstr "Burkina Faso"
+
+msgid "bi"
+msgstr "Burundi"
+
+msgid "kh"
+msgstr "Cambogia"
+
+msgid "cm"
+msgstr "Camerun"
+
+msgid "cf"
+msgstr "Capul Verde"
+
+msgid "ky"
+msgstr "Insulele Cayman"
+
+msgid "cf"
+msgstr "Republica Africa Centala"
+
+msgid "td"
+msgstr "Ciad"
+
+msgid "cl"
+msgstr "Chile"
+
+msgid "cn"
+msgstr "China"
+
+msgid "cx"
+msgstr "Insula Craciunului"
+
+msgid "cc"
+msgstr " Insulele Cocos (Keeling)"
+
+msgid "co"
+msgstr "Columbia"
+
+msgid "km"
+msgstr "Comore"
+
+msgid "cd"
+msgstr "Republica Democrata Congo(Zair)"
+
+msgid "cg"
+msgstr "Congo"
+
+msgid "cu"
+msgstr "Cuba"
+
+msgid "cv"
+msgstr "Capul Verde"
+
+msgid "dj"
+msgstr "Djibuti"
+
+msgid "dm"
+msgstr "Dominica"
+
+msgid "tl"
+msgstr "Timorul de Est"
+
+msgid "ec"
+msgstr "Ecuador"
+
+msgid "gq"
+msgstr "Guineea Ecuatoriala"
+
+msgid "er"
+msgstr "Eritreea"
+
+msgid "ee"
+msgstr "Estonia"
+
+msgid "et"
+msgstr "Etiopia"
+
+msgid "fk"
+msgstr "Insulele Falkland "
+
+msgid "fo"
+msgstr "Insulele Feroe"
+
+msgid "fj"
+msgstr "Fiji"
+
+msgid "gf"
+msgstr "Guyana Franceza"
+
+msgid "ga"
+msgstr "Gabon"
+
+msgid "gm"
+msgstr "Gambia"
+
+msgid "ge"
+msgstr "Georgia"
+
+msgid "gg"
+msgstr "Guernsey"
+
+msgid "gs"
+msgstr "Georgia de Sud /Insulele Sandwich "
+
+msgid "gh"
+msgstr "Ghana"
+
+msgid "gi"
+msgstr "Gibraltar"
+
+msgid "gl"
+msgstr "Groenlanda"
+
+msgid "gd"
+msgstr "Grenada"
+
+msgid "gp"
+msgstr "Guadelupa"
+
+msgid "gu"
+msgstr "Guam"
+
+msgid "gn"
+msgstr "Guineea"
+
+msgid "gw"
+msgstr "Guineea Bissau"
+
+msgid "gy"
+msgstr "Guyana"
+
+msgid "ht"
+msgstr "Haiti"
+
+msgid "im"
+msgstr "Insula Man"
+
+msgid "io"
+msgstr "Teritoriul Britanic al Oceanului Indian"
+
+msgid "iq"
+msgstr "Iraq"
+
+msgid "ci"
+msgstr "Coasta de Fildes"
+
+msgid "jm"
+msgstr "Jamaica"
+
+msgid "je"
+msgstr "Jersey"
+
+msgid "jo"
+msgstr "Iordania"
+
+msgid "kz"
+msgstr "Kazahstan"
+
+msgid "ke"
+msgstr "Kenia"
+
+msgid "ki"
+msgstr "Kiribati"
+
+msgid "kw"
+msgstr "Kuweiit"
+
+msgid "kg"
+msgstr " Republica Kirghiza"
+
+msgid "kn"
+msgstr "Saint Kitts şi Nevis"
+
+msgid "kp"
+msgstr "Coreea de Nord"
+
+msgid "la"
+msgstr "Laos"
+
+msgid "lv"
+msgstr "Letonia"
+
+msgid "lb"
+msgstr "Liban"
+
+msgid "ls"
+msgstr "Lesotho"
+
+msgid "lr"
+msgstr "Liberia"
+
+msgid "ly"
+msgstr "Libia"
+
+msgid "lt"
+msgstr "Lituania"
+
+msgid "mo"
+msgstr "Macao"
+
+msgid "mk"
+msgstr "Macedonia"
+
+msgid "mg"
+msgstr "Madagascar"
+
+msgid "mw"
+msgstr "Malawi"
+
+msgid "mv"
+msgstr "Maldive"
+
+msgid "ml"
+msgstr "Mali"
+
+msgid "mh"
+msgstr "Insulele Marshall"
+
+msgid "mq"
+msgstr "Martinica"
+
+msgid "mr"
+msgstr "Mauritania"
+
+msgid "yt"
+msgstr "Mayotte"
+
+msgid "fm"
+msgstr "Micronezia"
+
+msgid "md"
+msgstr "Moldova"
+
+msgid "mf"
+msgstr "Saint  Martin"
+
+msgid "mn"
+msgstr "Mongolia"
+
+msgid "ms"
+msgstr "Montserrat"
+
+msgid "mz"
+msgstr "Mozambic"
+
+msgid "mm"
+msgstr "Myanmar"
+
+msgid "mp"
+msgstr "Insulele Mariane de Nord"
+
+msgid "na"
+msgstr "Namibia"
+
+msgid "nr"
+msgstr "Nauru"
+
+msgid "an"
+msgstr "Antilele Olandeze"
+
+msgid "nc"
+msgstr "Noua Caledonie"
+
+msgid "ni"
+msgstr "Nicaragua"
+
+msgid "ne"
+msgstr "Nepal"
+
+msgid "ng"
+msgstr "Nigeria"
+
+msgid "nu"
+msgstr "Niue"
+
+msgid "nf"
+msgstr "Insulele Norfolk"
+
+msgid "om"
+msgstr "Oman"
+
+msgid "pk"
+msgstr "Pakistan"
+
+msgid "pw"
+msgstr "Palau"
+
+msgid "pa"
+msgstr "Panama"
+
+msgid "pm"
+msgstr "Saint Pierre şi Miquelon"
+
+msgid "pn"
+msgstr "Insulele Pitcairn"
+
+msgid "ps"
+msgstr "Teritoriul Palestinian"
+
+msgid "pg"
+msgstr "Papua Noua Guinee"
+
+msgid "py"
+msgstr "Paraguay"
+
+msgid "pe"
+msgstr "Peru"
+
+msgid "ph"
+msgstr "Philippine"
+
+msgid "pf"
+msgstr "Polinezia"
+
+msgid "pr"
+msgstr "Puerto Rico"
+
+msgid "qa"
+msgstr "Qatar"
+
+msgid "me"
+msgstr "Republica Muntenegru"
+
+msgid "rs"
+msgstr "Republica Serbia"
+
+msgid "re"
+msgstr "Reunion"
+
+msgid "ro"
+msgstr "Romania"
+
+msgid "rw"
+msgstr "Ruanda"
+
+msgid "sh"
+msgstr "Sf Elena"
+
+msgid "lc"
+msgstr "Sf Lucia"
+
+msgid "ws"
+msgstr "Samoa"
+
+msgid "sm"
+msgstr "San Marino"
+
+msgid "sa"
+msgstr "Arabia Saudita"
+
+msgid "sn"
+msgstr "Senegal"
+
+msgid "sc"
+msgstr "Seychelle"
+
+msgid "sl"
+msgstr "Sierra Leone"
+
+msgid "st"
+msgstr "Sao Tome si Principe"
+
+msgid "sb"
+msgstr "Insulele Solomon "
+
+msgid "so"
+msgstr "Somalia"
+
+msgid "kr"
+msgstr "Coreea de Sud"
+
+msgid "sd"
+msgstr "Sudan"
+
+msgid "sr"
+msgstr "Surinam"
+
+msgid "sj"
+msgstr "Insulele Svalbard şi Jan Mayen"
+
+msgid "sz"
+msgstr "Swaziland"
+
+msgid "sy"
+msgstr "Siria"
+
+msgid "tc"
+msgstr "Insulele Turks şi Caicos"
+
+msgid "tf"
+msgstr "Teritoriile Franceze Australe"
+
+msgid "tj"
+msgstr "Tadjikistan"
+
+msgid "tw"
+msgstr "Taiwan"
+
+msgid "tz"
+msgstr "Tanzania"
+
+msgid "tg"
+msgstr "Togo"
+
+msgid "tk"
+msgstr "Tokelau"
+
+msgid "to"
+msgstr "Tonga"
+
+msgid "tt"
+msgstr "Trinidad  si Tobago"
+
+msgid "tm"
+msgstr "Turkmenistan"
+
+msgid "tv"
+msgstr "Tuvalu"
+
+msgid "ug"
+msgstr "Uganda"
+
+msgid "ua"
+msgstr "Ucraina"
+
+msgid "um"
+msgstr "Insulele Îndepărtate ale Statelor Unite"
+
+msgid "uy"
+msgstr "Uruguay"
+
+msgid "uz"
+msgstr "Uzbekistan"
+
+msgid "va"
+msgstr "Statul Vatican"
+
+msgid "vc"
+msgstr "Saint Vincent/Grenadine"
+
+msgid "vu"
+msgstr "Vanuatu"
+
+msgid "vg"
+msgstr "Insulele Virgine (Marea Britanie)"
+
+msgid "vi"
+msgstr "Insulele Virgine 5SUA)"
+
+msgid "wf"
+msgstr "Wallis si Futuna"
+
+msgid "eh"
+msgstr " Sahara de Vest"
+
+msgid "ye"
+msgstr "Yemen"
+
+msgid "-x- Zaire"
+msgstr "Zair"
+
+msgid "zm"
+msgstr "Zambia"
+
+msgid "zw"
+msgstr "Zimbabwe"
+
+msgid "o"
+msgstr "Toate tarile"
+

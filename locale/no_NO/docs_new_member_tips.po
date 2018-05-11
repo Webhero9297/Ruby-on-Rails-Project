@@ -1,0 +1,112 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,7,-1,-1\n"
+
+# --- English text = Tips for New Members
+msgid "page.headline"
+msgstr "Tips for nye medlemmer. "
+
+# --- English text = If you are an experienced exchanger and have suggestions for improving this text, please send us a web feedback and use the category: Member Documents.
+msgid "page.ee_suggestions"
+msgstr "Om du er en erfaren bolibytter og har forslag for å gjøre denne teksten bedre, vær snill å send oss tilbakemelding og bruk kategorien: Member Documents."
+
+# --- English text = Setting Up Your Listing
+msgid "set_up_your_listing.headline"
+msgstr "Lag din Oppføring"
+
+# --- English text = As soon as you have completed the registration process you can log-in to your intervac listing and begin setting it up.  It is important to repeat that until you have actually finished filling in your listing, it remains invisible to other members.  So, let's do that...
+msgid "set_up_your_listing.introtext"
+msgstr "Så snart som du har gjort ferdig registreringsprosessen kan du logge inn til din Intervac oppføring, og begynne å sette denne opp. Det er viktig for oss å minne deg på om at inntil du har gjort ferdig utfyllingen av oppføringen din, så er den usynlig for andre medlemmer. Så da er det bare å sette i gang... "
+
+# --- English text = After you have logged in, on the member home page, in the left-hand column just underneath the orange navigation box you will see a set of links titled \"My Listing\".  Begin by clicking on \"Edit My Listing\"
+msgid "set_up_your_listing.list_go_login"
+msgstr "Så snart du har logget inn på medlemssiden, vil du på venstresiden rett under en orange navigasjonsboksen finne en link som sier \"My Listing\". Begynn med p klikke på \"Edit My Listing\"After you have logged in, on the member home page, in the left-hand column just underneath the orange navigation box you will see a set of links titled \"My Listing\".  Begin by clicking on \"Edit My Listing\""
+
+# --- English text = Fill in the form with your desired travel dates, information about your family, your home, and your surroundings.  Don't forget to save your changes by clicking the orange button at the top, or the bottom of the page.
+msgid "set_up_your_listing.list_edit_listing"
+msgstr "Fyll inn skjemaet med dine ønskede resedatoer, informasjon om din familie, ditt hjem og omgivelsene rundt der du bor. Husk å \"save\" etter at du har gjort dine endringer ved å klikke på den orange knappen øverst eller nederst på siden. "
+
+# --- English text = Your Destinations Wishlist
+msgid "set_up_your_listing.destinations_wishlist_headline"
+msgstr "Din ønskeliste for destinasjoner"
+
+# --- English text = Using the "My Listing" navigation click on "Destinations Wishlist" to begin to alert other members to your wish to visit their area.  By default "Open for All Countries" is chosen, but you can enter as many countries, regions, and cities as you like.  The more you choose, the better your chances of getting offers from people in those places using the Reverse Search to find potential exchange partners.
+msgid "set_up_your_listing.list_destinations_wishlist"
+msgstr "Bruk \"My Listing\" navigeringen ved å klikke på \"Destinations Wishlist\" for å varlse andre medlemmer om dine ønsker om å besøke deres områder. Som standard er \"Open for all countries\" , men du kan legge inn så mange land, byer eller regioner du ønsker. Jo mer du velger, dess større sjanse for å få tilbud fra folk på disse stedene som benytter seg av revers søk for å finne potensielle byttepartnere. "
+
+# --- English text = Place your Google Marker
+msgid "set_up_your_listing.google_marker_headline"
+msgstr "Plasser din Google markør"
+
+# --- English text = Using the "My Listing" navigation check the position of your Google Maps marker by clicking on the link "Place Google Marker".  If you are offering a second home, or want to use latitude and longitude to place the marker more exactly there are forms and instructions on this page for doing so.
+msgid "set_up_your_listing.list_gmap_marker"
+msgstr "Bruk \"My Listing\" og plasser din google markør der den hører hjemme ved å klikke \"Place Google Marker\".  Om du har en hytte eller et \"annet hjem\" eller om du vil benytte lengdegrad og breddegrad for å plassere markøren mer eksakt, så er det mulig. Du finner mer ut om dette ved å lese videre på siden.  "
+
+# --- English text = Additional Text and Photos
+msgid "set_up_your_listing.text_and_photos_headline"
+msgstr "Hovedtekst og foto"
+
+# --- English text = Take some time and look at other member's listings.  Then gather together photos of your home, your family and pets, your neighborhood, and your region.  Now you are ready to upload them and to write (unlimited) free text to fill in your listing. You can do both of these things by clicking on "Add Text and Photos" in the "My Listing" navigation.
+msgid "set_up_your_listing.list_additional_text_and_photos"
+msgstr "Bruk litt tid til å se på andre medlemmers oppføringer. Samle så sammen foto av ditt hjem, familien og kjæledyr, ditt nabolag eller regionen om du vil. Så er du klar til å laste dem opp og du kan skrive så mye tekst du selv ønsker for å fylle ut din oppføring. Du kan gjøre begge disse ting ved å klikke \"Add Text and Photos\" i \"My Listing\" navigasjonen. "
+
+# --- English text = Contacting Prospective Partners
+msgid "contact_partners.headline"
+msgstr "Kontakt Potensielle Partnere"
+
+# --- English text = Our messaging service allows you to send an inquiry by clicking on the "Send Email" link you will find on every listing.  You will automatically receive a copy of messages that you send through the Intervac online system.
+msgid "contact_partners.how_it_works"
+msgstr "Vårt beskjedsystem tillater deg å sende invitasjoner ved at du klikker \"Send Email\" linken som du vil finne på hver eneste oppføring når du er logget inn. Du automatisk få en kopi av beskjeden som du selv sendte gjennom vårt Intervac online system. "
+
+# --- English text = Logging in to answer your mail has advantages! You can compose unlimited templates for use and re-use when contacting new exchange partners, answering offers from other members, or during the agreement process.
+msgid "contact_partners.about_templates"
+msgstr "Ved å logge inn når du besvarer eposter får du flere fordeler! Du kan lage mange ulike maler for bruk eller gjenbruk ved kontakt med nye byttepartnere, besvarelser til medlemmer eller gjennom avtaleprosessen."
+
+# --- English text = For each holiday you are planning, compose a contact template introducing you and your family to potential exchange partners.  Include interesting information about your home and neighbourhood, and be sure to include the dates you are available for an exchange.
+msgid "contact_partners.contact_templates"
+msgstr "For hver ferie du planlegger, lag en mal som introduserer deg og din familie for potensielle byttepartnere. Ta med interessant informasjon om ditt hjem og ditt nabolag, og være sikker på å inkludere datoer for når ditt hjem er ledig for et bytte. "
+
+# --- English text = Prepare a couple of answer templates for replying easily to offers you receive.  Write one for offers that you are not interested in, and another one for offers that interest you but for dates when you already have an exchange, or are not available.  When you have received a message from another member, you can easily load one of these templates into the response box and edit/personalise the text for that response before sending.
+msgid "contact_partners.answer_templates"
+msgstr "Gjør klar et par maler for å gjøre en hurtig besvarelse på de tilbudene du mottar. Du kan skrive en for de byttene du ikke er interessert i, og en annen for de byttene som er interessante, men at du kanskje allerede har et bytte i den aktuelle datoen som er foreslått eller du på annen måte ikke er ledig. Når du får beskjeder fra andre medlemmer kan du  på den måten kjapt sende ut et svar med bare små endringer på. "
+
+# --- English text = You could also prepare a contact template for use in the initial agreement phase.  More tips about the Exchange Agreement can be found in the document: Reaching an Agreement.
+msgid "contact_partners.tips_for_exchange_agreement"
+msgstr "Du kan også gjøre klar en mal som du benytter for å gjøre en avtale om bytting. Mer tips om dette kan du finne i dokumentet: Reaching an Agreement."
+
+# --- English text = Gather Information For Your Exchange Partner
+msgid "gathering_information.headline"
+msgstr "Samle Informasjon til din Byttepartner"
+
+# --- English text = Visit your local Tourist Office and prepare an information pack with brochures from local museums, theatres and fun parks.  If your town doesn't have a tourist office, sometimes you can find these brochures in the lobby of a local hotel.
+msgid "gathering_information.information_pack"
+msgstr "Besøk din lokale turistinformasjon og gjør klar en informasjonspakke med brosjyrer og informasjon som kan være av interesse for de som besøker ditt område av Norge. Få med informasjon om festivaler, restauranter, museer, kino, svømmebasseng og ulike ting som kan være av interesse i ditt område. "
+
+# --- English text = Take some time to think about your community from a visitor's point of view.  Where is the local charm?  Collect a list of local restaurants, with information about the food and service. Add to that a list of grocery stores, and shopping centers.   One of the joys of home exchange is frequenting places that the locals do.
+msgid "gathering_information.local_charm"
+msgstr "Bruk litt tid på å tenke på hva som kan være interessant for en besøkende. Hva er spesielt sjarmerende med din by eller din region? Ta med en liste med butikker av ulike slag eller kjøpesenter. De fleste boligbyttere ønsker å oppleve det lokale der de bor ved boligbyttet. "
+
+# --- English text = Consider your home from your guest's point of view.  Are there simple improvements that could make it more comfortable?  Is everything in working order?
+msgid "gathering_information.consider_your_home"
+msgstr "Prøv å se ditt hjem fra dine gjesters syn. Er det enkle justeringer som kan gjøres for at dine gjester skal føle seg mer komfortable? Fungere alt som det skal i huset?"
+
+# --- English text = Contact your insurance companies for household insurance and for your car (if you are swapping cars) to make sure everything is adequately covered.
+msgid "gathering_information.insurance"
+msgstr "Husk å kontakte forsikringsselskapet før bytte slik at du er sikker på at alt er i orden før byttet skjer. Dette er også viktig hva angår bilforsikring om dere også har bilbytte. "
+
+# --- English text = Browse the internet and bookmark the homepage of your local cinema so your guests can find out what is playing during their visit.
+msgid "gathering_information.cinema"
+msgstr "Det kan være en ide å printe ut program for kino og teater i tiden du skal ha byttepartnere i ditt hjem."
+

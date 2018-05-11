@@ -1,0 +1,357 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-01-18 16:00+0200\n"
+"PO-Revision-Date: 2012-02-06 10:21+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Message Center
+msgid "submenu.headline"
+msgstr "Berichten"
+
+# --- English text = Inbox
+#, fuzzy
+msgid "submenu.inbox"
+msgstr "Inbox"
+
+# --- English text = Read waiting messages
+msgid "submenu.inbox_title"
+msgstr "Lees ontvangen berichten"
+
+# --- English text = Send new message
+msgid "submenu.send_new"
+msgstr "Verzend een nieuw bericht"
+
+# --- English text = Send a message to a member
+msgid "submenu.send_new_title"
+msgstr "Stuur een bericht naar een deelnemer."
+
+# --- English text = Sent Messages
+msgid "submenu.sent_messages"
+msgstr "Verzonden berichten"
+
+# --- English text = Look at messages you have sent
+msgid "submenu.sent_messages_title"
+msgstr "Bekijk verzonden berichten"
+
+# --- English text = Message Archive
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+#, fuzzy
+msgid "submenu.archive"
+msgstr "Archief"
+
+# --- English text = Look at messages in the archive
+msgid "submenu.archive_title"
+msgstr "Bekijk berichten in het archief"
+
+# --- English text = Administer Templates
+msgid "submenu.templates"
+msgstr "Beheer sjablonen"
+
+# --- English text = Write and save message templates.
+msgid "submenu.templates_title"
+msgstr "Schrijf en bewaar een berichtsjabloon"
+
+# --- English text = Create a Message Template
+msgid "templates.headline"
+msgstr "Creëer een berichtsjabloon"
+
+# --- English text = Create a Message Template
+msgid "templates.use_headline"
+msgstr "Gebruik een sjabloonbericht"
+
+# --- English text = The type of template I want to write is
+msgid "templates.intro_text"
+msgstr "Het type sjabloon dat ik wil schrijven is "
+
+# --- English text = Reply
+msgid "templates.reply_label"
+msgstr "Antwoord"
+
+# --- English text = Answer Template
+msgid "templates.answer_template"
+msgstr "Antwoord sjabloon"
+
+# --- English text = Contact Template
+msgid "templates.contact_template"
+msgstr "Contact sjabloon"
+
+# --- English text = Load
+msgid "templates.load"
+msgstr "laad op"
+
+# --- English text = Template Name
+msgid "templates.name"
+msgstr "Sjabloon naam"
+
+# --- English text = Message Subject
+msgid "templates.subject"
+msgstr "Onderwerp bericht"
+
+# --- English text = Save My Template
+msgid "templates.save_button"
+msgstr "Bewaar mijn sjabloon"
+
+# --- English text = Your template has been saved.
+msgid "templates.successful_save"
+msgstr "Je sjabloonbericht is bewaard"
+
+# --- English text = Delete this template
+msgid "templates.delete_template"
+msgstr "Verwijder dit sjabloon"
+
+# --- English text = Are you sure you want to delete this template?
+msgid "templates.confirm_delete"
+msgstr "Ben je zeker dat je dit sjabloon wil verwijderen?"
+
+# --- English text = Use a template
+msgid "templates.use_a_template"
+msgstr "Gebruik een sjabloon"
+
+# --- English text = Messages you have sent
+msgid "sent_messages.headline"
+msgstr "Berichten die je verstuurd hebt"
+
+# --- English text = Write a new message
+msgid "new_message.headline"
+msgstr "Maak een bericht"
+
+# --- English text = This member speaks
+# --- Example: "This member speaks German, French, English"
+# --- The system fills in the languages of the receiving member for you.
+msgid "new_message.language"
+msgstr "Deze deelnemer spreekt"
+
+# --- English text = This member does not accept rental offers
+# --- This message appears if the sending member has RO in his listing, and the receiving member has "No Rental Offers Accepted" in thiers.
+msgid "new_message.no_rental_accepted"
+msgstr "Dezeideelnemer aanvaardt geen aanbiedingen om te huren"
+
+# --- English text = Send Message
+msgid "new_message.send_button"
+msgstr "Verzend bericht"
+
+# --- English text = From
+msgid "from"
+msgstr "Van"
+
+# --- English text = To
+msgid "to"
+msgstr "Aan"
+
+# --- English text = Subject
+msgid "subject"
+msgstr "Onderwerp"
+
+# --- English text = create new
+msgid "templates.create_new"
+msgstr "Maak een nieuw bericht"
+
+# --- English text = You read this message on
+# --- Example:  You read this message on: 13 July, 2009
+msgid "message_received.message_read_on"
+msgstr "Je las dit bericht op"
+
+# --- English text = You have not read this message yet
+# --- For received messages
+msgid "message_received.message_not_read"
+msgstr "Je hebt dit bericht nog niet gelezen"
+
+# --- English text = Your message has not been read yet
+msgid "message_sent.not_read"
+msgstr "Je bericht werd nog niet gelezen"
+
+# --- English text = Sent on
+# --- Used to label a date when a message was sent.  Example: -- Sent on: 9 July, 2009
+msgid "sent_on"
+msgstr "Verstuurd op"
+
+# --- English text = Received on
+# --- Used to label a date when a message was sent.  Example: -- Received on: 9 July, 2009
+msgid "received_on"
+msgstr "Ontvangen op"
+
+# --- English text = This message has been answered on
+# --- Used to label a date when a message was answered.  Example: -- Ths message has been answered on: 9 July, 2009
+msgid "message_sent.answered_on"
+msgstr "Dit bericht werd beantwoord op"
+
+# --- English text = Your message has been read on
+# --- Used to label a date when a message was read.  Example: -- Your message has been read on: 9 July, 2009
+msgid "message_sent.read_on"
+msgstr "Je bericht werd gelezen op"
+
+# --- English text = Welcome to the Intervac In-House Messaging System.  Messages that you send here will never be lost in foreign spam filters again.  Because they are messages and not email you can login any time and from any internet connection to check for offers, or contact exchange partners.
+msgid "help_send_message.intro_text"
+msgstr "Welkom op de Interne Intervac Berichtendienst. De berichten die je verzendt zullen nooit verloren gaan via een of andere spamfilter. Aangezien het om berichten gaat en niet om e-mails kun je steeds inloggen en vanuit elke internetaansluiting  je aanbiedingen nakijken of contact opnemen met andere deelnemers."
+
+# --- English text = It's easy to send a message
+msgid "help_send_message.howto_headline"
+msgstr "Het is eenvoudig om een bericht te versturen"
+
+# --- English text = Click on the search button in the orange navigation.
+msgid "help_send_message.howto_step_1"
+msgstr "Klik op de zoektoets in de oranje navigatie"
+
+# --- English text = Do a search to find a possible exchange partner.
+msgid "help_send_message.howto_step_2"
+msgstr "Doe een zoekopdracht om een ruilpartner te vinden."
+
+# --- English text = While viewing the other member's listing click the button: Send Message.
+msgid "help_send_message.howto_step_3"
+msgstr "Terwijl je de aanbiedingen van andere deelnemers bekijkt, klik op : Verzend een bericht"
+
+# --- English text = Write a message to your prospective exchange partner.
+msgid "help_send_message.howto_step_4"
+msgstr "Schrijf een bericht naar de gewenste ruilpartner"
+
+# --- English text = Sorry, expired or invisible members can't use our messaging system.
+msgid "errors.expired_or_invisible"
+msgstr "Sorry, indien de deelname is afgelopen of leden niet zichtbaar zijn, kan men onze berichtendienst niet gebruiken."
+
+# --- English text = You haven't sent any messages yet.
+msgid "info.no_messages_sent_yet"
+msgstr "Je hebt nog geen bericht verstuurd."
+
+# --- English text = You haven't answerd any messages yet.
+msgid "info.no_messages_answered_yet"
+msgstr "Je hebt nog geen berichten beantwoord."
+
+# --- English text = Your message has been sent!
+msgid "info.message_sent"
+msgstr "Je bericht is verstuurd!"
+
+# --- English text = Please don't forget to include your answer.
+msgid "errors.forgotten_answer_text"
+msgstr "Vergeet je antwoord niet toe te voegen."
+
+# --- English text = Thank you, your answer has been sent.
+msgid "info.answer_sent"
+msgstr "Dank je, je antwoord is verstuurd."
+
+# --- English text = Message Templates
+msgid "edit_template.headline"
+msgstr "Berichten sjablonen"
+
+# --- English text = Edit an existing template
+msgid "edit_template.subhead"
+msgstr "Bewerk een bestaand sjabloon "
+
+# --- English text = Choose a template to edit
+msgid "edit_template.choose_template"
+msgstr "Kies een sjabloon om te bewerken"
+
+# --- English text = Do you really want to delete this message template?
+msgid "delete_template.confirm"
+msgstr "Ben je zeker dat je dit sjabloon wil verwijderen?"
+
+# --- English text = Answered Messages
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "answered_messages.headline"
+msgstr "Ontvangen Berichten(Archief)"
+
+# --- English text = Do you want to send a copy of this message to your email address?
+msgid "send_as_email"
+msgstr "Wens je een kopie van dit bericht te versturen naar je eigen email-adres?"
+
+# --- English text = Received Message
+msgid "received_message.headline"
+msgstr "Ontvangen bericht"
+
+# --- English text = Sent Message
+msgid "sent_message.headline"
+msgstr "Verstuur bericht"
+
+# --- English text = Messages for
+msgid "dashboard.for_label"
+msgstr "Bericht voor"
+
+# --- English text = Listing
+msgid "dashboard.listing_label"
+msgstr "Lijst"
+
+# --- English text = unanswered messages
+msgid "dashboard.unanswered_messages_label"
+msgstr "Onbeantwoorde berichten"
+
+# --- English text = has <highlight>{{count}}</highlight> unread messages
+# --- IMPORTANT => the placeholder {{count}} will be replaced with the number of unread messages.
+# --- IMPORTANT => If you want to have the number of unread messages in bold text be sure not to remove or translate the <highlight> or </highlight> tags.
+msgid "dashboard.unread_messages"
+msgstr "has <highlight>{{count}}</highlight> Niet-Gelezen Berichtern"
+
+# --- English text = This mail does not appear to have been answered. Are you sure you want to delete it?
+# --- Location = This message is shown to members when they want to delete an unanswered message.
+msgid "unanswered_messages.delete_warning"
+msgstr "Op dit mailtje is blijkbaar niet geantwoord. Wil je het echt verwijderen?"
+
+# --- English text = This mail does not appear to have been answered. Are you sure you want to delete it?
+# --- Location = This message is shown to members when they want to delete a message.
+msgid "answered_messages.delete_warning"
+msgstr "Weet je zeker dat je dit bericht wilt verwijderen?"
+
+# --- English text = Delete Message
+msgid "delete_message.alt_tag"
+msgstr "Verwijder dit bericht."
+
+# --- English text = Send a jpg, pdf, doc or docx as attachment
+# --- Location = Text at the add attachment box
+# (June, 2011 - New)
+msgid "new_message.attachment"
+msgstr "Stuur een jpg, doc, of docx als attachment."
+
+# --- English text = Sorry, this family has not yet decided to join Intervac as full members.  Until they do, contacting them is not possible.
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_to_trial_members"
+msgstr "Sorry, this family has not yet decided to join Intervac as full members.  Until they do, contacting them is not possible."
+
+# --- English text = Sorry, trial members are not allowed to contact other members. If you are ready to contact a member about an exchange, you can <link>click here</link> to pay for your membership.
+# --- IMPORTANT: Do not translate the text <link> or </link> and do not leave them away.  They make a link to the payment page of the text in the middle.
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_for_trial_members"
+msgstr "Sorry, trial members are not allowed to contact other members. If you are ready to contact a member about an exchange, you can <link>click here</link> to pay for your membership."
+
+# --- English Text = Sorry, only full members can read incoming messages.
+# --- (December, 2011 - New Text)
+msgid "errors.no_inbox_for_trial_members"
+msgstr "Sorry, alleen Volledige Deelnemers kunnen binnenkomende berichten lezen."
+
+# --- English text = Thank you, your message has been forwarded to our member with the listing {{member_id}}.  You will be able to access copies of your sent messages as well as read any replies you receive as soon as you have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_full"
+msgstr "Dank u, uw bericht is doorgestuurd naar onze Deelnemer {{member_id}}. Zodra u heeft betaald voor Volledige Deelname, krijgt u toegang tot al uw verzonden berichten, en kunt u de ontvangen antwoorden daarop lezen. "
+
+# --- English text = Thank you for replying to trial member: {{member_id}}. Your message has been saved in your sent box and an email notification has been sent to {{member_id}} informing them of a waiting reply. Please be patient, trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.reply_to_trial"
+msgstr "Dank u voor het verstuurde antwoord naar Test-Deelnemer: {{member_id}}. Uw bericht is opgeslagen in uw box Verzonden Berichten en er is een mailtje verstuurd naar {{member_id}} met de mededeling dat er een antwoord is binnengekomen. <p_break>Heb alstublieft even geduld, want Test-Deelnemers kunnen hun berichten niet lezen, totdat zij hebben betaald voor Volledige Deelname.</p_break>"
+
+# --- English text = Thank you, your message has been forwarded to the trial member with the listing {{member_id}}. Trial members can not read messages, but we have sent a notification email to let them know that they have a message from you waiting. The email includes a link to the public version of your listing. We appreciate your encouraging people experiencing Intervac for the first time with your offer of interest in an exchange with them.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- IMPORTANT: Do not translate the tags: <p_break> and </p_break>.  These give the illusion of three paragraphs instead of one for easier reading.
+# --- (December 2011 - New Text)
+msgid "message_sent.full_to_trial"
+msgstr "Dank u, uw bericht is doorgestuurd naar Test-Deelnemer {{member_id}}. <p_break>Test-Deelnemers kunnen hun berichten niet lezen, maar wij hebben een mailtje gestuurd met de mededeling dat er een bericht van u is binnegekomen. Dit mailtje bevat ook een link naar het publieke deel van uw listing-gegevens.</p_break> <p_break>Wij stellen het zeer op prijs, dat u deze mensen die Intervac voor de eerste maal beleven, aanmoedigt met uw bericht dat u mogelijk belangstelling heeft in een vakantieafspraak met hen.</p_break>"
+
+# --- English text = Thank you, your message has been stored in trial member {{member_id}}'s inbox. Please be patient for the reply, Intervac's messaging system is available for full members and trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_trial"
+msgstr "Dank u, uw bericht is opgeslagen in de Inbox van Test-Deelnemer {{member_id}}. Wacht alstublieft even geduldig op antwoord. Het Intervac-berichten systeem is beschikbaar voor Volledige Deelnemers. Test-Deelnemers kunnen hun berichten niet lezen, totdat zij hebben betaald voor Volledige Deelname.  "
+

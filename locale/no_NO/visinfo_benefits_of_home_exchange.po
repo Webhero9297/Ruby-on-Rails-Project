@@ -1,0 +1,111 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-07 18:17+0100\n"
+"PO-Revision-Date: 2011-11-26 21:06+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Benefits of Home Exchange
+# --- Location = Main headline
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Fordeler med Boligbytte"
+
+# --- English text = Promote international and cultural goodwill<br />You can make a difference!
+# --- (June 2011 - As Is - vtour_lifestyle.po => pullquote.promote_goodwill)
+msgid "promote_goodwill.headline"
+msgstr "Vi skal fremme internasjonal og kulturell goodwill"
+
+# --- English text = You can make a difference!
+# (June, 2011 - Split out - Reference - vtour_lifestyle.po => pullquote.promote_goodwill)
+msgid "promote_goodwill.subhead"
+msgstr "Du kan yte en forskjell!"
+
+# --- English text = Home exchange is the most authentic approach to living in a foreign country or culture. You find yourself immersed in your exchange partner's culture and lifestyle. The chances are excellent that you will meet their neighbours or friends. You will discover local stores, sights and flavour. This is a personalized and realistic travel experience that can't be beat.  Many exchange families remain friends long after their exchange, keeping up with each other's families per telephone and email.
+# (June 2011 - As Is (2 texts) =  vtour_lifestyle.po => more_reasons.pullquote + more_reasons.text)
+msgid "promote_goodwill.text"
+msgstr "Boligbytte er den mest autentiske måten å oppholde seg i et fremmed land på. Da får du virkelig oppleve kulturen i landet. Du vil oppleve at du fordyper deg i din boligbyttepartners kultur og livsstil. Det er store muligheter for at du vil møte deres naboer og venner. Du vil oppdage lokale butikker, severdigheter og det særpregede miljøet. Dette er en personlig og realistisk reiseopplevelse som ingen andre kan slå.  Bor du på et hotell, opplever du gjerne verden fra utsiden. Boligbytte gir deg anledning til aktive opplevelser i ditt nye miljø! Mange bytte-familier forblir dessuten venner lenge etter boligbyttet har funnet sted. De holder kontakt med hverandre og møtes gjerne igjen."
+
+# --- English text = Eliminate Hotel and Car Expenses
+# (June 2011 - As Is - vtour_why_exchange.po => eliminate_expenses.headline)
+msgid "eliminate_expenses.headline"
+msgstr "Bli kvitt hotell- og leiebilutgifter."
+
+# --- English text = Suddenly, any destination in the world is a lot more affordable!
+# (June 2011 - As Is - vtour_why_exchange.po => eliminate_expenses.pullquote)
+msgid "eliminate_expenses.subhead"
+msgstr "Plutselig har vi bedre råd til å nå et hvilket som helst reisemål i hele verden!"
+
+# --- English text = While exchanging there is no pressing reason for you to blow your budget on hotels or car rentals. Home exchange is the way that your family can afford to visit places you have only dreamed about.   Exchanging homes leaves your budget free to spring for special tours, dining or entertainment.
+# --- (June 2011) EDITED - Removed a sentence in the middle about having a kitchen to prepare family meals.
+# (June 2011 - Reference: vtour_why_exchange.po => eliminate_expenses.text )
+msgid "eliminate_expenses.text"
+msgstr "Med boligbytte er det ingen grunn til at du skal sprenge reisebudsjettet ditt på utgifter til hoteller og leiebil. Du får disponere et kjøkken utstyrt til å lage familiens måltider, så du trenger ikke gå til en restaurant for hvert måltid. På denne måten får din familie råd til å besøke steder du bare har drømt om. Ved bruk av boligbytte er det plass på reisebudsjettet til spesielle turer, middager ute eller underholdning."
+
+# --- English text = No More Expensive Charges For Extra Luggage
+# (June, 2011 - New)
+msgid "extra_luggage.headline"
+msgstr "Ingen Ekstra Utgift For Ekstra Bagasje"
+
+# --- English text = No need to lug three weeks worth of toys and games through a foreign airport.
+# (June 2011 - As Is - vtour_why_exchange.po => kids_and_pets.pullquote)
+msgid "extra_luggage.subhead"
+msgstr "Ingen grunn til å dra på leker og spill for tre uker gjennom utenlandske flyplasser."
+
+# --- English text = Go ahead, imagine your luggage from your last holiday.   Open it up, and remove all the stuff you took, because you might need it.  Now, dare to imagine this:  You are exchanging with a family in Sweden, and they have kids the same ages as yours.  Just as adults enjoy driving a holiday car, kids delight in a temporary toy exchange.  There will be something for everyone: a different "favorite coffee cup", different books to read at bedtime, movies you might not have seen or music you haven't heard.  These are all a part of your exchange partner's every day lifestyle and they are available for your use at your exchange partner's home.
+# (June 2011 - As Is - vtour_why_exchange.po => kids_and_pets.luggage_text)
+msgid "extra_luggage.text"
+msgstr "Gå i gang, tenk på all bagasjen du dro på da du sist var på ferie. Tenk på alt du tok med deg fordi du kanskje ville trenge det. Vel, tenk på dette: Du bytter med en familie i Sverige, og de har barn på samme alder som dine barn.  På samme måte som voksne liker å kjøre en ny fin bil i ferien, elsker barn å bytte til \"nye\" leker for en periode.  Det vil bli noe til alle: En annerledes  \"favoritt kaffekopp\", andre bøker som en kan ta med seg på senga, filmer du aldri har sett og selvsagt musikk du aldri har hørt.  Alt dette er vanlige deler av din boligbyttepartners daglige livsstil, og alt er tilgjengelig i det \"nye\" feriehjemmet."
+
+# --- English text = The Comfort of Living in a House
+# (June 2011 - As Is - vtour_why_exchange.po => comfort.headline)
+msgid "comfort.headline"
+msgstr "Det er behagelig å bo i et hus!"
+
+# --- English text = Let the kids play outside in the yard while you take a hot bath.
+# (June 2011 - As Is - vtour_why_exchange.po => comfort.pullquote)
+msgid "comfort.subhead"
+msgstr "La barna leke ute i hagen mens du tar et varmt bad."
+
+# --- English text = Come home after a hard day of shopping and sightseeing to the <italic>warmth of a friend's home</italic>.  Sit down in a comfortable chair, and put your feet up, you are on vacation. You have time and space enough for everyone.  You are not confined to a dinky hotel room with your whole family, nor do you need to run off to a restaurant or try to heat the baby's bottle in a bathroom sink.  Hang out instead and cook a family dinner together. Watch a movie, enjoy each other.  Slow down.  Take time. You've earned it.
+# --- MINOR EDIT => added <italic> and </italic> around the words "warmth of a friend's home" to make these words italic.
+# (June 2011 - MINOR EDIT - Reference: vtour_why_exchange.po => comfort.text)
+msgid "comfort.text"
+msgstr "Kom \"hjem\" etter en lang dag med shopping og sightseeing til kosen i en venns hjem.  Sett deg ned i en behagelig stol, legg bena opp og du er på ferie! Du har tid og det er rom nok til alle. Du er ikke lenket til et lite hotellrom med hele familien. Du trenger heller ikke løpe av sted til en restaurant, og trenger heller ikke varme babyens flaske i vasken på badet til et hotellrom. Nyt i stedet området du nå bor i, og lag familiemiddagen sammen.  Lei en film, gled dere sammen.  Slapp av. Ny tilværelsen - dette har du fortjent!"
+
+# --- English text = Security = Peace of Mind
+# --- MINOR EDIT - changed "=" to "and"
+# (June 2011 - AS IS - vtour_why_exchange.po => security.headline)
+msgid "security.headline"
+msgstr "Trygghet = Sjelefred"
+
+# --- English text = Your home is not empty, and the newspapers and mail are not piling up, the plants are watered, the lawn mowed.  The dog is still barking in the back yard and, even though you are happily touring Chateaux on the Loire, at home life appears to go on as usual.  Our members take excellent care of each other's property while vacationing.
+# --- MINOR EDIT => Removed last sentence about insurance company.
+# (June 2011 - Reference vtour_why_exchange.po => security.text)
+msgid "security.text"
+msgstr "Husk at hjemmet ditt står ikke tomt, så post og aviser hoper seg ikke opp. Plantene dine blir vannet, og plenen klippes.  Hunden trenger ingen kostbar kennel. Den ligger der ute i hagen som før selv om du er på ferie, kanskje på slottsferie ved elven Loire. Hjemme går livet som vanlig. Våre medlemmer tar vare på hverandres eiendommer på en utmerket måte i ferien.  Dessuten vil ditt forsikringsselskap være glad for at ditt hus er bebodd mens du er på ferie."
+
+# --- English text = Your pets remain in the comfort of their own homes.  No more expensive pet hotels, no more worrying whether the neighbor remembered to feed your fish.  Our members are happy to exchange pet-care as part of the deal and it is a relief to know that while you are away, your animals are well cared for. Neither humans nor animals will miss out on the petting and companionship that is a necessary part of life for animal lovers.
+# (June 2011 - MINOR EDITS - Reference: vtour_why_exchange.po => kids_and_pets.pets_text)
+msgid "security.pets_text"
+msgstr "Når våre medlemmer er på reise, blir kjæledyra hjemme. Ingen kostbare utgifter til kennelopphold, og ingen frykt for at naboen skal glemme å mate fiskene i akvariet.  Mange medlemmer blir nemlig enige om stell av dyr som en del av boligbytteavtalen.  Det er selvsagt en lettelse å vite at mens du er borte, får dyra dine godt stell, og selvsagt er det en del av ferien å bli kjent med dine nye venners kjæledegger. Hverken mennesker eller dyr vil være borte fra kosen og nærheten som er en viktig del av en dyreelskers liv."
+
+# --- English text = Home Exchanging is Planet Friendly
+# --- move_to: benefits of home exchange
+# (June 2011 - As Is - vtour_lifestyle.po => planet_friendly.headline)
+msgid "planet_friendly.headline"
+msgstr "Boligbytte er Økologisk ferie."
+
+# --- English text = In addition to creating a more authentic travel experiences, home exchange also takes pressure off the environment by reducing the need for new hotel and resort construction in heavily frequented international destinations. Home exchangers help local merchants by shopping in local markets and using local services. The increasing interest in home exchange is a natural outgrowth of the movement for responsible travel.
+# (June 2011 - As Is - vtour_lifestyle.po => planet_friendly.reduce_pressure_buy_locally_text)
+msgid "planet_friendly.text"
+msgstr "Vi tror at i tillegg til å skape mer autentiske reiseopplevelser, vil boligbytte også være en økologisk feriemåte ved at man reduserer presset når det gjelder bygging av nye hoteller og feriesteder på hyppig besøkte destinasjoner. Boligbytte utgjør en hjelp til lokale kjøpmenn fordi våre medlemmer handler på lokale markeder og benytter seg av lokale tjenester. Den økende interessen når det gjelder boligbytte er en naturlig følge av den internasjonale bevegelsen for ansvarlig reising."
+

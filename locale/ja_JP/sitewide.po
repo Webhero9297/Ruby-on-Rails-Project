@@ -1,0 +1,432 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-12-18 16:00+0200\n"
+"PO-Revision-Date: 2012-04-03 08:01+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# House types
+# --- English text = 1-story house
+msgid "house_types.A"
+msgstr "平屋"
+
+# House types
+# --- English text = House
+msgid "house_types.B"
+msgstr "家"
+
+# House types
+# --- English text = Flat
+msgid "house_types.C"
+msgstr "アパート/マンション"
+
+# House types
+# --- English text = Mobile Home: Caravan
+msgid "house_types.CA"
+msgstr "移動住宅；トレーラーハウス"
+
+# House types
+# --- English text = Holiday Home
+msgid "house_types.D"
+msgstr "別荘"
+
+# --- English text = Email
+msgid "labels.email"
+msgstr "メール"
+
+# --- English text = Click here for help
+msgid "click_here_for_help"
+msgstr "ヘルプはここをクリックする"
+
+# --- English text = Click for information
+msgid "click_for_information"
+msgstr "情報のためのクリック"
+
+# --- English text = -- Please select one --
+msgid "select_one"
+msgstr "-- 一つ選択してください --"
+
+# --- English text = -- Select from left --
+msgid "select_left"
+msgstr "-- 左から選択する --"
+
+# --- English text = No photo available
+msgid "no_photo"
+msgstr "写真なし"
+
+# Environment
+# --- English text = In the country
+msgid "environment.r"
+msgstr "田舎"
+
+# Envrionment
+# --- English text = In the suburbs
+msgid "environment.s"
+msgstr "郊外"
+
+# Environment
+# --- English text = In the city
+msgid "environment.u"
+msgstr "市内"
+
+# Environment
+# --- English text = In a small town
+msgid "environment.st"
+msgstr "小さい町中"
+
+# Environment
+# --- English text = In the mountains
+msgid "environment.mn"
+msgstr "山の中"
+
+# Environment
+# --- English text = At the seaside
+msgid "environment.ss"
+msgstr "海岸沿い"
+
+# --- English text = Baby
+msgid "baby"
+msgstr "赤ん坊"
+
+# --- English text = User has been updated
+msgid "users.user_updated"
+msgstr "ユーザーがアップデートしました。"
+
+# --- English text = Sorry, the owners of listing number {{expr}} do not have an active membership with Intervac at this time.
+# --- IMPORTANT : the phrase "{{expr}}" will be replaced dynamically with the member number that was searched.
+msgid "users.not_active"
+msgstr "残念ながら、登録ナンバー {{expr}} の方は現在インターバックの会員資格をもっておりません。"
+
+# --- English text = Sorry, {{member_number}} does not belong to you.
+# --- IMPORTANT : Please do not translate the phrase "{{member_number}}" it will be replaced dynamically.
+msgid "users.not_your_member_id"
+msgstr "残念ながら、 {{member_number}}はあなたのものではありません。"
+
+# --- English text = Sorry, we could not find any member for {{expr}}
+msgid "users.no_member_match"
+msgstr "残念ながら、 {{expr}}　のナンバーは見つけることができません。"
+
+# --- English text = Photo for listing
+msgid "photo_for_listing"
+msgstr "リスティング用の写真"
+
+# Direction
+# --- English text = North
+msgid "directions.N"
+msgstr "北"
+
+# Direction
+# --- English text = North-East
+msgid "directions.NE"
+msgstr "北東"
+
+# Direction
+# --- English text = East
+msgid "directions.E"
+msgstr "東"
+
+# Direction
+# --- English text = South-East
+msgid "directions.SE"
+msgstr "南東"
+
+# Direction
+# --- English text = South
+msgid "directions.S"
+msgstr "南"
+
+# Direction
+# --- English text = South-West
+msgid "directions.SW"
+msgstr "南東"
+
+# Direction
+# --- English text = West
+msgid "directions.W"
+msgstr "西"
+
+# Direction
+# --- English text = North-West
+msgid "directions.NW"
+msgstr "北西"
+
+# Lengthofstay
+# --- English text = day(s)
+msgid "timing.dy"
+msgstr "日数"
+
+# --- English text = month
+msgid "timing.mo"
+msgstr "月"
+
+# --- English text = week(s)
+msgid "timing.we"
+msgstr "週"
+
+# Timecomment
+# --- English text = Easter time
+msgid "timing.ET"
+msgstr "イースターの時期"
+
+# Timecomment
+# --- English text = Christmas time
+msgid "timing.CT"
+msgstr "クリスマスの時期"
+
+# Timecomment
+# --- English text = School holidays
+msgid "timing.SH"
+msgstr "学校休暇の時期"
+
+# Timecomment
+# --- English text = The period is flexible
+msgid "timing.x"
+msgstr "期間はフレキシブル"
+
+# --- English text = Offer is available
+msgid "offer_available"
+msgstr "オファーは可"
+
+# --- English text = available
+# (June 2011) - Used on the summary/edit listing page in the member's area as part of a sentence.
+msgid "available"
+msgstr "可能"
+
+# --- English text = Offer is not available
+msgid "offer_not_available"
+msgstr "オファーは不可能"
+
+# --- English text = not available
+msgid "not_available"
+msgstr "使用不可"
+
+# --- English text = click here
+msgid "click_here"
+msgstr "ここをクリックする"
+
+# --- English text = Mr.
+#, fuzzy
+msgid "greeting.mr"
+msgstr "Mr."
+
+# --- English text = Mrs.
+# Mrs. => a married woman
+#, fuzzy
+msgid "greeting.mrs"
+msgstr "Mrs."
+
+# --- English text = Ms.
+# Ms. => a woman, without marital status (could be married or un-married)
+#, fuzzy
+msgid "greeting.ms"
+msgstr "Ms."
+
+# --- English text = Miss
+# Miss => an un-married (usually young) woman.  Not often used these days.
+#, fuzzy
+msgid "greeting.miss"
+msgstr "Miss"
+
+# --- English text = Close Help
+# --- (button text for all help windows)
+msgid "button.close_help"
+msgstr "ヘルプボタン"
+
+# --- English text = System Information
+msgid "system_information.headline"
+msgstr "システム情報"
+
+# --- English text = No rental offers accepted
+msgid "no_rentals_accepted"
+msgstr "賃貸のオファーは受け入れられません"
+
+# --- English text = or
+msgid "or"
+msgstr "又は"
+
+# --- English text = and
+msgid "and"
+msgstr "そして"
+
+# --- English text = Date
+# --- This is used  when displaying a date that needs to be labeled, for instance a message.
+msgid "date"
+msgstr "日付"
+
+# --- English text = View
+msgid "dashboard.view_link"
+msgstr "眺望"
+
+# --- English text = Country
+msgid "country"
+msgstr "国"
+
+# --- English text = Countries
+# --- (June 2009) This label is hidden text
+msgid "countries"
+msgstr "国（複数）"
+
+# --- English text = -- Please select a country --
+msgid "select_country"
+msgstr "--国を選択してください --"
+
+# --- English text = Add Country
+msgid "add_country_button"
+msgstr "国を追加"
+
+# --- English text = Region
+msgid "region"
+msgstr "地域"
+
+# --- English text = -- Please select region --
+msgid "select_region"
+msgstr "-- 地域を選択してください --"
+
+# --- English text = Add Region
+msgid "add_region_button"
+msgstr "地域を追加"
+
+# --- English text = Nearest City
+msgid "nearest_city"
+msgstr "近接する市"
+
+# --- English text = -- Please select a city --
+msgid "select_city"
+msgstr "--市を選択してください --"
+
+# --- English text = Add City
+msgid "add_city_button"
+msgstr "市を追加する"
+
+# --- English text = Sorry, we were unable to find any active members in our database to match your search request.
+msgid "users.no_match"
+msgstr "残念ながらあなたの検索条件に合う会員をデーターベースの中から見つけることが出来ませんでした。"
+
+# --- English text = Year
+msgid "year"
+msgstr "年"
+
+# --- English text = This member has 11+ documented exchanges.
+msgid "rating.platinum"
+msgstr "この会員は１１回以上のエクスチェンジを実際に行っています。"
+
+# --- English text = This member has 6-10 documented exchanges.
+msgid "rating.gold"
+msgstr "この会員は６～１０回のエクスチェンジを実際に行っています。"
+
+# --- English text = This member has 3-5 documented exchanges.
+msgid "rating.silver"
+msgstr ".この会員は３～５回のエクスチェンジを実際に行っています。"
+
+# --- English text = This member has 1-2 documented exchanges.
+msgid "rating.bronze"
+msgstr "この会員は１～２回のエクスチェンジを実際に行っています。"
+
+# --- English text = This member has no documented exchanges.
+msgid "rating.ready"
+msgstr "この会員はまだエクスチェンジを実際にしたことがありません。"
+
+# --- English text = Yes
+msgid "opinion.yes"
+msgstr "はい"
+
+# --- English text = No
+msgid "opinion.no"
+msgstr "いいえ"
+
+# --- English text = Undecided
+msgid "opinion.undecided"
+msgstr "決めていない"
+
+# --- English text = Many mobile devices do not support the use of rich text editors.  To make changes to this area, please use a desktop computer or laptop.
+# --- Location = Only shown to members using a mobile device (ipad, ipod, etc) on Additional Text and Photos page and on Message Templates page.
+msgid "mobile.rich_text_editors_not_supported"
+msgstr "多くのｹｲﾀｲのデバイスではリッチテキストエディター.が使えません。この部分を変更するにはデスクトップ・コンピューターかラップトップを使用してください。"
+
+# --- English text = North America
+msgid "continents.north_america"
+msgstr "北アメリカ"
+
+# --- English text = South America
+msgid "continents.south_america"
+msgstr "南アメリカ"
+
+# --- English text = Asia
+msgid "continents.asia"
+msgstr "アジア"
+
+# --- English text = Africa
+msgid "continents.africa"
+msgstr "アフリカ"
+
+# --- English text = Oceania
+msgid "continents.oceania"
+msgstr "オセアニア"
+
+# --- English text = Europe
+msgid "continents.europe"
+msgstr "ヨーロッパ"
+
+# --- WEB FEEDBACK ---
+# --- English Text = Web feedback form
+# --- Location => Footer and visitors info pages
+# (June 2011)
+msgid "feedback.link_text"
+msgstr "ウエブ・フィードバック"
+
+# --- English Text = We want to hear from you!
+# --- Location => visitors info pages
+# (June 2011)
+msgid "feedback.headline"
+msgstr "あなたからの便りを待っています！"
+
+# --- English Text = Fill out our web feedback form
+# --- Location => Footer and visitors info pages
+# => link titles are mouseover text
+# (June 2011)
+msgid "feedback.link_title"
+msgstr "ウエブ・フィードバック・フォームを埋めてください。"
+
+# --- English text = {{number}} Day Trial Account
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (Last updated: November, 2011)
+msgid "trial_account.headline"
+msgstr "{{number}}日間体験口座"
+
+# --- English text = Sign up
+# (New - November, 2011)
+msgid "application_button.sign_up"
+msgstr "入会する"
+
+# --- English text = Expires after {{number}} days
+# (New - November, 2011)
+msgid "trial_membership.fine_print"
+msgstr " {{number}} 日後に会員資格は無効になります。"
+
+# --- English text = Renew your membership
+# --- Location =
+# (New: October, 2011)
+msgid "renew_box.headline"
+msgstr "会員資格を更新する"
+
+# --- English text = <link>Click here to choose your membership options.</link>
+# --- IMPORTANT:  Do not remove or translate <link> and </link>.  The system will automatically turn the text in between these tags into a link to the "Choose Membership Options" page of the payment process.
+# --- (December 2011 - New Text)
+#, fuzzy
+msgid "trial_membership.link_to_membership_options"
+msgstr "<link>Click here to choose your membership options.</link>"
+
+# --- English text = Delete
+# --- Location = 
+# (New: November, 2011)
+#, fuzzy
+msgid "command.delete"
+msgstr "Delete"

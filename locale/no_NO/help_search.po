@@ -1,0 +1,150 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-11-03 19:11+0100\n"
+"PO-Revision-Date: 2011-11-27 00:38+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Search Criteria
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.headline"
+msgstr "Søke kriterier"
+
+# --- English text = About Exchange Types
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.headline"
+msgstr "Om Ulike Byttekategorier"
+
+# --- English text = Exchange types are evaluated as follows: any listing returned will fulfill your other criteria <highlight>and</highlight> at least one of the exchange types you have chosen below.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.evaluation_rules"
+msgstr "Byttekategorier er sortert som følger: Enhver oppføring som fyller dine andre kriterier<highlight>og</highlight> minst et av byttene du har valgt under."
+
+# --- English text = Following is a list of all the exchange types supported by our online system, and their definitions.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.list_intro"
+msgstr "Følgende er en liste av alle byttekategoriene som støttes av vårt online system og definisjoner. "
+
+# --- English text = <highlight>Home Exchange: </highlight>Our main focus - two families agree to live in each other's homes over a specified period of time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.home_exchange"
+msgstr "<highlight>Boligbytte: </highlight> Vårt hovedfokus - To familier blir enige om å bo i hverandres hjem over en viss periode."
+
+# --- English text = <highlight>House Sitting: </highlight>Looking after someone else's home, mail, pets while they are away.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.house_sitting"
+msgstr "<highlight>Huspass: </highlight>Å passe andres hus, post og kjæledyr mens de er bortreist en periode."
+
+# --- English text = <highlight>Double Exchange: </highlight>Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.double_exchange"
+msgstr "<highlight>Dobbelt bytte: </highlight>To familier som ofte bor nært hverandre leter etter bytte med to familier. Denne kategorien bytte er en favoritt når naboer eller store familier ønsker å feriere sammen."
+
+# --- English text = <highlight>Hospitality Exchange: </highlight>Members agree to exchange visits in each other’s homes.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.hospitality_exchange"
+msgstr "<highlight>Gjestfrihet: </highlight>Medlemmer velger å besøke hverandre i deres hjem."
+
+# --- English text = <highlight>Long Term Exchanges: </highlight>A favorite between retired people, university staff, or employees of global multi-national companies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.long_term_exchanges"
+msgstr "<highlight>Langtidsbytte: </highlight>En favoritt blant pensjonister, universitetsansatte eller ansatte i multinasjonale bedrifter."
+
+# --- English text = <highlight>Bed and Breakfast: </highlight>This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.bed_and_breakfast"
+msgstr "<highlight>Bed and Breakfast: </highlight>Dette er det samme som det velkjente offentlige tilbudet, men her tilbys det mellom medlemmer uten at man tar betalt for tjenesten."
+
+# --- English text = <highlight>Rentals: </highlight>Members sometimes list holiday homes which they usually rent offering a reduced price to Intervac members.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.rentals"
+msgstr "<highlight>Utleie: </highlight>Medlemmer ønsker noen ganger å leie ut sin feriebolig som de vanligvis leier ut til redusert pris for Intervac medlemmer."
+
+# --- English text = <highlight>Youth Exchange:  </highlight>A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_exchange"
+msgstr "<highlight>Ungdomsbytte:  </highlight>En mulighet for unge mennesker å lære om nye kulturer uten av deres foreldre henger rundt dem hele tiden."
+
+# --- English text = <highlight>Youth Hospitality: </highlight>Young people agree to visit each other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_hospitality"
+msgstr "<highlight>Ungdoms gjestfrihet: </highlight>Unge mennesker velger å besøke hverandre."
+
+# --- English text = About Exchange Dates
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.headline"
+msgstr "Om Bytte Datoer"
+
+# --- English text = Exchange dates require at least one overlapping day in order to be included in your search results.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.evaluation_rules"
+msgstr "Byttedatoer krever minst en overlappende dag for å bli tatt med i ditt søkeresultat."
+
+# --- English text = In these fields you should show the earliest date you are available to travel, and the latest date by which you must return home.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.best_practice"
+msgstr "I dette feltet skal du vise din tidligste dato som du er klar til å reise, og den seneste datoen du må reise hjem."
+
+# --- English text = About Sleeping Accomodations
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.headline"
+msgstr "Om Sovemuligheter"
+
+# --- English text = Sleeping accomodations is evaluated as an <highlight>and</highlight> condition to your other search criteria.  This means any listing returned will have your other criteria <highlight>and</highlight> fulfill the ones below as well.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.evaluation_rules"
+msgstr "Sovemuligheter er sortert som en <highlight>og</highlight>mulighte til dine søkekriterier. Med det menes at enhver oppføring som du får tilbake vil ha dine andre kriterier <highlight>og</highlight>oppfylle dette i tillegg."
+
+# --- English text = <highlight>Sleeping/People</highlight> This refers to the number of people who can sleep in an exchange home.  It includes beds, pull-out sofas, etc.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.sleeps_people"
+msgstr "<highlight>Overnatting/mennesker</highlight> Dette refererer til det antall mennesker som kan overnatte i bytteboligen. Det inkludrerer senger, sovesofa etc."
+
+# --- English text = <highlight>Find listings with -- adults </highlight> This is evaluated as an exact number.  So if you choose to search for listings with 2 adults, the system will not return listings with 1 adult.  If you do not want to use this criteria in your search just set the dropdown to the double dash (--).
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.number_of_adults"
+msgstr "<highlight>Finn oppføring med -- voksne</highlight> Dette sorterer med eksakt tall. Så om du velger å søke etter oppføringer med 2 voksne, systemet vil ikke hente tilbake oppføringer med 1 voksen. Om du ikke vil benytte dette kriteriet i ditt søk velger du bare å la det stå (--) i feltet."
+
+# --- English text = <highlight>With or without children </highlight>Choose the double dash (--) if you don't care one way or the other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.children"
+msgstr "<highlight>Med eller uten Barn </highlight>Velg (--) om dette ikke er viktig for deg."
+
+# --- English text = About Keyword Search
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.headline"
+msgstr "Om Søkeord"
+
+# --- English text = Keywords are the way to search within a member's free text.
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.introtext"
+msgstr "Søkeord gir deg muligheten til å søke i den frie teksten hos medlemmene."
+
+# --- English text = <highlight>How do they work?</highlight> Keywords are OR conditions.  A given listing will be returned if it contains the first keyword, OR the second one, OR the third one.</p>
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.evaluation_rules"
+msgstr "<highlight>Hvordan virker søkeordene?</highlight>Søkeord er ELLER forhold. En gitt oppføring vil bli returnert om den inneholder første søkeord ELLER det andre ELLER det tredje.</p>Keywords are OR conditions.  A given listing will be returned if it contains the first keyword, OR the second one, OR the third one.</p>"
+
+# --- English text = About Reverse Search
+# --- Location:
+msgid "reverse_search.headline"
+msgstr "Om Omvendt Søk"
+
+# --- English text = Introducing reverse search!  It's the best way to find other members who are specifically interested in visiting your country, your region or your nearest city.
+# --- Location:
+msgid "reverse_search.introtext"
+msgstr "Introduksjon av Omvendt søk! Det er den beste måten å finne andre medlemmer som er spesifikt interessert i å besøke ditt land, region eller nærmeste by."
+
+# --- English text = In the Destinations Wishlist you can enter an unlimited number of countries, regions and cities that you would like to visit. This search draws from that information and will return listings of members who have indicated in thier Destinations Wishlist that they would like to visit the same country, region, or nearest city as yours. The more you define your preferred destinations, the richer this feature will become for everyone.
+# --- Location:
+msgid "reverse_search.evaluation_rules"
+msgstr "I destinasjons ønskelisten kan du skrive ned ubegrensede antall land, regioner og byer som du har lyst til å besøke. Dette søket gjør det mulig for medlemmer tilhørende disse ulike land, regioner eller byer å finne deg. Jo flere land, regioner eller byer du har i din ønskeliste, dess større er sjansen for å få treff. "
+

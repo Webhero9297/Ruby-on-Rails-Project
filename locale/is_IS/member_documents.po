@@ -1,0 +1,83 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2010-06-29 18:17+0100\n"
+"PO-Revision-Date: 2011-09-01 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Tips and Checklists
+msgid "page.headline"
+msgstr "Ábendingar, niðurhal og gátlistar"
+
+# --- English text = Car Exchange Template
+msgid "car_exchange_template.headline"
+msgstr "Bílaskiptasamningar"
+
+# --- English text = Download a sample Car Exchange Agreement (.pdf)
+msgid "car_exchange_template.download_pdf"
+msgstr "Eintak af Bílaskiptasamningnum til niðurhals (.pdf)"
+
+# --- English text = Member Tips and HowTos
+msgid "tips_and_howtos.headline"
+msgstr "Ráð frá meðlimum og hollráð"
+
+# --- English text = Our <link>Tips for New Members</link> document contains some basic information about using the Intervac online system to find and secure exchanges all over the world, as well as great starter tips from our experienced members.
+msgid "tips_and_howtos.new_member_tips.introtext"
+msgstr "Okkar <link>ráð til nýrra meðlima</link>skjalið inniheldur nokkrar grunnupplýsingar um notkun Intervac vefsvæðisins til þess að finna örugg heimilaskipti um allan heim og um leið góð byrjendaráð frá þaulreyndum meðlimum okkar."
+
+# --- English text = Download Tips for New Members (.pdf)
+msgid "tips_and_howtos.new_member_tips.download_pdf"
+msgstr "Ráð fyrir nýja meðlimi til niðurhals (.pdf)"
+
+# --- English text = <link>About Exchange Agreements</link> will give you information about how to start the exchange agreement process, how it works, and suggestions for reaching a satisfactory agreement.
+msgid "tips_and_howtos.about_exchange_agreements.introtext"
+msgstr "<link>Um heimilaskiptasamninga</link> veitir þér upplýsingar um hvernig þú byrjar heimilaskiptasamninga ferlið, hvernig það virkar og tillögur að því sem gæti verið farsælt samkomulag."
+
+# --- English text = Download About Exchange Agreements (.pdf)
+msgid "tips_and_howtos.about_exchange_agreements.download_pdf"
+msgstr "Um heimilaskipta samninga til niðurhals (.pdf)"
+
+# --- English text = Checklists for a Successful Exchange
+msgid "checklists.headline"
+msgstr "Gátlisti fyrir vel heppnuð heimilaskipti"
+
+# --- English text = Below you will find links to our helpful checklists.  You can view these in your browser or download the pdf for printing at home.
+msgid "checklists.introtext"
+msgstr "Hér fyrir neðan finnur þú nytsamlega gátlista. Þú getur skoðað þá í vafranum þínum eða hlaðið niður sem pdf til útprentunar."
+
+# --- English text = download (.pdf)
+msgid "checklists.download_pdf"
+msgstr "niðurhal (.pdf)"
+
+# --- English text = view in browser
+msgid "checklists.browser_view"
+msgstr "skoða í vafra"
+
+# --- English text = Prepare for Guests
+msgid "checklists.prepare_for_guests_text"
+msgstr "Undirbúningur fyrir gesti"
+
+# --- English text = Before You Go Home
+msgid "checklists.before_you_go_home_text"
+msgstr "Áður en þú ferð heim"
+
+# --- English text = About Exchange Agreements
+msgid "documents.about_exchange_agreements.pdf_title"
+msgstr "Um heimilaskipta samninga"
+
+# --- English text = Tips for New Members
+msgid "documents.new_member_tips.pdf_title"
+msgstr "Hollráð til nýrra meðlima"
+
+# --- English text = About Exchange Agreements
+msgid "documents.car_exchange_template.pdf_title"
+msgstr "Bílaskiptasamningur"
+

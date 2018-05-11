@@ -1,0 +1,642 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2011-11-20 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Your Contact Information
+msgid "contact_info.headline"
+msgstr "Στοιχεία σας για επικοινωνία (ΛΑΤΙΝΙΚΑ ΓΡΑΜΜΑΤΑ)"
+
+# --- English text = Please note: All fields labeled with colored text are required and will return an error if not completed.
+msgid "required_fields"
+msgstr "Προσοχή: Απαιτείται συμπλήρωση όλων των πεδίων με έγχρωμο κείμενο και θα σας δοθεί μήνυμα λάθους αν δεν συμπληρωθούν."
+
+# --- English Text = Full Name <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.name"
+msgstr "Ονοματεπώνυμο <required>*</required>"
+
+# --- English text = First &amp; Last Name
+msgid "contact_info.name_reminder"
+msgstr "'Ονομα &amp; Επώνυμο "
+
+# --- English text = About your address
+msgid "contact_info.address"
+msgstr "Η διεύθυνσή σας"
+
+# --- English text = This is your primary (mailing) address.  The address where you are most likely to be should a member want to contact you.  This should not be the address of your holiday home.  If you are looking for a way to change the placement of the marker on the Google map so that it displays the location of your second home, you can go to:
+msgid "contact_info.help_address"
+msgstr "Αυτή είναι η βασική σας (ταχυδρομική) διεύθυνση. Είναι η διεύθυνση που θέλετε να χρησιμοποιήσουν άλλα μέλη για να σας στείλουν επιστολές. ΔΕΝ θα πρέπει να βάλετε τη διεύθυνση του εξοχικού σας αν δεν λαμβάνετε εκεί την αλληλογραφία σας. Αν ψάχνετε τον τρόπο να αλλάξετε το δείκτη στο συνοδευτικό χάρτη στο Google της καταχώρισής σας ώστε να δείχνει άλλη θέση αν βρίσκεται αλλού το σπίτι που προσφέρετε για ανταλλαγή, πηγαίνετε:"
+
+# --- English text = Street <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.street"
+msgstr "Οδός/Αριθ. <required>*</required>"
+
+# --- English text = City/Town <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.city"
+msgstr "Πόλη <required>*</required>"
+
+# --- English text = Postal Code
+msgid "contact_info.postal"
+msgstr "Ταχυδρομικός Κώδικας"
+
+# --- English text = State/Province
+msgid "contact_info.state"
+msgstr "Νομός"
+
+# --- English text = Telephone <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.telephone"
+msgstr "Τηλέφωνο <required>*</required>"
+
+# --- English text = Mobile Phone
+msgid "contact_info.mobile"
+msgstr "Κινητό τηλέφωνο"
+
+# --- English text = FAX
+msgid "contact_info.fax"
+msgstr "Φαξ"
+
+# --- English text = E-Mail <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.email"
+msgstr "Ηλεκτρονικό Ταχυδρομείο (e-mail) <required>*</required>"
+
+# --- English text = Second E-Mail
+msgid "contact_info.second_email"
+msgstr "2ο E-Mail"
+
+# --- English text = Your homepage
+# --- CHANGED FROM: Your homepage (if available) => TO: Your homepage (Dec. 2008)
+msgid "contact_info.homepage"
+msgstr "Η ιστοσελίδα σας (αν υπάρχει)"
+
+# --- English text = Skype
+msgid "contact_info.skype"
+msgstr "Skype "
+
+# --- English text = About Your Home
+msgid "home.headline"
+msgstr "Το Σπίτι σας"
+
+# --- English text = Tell potential partners about the property that you are offering for exchange.
+msgid "home.property_intro_text"
+msgstr "Πείτε στα άλλα μέλη που ίσως ενδιαφέρονται για το σπίτι που προσφέρετε"
+
+# --- English text = Please choose the country in which your property is located if you are offering a home or apartment which is NOT in the same country as your residence.
+msgid "home.property_country_text"
+msgstr "Παρακαλούμε επιλέξτε τη χώρα στην οποία βρίσκεται το σπίτι που προσφέρετε, αν είναι σε άλλη χώρα από αυτή που μένετε."
+
+# --- English text = Country of your exchange home <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.country_of_exchange_home"
+msgstr "Χώρα του σπιτιού της ανταλλαγής <required>*</required>"
+
+# --- English text = Property Location
+msgid "home.property_country"
+msgstr "Τοποθεσία σπιτιού της ανταλλαγής"
+
+# --- English text = My property lies <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.location"
+msgstr "Το σπίτι βρίσκεται <required>*</required>"
+
+# --- English text = Property is located
+msgid "home.envrionment"
+msgstr "Το σπίτι βρίσκεται"
+
+# --- English text = Nearest Airport
+msgid "home.nearest_airport"
+msgstr "Πλησιέστερο Αεροδρόμιο"
+
+# --- English text = Type of home
+msgid "home.house_type"
+msgstr "Είδος σπιτιού"
+
+# --- English text = Floor number
+msgid "home.floor_number"
+msgstr "Όροφος"
+
+# --- English text = Sleeping capacity for
+msgid "home.persons_suitable"
+msgstr "Το σπίτι χωράει"
+
+# --- English text = people
+msgid "home.people"
+msgstr "άτομα"
+
+# --- English text = Number of bedrooms
+msgid "home.bedrooms"
+msgstr "Υπνοδωμάτια"
+
+# --- English text = Number of bathrooms
+msgid "home.bathrooms"
+msgstr "Τουαλέτες"
+
+# --- English text = of
+msgid "home.location_of"
+msgstr "από"
+
+# --- English text = Property setting
+msgid "home.environment"
+msgstr "Περίγυρος κατοικίας"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.region"
+msgstr "Περιφέρεια <required>*</required>"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "show_listing.region"
+msgstr "Περιφέρεια"
+
+# --- English text = About Your Family
+msgid "family.headline"
+msgstr "Η Οικογένειά σας"
+
+# --- English text = Number of Adults
+msgid "family.adults"
+msgstr "Αριθμός ενηλίκων"
+
+# --- English text = Your occupation or profession <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "family.occupation"
+msgstr "Επάγγελμά σας (ΣΕ ΞΕΝΗ ΓΛΩΣΣΑ) <required>*</required>"
+
+# --- English text = Your son(s) age
+msgid "family.boys_ages"
+msgstr "Ηλικία αγοριών"
+
+# --- English text = Your daughter(s) age
+msgid "family.girls_ages"
+msgstr "Ηλικία κοριτσιών"
+
+# --- English text = How many exchanges have you completed?
+msgid "family.exchanges_made"
+msgstr "Πόσες ανταλλαγές έχετε κάνει;"
+
+# --- English text = text characters
+# --- CHANGED FROM: "text characters" => TO: "text characters allowed"  (Dec. 2008)
+msgid "character_limit"
+msgstr "επιτρέπονται χαρακτήρες κειμένου"
+
+# --- English text = Your Travel Timing Preferences
+msgid "timing.headline"
+msgstr "Οι προτιμήσεις σας για το χρόνο ταξιδιού"
+
+# --- English text = Enhance the description of your timing preferences.
+msgid "timing.comment_headline"
+msgstr "Πείτε περισσότερα για το χρόνο που προτιμάτε να γίνει η ανταλλαγή"
+
+# --- English text = Select the dates you are available for your next exchange.
+msgid "timing.intro_text"
+msgstr "Επιλέξτε τις ημερομηνίες που είστε διαθέσιμοι για την επόμενη ανταλλαγή."
+
+# --- English text = Earliest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.earliest_date"
+msgstr "Ημερομηνία έναρξης <required>*</required>"
+
+# --- English text = Latest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.latest_date"
+msgstr "Ημερομηνία λήξης <required>*</required>"
+
+# --- English text = Desired Length of Stay
+msgid "timing.vacation_length"
+msgstr "Επιθυμητή διάρκεια παραμονής"
+
+# --- English text = days
+msgid "timing.days"
+msgstr "μέρες"
+
+# --- English text = weeks
+msgid "timing.weeks"
+msgstr "βδομάδες"
+
+# --- English text = months
+msgid "timing.months"
+msgstr "μήνες"
+
+# --- English text = Optional text description
+msgid "timing.comment"
+msgstr "Προαιρετικό πρόσθετο κείμενο"
+
+# --- English text = Your Exchange Preferences
+msgid "exchange_types.headline"
+msgstr "Οι επιθυμίες σας για την ανταλλαγή"
+
+# --- English text = Types of Exchanges
+msgid "exchange_types.exchanges"
+msgstr "Είδη ανταλλαγών"
+
+# --- English text = Services Offered
+msgid "exchange_types.services"
+msgstr "Προσφερόμενες υπηρεσίες"
+
+# --- English text = Services Offered
+msgid "exchange_types.rental"
+msgstr "Rental Opportunities"
+
+# --- English text = Youth Exchange
+msgid "exchange_types.youth"
+msgstr "Ανταλλαγή νέων"
+
+# --- English text = Persons under 18 travelling alone
+msgid "exchange_types.under_18"
+msgstr "Άτομα κάτω των 18 ετών που ταξιδεύουν μόνα"
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Το Σπίτι σας και η περιοχή του"
+
+# --- English text = Your Home Has
+msgid "other_details.home_headline"
+msgstr "Το Σπίτι σας"
+
+# --- English text = You Offer
+msgid "other_details.offer_headline"
+msgstr "Η Προσφορά σας"
+
+# --- English text = Language for Correspondence
+msgid "contact_info.spoken_languages"
+msgstr "Γλώσσα αλληλογραφίας"
+
+# --- English text = Distances in km
+# --- Dec 2008 - New Text
+msgid "other_details.distances_headline"
+msgstr "Αποστάσεις σε χλμ"
+
+# --- English text = Your Region
+# --- Dec 2008 - New Text
+msgid "other_details.your_region_headline"
+msgstr "Η Περιοχή σας"
+
+# --- English text = Forest/Woods
+msgid "other_details.km_forest_woods"
+msgstr "δάσος"
+
+# --- English text = River
+msgid "other_details.km_river"
+msgstr "ποτάμι"
+
+# --- English text = Boating/Sailing
+msgid "other_details.km_boating"
+msgstr "κωπηλασία/ιστιοπλοϊα"
+
+# --- English text = Ocean/Sea
+msgid "other_details.km_ocean_sea"
+msgstr "θάλασσα"
+
+# --- English text = Shopping
+msgid "other_details.km_shopping"
+msgstr "αγορά για ψώνια"
+
+# --- English text =  Beach / Surfing
+msgid "other_details.km_beach"
+msgstr "παραλία/σέρφιν"
+
+# --- English text = Mountains
+msgid "other_details.km_mountains"
+msgstr "βουνό"
+
+# --- English text = Lake
+msgid "other_details.km_lake"
+msgstr "λίμνη"
+
+# --- English text = Golfing
+msgid "other_details.km_golf"
+msgstr "γκόλφ"
+
+# --- English text = Descriptive Phrase
+# --- (Dec 2008) This is being phased out - it's a left-over from catalogues, and is replaced by unlimited extra text.
+msgid "Descriptive Phrase"
+msgstr "Πρόσθετη περιγραφή"
+
+# --- Help Text : Name ---
+# --- English text = Fill in your name as you would like it to appear online. Please use both upper and lowercase letters.
+msgid "contact_info.help_name"
+msgstr "Συμπληρώστε το όνομά σας όπως θέλετε να εμφανίζεται στο Διαδίκτυο και στον Κατάλογο. Παρακαλούμε χρησιμοποιείστε κεφαλαία και πεζά ΚΑΙ ΜΟΝΟ ΛΑΤΙΝΙΚΑ ΓΡΑΜΜΑΤΑ (ΟΧΙ ΕΛΛΗΝΙΚΑ)."
+
+# --- Help Text : Street ---
+# --- English text = Please fill in your mailing address.
+msgid "contact_info.help_street"
+msgstr "Παρακαλούμε συμπληρώστε την ταχυδρομική σας διεύθυνση"
+
+# --- Help Text : City ---
+# --- English text = The city where you live. Your mailing address
+msgid "contact_info.help_city"
+msgstr "Η πόλη που ζείτε. Η ταχυδρομική σας διεύθυνση"
+
+# --- Help Text : Postal ---
+# --- English text = Your postal code.
+msgid "contact_info.help_postal"
+msgstr "Ο ταχυδρομικός σας κώδικας"
+
+# --- Help Text : State ---
+# --- English text = This field is not required! Please only use this if your mailing address requires the use of state or region.
+msgid "contact_info.help_state"
+msgstr "Το πεδίο αυτό δεν είναι αναγκαίο! Παρακαλούμε χρησιμοποιείστε το μόνο αν η ταχυδρομική σας διεύθυνση περιλαμβάνει Νομό ή Περιφέρεια."
+
+# --- Help Text : Telephone ---
+# --- English text = The country code for your country is already filled in.  Give the rest for your phone number in the correct form for calling from outside of your country. <strong>Only one telephone number is allowed.</strong>
+#, fuzzy
+msgid "contact_info.help_telephone"
+msgstr "The country code for your country is already filled in.  Give the rest for your phone number in the correct form for calling from outside of your country. <strong>Only one telephone number is allowed.</strong>"
+
+# --- Help Text : Mobile Phone ---
+# --- English text = Enter your mobile phone number here if you wish to be contacted by other members that way.
+msgid "contact_info.help_mobile"
+msgstr "Βάλτε εδώ το κινητό σας τηλέφωνο αν θέλετε να σας καλούν σε αυτό άλλα μέλη."
+
+# --- Help Text : Skype
+# --- English text = You can put your skype id in this field if you wish members to be able to contact you using this service.
+msgid "contact_info.help_skype"
+msgstr "Βάλτε εδώ το skype id σας αν θέλετε να σας καλούν σε αυτό άλλα μέλη."
+
+# --- Help Text : Fax
+# --- English text = The country code for your country is already filled in.  Give the rest for your FAX number in the correct form for calling from outside of your country. <strong>Only one FAX number is allowed</strong>.
+msgid "contact_info.help_fax"
+msgstr "Το πρόθεμα για τη χώρα σας έχει ήδη συμπληρωθεί. Συμπληρώστε το υπόλοιπο φαξ σας στη μορφή που πρέπει να έχει όταν σας καλούν από το εξωτερικό. <strong>Μόνο ένας αριθμός φαξ επιτρέπεται</strong>"
+
+# --- Help Text : E-mail
+# --- English text = Please enter here an email address you check often and where you would like to receive exchange offers from other members. <strong>Only one email address is allowed.</strong>
+msgid "contact_info.help_email"
+msgstr "Συμπληρώστε εδώ το e-mail που ελέγχετε συχνά και στο οποίο θέλετε να λαμβάνετε προτάσεις για ανταλλαγές. <strong>Μόνο μία διεύθυνση e-mail επιτρέπεται.</strong>"
+
+# --- Help Text : Second E-mail
+# --- English text = If you would like to enter a second email address here you will receive all mails sent from the Intervac online system, as well as forwarded messages at both addresses.
+msgid "contact_info.help_second_email"
+msgstr "Μπορείτε εδώ να βάλετε και δεύτερο email ώστε να λαμβάνετε και σε αυτό όλην την επικοινωνία από την Intervac."
+
+# --- Help Text : Homepage
+# --- English text = A homepage of your own is a good way to show prospective partners more about your family, home and region. If you do not have your own homepage, consider entering a webpage from your local tourist bureau.
+msgid "contact_info.help_homepage"
+msgstr "Μια προσωπική ιστοσελίδα είναι ένας καλός τρόπος για να σας γνωρίσουν καλύτερα άλλα μέλη. Αν δεν έχετε προσωπική ιστοσελίδα μπορείτε να βάλετε μία που να παρουσιάζει τον τόπο σας."
+
+# --- Help Text : Region
+# --- English text = Please select the region where your exchange home is located. // Please fill in the official region where your exchange home is located.
+msgid "home.help_region"
+msgstr "Παρακαλούμε επιλέξτε την Περιφέρεια όπου βρίσκεται το σπίτι που προσφέρετε. //Παρακαλούμε επιλέξτε την επίσημη Περιφέρεια όπου βρίσκεται το σπίτι που προσφέρετε."
+
+# --- Help Text : Nearest City
+# --- English text = How many kilometres lie between your exchange home and the nearest major city?  Please fill in the distance, direction and choose/fill in the nearest city here.
+msgid "home.help_location"
+msgstr "Σε πόσα χλμ. από το σπίτι που προσφέρετε είναι η πλησιέστερη μεγάλη πόλη; Συμπληρώστε την απόσταση, την κατεύθυνση και το όνομα της πλησιέστερης πόλης."
+
+# --- Help Text : Environment
+# --- English text = Choose urban if your exchange home is within the city limits of the nearest city you have chosen above.  Suburban is near to a major city, and rural is the correct choice if your exchange home is out in the country.
+msgid "home.help_environment"
+msgstr "Σε πόσα χλμ. από το σπίτι που προσφέρετε είναι η πλησιέστερη μεγάλη πόλη; Συμπληρώστε την απόσταση, την κατεύθυνση και το όνομα της πλησιέστερης πόλης."
+
+# --- Help Text : House Type
+# --- English text = What sort of structure is the home you are offering for exchange?  If this is your second or vacation home please choose accordingly.
+msgid "home.help_house_type"
+msgstr "Τι είδος είναι το σπίτι που προσφέρετε; Αν είναι δεύτερο σπίτι (π.χ. εξοχικό) επιλέξτε αναλόγως."
+
+# --- Help Text : Floor
+# --- This choice is offered for single structures housing more than one family, buildings or large homes with more than one apartment inside.
+msgid "home.help_floor_number"
+msgstr "Αυτή η επιλογή προσφέρεται για κατασκευές που στεγάζουν πάνω από μία οικογένειες. Κτίρια με άνω του ενός διαμερίσματα."
+
+# --- Help Text : People
+# --- English text = This refers to the number of people who could comfortably sleep in your home, not the number of people in your family.
+msgid "home.help_persons_suitable"
+msgstr "Η πληροφορία αναφέρεται στον αριθμό ατόμων που κοιμούνται άνετα στο σπίτι σας, ΟΧΙ στον αριθμό των ατόμων της οικογένειάς σας."
+
+# --- Help Text : Bedrooms
+# --- English text = How many bedrooms are there in your home or apartment?  A consideration slightly different than how many people can sleep comfortably in your home.
+msgid "home.help_bedrooms"
+msgstr "Πόσα υπνοδωμάτια έχει το σπίτι σας; (Δεν είναι το ίδιο με το πόσα άτομα μπορούν να κοιμηθούν στο σπίτι σας.)"
+
+# --- Help Text : Bathrooms
+# --- English text = How many bathrooms does your home or apartment have?
+msgid "home.help_bathrooms"
+msgstr "Πόσες τουαλέττες (μπάνια) έχει το σπίτι σας; "
+
+# --- Help Text : Number of Adults
+# --- English text = Choose 0 to indicate that you are looking for Youth Exchange only.
+msgid "family.help_adults"
+msgstr "Σημειώστε 0 αν ενδιαφέρεστε μόνο για Ανταλλαγές Νέων."
+
+# --- Help Text : Occupation
+# --- English text = Intervac started as home exchange between teachers.  What is your profession?
+msgid "family.help_occupation"
+msgstr "Η Intervac ξεκίνησε ως ανταλλαγές σπιτιών μεταξύ δασκάλων. Εσείς τι επάγγελμα κάνετε;"
+
+# --- Help Text : Ages of Sons
+# --- English text = Please use one dropdown to indicate the age of each of your sons.
+msgid "family.help_boys_ages"
+msgstr "Παρακαλούμε επιλέξτε ανάλογα για να σημειωθεί η ηλικία καθενός αγοριού σας."
+
+# --- Help Text : Ages of Daughters
+# --- English text = Please use one dropdown to indicate the age of each of your daughters.
+msgid "family.help_girls_ages"
+msgstr "Παρακαλούμε επιλέξτε ανάλογα για να σημειωθεί η ηλικία καθενός κοριτσιού σας."
+
+# --- Help Text : Number of past exchanges
+# --- English text = Are you an experienced exchanger, or new to the game? Please choose the number of exchanges has your family has made?
+msgid "family.help_exchanges_made"
+msgstr "Είστε έμπειρος στις ανταλλαγές ή νέος; Παρακαλούμε σημειώστε πόσες ανταλλαγές έχει κάνει η οικογένειά σας."
+
+# --- Help Text : Earliest Date
+# --- English text = This is the earliest date you and your family are available to make an exchange.
+msgid "timing.help_earliest_date"
+msgstr "Αυτή είναι η νωρίτερη ημερομηνία που διατίθεστε να κάνετε ανταλλαγή."
+
+# --- Help Text : Latest Date
+# --- English text = This is the latest date you and your family can be away from home.
+msgid "timing.help_latest_date"
+msgstr "Αυτή είναι η τελευταία ημερομηνία που μπορείτε να λείπετε από το σπίτι σας."
+
+# --- Help Text : Timing Comment
+# --- English text = Not July/August, or SH=School Holidays; ET=Easter; CT=Christmas holidays; x=Open to Other Periods
+msgid "timing.help_comment"
+msgstr "Όχι Ιούλιο/Αύγουστο. SH=Σχολικές Διακοπές. ΕΤ=Πάσχα. CT=Χριστούγεννα. x=Ανοιχτοί σε προτάσεις για άλλες περιόδους"
+
+# --- Help Text : Home Exchange
+# --- English text = You are flexible and willing to consider any offer that comes your way.
+msgid "exchange_types.help_O"
+msgstr "Είστε ευέλικτοι και θα εξετάσετε οποιαδήποτε προσφορά σας τύχει."
+
+# --- Help Text : Home Exchange
+# --- English text = The majority of our members prefer to exchange homes.  This is not only our most popular choice, but also the cornerstone of our success.
+msgid "exchange_types.help_X"
+msgstr "Η πλειοψήφία των μελών μας προτιμούν να ανταλλάσσουν σπίτια. Δεν είναι μόνο η δημοφιλέστερη επιλογή αλλά και ο θεμέλιος λίθος της επιτυχίας μας."
+
+# --- Help Text : Weekend Exchange
+# --- English text = Looking for a short get-away, then Weekend Exchange is a good choice.
+msgid "exchange_types.help_WE"
+msgstr "Αν θέλετε μια σύντομη \"απόδραση\", τότε η ανταλλαγή του Σαββατοκύριακου (Weekend Exchange) είναι μια καλή επιλογή."
+
+# --- Help Text : Double Exchange
+# --- English text = A double exchange consists of two families searching 2 separate homes which are situated near to one another.
+msgid "exchange_types.help_DX"
+msgstr "Στη διπλή ανταλλαγή δύο οικογένειες ψάχνουν δύο ξεχωριστά σπίτια κοντά το ένα στο άλλο."
+
+# --- Help Text : Hospitality Exchange
+# --- English text = Hospitality exchange means you invite a member to visit you in your home, and are invited to visit in return.
+msgid "exchange_types.help_XH"
+msgstr "Ανταλλαγή φιλοξενίας σημαίνει ότι καλείτε ένα ή περισσότερα μέλη να μείνουν μαζί σας στο σπίτι σας και στη συνέχεια γίνεται το ίδιο για εσάς."
+
+# --- Help Text : Long Term Exchange
+# --- English text = Long-term exchanges are generally 3 months or more in length.
+msgid "exchange_types.help_LX"
+msgstr "Οι μακροχρόνιες ανταλλαγές γενικώς διαρκούν 3 μήνες και πάνω."
+
+# --- English text : A non-simultaneuous exchange is when two parties make an exchange with two different dates.  This is comparable to an exchange of house-sitting services.  Let's say your family was attending a wedding away from home, and you will be staying with relatives.  Another family might be planning a weekend holiday, but were unable to find an exchange partner for a direct exchange.  You might agree to a non-simultaneous exchange whereby you stay in their home while they are away for the weekend, and they stay in your home while you are at the wedding.
+msgid "exchange_types.help_NX"
+msgstr "Μια μη ταυτόχρονη ανταλλαγή είναι όταν τα δύο μέρη ανταλλάσουν σπίτια σε δύο διαφορετικές περιόδους (ημερομηνίες). Αυτό είναι σαν να ανταλλάσετε φύλαξη σπιτιών. Ας πούμε ότι πάτε σε ένα γάμο σε άλλη πόλη και θα μείνετε σε συγγενείς. Μπορεί μια οικογένεια να έλθει στο σπίτι σας και εσείς να πάτε στο δικό τους κάποτε άλλοτε (είτε επειδή και εκείνοι θα λείπουν τότε είτε επειδή έχουν για παράδειγμα ένα δεύτερο σπίτι που θα είναι διαθέσιμο)."
+
+# --- Help Text : Youth Exchange
+# --- English text = Members who have checked this box are looking for a youth exchange.
+msgid "exchange_types.help_XY"
+msgstr "Μέλη που έχουν επιλέξει το κουτάκι αυτό αναζητούν να φιλοξενήσουν ννέους ενήλικες."
+
+# --- Help Text : Youth Hospitality
+# --- English text = Check this box if you are willing to host young adults as guests in your home.
+msgid "exchange_types.help_OY"
+msgstr "Επιλέξτε αυτό το κουτάκι αν επιθυμείτε να φιλοξενήσετε νέους ενήλικες στο σπίτι σας"
+
+# --- Help Text: Hospitality offered by a young person
+# --- English text = Check this box if you have a young adult in your family who would like to host visting youths.
+msgid "exchange_types.help_WY"
+msgstr "Επλέξτε το κουτάκι αν υπάρχει νέος ενήλικας στην οικογένεια και θα ήθελε να φιλοξενήσει νεαρούς επισκέπτες."
+
+# --- Help Text: Hospitality
+# --- English text = Hospitality is offered by members who have checked this box.
+msgid "exchange_types.help_H"
+msgstr "Μέλη που έχουν επιλέξει το κουτάκι αυτό προσφέρουν φιλοξενία."
+
+# --- Help Text : Offer home for house-sitting
+# --- English text = These members are searching a housesitter.  This option does not generally involve any payment.  This is ideal for when you must be away from home for a period of time, and would like for someone to pick up the mail, and feed the cat.
+msgid "exchange_types.help_AH"
+msgstr "Με την επιλογή αυτή γενικά δεν καταβάλλονται χρήματα. Είναι ιδανικό όταν πρόκειται να λείψετε καιρό και θα θέλατε κάποιος να παραλαμβάνει την αλληλογραφία να ταίζει τα κατοικίδια και να ποτίζει τα φυτά."
+
+# --- Help Text : Want to House-sit
+# --- English text = Choosing this option indicates a willingness to look after a home while the owners are away.  This usually includes picking up the mail, feeding pets and watering plants.
+msgid "exchange_types.help_HS"
+msgstr "Με την επιλογή αυτή δηλώνετε την επιθυμία σας να προσέχετε ένα σπίτι όταν λείπουν οι ιδιοκτήτες του. Συνήθως αυτό περλάμβάνει παραλαβή αλληλογραφίας, τάισμα κατοικίδιων και πότισμα φυτών."
+
+# --- Help Text : Hospitality Wanted
+# --- English text = Checking this box indicates that you are searching for a member willing to offer you hospitality.
+msgid "exchange_types.help_HW"
+msgstr "Αν επιλέξετε αυτό του κουτάκι σημαίνει ότι αναζητάτε μέλος για να σας προσφέρει φιλοξενία."
+
+# --- Help Text : Long Term Rental
+# --- English text = The members who have checked this box are interested in a long term (usually 3 months or more) rental.
+msgid "exchange_types.help_LR"
+msgstr "Μέλη που έχουν επιλέξει αυτό το κουτάκι αναζητούν μακρόχρονη (συνήθως πάνω από 3 μήνες) ενοικίαση."
+
+# --- Help Text : Home for rent only
+# --- English text = The members who have checked this box are only interested in renting thier homes.  These members are not able to contact members who have checked the No Rental Offers Accepted box.
+#, fuzzy
+msgid "exchange_types.help_ER"
+msgstr "The members who have checked this box are only interested in renting thier homes.  These members are not able to contact members who have checked the No Rental Offers Accepted box."
+
+# --- Help Text : Home for rent or exchange
+# --- English text = The members who have checked this box are interested in renting thier homes, but they are equally interested in exchange offers.
+#, fuzzy
+msgid "exchange_types.help_RO"
+msgstr "The members who have checked this box are interested in renting thier homes, but they are equally interested in exchange offers."
+
+# --- Help Text : Rental Required
+# --- English text = These members require a rental property.
+msgid "exchange_types.help_RR"
+msgstr "Αυτά τα μέλη αναζητούν σπίτι που να νοικιάζεται."
+
+# --- Help Text : Skype
+# --- English text = If you want other members to contact you via Skype, please add your Skype-id here.
+msgid "other_details.help_skype"
+msgstr "Αν θέλετε άλλα μέλη να επικοινωνήσουν μαζί σας μέσω Skype, βάλτε εδώ το Skype-id σας."
+
+# --- ERROR TEXT ---
+# --- English text =  The latest date must be after the earliest date.
+msgid "errors.latest_date_must_be_after_earliest"
+msgstr "Η ημερομηνία λήξης πρέπει να είναι ΜΕΤΑ την ημερομηνία έναρξης"
+
+# --- English text = Save my profile details
+msgid "save_button"
+msgstr "Σώστε τις πληροφορίες του προφίλ μου"
+
+# --- HowTo: Change availiabilty status
+# --- English text = If you are not searching an exchange at this time, you can change your availability status by clicking once on the traffic light in the headline above.  When the light is green, other members know that you are actively searching an exchange partner.
+msgid "how_to_change_availability"
+msgstr "Αν δεν ψάχνετε τώρα για ανταλλαγές, μπορείτε να αλλάξετε την κατάστασή σας με ένα κλικ στο φανάρι της επικεφαλίδας παραπάνω. Όταν το φανάρι είναι πράσινο, τα άλλα μέλη ξέρουν ότι ψάχνετε για ανταλλαγή."
+
+# --- English text = My Listing Details
+msgid "headline"
+msgstr "Τα στοιχεία της καταχώρισής μου"
+
+# --- English text = Please do not forget to save your changes.
+msgid "dont_forget_to_save"
+msgstr "Παρακαλούμε μην ξεχάσετε να σώσετε τις αλλαγές σας."
+
+# --- NEW April 2008 :: English text = Text written above is visible to visitors.
+msgid "visible_for_visitors"
+msgstr "Το παραπάνω κείμενο είναι ορατό στους επισκέπτες (όχι τα στοιχεία επικοινωνίας)."
+
+# English Text = Close Window
+msgid "close_button"
+msgstr "Κλείστε το παράθυρο"
+
+# --- English text = Your personal data has been saved.
+# --- Location = This is the notice that confirms that changes to personal data have been saved to an invisible listing.
+#, fuzzy
+msgid "error_messages.personal_data_saved"
+msgstr "Your personal data has been saved."
+
+# --- English text = Your listing will remain in-visible until you have filled in the following fields.
+# --- Location = This notice confirms that the listing remains invisible until all the fields required to build a complete listing are filled in.
+#, fuzzy
+msgid "error_messages.listing_remains_invisible"
+msgstr "Your listing will remain in-visible until you have filled in the following fields."
+
+# --- English text = Please select at least one language for correspondence
+# --- Location = Error text if Language for Correspondence is left blank
+# (June, 2011 - New)
+#, fuzzy
+msgid "error.spoken_language"
+msgstr "Please select at least one language for correspondence"
+
+# --- English text = Please select at least one exchange preferences
+# --- Location = Error text if Exchange types are left blank
+# (June, 2011 - New)
+#, fuzzy
+msgid "error.exchange_type"
+msgstr "Please select at least one exchange preferences"
+
+# --- English text = Your listing remains invisible for other members until you have built your home exchange profile. Get started today!
+# --- Location =
+# (June, 2011)
+#, fuzzy
+msgid "message.invisible_listing"
+msgstr "Your listing remains invisible for other members until you have built your home exchange profile. Get started today!"
+
+# --- English text = Before we can activate your trial membership, please upload a photo of your home.
+# --- Location = This is the success message that appears on the Main Photo page when an invisible member has filled out their listing details and been forwarded to the Main Photo page.
+# (Aug, 2011)
+#, fuzzy
+msgid "message.invisible_listing_without_photo"
+msgstr "Before we can activate your trial membership, please upload a photo of your home."
+
+# --- English text = Time span 
+# --- Location = Nov. 2011 - mobile application only
+# (New: November, 2011)
+#, fuzzy
+msgid "availability.time_span"
+msgstr "Time span"
+

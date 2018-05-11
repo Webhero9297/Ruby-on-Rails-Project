@@ -1,0 +1,326 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-07-01 19:11+0100\n"
+"PO-Revision-Date: 2009-02-02 17:02-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Page Headline
+# --- English text = Terms of Use
+msgid "headline"
+msgstr "Terms of Use"
+
+# --- English text = Intervac Trust Agreement
+msgid "subhead"
+msgstr "Intervac Trust Agreement"
+
+# --- English text = Fundamental Principals
+msgid "fundamental_principals.headline"
+msgstr "Fundamental Principals"
+
+# --- Fundamental Principles
+# --- English text = Member must be fair and honest in all his dealings with Intervac and other Members and in particular and without prejudice to the generality of the preceding words;
+msgid "fundamental_principals.fair_and_honest"
+msgstr "Member must be fair and honest in all his dealings with Intervac and other Members and in particular and without prejudice to the generality of the preceding words;"
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure that his home offered for exchange is fully and accurately described and illustrated on his listing;
+msgid "fundamental_principals.offer_is_accurate"
+msgstr "a Member must ensure that his home offered for exchange is fully and accurately described and illustrated on his listing;"
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure any Negotiation with other Members is conducted in good faith with an intent of Home Exchange  and that he is open, truthful, fair and reasonable in all such Negotiations;
+msgid "fundamental_principals.negotiate_in_good_faith"
+msgstr "a Member must ensure any Negotiation with other Members is conducted in good faith with an intent of Home Exchange  and that he is open, truthful, fair and reasonable in all such Negotiations;"
+
+# --- Fundamental Principles
+# --- English text = a Member must be courteous and hospitable in all his dealings with other Members and must be responsive to all reasonable requests.
+msgid "fundamental_principals.courteous_and_responsive"
+msgstr "a Member must be courteous and hospitable in all his dealings with other Members and must be responsive to all reasonable requests."
+
+# --- Fundamental Principles
+# --- English text = Member may not act in a manner that brings Intervac or Home Exchange into disrepute.
+msgid "fundamental_principals.protect_our_reputation"
+msgstr "Member may not act in a manner that brings Intervac or Home Exchange into disrepute."
+
+# --- Cancellation
+# --- English text = Cancellation
+msgid "cancellation.headline"
+msgstr "Cancellation"
+
+# --- Cancellation
+# --- English text = Member may not cancel a Home Exchange Agreement without a valid reason such as death, illness or other unforeseen circumstances beyond the Member's control.
+msgid "cancellation.not_without_valid_reason"
+msgstr "Member may not cancel a Home Exchange Agreement without a valid reason such as death, illness or other unforeseen circumstances beyond the Member's control."
+
+# --- Cancellation
+# --- English text = Member shall inform his National Representative before cancellation of a Home Exchange Agreement including the reasons for the cancellation.
+msgid "cancellation.must_inform_agent"
+msgstr "Member shall inform his National Representative before cancellation of a Home Exchange Agreement including the reasons for the cancellation."
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Consequences of Invalid Cancellation
+msgid "consequences.headline"
+msgstr "Consequences of Invalid Cancellation"
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Member shall be responsible for any costs incurred by another Member as a result of cancellation of a Home Exchange Agreement without a valid reason and, at the discretion of the National Representative and the Board, shall be subject to termination of his membership.
+msgid "consequences.member_responsibilities"
+msgstr "Member shall be responsible for any costs incurred by another Member as a result of cancellation of a Home Exchange Agreement without a valid reason and, at the discretion of the National Representative and the Board, shall be subject to termination of his membership."
+
+# --- Complaints
+# --- English text = Complaints
+msgid "complaints.headline"
+msgstr "Complaints"
+
+# --- Complaints
+# --- English text = If two Complaints are made against a Member he shall be liable to termination of his membership at the discretion of the National Representative and the Board.
+msgid "complaints.liability_for_termination"
+msgstr "If two Complaints are made against a Member he shall be liable to termination of his membership at the discretion of the National Representative and the Board."
+
+# --- Member's Offer Home
+# --- English text = Member's Offer Home
+msgid "offered_home.headline"
+msgstr "Member's Offer Home"
+
+# --- Member's Offer Home
+# --- English text = Member must ensure that his home offered for exchange
+msgid "offered_home.intro_text "
+msgstr "Member must ensure that his home offered for exchange "
+
+# --- Member's Offer Home
+# --- English text = is available for exchange;
+msgid "offered_home.is_available"
+msgstr "is available for exchange;"
+
+# --- Member's Offer Home
+# --- English text = is fully insured for fire, theft, burglary and, so far as is possible, accidental damage;
+msgid "offered_home.is_insured"
+msgstr "is fully insured for fire, theft, burglary and, so far as is possible, accidental damage;"
+
+# --- Member's Offer Home
+# --- English text = is clean; and
+msgid "offered_home.is_clean"
+msgstr "is clean; and"
+
+# --- Member's Offer Home
+# --- English text = contains all the facilities described in his listing.
+msgid "offered_home.is_same_as_listing"
+msgstr "contains all the facilities described in his listing."
+
+# --- Motor Vehicles
+# --- English text = Motor Vehicles
+msgid "motor_vehicles.headline"
+msgstr "Motor Vehicles"
+
+# --- Motor Vehicles
+# --- English text = Member must ensure that any vehicle offered for exchange is in good working order, legally compliant and, except as is notified to and agreed with the exchanging Member, comprehensively insured.
+msgid "motor_vehicles.member_responsibilities"
+msgstr "Member must ensure that any vehicle offered for exchange is in good working order, legally compliant and, except as is notified to and agreed with the exchanging Member, comprehensively insured. "
+
+# --- Respect for Property
+# --- English text = Respect for Property
+msgid "respect_for_property.headline"
+msgstr "Respect for Property"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they respect each others' Property at all times and in particular and without prejudice to the generality of the preceding words;
+msgid "respect_for_property.yes_you_must"
+msgstr "Members must ensure that they respect each others' Property at all times and in particular and without prejudice to the generality of the preceding words;"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they keep the Exchange Property reasonably secure at all times and comply with the terms of any applicable insurance policies both in this respect and in respect of any other insurance condition communicated to them by the owner;
+msgid "respect_for_property.keep_it_secure"
+msgstr "Members must ensure that they keep the Exchange Property reasonably secure at all times and comply with the terms of any applicable insurance policies both in this respect and in respect of any other insurance condition communicated to them by the owner;"
+
+# --- Respect for Property
+# --- English text = Members must accept responsibility for any uninsured damage caused by them to the Exchanged Property.
+msgid "respect_for_property.accept_responsibility"
+msgstr "Members must accept responsibility for any uninsured damage caused by them to the Exchanged Property."
+
+# --- Pets
+# --- English text = Pets
+msgid "pets.headline"
+msgstr "Pets"
+
+# --- Pets
+# --- English text = Members must ensure that any Pets are, so far as is possible, free of vermin including worms and fleas, vaccinated and otherwise free of health risk and clean. Members must also ensure that areas of the home to which pets have access are cleaned.
+msgid "pets.cleanliness"
+msgstr "Members must ensure that any Pets are, so far as is possible, free of vermin including worms and fleas, vaccinated and otherwise free of health risk and clean. Members must also ensure that areas of the home to which pets have access are cleaned."
+
+# --- Pets
+# --- English text = Members must apply high standards of care to Pets.
+msgid "pets.standards"
+msgstr "Members must apply high standards of care to Pets."
+
+# --- Home Country
+# --- English text = Home Country
+msgid "home_country.headline"
+msgstr "Home Country"
+
+# --- Home Country
+# --- English text = Member must register on the Database under his Home Country. A Member may list a second home or holiday home situated outside his Home Country.
+msgid "home_country.required_on_registration"
+msgstr "Member must register on the Database under his Home Country. A Member may list a second home or holiday home situated outside his Home Country."
+
+# --- Currency of Listing
+# --- English text = Currency of Listing
+msgid "listing_currency.headline"
+msgstr "Currency of Listing"
+
+# --- Currency of Listing
+# --- English text = Member is responsible for ensuring that his listing is kept current and up to date.
+msgid "listing_currency.member_responsibilities"
+msgstr "Member is responsible for ensuring that his listing is kept current and up to date."
+
+# --- Use of Database
+# --- English text = Use of Database
+msgid "database.headline"
+msgstr "Use of Database"
+
+# --- Use of Database
+# --- English text = Member may use the Database for the purpose of negotiating Home Exchange and for no other purpose. A Member contravening this Rule is subject to immediate termination at the discretion of the National Representative and the Board.
+msgid "database.for_home_exchange_only."
+msgstr "Member may use the Database for the purpose of negotiating Home Exchange and for no other purpose. A Member contravening this Rule is subject to immediate termination at the discretion of the National Representative and the Board."
+
+# --- Confidentiality
+# --- English text = Confidentiality
+msgid "confidentiality.headline"
+msgstr "Confidentiality"
+
+# --- Confidentiality
+# --- English text = Member shall keep confidential at all times all information obtained on the Database and all other information obtained from Members.
+msgid "confidentiality.member_responsibilities"
+msgstr "Member shall keep confidential at all times all information obtained on the Database and all other information obtained from Members. "
+
+# --- Responsibility for negotiations
+# --- English text = Responsibility for negotiations
+msgid "negotiations.headline"
+msgstr "Responsibility for negotiations"
+
+# --- Responsibility for negotiations
+# --- English text = Members accept that they are solely responsible for all negotiations for Home Exchange with other Members.
+msgid "negotiations.member_responsibilities"
+msgstr "Members accept that they are solely responsible for all negotiations for Home Exchange with other Members."
+
+# --- Fees
+# --- English text = Fees
+msgid "fees.headline"
+msgstr "Fees"
+
+# --- Fees
+# --- English text = A Member must pay reasonable fees to a National Representative and upon such payment his listing will be activated by the Representative.
+msgid "fees.must_be_paid"
+msgstr "A Member must pay reasonable fees to a National Representative and upon such payment his listing will be activated by the Representative."
+
+# --- Definitions
+# --- English text = Definitions
+msgid "definitions.headline"
+msgstr "Definitions"
+
+# --- Definitions
+# --- English text = In these Rules unless the context otherwise implies:
+msgid "definitions.intro_text"
+msgstr "In these Rules unless the context otherwise implies:"
+
+# --- Definitions
+# --- English text = "Board" means the Board of Directors of Intervac.
+msgid "definitions.board"
+msgstr "\"Board\" means the Board of Directors of Intervac."
+
+# --- Definitions
+# --- English text = "Complaint" means a complaint made by a Member to a Representative that is upheld by the Board to the effect that another Member's actions are in contravention of these Rules.
+msgid "definitions.complaint"
+msgstr "\"Complaint\" means a complaint made by a Member to a Representative that is upheld by the Board to the effect that another Member's actions are in contravention of these Rules."
+
+# --- Definitions
+# --- English text = "Database" means the Intervac international database operated at the domain names intervac.com and intervac-online.com and any other domains on which the Database may be maintained from time to time.
+msgid "definitions.database"
+msgstr "\"Database\" means the Intervac international database operated at the domain names intervac.com and intervac-online.com and any other domains on which the Database may be maintained from time to time."
+
+# --- Definitions
+# --- English text = "Exchanged Property" means any Property which Members have agreed to exchange and which is occupied or used during the exchange and in particular and without prejudice to the generality of these words Property that is the subject of a Home Exchange Agreement.
+msgid "definitions.exchanged_property"
+msgstr "\"Exchanged Property\" means any Property which Members have agreed to exchange and which is occupied or used during the exchange and in particular and without prejudice to the generality of these words Property that is the subject of a Home Exchange Agreement."
+
+# --- Definitions
+# --- English text = "Home Country" means the country of normal residence (at least six months per year) of a Member in which his principal home is situated.
+msgid "definitions.home_country"
+msgstr "\"Home Country\" means the country of normal residence (at least six months per year) of a Member in which his principal home is situated."
+
+# --- Definitions
+# --- English text = "Home Exchange" means the process of exchanging homes for vacation or holiday purposes or of providing rental, hospitality or other services facilitated from time to time on the Database.
+msgid "definitions.home_exchange"
+msgstr "\"Home Exchange\" means the process of exchanging homes for vacation or holiday purposes or of providing rental, hospitality or other services facilitated from time to time on the Database."
+
+# --- Definitions
+# --- English text = "Home Exchange Agreement" means an agreement for Home Exchange in Standard Form entered into by Members and Notified to Intervac.
+msgid "definitions.home_exchange_agreement"
+msgstr "\"Home Exchange Agreement\" means an agreement for Home Exchange in Standard Form entered into by Members and Notified to Intervac."
+
+# --- Definitions
+# --- English text = "Intervac" means Intervac International and includes its Representatives.
+msgid "definitions.intervac"
+msgstr "\"Intervac\" means Intervac International and includes its Representatives."
+
+# --- Definitions
+# --- English text = "Member" means a member of Intervac who has registered a listing on the Database.
+msgid "definitions.member"
+msgstr "\"Member\" means a member of Intervac who has registered a listing on the Database."
+
+# --- Definitions
+# --- English text = "Negotiation" means any negotiation conducted orally, by email or in writing.
+msgid "definitions.negotiation"
+msgstr "\"Negotiation\" means any negotiation conducted orally, by email or in writing."
+
+# --- Definitions
+# --- English text = "Notified" and "Notification" means in relation to a Home Exchange Agreement notification of such Agreement to Intervac or a Representative.
+msgid "definitions.notification"
+msgstr "\"Notified\" and \"Notification\" means in relation to a Home Exchange Agreement notification of such Agreement to Intervac or a Representative."
+
+# --- Definitions
+# --- English text = "Pet" means a dog, cat or other pet and includes any animal or bird that might occupy a Member's property, garden or surroundings.
+msgid "definitions.pet"
+msgstr "\"Pet\" means a dog, cat or other pet and includes any animal or bird that might occupy a Member's property, garden or surroundings."
+
+# --- Definitions
+# --- English text = "Property" includes homes, vehicles and all other forms of Members' property.
+msgid "definitions.property"
+msgstr "\"Property\" includes homes, vehicles and all other forms of Members' property."
+
+# --- Definitions
+# --- English text = Representative" and "National Representative" means an Agent or Local Organiser of Intervac.
+msgid "definitions.representative"
+msgstr "\"Representative\" and \"National Representative\" means an Agent or Local Organiser of Intervac."
+
+# --- Definitions
+# --- English text = "Rule" means a rule or clause of these terms of use and this agreement;
+msgid "definitions.rule"
+msgstr "\"Rule\" means a rule or clause of these terms of use and this agreement."
+
+# --- Definitions
+# --- English text = "Standard Form" means the standard form of Home Exchange Agreement provided by Intervac.
+msgid "definitions.standard_form"
+msgstr "\"Standard Form\" means the standard form of Home Exchange Agreement provided by Intervac."
+
+# --- English text = References to the plural include references to the singular and vice versa.
+msgid "definitions.references_to_plural_singular"
+msgstr "References to the plural include references to the singular and vice versa."
+
+# --- English text = References to any gender include references to all other genders.
+msgid "definitions.references_to_gender"
+msgstr "References to any gender include references to all other genders."
+
+# --- English text = Headings are for convenience only and do not affect the interpretation of any Rule.
+msgid "definitions.headings_are_convenience"
+msgstr "Headings are for convenience only and do not affect the interpretation of any Rule."
+

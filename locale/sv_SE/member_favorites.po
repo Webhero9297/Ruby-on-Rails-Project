@@ -1,0 +1,84 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-04-23 08:03+0100\n"
+"Last-Translator: Karl Gemfeldt <keg@intervac.se>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member favorites
+msgid "headline"
+msgstr "Mina favoriter, medlemmar"
+
+# --- English text = Now you can keep track of listings that you want to visit here in your Member Favorites list.  It's easy to add an entry to your favorites.  When viewing a listing that interests you, just click on the link in the left-hand column.
+msgid "intro_text"
+msgstr "Här kan du hålla koll på medlemsprofiler du vill besöka igen. Det är lätt att lägga till en medlem till dina favoriter. När du visar en annan medlem som intresserar dig, klicka bara på länken i den vänstra kolumnen. Medlemmen kommer att läggas till listan över favoriter, och du kommer också att få möjlighet att göra anteckningar."
+
+# --- English text = Do you really want to delete this member favorite entry?
+msgid "delete_confirm"
+msgstr "Vill du verkligen ta bort denna favorit?"
+
+# --- English text = Delete this member favorite entry
+msgid "alt_delete"
+msgstr "Ta bort"
+
+# --- English text = Edit this member favorite entry
+msgid "alt_edit"
+msgstr "Redigera denna favorit"
+
+# --- English text = Save my text
+msgid "save_button"
+msgstr "Spara mina noteringar"
+
+# --- English text = You do not have any entries in your Favorites list.
+msgid "no_favorites_yet"
+msgstr "Du har inga sparade favoriter"
+
+# --- English text = Photo for listing
+msgid "photo_for"
+msgstr "Foto till din medlemsprofil"
+
+# --- English text was = Added to My Favorites
+# --- (Mar 2009) - edited the text for length.  New English text = "Added"
+msgid "added"
+msgstr "Uppladdad"
+
+# --- English text = Sort Favorites by
+msgid "sort_by.label"
+msgstr "Sortera favoriterna på"
+
+# --- English text = Date
+msgid "sort_by.date"
+msgstr "Datum"
+
+# --- English text = Country
+msgid "sort_by.country"
+msgstr "Land"
+
+# --- English text = Member id
+msgid "sort_by.member_id"
+msgstr "Memdelems nummer"
+
+# --- English text = Delete Checked Favorites
+msgid "delete_multiple.button_text"
+msgstr "Ta bort favoriter"
+
+# --- English text = Please wait ...
+msgid "delete_multiple.disable_text"
+msgstr "Vänta ..."
+
+# --- English text = Do you really want to delete all checked favorites?
+msgid "delete_multiple.confirm_text"
+msgstr "Vill du verkligen ta bort alla favoriter?"
+
+# --- English text = Delete multiple favorites
+msgid "delete_multiple.checkbox_title_tag"
+msgstr "Ta bort dubbletter av favoriter"
+

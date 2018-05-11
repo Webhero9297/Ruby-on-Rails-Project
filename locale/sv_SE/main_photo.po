@@ -1,0 +1,86 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-01 17:46-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = My Primary Photo
+msgid "headline"
+msgstr "Mitt huvudfoto"
+
+# --- English  text = We will also use the photo you upload here in our colour catalogue.  We require a photo of a minimum size 480 pixels by 480 pixels (length and width). If you are scanning photos please scan them at 300 dpi. We can only accept photos in a .jpg format.
+msgid "used_for_catalog"
+msgstr "Den uppladdade bilden används även i vår färgkatalog. Vi kräver en minsta storklek på 480 pixels (längd och bredd). För bästa resultat scanna bilden i 300 dpi och spara bilden endast i .jpg format."
+
+# --- English text = Recommended size is larger than 1024 pixels x 768 pixels.
+msgid "recommended_size"
+msgstr "rekommenderad storlek är 1024x768 med 300dpi."
+
+# --- English text = The maximum file size is limited to 4MB.
+msgid "max_file_size"
+msgstr "Maximal filstorlek är 4MB."
+
+# --- English text = Please note that your photo will be optimised for display online.
+msgid "photo_will_be_optimised"
+msgstr "Notera att er bild kommer att anpassas för visning på skärm."
+
+# --- English text = To continue, press "browse" to find your photo, then press upload and be patient until you get a response. A new upload will replace the main photo you may already have displayed.
+msgid "to_continue_press_browse"
+msgstr "Tryck på  \"browse\" för att finna Er fotofil, tryck sedan på  \"upload\" vänta sedan tills filne är uppladdad. Den nya fototfilen kommer att ersätta den befintliga i Er medlemsprofil."
+
+# --- English text = When returning to your profile, if your new photo does not appear, try pressing the reload button on your browser.
+msgid "important_reload_browser"
+msgstr "Prova trycka på uppdatera knappen i webbläsaren om din bild inte visas när du återvänder till din profil."
+
+# --- English text = Find my picture on my computer
+msgid "find_my_picture"
+msgstr "Leta efter bilden på min dator"
+
+# --- English text = Upload a JPG-Image
+#, fuzzy
+msgid "upload_a_jpg-image"
+msgstr "Upload a JPG-Image"
+
+# --- English text = Depending on the size of your photo file and the speed of your internet connection your upload could take a few minutes.
+msgid "depending_on_the_size"
+msgstr "Beroende på filstorleken på ert foto och hastigheten på er anslutning så kan uppladdningen ta några minuter."
+
+# --- Button Text
+# --- English text = Upload Now!
+msgid "upload_now"
+msgstr "Ladda upp nu!"
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "jpg_only"
+msgstr "Ladda endast upp JPG-filer."
+
+# --- English text = Please select a photo to upload before pressing the button.
+#, fuzzy
+msgid "error.forgot_to_choose_a_photo"
+msgstr "'Please select a photo to upload before pressing the button."
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+msgid "messages.upload_successful"
+msgstr "Uppladdningen av bilden lyckades!"
+
+# --- Error Text
+# --- English text = The size of your uploaded picture exceeded 4 MByte.
+msgid "file_size_too_large"
+msgstr "Storleken på Er fotofil är över 4 MByte."
+
+# --- English text = Do you really want to delete your main photo?
+#, fuzzy
+msgid "confirm_delete"
+msgstr "Do you really want to delete your main photo?"
+

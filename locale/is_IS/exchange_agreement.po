@@ -1,0 +1,259 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-08-31 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = This member does not have an active membership with Intervac at this time
+msgid "error.member_not_active"
+msgstr "Þessi meðlimur er ekki með virka aðild að Intervac sem stendur. "
+
+# --- English text = Exchange agreement was not found.
+msgid "error.agreement_not_found"
+msgstr "Heimilaskiptasamningur fannst ekki."
+
+# --- English text = Your vacation dates should not be in the past.
+msgid "error.vacation_date_past"
+msgstr "Dagsetningar á leyfinu ykkar eiga ekki að vera í þátíð!"
+
+# --- English text = Vacation return date must be after your vacation start date.
+# --- Location = Error text is displayed if the dates of the vacation are impossible
+msgid "error.invalid_dates"
+msgstr "Lokadagsetning leyfisins verður að vera eftir að leyfið þitt hefst. "
+
+# --- English text = Member was not found, or does not have an active membership at this time.
+msgid "error.member_not_found_or_not_active"
+msgstr "Meðlimurinn fannst ekki eða er ekki með virka aðild sem stendur. "
+
+# --- English text = Successfully created your exchange agreement.
+msgid "message.exchange_agreement_created"
+msgstr "Heimilaskiptasamningur ykkar er tilbúinn. "
+
+# --- English text = Successfully updated your exchange agreement.
+msgid "message.exchange_agreement_updated"
+msgstr "Uppfærsla á heimilaskiptasamningi ykkar er tilbúin."
+
+# --- English text = Thanks for Registering Your Exchange
+msgid "thanks.headline"
+msgstr "Takk fyrir að skrá heimilaskiptin ykkar"
+
+# --- English text = Thank you!  Your exchange has been successfully submitted.
+msgid "thanks.successful_submission"
+msgstr "Takk fyrir! Heimilaskipti ykkar hafa nú verið móttekin.  "
+
+# --- English text = Both your exchange partner and your local organizers have been notified.
+msgid "thanks.submission_notification"
+msgstr "Bæði skiptifélagi þinn og umboðsmaður landsins hafa fengið upplýsingarnar. "
+
+# --- English text = You can view and edit your agreements anytime up until your exchange holiday begins by clicking on the link "My Exchange Agreements" in the Useful Links section of the member home page.
+msgid "thanks.how_to_view_and_edit"
+msgstr "Þú getur séð og breytt samningum þínum hvenær sem er þar til heimilaskipta fríið þitt hefst með því að smella á \"Heimilaskiptasamningar mínir\" undir Hentugir tengiliðir á heimasíðu þinni."
+
+# --- English text = My Exchange Agreements
+msgid "index.headline"
+msgstr "Heimilaskiptasamningar mínir"
+
+# --- English text = Download our Home Exchange Checklist.
+msgid "index.download_checklist"
+msgstr "Sæktu gátlista okkar fyrir heimilaskiptin."
+
+# --- English text = Future Vacations
+msgid "index.future_vacations_headline"
+msgstr "Fríin til framtíðar"
+
+# --- English text = At the moment, you have not formalized any future vacations plans.
+msgid "index.no_future_vacations"
+msgstr "Sem stendur hefur þú ekki sett fram framtíðar ferðaáætlun þína. "
+
+# --- English text = Past Agreements
+msgid "index.past_agreements_headline"
+msgstr "Fyrri samningar"
+
+# --- English text = You have no past exchange agreements.
+msgid "index.no_past_agreements"
+msgstr "Þú hefur enga fyrri heimilaskiptasamninga."
+
+# --- English text = Act as Reference?
+# --- Location = In the Past Exchanges section of the My Exchange Agreements page
+msgid "index.act_as_reference"
+msgstr "Vertu til umsagnar"
+
+# --- English text = Show Agreement
+# --- Location = Link text on the My Exchange Agreements page
+msgid "overview.show_agreement"
+msgstr "Sýna samninga"
+
+# --- English text = Allow as Reference?
+# --- Location = In the Past Exchanges section of the My Exchange Agreements page
+msgid "index.allow_as_reference"
+msgstr "Birta sem umsögn?"
+
+# --- English text = Print this exchange agreement
+# --- Location: Mouseover text on the printer icon
+msgid "overview.print_agreement"
+msgstr "Prenta þennan skiptasamning"
+
+# --- English text = You filled out your agreement form.
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_started"
+msgstr "Þú hefur fyllt út skiptasamninginn þinn."
+
+# --- English text = {{partner_name}} viewed your terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_viewed_terms"
+msgstr "{{partner_name}} hefur séð þína skilmála."
+
+# --- English text = {{partner_name}} confirmed your terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_confirmed_terms"
+msgstr "{{partner_name}} hefur staðfest skilmála þína."
+
+# --- English text = {{partner_name}} did not agree with your terms. Please get in contact with them.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_disagreed"
+msgstr "{{partner_name}} samþykkir ekki skilmála þína. Vinsamlegast settu þig í samband við þau. "
+
+# --- English text = You changed your terms.
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_changed_terms"
+msgstr "Þú hefur breytt skilmálum þínum. "
+
+# --- English text = You have reopened a confirmed agreement.
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_reopened_agreement"
+msgstr "Þú opnaðir aftur samþykktan samning. "
+
+# --- English text = {{partner_name}} filled out the agreement form.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_filled_out_form"
+msgstr "{{partner_name}} hefur fyllt út í samning. "
+
+# --- English text = You viewed {{partner_name}}'s terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_viewed_partner_terms"
+msgstr "Þú skoðaðir {{partner_name}}'s skilmála."
+
+# --- English text = You confirmed {{partner_name}}'s terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_confirmed_partner_terms"
+msgstr "Þú staðfestir {{partner_name}}'s skilmála."
+
+# --- English text = You did not agree to the terms of {{partner_name}}. Please get in contact with them to discuss your concerns.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.you_disagreed"
+msgstr "Þú samþykkir ekki skilmála {{partner_name}}. Vinsamlegast hafðu samband við þau og skýrðu frá því sem er að. "
+
+# --- English text = {{partner_name}} changed their terms.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_changed_terms"
+msgstr "{{partner_name}} breyttu skilmálum sínum."
+
+# --- English text = {{partner_name}} has reopened a confirmed agreement.
+# --- DO NOT TRANSLATE THE TEXT {{partner_name}} - This will be replaced by the system with the exchange partner's name
+# --- Location = Exchange agreement history on the My Exchange Agreements page and in the email that members receive.
+msgid "history.partner_reopened_agreement"
+msgstr "{{partner_name}} hefur á ný opnað samþykktan samning."
+
+# --- English text = You need to fill in your agreement terms.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.you_fill_in_agreement"
+msgstr "Þú þarft að fylla í þína skilmála samningsins."
+
+# --- English text = Your partner needs to confirm your terms.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.partner_must_confirm"
+msgstr "Skiptifélagi þinn verður að staðfesta skilmálai þín. "
+
+# --- English text = Please make changes to your agreement.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.you_reopened"
+msgstr "Vinsamlegast gerið breytingar á samningi þínum."
+
+# --- English text = Your partner needs to fill in their agreement.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.partner_fills_in_agreement"
+msgstr "Skiptifélagi þinn þarf að fylla út sinn samning."
+
+# --- English text = Please confirm your partner's terms.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.confirm_your_partners_terms"
+msgstr "Vinsamlega staðfestið skilmála skiptifélaga þíns. "
+
+# --- English text = Please wait  until your partner made changes to his agreement.
+# --- Location = Exchange agreement "Next Step" on the My Exchange Agreements page and in the email that members receive.
+msgid "next_step.reopened_by_partner"
+msgstr "Vinsamlega bíðið þar til félagi þinn hefur sett in breytingar í sinn hluta samningsins. "
+
+# --- English text = Added as reference
+# --- Location = Next to exchange partners when no exchange was officially registered - thus there is none to print or view
+msgid "history.added_as_reference"
+msgstr "Sett inn sem umsögn"
+
+# --- English text = Agreement process is complete.
+# --- Location = Shown when the agreement process is at 100%
+msgid "history.process_complete"
+msgstr "Samningagerðin er fullunnin. "
+
+# --- English text = Agreement History
+# --- Location = Headline
+msgid "history.headline"
+msgstr "Liðnir samningar"
+
+# --- English text = Add a Reference
+# --- Location = Headline for Adding a Reference form at the bottom of the exchange agreements overview page
+msgid "add_a_reference.headline"
+msgstr "Setja inn umsögn"
+
+# --- English text = If you had an exchange in the past that you did not register, you can still add a reference to your list of exchanges. The reference that will be created stays unconfirmed until your exchange partner explicitly confirms it with <highlight>Act as Reference?</highlight> with <highlight>Yes</highlight> on his side.
+# --- Location = Text for Adding a Reference form at the bottom of the exchange agreements overview page
+##### --- IMPORTANT - DO NOT TRANSLATE THE TEXT <highlight> and </highlight>.  These provide formatting within the sentence.
+msgid "add_a_reference.introtext"
+msgstr "Ef þú átt heimilaskipti að baki sem þú hefur ekki skráð, getur þú samt bætt inn umsögn vegna þessa inn á lista þinn yfir heimilaskipti. Umsögnin sem þú býrð til verður óstaðfest þar til skiptifélagi þinn staðfestir hana með <highlight>Skrá sem umsögn?</highlight> með <highlight>Já</highlight> á sínum hluta."
+
+# --- English text = Partner's Member-ID
+# --- Location = Form label for Adding a Reference at the bottom of the exchange agreements overview page
+msgid "add_a_reference.label.member_id"
+msgstr "Aðildarnúmer skiptifélaga þíns."
+
+# --- English text = Exchange Dates
+# --- Location = Sub-headline for Adding a Reference at the bottom of the exchange agreements overview page
+msgid "add_a_reference.subhead.exchange_dates"
+msgstr "Dagsetningar skiptanna"
+
+# --- English text = From
+# --- Location = Form label for Adding a Reference at the bottom of the exchange agreements overview page
+msgid "add_a_reference.label.from"
+msgstr "Frá"
+
+# --- English text = To
+# --- Location = Form label for Adding a Reference at the bottom of the exchange agreements overview page
+msgid "add_a_reference.label.to"
+msgstr "Til"
+
+# --- English text = Add reference
+# --- Location = 
+msgid "add_a_reference.buttontext"
+msgstr "Setja inn umsögn"
+
+# --- English text = Your vacation dates are not in the past and you can only add a reference for exchanges that have been completed.
+# --- Location = error text for Add a Reference.  These can only be references for past exchanges.
+msgid "error.vacation_date_not_past"
+msgstr "Dagsetningar leyfisins eru ekki liðnar og þú getur aðeins sett inn umsögn fyrir heimilaskipti sem eru liðin. "
+

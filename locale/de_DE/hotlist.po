@@ -1,0 +1,69 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-28 00:55+0100\n"
+"Last-Translator: Leoni Günzler <info@haustausch.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Error Text
+# --- English text = Your earliest for travel is not within the next 8 weeks.
+msgid "errors.earliest_date"
+msgstr "Ihr frühestes oder spätestes Reisedatum liegt nicht innerhalb der nächsten 8 Wochen."
+
+# --- Error Text
+# --- English text = Your offer is not available! Please change your availability status in your profile.
+msgid "errors.offer_not_available"
+msgstr "Ihr Angebot ist nicht verfügbar! Bitte ändern Sie dies in Ihrem Profil."
+
+# --- Error Text
+# --- English text = Your offer is already listed in the hotlist.
+msgid "errors.offer_already_listed"
+msgstr "Ihr Angebot befindet sich bereits in der Hot-List."
+
+# --- Error Text
+# --- English text = Sorry, your membership has expired.
+msgid "errors.expired_membership"
+msgstr "Es tut uns leid, aber Ihre Mitgliedschaft ist abgelaufen."
+
+# --- English text = Last Minute Travel Opportunities
+msgid "headline"
+msgstr "Last Minute Reisegelegenheiten"
+
+# --- Button Text
+# --- English text = Add my offer to the hotlist
+msgid "add_my_offer_button"
+msgstr "Nehmen Sie bitte mein Angebot in die Hot-List auf"
+
+# --- English text = Added
+msgid "added"
+msgstr "Hinzufügen"
+
+# --- English text = Looking for a spontaneous exchange? The listings below belong to members actively searching an exchange partner and wanting to travel in the coming eight weeks. The last minute offer expires after three days and the listing is removed from the Last Minute list. Our members can renew their Last Minute list entries at any time.
+msgid "intro_text"
+msgstr "Sie halten Ausschau nach einem spontanen Tausch? Die folgende Liste enthält Mitglieder die in den nächsten 8 Wochen verreisen möchten. Das last minute  Angebot in der Hotlist wird nach drei Tagen aus der Liste genommen. Sie können die Aufnahme in die Hot List jedoch jederzeit wieder vornehmen."
+
+# --- English text = Sorry, there are currently no hotlist entries available.
+msgid "messages.no_hotlist_entries"
+msgstr "Leider gibt es zur Zeit keine Einträge in der Hot-List."
+
+# --- English text = Sorry, your offer is still not complete. Please use "Edit Listing Details" to add necessary information.
+msgid "errors.listing_incomplete"
+msgstr "Entschuldigen Sie, aber IhrAngebot ist nicht komplett! Bitte klicken Sie \"Hinzufügen von Einzelheiten\", um notwendige Informationen zu Ihrem Angebot einzutragen."
+
+# --- English text = At the moment, your listing is inelegible for our hotlist.  Please contact your local organiser for help.
+# --- (Edited - Mar, 2009)
+msgid "errors.listing_ineligible"
+msgstr "Im Moment kann Ihr Angebot nicht in die hotlist aufgenommen werden. Kontakten Sie bitte Ihren lokalen Organisator."
+
+# --- English text = Thanks! Your offer has been added to our hotlist.
+msgid "messages.success_add_to_hotlist"
+msgstr "Besten Dank. Ihr Angebot ist der Hotliste hinzugefügt."
+

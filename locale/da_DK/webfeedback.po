@@ -1,0 +1,161 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-02-23 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thank you for taking the time to submit comments about our site.  They have been sent to your local organiser.
+#, fuzzy
+msgid "messages.thanks_comments_sent_to_organizer"
+msgstr "Thank you for taking the time to submit comments about our site.  They have been sent to your local organiser."
+
+# --- English text = Suggestions for Improvement
+#, fuzzy
+msgid "headline"
+msgstr "Suggestions for Improvement"
+
+# --- English text = Thanks for taking the time to offer suggestions about our site.  We are always happy to hear from our members and our interested visitors.  Your suggestions and comments guide our further development, so please tell us what you like and how we can improve!
+#, fuzzy
+msgid "introtext"
+msgstr "Thanks for taking the time to offer suggestions about our site.  We are always happy to hear from our members and our interested visitors.  Your suggestions and comments guide our further development, so please tell us what you like and how we can improve!"
+
+# --- English text = My Suggestions
+#, fuzzy
+msgid "visitor.suggestions_headline"
+msgstr "My Suggestions"
+
+# --- English text = Where are you from?
+#, fuzzy
+msgid "visitor.your_country"
+msgstr "Where are you from?"
+
+# --- English text = Your Full Name
+#, fuzzy
+msgid "visitor.full_name"
+msgstr "Your Full Name"
+
+# --- English text = Your Email Address
+#, fuzzy
+msgid "visitor.email"
+msgstr "Your Email Address"
+
+# --- English text = Feedback Category
+# --- (Feb 2011) Changed per BD request to: Subject
+#, fuzzy
+msgid "visitor.category"
+msgstr "Subject"
+
+# --- English text = Bad Experience
+#, fuzzy
+msgid "category.bad_experience"
+msgstr "Bad Experience"
+
+# --- English text = Broken Link
+#, fuzzy
+msgid "category.broken_link"
+msgstr "Broken Link"
+
+# --- English text = Design and Content
+#, fuzzy
+msgid "category.design_and_content"
+msgstr "Design and Content"
+
+# --- English text = Feature Request
+#, fuzzy
+msgid "category.feature_request"
+msgstr "Feature Request"
+
+# --- English text = Member Documents
+#, fuzzy
+msgid "category.member_documents"
+msgstr "Member Documents"
+
+# --- English text = Payment
+#, fuzzy
+msgid "category.payment"
+msgstr "Payment"
+
+# --- English text = Registration
+#, fuzzy
+msgid "category.registration"
+msgstr "Registration"
+
+# --- English text = Usability
+#, fuzzy
+msgid "category.usability"
+msgstr "Usability"
+
+# --- English text = Other
+#, fuzzy
+msgid "category.other"
+msgstr "Other"
+
+# --- English text = Help Text
+#, fuzzy
+msgid "category.help_text"
+msgstr "Help Text"
+
+# --- English text = Page URL
+#, fuzzy
+msgid "visitor.page_url"
+msgstr "Page URL"
+
+# --- English text = Your Comment
+#, fuzzy
+msgid "comment"
+msgstr "Your Comment"
+
+# --- English text = Submit Feedback
+#, fuzzy
+msgid "submit_button"
+msgstr "Submit Feedback"
+
+# --- English text = In order for your feedback to reach the widest audience among our organizers, please leave your comments in English.
+#, fuzzy
+msgid "write_in_english"
+msgstr "In order for your feedback to reach the widest audience among our organizers, please leave your comments in English."
+
+# --- English text = ^ Please fill in your name.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+#, fuzzy
+msgid "errors.name_is_blank"
+msgstr "^ Please fill in your name."
+
+# --- English text = ^ Please choose the category that best fits your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+#, fuzzy
+msgid "errors.choose_a_category"
+msgstr "^ Please choose the category that best fits your feedback."
+
+# --- English text = ^ Please fill in your email address so that we can contact you if necessary regarding your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+#, fuzzy
+msgid "errors.email_address_required"
+msgstr "^ Please fill in your email address so that we can contact you if necessary regarding your feedback."
+
+# --- English text = ^ Help us send your feedback to the correct person by choosing the country where you live.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+#, fuzzy
+msgid "errors.choose_a_country"
+msgstr "^ Help us send your feedback to the correct person by choosing the country where you live"
+
+# --- English text = ^ Leave your feedback in the field labeled \"Your Comment\".
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+#, fuzzy
+msgid "errors.comment_required"
+msgstr "^ Leave your feedback in the field labeled \"Your Comment\"."
+
+# --- English text = ^ The code your typed in did not match the image.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+#, fuzzy
+msgid "errors.captcha_no_match"
+msgstr "^ The code your typed in did not match the image."

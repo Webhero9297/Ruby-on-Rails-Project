@@ -1,0 +1,83 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-01 17:46-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = My Primary Photo
+msgid "headline"
+msgstr "最初の写真"
+
+# --- English  text = We will also use the photo you upload here in our colour catalogue.  We require a photo of a minimum size 480 pixels by 480 pixels (length and width). If you are scanning photos please scan them at 300 dpi. We can only accept photos in a .jpg format.
+msgid "used_for_catalog"
+msgstr "ここにあなたがアップロードされた写真をカラーカタログに使います。写真の最小サイズは４８０ピクセルｘ４８０ピクセル（長さｘ幅）。写真をスキャンする場合は３００dpiでしてください。jpg フォーマットだけが受け入れられます。"
+
+# --- English text = Recommended size is larger than 1024 pixels x 768 pixels.
+msgid "recommended_size"
+msgstr "サイズは１０２４ピクルスｘ７６８ピクルスより大きくしてください。"
+
+# --- English text = The maximum file size is limited to 4MB.
+msgid "max_file_size"
+msgstr "最大のファイルサイズは４MBです。"
+
+# --- English text = Please note that your photo will be optimised for display online.
+msgid "photo_will_be_optimised"
+msgstr "あなたの写真はオンライン表示には大きすぎます。"
+
+# --- English text = To continue, press "browse" to find your photo, then press upload and be patient until you get a response. A new upload will replace the main photo you may already have displayed.
+msgid "to_continue_press_browse"
+msgstr "継続するのに、 あなたの写真を見つけるためには\"ブラウザ\"を押してください。それからアップロードを押し、返答があるまで待ってください。 新しいアップロードはあなたがすでに載せてある写真と置き換わるでしょう。"
+
+# --- English text = When returning to your profile, if your new photo does not appear, try pressing the reload button on your browser.
+msgid "important_reload_browser"
+msgstr ".あなたのプロフィールに戻った時、新しい写真が出てこない時は、あなたのブラウザの更新ボタンを押してみてください。"
+
+# --- English text = Find my picture on my computer
+msgid "find_my_picture"
+msgstr "コンピューター上で写真をみつける"
+
+# --- English text = Upload a JPG-Image
+msgid "upload_a_jpg-image"
+msgstr "ＪＰＧ－Ｉmageをアップロードする"
+
+# --- English text = Depending on the size of your photo file and the speed of your internet connection your upload could take a few minutes.
+msgid "depending_on_the_size"
+msgstr "写真のサイズやパソコンのインターネットスピードなどによってアップロードには何分かかかることもあります。"
+
+# --- Button Text
+# --- English text = Upload Now!
+msgid "upload_now"
+msgstr "今アップロードする！"
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "jpg_only"
+msgstr "ＪＰＧファイルのみアップロードしてください。"
+
+# --- English text = Please select a photo to upload before pressing the button.
+msgid "error.forgot_to_choose_a_photo"
+msgstr "ボタンを押す前にアップロードする写真を選択してください。"
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+msgid "messages.upload_successful"
+msgstr "イメージはうまくアップロードされました！"
+
+# --- Error Text
+# --- English text = The size of your uploaded picture exceeded 4 MByte.
+msgid "file_size_too_large"
+msgstr "アップロードした写真のサイズが4MBを超えています。"
+
+# --- English text = Do you really want to delete your main photo?
+msgid "confirm_delete"
+msgstr "本当にあなたの主写真を削除してもよいのですか？"
+

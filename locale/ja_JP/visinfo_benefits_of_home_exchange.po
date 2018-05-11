@@ -1,0 +1,116 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-07 18:17+0100\n"
+"PO-Revision-Date: 2011-08-07 19:40+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Benefits of Home Exchange
+# --- Location = Main headline
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "ホームエクスチェンジのメリット"
+
+# --- English text = Promote international and cultural goodwill<br />You can make a difference!
+# --- (June 2011 - As Is - vtour_lifestyle.po => pullquote.promote_goodwill)
+msgid "promote_goodwill.headline"
+msgstr "国際的で文化的な友好を促進し、"
+
+# --- English text = You can make a difference!
+# (June, 2011 - Split out - Reference - vtour_lifestyle.po => pullquote.promote_goodwill)
+#, fuzzy
+msgid "promote_goodwill.subhead"
+msgstr "あなたは違いを作る！"
+
+# --- English text = Home exchange is the most authentic approach to living in a foreign country or culture. You find yourself immersed in your exchange partner's culture and lifestyle. The chances are excellent that you will meet their neighbours or friends. You will discover local stores, sights and flavour. This is a personalized and realistic travel experience that can't be beat.  Many exchange families remain friends long after their exchange, keeping up with each other's families per telephone and email.
+# (June 2011 - As Is (2 texts) =  vtour_lifestyle.po => more_reasons.pullquote + more_reasons.text)
+msgid "promote_goodwill.text"
+msgstr "ホームエクスチェンジは外国の土地や文化へのもっとも確実なアプローチです。 あなたはエクスチェンジをしたパートナーの文化やライフスタイルに夢中になるでしょう。彼らの隣人や友達に会うというような機会は素晴らしいものです。その地方の商店や景色、風味などを見つけ出すでしょう。これはあなたが打ちのめされる個人的で現実的な旅行の経験です。たくさんのエクスチェンジをした家族はその後も長く電話やメールを通して友好を暖めあっています。"
+
+# --- English text = Eliminate Hotel and Car Expenses
+# (June 2011 - As Is - vtour_why_exchange.po => eliminate_expenses.headline)
+msgid "eliminate_expenses.headline"
+msgstr "ホテルや車への出費を考えなくてもよい"
+
+# --- English text = Suddenly, any destination in the world is a lot more affordable!
+# (June 2011 - As Is - vtour_why_exchange.po => eliminate_expenses.pullquote)
+msgid "eliminate_expenses.subhead"
+msgstr "突然、全世界のどこへでも行く事ができるようになる！"
+
+# --- English text = While exchanging there is no pressing reason for you to blow your budget on hotels or car rentals. Home exchange is the way that your family can afford to visit places you have only dreamed about.   Exchanging homes leaves your budget free to spring for special tours, dining or entertainment.
+# --- (June 2011) EDITED - Removed a sentence in the middle about having a kitchen to prepare family meals.
+# (June 2011 - Reference: vtour_why_exchange.po => eliminate_expenses.text )
+#, fuzzy
+msgid "eliminate_expenses.text"
+msgstr "家を交換している間はホテルや車のレンタル代等の出費の心配をしなくてもよい。家には食事の用意が出来るキッチンがあるので、毎食毎にレストランに行かなくてすみます。だからあなたの家族は訪ねたいと夢見ていたところへ出かける事ができるでしょう。家をエクスチェンジした休暇は、特別なツアーや食事、娯楽などに予算をおおく使うことが出来るのです。"
+
+# --- English text = No More Expensive Charges For Extra Luggage
+# (June, 2011 - New)
+msgid "extra_luggage.headline"
+msgstr "超過荷物のための出費はもういらない"
+
+# --- English text = No need to lug three weeks worth of toys and games through a foreign airport.
+# (June 2011 - As Is - vtour_why_exchange.po => kids_and_pets.pullquote)
+msgid "extra_luggage.subhead"
+msgstr "3週間分のおもちゃやゲームを外国の空港を通って運ぶ必要はない。"
+
+# --- English text = Go ahead, imagine your luggage from your last holiday.   Open it up, and remove all the stuff you took, because you might need it.  Now, dare to imagine this:  You are exchanging with a family in Sweden, and they have kids the same ages as yours.  Just as adults enjoy driving a holiday car, kids delight in a temporary toy exchange.  There will be something for everyone: a different "favorite coffee cup", different books to read at bedtime, movies you might not have seen or music you haven't heard.  These are all a part of your exchange partner's every day lifestyle and they are available for your use at your exchange partner's home.
+# (June 2011 - As Is - vtour_why_exchange.po => kids_and_pets.luggage_text)
+msgid "extra_luggage.text"
+msgstr "もっと先をすすめてみると、あなたのこの間の休暇の際の荷物を考えてみてください。持ってきた荷物を開けて、必要だろうと持ってきたものを取りだすでしょう。今は次のような事を想像してみましょう。あなたはスエーデンの家族とエクスチェンジをしています。彼らにもあなたと同じような年の子供がいます。大人が休暇中の車で楽しんでいるように、子供たちもその家の子供たちのおもちゃで遊ぶのを喜ぶでしょう。みんなに何か日常と違ったものがあります。いつものとは違ったコーヒーカップ、寝る前に読む本、見たことのなかった映画やきいた事のない音楽など。これらは今エクスチェンジしているパートナーの日常のライフスタイルなのです。同じように相手方もあなたの家で同じような経験をしているのです。"
+
+# --- English text = The Comfort of Living in a House
+# (June 2011 - As Is - vtour_why_exchange.po => comfort.headline)
+msgid "comfort.headline"
+msgstr "家に住む快適さ"
+
+# --- English text = Let the kids play outside in the yard while you take a hot bath.
+# (June 2011 - As Is - vtour_why_exchange.po => comfort.pullquote)
+msgid "comfort.subhead"
+msgstr "あなたがお風呂を使っている間、子供達は外の囲いの中で遊ばせましょう。"
+
+# --- English text = Come home after a hard day of shopping and sightseeing to the <italic>warmth of a friend's home</italic>.  Sit down in a comfortable chair, and put your feet up, you are on vacation. You have time and space enough for everyone.  You are not confined to a dinky hotel room with your whole family, nor do you need to run off to a restaurant or try to heat the baby's bottle in a bathroom sink.  Hang out instead and cook a family dinner together. Watch a movie, enjoy each other.  Slow down.  Take time. You've earned it.
+# --- MINOR EDIT => added <italic> and </italic> around the words "warmth of a friend's home" to make these words italic.
+# (June 2011 - MINOR EDIT - Reference: vtour_why_exchange.po => comfort.text)
+#, fuzzy
+msgid "comfort.text"
+msgstr "ショッピングや友達の家の探検のあと \"家\"に帰り、快適なソファーに座り、足を投げ出したり出来る、あなたはまさに休暇中です。時間もスペースもみんなのために充分にあります。家族全員がちっちゃなホテルの部屋に閉じ込められてはいないし、レストランへ急いでいく事もないし、赤ちゃん用のミルクをお風呂場で温める必要もないのです。映画を見てお互いに楽しみましょう。ゆっくりと時間を使う、あなたはそれを獲得したのです。"
+
+# --- English text = Security = Peace of Mind
+# --- MINOR EDIT - changed "=" to "and"
+# (June 2011 - AS IS - vtour_why_exchange.po => security.headline)
+#, fuzzy
+msgid "security.headline"
+msgstr "安全性＝心の平和"
+
+# --- English text = Your home is not empty, and the newspapers and mail are not piling up, the plants are watered, the lawn mowed.  The dog is still barking in the back yard and, even though you are happily touring Chateaux on the Loire, at home life appears to go on as usual.  Our members take excellent care of each other's property while vacationing.
+# --- MINOR EDIT => Removed last sentence about insurance company.
+# (June 2011 - Reference vtour_why_exchange.po => security.text)
+#, fuzzy
+msgid "security.text"
+msgstr "あなたの家は空き家ではないし、新聞や郵便はあふれかえった状態ではない。植木には水が水がまかれ芝は刈られている。犬は裏庭であいかわらずほえている。そんな状態でもあなたはロアール地方のお城を楽しく見物できるし、日常はいつもと変わらない。我々の会員はお互いに休暇を交換で楽しんでいる期間、建物をきちんと気を配り管理する。あなたの入っている保険会社はあなたの留守の間も誰かが住んでいる事を歓迎するでしょう。"
+
+# --- English text = Your pets remain in the comfort of their own homes.  No more expensive pet hotels, no more worrying whether the neighbor remembered to feed your fish.  Our members are happy to exchange pet-care as part of the deal and it is a relief to know that while you are away, your animals are well cared for. Neither humans nor animals will miss out on the petting and companionship that is a necessary part of life for animal lovers.
+# (June 2011 - MINOR EDITS - Reference: vtour_why_exchange.po => kids_and_pets.pets_text)
+msgid "security.pets_text"
+msgstr "会員が旅行する際、ペット類は自分の家においておきます。高いペット用ホテルに預ける事もないし、隣人が魚にえさを忘れずにやってくれているか心配する事もありません。会員の多くは家の交換と同じようにペットの世話も交換する事を望んでいます。あなたが家を留守にしている間、動物達がきちんと世話を受けている事を知るのは安心ですし、あなたの新しい友人のペットを世話をするのも楽しいものです。人間であろうと動物であろうと世話をし交わるのは生活の一部として動物愛好家には必要なことです。"
+
+# --- English text = Home Exchanging is Planet Friendly
+# --- move_to: benefits of home exchange
+# (June 2011 - As Is - vtour_lifestyle.po => planet_friendly.headline)
+msgid "planet_friendly.headline"
+msgstr "ホームエクスチェンジは友好の星です。"
+
+# --- English text = In addition to creating a more authentic travel experiences, home exchange also takes pressure off the environment by reducing the need for new hotel and resort construction in heavily frequented international destinations. Home exchangers help local merchants by shopping in local markets and using local services. The increasing interest in home exchange is a natural outgrowth of the movement for responsible travel.
+# (June 2011 - As Is - vtour_lifestyle.po => planet_friendly.reduce_pressure_buy_locally_text)
+msgid "planet_friendly.text"
+msgstr "本来的な旅行経験に加え、国際的にわたる目的地での新しいホテルやリゾートの建設を減らすことにより、環境に圧力を取り去るということに役立っています。ホームエクスチェンジは地方のサービスを受け、そこの商店で買い物をすることによって、そこに住む商人達の利益になっているのです。ホームエクスチェンジへ関心が増えてくる事は、責任ある旅行のための自然な成り行きの動きといえます。"
+

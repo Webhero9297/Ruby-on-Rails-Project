@@ -1,0 +1,325 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-07-01 19:11+0100\n"
+"PO-Revision-Date: 2011-11-27 00:32+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Page Headline
+# --- English text = Terms of Use
+msgid "headline"
+msgstr "Brukervilkår"
+
+# --- English text = Intervac Trust Agreement
+msgid "subhead"
+msgstr "Intervac Tillitsavtale"
+
+# --- English text = Fundamental Principals
+msgid "fundamental_principals.headline"
+msgstr "Fundamentale Prinsipper"
+
+# --- Fundamental Principles
+# --- English text = Member must be fair and honest in all his dealings with Intervac and other Members and in particular and without prejudice to the generality of the preceding words;
+msgid "fundamental_principals.fair_and_honest"
+msgstr "Medlemmer må opptre rettferdig og ærlig i all sin samhandling med Intervac og andre medlemmer, og spesielt uten å komme i konflikt med følgende:"
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure that his home offered for exchange is fully and accurately described and illustrated on his listing;
+msgid "fundamental_principals.offer_is_accurate"
+msgstr "et medlem skal forsikre seg om at hjemmet som er tilbydt i bytte er riktig beskrevet og at bildene er ærlige i oppføringen;"
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure any Negotiation with other Members is conducted in good faith with an intent of Home Exchange  and that he is open, truthful, fair and reasonable in all such Negotiations;
+msgid "fundamental_principals.negotiate_in_good_faith"
+msgstr "et medlem må forsikre seg om at forhandlinger med et annet medlem om boligbytte gjøres i god tro og med intensjon om boligbytte, er ærlig, åpen, rettferdig og rimelig i all slik forhandling;"
+
+# --- Fundamental Principles
+# --- English text = a Member must be courteous and hospitable in all his dealings with other Members and must be responsive to all reasonable requests.
+msgid "fundamental_principals.courteous_and_responsive"
+msgstr "et medlem må vøre høflig og gjestfri i all sin omgang med andre medlemmer og være lydhør overfor alle rimelige forslag."
+
+# --- Fundamental Principles
+# --- English text = Member may not act in a manner that brings Intervac or Home Exchange into disrepute.
+msgid "fundamental_principals.protect_our_reputation"
+msgstr "Medlemmer må ikke opptre på noen måte som gir Intervac eller boligbytte generelt et dårlig rykte."
+
+# --- Cancellation
+# --- English text = Cancellation
+msgid "cancellation.headline"
+msgstr "Kansellering"
+
+# --- Cancellation
+# --- English text = Member may not cancel a Home Exchange Agreement without a valid reason such as death, illness or other unforeseen circumstances beyond the Member's control.
+msgid "cancellation.not_without_valid_reason"
+msgstr "Medlemmer kan ikke kansellere et avtalt Boligbytte uten at man har en særskilt grunn som død, sykdom eller andre uforutsette omstendigheter som ligger utenfor medlemmets kontroll."
+
+# --- Cancellation
+# --- English text = Member shall inform his National Representative before cancellation of a Home Exchange Agreement including the reasons for the cancellation.
+msgid "cancellation.must_inform_agent"
+msgstr "Et medlem skal informere sin nasjonale representant før en kansellering av et boligbytte inkludert begrunnelsen for kanselleringen."
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Consequences of Invalid Cancellation
+msgid "consequences.headline"
+msgstr "Konsekvenser Ved Ugyldig Kansellering"
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Member shall be responsible for any costs incurred by another Member as a result of cancellation of a Home Exchange Agreement without a valid reason and, at the discretion of the National Representative and the Board, shall be subject to termination of his membership.
+msgid "consequences.member_responsibilities"
+msgstr "Medlemmer skal bli gjort ansvarlig for alle kostnader som et annet medlem har fått som resultat av kanselleringen av boligbytteavtalen uten gyldig grunn, og etter skjønn skal den nasjonale representanten og Styret i Intervac diskutere en eventuell oppsigelse av medlemskapet i Intervac."
+
+# --- Complaints
+# --- English text = Complaints
+msgid "complaints.headline"
+msgstr "Klager"
+
+# --- Complaints
+# --- English text = If two Complaints are made against a Member he shall be liable to termination of his membership at the discretion of the National Representative and the Board.
+msgid "complaints.liability_for_termination"
+msgstr "Hvis to klager er gjort mot et medlem skal han vurdere å si opp sitt medlemskap etter en vurdering fra den nasjonale representanten og Styret i Intervac."
+
+# --- Member's Offer Home
+# --- English text = Member's Offer Home
+msgid "offered_home.headline"
+msgstr "Medlemmets Startside "
+
+# --- Member's Offer Home
+# --- English text = Member must ensure that his home offered for exchange
+msgid "offered_home.intro_text "
+msgstr "Medlemmet må forsikre seg om at hjemmet er lagt ut for boligbytte"
+
+# --- Member's Offer Home
+# --- English text = is available for exchange;
+msgid "offered_home.is_available"
+msgstr "Er disponibelt for boligbytte"
+
+# --- Member's Offer Home
+# --- English text = is fully insured for fire, theft, burglary and, so far as is possible, accidental damage;
+msgid "offered_home.is_insured"
+msgstr "Er fullforsikret for brann, tyveri, innbrudd og så langt det er mulig for uhell. "
+
+# --- Member's Offer Home
+# --- English text = is clean; and
+msgid "offered_home.is_clean"
+msgstr "er rent, og"
+
+# --- Member's Offer Home
+# --- English text = contains all the facilities described in his listing.
+msgid "offered_home.is_same_as_listing"
+msgstr "inneholder alle fasiliteter som er beskrevet i oppføringen."
+
+# --- Motor Vehicles
+# --- English text = Motor Vehicles
+msgid "motor_vehicles.headline"
+msgstr "Motorsykler"
+
+# --- Motor Vehicles
+# --- English text = Member must ensure that any vehicle offered for exchange is in good working order, legally compliant and, except as is notified to and agreed with the exchanging Member, comprehensively insured.
+msgid "motor_vehicles.member_responsibilities"
+msgstr "Medlemmer må forsikre seg om at alle sykler som er tilbydt i bytte er i god stand, og godt forsikret. "
+
+# --- Respect for Property
+# --- English text = Respect for Property
+msgid "respect_for_property.headline"
+msgstr "Respekt for Eiendom"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they respect each others' Property at all times and in particular and without prejudice to the generality of the preceding words;
+msgid "respect_for_property.yes_you_must"
+msgstr "Medlemmer må respektere hverandres eiendom på alle måter og til alle tider, og i særdeleshet i følgende;"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they keep the Exchange Property reasonably secure at all times and comply with the terms of any applicable insurance policies both in this respect and in respect of any other insurance condition communicated to them by the owner;
+msgid "respect_for_property.keep_it_secure"
+msgstr "Medlemmer skal alltid forsikre seg om at bytte-eiendommen er ansvarlig sikret og på den måten forholde seg til forsikringsregler som er gjennombått med huseier;"
+
+# --- Respect for Property
+# --- English text = Members must accept responsibility for any uninsured damage caused by them to the Exchanged Property.
+msgid "respect_for_property.accept_responsibility"
+msgstr "Medlemmer må akseptere ansvar for uforsikret uhell som er forårsaket av dem selv på boligbytteeiendommen. "
+
+# --- Pets
+# --- English text = Pets
+msgid "pets.headline"
+msgstr "Kjæledyr"
+
+# --- Pets
+# --- English text = Members must ensure that any Pets are, so far as is possible, free of vermin including worms and fleas, vaccinated and otherwise free of health risk and clean. Members must also ensure that areas of the home to which pets have access are cleaned.
+msgid "pets.cleanliness"
+msgstr "Medlemmene må forsikre seg om at kjæledyr er vaksinerte og har gjennomgått for eksempel ormerkur og på andre måter rene og ved god helse når de overlater dyret til sine byttepartnere."
+
+# --- Pets
+# --- English text = Members must apply high standards of care to Pets.
+msgid "pets.standards"
+msgstr "Medlemmene må ta godt vare på kjæledyr de passer. "
+
+# --- Home Country
+# --- English text = Home Country
+msgid "home_country.headline"
+msgstr "Hjemland"
+
+# --- Home Country
+# --- English text = Member must register on the Database under his Home Country. A Member may list a second home or holiday home situated outside his Home Country.
+msgid "home_country.required_on_registration"
+msgstr "Medlemmer må registrere seg i databasen under sitt hjemland. Et medlem kan ha en oppføring som sin andre bolig/feriebolig utenfor sitt hjemland."
+
+# --- Currency of Listing
+# --- English text = Currency of Listing
+msgid "listing_currency.headline"
+msgstr "Valuta på Oppføringen"
+
+# --- Currency of Listing
+# --- English text = Member is responsible for ensuring that his listing is kept current and up to date.
+msgid "listing_currency.member_responsibilities"
+msgstr "Medlemmer er ansvarlig for at deres oppføringer er riktige og oppdaterte."
+
+# --- Use of Database
+# --- English text = Use of Database
+msgid "database.headline"
+msgstr "Bruk av Databasen"
+
+# --- Use of Database
+# --- English text = Member may use the Database for the purpose of negotiating Home Exchange and for no other purpose. A Member contravening this Rule is subject to immediate termination at the discretion of the National Representative and the Board.
+msgid "database.for_home_exchange_only."
+msgstr "Medlemmer får kun bruke databasen i den hensikt å forhandle om boligbytter og ikke av noen andre hensikter. Et medlem som overtreder denne regelen kan bli øyeblikkelig slettet som medlem av den nasjonale representanten og Styret."
+
+# --- Confidentiality
+# --- English text = Confidentiality
+msgid "confidentiality.headline"
+msgstr "Fortrolighet"
+
+# --- Confidentiality
+# --- English text = Member shall keep confidential at all times all information obtained on the Database and all other information obtained from Members.
+msgid "confidentiality.member_responsibilities"
+msgstr "Medlemmer skal forholde seg fortrolig i alle saker angående informasjon som kommer frem i databasen og annen informasjon man får fra medlemmer."
+
+# --- Responsibility for negotiations
+# --- English text = Responsibility for negotiations
+msgid "negotiations.headline"
+msgstr "Ansvar for Forhandlinger"
+
+# --- Responsibility for negotiations
+# --- English text = Members accept that they are solely responsible for all negotiations for Home Exchange with other Members.
+msgid "negotiations.member_responsibilities"
+msgstr "Medlemmer aksepterer at de er ansvarlig for alle forhandlinger for boligbytte med andre medlemmer"
+
+# --- Fees
+# --- English text = Fees
+msgid "fees.headline"
+msgstr "Kostnader"
+
+# --- Fees
+# --- English text = A Member must pay reasonable fees to a National Representative and upon such payment his listing will be activated by the Representative.
+msgid "fees.must_be_paid"
+msgstr "Et medlem må betale et rimelig honorar til den nasjonale representanten for å få aktivert sitt medlemskap."
+
+# --- Definitions
+# --- English text = Definitions
+msgid "definitions.headline"
+msgstr "Definisjoner"
+
+# --- Definitions
+# --- English text = In these Rules unless the context otherwise implies:
+msgid "definitions.intro_text"
+msgstr "I disse reglene, med mindre sammenhengen sier noe annet:"
+
+# --- Definitions
+# --- English text = "Board" means the Board of Directors of Intervac.
+msgid "definitions.board"
+msgstr "\"styret\" betyr styret for Intervac International"
+
+# --- Definitions
+# --- English text = "Complaint" means a complaint made by a Member to a Representative that is upheld by the Board to the effect that another Member's actions are in contravention of these Rules.
+msgid "definitions.complaint"
+msgstr "\"Klage\" betyr at en klage er kommet fra et medlem om et annet medlem er kommet fordi medlemmet har gjort noe som strider mot disse reglene, og klagen behandles av  representant som er oppnevnt av Styret for å ta seg av skike saker."
+
+# --- Definitions
+# --- English text = "Database" means the Intervac international database operated at the domain names intervac.com and intervac-online.com and any other domains on which the Database may be maintained from time to time.
+msgid "definitions.database"
+msgstr "\"Database\" betyr Intervacs internasjonale database som er operert av domenetnavnet intervac.com og intervac-online og i andre domener som databasen måtte befinne seg."
+
+# --- Definitions
+# --- English text = "Exchanged Property" means any Property which Members have agreed to exchange and which is occupied or used during the exchange and in particular and without prejudice to the generality of these words Property that is the subject of a Home Exchange Agreement.
+msgid "definitions.exchanged_property"
+msgstr "\"Boligbytteeiendom\" betyr eiendommen som medlemmet har blitt enige om bytte og som er i bruk gjennom byttet i ikke som eiendom i annen forstand end som boligbytte avtale."
+
+# --- Definitions
+# --- English text = "Home Country" means the country of normal residence (at least six months per year) of a Member in which his principal home is situated.
+msgid "definitions.home_country"
+msgstr "\"Hjemland\" betyr det landet som er fast bosted (minst seks måneder i året) for medlemmet og der hovedboligen er plassert."
+
+# --- Definitions
+# --- English text = "Home Exchange" means the process of exchanging homes for vacation or holiday purposes or of providing rental, hospitality or other services facilitated from time to time on the Database.
+msgid "definitions.home_exchange"
+msgstr "\"Boligbytte\" betyr den prosessen av boligbytte for ferie eller for utleie, gjestfrihet eller andre servicer som vi tilbyr i databasen."
+
+# --- Definitions
+# --- English text = "Home Exchange Agreement" means an agreement for Home Exchange in Standard Form entered into by Members and Notified to Intervac.
+msgid "definitions.home_exchange_agreement"
+msgstr "\"Boligbytteavtale\" betyr en avtale for boligbytte i en standart kontrakt skrevet av medlemmene og sendt til Intervac."
+
+# --- Definitions
+# --- English text = "Intervac" means Intervac International and includes its Representatives.
+msgid "definitions.intervac"
+msgstr "\"Intervac\" betyr Intervac International og inkluderer deres representanter."
+
+# --- Definitions
+# --- English text = "Member" means a member of Intervac who has registered a listing on the Database.
+msgid "definitions.member"
+msgstr "\"Medlem\" betyr et medlem av Intervac som har registrert en oppføring i databasen."
+
+# --- Definitions
+# --- English text = "Negotiation" means any negotiation conducted orally, by email or in writing.
+msgid "definitions.negotiation"
+msgstr "\"Forhandling\" betyr enhver forhandling gjort muntlig, på e-post eller skriftlig."
+
+# --- Definitions
+# --- English text = "Notified" and "Notification" means in relation to a Home Exchange Agreement notification of such Agreement to Intervac or a Representative.
+msgid "definitions.notification"
+msgstr "\"Notified\" and \"Notification\" betyr at forhold om en boligbytteavtale er registrert av Intervac eller en representant."
+
+# --- Definitions
+# --- English text = "Pet" means a dog, cat or other pet and includes any animal or bird that might occupy a Member's property, garden or surroundings.
+msgid "definitions.pet"
+msgstr "\"Kjæledyr\" betyr en hund, katt eller en annet dyr inkludert hvilket som helst dyr eller fugl som skal bo på medlemmets eiendom, hage eller omgivelser."
+
+# --- Definitions
+# --- English text = "Property" includes homes, vehicles and all other forms of Members' property.
+msgid "definitions.property"
+msgstr "\"Eiendom\" inkluderer hjem, biler og alle andre former for medlemmets eiendom."
+
+# --- Definitions
+# --- English text = Representative" and "National Representative" means an Agent or Local Organiser of Intervac.
+msgid "definitions.representative"
+msgstr "\"Representant\" og \"Nasjonal Representant\" betyr en lokal organisator av Intervac."
+
+# --- Definitions
+# --- English text = "Rule" means a rule or clause of these terms of use and this agreement;
+msgid "definitions.rule"
+msgstr "\"Regel\" betyr en regel eller klausul ved disse vilkårene og denne avtalen."
+
+# --- Definitions
+# --- English text = "Standard Form" means the standard form of Home Exchange Agreement provided by Intervac.
+msgid "definitions.standard_form"
+msgstr "\"Standardkontrakt\" betyr den standard kontrakt for boligbytte som er laget av Intervac."
+
+# --- English text = References to the plural include references to the singular and vice versa.
+msgid "definitions.references_to_plural_singular"
+msgstr "Referanser til flertall inkluderer referanser til entall og vice verca."
+
+# --- English text = References to any gender include references to all other genders.
+msgid "definitions.references_to_gender"
+msgstr "Referanser til et kjønn inkluderer referanser til andre kjønn."
+
+# --- English text = Headings are for convenience only and do not affect the interpretation of any Rule.
+msgid "definitions.headings_are_convenience"
+msgstr "Overskrifter er bare til informasjon og påvirker ikke tolkingen av noen regel."
+

@@ -1,0 +1,91 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-11-23 19:11+0100\n"
+"PO-Revision-Date: 2011-10-11 17:16+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Privacy Policy
+msgid "privacy_policy"
+msgstr "Personvern."
+
+# --- English text = Intervac may only be used for non commercial individual home exchange purposes. When a member joins Intervac and uses the database, he agrees not to contact other members of Intervac for any other purpose than to arrange a personal home exchange. Anyone who contacts Intervac members for any other purpose than to arrange a personal home exchange will be immediately barred from Intervac and face severe penalties starting at, but not limited to, $125 per member contacted.
+msgid "only_non-commercial"
+msgstr "Intervac kan kun benyttes til ikke-kommersielle og individuelle boligbytteformål. Når et medlemmer melder seg inn i Intervac og bruker Intervacs database, sier hun/han seg dermed enig i at andre medlemmer av Intervac ikke skal kontaktes for noen andre formål enn å arrangere et personlig boligbytte. Enhver som kontakter Intervac medlemmer i en annen hensikt enn å arrangere et personlig boligbytte, vil straks bli utestengt fra Intervac. Medlemmet vil omgående bli ilagt straff som starter med, men som ikke er bgrenset til $125 per medlem som er blitt kontaktet på urettmessig måte."
+
+# --- English text = All listings posted on the Intervac web site may not under any circumstances be posted on another web site or in any other media for any purposes. Any offenders agree that by posting Intervac's listing information on another web site or in any other media for any purposes will be subject to severe penalties starting at, but not limited to, $125 per listing.
+msgid "cross-posting_not_allowed"
+msgstr "Annonser på Intervacs hjemmeside kan ikke under noen omstendigheter kopieres inn på andre hjemmesider eller benyttes i media.  Enhver som overtreder denne regeen, vil bl istraffet med en bot som starter med, men som ikke begrenses av $125 per annonse."
+
+# --- English text = By joining Intervac, you agree that any home exchange, hospitality offer or rental transaction you arrange is between you and the other party. You agree that neither Intervac nor any of its affiliates bear any responsibility for the arrangement and it's completely up to you to find the right partner.
+msgid "responsibility_lies_with_member"
+msgstr "Ved å bli medlem i Intervac sier du deg enig i at ethvert boligbytte, gjestfrhetstilbud eller leieforhold som du arrangerer, kun er et forhold melleom deg og motparten. Du sier deg videre enig i at verken Intervac eller noen annen tilknyttet organisasjon kan pålegges noe ansvar for arrangementet og at det er utelukkende opp til deg å finne en riktig boligbyttepartner."
+
+# --- English text = Protection of your Personal Information
+msgid "protection_headline"
+msgstr "Sikring av personlig informasjon."
+
+# --- English text = Intervac International Home Exchange Holiday Service is committed to protecting your privacy. We provide this notice to explain our online information practices and the choices you can make about the way information is collected and used. We will only use the information we collect for the purposes of enhancing your Intervac International online service experience. At no time will we sell, trade, rent or disclose your personal information to third parties unless we have obtained consent to such use.
+msgid "intro_and_no_sell"
+msgstr "Intervac International Home Exchange ferie Service er forpliktet til å beskytte ditt privatliv. Vi utgir denne informasjonen for å forklare vår praksis i forbindelse med vår online informasjon  og de valg du kan foreta om måten informasjon er samlet inn på og brukt. Vi vil kun bruke informasjonen vi samler inn for å styrke din erfaring med Intervac Internationals online service. Ikke på noe tidspunkt vil vi selge, handle eller offentliggjøre personlig informasjon til tredje part med mindre vi har fått tillatelse til slik bruk."
+
+# --- English text = Security of your Personal Information
+msgid "security_headline"
+msgstr "Sikkerhet for personlig informasjon."
+
+# --- English text = Any personal information we collect will be stored in our secure database. The information published at the international database for each listing has been provided by members either directly online or through an Intervac national agent and can be modified by the member at any time, according to database procedure.
+msgid "stored_in_database"
+msgstr "All personlig informasjon som samlers inn, vil bli lagret i vår sikre database. All informasjon som er publisert på Intervacs internasjonale database til bruk i boligbytteannonser, er blitt meddelt av våre medlemmer enten direkte eller gjennom en av Intervacs nasjonale lederet og kan bli endret av medlemmet på et hvilket som helst tidspunkt i henhold til den til enhver tid gjeldenede prosedyre for vår database."
+
+# --- English text = As an Intervac International member, you may occasionally receive e-mail updates from us, including newsletters, special offers we think you will find valuable, important changes to the functionality of the Web site, and new Intervac International services. These e-mail communications may be sent or personalized based on information you provide on the Intervac International database. You may, at any time, decline to receive e-mail notifications by replying to any e-mail with 'REMOVE' in the subject line.
+msgid "receive_email_updates"
+msgstr "Som medlem i Intervac Internationa vil du fra tid til annen motta e-post - oppdateringer fra oss sammen med nyhetsbrev og spesialtilbud  som vi tror du vil syes er verdifulle. Du vil også bli orientert om endringer i funksjoner på Intervacs hjemmeside og om nye tjenester fra Intervac Internationall. Slike e-post - meddelelser vil bli sendt til adresser som finnes i den informasjon du har gitt til Intervac Internationals database. Du kan når som helst avstå fra å motta e-postmeldinger ved å svare på en e-post ved å skrive 'REMOVE' i emnefeltet."
+
+# --- English text = IP Addresses and Links
+msgid "ip_and_links_headline"
+msgstr "IP- adresser og linker."
+
+# --- English text = IP addresses are not linked to personally identifiable information, and Intervac International does not use those for tracking purposes.
+msgid "ip_not_personal"
+msgstr "IP- adresser er ikke knyttet til personlig identifiserbar informasjon, og Intervac International bruker ikke disse i den hensikt å spore noen."
+
+# --- English text = Our Web site contains many links to other sites. Intervac International is not responsible for the privacy practices of such other sites. This privacy statement applies solely to information collected by this web site.
+msgid "outside_links_disclaimer"
+msgstr "Vår hjemmeside inneholder mange linker til andre hjemmesider. Intervac International er ikke ansvarlig for gjeldende praksis når det gjelder personvernet på slike sider. Denne erklæringen om personvern gjelder kun informasjon som er samlet på Intervacs hjemmeside."
+
+# --- English text = Cookies
+msgid "cookies_headline"
+msgstr "Cookies."
+
+# --- English text = Personal information may also be collected by cookies, which are pieces of data stored by a web browser that contain information relating to use of Intervac International web site. A cookie can not read data off your hard disc or read cookie files created by other sites. Intervac does not use cookies to track personal information and uses them for internal management purposes only. Our web site requires that cookies be active to use member functions.
+msgid "cookies_text"
+msgstr "Personligl informasjon kan også hentes fra  cookies, som er små tekstfiler som vår hjemmeside lagrer på din PC og som inneholder informasjon om hvordan hjemmesiden skal brukes. En cookie kan ikke lese data fra din harddisk eller lese cookiefiler som er skapt av andre hjemmesider. Intervac bruker ikke cookies for å spore personlig informasjon. Bruken vil utelukkende begrense seg til interne, administrative formål. Vår hjemmeside krever aktive cookies for å kunne aktivere medlemsfunksjoner."
+
+# --- English text = If you have any questions about the security at our Web site, please send an e-mail to security@intervac.org.
+msgid "security_questions"
+msgstr "Hvis du har spørsmål vedrørende sikkerheten på vår hjemmeside, ber vi deg vennligst sende en e-post til: security@intervac.org."
+
+# --- English text = Contacting Intervac International
+msgid "how_to_contact_headline"
+msgstr "Hvordan kontakte Intervac International?"
+
+# --- English text = If you have any questions about this privacy policy statement or the practices of this site, you can e-mail the-board@intervac.org, or call your National Intervac agent or send direct correspondence to Intervac International Home Exchange Holiday Service, PO Box 561, SE – 114 79 Stockholm, Sweden
+msgid "how_to_contact_text"
+msgstr "Hvis du har spørsmål som gjelder denne personvernerklæringen eller den praksis som gjelder for vår hjemmeside, kan du sende en e-post til: the-board@intervac.org, eller ringe lederen for Intervac Norge. Du kan også sende en henvendelse til: Intervac International Home Exchange Holiday Service, PO Box 561, SE - 114 79 Stockholm, Sweden"
+
+# --- English text = Changes to the Privacy Policy
+msgid "changes_headline"
+msgstr "Endringer i personvernet."
+
+# --- English text = If we decide to change our privacy policy, we will post notice of a privacy policy update on our Home page so that our users may view our updated policy and be aware on an ongoing basis of what information we collect, how we use it, and under which circumstances, if any, we disclose it. 
+msgid "changes_text"
+msgstr "Dersom vi bestemmer oss for å endre våre regler for personvern, vil vi lage et oppslag på vår hjemmeside om dette slik at våre medlemmer kan holdes orientert og fortløpende være orientert om hvilken informasjon vi samler inn, hvordan vi bruker informasjonen, og under hvilke omstendigheter, hvis noen, vi vil offentliggjøre informasjonen."
+

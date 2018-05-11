@@ -1,0 +1,85 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-03-31 16:25+0100\n"
+"Last-Translator: kristina caillaud <info@intervac.fr>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member favorites
+msgid "headline"
+msgstr "Vos Offres Favorites"
+
+# --- English text = Now you can keep track of listings that you want to visit here in your Member Favorites list.  It's easy to add an entry to your favorites.  When viewing a listing that interests you, just click on the link in the left-hand column.
+msgid "intro_text"
+msgstr "Voici la liste de vos offres préférées que vous avez sélectionnées au cours de votre recherche. Ici vous pouvez garder la trace de vos différents contacts avec les annonceurs de ces offres, leur envoyer un message (clic sur l'image de l'enveloppe), écrire vos commentaires personnels face à chacune des offres (clic sur l'image du bloc-note). Vous pouvez classer les offres de votre liste, et à tout moment les retirer en une (clic sur l'image de la corbeille) ou plusieurs fois (cochez la case correspondante et cliquez sur le bouton orange situé en bas de cette page)."
+
+# --- English text = Do you really want to delete this member favorite entry?
+msgid "delete_confirm"
+msgstr "Voulez-vous vraiment supprimer cette offre de votre liste ?"
+
+# --- English text = Delete this member favorite entry
+msgid "alt_delete"
+msgstr "Retirer cette offre de ma liste"
+
+# --- English text = Edit this member favorite entry
+msgid "alt_edit"
+msgstr "Écrire mes notes"
+
+# --- English text = Save my text
+msgid "save_button"
+msgstr "Ajouter à mes Favoris"
+
+# --- English text = You do not have any entries in your Favorites list.
+msgid "no_favorites_yet"
+msgstr "Actuellement, vous n'avez sélectionné aucune offre au cours de votre recherche."
+
+# --- English text = Photo for listing
+msgid "photo_for"
+msgstr "Photo principale de"
+
+# --- English text was = Added to My Favorites
+# --- (Mar 2009) - edited the text for length.  New English text = "Added"
+msgid "added"
+msgstr "Offre ajoutée à votre liste \"Mes Favoris\""
+
+# --- English text = Sort Favorites by
+msgid "sort_by.label"
+msgstr "Classer selon"
+
+# --- English text = Date
+#, fuzzy
+msgid "sort_by.date"
+msgstr "Date"
+
+# --- English text = Country
+msgid "sort_by.country"
+msgstr "Pays"
+
+# --- English text = Member id
+msgid "sort_by.member_id"
+msgstr "N° adhésion"
+
+# --- English text = Delete Checked Favorites
+msgid "delete_multiple.button_text"
+msgstr "Supprimer la ou les offres cochées"
+
+# --- English text = Please wait ...
+msgid "delete_multiple.disable_text"
+msgstr "Merci de patienter ..."
+
+# --- English text = Do you really want to delete all checked favorites?
+msgid "delete_multiple.confirm_text"
+msgstr "Voulez-vous vraiment retirer de la liste toutes les offres cochées ?"
+
+# --- English text = Delete multiple favorites
+msgid "delete_multiple.checkbox_title_tag"
+msgstr "Cochez cette case pour retirer cette offre de votre liste"
+

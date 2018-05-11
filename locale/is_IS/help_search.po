@@ -1,0 +1,150 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-11-03 19:11+0100\n"
+"PO-Revision-Date: 2011-07-30 12:47-0000\n"
+"Last-Translator: Sesselja Traustadóttir <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Search Criteria
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.headline"
+msgstr "Leitarskilyrði"
+
+# --- English text = About Exchange Types
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.headline"
+msgstr "Um tegundir heimilaskipta."
+
+# --- English text = Exchange types are evaluated as follows: any listing returned will fulfill your other criteria <highlight>and</highlight> at least one of the exchange types you have chosen below.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.evaluation_rules"
+msgstr "Tegundir heimilaskipta eru reiknaðar sem hér segir: skráningar sem birtar eru uppfylla leitarskilyrði þín <highlight>og</highlight> a.m.k. eina tegund heimilaskipta sem þú hefur valið hér að neðan."
+
+# --- English text = Following is a list of all the exchange types supported by our online system, and their definitions.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.list_intro"
+msgstr "Hér er listi yfir tegundir heimilaskipta, ásamt skilgreiningum á þeim."
+
+# --- English text = <highlight>Home Exchange: </highlight>Our main focus - two families agree to live in each other's homes over a specified period of time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.home_exchange"
+msgstr "<highlight>Heimilaskipti: </highlight>Helsti tilgangur okkar - tvær fjölskyldur sammælast um að búa á heimilum hvorrar annarar í tilgreindan tíma."
+
+# --- English text = <highlight>House Sitting: </highlight>Looking after someone else's home, mail, pets while they are away.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.house_sitting"
+msgstr "<highlight>Hússeta: </highlight> Að annast heimili, póst og gæludýr annarra að þeim fjarstöddum."
+
+# --- English text = <highlight>Double Exchange: </highlight>Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.double_exchange"
+msgstr "<highlight>Tvöföld heimilaskipti: </highlight> Þegar tvær fjölskyldur (oft nágrannar) óska eftir skiptum við tvær fjölskyldur. Þessi tegund heimilaskipta er í miklum metum hjá nágrönnum sem ferðast saman, sem og stórfjölskyldum."
+
+# --- English text = <highlight>Hospitality Exchange: </highlight>Members agree to exchange visits in each other’s homes.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.hospitality_exchange"
+msgstr "<highlight>Skipti á gestrisni: </highlight>Meðlimir koma sér saman um heimsókn (gistingu og aðra aðstöðu) hvor hjá öðrum."
+
+# --- English text = <highlight>Long Term Exchanges: </highlight>A favorite between retired people, university staff, or employees of global multi-national companies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.long_term_exchanges"
+msgstr "<highlight>Langtímaskipti: </highlight> Vinsæl meðal t.d. eftirlaunaþega, sendikennara og starfsfólks alþjóðlegra stórfyrirtækja."
+
+# --- English text = <highlight>Bed and Breakfast: </highlight>This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.bed_and_breakfast"
+msgstr "<highlight>Gisting og morgunverður: </highlight> Það sama og hið þekkta hugtak Bed and Breakfast, en í boði meðal meðlima án þess að greiðsla komi fyrir."
+
+# --- English text = <highlight>Rentals: </highlight>Members sometimes list holiday homes which they usually rent offering a reduced price to Intervac members.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.rentals"
+msgstr "<highlight>Leiga í boð: </highlight>Meðlimir geta skráð frístundahús (sumarbústaði) sem þeir hafa í útleigu, á lækkuðu verði til annarra Intervac meðlima."
+
+# --- English text = <highlight>Youth Exchange:  </highlight>A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_exchange"
+msgstr "<highlight>Táninga-heimilaskipti:  </highlight>Tækifæri fyrir ungmenni til að kynnast nýrri menningu fjarri sívökulu auga foreldranna."
+
+# --- English text = <highlight>Youth Hospitality: </highlight>Young people agree to visit each other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_hospitality"
+msgstr "<highlight>Táninga-gistiskipti: </highlight>Ungmenni sammælast um heimsókn (gistingu og aðra aðstöðu)."
+
+# --- English text = About Exchange Dates
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.headline"
+msgstr "Um skiptidaga"
+
+# --- English text = Exchange dates require at least one overlapping day in order to be included in your search results.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.evaluation_rules"
+msgstr "Skiptidagar þurfa að skarast um a.m.k. einn dag til að birtast í leitarniðurstöðum."
+
+# --- English text = In these fields you should show the earliest date you are available to travel, and the latest date by which you must return home.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.best_practice"
+msgstr "Í þessa reiti skráir þú fyrsta daginn sem þú getur lagt af stað og síðasta mögulega dag heimfarar."
+
+# --- English text = About Sleeping Accomodations
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.headline"
+msgstr "Um aðstöðu til gistingar"
+
+# --- English text = Sleeping accomodations is evaluated as an <highlight>and</highlight> condition to your other search criteria.  This means any listing returned will have your other criteria <highlight>and</highlight> fulfill the ones below as well.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.evaluation_rules"
+msgstr "Aðstaða til gistingar er reiknaður sem <highlight>and</highlight> skilyrði með öðrum leitarskilyrðum.  Þetta þýðir að skráningar sem birtast við leit uppfylla önnur leitarskilyrði <highlight>og</highlight>líka þau sem eru hér að neðan."
+
+# --- English text = <highlight>Sleeping/People</highlight> This refers to the number of people who can sleep in an exchange home.  It includes beds, pull-out sofas, etc.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.sleeps_people"
+msgstr "<highlight>Svefnpláss</highlight> Segir til um hve margir geta sofið á tilteknu heimili. Tekur til rúma, svefnsófa o.s.frv."
+
+# --- English text = <highlight>Find listings with -- adults </highlight> This is evaluated as an exact number.  So if you choose to search for listings with 2 adults, the system will not return listings with 1 adult.  If you do not want to use this criteria in your search just set the dropdown to the double dash (--).
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.number_of_adults"
+msgstr "<highlight>Finna skráningar með -- fullorðnum </highlight> Þetta er reiknað sem nákvæm tala. Veljir þú að leita að skráningum með 2 fullorðnum birtir kerfið ekki skráningar með 1 fullorðnum. Viljirðu ekki nota þetta skilyrði skaltu velja tvístrikið (--)."
+
+# --- English text = <highlight>With or without children </highlight>Choose the double dash (--) if you don't care one way or the other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.children"
+msgstr "<highlight>Með eða án barna </highlight>Veldu tvístrikið (--) ef þér er sama hvort heldur er."
+
+# --- English text = About Keyword Search
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.headline"
+msgstr "Um leitarorð"
+
+# --- English text = Keywords are the way to search within a member's free text.
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.introtext"
+msgstr "Leitarorð eru notuð til að leita í lýsingum félagsmanna."
+
+# --- English text = <highlight>How do they work?</highlight> Keywords are OR conditions.  A given listing will be returned if it contains the first keyword, OR the second one, OR the third one.</p>
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.evaluation_rules"
+msgstr "<highlight>Hvernig virka þau?</highlight> Lykilorð eru \"OR\" skilyrði. Skráning birtist ef hún inniheldur fyrsta leitarorðið, EÐA annað, EÐA það þriðja.</p>"
+
+# --- English text = About Reverse Search
+# --- Location:
+msgid "reverse_search.headline"
+msgstr "Um breytta leit"
+
+# --- English text = Introducing reverse search!  It's the best way to find other members who are specifically interested in visiting your country, your region or your nearest city.
+# --- Location:
+msgid "reverse_search.introtext"
+msgstr "Kynnstu óskum annarra! Þetta er besta leiðin til þess að finna aðra meðlimi sem hafa sérlegan áhuga á að heimsækja heimkynni þín."
+
+# --- English text = In the Destinations Wishlist you can enter an unlimited number of countries, regions and cities that you would like to visit. This search draws from that information and will return listings of members who have indicated in thier Destinations Wishlist that they would like to visit the same country, region, or nearest city as yours. The more you define your preferred destinations, the richer this feature will become for everyone.
+# --- Location:
+msgid "reverse_search.evaluation_rules"
+msgstr "Í Óskalista áfangastaða getur þú sett inn öll þau lönd, svæði og borgir sem þig langar að heimsækja. Út frá þeim skráningum koma fram upplýsingar til annarra meðlima sem hafa merkt við í sínum Óskalista áfangastaða að þeir vilja heimsækja sömu áfangastaði og þú. Þeim mun nákvæmar sem þú skilgreinir óskaáfangastað þinn, þeim mun gagnlegra er það fyrir alla."
+

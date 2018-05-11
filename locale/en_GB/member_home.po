@@ -1,0 +1,276 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-21 20:25+0100\n"
+"PO-Revision-Date: 2011-09-01 19:20-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Logged in
+msgid "logged_in_as"
+msgstr "Logged in"
+
+# --- English text = Welcome,
+# --- (Aug 2009) Changed from "My Dashboard" per AGM 2009
+msgid "system_messages.headline"
+msgstr "Welcome,"
+
+# --- English text = Read Now
+msgid "dashboard.msg_waiting_link"
+msgstr "Read Now"
+
+# --- English text = Read messages from other members
+msgid "dashboard.msg_waiting_title"
+msgstr "Read messages from other members"
+
+# --- English text = You have 1 new message.
+msgid "dashboard.messages_waiting.one"
+msgstr "You have 1 new message."
+
+# --- English text = You have {{count}} new messages.
+# --- IMPORTANT - The placeholder {{count}} will be automatically replaced with a number.
+# --- PLEASE DO NOT TRANSLATE {{count}}
+msgid "dashboard.messages_waiting.other"
+msgstr "You have {{count}} new messages."
+
+# --- English text =
+# --- IMPORTANT : Some languages have a third case. Please leave this entry blank if your language only requires singular and plural.
+msgid "dashboard.messages_waiting.few"
+msgstr ""
+
+# --- English text = It is necessary to finish your registration before we can process your membership. 
+msgid "system_messages.finish_registration"
+msgstr "It is necessary to finish your registration before we can process your membership."
+
+# --- English text = Next step
+msgid "system_messages.next_step"
+msgstr "Next step"
+
+# --- English text = Pay for my membership here
+msgid "system_messages.pay_here_link"
+msgstr "Pay for my membership here"
+
+# --- English text = Your membership has expired on
+msgid "system_messages.expired_headline"
+msgstr "Your membership has expired on"
+
+# --- English text = Your membership will expire in {{count}} day.
+msgid "system_messages.expiration_warning.one"
+msgstr "Your membership will expire in {{count}} day."
+
+# --- English text = Your membership will expire in {{count}} days.
+msgid "system_messages.expiration_warning.other"
+msgstr "Your membership will expire in {{count}} days."
+
+# --- English text = Thank you for renewing your expired membership.
+msgid "system_messages.thanks_renew_expired"
+msgstr "Thank you for renewing your expired membership."
+
+# --- English text = Thank you for renewing your membership.
+msgid "system_messages.thanks_renew"
+msgstr "Thank you for renewing your membership."
+
+# --- English text = Thanks for your early renewal! Your current membership is active until
+msgid "system_messages.thanks_early_renewal"
+msgstr "Thanks for your early renewal! Your current membership is active until"
+
+# --- English text = Renew here
+# --- Adjusted text for length from "Renew your membership today" to "Renew"
+msgid "system_messages.renew_today"
+msgstr "Renew"
+
+# --- English text = Get more offers from other members. Fill out your <link>Destinations Wishlist</link>.
+# --- Location = This text comes in the dashboard when the member has an active membership but an empty Destinations Wishlist.
+msgid "system_messages.destinations_wishlist"
+msgstr "Get more offers from other members. Fill out your <link>Destinations Wishlist</link>."
+
+# --- SEARCH A SPECIFIC MEMBER ---
+# --- English text = Find a Specific Member
+msgid "member_search_headline"
+msgstr "Find a Specific Member"
+
+# --- English text = Go!
+msgid "go"
+msgstr "Go!"
+
+# --- English text = Member ID
+msgid "id"
+msgstr "Member ID"
+
+# --- English text = Member Name
+msgid "name"
+msgstr "Member Name"
+
+# --- USEFUL LINKS ---
+# --- Headline Text ---
+# --- English Text = Useful Links
+msgid "useful_links.headline"
+msgstr "Useful Links"
+
+# --- English text = Register Your Next Exchange
+# --- (26 Jan 10) Edited to read: Create an Exchange Agreement.
+msgid "register_exchange.headline"
+msgstr "Create an Exchange Agreement."
+
+# --- English text = My Exchange Agreements
+msgid "register_exchange.my_agreements"
+msgstr "My Exchange Agreements"
+
+# --- English text = Review my exchange agreements
+msgid "register_exchange.my_agreements_title"
+msgstr "Review my exchange agreements"
+
+# --- English Text = Register your next home exchange here.
+# => link title is mouseover text
+msgid "register_exchange.text"
+msgstr "Register your next home exchange here."
+
+# --- English Text = Choose Membership
+msgid "change_membership.choose"
+msgstr "Choose Membership"
+
+# --- English Text = Your Memberships
+msgid "change_membership.your_memberships"
+msgstr "Your Memberships"
+
+# --- English Text = Change your password
+# --- (Mar 2009) Edited for perspective (from "your" to "my").
+# --- New English Text = Change My Password
+msgid "useful_links.change_password"
+msgstr "Change My Password"
+
+# --- English Text = It's a good idea to change your password from time to time.
+# => link titles are mouseover text
+msgid "useful_links.change_password_title"
+msgstr "It is a good idea to change your password from time to time."
+
+# --- English text = Region Search
+msgid "map_region_search_headline"
+msgstr "Search Regions"
+
+# --- English text = Look For An Exchange Partner
+msgid "map_search_headline"
+msgstr "Look For An Exchange Partner"
+
+# --- English text = Click on a region to start a search
+msgid "map_search_text"
+msgstr "Click on a region to start a search"
+
+# --- Current English text = The travel dates in your listing are in the past.
+# --- (April 2009)  Edited heavily for length!
+msgid "system_messages.obsolete_dates"
+msgstr "The travel dates in your listing are in the past."
+
+# --- English text = Update
+msgid "system_messages.obsolete_dates_link"
+msgstr "Update"
+
+# --- English text =  An exchange agreement is waiting for you.
+msgid "dashboard.exchange_agreement_waiting"
+msgstr "An exchange agreement is waiting for you."
+
+# --- English text = Welcome back from your exchange with {{partner_name}}. Our system has automatically updated your exchange counter from {{old_exchange_count}} to {{new_exchange_count}}. If you were satisfied with your exchange and your partner, you can act as a reference for them.
+# --- IMPORTANT : Never translate placeholders (example: {{partner_name}})  They will be replaced with information from the database.
+msgid "dashboard.exchange_welcome_back"
+msgstr "Welcome back from your exchange with {{partner_name}}. Our system has automatically updated your exchange counter from {{old_exchange_count}} to {{new_exchange_count}}. If you were satisfied with your exchange and your partner, you can act as a reference for them."
+
+# --- English text = Quick Reverse Search
+msgid "reverse_search.headline"
+msgstr "Quick Reverse Search"
+
+# --- English text = Show all the members in
+msgid "reverse_search.show_all_members_text"
+msgstr "Show all the members in"
+
+# --- English text = Wanting to exchange with my
+msgid "reverse_search.exchange_with_my"
+msgstr "Wanting to exchange with my"
+
+# --- English text = Your new password has been saved.
+msgid "messages.changed_password_success"
+msgstr "Your new password has been saved."
+
+# --- English text = As an OpenID user you cannot change your password here.  You must change do this at your OpenID provider.
+msgid "errors.open_id_user"
+msgstr "As an OpenID user you cannot change your password here.  You must change do this at your OpenID provider."
+
+# --- English text = This search is available as soon as you have finished filling in your listing details.
+msgid "reverse_search.invisible_listing_error"
+msgstr "This search is available as soon as you have finished filling in your listing details."
+
+# --- English text By creating an agreement you register your exchange. The badge you are awarded (bronze, silver, gold or platinum) now depends on the exchanges you register. You also become eligible to win a free membership!
+msgid "register_agreement.free_membership"
+msgstr "By creating an agreement you register your exchange. The badge you are awarded (bronze, silver, gold or platinum) now depends on the exchanges you register. You also become eligible to win a free membership!"
+
+# --- English text = Begin the process by entering the member id of your exchange partner below.
+msgid "register_agreement.how_to_begin"
+msgstr "Begin the process by entering the member id of your exchange partner below."
+
+# --- English text = Click here to begin setting up your home exchange details now.
+msgid "dashboard.new_before_activation"
+msgstr "Begin setting up your home exchange details now."
+
+# --- English text = Your membership is active, but your listing remains invisible until complete. Click here to setup your home exchange details.
+msgid "dashboard.active_but_invisible"
+msgstr "Your membership is active, but your listing remains invisible until complete. You must setup your home exchange details."
+
+# --- English text = Your national representative is:
+msgid "contact_your_agent.headline"
+msgstr "Your national representative is:"
+
+# --- (Feb 2011) Edited per BD request to read => Contact Us
+msgid "contact_your_agent.contact_link"
+msgstr "Contact Us"
+
+# --- English text = Click here to send your national representative an email
+msgid "contact_your_agent.contact_link_title"
+msgstr "Click here to send your national representative an email"
+
+# --- English text = how the exchange agreement tracking system works
+msgid "help.exchange_agreements.headline"
+msgstr "How the Exchange Agreement Tracking System Works"
+
+# --- English text = Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system.
+msgid "help.exchange_agreements.getting_started"
+msgstr "Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system."
+
+# --- English text = <highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side.
+msgid "help.exchange_agreements.my_perspective"
+msgstr "<highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side."
+
+# --- English text = <highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight>  
+msgid "help.exchange_agreements.notification"
+msgstr "<highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight>"
+
+# --- English text = <highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries.
+msgid "help.exchange_agreements.visibility"
+msgstr "<highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries."
+
+# --- English text = <highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement.
+msgid "help.exchange_agreements.changes_allowed"
+msgstr "<highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement."
+
+# --- English text = Documented Experience Badges
+msgid "help.exchange_agreements.ee_increased_headline"
+msgstr "Documented Experience Badges"
+
+# --- English text = After your exchange is completed both you and your partner will automatically have an additional registered exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can range from Ready-to-Go (for new members) to Gold (6+ exchanges) and beyond.
+msgid "help.exchange_agreements.ee_increased"
+msgstr "After your exchange is completed both you and your partner will automatically have an additional exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can go from Ready-to-Go (for new members) to Platininum (11+ exchanges)."
+
+# --- English text = Tips and Checklists
+msgid "useful_links.tips_and_checklists"
+msgstr "Tips and Checklists"
+
+# --- English text = Become a Full Member
+# --- Location = This button is shown to trial members.  They click it and go to the payment page.
+# (June, 2011 - New)
+msgid "system_messages.full_member_button"
+msgstr "Become a Full Member"

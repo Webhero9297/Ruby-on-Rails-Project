@@ -1,0 +1,95 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-11-27 00:39+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = About Member References
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "headline"
+msgstr "Om referanser for medlemmer"
+
+# --- English text = References are a way to show other members that you are a good exchange party. When you agree to act as your exchange partner's reference, you are agreeing to vouch for them as reliable and responsible exchange partners.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "introtext"
+msgstr "Hensikten med referanser er å vise at du er en god boligbytter. Nå du sier deg villig til å være din boligbyttepartners referanse, innestår du for at dette er en ansvarlig partner som en kan stole på."
+
+# --- English text = Intervac has two different types of references: confirmed and unconfirmed.  A confirmed reference is of course the best as it states that both parties have confirmed thier good will.  The label confirmed reference is given when the reference giver has chosen <highlight>Yes</highlight> to the question: <highlight>Act as Reference?</highlight> and the reference receiver has chosen <highlight>Yes</highlight> to the question <highlight>Allow as Reference?</highlight>
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "confirmed_unconfirmed.introtext"
+msgstr "Intervac har to ulike typer referanser: Bekreftede og ubekreftede.  En bekreftet referanse er naturligvis best fordi den tilkjennegir at begge parter har bnekreftet sin gode viljel.  Merkelappen bekreftet referanse blir gitt når den som har gitt referansen har valgt  <highlight>Ja</highlight> til spørsmålet: <highlight>Opptre som?</highlight> og referansegiveren har valgt <highlight>Ja</highlight> til spørsmålet <highlight>Tillates som referanse?</highlight>"
+
+# --- English text = Why are some references unconfirmed?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.headline"
+msgstr "Hvorfor er noen referanser ubekreftede?"
+
+# --- English text = Unconfirmed references are usually because either the member's exchange partner has not yet specifically chosen <highlight>Yes</highlight> or <highlight>No</highlight> to the question <highlight>Act as Reference?</highlight>, or it relates to an older exchange and the other member does not currently have an active membership. This could be the case especially with exchanges before April, 2011 when we launched the expanded version of our Exchange Agreements and Member References modules.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.introtext"
+msgstr "Referanser er til vanlig ubekreftede fordi medlemmets boligbyttepartner enten ikke har valgt spesielt <highlight>Ja</highlight> eller <highlight>Nei</highlight> til spørsmålet <highlight>Opptre som referanse?</highlight>, eller det gjelder et tidligere boligbytte der medlemmet for tiden ikke har et aktivt medlemskap. Dette er gjerne tilfelle ved boligbytter før april 2011 da vi utga en utvidet versjon av våre Boligbytteavtaler og moduler for medlemsreferanser."
+
+# --- English text = After you return from your exchange it's a good idea to log in and choose whether or not you want to act as your partner's reference.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "after_return.text"
+msgstr "Når du har gjennomført boligbyttet, er det en god ide å logge seg inn og velge om du ønsker å være din boligbyttepartners referanse eller ei. "
+
+# --- English text = Act as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.headline"
+msgstr "Vil du være en referanse?"
+
+# --- English text = Were you satisfied with your exchange and your partner? Select <highlight>Yes</highlight> to add your member id to your partner's list of confirmed exchange references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.satisfied"
+msgstr "Var du fornøyd med ditt bytte og din byttepartner? Velg <highlight>Ja</highlight> for å velge ditt medlems ID for din partners liste av bekreftede referanser. "
+
+# --- English text = Dissatisfied with your exchange or your partner? Choose <highlight>No</highlight> in this box to keep your id from being displayed as an unconfirmed reference.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.dissatisfied"
+msgstr "Er du misfornøyd med ditt boligbytte eller din boligbyttepartner? Velge <highlight>Nei</highlight>i denne boksen for å slippe å fremstå som en ubekreftet referanse."
+
+# --- English text = Allow as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.headline"
+msgstr "Aksepterer du  å være en referanse?"
+
+# --- English text = This control allows you the final say as to which of your exchange partners are displayed in your reference list.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.introtext"
+msgstr "Denne kontrollen gir deg det siste ord når det gjelder hvilke av dine boligbyttepartnere som skal vises i din referanseliste."
+
+# --- English text = If you were satisfied, you don't need to do anything here, <highlight>Yes<highlight> is the default so as soon as your partner chooses <highlight>Yes<highlight> in his <highlight>Acts as Reference</highlight>, his member id will be added to your confirmed references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.satisfied"
+msgstr "Om du var fornøyd, trenger du ikke gjøre noe her, <highlight>Ja<highlight> er standard og så snart din partner velger <highlight>Ja<highlight> i sin <highlight>Vær Referanse</highlight> vil hans medlems-ID bli føyd til dine bekreftede referanser."
+
+# --- English text = Dissatisfied? Choose <hightlight>No</highlight> here If you prefer that a former partner not be allowed to act as your reference.  This will over-ride any choice made by your partner and their member number will not be displayed in your references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.dissatisfied"
+msgstr "Misfornøyd? Velg <hightlight>Nei</highlight> her dersom du ønsker at en tidligere boligbyttepartner ikke skal opptre som din referanse.  Dette vil overstyre et hvilken som helst valg foretatt av din boligbyttepartner, og boligbyttepartnerens medlemsnummer vil ikke bli vist i din referanseThis will over-ride any choice made by your partner and their member number will not be displayed in your references."
+
+# --- English text = Added as Reference
+# --- Location = Headline after all past agreements are listed
+msgid "added_as_reference.headline"
+msgstr "Tillagt som en referanse"
+
+# --- English text = Why does it say Added as Reference instead of showing the icons?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "added_as_reference.question"
+msgstr "Hvorfor heter det Tillagt som referanse i stedet for å vise ikonene?"
+
+# --- English text = These are references you have added afterwards for which there is no exchange agreement on record.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "added_as_reference.answer"
+msgstr "Dette er referanser som har blitt lagt til etterpå uten at det har vært en bytteavtale i systemet. "
+

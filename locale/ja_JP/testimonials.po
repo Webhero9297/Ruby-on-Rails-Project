@@ -1,0 +1,280 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-08-26 19:11+0100\n"
+"PO-Revision-Date: 2011-07-29 23:30+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Page Headline
+# --- English text = Words From Our Members
+# (June 2011 - New)
+msgid "page.headline"
+msgstr "会員からの言葉"
+
+# --- Testimonial Number 1
+# --- English text = More Trade Offers Than We Can Accept
+msgid "local_1.headline"
+msgstr "受け入れより申し入れの方が多いオファー"
+
+# --- Testimonial Number 1
+# --- English text = Your service is fantastic. We have had three exchanges and are waiting on our fourth, fifth and sixth. Thanks so much.
+msgid "local_1.text"
+msgstr "今年はインテーバックを通して３件のエクスチェンジをしました：　今月末にサンフランシスコ、７月にスコットランド、８月にイングランドです。これに加えて、残念ながらたくさんのオファーをお断りしなければなりませんでした！冬のカタログからはすばらしい反響がありましたし、特にインターネットからは特にです。我々は本当にしあわせなキャンパーです！すべてに感謝します。"
+
+# --- Testimonial Number 1
+# --- English text = Randle Griggs
+msgid "local_1.cite"
+msgstr "ランドル・グリッグ"
+
+# --- Testimonial Number 2
+# --- English text = Many offers for Australia from Europe
+msgid "local_2.headline"
+msgstr "ヨーロッパからオーストリアへたくさんのオファー"
+
+# --- Testimonial Number 2
+# --- English text = It is amazing how many offers from Europe we receive.  We have organized a 6 week offer from Plymouth in the UK for September next year. We are also considering a second exchange (possibly Ireland/France) for a few weeks before or after.
+msgid "local_2.text"
+msgstr "ヨーロッパからどんなに多くのオファーを受けたかは本当に驚くばかりです。来年の９月に英国のプリマスで６週間のオファーがありエクスチェンジが成立しました。さらに、それ以前か以後に、２回目数週間のエクスチェンジを（多分アイルランドかフランスで）計画中です。"
+
+# --- Testimonial Number 2
+# --- English text = Barry &amp; Kate Cunningham
+msgid "local_2.cite"
+msgstr "バリー・キュニングハムとケイトとケイト・キュニングハム"
+
+# --- Testimonial Number 3
+# --- English text = Best Service for the USA
+msgid "local_3.headline"
+msgstr "合衆国のためのベスト・サービス"
+
+# --- Testimonial Number 3
+# --- English text = We joined three other home exchange organizations in order to get a series of exchanges in the USA; four in a row from September to November. It finally worked out, but I'll tell you the Intervac exchangers have been the most knowledgeable with the nicest houses.
+msgid "local_3.text"
+msgstr "私達はエクスチェンジを合衆国で連続してやりたいと思い３つの他のエクスチェンジ・オーガニゼーションにも入会しました。９月から１１月まで続けて４回です。最終的にわかった事ですが、インターバックの会員はみなさん家もすばらしく、とても知識人であると感じました。"
+
+# --- Testimonial Number 3
+# --- English text = Susan Liang
+msgid "local_3.cite"
+msgstr "スーザン・リアング"
+
+# --- Testimonial Number 4
+# --- English text = Six Swaps in One Year
+msgid "local_4.headline"
+msgstr "一年間に６回の交換"
+
+# --- Testimonial Number 4
+# --- English text = Your service is fantastic. We have had three exchanges and are waiting on our fourth, fifth and sixth. Thanks so much.
+msgid "local_4.text"
+msgstr "あなた方のサービスはすばらしい。我々は３回エクスチェンジをし、４回目、５回目、６回目を待っているところです。本当に有難う。"
+
+# --- Testimonial Number 4
+# --- English text = Siri Richar
+msgid "local_4.cite"
+msgstr "シリ・リシャー"
+
+# --- Testimonial Number 5
+# --- English text = Happy and Telling Friends about Intervac
+msgid "local_5.headline"
+msgstr "幸せで、友達にインターバックについて話しています。"
+
+# --- Testimonial Number 5
+# --- English text = We've had four exchanges through Intervac so far and have discussed it with far too many people, increasing the San Francisco pool too much, we fear. Nevertheless, here we are again.
+msgid "local_5.text"
+msgstr "インターバックを通じて４回エクスチェンジをして、たくさんの人達と話をしました。サンフランシスコでは増えているのでないかな、それでも再度やりますよ。"
+
+# --- Testimonial Number 5
+# --- English text = Carol Livingston
+msgid "local_5.cite"
+msgstr "キャロル・リビンフトン"
+
+# --- Testimonial Number 6
+# --- English text = More Activity in Europe than Competitors
+msgid "local_6.headline"
+msgstr "ヨーロッパでのライバル会社よりも多い活動"
+
+# --- Testimonial Number 6
+# --- English text = Wow! Members for one week. One offer from Finland, two from Sweden, one from Switzerland and two from France. Looks like we're going to central Paris. The other company we joined three weeks ago, no offers! Thank You Intervac!!! Many thanks for our Honeymoon, a dream come true!
+msgid "local_6.text"
+msgstr "ウオッ！１週間のオファーに対して会員からの反響は、フインランドから１件、スエーデンから２件、スイスから１件、フランスから２件です。パリの中心部へ行けるみたいです。３週間前に別の組織にも入会しましたが、何の反響もありませんでした。インターバック有難う！！我々のハネムーンに感謝、夢はかないました！"
+
+# --- Testimonial Number 6
+# --- English text = Gordon &amp; Kathy Poulson
+msgid "local_6.cite"
+msgstr "ゴードン・ポウルソンとキャシィ・ポウルソン"
+
+# --- Testimonial Number 7
+# --- English text = Wonderful Italian Home Exchange
+msgid "local_7.headline"
+msgstr "すばらしいイタリアでのホームエクスチェンジ"
+
+# --- Testimonial Number 7
+# --- English text = The family in Bologna we did a non-simultaneous exchange with were wonderful. We stayed there for one week and they will stay here this summer.
+msgid "local_7.text"
+msgstr "同時期ではないエクスチェンジをしたボローニャの家族は素晴らしかった。私達はそこに１週間滞在した。そして今年の夏は彼らがここに滞在します。"
+
+# --- Testimonial Number 7
+# --- English text = Angie Keller
+msgid "local_7.cite"
+msgstr "アンジー・ケラー"
+
+# --- Testimonial Number 8
+# --- English text = A Wonderful Experience
+msgid "local_8.headline"
+msgstr "素晴らしい経験"
+
+# --- Testimonial Number 8
+# --- English text = We love to travel to foreign and exotic places as well as the good ole USA.  Exchanging homes through Intervac USA has been a wonderful experience--being in Key West makes it fairly easy to find suitable exchanges.  In August 2003, we exchanged homes in Paris and we did a second trade with folks from New York City for the holidays.  We returned from California in a non-simultaneous exchange in May of 2004 and a simultaneuous exchange in New Orleans for Thanksgiving.
+msgid "local_8.text"
+msgstr "外国やエクゾチックな場所を旅することがＵＳＡと同じくらい大好きです。インターバックＵＳＡを通してのエクスチェンジはすばらしい経験でした。２００３年８月にパリで経験し、２回目はニューヨークシティの家族としました。カリフォルニアから２００４年の５月に同時期ではないエクスチェンジから帰り、感謝祭のホリディは二ユーオルレアンで同時期のエクスチェンジをします。"
+
+# --- Testimonial Number 8
+# --- English text = Guillermo and Kent
+msgid "local_8.cite"
+msgstr "ギレルモとケント"
+
+# --- Testimonial Number 9
+# --- English text = 61 Home Swap Offers in One Year
+msgid "local_9.headline"
+msgstr "一年間に６１件のホーム・スワップのオファー。"
+
+# --- Testimonial Number 9
+# --- English text = We once got 61 (yes, sixty-one!) home exchange offers in one season. Fully expect the upcoming season to be another year, which will provide exciting opportunities for fascinating exchanges and the making of new friends in some corner of the world.
+msgid "local_9.text"
+msgstr "かってワンシーズンで６１件の（本当です！）ホームエクスチェンジ・オファーを受けた事があります。これから来るシーズンも魅力的なエクスチェンジができそうだと思いますし、世界のどこかで新しい友達を作れるだろうとおおいに期待しています。"
+
+# --- Testimonial Number 9
+# --- English text = George Rausch
+msgid "local_9.cite"
+msgstr "ジョージ・ラウシュ"
+
+# --- Testimonial Number 10
+# --- English text = Four House Exchanges in France
+msgid "local_10.headline"
+msgstr "フランスでの４件のハウス・エクスチェンジ"
+
+# --- Testimonial Number 10
+# --- English text = You provide a wonderful service, and our Intervac exchanges - the first in Amsterdam, the last four in France have been both exciting and deepening. We are excited about making another exchange this summer.
+msgid "local_10.text"
+msgstr "あなた方は素晴らしいサービスを行っている、私達のインターバック・エクスチェンジは－最初はアムステルダム、最近の４回のフランスでのエクスチェンジはエクサィティングで奥行きの深いものでした。今年の夏も別のエクスチェンジをするので興奮しています。"
+
+# --- Testimonial Number 10
+# --- English text = Denis Clifford &amp; Naomi Puro
+msgid "local_10.cite"
+msgstr "デニス・クリフォードとナオミ・プロ"
+
+# --- Testimonial Number 11
+# --- English text = Spain, France, Oregon and Counting
+msgid "local_11.headline"
+msgstr "スペイン、フランス、オレゴン、そしてまだまだ続きます。"
+
+# --- Testimonial Number 11
+# --- English text = Your deal is so great. We have been to Spain, France and Oregon. All have been with people who are hip to the zip, and respectful and aware of what it takes to trade. I thank you for it. You have made it possible for us to have really great experiences.
+msgid "local_11.text"
+msgstr "あなた達の仕事は偉大です。我々はスペイン、フランス、オレゴンで経験しました。みんなとても活気にあふれた人達で、礼儀正しくそして何をすべきかを知っている人達でした。我々は本当のすばらしい経験が出来て感謝しています。"
+
+# --- Testimonial Number 11
+# --- English text = Steve Plesa
+msgid "local_11.cite"
+msgstr "スティーブ・プレサ"
+
+# --- Testimonial Number 12
+# --- English text = Second Generation Home Exchanger
+msgid "local_12.headline"
+msgstr "２世代にわたるホーム・エクスチェンジ"
+
+# --- Testimonial Number 12
+# --- English text = This is our first exchange. I'm familiar with the whole concept, however, because as a child my family did three exchanges from Boston to London, Laguna Beach and Newfoundland. Great memories!
+msgid "local_12.text"
+msgstr "これは私達の最初のエクスチェンジです。しかし、私の子供の家族がボストンからロンドン、ラグーナビーチとニューファンドランドでの３回のエクスチェンジを経験していましたので、全体のコンセプトには親しみを持っていました。すばらしい思い出です！"
+
+# --- Testimonial Number 12
+# --- English text =
+msgid "local_12.cite"
+msgstr "ジェニファー・シェパード"
+
+# --- Testimonial Number 13
+# --- English text = Three for Three
+msgid "local_13.headline"
+msgstr "３回のうちの３回"
+
+# --- Testimonial Number 13
+# --- English text = Thanks again for your help in enabling our third marvelous house trade! We were in Nice for three weeks this last summer thanks to you.
+msgid "local_13.text"
+msgstr "我々の３回のすばらしいエクスチェンジが出来るよう助けていただいて感謝しています！我々は今年の夏ニースで３週間滞在してきました。有難うございました。"
+
+# --- Testimonial Number 13
+# --- English text = Karyn Hollis
+msgid "local_13.cite"
+msgstr "ケイン・ホリス"
+
+# --- Testimonial Number 14
+# --- English text = Lifelong Friendships around the World
+msgid "local_14.headline"
+msgstr "世界中での生涯の親交"
+
+# --- Testimonial Number 14
+# --- English text = Your company has brought our family many wonderful vacation opportunities to establish life long friendships. We sing your praises to all our friends. Thank you! Thank you!
+msgid "local_14.text"
+msgstr "あなたの会社は我が家族に生涯の親交を築くすばらしい休暇の機会をもたらしてくれました。友人みんなにあなたの素晴らしさを伝えます。有難う、有難う！"
+
+# --- Testimonial Number 14
+# --- English text = Sally Johnson
+msgid "local_14.cite"
+msgstr "サリー・ジョンソン"
+
+# --- Testimonial Number 15
+# --- English text = Good Friends in Toulouse
+msgid "local_15.headline"
+msgstr "トゥールーズでの良い友人"
+
+# --- Testimonial Number 15
+# --- English text = Our home exchange in Toulouse couldn't have been better; we now have good friends in Toulouse.
+msgid "local_15.text"
+msgstr "トゥールーズでのホームエクスチェンジは最高でした；われわれは今トゥールーズに良い友人をもっています。"
+
+# --- Testimonial Number 15
+# --- English text =
+msgid "local_15.cite"
+msgstr "アイリーン・ラブ"
+
+# --- Testimonial Number 16
+# --- English text = Better than Homelink for Europe
+msgid "local_16.headline"
+msgstr "ヨーロッパへはホームリンクより良い"
+
+# --- Testimonial Number 16
+# --- English text = There are more exchanges with Europeans through Intervac than there is with Homelink.
+msgid "local_16.text"
+msgstr "ホームリンクよりインターバックを通したほうがもっと多くのエクスチェンジが出来る。"
+
+# --- Testimonial Number 16
+# --- English text = Joe Larkin
+msgid "local_16.cite"
+msgstr "ジョー・ラーキン"
+
+# --- Testimonial Number 17
+# --- English text = Saved $10,000+ in Hotel and Car Rental Expenses
+msgid "local_17.headline"
+msgstr "ホテルや車のレンタル代で $10,000以上節約できた。"
+
+# --- Testimonial Number 17
+# --- English text = I am in, can you believe, La Ciotat, France one block from the beach in an imaculate little villa that has everything.  The owners are at my home in San Diego it is amazing how great Intervac is. Roberte and Jacques contacted me and the rest is history.  Thank you so very much for Intervac.  We are saving over ten thousand dollars in hotel  bills and car rentals.  Fantastique!
+msgid "local_17.text"
+msgstr "私は今（信じられますか）フランスのラ・ジオタにいます。かわいい小さな村の海岸からワンブロックのところでうす。この家の持ち主はサンディエゴの我が家にいます。インターバックの素晴らしさは驚くばかりです。ロバートとジャックが私にコンタクトをとってきました。インターバックには本当感謝します。私達はホテル代や車のレンタル代等で１０，０００ドル以上は節約できました。夢のようです！"
+
+# --- Testimonial Number 17
+# --- English text = Bill Zimmerman
+msgid "local_17.cite"
+msgstr "ビル・ジマーマン"
+
+# --- English text = More International Voices
+msgid "more_voices"
+msgstr "世界からのさらに多くの声"
+

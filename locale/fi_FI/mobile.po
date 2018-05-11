@@ -1,0 +1,274 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-10-19 18:17+0100\n"
+"PO-Revision-Date: 2012-08-09 23:00+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Welcome to Intervac Home Exchange
+# --- Location =
+# (New: October, 2011)
+msgid "guest_dashboard.headline"
+msgstr "Tervetuloa Intervac Kodinvaihtopalveluun"
+
+# --- English text = This application will help you to find your next home exchange holiday. In order to utilize the messenger system you need to login. You will find interesting home exchange listings from all over the world under "Listings".
+# --- Location =
+# (New: October, 2011)
+msgid "guest_dashboard.introtext"
+msgstr "Tämä sovellus auttaa sinua löytämään seuraavan kodinvaihtolomakohteesi. Jotta voit hyödyntää vestipalvelua, sinun tulee kirjautua sisään. Löydät mielenkiintoisia kodinvaihtolistauksia kaikkialta maailmasta kohdata 'Listaukset*."
+
+# --- English text = Have fun!
+# --- Location =
+# (New: October, 2011)
+msgid "guest_dashboard.closing"
+msgstr "Pidä hauskaa!"
+
+# --- English text = Welcome back, {{member_name}}!
+# --- IMPORTANT: Do not translate the placeholder text {{member_name}}.  The system will replace this with the individual member's name
+# --- Location =
+# (New: October, 2011)
+msgid "member_dashboard.headline"
+msgstr "Tervetuloa takaisin, {{member_name}}!"
+
+# --- English text =
+# --- Location =
+# (New: October, 2011)
+msgid "member_dashboard.new_mail_message"
+msgstr "{{number}} uusia viestejä!"
+
+# --- English text = My favorites
+# --- Location =
+# (New: October, 2011)
+msgid "member_dashboard.favorites.headline"
+msgstr "Suosikkini"
+
+# --- English text = Favorite
+# --- Location = Alternate text for the favorite icon
+# (New: October, 2011)
+msgid "favorites.alt_text"
+msgstr "Suosikit"
+
+# --- English text = No favorites
+# --- Location =
+# (New: October, 2011)
+msgid "member_dashboard.favorites.no_favorites"
+msgstr "Ei suosikkeja"
+
+# --- English text = Login
+# --- Location =
+# (New: October, 2011)
+msgid "dashboards.login_button"
+msgstr "Kirjaudu sisään"
+
+# --- English text = Don't have an account?
+# --- Location =
+# (New: October, 2011)
+msgid "dashboards.no_account.headline"
+msgstr "Eikö sinulla ole tiliä?"
+
+# --- English text = Don't have an account yet? Sign up for a free Intervac trial account right now!
+# --- Location =
+# (New: October, 2011)
+msgid "dashboards.no_account.text"
+msgstr "Ei vielä tunnuksia? Tilaa Intervacin ilmainen kokeilutunnus juuri nyt!"
+
+# --- English text = Sign up!
+# --- Location =
+# (New: October, 2011)
+msgid "dashboards.no_account.button"
+msgstr "Rekisteröidy!"
+
+# --- English text = Login now
+# --- Location = Login screen
+# (New: October, 2011)
+msgid "login_screen.headline"
+msgstr "Kirjaudu sisään nyt"
+
+# --- English text = Remain logged in (on this device)
+# --- Location = Login screen
+# (New: October, 2011)
+msgid "login_screen.remember_me"
+msgstr "Pysy kirjautuneena (tässä laitteessa)"
+
+# --- English text = Where do you want to go?
+# --- Location =
+# (New: October, 2011)
+msgid "listings.search.headline"
+msgstr "Minne haluat mennä?"
+
+# --- English text = I live in
+# --- Location =
+# (New: October, 2011)
+msgid "listings.search.my_location.text"
+msgstr "Asun"
+
+# --- English text = Doesn't matter
+# --- Location =
+# (New: October, 2011)
+msgid "listings.search.my_location.default_choice"
+msgstr "Ei ole väliä"
+
+# --- English text = and want to go to
+# --- Location =
+# (New: October, 2011)
+msgid "listings.search.destination.text"
+msgstr "ja haluan mennä"
+
+# --- English text = Anywhere
+# --- Location =
+# (New: October, 2011)
+msgid "listings.search.destination.default_choice"
+msgstr "Missä tahansa"
+
+# --- English text = Search results
+# --- Location =
+# (New: October, 2011)
+msgid "listings.list_divider.search_results"
+msgstr "Hakutulokset"
+
+# --- English text = Hotlist
+# --- Location =
+# (New: October, 2011)
+msgid "listings.list_divider.hotlist"
+msgstr "Kuumalista"
+
+# --- English text = My matches
+# --- Location =
+# (New: October, 2011)
+msgid "listings.list_divider.my_matches"
+msgstr "Hakuani vastaavat"
+
+# --- English text = Latest
+# --- Location =
+# (New: October, 2011)
+msgid "listings.list_divider.latest"
+msgstr "Viimeisin"
+
+# --- English text = Add to favorites
+# --- Location =
+# (New: October, 2011)
+msgid "listings.details.add_favorite"
+msgstr "Lisää suosikkeihin"
+
+# --- English text = Remove favorite
+# --- Location =
+# (New: October, 2011)
+msgid "listings.details.remove_favorite"
+msgstr "Poista suosikeista"
+
+# --- English text = Contact
+# --- Location =
+# (New: October, 2011)
+msgid "listings.details.contact"
+msgstr "Yhteydenotto"
+
+# --- English text = View all {{number}} photos
+# --- IMPORTANT: Please do not translate the placeholder {{number}}.  The system will replace it with a correct number so the text will read something like "View all 21 photos"
+# --- Location =
+# (New: October, 2011)
+msgid "listings.details.view_all_photos"
+msgstr "Katso kaikki {{number}} valokuvat"
+
+# --- English text = Short facts
+# --- Location =
+# (New: October, 2011)
+msgid "listings.details.list_divider.short_facts"
+msgstr "Lyhyesti"
+
+# --- English text = Suitable for <styled_text>Max {{number}} persons</styled_text>
+# --- Location =
+# (New: October, 2011)
+msgid "listings.details.suitable_for_persons"
+msgstr "Soveltuu<styled_text>enintään {{number}} henkilölle</styled_text>"
+
+# --- English text = House plan
+# --- Location =
+# (New: November, 2011)
+msgid "listings.details.list_divider.house_plan"
+msgstr "Pohjapiirros"
+
+# --- English text = Home appliances
+# --- Location =
+# (New: November, 2011)
+msgid "listings.details.list_divider.home_appliances"
+msgstr "Kodinkoneet"
+
+# --- English text = Our family
+# --- Location =
+# (New: November, 2011)
+msgid "listings.details.list_divider.our_family"
+msgstr "Perheemme"
+
+# --- English text = Lifestyle
+# --- Location =
+# (New: November, 2011)
+msgid "listings.details.list_divider.lifestyle"
+msgstr "Elämäntapa"
+
+# --- English text = Neighbourhood
+# --- Location =
+# (New: November, 2011)
+msgid "listings.details.list_divider.neighbourhood"
+msgstr "Lähiympäristö"
+
+# --- English text = Destination wishlist
+# --- Location =
+# (New: November, 2011)
+msgid "listings.details.list_divider.destinations"
+msgstr "Kohteiden toivelista"
+
+# --- English text = Information
+# --- Location =
+# (New: November, 2011)
+msgid "messages.info_page.list_divider.information"
+msgstr "Tiedot"
+
+# --- English text = Sent
+# --- Location =
+# (New: November, 2011)
+msgid "messages.tab.sent"
+msgstr "Lähetetyt"
+
+# --- English text = Message
+# --- Location =
+# (New: November, 2011)
+msgid "messages.new_message.body"
+msgstr "Viesti"
+
+# --- English text = No messages
+# --- Location =
+# (New: November, 2011)
+msgid "messages.no_messages"
+msgstr "Ei viestejä"
+
+# --- English text = User details
+# --- Location =
+# (New: November, 2011)
+msgid "settings.list_divider.user_details"
+msgstr "Käyttäjän tiedot"
+
+# --- English text = You are logged in as
+# --- Location =
+# (New: November, 2011)
+msgid "settings.login_identity"
+msgstr "Olet kirjautunut sisään käyttäjänä"
+
+# --- English text = Wrong username/password!
+# --- Location =
+# (New: October, 2011)
+msgid "login.error"
+msgstr "Väärä käyttäjätunnus/salasana!"
+
+# --- English text = Are you sure you want to delete this message?
+# --- Location = This message is shown to members when they want to delete a message.
+msgid "messages.delete_warning"
+msgstr "Haluatko varmasti tuhota tämän viestin?"
+

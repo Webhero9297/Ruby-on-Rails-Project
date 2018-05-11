@@ -1,0 +1,45 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-10 18:17+0100\n"
+"PO-Revision-Date: 2012-02-21 16:57+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Secure Exchanges with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Veilige Vakanties met Intervac"
+
+# --- English text = Can I trust my home to a stranger?
+# (June, 2011 - As Is - vtour_faq.po => question.can_i_trust_my_home_to_a_stranger)
+msgid "trust_a_stranger.headline"
+msgstr "Kan ik mijn huis toe vertrouwen aan een vreemde?"
+
+# --- English text = The question is understandable.  After all, you don't know anyone in our community yet, and you naturally think of them as strangers.  Before you decide with whom you wish to swap homes you will be exchanging email and maybe even telephone calls to get to know more about one another. We promise you, by the time your exchange takes place you are not trading homes with strangers; you will be staying at the home of friends and they will be guests in your home.
+# (June, 2011 - New)
+msgid "trust_a_stranger.not_a_stranger"
+msgstr "De vraag is begrijpelijk. Je kent eigenlijk nog niemand in onze Intervac gemeenschap, en je beschouwt hen natuurlijk als vreemden. Voordat je besluit met wie je jouw huis gaat ruilen, zul je emailtjes uitwisselen en misschien zelfs telefoongesprekken voeren om elkaar beter te leren kennen. Wij verzekeren u, dat tegen de tijd dat de vakantieruil echt plaatsvindt, u uw huis niet meer ruilt met vreemden, maar u zult het gevoel hebben, dat u gaat logeren in het huis van vrienden, en zij zullen gasten zijn in uw huis."
+
+# --- English text = Most Intervac members are mature (average age 40+), established family-oriented professionals, executives, business-owners or retired people who are financially successful and respect property. Prior to committing to an exchange you should always get to know your counter-party through e-mail, letters, fax and phone.  This establishes mutual trust. References can be requested from prior exchanges or neighbours."
+# (June, 2011 - As Is - vtour_faq.question.po => can_i_trust_my_home_to_a_stranger)
+msgid "trust_a_stranger.our_members"
+msgstr "De meeste Intervac Deelnemers zijn al wat ouder ( gemiddelde leeftijd 40+ ), zijn gearriveerde gezins-georiënteerde professionals, managers, hebben een eigen bedrijf, of zijn al gepensioneerd, die financiëel succesvol zijn en iemand's eigendommen respecteren. Voorafgaand aan een ruilvakantie moet je altijd eerst de andere partij goed leren kennen via email, brieven, fax en telefoon. Dit brengt al het wederzijds vertrouwen tot stand. Referenties kunnen al of niet worden opgevraagd van vorige vakanties of van de buren."
+
+# --- English text = More about Member References
+# (June, 2011 - New)
+msgid "member_references.headline"
+msgstr "Meer over Referenties van Deelnemers"
+
+# --- English text = Our member reference system awards badges (ready-to-go, bronze, silver, gold and platinum) based on the number of confirmed exchanges a family has made.  After they return home from their holiday they may choose to act as a reference for their exchange partner.  These references are listed on each member's listing page and if you have questions about a member, you should feel free to contact their references to ask how the exchange worked out and if they were satisfied.  Yes, there is trust involved in swapping homes, but with Intervac, you can also verify.
+# (June, 2011 - New)
+msgid "member_references.text"
+msgstr "Ons Deelnemers Referentie-systeem geeft badges uit (ready-to-go, bronze, silver, gold and platinum), gebaseerd op het aantal bevestigde vakantieafspraken die het gezin heeft gemaakt. Nadat zij terugkomen van vakantie, kunnen zij kiezen om te gaan optreden als referentie voor hun ruilpartner. Deze referenties komen in een lijst op de details-pagina van iedere deelnemer en indien u vragen heeft over een deelnemer, kunt u altijd contact opnemen met hun referentieadressen, om te vragen hoe hun vakantieafspraak was, en of zij tevreden waren. Jazeker, woningruil vereist wel vertrouwen, maar met Intervac kun je het ook nog verifiëren. "
+

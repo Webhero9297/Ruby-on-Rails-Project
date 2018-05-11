@@ -1,0 +1,66 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2011-06-22 12:17+0100\n"
+"PO-Revision-Date: 2011-11-26 21:30+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = What is home exchange?
+# (June, 2011 - New)
+msgid "step1.headline"
+msgstr "Hva er Boligbytte"
+
+# --- English text = Home Exchange is an great way to travel on a budget, experiencing foreign countries like an insider! Using a very simple <italic>you visit mine, and I'll visit yours</italic> arrangement, you exchange the use of your home with a family in the country you want to visit.   It's super easy - thanks to our welcoming community; very secure - your home is not empty while you are away; and incredible fun - you'll make new friends and see your vacation country in ways never before available to you.
+# (June, 2011 - New)
+# -- Please do not translate the <italic> or </italic> tags.
+msgid "step1.text"
+msgstr "Boligbytte er en fantastisk måte å reise på og samtidig holde et lavt budsjett, oppleve fremmede land på en helt annen måte enn før. Ved bruk av veldig enkel <italic>Du besøker meg og jeg besøker deg</italic> arrangement, Dere bytter hus med en familie et land som dere har lyst til å besøke.  Det er superenkelt - takket være vårt inkluderende samfunn; veldig sikkert - ditt hjem er ikke tomt når du er på ferie; fantastisk morsomt - du vil møte mange nye venner og se ditt ferieland på en måte som du aldri hadde muligheten til før dette. "
+
+# --- English text = Next step
+# (June, 2011 - New)
+msgid "next_step.button"
+msgstr "Neste steg"
+
+# --- English text = Who is using Home Exchange?
+# (June, 2011 - New)
+msgid "step2.headline"
+msgstr "Hvem benytter Boligbytte?"
+
+# --- English text = Home Exchange is used by a wide audience, people of all ages and across all occupations. Home Exchange is not just for chasing cheap holidays, it is your opportunity for an authentic experience way beyond any guidebook or tourist trap.
+# (June, 2011 - New)
+msgid "step2.text"
+msgstr "Boligbytte benyttes av ulike mennesker, i alle aldre og i alle yrker. Boligbytte er ikke bare et jag etter billige ferier, det er en mulighet til autentiske opplevelser av kultur og områder langt utover det man får beskrevet i guidebøker og turistkart.  "
+
+# --- English text = The role of Intervac
+# (June, 2011 - New)
+msgid "step3.headline"
+msgstr "Intervacs Rolle"
+
+# --- English text = The founders of Intervac actually invented the concept of home exchange back in 1953 and are today one of the largest and most secure Home Exchange organizations in the world. With over {{total_number_of_members}} homes waiting for exchange which cover 140 different countries we guarantee you will find a vacation home that fit your needs and preferences.
+# (June, 2011 - New)
+msgid "step3.text"
+msgstr "Grunnelggerne av Intervac oppfant i realiteten denne måten å bytte bolig på allerede i 1953 og i dag er Intervac den største og sikreste Boligbytteorganisasjonene i hele verden. Med over {{total_number_of_members}} boliger som venter på bytter i 140 ulike land, garanterer vi at du vil finne et feriehjem som passer dine ønsker og preferanser."
+
+# --- English text = Whats next?
+# (June, 2011 - New)
+msgid "last_step.headline"
+msgstr "Hva gjør jeg nå?"
+
+# --- English text = We urge you to sign up for a free account and take our home exchange service out for a spin. No credit card is required and you can cancel you account at any time. Just click the sign up button below and you'll be browsing your next vacation home in no time!
+# (June, 2011 - New)
+msgid "last_step.text"
+msgstr "Vi anbefaler deg å melde deg inn for et prøvemedlemskap for å teste dette ut i en kort periode. Det er ikke behov for å legge inn kredittkortopplysninger, og du kan kansellere din konto når som helst. Du klikker bare på innmeldingsknappen, så vil du snart se etter din neste ferie i vår database!"
+
+# --- English text = Sign up Now!
+# (June, 2011 - New)
+msgid "last_step.button"
+msgstr "Meld deg inn nå!"
+

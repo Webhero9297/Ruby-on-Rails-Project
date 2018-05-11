@@ -1,0 +1,108 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-02 18:17+0100\n"
+"PO-Revision-Date: 2012-02-13 01:37+0100\n"
+"Last-Translator: Leoni Günzler <info@haustausch.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thinking About Home Exchange
+# --- Location = Main headline
+# (June 2011)
+msgid "page.headline"
+msgstr "Denken Sie einmal über Haustausch nach?"
+
+# --- English text = So, if you've made it this far you are probably wondering what all you are going to need to think about before you make your first vacation swap.  At the beginning, it's a bunch of things, but once you've got them in place it'll be a lot easier the next time around.  Below we've gathered together a list of suggestions to help you feel secure in your decision.
+# --- Location = Introductory text
+# (June 2011)
+msgid "page.introtext"
+msgstr "Sie haben sich für einen Haustausch entschieden? Sicher haben Sie dann einige Dinge zu berücksichtigen, bevor Sie Ihren ersten Tausch vornehmen, aber wie Sie wissen \"aller Anfang ist schwer\"!Sie finden hier aber einige Vorschläge, damit Sie sich etwas sicherer fühlen können."
+
+# --- English text = How Do I Find The Perfect Exchange Partner?
+# (June 2011)
+msgid "perfect_partner.headline"
+msgstr "Wie finde ich einen perfekten Tauschpartner?"
+
+# --- English text = First, it's important to know that it takes some initiative to make an exchange happen.  We try to make it as simple as possible though.  Our members contact each other directly using our integrated messaging system to start a dialog that could lead to an exchange.  It is not unusual to make and receive several offers  before you find just the right partner.  Our online system supports many different types of alternative holiday forms.
+# (June 2011)
+msgid "perfect_partner.text"
+msgstr "Es ist  wichtig, dass Sie auch selbst  Initiative ergreifen, um einen Tauschpartner zu finden.Wir versuchen, Ihnen dies so einfach wie möglich zu machen. Unsere Mitglieder kontakten sich untereinander  per mail, um einen Tausch zu arrangieren.  Nicht unbedingt bekommen Sie selbst viele Angebote,  Ihre Initiative ist ebenso gefragt!Dazu bietet Ihnen unser online-System viele verschiedene Möglichkeiten für den Haustausch-Urlaub!"
+
+# --- English text = How can I be sure that the exchange will be <italic>equal</italic>?
+# (June 2011)
+msgid "equal_exchange.headline"
+msgstr "Wie kann ich sicher gehen, dass mein Tauschpartner mir dasselbe bietet?"
+
+# --- English text = Many exchangers with large homes would be happy to trade for an adequate apartment/condominium in central Paris, London, Rome or San Francisco.  Others are looking for a quiet getaway.  An exchange is "equal" when both parties are satisfied with their arrangements.
+# (June 2011)
+msgid "equal_exchange.text"
+msgstr "Hausbesitzer sind auch gerne bereit, ein adäquates Appartement  im Zentrum Paris, London, Rom oder San Francisco zu tauschen. Andere suchen nach einer ruhigen Umgebung -Zufriedenheit der Tauschpartner ist das oberste Gebot!"
+
+# --- English text = Who would ever want to come to my area?
+# (June 2011)
+msgid "visit_my_area.headline"
+msgstr "Wer möchte in meiner Umgebung Urlaub machen?"
+
+# --- English text = You'll be surprised!  Take some time writing extra text for your listing and tell potential exchange partners all about your neighborhood, why you love living there, what can they see and do in the region.  Don't forget, your partner will be on holiday and has time to explore.  Everyone lives near something interesting, because "interesting" is often nothing more than the unfamiliar.
+# (June 2011)
+msgid "visit_my_area.text"
+msgstr "Sie werden überrascht sein!  Nehmen Sie sich etwas Zeit und schreiben Sie einen zusätzlichen Text zu Ihrem Angebot, um Ihrem Tauschpartner  Ihre Nachbarschaft,  Sehenswürdigkeiten Ihrer Region nahezubringen. Vergessen Sie nicht,  Ihr Tauschpartner hat ausreichend Zeit,  Ihre Umgebung zu erkunden und kennenzulernen! "
+
+# --- English text = What about exchanging cars?
+# (June 2011)
+msgid "exchange_cars.headline"
+msgstr "Was denken Sie über Autotausch?"
+
+# --- English text = In many cases an exchange of cars is an important part of the exchange deal, but not always.  It's a good idea to think clearly about whether you are comfortable driving in New York City or London.
+# (June 2011)
+msgid "exchange_cars.text"
+msgstr "Vielfach ist ein Autotausch ein wichtiger Teil des Haustausches, natürlich nicht immer. Überlegen Sie vorher, ob Sie in New York City oder London fahren wollen?"
+
+# --- English text = As for insurance, often your car insurance policy will already cover guest drivers. If it doesn't you can supplement your regular policy with additional short-term specific coverage for the length of your exchange. It is important to discuss this with your insurance agent and your exchange partner and agree in advance how to handle the responsibilities and liabilities for the financial aspect.
+# (June 2011)
+msgid "exchange_cars.insurance_text"
+msgstr "Oft deckt Ihre Kfz-Versichererung bereits einen Gastfahrer. Wenn nicht, dann können Sie dies  mit einer zusätzlich kurzfristigen Abdeckung für die Länge Ihres Haustausches vornehmen - ein kurzer Anruf bei Ihrer Kfz-Versicherung genügt! Dabei ist es wichtig, dies auch mit Ihrem Tauschpartner abzusprechen und sich im Voraus abzustimmen, wie Sie die Handhabung des finanziellen Aspektes vornehmen wollen."
+
+# --- English text = Speaking of insurance, what about my home insurance?
+# (June 2011)
+msgid "home_insurance.headline"
+msgstr "Bezüglich Versicherung -  Ihre Hausratversicherung springt in den meisten Fällen ein."
+
+# --- English text = Do check with your insurance provider and let them know that you will have guests while you are gone. Most companies will tell you that an unoccupied home is a bigger risk for theft and vandalism than an occupied one and they are happy to know that yours won't be sitting empty while you are away.  Ask if there are any special arrangements you need to make, and don't forget to let your exchange partner know about any insurance requirements for locking doors, activating alarm systems, etc.  This should be included in the information packet about your home that you will leave for them.
+# (June 2011)
+msgid "home_insurance.text"
+msgstr "Sprechen Sie mit Ihrem Versicherungsanbieter und geben Sie an, dass Sie Gäste haben, während Sie weg sind. Die meisten Gesellschaften werden Ihnen sagen, dass ein unbewohntes Haus ein größeres Risiko ist für Diebe usw.,  als wenn es bewohnt ist!Fragen Sie, ob es  irgendwelche Sonderregelungen gibt, die Sie beachten müssen. Vergessen Sie nicht, Ihren Tauschpartner über Versicherungsbedarf für die Verriegelung von Türen,  aktivieren von Alarmanlangen etc. besteht! Alle diese Informationen über Ihr Heim sollten Sie in einem Ordner für Ihre Tauschpartner hinterlassen. "
+
+# --- English text = We have special needs, can we still arrange an exchange?
+# (June 2011)
+msgid "special_needs.headline"
+msgstr "Wir haben entsprechende Erwartungen und Vorstellungen,  können wir überhaupt einen Haustausch machen?"
+
+# --- English text = Intervac's listing codes cover many preferences related to home exchange.  From <italic>non-smoking</italic>, to <italic>handicapped accessible</italic>, from <italic>pet care</italic> to <italic>private swimming pool</italic>  You can add an unlimited amount of text to your listing.  Go ahead and detail your needs clearly so that the perfect exchange partner (who is searching for you too) can find you.
+# (June 2011)
+msgid "special_needs.text"
+msgstr "Die  INTERVAC  Codes geben Ihnen viele Möglichkeiten  Ihr Angebot entsprechend zu gestalten,  z. B. mit den Angaben von  <italic>Nichtraucher</italic> ,  <italic>behindertengerecht</italic>,  <italic>Tiere erwünscht</italic> ,  <italic>privater Swimming-pool</italic> usw.  Sie können aber auch noch beliebig freien Text in  Ihrem Angebot schreiben, damit erhöhen Sie Ihre Chancen, einen perfekten Tauschpartner zu finden! "
+
+# --- English text = How Do I Get Started?
+# (June 2011)
+msgid "get_started.headline"
+msgstr "Wie gehe ich weiter vor?"
+
+# --- English text = It's easy, just fill out our short registration  and pay your membership fee or choose our free trial membership if you are not sure.  It's good for {{number}} days and gives you full access to our site. Then log in and begin building your listing right away. It will not be visible for other members until after you have filled in all the required fields.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (Last updated: November 2011)
+msgid "get_started.text"
+msgstr "Füllen sie einfach die online-Anmeldung aus und bezahlen Ihren Mitgliedsbeitrag - oder wählen Sie unsere \"Schnupper-Mitgliedschaft\" - wenn Sie sich noch nicht ganz sicher sind!  Sie können {{number}} Tage unsere webpage voll nutzen und danach Ihr Angebot vollends ausfüllen und als Mitglied agieren. Solange Sie ihr Angebot nicht komplett ausgefüllt haben, ist dieses für andere Mitglieder nicht sichtbar."
+
+# --- English text = INTERVAC listings are intended to convey a clear description of your residence, your family, and where and when you would like to travel. Personal preferences such as no smoking or no pets should also be noted in your listing.  So come on! <link>Join us today!</link>
+# (June 2011)
+msgid "get_started.about_listings"
+msgstr "INTERVAC Angebote sollen Ihr  Heim,  Ihre Familie und Ihre Urlaubsziele beschreiben. Persönliche Wünsche, wie z.B. Nichtraucher oder keine Haustiere sollten ebenso angegeben werden.! <link>Treten Sie noch heute bei!</link>"
+

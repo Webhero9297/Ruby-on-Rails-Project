@@ -1,0 +1,84 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-06-20 00:33+0100\n"
+"Last-Translator: Leoni Günzler <info@haustausch.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member favorites
+msgid "headline"
+msgstr "Meine Favoriten"
+
+# --- English text = Now you can keep track of listings that you want to visit here in your Member Favorites list.  It's easy to add an entry to your favorites.  When viewing a listing that interests you, just click on the link in the left-hand column.
+msgid "intro_text"
+msgstr "Hier behalten Sie die Übersicht über Ihre Favoriten. Es ist ganz einfach einen Eintrag zu Ihren Favoriten hinzuzufügen. Wenn Sie sich ein Angebot ansehen und es interessiert Sie, dann klicken Sie einfach auf den Link \"Meine Favoriten\". Das Angebot wird dann in diese Liste aufgenommen."
+
+# --- English text = Do you really want to delete this member favorite entry?
+msgid "delete_confirm"
+msgstr "Möchten Sie diesen Eintrag wirklich löschen?"
+
+# --- English text = Delete this member favorite entry
+msgid "alt_delete"
+msgstr "Diesen Eintrag löschen"
+
+# --- English text = Edit this member favorite entry
+msgid "alt_edit"
+msgstr "Diesen Eintrag ändern"
+
+# --- English text = Save my text
+msgid "save_button"
+msgstr "Meinen Text sichern"
+
+# --- English text = You do not have any entries in your Favorites list.
+msgid "no_favorites_yet"
+msgstr "Sie haben keine Einträge in Ihrer Favoriten Liste."
+
+# --- English text = Photo for listing
+msgid "photo_for"
+msgstr "Photo zum Angebot"
+
+# --- English text was = Added to My Favorites
+# --- (Mar 2009) - edited the text for length.  New English text = "Added"
+msgid "added"
+msgstr "Hinzufügen"
+
+# --- English text = Sort Favorites by
+msgid "sort_by.label"
+msgstr "Favoriten ordnen nach"
+
+# --- English text = Date
+msgid "sort_by.date"
+msgstr "Datum"
+
+# --- English text = Country
+msgid "sort_by.country"
+msgstr "Land"
+
+# --- English text = Member id
+msgid "sort_by.member_id"
+msgstr "Mitgliedsnummer"
+
+# --- English text = Delete Checked Favorites
+msgid "delete_multiple.button_text"
+msgstr "Löschen gecheckter Favoriten"
+
+# --- English text = Please wait ...
+msgid "delete_multiple.disable_text"
+msgstr "Bitte warten....."
+
+# --- English text = Do you really want to delete all checked favorites?
+msgid "delete_multiple.confirm_text"
+msgstr "Sind Sie sicher, dass Sie Ihre gecheckten Favoriten löschen wollen?"
+
+# --- English text = Delete multiple favorites
+msgid "delete_multiple.checkbox_title_tag"
+msgstr "Entfernen mehrmals aufgeführter Favoriten"
+

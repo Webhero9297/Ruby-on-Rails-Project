@@ -1,0 +1,83 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-10-30 20:12+0100\n"
+"Last-Translator: Angels <intervac@grossi-sas.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = My Primary Photo
+msgid "headline"
+msgstr "Mi foto principal"
+
+# --- English  text = We will also use the photo you upload here in our colour catalogue.  We require a photo of a minimum size 480 pixels by 480 pixels (length and width). If you are scanning photos please scan them at 300 dpi. We can only accept photos in a .jpg format.
+msgid "used_for_catalog"
+msgstr "Necesitamos que la foto sea como mínimo  de 480 pixels (largo y ancho).  Para obtener un buen resultado debe escanear su foto con una resolución de 300 dpi y guardarla en su ordenador únicamente en formato .jpg"
+
+# --- English text = Recommended size is larger than 1024 pixels x 768 pixels.
+msgid "recommended_size"
+msgstr "Recomendamos 1024 pixels x 768 pixels o más con 300 dpi de resolución."
+
+# --- English text = The maximum file size is limited to 4MB.
+msgid "max_file_size"
+msgstr "El tamaño máximo del archivo está limitado a 4MB."
+
+# --- English text = Please note that your photo will be optimised for display online.
+msgid "photo_will_be_optimised"
+msgstr "Por favor tenga presente que su foto será mejorada al colocarla online."
+
+# --- English text = To continue, press "browse" to find your photo, then press upload and be patient until you get a response. A new upload will replace the main photo you may already have displayed.
+msgid "to_continue_press_browse"
+msgstr "Por favor presione  \"Examinar\" para encontrar su foto, entonces presione colgar y sea paciente hasta obtener respuesta. "
+
+# --- English text = When returning to your profile, if your new photo does not appear, try pressing the reload button on your browser.
+msgid "important_reload_browser"
+msgstr "Al volver a sus datos, si su nueva foto no aparece, intente apretar el botón de \"volver a colgar\" en su browser."
+
+# --- English text = Find my picture on my computer
+msgid "find_my_picture"
+msgstr "Encontrar mi foto en mi ordenador"
+
+# --- English text = Upload a JPG-Image
+msgid "upload_a_jpg-image"
+msgstr "Cuelge_una _imagen en formato jpg "
+
+# --- English text = Depending on the size of your photo file and the speed of your internet connection your upload could take a few minutes.
+msgid "depending_on_the_size"
+msgstr "Dependiendo del tamaño de su foto y de la rapidez de su conexión a internet esta operación podría tardar unos minutos."
+
+# --- Button Text
+# --- English text = Upload Now!
+msgid "upload_now"
+msgstr "¡COLGAR AHORA!"
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "jpg_only"
+msgstr "Por favor tan sólo cuelgue archivos en formato JPG."
+
+# --- English text = Please select a photo to upload before pressing the button.
+msgid "error.forgot_to_choose_a_photo"
+msgstr "Por favor seleccione una foto para colgar antes de apretar el botón."
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+msgid "messages.upload_successful"
+msgstr "¡Imagen colgada satisfactoriamente!"
+
+# --- Error Text
+# --- English text = The size of your uploaded picture exceeded 4 MByte.
+msgid "file_size_too_large"
+msgstr "El tamaño de la foto que ha colgado sobrepasa los 4 MByte."
+
+# --- English text = Do you really want to delete your main photo?
+msgid "confirm_delete"
+msgstr "¿Está seguro de desear cancelar su foto principal?"
+

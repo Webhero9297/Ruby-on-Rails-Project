@@ -1,0 +1,807 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-20 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ad"
+msgstr "Ανδόρρα"
+
+msgid "ar"
+msgstr "Αργεντινή"
+
+msgid "au"
+msgstr "Αυστραλία"
+
+msgid "at"
+msgstr "Αυστρία"
+
+msgid "bz"
+msgstr "Μπελίζ"
+
+msgid "be"
+msgstr "Βέλγιο"
+
+msgid "bm"
+msgstr "Βερμούδα"
+
+msgid "vr"
+msgstr "Βραζιλία"
+
+msgid "ca"
+msgstr "Καναδάς"
+
+msgid "Caribbean"
+msgstr "Καραϊβική"
+
+msgid "ck"
+msgstr "Νήσοι Κουκ"
+
+msgid "cr"
+msgstr "Κόστα Ρίκα"
+
+msgid "hr"
+msgstr "Κροατία"
+
+msgid "cy"
+msgstr "Κύπρος"
+
+msgid "cz"
+msgstr "Τσεχία"
+
+msgid "dk"
+msgstr "Δανία"
+
+msgid "do"
+msgstr "Δομινικανική Δημοκρατία"
+
+msgid "eg"
+msgstr "Αίγυπτος"
+
+msgid "sv"
+msgstr "Ελ Σαλβαδόρ"
+
+msgid "fi"
+msgstr "Φινλανδία"
+
+msgid "fr"
+msgstr "Γαλλία"
+
+msgid "de"
+msgstr "Γερμανία"
+
+msgid "gb"
+msgstr "Μ.Βρετανία"
+
+msgid "gr"
+msgstr "Ελλάς"
+
+msgid "gt"
+msgstr "Γουατεμάλα"
+
+msgid "hn"
+msgstr "Ονδούρα"
+
+msgid "hk"
+msgstr "Χονγκ Κονγκ"
+
+msgid "hu"
+msgstr "Ουγγαρία"
+
+msgid "in"
+msgstr "Ινδία"
+
+msgid "id"
+msgstr "Ινδονησία"
+
+msgid "is"
+msgstr "Ισλανδία"
+
+msgid "ir"
+msgstr "Ιράν "
+
+msgid "ie"
+msgstr "Ιρλανδία"
+
+msgid "il"
+msgstr "Ισραήλ"
+
+msgid "it"
+msgstr "Ιταλία"
+
+msgid "jp"
+msgstr "Ιαπωνία"
+
+msgid "li"
+msgstr "Λίχτενσταϊν"
+
+msgid "lu"
+msgstr "Λουξεμβούργο"
+
+msgid "my"
+msgstr "Μαλαισία"
+
+msgid "mt"
+msgstr "Μάλτα"
+
+msgid "mu"
+msgstr "Μαυρίκιος"
+
+msgid "mx"
+msgstr "Μεξικό"
+
+msgid "mc"
+msgstr "Μονακό"
+
+msgid "ma"
+msgstr "Μαρόκο"
+
+msgid "np"
+msgstr "Νεπάλ"
+
+msgid "nl"
+msgstr "Ολλανδία"
+
+msgid "nz"
+msgstr "Ν.Ζηλανδία"
+
+msgid "no"
+msgstr "Νορβηγία"
+
+msgid "pl"
+msgstr "Πολωνία"
+
+msgid "pt"
+msgstr "Πορτογαλία"
+
+msgid "ru"
+msgstr "Ρωσία"
+
+msgid "sg"
+msgstr "Σιγκαπούρη"
+
+msgid "sk"
+msgstr "Σλοβακία"
+
+msgid "si"
+msgstr "Σλοβενία"
+
+msgid "za"
+msgstr "Ν.Αφρική"
+
+msgid "es"
+msgstr "Ισπανία"
+
+msgid "lk"
+msgstr "Σρι Λάνκα"
+
+msgid "se"
+msgstr "Σουηδία"
+
+msgid "ch"
+msgstr "Ελβετία"
+
+msgid "th"
+msgstr "Ταϋλάνδη"
+
+msgid "tn"
+msgstr "Τυνησία"
+
+msgid "tr"
+msgstr "Τουρκία"
+
+msgid "ae"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+msgid "us"
+msgstr "Η.Π.Α."
+
+msgid "ve"
+msgstr "Βενεζουέλα"
+
+msgid "vn"
+msgstr "Βιετνάμ"
+
+msgid "Open_for_all_countries"
+msgstr "Ανοικτοί σε όλες τις χώρες"
+
+msgid "eu"
+msgstr "Ευρώπη"
+
+msgid "usne"
+msgstr "ΗΠΑ Βορειοανατολικές"
+
+msgid "usnw"
+msgstr "ΗΠΑ Βορειοδυτικές"
+
+msgid "usse"
+msgstr "ΗΠΑ Νοτιοανατολικές"
+
+msgid "ussw"
+msgstr "ΗΠΑ Νοτιοδυτικές"
+
+msgid "oc"
+msgstr "Όλες οι λοιπές χώρες"
+
+msgid "all_countries"
+msgstr "Όλες οι χώρες"
+
+msgid "af"
+msgstr "Αφγανιστάν"
+
+msgid "ax"
+msgstr "Νήσοι Aland "
+
+msgid "al"
+msgstr "Αλβανία"
+
+msgid "dz"
+msgstr "Αλγερία"
+
+msgid "as"
+msgstr "Αμερικανική Σαμόα"
+
+msgid "ao"
+msgstr "Ανγκόλα"
+
+msgid "ai"
+msgstr "Ανγκίλα"
+
+msgid "aq"
+msgstr "Ανταρκτική"
+
+msgid "ag"
+msgstr "Αντίγκουα και Μπαρμπούντα"
+
+msgid "am"
+msgstr "Αρμενία"
+
+msgid "aw"
+msgstr "Αρούμπα"
+
+msgid "az"
+msgstr "Αζερμπαϊτζάν"
+
+msgid "bs"
+msgstr "Μπαχάμες"
+
+msgid "bh"
+msgstr "Μπαχρέιν"
+
+msgid "bd"
+msgstr "Μπανγκλαντές"
+
+msgid "bb"
+msgstr "Μπαρμπέιντος"
+
+msgid "by"
+msgstr "Λευκορωσία"
+
+msgid "bj"
+msgstr "Μπενίν"
+
+#, fuzzy
+msgid "bl"
+msgstr "Saint Barthelemy"
+
+msgid "bt"
+msgstr "Μπουτάν"
+
+msgid "bo"
+msgstr "Βολιβία"
+
+msgid "br"
+msgstr "Βραζιλία"
+
+msgid "ba"
+msgstr "Βοσνία-Ερζεγοβίνη"
+
+msgid "bw"
+msgstr "Μποτσουάνα"
+
+msgid "bv"
+msgstr "Νησί Bouvet"
+
+msgid "bn"
+msgstr "Μπρουνέι"
+
+msgid "bg"
+msgstr "Βουλγαρία"
+
+msgid "bf"
+msgstr "Μπουρκίνα Φάσο"
+
+msgid "bi"
+msgstr "Μπουρούντι"
+
+msgid "kh"
+msgstr "Καμπότζη"
+
+msgid "cm"
+msgstr "Καμερούν"
+
+msgid "cf"
+msgstr "Πράσινο Ακρωτήριο"
+
+msgid "ky"
+msgstr "Νήσοι Κεϋμάν"
+
+msgid "cf"
+msgstr "Κεντροαφρικανική Δημοκρατία"
+
+msgid "td"
+msgstr "Τσαντ"
+
+msgid "cl"
+msgstr "Χιλή"
+
+msgid "cn"
+msgstr "Κίνα"
+
+msgid "cx"
+msgstr "Νήσος Χριστουγέννων"
+
+msgid "cc"
+msgstr "Νήσοι Cocos (Keeling) "
+
+msgid "co"
+msgstr "Κολομβία"
+
+msgid "km"
+msgstr "Κομόρος"
+
+msgid "cd"
+msgstr "Δημοκρατία του Κογκό (Ζαϊρ)"
+
+msgid "cg"
+msgstr "Κονγκό"
+
+msgid "cu"
+msgstr "Κούβα"
+
+msgid "cv"
+msgstr "Πράσινο Ακρωτήρι"
+
+msgid "dj"
+msgstr "Τζιμπουτί"
+
+msgid "dm"
+msgstr "Δομινικα"
+
+msgid "tl"
+msgstr "Ανατολικό Τιμόρ"
+
+msgid "ec"
+msgstr "Ισημερινός"
+
+msgid "gq"
+msgstr "Γουινέα Ισημερινού"
+
+msgid "er"
+msgstr "Ερυθραία"
+
+msgid "ee"
+msgstr "Εσθονία"
+
+msgid "et"
+msgstr "Αιθιοπία"
+
+msgid "fk"
+msgstr "Νήσοι Φώλκλαντ"
+
+msgid "fo"
+msgstr "Νήσοι Φαρόε"
+
+msgid "fj"
+msgstr "Φίτζι"
+
+msgid "gf"
+msgstr "Γαλλική Γουιάνα"
+
+msgid "ga"
+msgstr "Γκαμπόν"
+
+msgid "gm"
+msgstr "Γκάμπια"
+
+msgid "ge"
+msgstr "Γεωργία"
+
+#, fuzzy
+msgid "gg"
+msgstr "Guernsey"
+
+#, fuzzy
+msgid "gs"
+msgstr "South Georgia/Sandwich Islands"
+
+msgid "gh"
+msgstr "Γκάνα"
+
+msgid "gi"
+msgstr "Γιβραλτάρ"
+
+msgid "gl"
+msgstr "Γροιλανδία"
+
+msgid "gd"
+msgstr "Γρενάδα"
+
+msgid "gp"
+msgstr "Γουαδελούπη (Γαλλική)"
+
+msgid "gu"
+msgstr "Γκουάμ (ΗΠΑ)"
+
+msgid "gn"
+msgstr "Γουινέα"
+
+msgid "gw"
+msgstr "Γουινέα Μπισάου"
+
+msgid "gy"
+msgstr "Γουιάνα"
+
+msgid "ht"
+msgstr "Αϊτή"
+
+msgid "im"
+msgstr "Νήσος Μαν"
+
+#, fuzzy
+msgid "io"
+msgstr "British Indian Ocean Territory"
+
+msgid "iq"
+msgstr "Ιράκ"
+
+msgid "ci"
+msgstr "Ακτή Ελεφαντοστού"
+
+msgid "jm"
+msgstr "Τζαμάικα"
+
+#, fuzzy
+msgid "je"
+msgstr "Jersey"
+
+msgid "jo"
+msgstr "Ιορδανία"
+
+msgid "kz"
+msgstr "Καζακστάν"
+
+msgid "ke"
+msgstr "Κένυα"
+
+msgid "ki"
+msgstr "Κιριμπάτι"
+
+msgid "kw"
+msgstr "Κουβέιτ"
+
+#, fuzzy
+msgid "kg"
+msgstr "Kyrgyz Republic"
+
+#, fuzzy
+msgid "kn"
+msgstr "Saint Kitts and Nevis"
+
+msgid "kp"
+msgstr "Βόρεια Κορέα"
+
+msgid "la"
+msgstr "Λάος"
+
+msgid "lv"
+msgstr "Λεττονία"
+
+msgid "lb"
+msgstr "Λίβανος"
+
+msgid "ls"
+msgstr "Λεσότο"
+
+msgid "lr"
+msgstr "Λιβερία"
+
+msgid "ly"
+msgstr "Λιβύη"
+
+msgid "lt"
+msgstr "Λιθουανία"
+
+msgid "mo"
+msgstr "Μακάο"
+
+msgid "mk"
+msgstr "Π.Γ.Δ.Μ."
+
+msgid "mg"
+msgstr "Μαδαγασκάρη"
+
+msgid "mw"
+msgstr "Μαλάουι"
+
+msgid "mv"
+msgstr "Μαλδίβες"
+
+msgid "ml"
+msgstr "Μαλι"
+
+msgid "mh"
+msgstr "Νήσοι Μάρσαλ"
+
+msgid "mq"
+msgstr "Μαρτινίκα (Γαλλική)"
+
+msgid "mr"
+msgstr "Μαυριτανία"
+
+msgid "yt"
+msgstr "Μαγιότ"
+
+msgid "fm"
+msgstr "Μικρονησία"
+
+msgid "md"
+msgstr "Μολδαβία"
+
+#, fuzzy
+msgid "mf"
+msgstr "Saint Martin"
+
+msgid "mn"
+msgstr "Μογγολία"
+
+msgid "ms"
+msgstr "Μοντσεράτ"
+
+msgid "mz"
+msgstr "Μοζαμβίκη"
+
+msgid "mm"
+msgstr "Μυανμάρ"
+
+#, fuzzy
+msgid "mp"
+msgstr "Northern Mariana Islands"
+
+msgid "na"
+msgstr "Ναμίμπια"
+
+msgid "nr"
+msgstr "Ναούρου"
+
+msgid "an"
+msgstr "Ολλανδικές Αντίλλες"
+
+msgid "nc"
+msgstr "Νέα Καληδονία (Γαλλική)"
+
+msgid "ni"
+msgstr "Νικαράγουα"
+
+msgid "ne"
+msgstr "Νίγηρας"
+
+msgid "ng"
+msgstr "Νιγηρία"
+
+msgid "nu"
+msgstr "Νιουε"
+
+msgid "nf"
+msgstr "Νήσος Νόρφολκ"
+
+msgid "om"
+msgstr "Ομάν"
+
+msgid "pk"
+msgstr "Πακιστάν"
+
+msgid "pw"
+msgstr "Παλάου"
+
+msgid "pa"
+msgstr "Παναμάς"
+
+#, fuzzy
+msgid "pm"
+msgstr "Saint Pierre and Miquelon"
+
+#, fuzzy
+msgid "pn"
+msgstr "Pitcairn Islands"
+
+msgid "ps"
+msgstr "Παλαιστινιακά Εδάφη"
+
+msgid "pg"
+msgstr "Παπούα Νεά Γουινέα"
+
+msgid "py"
+msgstr "Παραγουάη"
+
+msgid "pe"
+msgstr "Περού"
+
+msgid "ph"
+msgstr "Φιλιππίνες"
+
+msgid "pf"
+msgstr "Πολυνησία (Γαλλική)"
+
+msgid "pr"
+msgstr "Πουέρτο Ρίκο"
+
+msgid "qa"
+msgstr "Κατάρ"
+
+msgid "me"
+msgstr "Μαυροβούνιο"
+
+msgid "rs"
+msgstr "Σερβία"
+
+msgid "re"
+msgstr "Ρεουνιόν (Γαλλική)"
+
+msgid "ro"
+msgstr "Ρουμανία"
+
+msgid "rw"
+msgstr "Ρουάντα"
+
+msgid "sh"
+msgstr "Αγία Ελένη"
+
+msgid "lc"
+msgstr "Αγία Λουκία"
+
+msgid "ws"
+msgstr "Σαμόα"
+
+msgid "sm"
+msgstr "Άγιος Μαρίνος"
+
+msgid "sa"
+msgstr "Σαουδική Αραβία"
+
+msgid "sn"
+msgstr "Σενεγάλη"
+
+msgid "sc"
+msgstr "Σεϋχέλλες"
+
+msgid "sl"
+msgstr "Σιέρρα Λεόνε"
+
+#, fuzzy
+msgid "st"
+msgstr "Sao Tome and Principe"
+
+msgid "sb"
+msgstr "Νήσοι Σολομώντος"
+
+msgid "so"
+msgstr "Σομαλία"
+
+msgid "kr"
+msgstr "Νότια Κορέα"
+
+msgid "sd"
+msgstr "Σουδάν"
+
+msgid "sr"
+msgstr "Σουρινάμ"
+
+msgid "sj"
+msgstr "Νήσοι Svalbard και Jan Mayen"
+
+msgid "sz"
+msgstr "Σουαζιλάνδη"
+
+msgid "sy"
+msgstr "Συρία"
+
+#, fuzzy
+msgid "tc"
+msgstr "Turks and Caicos Islands"
+
+#, fuzzy
+msgid "tf"
+msgstr "French Southern Territories"
+
+msgid "tj"
+msgstr "Τατζικιστάν"
+
+msgid "tw"
+msgstr "Ταϊβάν"
+
+msgid "tz"
+msgstr "Τανζανία"
+
+msgid "tg"
+msgstr "Τόγκο"
+
+msgid "tk"
+msgstr "Τοκελάου"
+
+msgid "to"
+msgstr "Τόνγκα"
+
+msgid "tt"
+msgstr "Τρινιντάντ και Τομπάγκο"
+
+msgid "tm"
+msgstr "Τουρκμενιστάν"
+
+msgid "tv"
+msgstr "Τουβαλού"
+
+msgid "ug"
+msgstr "Ουγκάντα"
+
+msgid "ua"
+msgstr "Ουκρανία"
+
+#, fuzzy
+msgid "um"
+msgstr "US Outlying Islands"
+
+msgid "uy"
+msgstr "Ουρουγουάη"
+
+msgid "uz"
+msgstr "Ουζμπεκιστάν"
+
+#, fuzzy
+msgid "va"
+msgstr "Vatican City State"
+
+#, fuzzy
+msgid "vc"
+msgstr "Saint Vincent/Grenadines"
+
+msgid "vu"
+msgstr "Βανουάτου"
+
+msgid "vg"
+msgstr "Παρθένοι Νήσοι (Βρετανικοί)"
+
+msgid "vi"
+msgstr "Παρθένοι Νήσοι (ΗΠΑ)"
+
+#, fuzzy
+msgid "wf"
+msgstr "Wallis and Futuna"
+
+msgid "eh"
+msgstr "Δυτική Σαχάρα"
+
+msgid "ye"
+msgstr "Υεμένη"
+
+msgid "-x- Zaire"
+msgstr "Zaïre"
+
+msgid "zm"
+msgstr "Ζάμπια"
+
+msgid "zw"
+msgstr "Ζιμπάμπουε"
+
+msgid "o"
+msgstr "Όλες οι Χώρες"
+

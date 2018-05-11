@@ -1,0 +1,261 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-25 19:11+0100\n"
+"PO-Revision-Date: 2012-08-09 23:32+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Dear {{member_name}}
+msgid "dear"
+msgstr "Hyvä {{member_name}}"
+
+# --- English text = Wishing you many successful exchanges
+msgid "closing"
+msgstr "Toivomme sinulle useita onnistuneita vaihtoja"
+
+# --- English text = The Intervac Team
+msgid "signature"
+msgstr "Intervacin tiimi"
+
+# --- English text = You are receiving the email because an Intervac member would like to contact you about a home exchange.
+msgid "waiting_messages.reason"
+msgstr "Saat tämän viestin, koska eräs Intervacin jäsen haluaisi ottaa sinuun yhteyttä kodinvaihdosta."
+
+# --- Member Messages - message waiting
+# --- English text = {{member_number}}: You have {{count}} unread messages.
+# --- IMPORTANT: Do not translate the text inside {{member_number}} or {{count}} as these both will be replaced with the member id and the number of unread messages.
+msgid "waiting_messages.subject"
+msgstr " {{member_number}}: Sinulla on {{count}} lukematonta viestiä."
+
+# --- English text = You have {{count}} unread messages waiting.
+# --- IMPORTANT: Do not translate the text inside {{count}} as it will be replaced with the number of messages a member has waiting for them
+msgid "waiting_messages.number"
+msgstr "Sinulla on {{count}} lukematonta viestiä odottamassa."
+
+# --- English text = Please login at <link>Intervac</link>, and go to the Member Messages area to read and answer messages from other members.
+msgid "waiting_messages.login"
+msgstr "Ole hyvä ja kirjaudu <link>Intervac</link>, ja siirry Jäsenviesteihin lukeaksesi toisilta jäseniltä saamasi viestit ja vastataksesi viesteihin."
+
+# --- English text = The most recent is
+msgid "waiting_messages.most_recent"
+msgstr "Viimeisin on"
+
+# --- English text = You are receiving this email because there is information in your intervac.com listing which might be keeping you from receiving as many home exchange offers as possible.
+msgid "listing_reminders.reason"
+msgstr "Saat tämän viestin, koska intervac.com sivuilla olevan listauksesi tiedoissa voi olla sellaista, joka estää sinua saamasta mahdollisismman paljon kodinvaihtotarjouksia."
+
+# --- English text = Your Intervac listing is still invisible to other members!
+msgid "unfinished_listing.subject"
+msgstr "Intervac listauksesi ei näy toisille jäsenille!"
+
+# --- English text = Your listing has been activated on {{activation_date}}, and your membership is running.  Until now, you have not yet finished filling in all the details necessary to complete your listing, so it remains invisible for other members.  Please login at <link>Intervac</link> as soon as possible and complete your listing, and your destinations wish list so that you can begin sending and receiving offers for your next holiday.
+msgid "unfinished_listing.body"
+msgstr "Ilmoituksesi on aktivoitu {{activation_date}},ja jäsenyysaikasi kuluu.  Et ole kuitenkaan tähän mennessä saattanut listauksesi tietoja loppuun ja täydentänyt tarvittavia yksityiskohtia. Tästä syystä listauksesi on vieläkin piilotettu toisilta jäseniltä. Ole hyvä ja kirjaudu <link>Intervac</link> mahdollisimman pian ja täydennä listauksesi tiedot, haluamasi lomakohteet jne., jotta voit lähettää ja vastaanottaa tulevan lomasi viettoon liittyviä tarjouksia."
+
+# --- English text = Your latest date for travel has past
+msgid "expired_travel_dates.subject"
+msgstr "Viimeisin matkapäivä on jo mennyt"
+
+# --- English text = Your listing is difficult for other members to find now because your desired dates of travel are in the past.  If you are actively looking for an exchange, please login at <link>Intervac</link> as soon as possible.  To adjust your desired dates of travel: in the "My Listing" box in the left hand column, follow the link to "Change my listing".  If you are not actively looking for an exchange, please make sure your availablity light is set to red (click once to toggle from green to red, click again to toggle it back to green).
+msgid "expired_travel_dates.body"
+msgstr "Toisilla jäsenillä on vaikeuksia löytää listaustasi, koska toivomasi matkustusajankohta on jo mennyt. Jos olet edelleen aktiivisesti etsimässä vaihtoa, ole hyvä ja kirjaudu <link>Intervac</link> mahdollisimman pian. Muuttaaksesi toivottua matkustusajankohtaa: seuraa <em>My Listing</em> laatikossa vasemmanpuoleisessa palstassa olevaa linkkiä <em>Change my listing</em>. Jos et enää aktiivisesti etsi vaihtoa, ole hyvä ja tarkista että liikennevalosi on vaihdettu punaiseksi (klikkaa kerran vihreää valoa niin se muuttuu punaiseksi, klikkaa uudelleen ja valo muuttuu takaisin vihreäksi)."
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.
+# --- English text = You are receiving this email because you have filled out our online application for a Intervac membership.
+msgid "signup_notification.reason"
+msgstr "Saat tämän viestin, koska olet täyttänyt Intervacin jäsenyyden liittymislomakkeen."
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.
+# --- English text = Thank you for your interest in joining Intervac International.  You have created an account on our website which you can access at any time using the following credentials:
+msgid "signup_notification.intro_to_credentials"
+msgstr "Kiitos osoittamastasi kiinnostuksesta liittyä Intervac International järjestön jäseneksi.  Olet luonut itsellesi tilin verkkosivuillamme, voit kirjautua palveluun milloin vain seuraavasti:"
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.
+# --- English text = Please note that this is the only email you will receive from us with your password in it.  Immediately after this email was sent, your password was securely encrypted and stored in our database.  If you have trouble logging in, it is good to remember that passwords are case sensitive.  This means that "aq99tz", "AQ99tz" and "aQ99Tz" all qualify as different passwords.  If you should forget your password at some point in the future, it's easy to reset it by following the link on our login form.
+msgid "signup_notification.about_passwords"
+msgstr "Otathan huomioon, että tämä on ainoa sähköpostiviesti, jossa saat meiltä salasanan. Välittömästi viestin lähettämisen jälkeen salasanasi tallennettiin tietokantaamme turvallisesti salattuna. Jos sinulla on vaikeuksia kirjautua sisään, muistahan että isot ja pienet kirjaimet tulkitaan eri merkeiksi salasanoissa. Eli \"aq99tz\", \"AQ99tz\" ja \"aQ99Tz\" ovat kaikki eri salasanoja. Jos unohdat salasanasi myöhemmin. voit saada uuden salasanan käyttämällä kirjautumissivulla olevaa linkkiä."
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.
+# --- English text = If you prefer you may use the primary email address on your account as a login instead of the one above.  For the purposes of logging in, they are interchangable.
+msgid "signup_notification.use_email_login"
+msgstr "Halutessasi voit käyttää tilille antamaasi ensisijaista sähköpostiosoitetta kirjautumistunnuksenasi jäsentunnuksesi sijaan. Kirjautumismielessä ne ovat vaihtoehtoja toisilleen."
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.
+# --- English text = We are looking forward to welcoming you as a full-fledged member of Intervac International and we have plenty of members looking to exchange homes with members in your area.  Your listing will remain invisible to them until you have completed the details section of your listing.  If you were not able to follow the application process all the way to the end today, you can return at any time and enter your email address on the registration page again.
+# --- (February 2012 - Edited text to remove reference to payment necessary.)
+# --- MERVI: Here is your original translation: Toivotamme sinut tervetulleeksi Intervac Internationalin jäseneksi. Meillä on paljon jäseniä, jotka ovat kiinnostuneita vaihtamaan kotia alueellasi. Listauksesi ei näy toisille jäsenille ennen kuin olet maksanut jäsenyydestä ja saattanut tietojesi täyttämisen loppuun.Jos et voi saattaa liittymisprosessia loppuun antamalla tarvittavat tiedot jo tänään, voit palata milloin vain antamalla sähköpostiosoitteesi liittymissivulla.
+msgid "signup_notification.invisible_listing"
+msgstr "Odotamme, että voimme toivottaa sinut täysivaltaiseksi jäseneksi Intervac Internationaliin. Meillä on paljon jäseniä, jotka haluavat kodinvaihtoon sille alueelle, jossa asut. Tietosi pysyvät näkymättömissä, kunnes olet täyttänyt kaikki tietosi listauksessasi. Jos et pysty viemään prosessia loppuun saakka tänään, voit palata milloin tahansa ja kirjautua uudelleen sisään sähköpostiosoitteellasi kirjautumissivulla."
+
+# --- English text = You are receiving this email because you requested that a copy be sent to the email address in your listing.
+msgid "email_message.reason"
+msgstr "Saat tämän viestin, koska pyysit listauksestasi kopion sähköpostiosoitteeseesi."
+
+# --- English text = Match Alert has found possible home exchange partners for you.
+msgid "matchalert.subject"
+msgstr "Vaihtovahti on löytänyt valintoihisi sopivia vaihtokumppaneita."
+
+# --- English text = You are receiving this email because you signed up for Intervac's Match Alert service.  To discontinue these mails, please login at http://intervac.com and set your Match Alert sending frequency to "never"
+msgid "matchalert.reason"
+msgstr "Saat tämän viestin, koska olet ottanut Intervacin Vaihtovahti palvelun käyttöön. Voit lopettaa viestien vastaanottamisen verkkosivuillamme http://intervac.com asettamalla Vaihtovahdin viestien lähettämisen valintaan ei koskaan."
+
+# --- English text = The following members at Intervac are either new, or have amended their listings recently.
+msgid "matchalert.intro_text"
+msgstr "Seuraavat Intervacin jäsenet ovat joko uusia tai äskettäin jäsentietojaan päivittäneitä jäseniä."
+
+# --- English text = The Match Alert service has sent you 10 consecutive emails and will stop automatically now. If you want to continue receiving Match Alert! emails, or start the service again at a later date, just login and adjust the settings in the Match Alert! area.
+msgid "matchalert.intro_text_last"
+msgstr "Vaihtovahti on nyt lähettänyt sinulle 10 vastausviestiä ja viestien lähettäminen päättyy automaattisesti. Jos haluat vastaanottaa edelleen Vaihtovahdin viestejä, tai aloittaa vahtipalvelun käytön myöhemmin, kirjaudu palveluun ja muuta asetuksiasi Vaihtovahti palvelussa."
+
+# --- English text = MatchAlert!
+msgid "matchalert.headline"
+msgstr "Vaihtovahti!"
+
+# --- English text = Thank you for your application
+msgid "application.thanks_subject"
+msgstr "Kiitos tilauksestasi"
+
+# --- English text = You have requested a password reset.
+msgid "forgotten_password.reset_subject"
+msgstr "Olet pyytänyt salasanan vaihtamista."
+
+# --- English text = You are receiving this email because you requested a reset password link.
+msgid "reset_password.reason"
+msgstr "Saat tämän viestin, koska olet pyytänyt linkin salasanasi vaihtamiseksi."
+
+# --- English text = Following is your login information along with the reset password link you have requested.  Clicking on it will take you to a page on our site where you can change your password.
+msgid "reset_password.introtext"
+msgstr "Ohessa saat kirjautumistunnuksesi sekä pyytämäsi linkin salasanan vaihtamiseksi. Klikkaamalla linkkiä pääset verkkopalvelussamme sivulle, jossa voit vaihtaa salasanasi."
+
+# --- English text = Your login is
+msgid "reset_password.login_label"
+msgstr "Käyttäjätunnuksesi on"
+
+# --- English text = Reset your password
+msgid "reset_password.link_label"
+msgstr "Valitse salasana"
+
+# --- English text = Reset your password
+msgid "reset_password.link"
+msgstr "Vaihda salasana"
+
+# --- English text = If you did not request a reset password link, or you have changed your mind and do not want to reset your password, please ignore this mail.
+msgid "reset_password.closing_text"
+msgstr "Jos muutit mielesi salasanan vaihtamisesta, sinun ei tarvitse tehdä mitään."
+
+# --- English text = Your password has been reset.
+msgid "forgotten_password.reset_confirmation_subject"
+msgstr "Salasanasi on vaihdettu."
+
+# --- English text = An Intervac member has registered an upcoming exchange with you.
+msgid "exchange_agreement.reason"
+msgstr "Intervacin jäsen on rekisteröinyt tulevan kodinvaihdon kanssasi."
+
+# --- English text = Your home exchange partner ( {{partner_id}} ) has left you an exchange agreement or they may have changed an agreement they made previously. To view this exchange agreement, please login at <link>Intervac</link> and click <em>My Exchange Agreements</em> in the <em>Useful Links</em> navigation. To confirm or respond to this agreement please enter your partner’s id number in the Create Agreement section of your home page.
+# --- IMPORTANT: Do not translate the text inside {{partner_id}} as it will be replaced with the member id of the exchange partner.
+# --- IMPORTANT: You can write whatever text you like in between the <link> </link> tags.  It will be linked automatically to the login page at intervac.com
+# --- IMPORTANT: The <em> </em> tags surrounding the text My Exchange Agreements and Useful Links will set these texts in italics.  You can remove them from around the page names if you don't want this.
+msgid "exchange_agreement.text"
+msgstr "Kodinvaihtokumppanisi ( {{partner_id}} ) on jättänyt sinulle hyväksyttäväksi vaihtosopimuksen tai hän on tehnyt muutoksia aikaisemmin tekemäänsä sopimukseen. Jotta voit tarkastella vaihtosopimuksen sisältöä, kirjaudu palveluun <link>Intervac</link> ja valitse klikkaamalla <em>Vaihtosopimukseni <em> valikosta <em>Hyödylliset linkit</em>.Vahvistaaksesi sopimuksen tai vastataksesi siinä oleviin kohtiin anna vaihtokumppanisi jäsennumero Tee vaihtosopimus -kohdassa omalla kotisivullasi."
+
+# --- English text = Exchange Agreement Progress
+# --- Location = This headline comes after the text above and before the exchange agreemnt history as seen on My Exchange Agreements page.
+msgid "exchange_agreement.history_headline"
+msgstr "Vaihtosopimusprosessi"
+
+# --- English text = Next Step:
+# --- Location = This label comes after the exchange agreement history and before the text that tells the member what the next step in the exchange agreement process is.
+msgid "exchange_agreement.next_step"
+msgstr "Seuraava:"
+
+# --- English text = Agreement process is complete
+# --- Location = Shown when the agreement process is 100%
+msgid "exchange_agreement.process_complete"
+msgstr "Sopimusprosessi on valmis"
+
+# --- English text = MAKE DIRECT MEMBER CONTACT: 'REPLY TO ALL' AND WRITE ABOVE THIS LINE
+msgid "member_messages.reply_above_this_line"
+msgstr "OTA SUORAAN YHTEYTTÄ: 'VASTAA KAIKILLE' JA KIRJOITA TÄMÄN RIVIN YLÄPUOLELLE"
+
+# --- English text = This mail has been sent to you through Intervac International's messaging system by:
+# --- Location: At the bottom of member-to-member emails. The sending-member's name and member Id are added automatically by the system.
+msgid "member_messages.footer.mail_sent_by"
+msgstr "Tämän viestin on sinulle lähettänyt Intervac Internationalin viestipalvelun avulla:"
+
+# --- English text = Email address:
+# --- Location: At the bottom of member-to-member emails.  The sending-member's email address is added automatically by the system.
+msgid "member_messages.footer.sending_member_email_address"
+msgstr "Sähköpostiosoite:"
+
+# --- English text = You are receiving this email because you signed up for our newsletter.
+# --- Location = Confirmation of newsletter subscription mail
+# (June, 2011)
+msgid "newsletter.reason"
+msgstr "Saat tämän viestin, koska olet tilannut uutiskirjeemme."
+
+# --- English text = Before we can begin sending you newsletters, you must confirm your newsletter subscription.  You can do this at any time in the next 72 hours by clicking on the link below:
+# --- Location = Confirmation of newsletter subscription mail
+# (June, 2011 - New)
+msgid "newsletter.confirm_link.introtext"
+msgstr "Ennen kuin voimme lähettää sinulle uutiskirjeitä, sinun tulee vahvistaa uutiskirjeen tilauksesi. Voit tehdä se seuraavien 72 tunnin aikana klikkaamalla alla olevaa linkkiä:"
+
+# --- English text = Yes, I want to receive your newsletter.
+# --- Location = Confirmation of newsletter subscription mail
+# (June, 2011 - New)
+msgid "newsletter.confirm_link.link_text"
+msgstr "Kyllä, lähettäkää minulle uutiskirjeenne."
+
+# --- English text = If you didn't request a subscription to our newsletter, you can safely ignore this mail.  The request will be removed from our database in a couple of days and you won't be hearing from us.
+# --- Location =
+# (June, 2011)
+msgid "newsletter.no_confirm_ignore"
+msgstr "Jos et halua saada uutiskirjeitämme, voit jättää tämän viestin huomioimatta. Vahvistuspyyntö poistetaan tietokannastamme parin päivän sisällä, etkä kuule meistä enää."
+
+# --- English text = Message from a trial member waiting
+# --- (December, 2011 - New Text)
+msgid "messages.subject.message_from_trial_waiting"
+msgstr "Viesti koejäseneltä odottaa"
+
+# --- English text = Message from a full member waiting
+# --- (December, 2011 - New Text)
+msgid "messages.subject.message_from_full_waiting"
+msgstr "Viesti täysjäseneltä odottaa"
+
+# --- English text = Reply from a full member waiting
+# --- (December, 2011 - New Text)
+msgid "messages.subject.reply_from_full_waiting"
+msgstr "Vastaus täysjäseneltä odottaa"
+
+# --- English text = You have been approached by trial member with listing {{member_id}} about an exchange. In order to ensure that your email address is only shared with other full Intervac members, messages from trial members are only available inside of the Intervac internal mail system. You can <link>click here</link> to see {{member_id}}'s listing and we ask that whether or not you are interested in their offer, please reply to their message when you have a minute.
+# --- IMPORTANT - Translating or removing the text {{member_id}} from your translation will result in a system error!
+# --- IMPORTANT - {{member_id}} will be replaced by the system with the member id of the trial member who has written to this full member.
+# --- (December 2011 - New Text)
+msgid "messages.text.trial_approaches_full"
+msgstr "Koejäsenen numerolla {{member_id}} on lähestynyt sinua kodinvaihtotarjouksella. Jotta sähköpostiosoitteesi on ainoastaan toisten Intervacin täysjäsenten saatavilla, viestit koejäseniltä pysyvät Intervacin sisäisessä viestijärjestelmäsä. Voit <link>klikata tästä</link> nähdäksesi {{member_id}} listuksen. Pyydämme vastaamaan heidän viestiinsä sopivassa välissä olittepa sitten kiinnostuneita tai ei heidän tarjouksestaan."
+
+# --- English text = The owner of listing {{member_id}} has replied to your message. Our messaging service is available for full members to communicate with each other. You will be able to read this waiting reply as soon as you have paid for your membership.
+# --- IMPORTANT: Do not translate the text inside {{member_id}} as it will be replaced with the member id of the full member replying to a trial member.
+# --- (December 2011 - New Text)
+msgid "messages.text.full_replies_to_trial"
+msgstr "Listauksen {{member_id}} haltija on vastannut viestiisi. Viestijärjestelmämme on täysjäsentemme kommunikointiin toistensa kanssa. Voit lukea saamasi viestit heti, kun olet maksanut täysjäsenen jäsenmaksun."
+
+# --- English text = A full member with the listing <link>{{member_id}}</link> has sent you a message. Trial members do not have full access to our messaging system, but you can read all of your received messages as soon as you pay for your membership.
+# --- (December 2011 - New Text)
+msgid "messages.text.full_approaches_trial"
+msgstr "Täysjäsen, listaus numerolla <link>{{member_id}}</link> on lähettänyt sinulle viestin. Koejäsenillä ei ole täysiä oikeuksia viestijärjestelmäämme. Voit lukea saamasi viestit kun olet maksanut jäsenyydestäsi."
+
+# --- English text = You have been approached by trial member with listing {{member_id}} about an exchange. As a trial member you are not able to read or reply to messages, but you will have full access our messaging system as soon as you have paid for a your membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "messages.text.trial_approaches_trial"
+msgstr "Koejäsen, listaus numerolla {{member_id}} on lähestynyt sinua kodinvaihtoviestillä. Koejäsenenä et voi lukea viestejä tai vastata niihin. Saat täydet oikeudet viestijärjestelmäämme maksettuasi jäsenyydestä."
+

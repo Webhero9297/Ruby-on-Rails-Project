@@ -1,0 +1,287 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-10-16 19:11+0100\n"
+"PO-Revision-Date: 2011-08-31 11:26+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# English text = Google Map Settings
+msgid "headline"
+msgstr "Parametrii hartii Google"
+
+# English text = This marker may not pinpoint the member\'s exact street address.
+msgid "marker_text"
+msgstr "Marcajul acesta nu poate indica direct adresa exacta "
+
+# --- English text = Disable the Google Map for my listing
+msgid "disable_map"
+msgstr "Nu prezentati harta pe listarea mea"
+
+# --- English text = Change Marker Placement
+msgid "change_placement_headline"
+msgstr "Modificati amplasarea marcajului"
+
+# English text = If the marker on the map in your listing is wrong you can correct it on this page.  Whether you are offering your second home for exchange, or want a more precise placement through the use of latitude and longitude please select your choice below.
+msgid "change_placement_text"
+msgstr "Daca marcajul de pe harta din listarea dvs este resit , il puteti corecta in aceasta pagina.Daca doriti sa oferiti spre schimb casa dvs de vacanta , sau doriti o amplasare mai precisa prin  intermediul latitudinii si al longitudinii va rugam sa  selectati alegerea dvs."
+
+# --- English text = Google will place the marker on your map using the following priority list
+msgid "marker_priority_text"
+msgstr "Google va amplasa marcajul pe harta dvs folosind lista urmatoare de prioritati"
+
+# English text = Latitude &amp; Longitude (gps coordinates)
+msgid "li_latitude_longitude"
+msgstr "Latitudine&amp; Longitudine ( coordonate  gps)"
+
+# English text = Second home address
+msgid "li_second_home"
+msgstr "Adresa celei de-a doua locuinte"
+
+# English text = Contact address in your listing
+msgid "li_contact_address"
+msgstr "Adresa de contact din listarea dvs"
+
+# English text = What would you like to do?
+msgid "what_next.headline"
+msgstr "Ca ati dori sa faceti?"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude"
+msgstr "Specificati latitudinea si longitudinea casei dvs"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude_title"
+msgstr "Specificati latitudinea si longitudinea casei dvs"
+
+# English text = Latitude &amp; Longitude
+msgid "latitude_longitude.headline"
+msgstr "Latitudine &amp; Longitudine"
+
+# --- English text = If you already know the latitude and longitude of your home or neighborhood, you can enter them below.  If you need help in finding the correct coordinates for your location, click on the help icon.
+msgid "latitude_longitude.intro_text"
+msgstr "Daca stiti deja latitudinea si longitudinea casei dvs sau a imprejurimilor , puteti sa le mentionati aici. Daca aveti nevoie de ajutor in aflarea coordonatelor , faceti clic pe Ajutor;"
+
+# --- (Dec 2008) English text = Link opens in a new window
+msgid "link_opens_new_window"
+msgstr "Link-ul se deschide într-o fereastră nouă"
+
+# --- English text = How to Find the Latitude &amp; Longitude of Your Home
+msgid "latitude_longitude.how_to_headline"
+msgstr "Cum sa gasiti Latitudinea  &amp; Longitudinea casei dvs"
+
+# English text = For an exact position of the google maps marker, you can enter the gps coordinates (latitude, longitude) of your home below.
+msgid "latitude_longitude.how_to_text_1"
+msgstr "Pentru o plasare exacta a markerului pe Google map , puteti  inregistra coordonatele gps ( latitudine , longitudine) ale casei dvs"
+
+# English text = You can get these coordinates from a hand-held GPS unit, or you might try the navigation system in your car.  There are also a number of free tools on the internet whereby you can find the latitude and longitude (GPS Co-ordinates) of your home. The best of them are
+msgid "latitude_longitude.how_to_text_2"
+msgstr "Puteţi obţine aceste coordonate dintr-o unitate GPS de mână, sau puteti  încerca sistemul de navigare din masina. Există, de asemenea, o serie de instrumente gratuite pe internet prin care puteţi găsi latitudinea şi longitudinea (Coordonatele GPS) din casa ta. Cele mai bune dintre ele sunt:"
+
+# English text = One Step Address Conversion
+msgid "latitude_longitude.onestep.headline"
+msgstr "Conversie de adresa"
+
+# English text = Go To: One Step Address Conversion
+msgid "latitude_longitude.onestep.link"
+msgstr "Mergeti la : conversia de adresa"
+
+# English text = Click here for instructions on how to use the One Step Address Conversion utility.
+msgid "latitude_longitude.onestep.help"
+msgstr "Faceti clic pentru instructiuni privind modul de folosire al conversiei de adresa"
+
+# English text = Infosports
+msgid "latitude_longitude.infosports.headline"
+msgstr "Infosport"
+
+# English text = Go To: Infosports
+msgid "latitude_longitude.infosports.link"
+msgstr "Mergeti la :Infosport"
+
+# English text = GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.headline"
+msgstr "Vizualizare GPS"
+
+# English text = Go To: GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.link"
+msgstr "Mergeti la Vizualizare GPS"
+
+# English text = It is not necessary to be too precise and remember that the map is visible to visitors as well as members.
+msgid "latitude_longitude.precision"
+msgstr "Nu este necesar sa fiti f exact si amintiti-va ca harta este vizibila atat pentru vizitatori cat si pentru membrii Intervac."
+
+# English text = Latitude
+msgid "latitude_longitude.latitude"
+msgstr "Latitudine"
+
+# English text = Longitude
+msgid "latitude_longitude.longitude"
+msgstr "Longitudine"
+
+# -- ERROR TEXT --
+# English text = Please enter both latitude and longitude as decimal values (39.002844), and not degrees (39° 0’ 10.8 ).
+msgid "errors.decimal_values_only"
+msgstr "Va rugam , scrieti latitudinea si longitudinea cu zecimale (39.002844), si nu in grade (39° 0’ 10.8 )."
+
+# -- ERROR TEXT --
+# English text = Sorry, both latitude and longitude must be set for this feature to work properly!
+msgid "errors.require_lat_and_long"
+msgstr "Ne pare rau , atat latitudinea cat si longitudinea trebuie stabilite pentru functionarea corecta a sistemului"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home"
+msgstr "Scrieti adresa casei pe care o oferiti pentru schimb."
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home_title"
+msgstr "Scrieti adresa casei pe care o oferiti pentru schimb."
+
+# English text = Exchange Home Address
+msgid "second_home.headline"
+msgstr "Adresa casei ce participa la schimb"
+
+# English text = If the home you are offering for exchange is your second or holiday home, enter the address here. The map in your listing will use this address (if there is one) to place the marker before it uses your contact address.
+msgid "second_home.intro_text"
+msgstr "Daca proprietatea oferita pentru schimb este a doua dvs casa sau casa de vacanta , scrieti adresa aici;Harta din listare va folosi aceasta adresa (daca exista una) pentru a plasa indicatorul inainte ca acesta sa foloseasca adresa dvs de contact. "
+
+# English text = Street
+msgid "second_home.street"
+msgstr "Strada"
+
+# English text = Postal
+msgid "second_home.postal"
+msgstr "Cod postal"
+
+# English text = City
+msgid "second_home.city"
+msgstr "Oras"
+
+# English text = State
+msgid "second_home.state"
+msgstr "State"
+
+# English text = Country
+msgid "second_home.country"
+msgstr "Tara"
+
+# -- ERROR TEXT --
+# English text = Sorry, both city and postal code must be set for this feature to work properly!
+msgid "errors.require_city_and_postal"
+msgstr "Ne pare rau , atat orasul cat si codul postal trebuie scrise pentru functionarea corecta a sistemului"
+
+# -- BUTTON TEXT --
+# English text = Save Settings
+msgid "save_button"
+msgstr "Salvati setarile"
+
+# -- HELP TEXT --
+# English text = How to use One Step GPS coordinate search.
+msgid "latitude_longitude.onestep.how_to_use"
+msgstr "Cum sa folositi coordonatele GPS."
+
+# -- HELP TEXT --
+# English text = Enter your address in the fields on the left hand side.
+msgid "latitude_longitude.onestep.step1"
+msgstr "Introduceţi adresa dvs. în câmpurile de pe partea stângă."
+
+# -- HELP TEXT --
+# English text = Click the "Determine Latitude/Longitude" button
+msgid "latitude_longitude.onestep.step2"
+msgstr "Apasati pe butonul\"Determina Latitudinea/Longitudinea\" "
+
+# -- HELP TEXT --
+# English text = Please be patient.  This easy to use tool queries many separate GPS databases, and takes a few minutes to work.  Depending on where you live you will receive several sets of results.  For houses located in Great Britain, the results from "locatienet" have proven more accurate than those from Google when using the postal code.
+msgid "latitude_longitude.onestep.step3"
+msgstr "Vă rugăm să aveţi răbdare.Acest pas necesita cautari in bazele de date GPS si dureaza cateva minute. În funcţie de locul in care  locuiţi, veţi primi mai multe seturi de rezultate.Pentru casele situate în Marea Britanie, rezultatele de la \"locatie net\" s-au dovedit mult mai precise decât cele de la Google atunci când se utilizează codul poştal."
+
+# -- HELP TEXT --
+# English text = How to use Infosports GPS coordinate search.
+msgid "latitude_longitude.infosports.how_to_use"
+msgstr "Cum sa folositi coordonatele de cautare Infosports GPS."
+
+# -- HELP TEXT --
+# English text = Move the map by holding down the mouse button while moving the mouse.
+msgid "latitude_longitude.infosports.step1"
+msgstr "Deplasati  harta ţinând apăsat butonul mouse-ului în timp ce il miscati"
+
+# -- HELP TEXT --
+# English text = If you are not a resident of the US, zoom out by clicking on the grid lines (or the -) on the left until you have your country in the view.
+msgid "latitude_longitude.infosports.step2"
+msgstr "Daca nu sunteti rezident SUA micsorati harta , facand clic pe grila de linii( sau pe-) din partea stanga , pana cand gasiti tara dvs."
+
+# -- HELP TEXT --
+# English text = Create a marker by clicking on a spot near your area, and then zoom in by clicking on the grid lines (or the + sign).  Repeat this step until you can place the marker satisfactorily.
+msgid "latitude_longitude.infosports.step3"
+msgstr "Creaţi un indicator , făcând clic pe un loc aproape de zona dvs., apoi mariti, făcând clic pe grila de linii (sau semnul +). Repetaţi acest pas până când puteţi plasa indicatorul în mod satisfăcător."
+
+# -- HELP TEXT --
+# English text = Click on the final marker to display the longitude and latitude.
+msgid "latitude_longitude.infosports.step4"
+msgstr "Faceţi clic pe indicatorul final pentru a afişa longitudinea şi latitudinea."
+
+# -- HELP TEXT --
+# English text = Copy and paste the coordinates into the boxes below.
+msgid "latitude_longitude.infosports.step5"
+msgstr "Copiaţi şi inseraţi coordonatele în rubricile de mai jos."
+
+# -- HELP TEXT --
+# English text = How to use GPS Visualizer.
+msgid "latitude_longitude.gps_visualizer.how_to_use"
+msgstr "Cum sa folositi indicatorul GPS"
+
+# -- HELP TEXT --
+# English text = Type your address in the box and click the "Geocode it" button. Remember, if you live outside the USA to put, for example, “Boston, United Kingdom” rather than just “Boston”
+msgid "latitude_longitude.gps_visualizer.step1"
+msgstr "Tastaţi adresa în caseta şi faceţi clic pe \"Geo-codeaza\".Amintiţi-vă, dacă locuiţi în afara SUA , sa puneti , de exemplu, \"Boston, Marea Britanie\", in loc de \"Boston\"."
+
+# -- HELP TEXT --
+# English text = Enter (copy and paste) the coordinates in these boxes.
+msgid "latitude_longitude.gps_visualizer.step2."
+msgstr "Introduceţi (copy si paste) coordonatele în aceste rubrici"
+
+# -- HELP TEXT --
+# English text = Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank.
+#, fuzzy
+msgid "second_home.street_help"
+msgstr "Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+#, fuzzy 
+msgid "second_home.state_help"
+msgstr "If your country doesn't require you to put a state on your postal mail, then you should leave this field blank."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+msgid "second_home.country_help"
+msgstr "Daca aceasta nu este tara in care este situata casa dvs ce participa la schimb , va rugam contactati reprezentantul national "
+
+# --- English text = Thank you, we saved your changes in our database!
+msgid "messages.save_successful"
+msgstr "Va multumim !Am salvat modificarile in baza noastra de date!"
+
+# --- English text = Sorry, either Google Map couldn't find the address or you have disabled the map for your listing.
+msgid "errors.no_map_found"
+msgstr "Ne pare rau , fie Google nu a putut găsi adresa, fie  aţi dezactivat harta pentru listarea dvs.."
+
+# --- English text = An error has occurred and we were unable to save your changes.  Please make sure you have entered your latitude and longitude in degrees instead of coordinates, and contact your local organizer for assistance if you continue to have difficulty
+# --- (1 July, 2010) Edited to add a reminder to the member to use degrees instead of coordinates when entering Latitude and Longitude.
+msgid "errors.general_fail"
+msgstr "O eroare a survenit si nu putem salva modificarile dvs. Va rugam incercati din nou , sau contactati reprezentantul national pentru asistenta."
+
+# --- English text = Map of the Region
+msgid "map_of_region"
+msgstr "Harta regiunii"
+
+# --- English text = Not supported in all countries
+# --- Location: This is a little warning underneath the "street" text box in the Exchange Home Address form.
+#, fuzzy
+msgid "second_home.street_not_supported_in_all_countries"
+

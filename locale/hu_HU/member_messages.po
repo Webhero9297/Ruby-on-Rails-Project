@@ -1,0 +1,308 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-01-18 16:00+0200\n"
+"PO-Revision-Date: 2011-06-20 08:01+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Message Center
+msgid "submenu.headline"
+msgstr "Message Center"
+
+# --- English text = Inbox
+msgid "submenu.inbox"
+msgstr "Inbox"
+
+# --- English text = Read waiting messages
+msgid "submenu.inbox_title"
+msgstr "Read waiting messages."
+
+# --- English text = Send new message
+msgid "submenu.send_new"
+msgstr "Send new message"
+
+# --- English text = Send a message to a member
+msgid "submenu.send_new_title"
+msgstr "Send a message to a member."
+
+# --- English text = Sent Messages
+msgid "submenu.sent_messages"
+msgstr "Sent Messages"
+
+# --- English text = Look at messages you have sent
+msgid "submenu.sent_messages_title"
+msgstr "Look at messages you have sent."
+
+# --- English text = Message Archive
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "submenu.archive"
+msgstr "Received Messages (Archive)"
+
+# --- English text = Look at messages in the archive
+msgid "submenu.archive_title"
+msgstr "Look at messages in the archive."
+
+# --- English text = Administer Templates
+msgid "submenu.templates"
+msgstr "Administer Templates"
+
+# --- English text = Write and save message templates.
+msgid "submenu.templates_title"
+msgstr "Write and save message templates."
+
+# --- English text = Create a Message Template
+msgid "templates.headline"
+msgstr "Create a Message Template"
+
+# --- English text = Create a Message Template
+msgid "templates.use_headline"
+msgstr "Use a Message Template"
+
+# --- English text = The type of template I want to write is
+msgid "templates.intro_text"
+msgstr "The type of template I want to write is"
+
+# --- English text = Reply
+msgid "templates.reply_label"
+msgstr "Reply"
+
+# --- English text = Answer Template
+msgid "templates.answer_template"
+msgstr "Answer Template"
+
+# --- English text = Contact Template
+msgid "templates.contact_template"
+msgstr "Contact template"
+
+# --- English text = Load
+msgid "templates.load"
+msgstr "Load"
+
+# --- English text = Template Name
+msgid "templates.name"
+msgstr "Template Name"
+
+# --- English text = Message Subject
+msgid "templates.subject"
+msgstr "Message Subject"
+
+# --- English text = Save My Template
+msgid "templates.save_button"
+msgstr "Save My Template"
+
+# --- English text = Your template has been saved.
+msgid "templates.successful_save"
+msgstr "Your template has been saved."
+
+# --- English text = Delete this template
+msgid "templates.delete_template"
+msgstr "Delete this template"
+
+# --- English text = Are you sure you want to delete this template?
+msgid "templates.confirm_delete"
+msgstr "Are you sure you want to delete this template?"
+
+# --- English text = Use a template
+msgid "templates.use_a_template"
+msgstr "Use a template"
+
+# --- English text = Messages you have sent
+msgid "sent_messages.headline"
+msgstr "Messages you have sent"
+
+# --- English text = Write a new message
+msgid "new_message.headline"
+msgstr "Write a new message"
+
+# --- English text = This member speaks
+# --- Example: "This member speaks German, French, English"
+# --- The system fills in the languages of the receiving member for you.
+msgid "new_message.language"
+msgstr "This member speaks"
+
+# --- English text = This member does not accept rental offers
+# --- This message appears if the sending member has RO in his listing, and the receiving member has "No Rental Offers Accepted" in thiers.
+msgid "new_message.no_rental_accepted"
+msgstr "This member does not accept rental offers"
+
+# --- English text = Send Message
+msgid "new_message.send_button"
+msgstr "Send Message"
+
+# --- English text = From
+msgid "from"
+msgstr "From"
+
+# --- English text = To
+msgid "to"
+msgstr "To"
+
+# --- English text = Subject
+msgid "subject"
+msgstr "Subject"
+
+# --- English text = create new
+msgid "templates.create_new"
+msgstr "create new"
+
+# --- English text = You read this message on
+# --- Example:  You read this message on: 13 July, 2009
+msgid "message_received.message_read_on"
+msgstr "You read this message on"
+
+# --- English text = You have not read this message yet
+# --- For received messages
+msgid "message_received.message_not_read"
+msgstr "You have not read this message yet"
+
+# --- English text = Your message has not been read yet
+msgid "message_sent.not_read"
+msgstr "Your message has not been read yet"
+
+# --- English text = Sent on
+# --- Used to label a date when a message was sent.  Example: -- Sent on: 9 July, 2009
+msgid "sent_on"
+msgstr "Sent on"
+
+# --- English text = Received on
+# --- Used to label a date when a message was sent.  Example: -- Received on: 9 July, 2009
+msgid "received_on"
+msgstr "Received on"
+
+# --- English text = This message has been answered on
+# --- Used to label a date when a message was answered.  Example: -- Ths message has been answered on: 9 July, 2009
+msgid "message_sent.answered_on"
+msgstr "This message has been answered on"
+
+# --- English text = Your message has been read on
+# --- Used to label a date when a message was read.  Example: -- Your message has been read on: 9 July, 2009
+msgid "message_sent.read_on"
+msgstr "Your message has been read on"
+
+# --- English text = Welcome to the Intervac In-House Messaging System.  Messages that you send here will never be lost in foreign spam filters again.  Because they are messages and not email you can login any time and from any internet connection to check for offers, or contact exchange partners.
+msgid "help_send_message.intro_text"
+msgstr "Welcome to the Intervac In-House Messaging System.  Messages that you send here will never be lost in foreign spam filters again.  Because they are messages and not email you can login any time and from any internet connection to check for offers, or contact exchange partners."
+
+# --- English text = It's easy to send a message
+msgid "help_send_message.howto_headline"
+msgstr "It's easy to send a message"
+
+# --- English text = Click on the search button in the orange navigation.
+msgid "help_send_message.howto_step_1"
+msgstr "Click on the search button in the orange navigation."
+
+# --- English text = Do a search to find a possible exchange partner.
+msgid "help_send_message.howto_step_2"
+msgstr "Do a search to find a possible exchange partner."
+
+# --- English text = While viewing the other member's listing click the button: Send Message.
+msgid "help_send_message.howto_step_3"
+msgstr "While viewing the other member's listing click the button: Send Message."
+
+# --- English text = Write a message to your prospective exchange partner.
+msgid "help_send_message.howto_step_4"
+msgstr "Write a message to your prospective exchange partner."
+
+# --- English text = Sorry, expired or invisible members can't use our messaging system.
+msgid "errors.expired_or_invisible"
+msgstr "Sorry, expired or invisible members can't use our messaging system."
+
+# --- English text = You haven't sent any messages yet.
+msgid "info.no_messages_sent_yet"
+msgstr "You haven't sent any messages yet."
+
+# --- English text = You haven't answerd any messages yet.
+msgid "info.no_messages_answered_yet"
+msgstr "You haven't answerd any messages yet."
+
+# --- English text = Your message has been sent!
+msgid "info.message_sent"
+msgstr "Your message has been sent!"
+
+# --- English text = Please don't forget to include your answer.
+msgid "errors.forgotten_answer_text"
+msgstr "Please don't forget to include your answer."
+
+# --- English text = Thank you, your answer has been sent.
+msgid "info.answer_sent"
+msgstr "Thank you, your answer has been sent."
+
+# --- English text = Message Templates
+msgid "edit_template.headline"
+msgstr "Message Templates"
+
+# --- English text = Edit an existing template
+msgid "edit_template.subhead"
+msgstr "Edit an existing template"
+
+# --- English text = Choose a template to edit
+msgid "edit_template.choose_template"
+msgstr "Choose a template to edit"
+
+# --- English text = Do you really want to delete this message template?
+msgid "delete_template.confirm"
+msgstr "Do you really want to delete this message template?"
+
+# --- English text = Answered Messages
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "answered_messages.headline"
+msgstr "Received Messages (Archive)"
+
+# --- English text = Do you want to send a copy of this message to your email address?
+msgid "send_as_email"
+msgstr "Do you want to send a copy of this message to your email address?"
+
+# --- English text = Received Message
+msgid "received_message.headline"
+msgstr "Received Message"
+
+# --- English text = Sent Message
+msgid "sent_message.headline"
+msgstr "Sent Message"
+
+# --- English text = Messages for
+msgid "dashboard.for_label"
+msgstr "Messages for"
+
+# --- English text = Listing
+msgid "dashboard.listing_label"
+msgstr "Listing"
+
+# --- English text = unanswered messages
+msgid "dashboard.unanswered_messages_label"
+msgstr "unanswered messages"
+
+# --- English text = has <highlight>{{count}}</highlight> unread messages
+# --- IMPORTANT => the placeholder {{count}} will be replaced with the number of unread messages.
+# --- IMPORTANT => If you want to have the number of unread messages in bold text be sure not to remove or translate the <highlight> or </highlight> tags.
+msgid "dashboard.unread_messages"
+msgstr "has <highlight>{{count}}</highlight> unread messages"
+
+# --- English text = This mail does not appear to have been answered. Are you sure you want to delete it?
+# --- Location = This message is shown to members when they want to delete an unanswered message.
+msgid "unanswered_messages.delete_warning"
+msgstr "This mail does not appear to have been answered. Are you sure you want to delete it?"
+
+# --- English text = This mail does not appear to have been answered. Are you sure you want to delete it?
+# --- Location = This message is shown to members when they want to delete a message.
+msgid "answered_messages.delete_warning"
+msgstr "Are you sure you want to delete this message?"
+
+# --- English text = Delete Message
+msgid "delete_message.alt_tag"
+msgstr "Delete this message."
+
+# --- English text = Send a jpg, pdf, doc or docx as attachment
+# --- Location = Text at the add attachment box
+# (June, 2011 - New)
+msgid "new_message.attachment"
+msgstr "Send a jpg, pdf, doc or docx as attachment"
+

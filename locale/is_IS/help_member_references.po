@@ -1,0 +1,90 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-07-28 20:09-0000\n"
+"Last-Translator: Sesselja Traustadóttir <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = About Member References
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "headline"
+msgstr "Skýringar vegna umsagna meðlima"
+
+# --- English text = References are a way to show other members that you are a good exchange party. When you agree to act as your exchange partner's reference, you are agreeing to vouch for them as reliable and responsible exchange partners.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "introtext"
+msgstr "Umsagnir eru leið til að sýna öðrum meðlimum að þú sért góður skiptiaðili. Þegar þú samþykkir að skrá ummæli skiptifélaga þíns, ert þú að samþykkja að mæla með þeim sem ábyrgum og traustum skiptifélögum. "
+
+# --- English text = Intervac has two different types of references: confirmed and unconfirmed.  A confirmed reference is of course the best as it states that both parties have confirmed thier good will.  The label confirmed reference is given when the reference giver has chosen <highlight>Yes</highlight> to the question: <highlight>Act as Reference?</highlight> and the reference receiver has chosen <highlight>Yes</highlight> to the question <highlight>Allow as Reference?</highlight>
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "confirmed_unconfirmed.introtext"
+msgstr "Intervac er með tvo mismunandi flokka umsagna; staðfesta og óstaðfesta. Staðfestar umsagnir vega meira því í þeim hafa báðir aðilar vottað ágæti hvors annars. Vottunin; staðfestar umsagnir - er gefin þegar umsagnaraðilinn hefur valið <highlight>Já</highlight> við spurningunni: <highlight>Vera til umsagnar?</highlight> og sá sem umsögnina hlýtur hefur valið <highlight>Já</highlight> við spurningunni <highlight>Leyfa umsögnina?</highlight>"
+
+# --- English text = Why are some references unconfirmed?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.headline"
+msgstr "Af hverju eru sumar umsagnirnar óstaðfestar?"
+
+# --- English text = Unconfirmed references are usually because either the member's exchange partner has not yet specifically chosen <highlight>Yes</highlight> or <highlight>No</highlight> to the question <highlight>Act as Reference?</highlight>, or it relates to an older exchange and the other member does not currently have an active membership. This could be the case especially with exchanges before April, 2011 when we launched the expanded version of our Exchange Agreements and Member References modules.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.introtext"
+msgstr "Óstaðfestar umsagnir eru venjulega inni vegna þess að annað hvort hafa meðlimir látið hjá líða að velja <highlight>Já</highlight> eða <highlight>Nei</highlight> við spurningunni <highlight>Vera til umsagnar?</highlight>, eða þær tilheyri eldri heimilaskiptum og hinn aðilinn er ekki lengur með virkan aðgang. Þetta getur hæglega tengst því að skiptin hafi farið fram fyrir apríl 2011, þegar við settum inn þennan möguleika í útgáfuna af heimilaskiptasamningunum og bættum við umsögnum frá skiptiaðilum. "
+
+# --- English text = After you return from your exchange it's a good idea to log in and choose whether or not you want to act as your partner's reference.
+# --- Location =
+msgid "after_return.text"
+msgstr "Eftir að þú kemur heim úr heimilaskiptunum er góð hugmynd að fara inn á vefinn og velja hvort þú viljir koma fram með umsögn um skiptifélaga þinn. "
+
+# --- English text = Act as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.headline"
+msgstr "Vera til umsagnar?"
+
+# --- English text = Were you satisfied with your exchange and your partner? Select <highlight>Yes</highlight> to add your member id to your partner's list of confirmed exchange references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.satisfied"
+msgstr "Varstu ánægður með skipti þín og skipti félaga þíns? Veldu <highlight>Já</highlight> til þess að setja aðildarnúmer þitt á lista skipti félaga þíns yfir staðfestar heimilaskipta umsagnir."
+
+# --- English text = Dissatisfied with your exchange or your partner? Choose <highlight>No</highlight> in this box to keep your id from being displayed as an unconfirmed reference.
+# --- Location =
+msgid "act_as_reference.dissatisfied"
+msgstr "Óánægður með skitpi þín við skiptifélaga þinn? Veldu <highlight>Nei</highlight> í þessu hólfi til að láta ekki meðlimsnúmerið þitt koma fram sem óstaðfestar umsagnir."
+
+# --- English text = Allow as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.headline"
+msgstr "Leyfa umsögnina?"
+
+# --- English text = This control allows you the final say as to which of your exchange partners are displayed in your reference list.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.introtext"
+msgstr "Þessi stýring leyfir þér að ákveða endanlega hverjir af þínum skiptiaðilum eru birtir á þínum umsagnarlista."
+
+# --- English text = If you were satisfied, you don't need to do anything here, <highlight>Yes<highlight> is the default so as soon as your partner chooses <highlight>Yes<highlight> in his <highlight>Acts as Reference</highlight>, his member id will be added to your confirmed references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.satisfied"
+msgstr "Ef þú varst ánægður, þarftu ekki að gera neitt hérna, <highlight>Já<highlight> kemur sjálfkrafa á þína síðu um leið og skiptifélagi þinn velur <highlight>Já<highlight> á hans <highlight>Vera til umsagnar</highlight>, skráningarnúmerið hans mun þá birtast til umsagnar hjá þér."
+
+# --- English text = Dissatisfied? Choose <hightlight>No</highlight> here If you prefer that a former partner not be allowed to act as your reference.  This will over-ride any choice made by your partner and their member number will not be displayed in your references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.dissatisfied"
+msgstr "Óánægður? Veldu <hightlight>Nei</highlight> ef þú velur að þessi fyrrum skiptiaðili þinn sé ekki leyft að vera til umsagnar hjá þér. Þetta mun eyða öllu sem þessi skiptiaðili hefur merkt þér og aðildanúmer þeirra verður ekki skráð í umsagnir um þig. "
+
+# --- English text = Added as Reference
+# --- Location = Headline after all past agreements are listed
+msgid "added_as_reference.headline"
+msgstr "Sett inn sem umsögn"
+
+# --- English text = Why does it say Added as Reference instead of showing the icons?
+# --- Location =
+msgid "added_as_reference.question"
+msgstr "Af hverju segir \"Sett inn sem umsögn\" í stað þess að sýna táknið?"
+

@@ -1,0 +1,173 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-01-19 19:43+0100\n"
+"PO-Revision-Date: 2011-09-01 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Match Alert - For Busy Exchangers!
+msgid "headline"
+msgstr "Valvaktin - fyrir upptekna skiptara!"
+
+# --- English text = You decide what is right for you!
+msgid "slogan"
+msgstr "Þið ákveðið hvað hentar ykkur!"
+
+# --- English text = We will send you a up to ten emails in total at the frequency you choose. Each email will contain up to twenty new and/or recently changed listings which correspond closely to the settings you select below.
+# --- (Jan, 2009)  Edited text... please compare.
+msgid "intro_text"
+msgstr "Við munum senda þér allt að tíu tölvupósta byggða á þínu vali.Hver póstur inniheldur allt að tuttugu nýskráðum og/eða nýbreyttum skráningum, sem svara ykkar vali."
+
+# --- English text = Match alert emails left in this round
+msgid "number_left_to_send"
+msgstr "Valvaktar póstar eftir í þessari umferð"
+
+# --- English text = Save My Settings
+msgid "save_button"
+msgstr "Geymið uppsetninguna"
+
+# --- English text = Mail Settings
+msgid "mail_settings.headline"
+msgstr "Tölvupóst uppsetning"
+
+# --- English text = Frequency
+msgid "mail_settings.frequency"
+msgstr "Tíðni"
+
+# --- English text = Content
+msgid "content.headline"
+msgstr "Innihald"
+
+# --- English text = Match Settings
+msgid "settings.headline"
+msgstr "Vöktunar valið"
+
+# --- English text = Destinations
+msgid "settings.destinations"
+msgstr "Áfangastaðir"
+
+# --- English text = Destinations Available
+msgid "settings.destinations_available"
+msgstr "Áfangastaðir enn í boði"
+
+# --- English text = Destinations Chosen
+msgid "settings.destinations_chosen"
+msgstr "Valinn áfangastaður"
+
+# --- English text = You can save any number of destinations in this section by clicking on the orange boxes to add desired destinations at (1) country level OR (2) country-region level OR (3) country-region-city level.
+# --- Location = Introductory text found underneath the headline "Destinations Wishlist"
+msgid "destinations.introtext"
+msgstr "Þú getur vistað eins marga áfangastaði í þessu vali og þú óskar þér með því að smella í appelsínugula boxið og valið áfangastaði eftir (1) landi eða (2) héraði í landinu eða (3) borgum í landinu."
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Önnur atriði"
+
+# --- English text = Email language
+msgid "mail_settings.language"
+msgstr "Tölvupósts tungumál"
+
+# --- English text = Include only new listings
+msgid "content.only_new"
+msgstr "Sendið aðeins nýjar skráningar"
+
+# --- English text = Send both new and changed listings
+msgid "content.new_and_changed"
+msgstr "Sendið bæði lista yfir nýjar og breyttar skráningar"
+
+# --- English text = None of the adjustments you make to these categories will change your profile.  They are used only for Match Alert!
+msgid "no_change_to_profile"
+msgstr "Ekkert af því vali sem þú setur inn vegna þessa, breytir skráningu þinni. Þær eru eingöngu fyrir valvaktina."
+
+# --- English text = Minimum number of adults
+msgid "settings.minimum_adults"
+msgstr "Lágmarks  fjöldi fullorðinna"
+
+# --- English text = with children
+msgid "settings.with_children"
+msgstr "með börn"
+
+# --- English text = without children
+msgid "settings.without_children"
+msgstr "án barna"
+
+# --- English text = with or without children
+msgid "settings.with_or_without_children"
+msgstr "Með eða án barna"
+
+# --- This label is hidden text.
+# --- English text = Children
+msgid "settings.children"
+msgstr "Börn"
+
+# --- English text = Success!  Your MatchAlert settings have been saved
+msgid "messages.settings_saved_successfully"
+msgstr "Fullkomið!  Valvaktin þín hefur verið vistuð"
+
+# --- English text = There was an error!
+msgid "errors.undefined"
+msgstr "Það var villa!"
+
+# --- English text = Thanks!  You are registered to receive 10 MatchAlert emails.  They will be sent to the email address(s) in your listing.
+msgid "messages.ok_send_to_address"
+msgstr "Takk! Þú ert skráður fyrir 10 Valvöktunar tölvupóstum. Þeir verða sendir á tölvupóstinn í skráningu þinni.Thanks!  You are registered to receive 10 MatchAlert emails.  They will be sent to the email address(s) in your listing."
+
+# --- English text = Sleeping Accommodations
+msgid "settings.accommodations_headline"
+msgstr "Svefnpláss"
+
+# --- English text = Exchange Family
+msgid "settings.exchange_family"
+msgstr "Fjölskyldan sem skipt er við"
+
+# --- Button Text
+# --- English text = Send 10 more emails
+msgid "send_another_round"
+msgstr "Sendið 10 tölvupósta í viðbót"
+
+# --- English text = <strong>Stop!</strong> Set the frequency to \"never\" to stop the delivery of these Match Alert! Emails.
+msgid "stop_the_mails"
+msgstr "<strong>hættið!</strong> skráið hve oft \"aldrei\" til að stöðva netpóst sendingar um valvöktun."
+
+# --- English text = The number of Match Alert emails left is set out below. To begin another round please check the frequency, settings and destinations and click the button below that says: Send 10 more emails.
+# --- Text change/clarification requested by B. Hayes (Aug, 2010)
+msgid "stopped_start_again"
+msgstr "Valvöktun hefur hætt tölvupóstsendingum. Ef óskað er eftir fleiri sendingum, athugið  tímasetningar, uppfærið og geymið uppsetninguna. Smellið síðan á hnappinn hér neðar."
+
+# --- English text = Listing Types
+# --- This is hidden text
+msgid "content.listing_types"
+msgstr "Tegund skráninga"
+
+# Frequency
+# --- English text = once a week
+msgid "mail_settings.weekly"
+msgstr "einu sinni í viku"
+
+# Frequency
+# --- English text = every other week
+msgid "mail_settings.bi-weekly"
+msgstr "aðra hverja viku"
+
+# Frequency
+# --- English text = once a month
+msgid "mail_settings.monthly"
+msgstr "einu sinni í mánuði"
+
+# Frequency
+# --- English text = never
+msgid "mail_settings.never"
+msgstr "aldrei"
+
+# --- English text = My Match Alert Status
+msgid "my_status"
+msgstr "Staða á valvöktun minni"
+

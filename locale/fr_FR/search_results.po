@@ -1,0 +1,128 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 20:27+0100\n"
+"PO-Revision-Date: 2011-10-12 13:11+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Sorry we could not find any listings to match your search criteria.
+msgid "errors.no_listings_found"
+msgstr "Désolés, la recherche ne peut aboutir selon vos critères de sélection."
+
+# --- English text = Your Search Results
+msgid "headline"
+msgstr "Résultats de votre recherche"
+
+# --- English text = Next
+msgid "next"
+msgstr "Page suivante"
+
+# --- English text = Previous
+msgid "previous"
+msgstr "Page précédente"
+
+# --- English text = entries per page
+msgid "entries_per_page"
+msgstr "Offres par page"
+
+# --- English text = This listing belongs to a new member.
+# --- Mouseover text is hidden text
+msgid "icons.new_listing"
+msgstr "Nouvelle offre"
+
+# --- English text = This member has changed their listing recently.
+# --- Mouseover text is hidden text
+msgid "icons.changed_listing"
+msgstr "Offre récemment modifiée"
+
+# --- English text  = This member requests no smoking exchanges
+msgid "icons.no_smoking"
+msgstr "Ce membre souhaite échanger avec des non-fumeurs."
+
+# --- English text = Car exchange is offered
+msgid "icons.car_exchange"
+msgstr "L'échange de voiture est proposé."
+
+# --- English text = We have a computer available for your use.
+msgid "icons.computer_available"
+msgstr "Nous mettons à votre disposition l'usage d'un ordinateur."
+
+# --- English text = Internet use is free.
+msgid "icons.free_internet"
+msgstr "Accès Internet gratuit"
+
+# --- English text = This member is actively looking for an exchange partner.
+# --- Mouseover text is hidden text
+msgid "icons.green_light"
+msgstr "Feu vert : ce membre recherche un échange actuellement"
+
+# --- English text = This member is not currently looking for an exchange partner.
+# --- Mouseover text is hidden text
+msgid "icons.red_light"
+msgstr "Feu rouge : ce membre ne recherche pas d'échange actuellement"
+
+# --- English text = Photo for listing
+# --- Mouseover text is hidden text
+msgid "photo_for"
+msgstr "Photo de l'offre"
+
+# --- English text = Choose the number of listings you would like to see on a page.
+# --- This is hidden text for accessability
+msgid "number_of_listings_select"
+msgstr "Choisissez le nombre d'offres à afficher par page écran"
+
+# --- English text = Below are the listings in our database which match your search criteria. To move to the next page, click on the numbered boxes.
+msgid "intro_text"
+msgstr "Voici la liste des offres répondant à vos critères de recherche. Pour changer de page, cliquez sur les cases numérotées"
+
+# --- English text = You have looked at this listing recently.
+msgid "You have looked at this listing recently."
+msgstr "Vous avez déjà consulté cette offre"
+
+# --- English text = Listings with this mark beside them are ones you have visited recently.
+msgid "recently_visited"
+msgstr "Les offres que vous consultez sont marquées de cet icône"
+
+# --- English text = Africa
+msgid "collected.africa"
+msgstr "Afrique"
+
+# --- English text = Asia
+msgid "collected.asia"
+msgstr "Asie"
+
+# --- English text = South America
+msgid "collected.south_america"
+msgstr "Amérique du Sud"
+
+# --- English text = South Pacific Islands
+msgid "collected.south_pacific_islands"
+msgstr "Pacifique Sud"
+
+# --- English text = Reverse Search Results
+msgid "reverse_search.headline"
+msgstr "Résultats de votre recherche inversée"
+
+# --- English text = LTo discover the name of a listing country place your mouse pointer over the member id.
+msgid "find_country_name"
+msgstr "Placez votre souris sur le n° de l'offre pour connaître le pays"
+
+# --- English text = Available
+# (June 2011) - Used on the search returns in public area as subheadline.
+msgid "available"
+msgstr "Available"
+
+# --- English text = Last Minute Exchanges
+# --- Location =
+# (June, 2011)
+msgid "hotlist_tab.page.headline"
+msgstr "Offres de dernière minute"
+

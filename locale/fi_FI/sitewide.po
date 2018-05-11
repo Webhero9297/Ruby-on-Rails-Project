@@ -1,0 +1,427 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-12-18 16:00+0200\n"
+"PO-Revision-Date: 2012-04-03 08:01+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# House types
+# --- English text = 1-story house
+msgid "house_types.A"
+msgstr "1-kerroksinen talo"
+
+# House types
+# --- English text = House
+msgid "house_types.B"
+msgstr "Talo"
+
+# House types
+# --- English text = Flat
+msgid "house_types.C"
+msgstr "Huoneisto"
+
+# House types
+# --- English text = Mobile Home: Caravan
+msgid "house_types.CA"
+msgstr "Asuntovaunu tai -auto"
+
+# House types
+# --- English text = Holiday Home
+msgid "house_types.D"
+msgstr "Loma-asunto"
+
+# --- English text = Email
+msgid "labels.email"
+msgstr "Sähköposti"
+
+# --- English text = Click here for help
+msgid "click_here_for_help"
+msgstr "Klikkaa tästä saadaksesi apua"
+
+# --- English text = Click for information
+msgid "click_for_information"
+msgstr "Klikkaa lisätietoihin"
+
+# --- English text = -- Please select one --
+msgid "select_one"
+msgstr "-- Valitse yksi, ole hyvä --"
+
+# --- English text = -- Select from left --
+msgid "select_left"
+msgstr "-- Valitse vasemmalta --"
+
+# --- English text = No photo available
+msgid "no_photo"
+msgstr "Ei valokuvaa saatavilla"
+
+# Environment
+# --- English text = In the country
+msgid "environment.r"
+msgstr "Maaseudulla"
+
+# Envrionment
+# --- English text = In the suburbs
+msgid "environment.s"
+msgstr "Lähiössä"
+
+# Environment
+# --- English text = In the city
+msgid "environment.u"
+msgstr "Keskustassa"
+
+# Environment
+# --- English text = In a small town
+msgid "environment.st"
+msgstr "Pikkukaupungissa"
+
+# Environment
+# --- English text = In the mountains
+msgid "environment.mn"
+msgstr "Vuoristossa"
+
+# Environment
+# --- English text = At the seaside
+msgid "environment.ss"
+msgstr "Rannikolla"
+
+# --- English text = Baby
+msgid "baby"
+msgstr "Vauva"
+
+# --- English text = User has been updated
+msgid "users.user_updated"
+msgstr "Käyttäjätiedot on päivitetty"
+
+# --- English text = Sorry, the owners of listing number {{expr}} do not have an active membership with Intervac at this time.
+# --- IMPORTANT : the phrase "{{expr}}" will be replaced dynamically with the member number that was searched.
+msgid "users.not_active"
+msgstr "Tällä numerolla olevan ilmoituksen {{expr}} jäsenyys Intervacissa ei ole aktiivinen kyseisenä aikana. "
+
+# --- English text = Sorry, {{member_number}} does not belong to you.
+# --- IMPORTANT : Please do not translate the phrase "{{member_number}}" it will be replaced dynamically.
+msgid "users.not_your_member_id"
+msgstr "Anteeksi, mutta {{member_number}} ei ole sinun jäsennumerosi."
+
+# --- English text = Sorry, we could not find any member for {{expr}}
+msgid "users.no_member_match"
+msgstr "Emme löytäneet jäsentä tunnuksella {expr}"
+
+# --- English text = Photo for listing
+msgid "photo_for_listing"
+msgstr "Ilmoituksen valokuva"
+
+# Direction
+# --- English text = North
+msgid "directions.N"
+msgstr "pohjoiseen"
+
+# Direction
+# --- English text = North-East
+msgid "directions.NE"
+msgstr "koilliseen"
+
+# Direction
+# --- English text = East
+msgid "directions.E"
+msgstr "itään"
+
+# Direction
+# --- English text = South-East
+msgid "directions.SE"
+msgstr "kaakkoon"
+
+# Direction
+# --- English text = South
+msgid "directions.S"
+msgstr "etelään"
+
+# Direction
+# --- English text = South-West
+msgid "directions.SW"
+msgstr "lounaaseen"
+
+# Direction
+# --- English text = West
+msgid "directions.W"
+msgstr "länteen"
+
+# Direction
+# --- English text = North-West
+msgid "directions.NW"
+msgstr "luoteeseen"
+
+# Lengthofstay
+# --- English text = day(s)
+msgid "timing.dy"
+msgstr "päivää"
+
+# --- English text = month
+msgid "timing.mo"
+msgstr "kuukautta"
+
+# --- English text = week(s)
+msgid "timing.we"
+msgstr "viikkoa"
+
+# Timecomment
+# --- English text = Easter time
+msgid "timing.ET"
+msgstr "pääsiäisen aikaan"
+
+# Timecomment
+# --- English text = Christmas time
+msgid "timing.CT"
+msgstr "joulun aikaan"
+
+# Timecomment
+# --- English text = School holidays
+msgid "timing.SH"
+msgstr "koululomien aikaan"
+
+# Timecomment
+# --- English text = The period is flexible
+msgid "timing.x"
+msgstr "ajankohdassa joustetaan"
+
+# --- English text = Offer is available
+msgid "offer_available"
+msgstr "Tarjous on voimassa"
+
+# --- English text = available
+# (June 2011) - Used on the summary/edit listing page in the member's area as part of a sentence.
+msgid "available"
+msgstr "saatavilla"
+
+# --- English text = Offer is not available
+msgid "offer_not_available"
+msgstr "Tarjous ei ole voimassa"
+
+# --- English text = not available
+msgid "not_available"
+msgstr "ei saatavilla"
+
+# --- English text = click here
+msgid "click_here"
+msgstr "klikkaa tästä"
+
+# --- English text = Mr.
+msgid "greeting.mr"
+msgstr "Hra"
+
+# --- English text = Mrs.
+# Mrs. => a married woman
+msgid "greeting.mrs"
+msgstr "Rva"
+
+# --- English text = Ms.
+# Ms. => a woman, without marital status (could be married or un-married)
+msgid "greeting.ms"
+msgstr "Ms."
+
+# --- English text = Miss
+# Miss => an un-married (usually young) woman.  Not often used these days.
+msgid "greeting.miss"
+msgstr "Nti"
+
+# --- English text = Close Help
+# --- (button text for all help windows)
+msgid "button.close_help"
+msgstr "Sulje ohje"
+
+# --- English text = System Information
+msgid "system_information.headline"
+msgstr "Järjestelmätiedot"
+
+# --- English text = No rental offers accepted
+msgid "no_rentals_accepted"
+msgstr "Vuokratarjouksia ei hyväksytä"
+
+# --- English text = or
+msgid "or"
+msgstr "tai"
+
+# --- English text = and
+msgid "and"
+msgstr "ja"
+
+# --- English text = Date
+# --- This is used  when displaying a date that needs to be labeled, for instance a message.
+msgid "date"
+msgstr "Päiväys"
+
+# --- English text = View
+msgid "dashboard.view_link"
+msgstr "Katso"
+
+# --- English text = Country
+msgid "country"
+msgstr "Maa"
+
+# --- English text = Countries
+# --- (June 2009) This label is hidden text
+msgid "countries"
+msgstr "Maat"
+
+# --- English text = -- Please select a country --
+msgid "select_country"
+msgstr "-- Valitse maa --"
+
+# --- English text = Add Country
+msgid "add_country_button"
+msgstr "Lisää maa"
+
+# --- English text = Region
+msgid "region"
+msgstr "Alue"
+
+# --- English text = -- Please select region --
+msgid "select_region"
+msgstr "-- Valitse alue --"
+
+# --- English text = Add Region
+msgid "add_region_button"
+msgstr "Lisää alue"
+
+# --- English text = Nearest City
+msgid "nearest_city"
+msgstr "Lähin kaupunki"
+
+# --- English text = -- Please select a city --
+msgid "select_city"
+msgstr "-- Valitse kaupunki --"
+
+# --- English text = Add City
+msgid "add_city_button"
+msgstr "Lisää kaupunki"
+
+# --- English text = Sorry, we were unable to find any active members in our database to match your search request.
+msgid "users.no_match"
+msgstr "Valitsemallasi hakuehdolla ei löydy vastaavia jäseniä."
+
+# --- English text = Year
+msgid "year"
+msgstr "Vuosi"
+
+# --- English text = This member has 11+ documented exchanges.
+msgid "rating.platinum"
+msgstr "Tällä jäsenelle on 11+ dokumentoitua vaihtoa."
+
+# --- English text = This member has 6-10 documented exchanges.
+msgid "rating.gold"
+msgstr "Tällä jäsenellä on 6-10 dokumentoitua vaihtoa."
+
+# --- English text = This member has 3-5 documented exchanges.
+msgid "rating.silver"
+msgstr "Tällä jäsenellä on 3-5 dokumentoitua vaihtoa."
+
+# --- English text = This member has 1-2 documented exchanges.
+msgid "rating.bronze"
+msgstr "Tällä jäsenellä on 1-2 dokumentoitua vaihtoa."
+
+# --- English text = This member has no documented exchanges.
+msgid "rating.ready"
+msgstr "Tällä jäsenellä ei ole vielä dokumentoituja vaihtoja."
+
+# --- English text = Yes
+msgid "opinion.yes"
+msgstr "Kyllä"
+
+# --- English text = No
+msgid "opinion.no"
+msgstr "Ei"
+
+# --- English text = Undecided
+msgid "opinion.undecided"
+msgstr "Ratkaisematta"
+
+# --- English text = Many mobile devices do not support the use of rich text editors.  To make changes to this area, please use a desktop computer or laptop.
+# --- Location = Only shown to members using a mobile device (ipad, ipod, etc) on Additional Text and Photos page and on Message Templates page.
+msgid "mobile.rich_text_editors_not_supported"
+msgstr "Monet mobiililaitteet eivät tue tekstinkäsittelyohjelmia. Jos haluat tehdä muutoksia tällä alueella, käytä pöytätietokonetta tai kannettavaa tietokonetta."
+
+# --- English text = North America
+msgid "continents.north_america"
+msgstr "Pohjois-Amerikka"
+
+# --- English text = South America
+msgid "continents.south_america"
+msgstr "Etelä-Amerikka"
+
+# --- English text = Asia
+msgid "continents.asia"
+msgstr "Aasia"
+
+# --- English text = Africa
+msgid "continents.africa"
+msgstr "Afrikka"
+
+# --- English text = Oceania
+msgid "continents.oceania"
+msgstr "Oseania"
+
+# --- English text = Europe
+msgid "continents.europe"
+msgstr "Eurooppa"
+
+# --- WEB FEEDBACK ---
+# --- English Text = Web feedback form
+# --- Location => Footer and visitors info pages
+# (June 2011)
+msgid "feedback.link_text"
+msgstr "Verkkopalaute"
+
+# --- English Text = We want to hear from you!
+# --- Location => visitors info pages
+# (June 2011)
+msgid "feedback.headline"
+msgstr "Haluamme kuulla sinusta!"
+
+# --- English Text = Fill out our web feedback form
+# --- Location => Footer and visitors info pages
+# => link titles are mouseover text
+# (June 2011)
+msgid "feedback.link_title"
+msgstr "Täytä palautelomakkeemme verkossa"
+
+# --- English text = {{number}} Day Trial Account
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (Last updated: November, 2011)
+msgid "trial_account.headline"
+msgstr "{{number}} Päivän Koejäsenyys"
+
+# --- English text = Sign up
+# (New - November, 2011)
+msgid "application_button.sign_up"
+msgstr "Liity"
+
+# --- English text = Expires after {{number}} days
+# (New - November, 2011)
+msgid "trial_membership.fine_print"
+msgstr "Päättyy {{number}} päivän kuluttua"
+
+# --- English text = Renew your membership
+# --- Location =
+# (New: October, 2011)
+msgid "renew_box.headline"
+msgstr "Uudista jäsenyytesi"
+
+# --- English text = <link>Click here to choose your membership options.</link>
+# --- IMPORTANT:  Do not remove or translate <link> and </link>.  The system will automatically turn the text in between these tags into a link to the "Choose Membership Options" page of the payment process.
+# --- (December 2011 - New Text)
+msgid "trial_membership.link_to_membership_options"
+msgstr "<link>Klikkaa tästä jäsenyysvaihtoehtoihin.</link>"
+
+# --- English text = Delete
+# --- Location = 
+# (New: November, 2011)
+#, fuzzy
+msgid "command.delete"
+msgstr "Delete"

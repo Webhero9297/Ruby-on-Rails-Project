@@ -1,0 +1,593 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-06 14:35+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Become a Member
+msgid "page1.headline"
+msgstr "Bli medlem"
+
+# --- English text = Now, joining Intervac is easier than ever!  We offer a free trial membership for {{number}} days.  Sign up (no credit card required) and set up your listing.  Take some time and have a look around our online facilities.  We are improving them all the time.  If you're not satisfied that Intervac, <italic>the original home exchangers</italic> is the right service for you, no problem.  After {{number}} days your membership will expire. 
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June 2011 - New)
+msgid "page1.intro_text"
+msgstr "Att gå med i Intervac är enklare än någonsin! Vi erbjuder en gratis testperiod medlemskap för {{number}} dagar. Registrera dig (inget kreditkort behövs) och lägg upp dina uppgifter. Ta lite tid och ta en titt runt vår online-system. Vi förbättrar det hela tiden. Ge oss gärna feedback  Efter {{number}} dagar ditt medlemskap löper ut, men du kan när som helga in och betala som aktiv medlem."
+
+# --- English text = <strong>Step #1:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_1"
+msgstr "<strong>Steg #1:</strong> "
+
+# --- English text = Create your membership
+# (June 2011) Not In Use
+msgid "-x- page1.step_1_text"
+msgstr "Skapa en medlemsprofil"
+
+# --- English text = <strong>Step #2:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_2"
+msgstr "<strong>Steg #2:</strong> "
+
+# --- English text = Make your payment
+# (June 2011) Not In Use
+msgid "page1.step_2_text"
+msgstr "Betala medlemskapet"
+
+# --- English text = <strong>Step #3:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_3"
+msgstr "<strong>Steg #3:</strong> "
+
+# --- English text = Build your listing
+# (September 2011)
+msgid "last_step.breadcrumbs"
+msgstr "Komplettera er profil för publicering"
+
+# --- English text = Your Country of Residence
+msgid "page1.country_headline"
+msgstr "Mitt hemland är "
+
+# --- English text = Select the country where you live
+msgid "page1.select_country_text"
+msgstr "Välj det land där ni bor"
+
+# --- English text = To renew your expired membership, please <link>login here</link> and click the <italic>Renew Now</italic> button at the top of the page.
+# (June, 2011 - New)
+msgid "page1.how_to_renew"
+msgstr "För att förnya ett utgånget medlemskap, vänligen <link> logga in här </ link> och klicka på <italic> Förnya nu </italic> längst upp på sidan."
+
+# --- English text = Annual Membership
+# --- (Sept 2009) Edited to read: Membership Prices
+msgid "page1.prices_headline"
+msgstr "Årligt medlemskap"
+
+# --- English text = Your membership details
+# --- (May 2009) EDITED - Please change to read : Your Contact Information
+msgid "page1.contact_information_headline"
+msgstr "Era medlemsdetaljer"
+
+# --- English text = First Name <required>*</required>
+msgid "page1.first_name"
+msgstr "Förnamn <required>*</required>"
+
+# --- English text = Last Name <required>*</required>
+msgid "page1.last_name"
+msgstr "Efternamn <required>*</required>"
+
+# --- English text = Email Address <required>*</required>
+msgid "page1.email"
+msgstr "Epost adress"
+
+# --- English text = Login and Password
+# (June, 2011 - New)
+msgid "page1.login_and_password"
+msgstr "Login och lösenord <required>*</required>"
+
+# --- English text = Choose Login <required>*</required>
+msgid "page1.choose_login"
+msgstr "Välj login namn <required>*</required>"
+
+# --- English text = Choose Password <required>*</required>
+msgid "page1.choose_password"
+msgstr "Välj lösenord <required>*</required>"
+
+# --- English text = Confirm Password <required>*</required>
+msgid "page1.confirm_password"
+msgstr "Bekr lösenord <required>*</required>"
+
+# --- English text = I agree to the Intervac {TERMS_AND_CONDITIONS} and {PRIVACY_POLICY}
+msgid "page1.agree_terms_privacy"
+msgstr "Jag bekr att jag accepterar Intervac:s {TERMS_AND_CONDITIONS} och {PRIVACY_POLICY}"
+
+# --- English text = Proceed to Payment
+# (June, 2011 - New)
+msgid "page1.proceed_to_payment_button"
+msgstr "Gå vidare till betalning"
+
+# --- English text = Continue
+# (June, 2011 - New)
+msgid "page1.continue_button"
+msgstr "Gå vidare"
+
+# --- English text = Try Intervac {{number}} Days Free
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+msgid "page1.trial_offer_button"
+msgstr "Fritt prov-medlemskap {{number}} dagar"
+
+# --- English text = No country selected
+msgid "page1.default_no_country_selected"
+msgstr "Inget land är valt"
+
+# --- English text = Please agree to Intervac Terms and Conditions and Privacy Policy
+msgid "page1.errors.agree_to_conditions"
+msgstr "Vänligen godkänn Intervac:s medlemsvillkor och Sekretesspolicy"
+
+# --- English text = That email address is already in use in our database.  Please login to renew your membership.
+# --- (May 2009) Edited => Removed the suggestion to use another email address.
+msgid "page1.errors.email_taken"
+msgstr "Denna Epost adress finns redan i vår databas. Antingen logga in för att förnya ert medlemskap, eller välj en annan Epost adress"
+
+# --- English text = Sorry, your chosen login is already in use.  Please choose another one.
+msgid "page1.errors.login_taken"
+msgstr "Tyvärr, detta användarnamn är upptaget. Välj ett annant."
+
+# --- English text = Login and password cannot be blank.
+msgid "page1.errors.username_password_cannot_be_blank"
+msgstr "Användarnamn och lösenord kan inte vara blankt"
+
+# --- English text = Choose Your Membership Options
+msgid "page2.headline"
+msgstr "Välj medlemsalternativ"
+
+# --- English text = Welcome back to Intervac, {{member_name}}. Thank you for renewing your membership {{membership_number}}.  (If this is not your name, or this is not the member id for the property you wish to renew, please contact your local agent who will be able to help you further.)
+# --- IMPORTANT:  Do not translate  {{member_name}} or {{membership_number} = These will be replaced automatically with the correct information.
+msgid "page2.renewal_welcome_text"
+msgstr "Välkommen åter som medlem i INTERVAC, {{member_name}}. Tack för att ni förnyat ert medlemskap {{membership_number}}."
+
+# --- English text = If this is not your name, or member id, please contact your local agent who will be able to help you further.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will  be linked automatically.
+msgid "page2.renewal_not_you"
+msgstr ""
+
+# --- English text = Hello, {{member_name}}.  You already have an active membership with Intervac, but you have not finished filling in the details of your listing. Please <link>log-in here</link> and follow the link to Change you Listing.  After you have done this and saved, your listing will be visible to all our members and you will be able to begin your search for a home exchange in earnest.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will  be linked automatically.
+# --- IMPORTANT:  Do not translate the placeholder {{member_name}}.  The system will replace this with the member's name.
+msgid "page2.renewal_not_for_active_invisible"
+msgstr "Hej, {{member_name}}. Du har redan ett aktivt medlemskap i Intervac, men du har inte fyllt i alla uppgifter i din medlemsprofil. Vänligen <link> logga in här </ link> och följ länken till uppdatering av din auppgifter. När du har gjort detta och sparat, kommer din annons ska synas för alla våra medlemmar och du kommer att kunna börja din sökning för ett finna ett byte på allvar."
+
+# --- English text = Hello, {{member_name}}.  You already have an active membership with Intervac which expires on {{expiration_date}}.  Please <link>click here</link> to continue and renew your listing for another year.  Or you can <link>login</link> here if you did not intend to renew.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will be linked automatically.
+# --- IMPORTANT:  Do not translate the placeholder {{member_name}}, or {{expiration_date}}.  The system will replace this with the member's name, and the date his currently active membership will expire.
+msgid "page2.renewal_active_invisible"
+msgstr "Hej, {{member_name}}. Du har redan ett aktivt medlemskap i Intervac som löper ut {{expiration_date}}. Vänligen <link> klicka här </ link> för att fortsätta och förnya dit medemskap  för ytterligare ett år, eller så kan du <link> logga in </ link> här om du föredrar att vänta med att förnya. Trettio dagar innan utgångsdatum ser du en länk till förnyelse på din medlemssida."
+
+# --- English text = Membership Options
+msgid "page2.membership_options_headline"
+msgstr "Medlemsalternativ"
+
+# --- English text = Additional Services
+msgid "page2.additional_services_headline"
+msgstr "Andra medlemsalternativ"
+
+# --- English text = Total
+msgid "page2.total"
+msgstr "Totalt"
+
+# --- English text = Payment Options and Confirmation
+# --- (May 2009) EDITED Change to read : Continue to Payment
+msgid "page2.button_text"
+msgstr "Fortsätt betalning"
+
+# --- English text = Confirm your order
+msgid "page2.breadcrumbs"
+msgstr "Välj medlemsalternativ"
+
+# --- English text = Enter promotion code if available
+msgid "page2.promotion_code"
+msgstr "Har du en kampanjkod ange du den härt"
+
+# --- English text = Confirm your order
+msgid "page3.breadcrumbs"
+msgstr "Välj sätt att betala"
+
+# --- English text = Order Confirmation and Payment Options
+msgid "page3.headline"
+msgstr "Orderbekräftelse och betalningsalternativ"
+
+# --- English text = Order Summary
+msgid "page3.summary_headline"
+msgstr "Order summa"
+
+# --- English text = Description
+msgid "page3.description"
+msgstr "Beskrivning"
+
+# --- English text = Price
+msgid "page3.price"
+msgstr "Pris"
+
+# --- English text = Promotional discount
+#, fuzzy
+msgid "page3.promotion_discount"
+msgstr "Promotional discount"
+
+# --- English text = Total
+msgid "page3.total"
+msgstr "Totalt"
+
+# --- English text = Change your membership options
+msgid "page3.change_options"
+msgstr "Ändra på medlemsalternativ"
+
+# --- English text = Payment Options
+msgid "page3.payment_options.headline"
+msgstr "Betalningsalternativ"
+
+# --- Text for countries with local payment pages only.
+# --- English text = Your account has been created and your order has been stored in the Intervac International database.  Your listing is inactive and invisible to other members.  As soon as your local organiser has received your payment your listing will be activated.  You must also log-in and finish filling out your travel details before your offer can be viewed by other members.
+msgid "page3.payment_options.no_cc_important"
+msgstr "Er medlemsprofil är nu skapad och Era uppgifter är sparade i Intervac Internationals databas. Era uppgifter är dock fortfarande inte synlig för andra medlemmar. Så snart Er betalning är mottagen kommer Ert medlemskap att bli aktiverat. Glöm inte att logga in och komplettera era uppgifter med övrig information, tider etc så att Era uppgifter blir synlig för andra medlemmar."
+
+# --- Text for countries with local payment pages only.
+# --- English text = Activation can take up to 48 hours after receipt of payment.  Your organiser will set your membership dates to reflect that actual date of activation so that you receive the full length of your  membership.
+msgid "page3.payment_options.delayed_activation"
+msgstr "Betlar du Online eller väljer att betala med faktura sker aktivierng direkt."
+
+# --- Text for countries with local payment pages only.
+# --- English text = While you are waiting for activation, feel free to log-in to our system (using the login and password you chose on the first page), and finsh filling out your listing details.  You will be ready to begin contacting other members from the first day!
+msgid "page3.payment_options.while_you_wait"
+msgstr "Du kan nu logga in (med hjälp av användarnamn och lösenord du valde på första sidan) och fylla i dina uppgifter detaljer."
+
+# --- English text = Continue
+msgid "page3.payment_options.continue_button"
+msgstr "Fortsätt"
+
+# --- English text = Pay with Credit Card
+# --- Location = Only used by countries who take payments through PayPal
+# (New: November, 2011)
+msgid "page3.payment_options.paypal_headline"
+msgstr "Betala säkert med kreditkort"
+
+# --- English text = The following credit cards are supported. Continue by clicking the \"Continue to payment\" button
+# --- Location = Only used by countries who take payments through PayPal
+# (New: November, 2011)
+msgid "page3.payment_options.paypal_text"
+msgstr "Följande kreditkort accepteras. Fortsätt genom att klicka på knappen"
+
+# --- English text = Continue to payment
+msgid "page3.payment_options.paypal_button"
+msgstr "Betala online"
+
+# --- English text = Pay with credit card
+msgid "page3.payment_options.pay_cc_button"
+msgstr "Betala med kort"
+
+# --- English text = "Use your VISA card"
+msgid "page3.payment_options.visa_alt"
+msgstr "Pay using VISA"
+
+# --- English text = "Use your American Express card"
+msgid "page3.payment_options.amex_alt"
+msgstr "Pay using American Express"
+
+# --- English text = "Use your MasterCard"
+msgid "page3.payment_options.mastercard_alt"
+msgstr "Pay using MasterCard"
+
+# --- English text = Pay by Invoice
+# --- Location: Page 3 of the application process - Headline.  Only shows for Agents who have allowed Payment by Invoice on thier Payment Settings page.
+msgid "page3.pay_by_invoice.headline"
+msgstr "Betala med faktura"
+
+# --- English text = (Immediate Activation)
+# --- Location: Page 3 of the application process - Payment choices.  Only shows for Agents who have allowed Payment by Invoice AND who have checked the Auto-Activation box in the Pay By Invoice section on thier Payment Settings page.
+msgid "page3.pay_by_invoice.immediate_activation"
+msgstr ""
+
+# --- English text = Pay by Invoice
+# --- Location: Page 3 of the application process - This is the button text.  Only shows for Agents who have allowed Payment by Invoice on thier Payment Settings page.
+msgid "page3.pay_by_invoice.button_text"
+msgstr "Betala med faktura"
+
+# --- English text = An error has occurred
+msgid "page3.errors.undefined"
+msgstr "Ett fel har inträffat"
+
+# --- English text = Thank you for choosing Intervac
+msgid "thanks.headline"
+msgstr "Tack för att ni valde Intervac"
+
+# --- English text = If you have paid with a credit card, your listing will be activated and you should receive an automatic email in a few minutes giving you more details about how to proceed.
+msgid "thanks.auto_activation"
+msgstr "Om du har betalat med kreditkort, kommer ditt medlemskap att aktiveras direkt och du bör få en automatisk e-post i ett par minuter vilket ger dig mer information om hur man kan komma vidare.."
+
+# --- English text = Your listing will be activated by your local organizer as soon as your payment has been received. You will receive a separate confirmation email at that time.
+msgid "thanks.organizer_activation"
+msgstr "Ert medlemskap kommer att bli aktiverat så snart Er betalning blivit mottagen. Ni kommer att ta emot ett separat meddelade om detta."
+
+# --- English text = New Members
+msgid "thanks.new_members.headline"
+msgstr "Nya medlemmar"
+
+# --- English text = It is important that you complete your listing as soon as possible. It will not be visible to other members until you have filled in all the necessary information.
+msgid "thanks.new_members.invisible_listing_text"
+msgstr "Det är viktigt att Ni kompletterar Er medlemsprofil så snart som möjligt. Ni är inte synlig för andra medlemmar förrän Ni har fyllt i den nödvändiga informationen."
+
+# --- English text = If you want to get started right away, you can <link>login here</link>
+msgid "thanks.login"
+msgstr "Om du vill komma igång direkt, kan du logga in <link> här </ link>"
+
+# --- English text = We are always curious to to hear how you have found us. Please take a second to let us know. Thank you!
+msgid "thanks.how_did_you_find_intervac"
+msgstr "Vi är alltid nyfikna att höra hur du har hittat oss. Tack på förhand."
+
+# --- English text = How did you hear of us?
+msgid "thanks.how_did_you_find_us_label"
+msgstr "Hur hörde ni om oss första gången"
+
+# --- English text = Login Now
+msgid "payment_accepted_login_button"
+msgstr "Logga in nu"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Payment accepted
+msgid "payment_accepted_headline"
+msgstr "Betalningen mottagen"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Thank you very much. Your payment has been accepted.
+msgid "payment_accepted_text"
+msgstr "Tack. Er betalning har blivit mottagen."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = is a required field
+msgid "page1.errors.required_field"
+msgstr "detta är ett obligatoriskt fält"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Your payment has been declined
+msgid "payment_declined_headline"
+msgstr "Er betalning har blivit avvisad"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = For some reason unknown to us, the credit card authorization has been declined for the credit card you entered.  Please contact your local agent for further assistance.
+#, fuzzy
+msgid "payment_declined_text"
+msgstr "For some reason unknown to us, the credit card authorization has been declined for the credit card you entered.  Please contact your local agent for further assistance."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Credit Card Authorization Incomplete
+#, fuzzy
+msgid "payment_exception_headline"
+msgstr "Credit Card Authorization Incomplete"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = For some reason, the credit card authorization has returned an exception for the credit card you entered.  It could be that the authorizing server is overloaded or down for the moment. Please contact your local agent for further assistance.
+#, fuzzy
+msgid "payment_exception_text"
+msgstr "For some reason, the credit card authorization has returned an exception for the credit card you entered.  It could be that the authorizing server is overloaded or down for the moment. Please contact your local agent for further assistance."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Cancelled Payment
+msgid "payment_cancelled_headline"
+msgstr "Betalning avbruten"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = You have chosen to cancel your credit card payment at this time.
+#, fuzzy
+msgid "payment_cancelled_text"
+msgstr "You have chosen to cancel your credit card payment at this time."
+
+# --- English text = Your National Representative in {{country_name}} is:
+# --- Location =
+# (June, 2011)
+msgid "agent_info.headline"
+msgstr "Er nationella Representant är {{country_name}}:"
+
+# --- English text = Trial Membership
+# --- Location = In the prices box
+# (June, 2011 - New)
+msgid "trial_membership.headline"
+msgstr "Prov medlemskap 14 dagar"
+
+# --- English text = FREE
+# --- Location = Price of trial membership
+# (June, 2011 - New)
+msgid "trial_membership.price"
+msgstr "GRATIS"
+
+# --- English text = {{number}} days full membership privileges
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# --- Location = Description of trial membership
+# (October 2011 - not in use)
+msgid "-x- trial_membership.description"
+msgstr "{{number}} dagar fullt medlemskap."
+
+# --- English text = Save
+# --- Location = Payment Accepted - How did you hear about intervac?
+# (June, 2011 - New)
+msgid "thanks.how_did_you_find_us_button"
+msgstr "Spara"
+
+# --- English text = Thank you for registering a FREE account. Please log-in now and begin building your profile.
+# --- Location =
+# (June, 2011)
+msgid "messages.thanks_free_account"
+msgstr "Tack för att du registrerat ett test konto. Du kan nu logga in nu och börja bygga din profil och ladda upp foton."
+
+# --- English text = Renew membership
+# (New: October, 2011)
+msgid "renew_button.text"
+msgstr "Förnya medlemskap"
+
+# --- English text = Sign up with Intervac - Experience the world
+# (New: October, 2011)
+msgid "plans_and_pricing.headline"
+msgstr "Bli medlem i Intervac - Upplev världen"
+
+# --- English text = Step 1: Select your country
+# (New: October, 2011)
+msgid "plans_and_pricing.step_1"
+msgstr " Steg 1: Välj land"
+
+# --- English text = Step 2: Chose a price plan
+# (New: October, 2011)
+msgid "plans_and_pricing.step_2"
+msgstr "Steg 2: Välj betalningsalternativ"
+
+# --- English text = Full membership
+# (New: October, 2011)
+msgid "full_membership.headline"
+msgstr "Fullt medlemskap"
+
+# --- English text = Billed annually as one payment of
+# --- The annual price for a membership in your country is shown after this text, so the full sentence reads: "Billed annually as one payment of €110."
+# (New: October, 2011)
+msgid "plans_and_pricing.full_membership.fine_print"
+msgstr "Årligen som en betalning"
+
+# --- English text = Fill out your contact details
+# (New: October, 2011)
+msgid "sign_up.contact_details_instruction"
+msgstr "Fyll i dina kontaktuppgifter"
+
+# --- English text = You have chosen the following price plan
+# (New: October, 2011)
+msgid "sign_up.chosen_price_plan.headline"
+msgstr "Du har valt följande medlemsplan"
+
+# --- English text = Your trial membership will be valid for {{number}} days.  To be able to enjoy all the benefits of Intervac you need to pay for your membership. You can do that when ever you like by clicking on the button <em>Become A Full Member</em> at the top of the member homepage.
+# (Edited for correctness: January, 2012)
+#, fuzzy
+msgid "sign_up.trial_membership.fine_print"
+msgstr "Your trial membership will be valid for {{number}} days.  To be able to enjoy all the benefits of Intervac you need to pay for your membership. You can do that when ever you like by clicking on the button <em>Become A Full Member</em> at the top of the member homepage."
+
+# --- English text = The annual fee for using Intervac Home Exchange in your region is {{annual_price}}.
+# (New: November, 2011)
+msgid "sign_up.trial_membership.price_for_full"
+msgstr "Den årliga avgiften för att använda Intervac semsterbyte i ditt land är {{annual_price}}."
+
+# --- English text = What is included in your membership?
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February 2012)
+#, fuzzy
+msgid "price_comparison.text_headline"
+msgstr "What is included in your membership?"
+
+# --- English text = TRIAL {{number}} days
+# --- Location = Price comparison table on the Plans and Pricing page
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (New: February 2012)
+#, fuzzy
+msgid "price_comparison.trial_headline"
+msgstr "TRIAL {{number}} days"
+
+# --- English text = FULL
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.full_headline"
+msgstr "FULL"
+
+# --- English text = Unlimited access to all listings
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.unlimited_access"
+msgstr "Unlimited access to all listings"
+
+# --- English text = Your listing is visible to all members so you can receive proposals
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.visible_listing"
+msgstr "Your listing is visible to all members so you can receive proposals"
+
+# --- English text = Your listing posted with photos and free extra text
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.includes_photos_and_text"
+msgstr "Your listing posted with photos and free extra text"
+
+# --- English text = Access to member contact information
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.access_to_contact_info"
+msgstr "Access to member contact information"
+
+# --- English text = Save your favorite listings
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.save_favorites"
+msgstr "Save your favorite listings"
+
+# --- English text = Receive match alerts when listings meet your wishes
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.receive_match_alerts"
+msgstr "Receive match alerts when listings meet your wishes"
+
+# --- English text = Send proposals to individual/multiple members/recipients
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.able_to_send_proposals"
+msgstr "Send proposals to individual/multiple members/recipients"
+
+# --- English text = Personal assistance and service from your local Intervac representative
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.assistance_from_local_organizer"
+msgstr "Personal assistance and service from your local Intervac representative"
+
+# --- English text = See your personal statistics of the top 5 individual countries whose members have visited your listing, how many times in a day your listing was displayed to other members over the last 21 days.
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.view_listing_statistics"
+msgstr "See your personal statistics of the top 5 individual countries whose members have visited your listing, how many times in a day your listing was displayed to other members over the last 21 days."
+
+# --- English text = Notification about new messages
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.new_message_notification"
+msgstr "Notification about new messages"
+
+# --- English text = Read your messages
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.read_messages"
+msgstr "Read your messages"
+
+# --- English text = Create unlimited exchange agreements
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.create_exchange_agreements"
+msgstr "Create unlimited exchange agreements"
+
+# --- English text = Free newsletter
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+#, fuzzy
+msgid "price_comparison.receive_newsletter"
+msgstr "Free newsletter"
+

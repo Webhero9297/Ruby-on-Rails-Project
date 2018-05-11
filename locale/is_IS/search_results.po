@@ -1,0 +1,128 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 20:27+0100\n"
+"PO-Revision-Date: 2011-10-12 13:11+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Sorry we could not find any listings to match your search criteria.
+msgid "errors.no_listings_found"
+msgstr "Því miður; engin skráning með þeim upplýsingum sem þið leitið að."
+
+# --- English text = Your Search Results
+msgid "headline"
+msgstr "Niðurstöður leitar."
+
+# --- English text = Next
+msgid "next"
+msgstr "Næst"
+
+# --- English text = Previous
+msgid "previous"
+msgstr "Hér á undan"
+
+# --- English text = entries per page
+msgid "entries_per_page"
+msgstr "Skráningar á síðu"
+
+# --- English text = This listing belongs to a new member.
+# --- Mouseover text is hidden text
+msgid "icons.new_listing"
+msgstr "Þessi skráning tilheyrir öðrum."
+
+# --- English text = This member has changed their listing recently.
+# --- Mouseover text is hidden text
+msgid "icons.changed_listing"
+msgstr "Þessi aðili hefur breytt sinni skráningu."
+
+# --- English text  = This member requests no smoking exchanges
+msgid "icons.no_smoking"
+msgstr "Þessi félagsmaður óskar eftir reyklausum heimilaskiptum"
+
+# --- English text = Car exchange is offered
+msgid "icons.car_exchange"
+msgstr "Skipti á bílum  í boði."
+
+# --- English text = We have a computer available for your use.
+msgid "icons.computer_available"
+msgstr "Afnot af tölvu í boði."
+
+# --- English text = Internet use is free.
+msgid "icons.free_internet"
+msgstr "Frí internet notkun"
+
+# --- English text = This member is actively looking for an exchange partner.
+# --- Mouseover text is hidden text
+msgid "icons.green_light"
+msgstr "Þessi er að leita að skiptum."
+
+# --- English text = This member is not currently looking for an exchange partner.
+# --- Mouseover text is hidden text
+msgid "icons.red_light"
+msgstr "Þau eru ekki að leita að skiptum  í bili."
+
+# --- English text = Photo for listing
+# --- Mouseover text is hidden text
+msgid "photo_for"
+msgstr "Mynd fyrir skráninguna"
+
+# --- English text = Choose the number of listings you would like to see on a page.
+# --- This is hidden text for accessability
+msgid "number_of_listings_select"
+msgstr "Veljið hve margar skráningar þið viljið sjá í einu."
+
+# --- English text = Below are the listings in our database which match your search criteria. To move to the next page, click on the numbered boxes.
+msgid "intro_text"
+msgstr "Hér neðar eru skráningar sem innihalda ykkar val. Til að velja síðu eftir síðu, smellið á aðildarnúmerin."
+
+# --- English text = You have looked at this listing recently.
+msgid "You have looked at this listing recently."
+msgstr "Þú skoðaðir þessa skráningu nýlega."
+
+# --- English text = Listings with this mark beside them are ones you have visited recently.
+msgid "recently_visited"
+msgstr "Merktar skráningar sýna skráningar sem þú skoðaðir nýlega."
+
+# --- English text = Africa
+msgid "collected.africa"
+msgstr "Afríka"
+
+# --- English text = Asia
+msgid "collected.asia"
+msgstr "Asía"
+
+# --- English text = South America
+msgid "collected.south_america"
+msgstr "Suður Ameríka"
+
+# --- English text = South Pacific Islands
+msgid "collected.south_pacific_islands"
+msgstr "Suðurhafseyjar"
+
+# --- English text = Reverse Search Results
+msgid "reverse_search.headline"
+msgstr "Niðurstöður leitarinnar"
+
+# --- English text = LTo discover the name of a listing country place your mouse pointer over the member id.
+msgid "find_country_name"
+msgstr "Til þess að sjá aðildarland viðkomandi, smellið á músina yfir aðildarnúmeri meðlimsins."
+
+# --- English text = Available
+# (June 2011) - Used on the search returns in public area as subheadline.
+msgid "available"
+msgstr "Í boði"
+
+# --- English text = Last Minute Exchanges
+# --- Location =
+# (June, 2011)
+msgid "hotlist_tab.page.headline"
+msgstr "Lokaútkall í fríið"
+

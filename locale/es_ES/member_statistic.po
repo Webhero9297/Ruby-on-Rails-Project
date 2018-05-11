@@ -1,0 +1,57 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-01 18:02+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Intervac <po@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member Statistics
+msgid "headline"
+msgstr "Estadísticas de los socios"
+
+# --- English text = Below are two examples of our member statistics.
+msgid "Below are two examples of our member statistics."
+msgstr "Debajo hay dos ejemplos de las estadísticas de nuestros socios."
+
+# --- English text = Below are your personal member statistics.
+msgid "personal_statistics.text"
+msgstr "Debajo tiene sus estadísticas personales."
+
+# --- English text = The first chart shows the top 5 individual countries whose members have visited your listing, the second shows the number of times in a day your listing was displayed to other members over the last 21 days.
+msgid "personal_statistics.explanation"
+msgstr "El primer cuadro muestra los diez países cuyos socios más han visitado su anuncio.  El segundo muestra el número de veces al día que su anuncio ha sido visitado por otros socios durante los últimos 21 días."
+
+# --- English text = Your offer has not been visited yet.
+msgid "no_visits_yet"
+msgstr "Su oferta todavía no ha sido visitada."
+
+# --- English text = Last visitors by country
+msgid "last_visits_by_country"
+msgstr "El país de los últimos visitantes"
+
+# --- English text = Visitors in the last 21 days
+msgid "visits_by_date"
+msgstr "Visitas en los últimos 21 días"
+
+# --- English text = Most Recent Visitors
+msgid "latest_visitors.headline"
+msgstr "Los Últimos Visitantes"
+
+# --- English text = Visitors in the last 21 days - counts each visit to your listing.
+# --- Location = List in the introductory text of the member statistics page
+msgid "visitors_last_x_days.explanation"
+msgstr "Visitantes en los últimos 21 días - cuenta cada visita a su anuncio"
+
+# --- English text = Most recent visitors - these are unique visitors - who may have visited more than once in the last 21 days.
+# --- Location = List in the introductory text of the member statistics page
+msgid "most_recent_visitors.explanation"
+msgstr "Los visitantes más recientes - estos son visitantes únicos - que han podido visitar su anuncio más de una vez en los últimos 21 días."
+

@@ -1,0 +1,70 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-11-03 19:11+0100\n"
+"PO-Revision-Date: 2011-07-11 11:08+0100\n"
+"Last-Translator: Michael Støvelbæk <info@intervac.dk>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thanks for choosing Intervac. We just need you to fill out the information below in order to setup your new Intervac account.
+# --- Location: Introductory text on the Facebook Sign-up page
+msgid "sign_up.introtext"
+msgstr "Tak fordi du valgte Intervac. For at gøre din profil færdig mangler du blot at udfylde oplysningerne herunder."
+
+# --- English text =Accept Terms of Service
+# --- Location:  Facebook sign-up for a new account page
+msgid "sign_up.accept_terms"
+msgstr "Du skal acceptere Terms of Service"
+
+# --- English text = Link current account
+# --- Location: Facebook, create new account or link your intervac w/ your facebook account
+msgid "link_or_create.link_account.headline"
+msgstr "Link til denne profil"
+
+# --- English text = If you already have an Intervac account click the button below to link it with your Facebook account.
+# --- Location: Facebook, create new account or link your intervac w/ your facebook account
+msgid "link_or_create.link_account.introtext"
+msgstr "Hvis du allerede har en Intervac profil skal du klikke herunder for at linke den til din Facebook profil."
+
+# --- English text = Create new account
+# --- Location: Facebook, create new account or link your intervac w/ your facebook account
+msgid "link_or_create.create_new.headline"
+msgstr "Opret en ny medlemsprofil"
+
+# --- English text = If you don't have an Intervac account, click this button to create one using Facebook!
+# --- Location: Facebook, create new account or link your intervac w/ your facebook account
+msgid "link_or_create.create_new.introtext"
+msgstr "Hvis du ikke allerede har en Intervac profil skal du klikke herunder for at oprette en under din Facebook profil."
+
+# --- English text = You have shared a listing on Facebook. Thank you!
+# --- Location: Message shown after a member has shared a listing.
+msgid "share.message.success"
+msgstr "Du har nu delt en profil på Facebook"
+
+# --- English text = You have exceeded your share limit on Facebook. Please try again later.
+# --- Location: Error - shown after a member has shared too many listings in one day.
+msgid "share.error.share_limit_exceeded"
+msgstr "Du har overskredet grænsen for, hvor mange profiler du kan dele på Facebook. Prøv eventuelt senere."
+
+# --- English text = Your Intervac account has been linked with your Facebook account.
+# --- Location: Message shown when a current Intervac account has been successfully linked to the member's facebook account
+msgid "link.message.success"
+msgstr "Din Intervac profil er nu linket med din Facebook profil "
+
+# --- English text = We couldn't set up your new Intervac account. Please make sure you have filled out all details correctly.
+# --- Location:
+msgid "sign_up.error.could_not_setup_account"
+msgstr "Du skal udfylde alle oplysninger korrekt for at din Intervac profil kan oprettes."
+
+# --- English text = We could not log you in, pleaes make sure you entered the correct e-mail and password for your Intervac account
+# --- Location:
+msgid "login.error"
+msgstr "Vær sikker på, at du bruger de rigtige bruger- og adgangskoder."
+

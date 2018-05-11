@@ -1,0 +1,108 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-02 18:17+0100\n"
+"PO-Revision-Date: 2011-11-18 13:40+0100\n"
+"Last-Translator: Angels <intervac@grossi-sas.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thinking About Home Exchange
+# --- Location = Main headline
+# (June 2011)
+msgid "page.headline"
+msgstr "Pensando en el Intercambio de Casa"
+
+# --- English text = So, if you've made it this far you are probably wondering what all you are going to need to think about before you make your first vacation swap.  At the beginning, it's a bunch of things, but once you've got them in place it'll be a lot easier the next time around.  Below we've gathered together a list of suggestions to help you feel secure in your decision.
+# --- Location = Introductory text
+# (June 2011)
+msgid "page.introtext"
+msgstr "Seguramente, si ha llegado hasta aquí posiblemente está pensando en todo lo que tendrá que prever antes de hacer su primer intercambio de casas.  Al principio, hay muchas cosas, pero una vez las ha solucionado será mucho más fácil la próxima vez.  A continuación hay una lista de sugerencias para ayudarle a sentirse seguro en su decisión."
+
+# --- English text = How Do I Find The Perfect Exchange Partner?
+# (June 2011)
+msgid "perfect_partner.headline"
+msgstr "¿Cómo encuentro al Perfecto Compañero de Intercambio?"
+
+# --- English text = First, it's important to know that it takes some initiative to make an exchange happen.  We try to make it as simple as possible though.  Our members contact each other directly using our integrated messaging system to start a dialog that could lead to an exchange.  It is not unusual to make and receive several offers  before you find just the right partner.  Our online system supports many different types of alternative holiday forms.
+# (June 2011)
+msgid "perfect_partner.text"
+msgstr "Primero es importante saber que es necesario tener algo de iniciativa para acordar un intercambio. Intentamos que todo el proceso sea lo más fácil posible. Nuestros socios se contactan unos a otros directamente usando nuestro sistema integrado de e-mails para empezar el \"diálogo\" que puede llevarles a un intercambio.  Suele ser normal recibir y hacer varias ofertas hasta que encuentran al compañero idóneo.   "
+
+# --- English text = How can I be sure that the exchange will be <italic>equal</italic>?
+# (June 2011)
+msgid "equal_exchange.headline"
+msgstr "¿Cómo puedo estar seguro de que el intercambio es  <italic>equitativo</italic>?"
+
+# --- English text = Many exchangers with large homes would be happy to trade for an adequate apartment/condominium in central Paris, London, Rome or San Francisco.  Others are looking for a quiet getaway.  An exchange is "equal" when both parties are satisfied with their arrangements. 
+# (June 2011)
+msgid "equal_exchange.text"
+msgstr "Muchos socios con grandes casas estarán encantados de intercambiar con un apartamento en el centro de Paris, Londres, Roma o San Francisco.  Otros están buscando una zona rural y tranquila.  Un intercambio es \"equitativo\" cuando ambas partes están satisfechas con lo acordado."
+
+# --- English text = Who would ever want to come to my area?
+# (June 2011)
+msgid "visit_my_area.headline"
+msgstr "¿Quién deseará venir a mi zona?"
+
+# --- English text = You'll be surprised!  Take some time writing extra text for your listing and tell potential exchange partners all about your neighborhood, why you love living there, what can they see and do in the region.  Don't forget, your partner will be on holiday and has time to explore.  Everyone lives near something interesting, because "interesting" is often nothing more than the unfamiliar.
+# (June 2011)
+msgid "visit_my_area.text"
+msgstr "¡Se sorprenderá! Tómese el tiempo de escribir texto extra en su anuncio y describa a sus posibles compañeros de intercambio cómo es su zona, su vecindario, porqué vive usted allí, qué podrán ver y hacer en su región.  No olvide que sus compañeros de intercambio estarán de vacaciones y tendrán tiempo de explorar su zona.  Todo el mundo vive cerca de algo interesante, porque muchas veces  \"interesante\" es simplemente lo desconocido."
+
+# --- English text = What about exchanging cars?
+# (June 2011)
+msgid "exchange_cars.headline"
+msgstr "¿Y si intercambiamos coches?"
+
+# --- English text = In many cases an exchange of cars is an important part of the exchange deal, but not always.  It's a good idea to think clearly about whether you are comfortable driving in New York City or London.
+# (June 2011)
+msgid "exchange_cars.text"
+msgstr "Muchas veces el intercambio de coches es una parte importante del acuerdo, pero no siempre.  Es una buena idea pensar si se va a sentir cómodo conduciendo en Nueva York o Londres."
+
+# --- English text = As for insurance, often your car insurance policy will already cover guest drivers. If it doesn't you can supplement your regular policy with additional short-term specific coverage for the length of your exchange. It is important to discuss this with your insurance agent and your exchange partner and agree in advance how to handle the responsibilities and liabilities for the financial aspect.
+# (June 2011)
+msgid "exchange_cars.insurance_text"
+msgstr "En cuanto al seguro, muchas veces el seguro de su coche cubre a otros conductores. Si no lo hace siempre puede pagar una poliza adicional por un período de tiempo específico (la duración de su intercambio).  Es importante que aclaré todo esto con su agente de seguros y su compañero de intercambio y acordar por adelantado cómo acordar las responsabilidades relativas al aspecto financiero."
+
+# --- English text = Speaking of insurance, what about my home insurance?
+# (June 2011)
+msgid "home_insurance.headline"
+msgstr "Hablando de seguro, qué hay sobre el seguro de mi casa?"
+
+# --- English text = Do check with your insurance provider and let them know that you will have guests while you are gone. Most companies will tell you that an unoccupied home is a bigger risk for theft and vandalism than an occupied one and they are happy to know that yours won't be sitting empty while you are away.  Ask if there are any special arrangements you need to make, and don't forget to let your exchange partner know about any insurance requirements for locking doors, activating alarm systems, etc.  This should be included in the information packet about your home that you will leave for them.
+# (June 2011)
+msgid "home_insurance.text"
+msgstr "Contacte su compañía de seguros y dígales que va a tener invitados en casa mientras usted este fuera.  La mayoría de compañías le dirán que una casa desocupada es tiene más peligro de robo o que una casa ocupada.   Pregunte si tiene que hacer algún acuerdo en especial.  Y asegúrese de informar a sus compañeros de intercambio de dejar puertas cerradas, activar alarmas, etc.  Esto debe estar incluido en la información que les dejará en casa."
+
+# --- English text = We have special needs, can we still arrange an exchange?
+# (June 2011)
+msgid "special_needs.headline"
+msgstr "Tenemos necesidades especiales ¿podemos intercambiar?"
+
+# --- English text = Intervac's listing codes cover many preferences related to home exchange.  From <italic>non-smoking</italic>, to <italic>handicapped accessible</italic>, from <italic>pet care</italic> to <italic>private swimming pool</italic>  You can add an unlimited amount of text to your listing.  Go ahead and detail your needs clearly so that the perfect exchange partner (who is searching for you too) can find you.
+# (June 2011)
+msgid "special_needs.text"
+msgstr "Intervac usa unos códigos para que pueda indicar sus preferencias en el anuncio.  Puede indicar desde <italic>no deseo fumadores</italic>, a <italic>adaptado para minusválidos</italic>, desde <italic>cuidar de las mascotas</italic> a <italic>piscina privada</italic>.  Puede añadir todo el texto libre que desee en su anuncio.  Empiece ya y detalle sus necesidades y preferencias claramente para que el compañero de intercambio ideal (el que está justamente buscándole a usted) pueda encontrarle. "
+
+# --- English text = How Do I Get Started?
+# (June 2011)
+msgid "get_started.headline"
+msgstr "¿Por dónde Empiezo?"
+
+# --- English text = It's easy, just fill out our short registration  and pay your membership fee or choose our free trial membership if you are not sure.  It's good for {{number}} days and gives you full access to our site. Then log in and begin building your listing right away. It will not be visible for other members until after you have filled in all the required fields.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (Last updated: November 2011)
+msgid "get_started.text"
+msgstr "Es fácil, simplemente cumplimente nuestro formulario de inscripción y pague o bien elija nuestra inscripción gratuita de {{number}} días si no está seguro.  Entonces entre y empiece a confeccionar su anuncio.  Los otros socios no lo podrán ver hasta que haya cumplimentado todos los campos de nuestro formulario de inscripción."
+
+# --- English text = INTERVAC listings are intended to convey a clear description of your residence, your family, and where and when you would like to travel. Personal preferences such as no smoking or no pets should also be noted in your listing.  So come on! <link>Join us today!</link>
+# (June 2011)
+msgid "get_started.about_listings"
+msgstr "Los anuncios de Intervac están pensados para dar una clara descripción de su casa, su familia, donde y cuando le gustaría viajar.  Preferencias personales tales como no fumar, o no deseamos animales domésticos también puede seleccionarlos. ¡Venga! <link>Apúntese hoy</link>"
+

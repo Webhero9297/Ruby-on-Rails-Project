@@ -1,0 +1,287 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-10-16 19:11+0100\n"
+"PO-Revision-Date: 2011-08-31 11:26+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# English text = Google Map Settings
+msgid "headline"
+msgstr "Δεδομένα για το χάρτη Google Map "
+
+# English text = This marker may not pinpoint the member\'s exact street address.
+msgid "marker_text"
+msgstr "Αυτός ο δείκτης ίσως δεν δείχνει την ακριβή διεύθυνση μέλους."
+
+# --- English text = Disable the Google Map for my listing
+msgid "disable_map"
+msgstr "Μή δείχνετε χάρτη στην καταχώρισή μου"
+
+# --- English text = Change Marker Placement
+msgid "change_placement_headline"
+msgstr "Αλλαγή θέσης δείκτη"
+
+# English text = If the marker on the map in your listing is wrong you can correct it on this page.  Whether you are offering your second home for exchange, or want a more precise placement through the use of latitude and longitude please select your choice below.
+msgid "change_placement_text"
+msgstr "Αν ο δείκτης στο χάρτη της καταχώρισής σας είναι λάθος, μπορείτε να το διορθώσετε στη σελίδα αυτή. Αν προσφέρετε δεύτερο σπίτι για ανταλλαγή ή θέλετε ακριβέστερη κατάδειξη με τη χρήση γεωγραφικού πλάτους και μήκους, παρακαλούμε κάντε την επιλογή σας κατωτέρω."
+
+# --- English text = Google will place the marker on your map using the following priority list
+msgid "marker_priority_text"
+msgstr "Η Google θα τοποθετήσει το δείκτη στο χάρτη σας χρησιμοποιώντας την ακόλουθη λίστα προτεραιότητας"
+
+# English text = Latitude &amp; Longitude (gps coordinates)
+msgid "li_latitude_longitude"
+msgstr "Γεωργαφικό πλάτος &amp; μήκος (συντεταγμένες gps)"
+
+# English text = Second home address
+msgid "li_second_home"
+msgstr "Διεύθυνση δεύτερου σπιτιού"
+
+# English text = Contact address in your listing
+msgid "li_contact_address"
+msgstr "Διεύθυνση σπιτιού στην καταχώρισή σας"
+
+# English text = What would you like to do?
+msgid "what_next.headline"
+msgstr "Τι θα θέλατε να κάνετε;"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude"
+msgstr "Εισαγωγή γεωγραφικού πλάτους και μήκους του σπιτιού μου"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude_title"
+msgstr "Δώστε το γεωγραφικό πλάτος και μήκος του σπιτιού μου"
+
+# English text = Latitude &amp; Longitude
+msgid "latitude_longitude.headline"
+msgstr "Γεωγραφικό πλάτος &amp; Γεωγραφικό μήκος"
+
+# --- English text = If you already know the latitude and longitude of your home or neighborhood, you can enter them below.  If you need help in finding the correct coordinates for your location, click on the help icon.
+msgid "latitude_longitude.intro_text"
+msgstr "Αν ήδη ξέρετε το γεωγραφικό πλάτος και μήκος του σπιτιού ή της γειτονιάς σας, μπορείτε να τα εισάγετε κατωτέρω. Αν χρειάζεστε βοήθεια να βρείτε τις σωστές συντεταγμένες για την τοποθεσία σας, παρακαλούμε επιλέξτε το εικονίδιο βοήθειας."
+
+# --- (Dec 2008) English text = Link opens in a new window
+msgid "link_opens_new_window"
+msgstr "Ο σύνδεσμος ανοίγει σε νέο παράθυρο"
+
+# --- English text = How to Find the Latitude &amp; Longitude of Your Home
+msgid "latitude_longitude.how_to_headline"
+msgstr "Πώς να βρείτε το γεωγραφικό πλάτος &amp; μήκος του σπιτιού σας"
+
+# English text = For an exact position of the google maps marker, you can enter the gps coordinates (latitude, longitude) of your home below.
+msgid "latitude_longitude.how_to_text_1"
+msgstr "Για ακριβή τοποθέτηση του δείκτη του χάρτη google maps, μπορείτε να εισάγετε τις συντεταγμένες gps (γεωγραφικό πλάτος και μήκος) του σπιτιού σας παρακάτω."
+
+# English text = You can get these coordinates from a hand-held GPS unit, or you might try the navigation system in your car.  There are also a number of free tools on the internet whereby you can find the latitude and longitude (GPS Co-ordinates) of your home. The best of them are
+msgid "latitude_longitude.how_to_text_2"
+msgstr "Μπορείτε να βρείτε τις συντεταγμένες αυτές από φορητή μονάδα GPS, ή από το σύστημα πλοήγησης του αυτοκινήτου σας. Υπάρχουν επίσης αρκετά δωρεάν εργαλεία στο διαδίκτυο για να βρείτε το γεωγραφικό πλάτος και μήκος (συντεταγμένες GPS) του σπιτιού σας. Ορισμένα από αυτά είναι"
+
+# English text = One Step Address Conversion
+msgid "latitude_longitude.onestep.headline"
+msgstr "One Step Address Conversion (Μετατροπή Διευθύνσεως με ένα βήμα)"
+
+# English text = Go To: One Step Address Conversion
+msgid "latitude_longitude.onestep.link"
+msgstr "Πηγαίνετε στο: Μετατροπή Διεύθυνσης σε ένα βήμα (One Step Address Conversion)"
+
+# English text = Click here for instructions on how to use the One Step Address Conversion utility.
+msgid "latitude_longitude.onestep.help"
+msgstr "Επιλέξτε εδώ για οδηγίες πώς να χρησιμοποιείτε τη λειτουργία Μετατροπής Διεύθυνσης σε ένα βήμα."
+
+# English text = Infosports
+msgid "latitude_longitude.infosports.headline"
+msgstr "Infosports"
+
+# English text = Go To: Infosports
+msgid "latitude_longitude.infosports.link"
+msgstr "Πηγαίνετε στο: Infosports"
+
+# English text = GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.headline"
+msgstr "GPS Visualizer (απεικονιστής GPS)"
+
+# English text = Go To: GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.link"
+msgstr "Πηγαίνετε στον: Απεικονιστή GPS (Visualizer)"
+
+# English text = It is not necessary to be too precise and remember that the map is visible to visitors as well as members.
+msgid "latitude_longitude.precision"
+msgstr "Δεν είναι ανάγκη να είστε πολύ ακριβείς και να θυμάστε ότι ο χάρτης είναι ορατός σε επισκέπτες και μέλη."
+
+# English text = Latitude
+msgid "latitude_longitude.latitude"
+msgstr "Γεωγραφικό Πλάτος"
+
+# English text = Longitude
+msgid "latitude_longitude.longitude"
+msgstr "Γεωγραφικό Μήκος"
+
+# -- ERROR TEXT --
+# English text = Please enter both latitude and longitude as decimal values (39.002844), and not degrees (39° 0’ 10.8 ).
+msgid "errors.decimal_values_only"
+msgstr "Παρακαλούμε εισάγετε και το γεωγραφικό πλάτος και μήκος ως δεκαδικές αξίες (39.002844), και όχι ως μοίρες (39° 0’ 10.8 )."
+
+# -- ERROR TEXT --
+# English text = Sorry, both latitude and longitude must be set for this feature to work properly!
+msgid "errors.require_lat_and_long"
+msgstr "Συγγνώμη τόσο το γεωγραφικό πλάτος όσο και το γεωγραφικό μήκος πρέπει να εισαχθούν για να λειτουργεί σωστά αυτή η δυνατότητα!"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home"
+msgstr "Εισαγωγή της διεύθυνσης του σπιτιού που προσφέρω για ανταλλαγή"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home_title"
+msgstr "Εισαγωγή της διεύθυνσης σπιτιού που προσφέρω για ανταλλαγή"
+
+# English text = Exchange Home Address
+msgid "second_home.headline"
+msgstr "Διεύθυνσης του σπιτιού ανταλλαγής"
+
+# English text = If the home you are offering for exchange is your second or holiday home, enter the address here. The map in your listing will use this address (if there is one) to place the marker before it uses your contact address.
+msgid "second_home.intro_text"
+msgstr "Αν το σπίτι που προσφέρετε για ανταλλαγή είναι το δεύτερο ή το εξοχικό σας σπίτι, βάλτε εδώ τη διεύθυνση. Ο χάρτης στην καταχώρισή σας θα χρησιμοποιήσει αυτή τη διεύθυνση (αν υπάρχει) για να τοποθετήσει το δείκτη πριν χρησιμοποιήσει τη δειύθυνση επικοινωνίας σας."
+
+# English text = Street
+msgid "second_home.street"
+msgstr "Οδός"
+
+# English text = Postal
+msgid "second_home.postal"
+msgstr "Ταχυδρομικός"
+
+# English text = City
+msgid "second_home.city"
+msgstr "Πόλη"
+
+# English text = State
+msgid "second_home.state"
+msgstr "Νομός"
+
+# English text = Country
+msgid "second_home.country"
+msgstr "Χώρα"
+
+# -- ERROR TEXT --
+# English text = Sorry, both city and postal code must be set for this feature to work properly!
+msgid "errors.require_city_and_postal"
+msgstr "Συγγνώμη, τόσο η πόλη όσο και ο ταχυδρομικός κώδικας πρέπει να εισαχθούν για να λειτουργεί σωστά αυτή η δυνατότητα!"
+
+# -- BUTTON TEXT --
+# English text = Save Settings
+msgid "save_button"
+msgstr "Αποθήκευση δεδομένων"
+
+# -- HELP TEXT --
+# English text = How to use One Step GPS coordinate search.
+msgid "latitude_longitude.onestep.how_to_use"
+msgstr "Πώς να χρησιμοποιείτε την αναζήτηση συντεταγμένων με ένα βήμα (One Step GPS)"
+
+# -- HELP TEXT --
+# English text = Enter your address in the fields on the left hand side.
+msgid "latitude_longitude.onestep.step1"
+msgstr "Βάλτε τη διεύθυνσή σας στα πεδία στην αριστερή πλευρά."
+
+# -- HELP TEXT --
+# English text = Click the "Determine Latitude/Longitude" button
+msgid "latitude_longitude.onestep.step2"
+msgstr "Πιέστε την επιλογή \"Καθορισμός Γ.Πλάτους/Γ.Μήκους\""
+
+# -- HELP TEXT --
+# English text = Please be patient.  This easy to use tool queries many separate GPS databases, and takes a few minutes to work.  Depending on where you live you will receive several sets of results.  For houses located in Great Britain, the results from "locatienet" have proven more accurate than those from Google when using the postal code.
+msgid "latitude_longitude.onestep.step3"
+msgstr "Παρακαλούμε λίγη υπομονή. Το εύχρηστο εργαλείο αυτό, ψάχνει σε πολλές χωριστές βάσεις δεομένων GPS, και κάνει λίγα λεπτά να δουλέψει."
+
+# -- HELP TEXT --
+# English text = How to use Infosports GPS coordinate search.
+msgid "latitude_longitude.infosports.how_to_use"
+msgstr "Πώς να χρησιμοποιείτε την αναζήτηση συντεταγμένων  Infosports GPS."
+
+# -- HELP TEXT --
+# English text = Move the map by holding down the mouse button while moving the mouse.
+msgid "latitude_longitude.infosports.step1"
+msgstr "Μετακινήστε το χάρτη κρατώντας πιεσμένο το κουμπί του ποντικιού καθώς μετακινείτε το ποντίκι."
+
+# -- HELP TEXT --
+# English text = If you are not a resident of the US, zoom out by clicking on the grid lines (or the -) on the left until you have your country in the view.
+msgid "latitude_longitude.infosports.step2"
+msgstr "Αν δεν είστε κάτοικος ΗΠΑ, μειώστε το ζούμ πιέζοντας τις γραμμές πλέγματος (ή το -) αριστερά, μέχρι να δείτε τη χώρα σας."
+
+# -- HELP TEXT --
+# English text = Create a marker by clicking on a spot near your area, and then zoom in by clicking on the grid lines (or the + sign).  Repeat this step until you can place the marker satisfactorily.
+msgid "latitude_longitude.infosports.step3"
+msgstr "Δημιουργήστε δείκτη πιέζοντας σε ένα σημείο κοντά στην περιοχή σας και ύστερα κάντε ζουμε πιέζοντας τις γραμμές πλέγματος (ή το + ). Επαναλάβετε το βήμα αυτό μέχρι να τοποθετήσετε το δείκτη ικανοποιητικά."
+
+# -- HELP TEXT --
+# English text = Click on the final marker to display the longitude and latitude.
+msgid "latitude_longitude.infosports.step4"
+msgstr "Πιέστε τον τελικό δείκτη για να σας δείξει το γεωγραφικό μήκος και πλάτος."
+
+# -- HELP TEXT --
+# English text = Copy and paste the coordinates into the boxes below.
+msgid "latitude_longitude.infosports.step5"
+msgstr "Αντιγράψτε και επικολλήστε τις συντεταγμένες στα παρακάτω κουτιά."
+
+# -- HELP TEXT --
+# English text = How to use GPS Visualizer.
+msgid "latitude_longitude.gps_visualizer.how_to_use"
+msgstr "Πώς να χρησιμοποιήσετε τον απεικονιστή GPS Visualizer."
+
+# -- HELP TEXT --
+# English text = Type your address in the box and click the "Geocode it" button. Remember, if you live outside the USA to put, for example, “Boston, United Kingdom” rather than just “Boston”
+msgid "latitude_longitude.gps_visualizer.step1"
+msgstr "Εισάγετε τη διεύθυνσή σας στο κουτί και επιλέξτε το κουμπί \"Geocode it\". Θυμηθείτε, αν ζείτε εκτός ΗΠΑ να γράψετε και τη χώρα σας (π.χ. “Boston, United Kingdom” αντί απλά  “Boston”)"
+
+# -- HELP TEXT --
+# English text = Enter (copy and paste) the coordinates in these boxes.
+msgid "latitude_longitude.gps_visualizer.step2."
+msgstr "Αντιγράψτε και επικολλήστε τις συντεταγμένες στα παρακάτω κουτιά."
+
+# -- HELP TEXT --
+# English text = Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank.
+#, fuzzy
+msgid "second_home.street_help"
+msgstr "Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+#, fuzzy 
+msgid "second_home.state_help"
+msgstr "If your country doesn't require you to put a state on your postal mail, then you should leave this field blank."
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+msgid "second_home.country_help"
+msgstr "Αν αυτή δεν είναι η χώρα που βρίσκεται το σπίτι που προσφέρετε για ανταλλαγή, παρακαλούμε επικοινωνήστε με τον εθνικό οργανωτή σας για βοήθεια."
+
+# --- English text = Thank you, we saved your changes in our database!
+msgid "messages.save_successful"
+msgstr "Σας ευχαριστούμε, καταχωρίσαμε τις αλλαγές σας στη βάση δεδομένων σας!"
+
+# --- English text = Sorry, either Google Map couldn't find the address or you have disabled the map for your listing.
+msgid "errors.no_map_found"
+msgstr "Συγγνώμη, είτε ο χάρτης Google Map δεν μπορεί να βρεί την διεύθυνσή σας είτε έχετε απενεργοποιήσει το χάρτη για την καταχώρισή σας."
+
+# --- English text = An error has occurred and we were unable to save your changes.  Please make sure you have entered your latitude and longitude in degrees instead of coordinates, and contact your local organizer for assistance if you continue to have difficulty
+# --- (1 July, 2010) Edited to add a reminder to the member to use degrees instead of coordinates when entering Latitude and Longitude.
+msgid "errors.general_fail"
+msgstr "Κάποιο λάθος προέκυψε και δεν μπορούμε να καταχωρίσουμε τις αλλαγές σας. παρακαλούμε προσπαθήστε πάλι ή επικοινωνήστε με τον τοπικό οργανωτή σας για βοήθεια."
+
+# --- English text = Map of the Region
+msgid "map_of_region"
+msgstr "Χάρτης της Περιφέρειας"
+
+# --- English text = Not supported in all countries
+# --- Location: This is a little warning underneath the "street" text box in the Exchange Home Address form.
+#, fuzzy
+msgid "second_home.street_not_supported_in_all_countries"
+msgstr "Not supported in all countries"

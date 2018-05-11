@@ -1,0 +1,794 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 19:43+0100\n"
+"PO-Revision-Date: 2012-02-06 16:18-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Banner ---
+# --- English text = International Home Exchange Holiday Service
+# => this is hidden text for accessability
+# (June 2011 - Firefox Tab Text)
+msgid "banner.intervac"
+msgstr "International Home Exchange Holiday Service"
+
+# --- English text = Skip Navigation
+# => this is hidden text
+msgid "banner.skip_navigation"
+msgstr "Sla Navigatie over"
+
+# --- English text = Skip to Content
+msgid "banner.skip_to_content"
+msgstr "Ga meteen naar Inhoud"
+
+# --- Public Navigation ---
+# --- English text = Start
+# --- (June 2011)
+msgid "public_navigation.home"
+msgstr "Welkom"
+
+# --- English text = Go to the member home page
+# => link title is mouseover text
+# (June 2011)
+msgid "public_navigation.home_title"
+msgstr "Ga naar de  homepage van het lid"
+
+# --- Public Navigation ---
+# SEO --- Your SEO text (Aug, 2010) = Home Exchange
+# --- Please coordinate all changes to this text with Nancy.
+msgid "public_navigation.secondary_home"
+msgstr "HOME"
+
+# --- English text = Go to the member home page
+# => link title is mouseover text
+msgid "public_navigation.secondary_home_title"
+msgstr "Ga naar de  homepage van het lid"
+
+# --- Public Navigation ---
+# --- English text = Become a Member
+msgid "public_navigation.become_a_member"
+msgstr "Word lid"
+
+# --- English text = Apply for membership
+# => link title is mouseover text
+# (June 2011)
+msgid "public_navigation.join_link_title"
+msgstr "Meld je aan voor lidmaatschap"
+
+# --- Public Navigation ---
+# --- English text = Testimonials
+msgid "public_navigation.testimonials"
+msgstr "Getuigenissen"
+
+# --- English text = Read what people are saying
+# => link title is mouseover text
+msgid "public_navigation.testimonials_title"
+msgstr "Onze leden aan het woord"
+
+# --- Public Navigation ---
+# --- English text = Last Minute Listings
+# --- 12/08 Changed to: Last Minute Exchanges
+msgid "public_navigation.last_minute_exchanges"
+msgstr "Last Minute ruilen"
+
+# --- English text = Look here for a last minute exchange
+# => link title is mouseover text
+msgid "public_navigation.last_minute_exchanges_title"
+msgstr "Zoek hier een Last Minute ruil"
+
+# --- English text = Read our frequently asked questions
+# => link title is mouseover text
+msgid "public_navigation.faq_title"
+msgstr "Lees onze veelgestelde vragen"
+
+# --- Public Navigation ---
+# --- English text = Contacts
+# --- (Jan 2011)
+msgid "public_navigation.contacts"
+msgstr "Contacten"
+
+# --- English text = A list of national agents
+# => link title is mouseover text
+msgid "public_navigation.contacts_title"
+msgstr "Een lijst van nationale vertegenwoordigers"
+
+# --- Member Navigation ---
+# --- English text = Member Home
+msgid "member_navigation.home"
+msgstr "Ledenpagina"
+
+# --- English text = Go to the member home page
+# => link title is mouseover text
+msgid "member_navigation.home_title"
+msgstr "Ga naar de ledenpagina"
+
+# --- English text = Member Messages
+msgid "member_navigation.member_messages"
+msgstr "Leden berichten"
+
+# --- English text = Member Messages
+msgid "member_navigation.member_messages_title"
+msgstr "Stuur of ontvang een bericht"
+
+# --- Member Navigation ---
+# --- English text = Member Favorites
+msgid "member_navigation.my_favorites"
+msgstr "Mijn Favorieten"
+
+# --- English text = My favorite listings
+# => link title is mouseover text
+msgid "member_navigation.my_favorites_title"
+msgstr "Mijn favoriete aanbiedingen"
+
+# --- Member Navigation ---
+# --- English text = What's New
+msgid "member_navigation.whats_new"
+msgstr "Wat is er Nieuw"
+
+# --- English text = New and amended listings
+# => link title is mouseover text
+msgid "member_navigation.whats_new_title"
+msgstr "Nieuwe en gewijzigde aanbiedingen"
+
+# --- Member Navigation ---
+# --- English text = Match-Alert!
+msgid "member_navigation.match_alert"
+msgstr "Zoek de juiste partner!"
+
+# --- English text = Match-Alert! Get an email from us
+# => link title is mouseover text
+msgid "member_navigation.match_alert_title"
+msgstr "Zoek de juiste partner! Ontvang een e-mail van ons"
+
+# --- Member Navigation ---
+# --- English text = My Statistics
+msgid "member_navigation.statistics"
+msgstr "Mijn statistieken"
+
+# --- English text = Listings statistics for the past 14 days
+# => link title is mouseover text
+msgid "member_navigation.statistics_title"
+msgstr "Statistieken van de laatste 14 dagen"
+
+# --- Member Navigation ---
+# --- English text = Logout
+# (June 2011)
+msgid "member_navigation.logout"
+msgstr "Uitloggen"
+
+# --- English text = Bye bye. Come back soon!
+# => link title is mouseover text
+msgid "member_navigation.logout_title"
+msgstr "Tot Ziens!"
+
+# --- Member Listing Navigation ---
+# --- Headline Text
+# --- English text = My Listing
+msgid "my_listing.headline"
+msgstr "Mijn Aanbieding"
+
+# --- English text = View My Listing
+msgid "my_listing.view_listing"
+msgstr "Bekijk mijn aanbieding"
+
+# --- English text = Test our database
+msgid "public_navigation.test_database"
+msgstr "Test onze database"
+
+# --- English text = Test our database
+msgid "public_navigation.test_database_title"
+msgstr "Zoek een ruilpartner voor je lid wordt."
+
+# --- English text = Search
+msgid "member_navigation.search"
+msgstr "Zoek"
+
+# --- English text = Search across countries for an exchange partner
+msgid "member_navigation.search_title"
+msgstr "Zoek in alle landen naar een ruilpartner"
+
+# --- English text = See your listing exactly as other members do complete with details and extra text/photos.
+# => link title is mouseover text
+msgid "my_listing.view_listing_title"
+msgstr "Bekijk je aanbieding zoals andere leden ze zien, compleet met alle details, extra foto's en tekst."
+
+# --- English text = Edit Listing Details
+# --- 12/08 Change to: Change My Listing
+msgid "my_listing.change_listing"
+msgstr "Wijzig mijn aanbieding"
+
+# --- English text = Edit your home and family specifics.
+# => link title is mouseover text
+msgid "my_listing.change_listing_title"
+msgstr "Wijzig de gegevens over mijn woning en mijn familie"
+
+# --- English text = Destinations Wishlist
+msgid "my_listing.holiday_destinations"
+msgstr "Lijst van gewenste bestemmingen"
+
+# --- English text = Tell members who live in your desired destinations that you are interested in an exchange.
+# => link title is mouseover text
+msgid "my_listing.holiday_destinations_title"
+msgstr "Meld leden die wonen in landen en plaatsen van gewenste bestemmingen dat je geïnteresseerd bent in een ruil."
+
+# --- English text = Upload Primary Photo
+msgid "my_listing.upload_photo"
+msgstr "Laad een Basisfoto op"
+
+# --- English text = This photo is the main (large) photo in your listing.
+# => link title is mouseover text
+msgid "my_listing.upload_photo_title"
+msgstr "Deze basisfoto is de grote foto, die je aanbieding begeleidt."
+
+# --- English text = Add Photos &amp; Text
+# --- Note: " &amp; " stands for '&'
+msgid "my_listing.additional_text_and_photos"
+msgstr "Voeg Foto's  &amp; Tekst toe"
+
+# --- English text = Add text and up to 20 additional photos to your listing.
+# => link title is mouseover text
+msgid "my_listing.additional_text_and_photos_title"
+msgstr "Voeg tekst en tot 20 extra foto's toe aan je aanbieding"
+
+# --- English text = Edit Google Map
+msgid "my_listing.place_google_marker"
+msgstr "Plaats de Google Markeerder"
+
+# --- English text = Enter 2nd home address or latitude and longitude.
+msgid "my_listing.place_google_marker_title"
+msgstr "Breng het adres in van je tweede woning of breedte- en lengtegraad"
+
+##### --- EXCHANGE AGREEMENT BOX ---
+##### --- English Text = Exchange Agreement
+##### IMPORTANT: don't delete the span tags around the word "Agreement" - these make your headline pretty...
+msgid "Exchange <span class=\"green\">Agreement</span>"
+msgstr "<span class=\"green\">Ruilovereenkomst</span>"
+
+##### --- English Text = Register here
+msgid "Register here"
+msgstr "Registreer hier"
+
+# --- FOOTER TEXT ---
+# --- English Text = Site Map
+msgid "footer.sitemap"
+msgstr "Site Map"
+
+# --- English Text = Our site map
+# => link titles are mouseover text
+msgid "footer.sitemap_title"
+msgstr "Onze site map"
+
+# --- FOOTER TEXT ---
+# --- English Text = Terms of Use
+# (June 2011)
+msgid "footer.terms_of_use"
+msgstr "Algemene Voorwaarden"
+
+# --- FOOTER TEXT ---
+# --- English Text = Terms of Use
+# (June 2011)
+msgid "footer.terms_of_use_title"
+msgstr "Voorwaarden"
+
+# --- FOOTER TEXT ---
+# --- English Text = Privacy Policy
+# NOT IN USE ON APPLICATION => application.po
+# (June 2011)
+msgid "footer.privacy_policy"
+msgstr "Privacy beleid"
+
+# --- FOOTER TEXT ---
+# --- English Text = Read our Privacy Policy
+# NOT IN USE ON THE APPLICATION => application.po
+# (June 2011)
+msgid "footer.privacy_policy_title"
+msgstr "Lees onze privacy beleidsregels"
+
+# --- Visitors Tour ---
+# --- English text = More Visitors Tour
+msgid "visitor_navigation.more_visitors_tour"
+msgstr "BEZOEKERS TOER-VERVOLG"
+
+# --- Visitors Tour ---
+# --- English text = Lifestyle
+msgid "visitor_navigation.lifestyle"
+msgstr "Een andere manier van denken over reizen"
+
+# --- Visitors Tour ---
+# --- English text = Read about the international lifestyle our members enjoy
+msgid "visitor_navigation.lifestyle_title"
+msgstr "Lees meer over deze andere manier van reizen "
+
+# --- Visitors Tour ---
+# --- English text = Why Exchange Homes?
+msgid "visitor_navigation.why_exchange"
+msgstr "Waarom aan huisruil doen?"
+
+# --- Visitors Tour ---
+# --- English text = More reasons to exchange homes
+msgid "visitor_navigation.why_exchange_title"
+msgstr "Meer redenen om aan huisruil te doen"
+
+# --- Visitors Tour ---
+# --- English text = Why Join Intervac
+msgid "visitor_navigation.why_intervac"
+msgstr "Waarom Intervac kiezen?"
+
+# --- Visitors Tour ---
+# --- English text = Why you should choose Intervac over other home exchange services.
+msgid "visitor_navigation.why_intervac_title"
+msgstr "Waarom zou je uit alle huisruilorganisaties kiezen voor Intervac."
+
+# --- Visitors Tour ---
+# --- English text = Our Site Features
+msgid "visitor_navigation.site_features"
+msgstr "Onderdelen van onze site"
+
+# --- Visitors Tour ---
+# --- English text = Features on our site help you find a home exchange
+msgid "visitor_navigation.site_features_title"
+msgstr "Onderdelen van onze site die je helpen bij het vinden van een huisruil"
+
+# --- Visitors Tour ---
+# --- English text = Prepare for Guests
+msgid "visitor_navigation.guests"
+msgstr "Ontvangen van Gasten"
+
+# --- Visitors Tour ---
+# --- English text = You found a partner! Prepare for guests...
+msgid "visitor_navigation.guests_title"
+msgstr "Je hebt een ruilpartner gevonden!  Bereid je dan voor op de ontvangst van je gasten..."
+
+# --- Visitors Tour ---
+# --- English text = What are the costs involved in exchanging homes?
+msgid "visitor_navigation.prices"
+msgstr "Wat zijn de Kosten?"
+
+# --- Visitors Tour ---
+# --- English text = What are the costs involved in exchanging homes?
+msgid "visitor_navigation.prices_title"
+msgstr "Wat zijn de kosten die gepaard gaan aan een huisruil?"
+
+# --- Visitors Tour ---
+# --- English text = About Intervac
+# --- (June 2011) - Remove the word "International"
+msgid "public_navigation.about_us"
+msgstr "Over Intervac"
+
+# --- Visitors Tour ---
+# --- English text = Read about our members and our organisation
+# (June 2011)
+msgid "public_navigation.about_us_title"
+msgstr "Lees meer over onze organisatie en onze leden"
+
+# --- Visitors Tour ---
+# --- English text = Frequently Asked Questions
+msgid "visitor_navigation.faq"
+msgstr "Veelgestelde Vragen"
+
+# --- Visitors Tour ---
+# --- English text = Frequently Asked Questions about home exchange
+# (June 2011)
+msgid "public_navigation.what_is_home_exchange_title"
+msgstr "Veelgestelde vragen over huisruil"
+
+# --- Cross Links ---
+# --- English text = Send a message
+msgid "crosslinks.send_message"
+msgstr "Stuur een bericht"
+
+# --- Cross Links ---
+# --- English text = Reply to message
+msgid "crosslinks.reply_message"
+msgstr "Beantwoord een bericht"
+
+# --- Cross Links ---
+# --- English text = Click here to send a message to this member
+msgid "crosslinks.send_message_alt"
+msgstr "Klik hier om een bericht te sturen aan dit lid."
+
+# --- Cross Links ---
+# --- English Text = Back to Search
+msgid "crosslinks.back_to_search"
+msgstr "Terug naar zoeken"
+
+# --- Cross Links ---
+# --- English Text = Go back to the search page
+# => link titles are mouseover text
+msgid "crosslinks.back_to_search_title"
+msgstr "Ga terug naar de zoekpagina"
+
+# --- Cross Links ---
+# --- English Text = Search Results
+msgid "crosslinks.search_results"
+msgstr "Zoekresultaten"
+
+# --- Cross Links ---
+# --- English Text = Go back to the search results page
+# => link titles are mouseover text
+msgid "crosslinks.search_results_title"
+msgstr "Ga terug naar de pagina met de zoekresultaten"
+
+# --- Cross Links ---
+# --- English Text = Go back
+msgid "crosslinks.go_back"
+msgstr "Ga terug"
+
+# --- Cross Links ---
+# --- English Text = Go back to the page before this one
+msgid "crosslinks.alt_go_back"
+msgstr "Ga terug naar de vorige pagina"
+
+# --- Cross Links ---
+# --- English Text = Print this Page
+msgid "crosslinks.print_page"
+msgstr "Deze pagina afdrukken"
+
+# --- Cross Links ---
+# --- English Text = New Search
+msgid "crosslinks.new_search"
+msgstr "Nieuwe zoekopdracht"
+
+# --- Cross Links ---
+# --- English Text = Begin a new search
+msgid "crosslinks.new_search_title"
+msgstr "Start een nieuwe zoekopdracht"
+
+# --- Cross Links ---
+# --- English Text = Add Favorite
+# (June 2011 - Edited to make shorter)
+msgid "crosslinks.add_to_favorites"
+msgstr "Toevoegen tot mijn favorieten"
+
+# --- Cross Links ---
+# --- English Text = Add a link to this listing on My Favorites page
+# => link titles are mouseover text
+msgid "crosslinks.add_to_favorites_title"
+msgstr "Voeg bij deze aankondiging een link toe naar Mijn Favorieten"
+
+# --- Help Links ---
+# --- English text = If your google map is not displaying properly, or if you are offering your second home for exchange, you can easily change the placement of the marker.  Follow the link below, and you will find easy instructions and tools to help you place the marker as precisely as you wish.
+msgid "helplinks.goto_place_google_marker"
+msgstr "Indien op de google kaart de ligging niet juist is weergegeven, of indien je een tweede woning aanbiedt, kan je op een eenvoudige manier het aanduidingsteken wijzigen. Volg de onderstaande link om instructies en hulmiddelen te vinden om de aanduidigen te wijzigen."
+
+# --- LANGUAGE SWITCHER ---
+# --- English text = Choose Language
+# --- (June 2011) Added "Choose" to make text more active.
+msgid "crosslinks.choose_language"
+msgstr "Taal"
+
+# --- English text = Tip
+msgid "labels.tip"
+msgstr "Tip"
+
+# --- English text = My Primary Photo
+msgid "labels.primary_photo"
+msgstr "Mijn Basisfoto"
+
+# --- English text = Austrian flag
+# => alternate text for images are hidden text
+msgid "flag.at"
+msgstr "Oostenrijkse vlag"
+
+# --- English text = Danish flag
+# => alternate text for images are hidden text
+msgid "flag.dk"
+msgstr "Deense vlag"
+
+# --- English text = Finnish flag
+# => alternate text for images are hidden text
+msgid "flag.fi"
+msgstr "Finse vlag"
+
+# --- English text = French flag
+# => alternate text for images are hidden text
+msgid "flag.fr"
+msgstr "Franse vlag"
+
+# --- English text = German flag
+# => alternate text for images are hidden text
+msgid "flag.de"
+msgstr "Duitse vlag"
+
+# --- English text = British flag
+# => alternate text for images are hidden text
+msgid "flag.gb"
+msgstr "Britse vlag"
+
+# --- English text = Greek flag
+# => alternate text for images are hidden text
+msgid "flag.gr"
+msgstr "Griekse vlag"
+
+# --- English text = Italian flag
+# => alternate text for images are hidden text
+msgid "flag.it"
+msgstr "Italiaanse vlag"
+
+# --- English text = Flag of Iceland
+# => alternate text for images are hidden text
+msgid "flag.is"
+msgstr "Ijslandse vlag"
+
+# --- English text = Japanese flag
+# => alternate text for images are hidden text
+msgid "flag.jp"
+msgstr "Japanse vlag"
+
+# --- English text = Netherlands flag
+# => alternate text for images are hidden text
+msgid "flag.nl"
+msgstr "Nederlandse vlag"
+
+# --- English text = Norwegian flag
+# => alternate text for images are hidden text
+msgid "flag.no"
+msgstr "Noorse vlag"
+
+# --- English text = Polish flag
+# => alternate text for images are hidden text
+msgid "flag.pl"
+msgstr "Poolse vlag"
+
+# --- English text = Polish flag
+# => alternate text for images are hidden text
+msgid "flag.pt"
+msgstr "Portugese vlag"
+
+# --- English text = Spanish flag
+# => alternate text for images are hidden text
+msgid "flag.es"
+msgstr "Spaanse vlag"
+
+# --- English text = Swedish flag
+# => alternate text for images are hidden text
+msgid "flag.se"
+msgstr "Zweedse vlag"
+
+# --- English text = Blog
+# --- Location = Main navigation
+# (June 2011)
+msgid "public_navigation.blog"
+msgstr "Blog"
+
+# --- English text = Read our blog and tell us what you think.
+# --- Location = mouseover the "Blog" link in the main navigation
+# (June 2011)
+msgid "public_navigation.blog_title"
+msgstr "Lees onze blog en vertel ons wat je ervan denkt."
+
+# --- English text = LIFESTYLE
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.lifestyle"
+msgstr "FILOSOFIE"
+
+# --- English text = WHY EXCHANGE
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.why_exchange"
+msgstr "WAAROM AAN HUISRUIL DOEN"
+
+# --- English text = WHY INTERVAC
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.why_intervac"
+msgstr "WAAROM INTERVAC KIEZEN"
+
+# --- English text = SITE FEATURES
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.site_features"
+msgstr "ONDERDELEN VAN ONZE SITE"
+
+# --- English text = ABOUT OUR MEMBERS
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.about_our_members"
+msgstr "OVER ONZE LEDEN"
+
+# --- English text = TESTIMONIALS
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.testimonials"
+msgstr "GETUIGENISSEN"
+
+# --- English text = "LAST MINUTE HOLIDAYS
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.last_minute_holidays"
+msgstr "LAST MINUTE VAKANTIES"
+
+# --- English text = VISITORS TOUR
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.visitors_tour"
+msgstr "BEZOEKERS TOER"
+
+# --- English text = MEMBERS
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.members"
+msgstr "LEDEN"
+
+# --- English text = Member Login
+# --- Location = Top of homepage
+# (June 2011)
+msgid "header.login"
+msgstr "Login en"
+
+# --- English text = Member Home
+# --- Location = Top of homepage
+# (June, 2011)
+#, fuzzy
+msgid "header.logged_in.dashboard"
+msgstr "Mijn Dashboard"
+
+# --- English text = RULES OF INTERVAC
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.rules_of_intervac"
+msgstr "BASISPRINCIPES BIJ INTERVAC"
+
+# --- English text = PRIVACY
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.privacy"
+msgstr "PRIVACY BELEID"
+
+# --- English text = FAQS
+# --- (Jan 2010) Changed to Uppercase Letters
+msgid "main_navigation.faq"
+msgstr "VEELGESTELDE VRAGEN"
+
+# --- GREEN START TODAY BOX ---
+# --- English text = Start Today
+msgid "visitors_tour.start_today"
+msgstr "Vandaag nog starten"
+
+# --- English text = Apply for membership
+msgid "visitors_tour.apply_for_membership"
+msgstr "Lid worden "
+
+# --- English text = apply here
+msgid "visitors_tour.apply_here"
+msgstr "Hier inschrijven"
+
+# --- English text = Sign Up with Intervac
+# --- Location = Header of the Homepage
+# (June 2011 - New)
+msgid "header.sign_up_with_intervac"
+msgstr "Inschrijven bij Intervac"
+
+# --- Public Navigation ---
+# --- English text = Listings
+# --- Location = Horizontal navigation in the public area
+# --- (June 2011)
+msgid "public_navigation.listings"
+msgstr "Aanbiedingen"
+
+# --- Public Navigation ---
+# --- English text = Look through our listings
+# --- Location = Horizontal navigation in the public area
+# (June 2011)
+msgid "public_navigation.listings_title"
+msgstr "Bekijk onze aanbiedingen"
+
+# --- Public Navigation ---
+# --- English text = What is Home Exchange
+# --- Location = Horizontal navigation in the public area
+# (June 2011)
+msgid "public_navigation.what_is_home_exchange"
+msgstr "Wat is Huisruil"
+
+# --- English text = Start page
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+msgid "footer.start_page"
+msgstr "Startpagina"
+
+# --- English text = Listings
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+msgid "footer.listings"
+msgstr "Aanbiedingen"
+
+# --- English text = What is home exchange?
+# --- Location = Footer - Please use correct upper and lower case lettering and punctuation.
+# (June 2011)
+msgid "footer.what_is_home_exchange"
+msgstr "Wat is huisruil?"
+
+# --- English text = About Intervac
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+msgid "footer.about_intervac"
+msgstr "Over Intervac"
+
+# --- English text = The Intervac Blog
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+msgid "footer.intervac_blog"
+msgstr "Intervac Blog"
+
+# --- English text = Get our newsletter
+# --- Location =
+# (June, 2011)
+msgid "footer.newsletter"
+msgstr "Ontvang onze nieuwsbrief"
+
+# --- English text = Sign up with Intervac
+# --- Location = Footer - Please use correct upper and lower case lettering.
+# (June 2011)
+msgid "footer.join_text"
+msgstr "Inschrijven bij Intervac"
+
+# --- English text = Contact information
+# --- Location = Footer Headline
+# (June 2011)
+msgid "footer.contact_headline"
+msgstr "Contact "
+
+# --- English text = Legal information
+# --- Location = Footer headline
+# (June 2011)
+msgid "footer.legal_headline"
+msgstr "Legal"
+
+# --- English text = Member Finder
+# --- Location = Header, next to Member Login
+# (MOVED TO listings.po - February 2012)
+msgid "-x- header.member_id_search.headline"
+msgstr "Lid zoeken"
+
+# --- English text = Member Finder
+# --- Location = Header, next to Member Login
+# (MOVED TO listings.po - February 2012)
+msgid "-x- header.member_id_search.placeholder"
+msgstr "Member ID invullen"
+
+# --- English text = Could not find member
+# --- Location =
+# (MOVED TO listings.po - February 2012)
+msgid "-x- header.member_id_search.error"
+msgstr "Lid kan niet gevonden worden"
+
+# --- English text = Plans & Pricing
+# --- Location = Top of the page in the masthead
+# (New: October, 2011)
+msgid "header.plans_and_pricing"
+msgstr "Formules en prijzen"
+
+# --- English text = site overview
+# --- Location = Main navigation bar
+# (New: October, 2011)
+msgid "public_navigation.home_subtext"
+msgstr "Overzicht site"
+
+# --- English text = Find your next holiday
+# --- Location = Main navigation bar
+# (New: October, 2011)
+msgid "public_navigation.listings_subtext"
+msgstr "Zoek je volgende vakantie"
+
+# --- English text = Home Exchange
+# --- Location = Main navigation bar
+# (New: October, 2011)
+msgid "public_navigation.home_exchange"
+msgstr "Huisruil"
+
+# --- English text = Learn all about it!
+# --- Location = Main navigation bar
+# (New: October, 2011)
+msgid "public_navigation.home_exchange_subtext"
+msgstr "Alles over weten!"
+
+# --- English text = Home exchange at its best
+# --- Location = Main navigation bar
+# (New: October, 2011)
+msgid "public_navigation.about_us_subtext"
+msgstr "Huisruil op z'n best"
+
+# --- English text = National Representatives
+# --- Location = Main navigation bar
+# (New: October, 2011)
+msgid "public_navigation.contacts_subtext"
+msgstr "Nationale vertegenwoordigers"
+

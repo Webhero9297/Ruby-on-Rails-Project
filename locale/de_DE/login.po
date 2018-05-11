@@ -1,0 +1,126 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 19:43+0100\n"
+"PO-Revision-Date: 2011-11-01 00:49+0100\n"
+"Last-Translator: Leoni Günzler <info@haustausch.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member Login
+msgid "member_login.headline"
+msgstr "Login für Mitglieder"
+
+# --- English text = Login to Intervac International
+msgid "headline"
+msgstr "INTERVAC International - Login"
+
+# --- English text = Members Login Here
+msgid "here"
+msgstr "Mitglieder-Login hier"
+
+# --- English text = Login
+msgid "login"
+msgstr "Login"
+
+# --- English text = Password
+msgid "password"
+msgstr "Passwort"
+
+# --- English text = Remain logged in (on this computer)
+msgid "remember_me"
+msgstr "Bleiben Sie eingeloggt"
+
+# --- Button text
+# --- English text = Login Now
+msgid "button_text"
+msgstr "Login jetzt"
+
+# --- English text = Having trouble?
+# (Not in use - October, 2011)
+msgid "-x- help_headline"
+msgstr "Haben Sie Schwierigkeiten?"
+
+# --- English text = HELP! I forgot my password.
+msgid "forgotten_password_title"
+msgstr "HILFE -  habe mein Passwort vergessen!"
+
+# --- English text = I have forgotten my password or can\'t login
+msgid "forgotten_password_link"
+msgstr "Ich habe mein Login oder mein Passwort vergessen. "
+
+# --- English text = I would like to apply for membership
+msgid "apply_for_membership_link"
+msgstr "Möchte Mitglied werden"
+
+# --- English text = I'm not a member but I'd like to be!
+msgid "apply_for_membership_title"
+msgstr "Möchte mich als Mitglied anmelden."
+
+# --- English text = Please be sure that your browser accepts cookies!
+msgid "errors.cookies"
+msgstr "Sind Sie sicher, dass Ihr browser cookies akzeptiert?"
+
+# --- English text = Could not log you in as {{login}}, your login or password is incorrect.
+# --- IMPORTANT - DO NOT TRANSLATE OR REMOVE "{{login}}"  The system will automatically replace this with the login name the user tried to use.
+msgid "errors.username_or_password_incorrect"
+msgstr "Sie können sich nicht einloggen -  Ihr Passwort ist nicht korrekt?"
+
+# --- English text = Login Help
+msgid "help.headline"
+msgstr "Login - Hilfe"
+
+# --- English text = If you are seeing this message, you have tried at least twice to login without success.  Following are some tips to help you:
+# (Not in use - October, 2011)
+msgid "-x- help.introtext"
+msgstr "Wenn Sie diese Mitteilung sehen , haben Sie bereits zweimal versucht - leider ohne Erfolg. Hier einige Tipps, um Ihnen zu helfen:"
+
+# --- English text = If you are not sure of your login, you can use the email address in your listing in this field instead.
+# (Not in use - October, 2011)
+msgid "-x- help.login"
+msgstr "Wenn Sie sich  mit Ihrem Login nicht sicher sind, können Sie Ihre e-mail Adresse in dem entsprechenden Feld verwenden."
+
+# --- English text = Passwords are case-sensitive.  To successfully login you must type your password using upper and lower case characters so that it matches the one you have saved in our database.
+# (Not in use - October, 2011)
+msgid "-x- help.password"
+msgstr "Passwörter sind sehr sensibel!  Um sich erfolgreich einzuloggen, müssen Sie die Groß- und Kleinschreibung beachten, damit Ihr Passwort mit dem in unserer Datenbank gespeicherten übereinstimmt."
+
+# --- English text = Don't remember your login credentials? <link>Click here</link> to request a password reset link be sent to your email address.  The reset password email will tell you your login, and include a link you can click on to choose a new password.
+# (Not in use - October, 2011)
+msgid "-x- help.password_reset_link"
+msgstr "Haben Sie Ihr Passwort vergessen? <link>Klicken Sie hier</link> Ersetzen Sie Ihr Passwort und senden Sie es an Ihre email Adresse. Das neue Passwort wird Ihnen per email als login mitgeteilt. Es gibt gleichzeitig  ein link an, das Sie anklicken können, um ein neues Passwort einzugeben!"
+
+# --- English text = Try Again
+# (Not in use - October, 2011)
+msgid "-x- help.close_button"
+msgstr "Versuchen Sie es nocheinmal"
+
+# --- English text = You can login to Intervac using your Facebook account.
+# --- Location = Above the Facebook Connect button
+# (June, 2011)
+msgid "facebook.text"
+msgstr "Sie können sich bei INTERVAC anmelden und dabei Ihr Facebook-Konto benutzen."
+
+# --- English text = Apply for membership
+# --- Location =
+# (New: October, 2011)
+msgid "apply_for_membership_headline"
+msgstr "Mitgliedschaft beantragen"
+
+# --- English text = Renew membership
+# (New: October, 2011)
+msgid "renew_membership.headline"
+msgstr "Mitgliedschaft erneuern"
+
+# --- English text = To renew any expired membership, please login and click the <em>Renew Now button</em> at the top of the page.
+# --- IMPORTANT = Do not translate or remove the tags <em> and </em>.  These are used to set the text in between them in italic type.
+# (New: October, 2011)
+msgid "renew_membership.text"
+msgstr "Um Ihre abgelaufene Mitgliedschaft zu  erneuern, bitte loggen Sie sich ein und klicken den <em>Mitgliedschaft erneuern</em> button oben auf der Seite."
+

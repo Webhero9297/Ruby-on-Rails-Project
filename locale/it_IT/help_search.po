@@ -1,0 +1,150 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-11-03 19:11+0100\n"
+"PO-Revision-Date: 2011-10-04 08:55+0100\n"
+"Last-Translator: gaby zanobetti <info@intervac.it>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Search Criteria
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.headline"
+msgstr "Criteri di Ricerca"
+
+# --- English text = About Exchange Types
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.headline"
+msgstr "Circa i Tipi di Scambio"
+
+# --- English text = Exchange types are evaluated as follows: any listing returned will fulfill your other criteria <highlight>and</highlight> at least one of the exchange types you have chosen below.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.evaluation_rules"
+msgstr "Le possibilità di scambio vengono valutate nel modo seguente:: ogni proposta inviata prenderà in considerazione le altre sue richieste <highlight> e</highlight> almeno uno dei tipi di scambio da lei richiesti."
+
+# --- English text = Following is a list of all the exchange types supported by our online system, and their definitions.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.list_intro"
+msgstr "Qui sotto un elenco di tutti i tipi di scambio supportati dal nostro sito e le relative spiegazioni"
+
+# --- English text = <highlight>Home Exchange: </highlight>Our main focus - two families agree to live in each other's homes over a specified period of time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.home_exchange"
+msgstr "<highlight> Scambio Casa  </highlight>Our é l'opzione principale.- Due famiglie concordano di scambiarsi le case per un determinato periodo di tempo."
+
+# --- English text = <highlight>House Sitting: </highlight>Looking after someone else's home, mail, pets while they are away.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.house_sitting"
+msgstr "<highlight>House Sitting: </highlight> significa sorvegliare la casa di qualcun altro, occuparsi della posta e degli animali , mentre i proprietari sono assenti."
+
+# --- English text = <highlight>Double Exchange: </highlight>Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.double_exchange"
+msgstr "<highlight>Doppio Scambio</highlight> Due famiglie  (spesso abitano vicine l'una all'altra)  cercano uno scambio con altre due famiglie.  This type of exchange is a favorite of neighbors who vacation together and extended families."
+
+# --- English text = <highlight>Hospitality Exchange: </highlight>Members agree to exchange visits in each other’s homes.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.hospitality_exchange"
+msgstr "<highlight> Scambio di Ospitalità  </highlight> I Soci accettano di scambiarsi la visita nelle reciproche case ."
+
+# --- English text = <highlight>Long Term Exchanges: </highlight>A favorite between retired people, university staff, or employees of global multi-national companies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.long_term_exchanges"
+msgstr "<highlight> Scambi di lungo termine </highlight> E' una delle opzioni favorite dei pensionati, di staff universitari o impiegati di compagnie multinazionali."
+
+# --- English text = <highlight>Bed and Breakfast: </highlight>This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.bed_and_breakfast"
+msgstr "<highlight>Bed and Breakfast: </highlight> Questo é l'analogo del sistema ben noto , ma viene  praticato  tra i soci ed é gratuito"
+
+# --- English text = <highlight>Rentals: </highlight>Members sometimes list holiday homes which they usually rent offering a reduced price to Intervac members.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.rentals"
+msgstr "<highlight> Affitto : </highlight> Talvolta i soci propongono ai soci Intervac  le case che affittano abitualmente, ma a un prezzo ridotto ."
+
+# --- English text = <highlight>Youth Exchange:  </highlight>A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_exchange"
+msgstr "<highlight>Scambio fra Giovani:  </highlight> Una opportunità per i giovani  di conoscere nuove culture senza che i i loro genitori rimangano accanto a loro.."
+
+# --- English text = <highlight>Youth Hospitality: </highlight>Young people agree to visit each other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_hospitality"
+msgstr "<highlight>Ospitalità a un Giovane : </highlight> I Giovani accettano di scambiarsi reciprocamente l'ospitalità."
+
+# --- English text = About Exchange Dates
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.headline"
+msgstr "Riguardo alle date dello scambio"
+
+# --- English text = Exchange dates require at least one overlapping day in order to be included in your search results.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.evaluation_rules"
+msgstr "Le date dello scambio devono essere tali da poter essere incluse nei risultati della vostra ricerca "
+
+# --- English text = In these fields you should show the earliest date you are available to travel, and the latest date by which you must return home.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.best_practice"
+msgstr "In questi campi dovete inserire la data in cui potete iniziare il vostro viaggio e la data ultina in cui dovete tornare a casa."
+
+# --- English text = About Sleeping Accomodations
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.headline"
+msgstr "Riguardo ai posti letto"
+
+# --- English text = Sleeping accomodations is evaluated as an <highlight>and</highlight> condition to your other search criteria.  This means any listing returned will have your other criteria <highlight>and</highlight> fulfill the ones below as well.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.evaluation_rules"
+msgstr "I posti letto disponibili sono valutati come una <highlight>e</highlight>  delle condizioni degli altri vostri criteri di ricerca. Questo significa che ogni iscrizione segnalata conterrà i vostri criteri di ricerca <highlight> e </highlight> allo stesso tempo soddisferà quelle qui indicate"
+
+# --- English text = <highlight>Sleeping/People</highlight> This refers to the number of people who can sleep in an exchange home.  It includes beds, pull-out sofas, etc.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.sleeps_people"
+msgstr "<highlight>Letti/Persone</highlight> Questo si riferisce al numero di persone che possono dormire nella casa di scambio. Include letti e divani letto."
+
+# --- English text = <highlight>Find listings with -- adults </highlight> This is evaluated as an exact number.  So if you choose to search for listings with 2 adults, the system will not return listings with 1 adult.  If you do not want to use this criteria in your search just set the dropdown to the double dash (--).
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.number_of_adults"
+msgstr "<highlight>Trova iscrizioni con -- adulti </highlight> Questo viene indicato con numeri esatti. Quindi se lei sceglie di cercare iscrizioni con 2 adulti, il sistema non manderà iscrizioni con 1 adulto. Se non vuole utilizzare questo criterio di ricerca inserisca la doppia linetta (--) nella casella a scorrimento"
+
+# --- English text = <highlight>With or without children </highlight>Choose the double dash (--) if you don't care one way or the other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.children"
+msgstr "<highlight>Con o senza bambini </highlight> Inserisca la doppia linetta (--) se l'una  o l'altra  possibilità non le interessano."
+
+# --- English text = About Keyword Search
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.headline"
+msgstr "Ricerca sulle Parole Chiave"
+
+# --- English text = Keywords are the way to search within a member's free text.
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.introtext"
+msgstr "Le Parole Chiave sono il metodo di ricerca in un testo libero di un socio"
+
+# --- English text = <highlight>How do they work?</highlight> Keywords are OR conditions.  A given listing will be returned if it contains the first keyword, OR the second one, OR the third one.</p>
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.evaluation_rules"
+msgstr "<highlight>Come funziona con le Parole Chiave?</highlight> Le Parole Chiave funzionano così: Una iscrizione viene segnalata se contiene la prima Parola Chiave , oppure la seconda Parola Chiave oppure la terza.</p>"
+
+# --- English text = About Reverse Search
+# --- Location:
+msgid "reverse_search.headline"
+msgstr "Ricerca Inversa"
+
+# --- English text = Introducing reverse search!  It's the best way to find other members who are specifically interested in visiting your country, your region or your nearest city.
+# --- Location:
+msgid "reverse_search.introtext"
+msgstr "La ricerca inversa é il modo migliore per trovare altri soci che sono particolarmente interessati a visitare il vostro paese, la vostra regione o una città vicina"
+
+# --- English text = In the Destinations Wishlist you can enter an unlimited number of countries, regions and cities that you would like to visit. This search draws from that information and will return listings of members who have indicated in thier Destinations Wishlist that they would like to visit the same country, region, or nearest city as yours. The more you define your preferred destinations, the richer this feature will become for everyone.
+# --- Location:
+msgid "reverse_search.evaluation_rules"
+msgstr "Nella lista delle Destinazioni Desiderate lei può inserire un numero illimitato di paesi, regioni e città che vorrebbe visitare. Questa ricerca parte da queste informazioni e vi saranno sottoposte  iscrizioni di soci che hanno indicato nella loro lista di preferenze  il paese, la regione o la città che voi offrite. Meglio saranno definite le vostre destinazioni preferite, più ricco sarà questo servizio per tutti"
+

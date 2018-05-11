@@ -1,0 +1,69 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-01 17:54+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Error Text
+# --- English text = Your earliest for travel is not within the next 8 weeks.
+msgid "errors.earliest_date"
+msgstr "Je vroegste datum om te ruilen valt niet binnen de eerstkomende 8 weken."
+
+# --- Error Text
+# --- English text = Your offer is not available! Please change your availability status in your profile.
+msgid "errors.offer_not_available"
+msgstr "Je aanbieding is niet beschikbaar! Wijzig s.v.p. de beschikbaarheidsstatus in je aanbieding."
+
+# --- Error Text
+# --- English text = Your offer is already listed in the hotlist.
+msgid "errors.offer_already_listed"
+msgstr "Je aanbieding is reeds opgenomen in de Hot List"
+
+# --- Error Text
+# --- English text = Sorry, your membership has expired.
+msgid "errors.expired_membership"
+msgstr "Sorry, je deelname is verlopen"
+
+# --- English text = Last Minute Travel Opportunities
+msgid "headline"
+msgstr "Last Minute Ruilmogelijkheden "
+
+# --- Button Text
+# --- English text = Add my offer to the hotlist
+msgid "add_my_offer_button"
+msgstr "Voeg mijn aanbieding toe aan de Hot List"
+
+# --- English text = Added
+msgid "added"
+msgstr "Bijgevoegd"
+
+# --- English text = Looking for a spontaneous exchange? The listings below belong to members actively searching an exchange partner and wanting to travel in the coming eight weeks. The last minute offer expires after three days and the listing is removed from the Last Minute list. Our members can renew their Last Minute list entries at any time.
+msgid "intro_text"
+msgstr "Ben je op zoek naar een onmiddellijke ruil?  De aanbiedingen hieronder zijn van deelnemers die actief zoeken naar een ruilpartner en willen vertrekken in de eerstvolgende 8 weken.  De Last Minute aanbiedingen verlopen na 3 dagen en de aanbieding wordt verwijderd uit de Last Minute lijst.  Onze deelnemers kunnen hun aanbieding altijd opnieuw op de Last Minute lijst plaatsen."
+
+# --- English text = Sorry, there are currently no hotlist entries available.
+msgid "messages.no_hotlist_entries"
+msgstr "Sorry, tijdelijk geen Hot List aanbiedingen beschikbaar."
+
+# --- English text = Sorry, your offer is still not complete. Please use "Edit Listing Details" to add necessary information.
+msgid "errors.listing_incomplete"
+msgstr "Het spijt ons, je aanbieding is nog steeds niet volledig.  Gelieve \"Geef de details van je aanbieding op\" te gebruiken om de nodige informatie toe te voegen."
+
+# --- English text = At the moment, your listing is inelegible for our hotlist.  Please contact your local organiser for help.
+# --- (Edited - Mar, 2009) 
+msgid "errors.listing_ineligible"
+msgstr "Je aanbieding is ofwel nog niet goedgekeurd, ofwel geblokkeerd door je lokale organisator wegens een bepaalde reden.  Op dit moment komt ze niet in aanmerking voor de Hotlist.  Neem contact op met je lokale organisator hulp."
+
+# --- English text = Thanks! Your offer has been added to our hotlist.
+msgid "messages.success_add_to_hotlist"
+msgstr "Dank je! Je aanbieding is toegevoegd aan de Hotlist."
+

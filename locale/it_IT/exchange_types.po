@@ -1,0 +1,109 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2011-08-31 14:11+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Transaction Type
+# --- English text = House-sitting
+msgid "AH"
+msgstr "Si offre un alloggio da sorvegliare (house-sitting)"
+
+# Transaction Type
+# --- English text = Bed &amp; Breakfast
+msgid "BB"
+msgstr "Bed & Breakfast (indicare il numero delle persone)"
+
+# Transaction Type
+# --- English text = Double exchange
+msgid "DX"
+msgstr "Doppio scambio (due famiglie desiderano 2 case)"
+
+# Transaction Type
+# --- English text = Non-Simultaneous exchange
+msgid "NX"
+msgstr "Scambio non simultaneo"
+
+# Transaction Type
+# --- English text = Hospitality Offered
+msgid "H"
+msgstr "Offerta di Ospitalità"
+
+# Transaction Type
+# --- English text = Want to house-sit
+msgid "HS"
+msgstr "Si chiede un alloggio da sorvegliare (house sitting)"
+
+# Transaction Type
+# --- English text = Hospitality wanted
+msgid "HW"
+msgstr "Si chiede ospitalità"
+
+# Transaction Type
+# --- English text = Long-term rental wanted
+msgid "LR"
+msgstr "Affitto di lunga durata"
+
+# Transaction Type
+# --- English text = Long-term exchange wanted
+msgid "LX"
+msgstr "Si desidera uno scambio di lunga durata"
+
+# Transaction Type
+# --- English text = Open for all offers
+msgid "O"
+msgstr "Aperto a tutte le offerte"
+
+# Transaction Type
+# --- English text = Rent or Exchange Home
+msgid "RO"
+msgstr "Home for rent or exchange"
+
+# Transaction Type
+# --- English text = Rental - No Exchange
+msgid "ER"
+msgstr "Home for rent only"
+
+# Transaction Type
+# --- English text = Home wanted to rent
+msgid "RR"
+msgstr "Si chiede una casa in affitto"
+
+# Transaction Type
+# --- English text = Weekend exchange
+msgid "WE"
+msgstr "Scambi durante i weekend"
+
+# Transaction Type
+# --- English text = Exchange of home
+msgid "X"
+msgstr "Scambio casa"
+
+# Transaction Type
+# --- English text = Hospitality Exchange
+msgid "XH"
+msgstr "Scambio di ospitalità"
+
+# Transaction Type
+# --- English text = Youth exchange
+msgid "XY"
+msgstr "Scambio tra adolescenti"
+
+# Transaction Type
+# --- English text = Hospitality for young person(s)
+msgid "OY"
+msgstr "Si offre ospitalità ad un adolescente"
+
+# Transaction Type
+# --- English text = Hospitality by young person(s)
+msgid "WY"
+msgstr "Si chiede ospitalità per un adolescente"

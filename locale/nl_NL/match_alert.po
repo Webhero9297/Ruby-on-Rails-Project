@@ -1,0 +1,173 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-01-19 19:43+0100\n"
+"PO-Revision-Date: 2012-02-09 16:08+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Match Alert - For Busy Exchangers!
+msgid "headline"
+msgstr "Match Alert! Voor vlijtige huisruilers!"
+
+# --- English text = You decide what is right for you!
+msgid "slogan"
+msgstr "Jij beslist wat voor jou het beste is!"
+
+# --- English text = We will send you a up to ten emails in total at the frequency you choose. Each email will contain up to twenty new and/or recently changed listings which correspond closely to the settings you select below.
+# --- (Jan, 2009)  Edited text... please compare.
+msgid "intro_text"
+msgstr "Wij zullen je  tot 10 e-mails toesturen in de frequentie die uzelf kiest.  Elke e-mail bevat tot 20 nieuwe of pas-gewijzigde aanbiedingen die overeenkomen met de instellingen die je hieronder selecteert.  Stel de frequentie in op \"nooit\" om de mails stop te zetten."
+
+# --- English text = Match alert emails left in this round
+msgid "number_left_to_send"
+msgstr "E-mails die overblijven in deze ronde"
+
+# --- English text = Save My Settings
+msgid "save_button"
+msgstr "Bewaar mijn instellingen "
+
+# --- English text = Mail Settings
+msgid "mail_settings.headline"
+msgstr "Mail Instellingen"
+
+# --- English text = Frequency
+msgid "mail_settings.frequency"
+msgstr "Frequentie"
+
+# --- English text = Content
+msgid "content.headline"
+msgstr "Inhoud"
+
+# --- English text = Match Settings
+msgid "settings.headline"
+msgstr "Instellingen voor de overeenstemming"
+
+# --- English text = Destinations
+msgid "settings.destinations"
+msgstr "Bestemmingen"
+
+# --- English text = Destinations Available
+msgid "settings.destinations_available"
+msgstr "Bestemmingen beschikbaar"
+
+# --- English text = Destinations Chosen
+msgid "settings.destinations_chosen"
+msgstr "Gekozen bestemmingen"
+
+# --- English text = You can save any number of destinations in this section by clicking on the orange boxes to add desired destinations at (1) country level OR (2) country-region level OR (3) country-region-city level.
+# --- Location = Introductory text found underneath the headline "Destinations Wishlist"
+msgid "destinations.introtext"
+msgstr "U kunt hier een onbeperkt aantal bestemmingen aangeven door op een oranje box te klikken en zo de gewenste bestemming toe te voegen op de volgende niveau's: (1) per land, OF (2) per landstreek, OF (3) per grote stad. "
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Andere details"
+
+# --- English text = Email language
+msgid "mail_settings.language"
+msgstr "E-mail taal"
+
+# --- English text = Include only new listings
+msgid "content.only_new"
+msgstr "Zend alleen nieuwe aanbiedingen"
+
+# --- English text = Send both new and changed listings
+msgid "content.new_and_changed"
+msgstr "Zend zowel nieuwe als gewijzigde aanbiedingen"
+
+# --- English text = None of the adjustments you make to these categories will change your profile.  They are used only for Match Alert!
+msgid "no_change_to_profile"
+msgstr "De aanpassingen die je maakt in deze categorieën zullen je aanbieding niet wijzigen.  Zij dienen alleen voor het zoeken van overeenstemming!"
+
+# --- English text = Minimum number of adults
+msgid "settings.minimum_adults"
+msgstr "Minimum volwassenen"
+
+# --- English text = with children
+msgid "settings.with_children"
+msgstr "met kinderen"
+
+# --- English text = without children
+msgid "settings.without_children"
+msgstr "zonder kinderen"
+
+# --- English text = with or without children
+msgid "settings.with_or_without_children"
+msgstr "met of zonder kinderen"
+
+# --- This label is hidden text.
+# --- English text = Children
+msgid "settings.children"
+msgstr "kinderen"
+
+# --- English text = Success!  Your MatchAlert settings have been saved
+msgid "messages.settings_saved_successfully"
+msgstr "Succes!  De instellingen voor het zoeken van overeenstemming zijn bewaard."
+
+# --- English text = There was an error!
+msgid "errors.undefined"
+msgstr "Er is een fout gebeurd!"
+
+# --- English text = Thanks!  You are registered to receive 10 MatchAlert emails.  They will be sent to the email address(s) in your listing.
+msgid "messages.ok_send_to_address"
+msgstr "Dank je!  Je hebt je geregistreerd voor de ontvangst van 10 e-mails.  Zij zullen verzonden worden naar het(de) e-mailadres(sen) in je aanbieding."
+
+# --- English text = Sleeping Accommodations
+msgid "settings.accommodations_headline"
+msgstr "Logeermogelijkheid"
+
+# --- English text = Exchange Family
+msgid "settings.exchange_family"
+msgstr "RUILFAMILIE"
+
+# --- Button Text
+# --- English text = Send 10 more emails
+msgid "send_another_round"
+msgstr "Zend nog 10 mails"
+
+# --- English text = <strong>Stop!</strong> Set the frequency to \"never\" to stop the delivery of these Match Alert! Emails.
+msgid "stop_the_mails"
+msgstr "<strong>Stop!</strong>Stel de frequentie \"nooit\" in om de ontvangst van e-mails te stoppen! E-mails."
+
+# --- English text = The number of Match Alert emails left is set out below. To begin another round please check the frequency, settings and destinations and click the button below that says: Send 10 more emails.
+# --- Text change/clarification requested by B. Hayes (Aug, 2010)
+msgid "stopped_start_again"
+msgstr "Het hulpprogramma 'Zoek overeenstemming' is gestopt met het sturen van automatische e-mails.  Indien je opnieuw mails wil ontvangen, klik dan op 'Stuur 10 overeenstemmingsmails'.  Let op dat de frequentie voor het ontvangen van de mails niet op 'nooit' staat."
+
+# --- English text = Listing Types
+# --- This is hidden text
+msgid "content.listing_types"
+msgstr "Aanbieding types"
+
+# Frequency
+# --- English text = once a week
+msgid "mail_settings.weekly"
+msgstr "éénmaal per week"
+
+# Frequency
+# --- English text = every other week
+msgid "mail_settings.bi-weekly"
+msgstr "elke week"
+
+# Frequency
+# --- English text = once a month
+msgid "mail_settings.monthly"
+msgstr "éénmaal per maand"
+
+# Frequency
+# --- English text = never
+msgid "mail_settings.never"
+msgstr "nooit"
+
+# --- English text = My Match Alert Status
+msgid "my_status"
+msgstr "Mijn Match Alert status"
+

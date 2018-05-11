@@ -1,0 +1,139 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-06-16 19:52+0100\n"
+"PO-Revision-Date: 2011-10-12 17:12+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Save Text
+msgid "save_text_button"
+msgstr "本文を保存する"
+
+# --- English text = Picture Upload
+# --- (Mar. 2009) Edited to read: Upload Pictures
+msgid "upload_title"
+msgstr "写真をアップロードする"
+
+# --- English text = Do you really want to delete this photo?
+msgid "confirm_photo_delete"
+msgstr "この写真を本当に削除しますか？"
+
+# --- English text = Delete Photo
+# --- Location = This text appears when you put your mouse pointer over the trash can icon.
+msgid "thumbnails.delete_photo"
+msgstr "この写真を削除する"
+
+# --- English text = Primary Photo
+msgid "Primary Photo"
+msgstr "主とする写真"
+
+##### --- English text = Photos
+msgid "left_column.photos"
+msgstr "写真"
+
+# --- English text = You have not uploaded a primary photo yet!  This way please...
+msgid "messages.no_primary_photo"
+msgstr "あなたは主の写真をまだ貼り付けていません！こちらからどうぞ・・・"
+
+# --- English text = Additional Text and Photos
+msgid "headline"
+msgstr "追加の本文と写真（複数）"
+
+# --- English text = You can post up to twenty additional photos, which you should sort into different categories. Choose the category from the box below. For comments on each category you can also insert as much text as you like.
+msgid "allowed_photos_and_text"
+msgstr "２０枚までの追加写真、それらを異なったカテゴリーに入れて貼り付けることが出来ます。下のボックスからカテゴリーを選んでください。各カテゴリーのコメントは好きなだけの文章を挿入できます。"
+
+##### --- English text = Upload This Photo
+msgid "upload_button"
+msgstr "この写真をアップロードする"
+
+# --- English text = Only jpg files will be accepted.
+msgid "upload_jpg"
+msgstr "jpg files のみ使用可"
+
+# --- English text = Change the category
+msgid "change_category"
+msgstr "カテゴリーを変える"
+
+# --- English text was = Additional Descriptive Text
+# --- (Mar. 2009)  Edited for clarity = Add Category Text
+msgid "additional_text_title"
+msgstr "カテゴリー・テキストを追加"
+
+# --- Error Text
+# --- English text = You have reached the maximum limit of 20 photos
+msgid "messages.maximum_photos_reached"
+msgstr "あなたの写真は最大の枚数である20枚に達しました。"
+
+# --- Error Text
+# --- English text = Your text has been saved successfully.
+msgid "messages.text_save_successful"
+msgstr "本文は保存に成功しました。"
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "errors.incorrect_file_type"
+msgstr "ＪＰＧファイルだけをアップロードしてください。"
+
+# --- English text = Please click the browse button to select a photo to upload.
+msgid "errors.no_photo_selected"
+msgstr "アップロードする写真を選択するブラウザ・ボタンをクリックしてください。"
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+msgid "messages.photo_upload_successful"
+msgstr "イメージはアップロードに成功しました。"
+
+# --- English text = To delete a photo click the orange garbage bin.
+msgid "how_to_delete_photo"
+msgstr "写真を削除するのは、オレンジのゴミ箱へクリックしてください。"
+
+# --- English text = Do you want to edit or delete the comments you have already written? Choose the right category in the dropdown box and the appropriate text will be loaded into the editor. Make your changes and remember to press the \"Save Text\" button.
+msgid "how_to_edit"
+msgstr "あなたが書いたコメントを編集するか削除したいですか？ドロップダウン・ボックスの正しいカテゴリーを選択してください。そうすれば、正しい文章がエディターにロードされるでしょう。変更をしてから、 \"Save Text\"ボタンを押すことを忘れないでください。"
+
+# --- English text = To post a photo browse your computer files to find the right one, then press <strong>\"Upload This Photo\"</strong>.  Please be patient until you get a response. Depending on the size of your photo and the speed of your internet connection this could take a little while.
+msgid "how_to_upload"
+msgstr "あなたのコンピューターファイルから適切な写真をみつけて掲示するためには、 <strong>\"この写真をアップロードする\"</strong>. を押します。結果が出てくるまで待っていてください。あなたの写真のサイズやインターネットのコネクト速度などにより時間がかかります。"
+
+# --- English text = Or you can write as much as you like about each category here. Whatever you write will be visible only to other members.
+msgid "additional_text_intro"
+msgstr "ここの各々のカテゴリーについて書きたいだけ書く事が出来ます。あなたの書いたものは、他の会員だけが見ることが出来ます。"
+
+# --- English text = <strong>Tip:</strong> Remember when composing your comments that you are addressing an international audience. Your choice of language could be important in talking to potential exchange partners from other countries.
+# --- Writing Tip: inside the <strong></strong> tags makes the text bold.
+msgid "language_tip"
+msgstr "あなたがコメントを書いているとき、それは世界的な聴衆に向かって書いている事を忘れないで下さい。どの言語を選ぶかという事は、どの国の人とエクスチェンジをしたいかという選択の際に、とても重要な事です。"
+
+# --- English text = Choose a category
+msgid "choose_category.headline"
+msgstr "カテゴリーを選択"
+
+# --- English text = Caption Your Photo
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.headline"
+msgstr "写真の説明"
+
+# --- English text = If you like you can add a short caption for your photo by typing it in the box below.
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.introtext"
+msgstr "もし写真に短い説明文を入れたい場合は、下記のボックスに書き込んでください。"
+
+# --- English text = Caption:
+# --- Location = This text comes in a pop-up box when a member clicks on the edit icon (a little pencil) next to on of their extra photos (in the left-hand column)
+msgid "captioning.label"
+msgstr "説明文："
+
+# --- English text = Before you copy your text from a Microsoft Word document you should save your document as a filtered web page.  This is easy to do.  Click the Help icon above for step-by-step instructions.
+# --- Location = 1st orange "Tip" in "Step #3 Add Category Text"
+msgid "ms_word_tip"
+msgstr "マイクロソフトワードからあなたのテキストをコピーする前に、フィルターウエブページとして保存をするべきです。このやり方は簡単で、上記のステップーバイーステップのコマンドのヘルプアイコンをクリックしてください。"
+

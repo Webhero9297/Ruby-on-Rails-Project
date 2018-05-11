@@ -1,0 +1,274 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-10-19 18:17+0100\n"
+"PO-Revision-Date: 2011-10-19 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Welcome to Intervac Home Exchange
+# --- Location = 
+# (New: October, 2011)
+msgid "guest_dashboard.headline"
+msgstr "Welcome to Intervac Home Exchange"
+
+# --- English text = This application will help you to find your next home exchange holiday. In order to utilize the messenger system you need to login. You will find interesting home exchange listings from all over the world under "Listings".
+# --- Location = 
+# (New: October, 2011)
+msgid "guest_dashboard.introtext"
+msgstr "This application will help you to find your next home exchange holiday. In order to utilize the messenger system you need to login. You will find interesting home exchange listings from all over the world under 'Listings'."
+
+# --- English text = Have fun!
+# --- Location = 
+# (New: October, 2011)
+msgid "guest_dashboard.closing"
+msgstr "Have fun!"
+
+# --- English text = Welcome back, {{member_name}}!
+# --- IMPORTANT: Do not translate the placeholder text {{member_name}}.  The system will replace this with the individual member's name
+# --- Location = 
+# (New: October, 2011)
+msgid "member_dashboard.headline"
+msgstr "Welcome back, {{member_name}}!"
+
+# --- English text = 
+# --- Location = 
+# (New: October, 2011)
+msgid "member_dashboard.new_mail_message"
+msgstr "{{number}} new mail!"
+
+# --- English text = My favorites
+# --- Location = 
+# (New: October, 2011)
+msgid "member_dashboard.favorites.headline"
+msgstr "My favorites"
+
+# --- English text = Favorite
+# --- Location = Alternate text for the favorite icon
+# (New: October, 2011)
+msgid "favorites.alt_text"
+msgstr "Favorite"
+
+# --- English text = No favorites
+# --- Location = 
+# (New: October, 2011)
+msgid "member_dashboard.favorites.no_favorites"
+msgstr "No favorites"
+
+# --- English text = Login
+# --- Location = 
+# (New: October, 2011)
+msgid "dashboards.login_button"
+msgstr "Login"
+
+# --- English text = Don't have an account?
+# --- Location = 
+# (New: October, 2011)
+msgid "dashboards.no_account.headline"
+msgstr "Don't have an account?"
+
+# --- English text = Don't have an account yet? Sign up for a free Intervac trial account right now!
+# --- Location = 
+# (New: October, 2011)
+msgid "dashboards.no_account.text"
+msgstr "Don't have an account yet? Sign up for a free Intervac trial account right now!"
+
+# --- English text = Sign up!
+# --- Location = 
+# (New: October, 2011)
+msgid "dashboards.no_account.button"
+msgstr "Sign up!"
+
+# --- English text = Login now
+# --- Location = Login screen
+# (New: October, 2011)
+msgid "login_screen.headline"
+msgstr "Login now"
+
+# --- English text = Remain logged in (on this device)
+# --- Location = Login screen
+# (New: October, 2011)
+msgid "login_screen.remember_me"
+msgstr "Remain logged in (on this device)"
+
+# --- English text = Where do you want to go?
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.search.headline"
+msgstr "Where do you want to go?"
+
+# --- English text = I live in
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.search.my_location.text"
+msgstr "I live in"
+
+# --- English text = Doesn't matter
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.search.my_location.default_choice"
+msgstr "Doesn't matter"
+
+# --- English text = and want to go to
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.search.destination.text"
+msgstr "and want to go to"
+
+# --- English text = Anywhere
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.search.destination.default_choice"
+msgstr "Anywhere"
+
+# --- English text = Search results
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.list_divider.search_results"
+msgstr "Search results"
+
+# --- English text = Hotlist
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.list_divider.hotlist"
+msgstr "Hotlist"
+
+# --- English text = My matches
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.list_divider.my_matches"
+msgstr "My matches"
+
+# --- English text = Latest
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.list_divider.latest"
+msgstr "Latest"
+
+# --- English text = Add to favorites
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.details.add_favorite"
+msgstr "Add to favorites"
+
+# --- English text = Remove favorite
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.details.remove_favorite"
+msgstr "Remove favorite"
+
+# --- English text = Contact
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.details.contact"
+msgstr "Contact"
+
+# --- English text = View all {{number}} photos
+# --- IMPORTANT: Please do not translate the placeholder {{number}}.  The system will replace it with a correct number so the text will read something like "View all 21 photos"
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.details.view_all_photos"
+msgstr "View all {{number}} photos"
+
+
+# --- English text = Short facts
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.details.list_divider.short_facts"
+msgstr "Short facts"
+
+# --- English text = Suitable for <styled_text>Max {{number}} persons</styled_text>
+# --- Location = 
+# (New: October, 2011)
+msgid "listings.details.suitable_for_persons"
+msgstr "Suitable for <styled_text>Max {{number}} persons</styled_text>"
+
+# --- English text = House plan
+# --- Location = 
+# (New: November, 2011)
+msgid "listings.details.list_divider.house_plan"
+msgstr "House plan"
+
+# --- English text = Home appliances
+# --- Location = 
+# (New: November, 2011)
+msgid "listings.details.list_divider.home_appliances"
+msgstr "Home appliances"
+
+# --- English text = Our family
+# --- Location = 
+# (New: November, 2011)
+msgid "listings.details.list_divider.our_family"
+msgstr "Our family"
+
+# --- English text = Lifestyle
+# --- Location = 
+# (New: November, 2011)
+msgid "listings.details.list_divider.lifestyle"
+msgstr "Lifestyle"
+
+# --- English text = Neighbourhood
+# --- Location = 
+# (New: November, 2011)
+msgid "listings.details.list_divider.neighbourhood"
+msgstr "Neighbourhood"
+
+# --- English text = Destination wishlist
+# --- Location = 
+# (New: November, 2011)
+msgid "listings.details.list_divider.destinations"
+msgstr "Destination wishlist"
+
+# --- English text = Information
+# --- Location = 
+# (New: November, 2011)
+msgid "messages.info_page.list_divider.information"
+msgstr "Information"
+
+# --- English text = Sent
+# --- Location = 
+# (New: November, 2011)
+msgid "messages.tab.sent"
+msgstr "Sent"
+
+# --- English text = Message
+# --- Location = 
+# (New: November, 2011)
+msgid "messages.new_message.body"
+msgstr "Message"
+
+# --- English text = No messages
+# --- Location = 
+# (New: November, 2011)
+msgid "messages.no_messages"
+msgstr "No messages"
+
+# --- English text = User details
+# --- Location = 
+# (New: November, 2011)
+msgid "settings.list_divider.user_details"
+msgstr "User details"
+
+# --- English text = You are logged in as
+# --- Location = 
+# (New: November, 2011)
+msgid "settings.login_identity"
+msgstr "You are logged in as"
+
+# --- English text = Wrong username/password!
+# --- Location = 
+# (New: October, 2011)
+msgid "login.error"
+msgstr "Wrong username/password!"
+
+# --- English text = Are you sure you want to delete this message?
+# --- Location = This message is shown to members when they want to delete a message.
+msgid "messages.delete_warning"
+msgstr "Are you sure you want to delete this message?"

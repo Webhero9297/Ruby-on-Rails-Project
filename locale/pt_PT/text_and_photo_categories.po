@@ -1,0 +1,32 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-06-16 19:52+0100\n"
+"PO-Revision-Date: 2009-12-15 17:12+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home
+msgid "home"
+msgstr "A nossa casa"
+
+# --- English text = Our Family and Pets
+msgid "family"
+msgstr "A nossa familia e animais"
+
+# --- English text = Lifestyle
+msgid "lifestyle"
+msgstr "Estilo de vida"
+
+# --- English text = Neighbourhood
+msgid "neighbourhood"
+msgstr "Vizinhança""
+

@@ -1,0 +1,150 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2010-11-03 19:11+0100\n"
+"PO-Revision-Date: 2012-02-09 15:15+0100\n"
+"Last-Translator: Intervac-NL, Roel Eissen <eissen@intervac.nl>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Search Criteria
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.headline"
+msgstr "Zoek Criteria"
+
+# --- English text = About Exchange Types
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.headline"
+msgstr "Over Soorten Ruilvakanties"
+
+# --- English text = Exchange types are evaluated as follows: any listing returned will fulfill your other criteria <highlight>and</highlight> at least one of the exchange types you have chosen below.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.evaluation_rules"
+msgstr "De verschillende soorten ruilvakanties worden als volgt geëvalueerd: iedere aanbieding die u te zien krijgt voldoet aan uw andere criteria <highlight>plus</highlight> tenminste één van de soorten vakanties die u hieronder heeft gekozen."
+
+# --- English text = Following is a list of all the exchange types supported by our online system, and their definitions.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.list_intro"
+msgstr "Hier staat een lijst van alle soorten vakanties met hun definities, die door ons online-systeem worden ondersteund."
+
+# --- English text = <highlight>Home Exchange: </highlight>Our main focus - two families agree to live in each other's homes over a specified period of time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.home_exchange"
+msgstr "<highlight>Vakantiewoningruil: </highlight>Ons hoofdprogramma - twee gezinnen sluiten een overeenkomst om gedurende een afgesproken periode in elkaars huis te wonen. "
+
+# --- English text = <highlight>House Sitting: </highlight>Looking after someone else's home, mail, pets while they are away.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.house_sitting"
+msgstr "<highlight>Huisoppas: </highlight>Oppassen op het huis van iemand anders, plus zorgen voor de post, huisdieren en tuin gedurende hun afwezigheid."
+
+# --- English text = <highlight>Double Exchange: </highlight>Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.double_exchange"
+msgstr "<highlight>Dubbelruil: </highlight>Twee gezinnen ( zij wonen vaak dicht bij elkaar ) zoeken een ruil met twee andere gezinnen. Dit soort ruil is favoriet bij buren of families die samen met hun gezinnen op vakantie gaan."
+
+# --- English text = <highlight>Hospitality Exchange: </highlight>Members agree to exchange visits in each other’s homes.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.hospitality_exchange"
+msgstr "<highlight>Uitwisseling Gastvrijheid: </highlight>Deelnemers spreken af om bij elkaar te komen logeren."
+
+# --- English text = <highlight>Long Term Exchanges: </highlight>A favorite between retired people, university staff, or employees of global multi-national companies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.long_term_exchanges"
+msgstr "<highlight>Langdurige Ruil: </highlight>Populair tussen gepensioneerd mensene, universiteits personeel, of werknemers van multi-nationals die tijdelijk worden uitgezonden."
+
+# --- English text = <highlight>Bed and Breakfast: </highlight>This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.bed_and_breakfast"
+msgstr "<highlight>Bed and Breakfast: </highlight>Dit is hetzelfde als de bekende publieke variant, maar dit wordt aangeboden tussen deelnemers, al of niet tegen een geringe betaling."
+
+# --- English text = <highlight>Rentals: </highlight>Members sometimes list holiday homes which they usually rent offering a reduced price to Intervac members.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.rentals"
+msgstr "<highlight>Verhuur: </highlight>Deelnemers bieden soms ook een vakantiehuis aan voor verhuur, voor Intervac Deelnemers gewoonlijk voor een gereduceerde prijs.  "
+
+# --- English text = <highlight>Youth Exchange:  </highlight>A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_exchange"
+msgstr "<highlight>Jeugduitwisseling:  </highlight>Een kans voor jonge mensen om nieuwe culturen te leren kennen zonder dat hun ouders voortdurend in de buurt zijn. "
+
+# --- English text = <highlight>Youth Hospitality: </highlight>Young people agree to visit each other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_types.youth_hospitality"
+msgstr "<highlight>Gastvrijheid Jongeren: </highlight>Jonge mensen die afspreken bij elkaar te komen logeren. "
+
+# --- English text = About Exchange Dates
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.headline"
+msgstr "Over Uitwisselings Datums"
+
+# --- English text = Exchange dates require at least one overlapping day in order to be included in your search results.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.evaluation_rules"
+msgstr "De afspraak-datums vereisen tenminste één dag overlap, om te worden meegenomen in uw zoekresultaten."
+
+# --- English text = In these fields you should show the earliest date you are available to travel, and the latest date by which you must return home.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.exchange_dates.best_practice"
+msgstr "In deze velden kunt u de vroegste datum vermelden waarop u kunt vertrekken, en de laatste datum waarop u weer moet thuiskomen."
+
+# --- English text = About Sleeping Accomodations
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.headline"
+msgstr "Over Slaap Accommodaties"
+
+# --- English text = Sleeping accomodations is evaluated as an <highlight>and</highlight> condition to your other search criteria.  This means any listing returned will have your other criteria <highlight>and</highlight> fulfill the ones below as well.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.evaluation_rules"
+msgstr "Slaap accommodaties worden geévalueers als een <highlight>en</highlight> voorwaarde bij uw andere zoek criteria. Dit betekent dat iedere aanbieding die tevoorschijn komt, ook voldoet aan uw andere criteria <highlight>en</highlight> bovendien voldoet aan aan de onderstaande."
+
+# --- English text = <highlight>Sleeping/People</highlight> This refers to the number of people who can sleep in an exchange home.  It includes beds, pull-out sofas, etc.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.sleeps_people"
+msgstr "<highlight>Slaapgelegenheid voor</highlight> Dit geeft aan voor hoeveel mensen er aan slaapgelegenheid is in het huis. Het houdt in bedden, opklapbedden, slaapbanken, enz. "
+
+# --- English text = <highlight>Find listings with -- adults </highlight> This is evaluated as an exact number.  So if you choose to search for listings with 2 adults, the system will not return listings with 1 adult.  If you do not want to use this criteria in your search just set the dropdown to the double dash (--).
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.number_of_adults"
+msgstr "<highlight>Zoek Aanbiedingen met -- volwassenen </highlight> Dit wordt verwerkt als een exact getal. Dus, als u aangeeft te zoeken naar aanbiedingen met 2 volwassenen, zal het systeem niet komen met een aanbieding met 1 volwassene. Als u dit criterium niet wilt gebruiken in uw zoekactie,  vul dan in het dropdown blok het dubbele streepje in (--)."
+
+# --- English text = <highlight>With or without children </highlight>Choose the double dash (--) if you don't care one way or the other.
+# --- Location: Search page - click on the help icon near the Search Criteria headline
+msgid "search_criteria.sleeping_accomodations.children"
+msgstr "<highlight>Met of Zonder Kinderen </highlight>Kies hier het dubbele streeje (--) indien het u niet uitmaakt."
+
+# --- English text = About Keyword Search
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.headline"
+msgstr "Over Zoeken op Keyword"
+
+# --- English text = Keywords are the way to search within a member's free text.
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.introtext"
+msgstr "Het gebruik van Keywords ( Sleutelwoorden ) is de manier om mee te zoeken binnen in de vrije tekst van een deelnemer. "
+
+# --- English text = <highlight>How do they work?</highlight> Keywords are OR conditions.  A given listing will be returned if it contains the first keyword, OR the second one, OR the third one.</p>
+# --- Location: Search page - click on the help icon near the Keyword Search headline
+msgid "search_keywords.evaluation_rules"
+msgstr "<highlight>Hoe werken zij?</highlight> Keywords zijn OF voorwaarden. Een bepaalde aanbieding zal tevoorschijn komen, als die het eerse keyword bevat, OF het tweede, OF het derde.</p>"
+
+# --- English text = About Reverse Search
+# --- Location:
+msgid "reverse_search.headline"
+msgstr "Over Omgekeerd Zoeken"
+
+# --- English text = Introducing reverse search!  It's the best way to find other members who are specifically interested in visiting your country, your region or your nearest city.
+# --- Location:
+msgid "reverse_search.introtext"
+msgstr "Begin met Omgekeerd Zoeken! Het is de beste manier om andere deelnemers te vinden, die speciale interesse hebben een bezoek te brengen aan uw land, uw streek, of  de dichtstbijzijnde grote stad bij u in de buurt. "
+
+# --- English text = In the Destinations Wishlist you can enter an unlimited number of countries, regions and cities that you would like to visit. This search draws from that information and will return listings of members who have indicated in thier Destinations Wishlist that they would like to visit the same country, region, or nearest city as yours. The more you define your preferred destinations, the richer this feature will become for everyone.
+# --- Location:
+msgid "reverse_search.evaluation_rules"
+msgstr "In de Lijst Gewenste Bestemmingen kunt u een onbeperkt aantal invullen van landen, landstreken en grote steden die u zou willen bezoeken. Deze zoekactie gebruikt deze informatie en komt met aanbiedingen van deelnemers die in hun Lijst Gewenste Bestemmingen ook uw land, landstreek of dichtstbijzijnde grote stad hebben ingevuld. Hoe meer landen u invult als uw voorkeur bestemmingen, des te meer mogelijkheden worden geboden voor iedereen.  "
+

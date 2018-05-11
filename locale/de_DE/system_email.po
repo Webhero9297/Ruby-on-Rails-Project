@@ -1,0 +1,261 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-25 19:11+0100\n"
+"PO-Revision-Date: 2012-02-06 17:16+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Dear {{member_name}}
+msgid "dear"
+msgstr "Liebe/r {{member_name}}"
+
+# --- English text = Wishing you many successful exchanges
+msgid "closing"
+msgstr "Wünsche Ihnen viele erfolgreiche Partner mit INTERVAC- Haustausch!"
+
+# --- English text = The Intervac Team
+msgid "signature"
+msgstr "Unser INTERVAC-Team"
+
+# --- English text = You are receiving the email because an Intervac member would like to contact you about a home exchange.
+msgid "waiting_messages.reason"
+msgstr "Sie haben eine Nachricht erhalten. Ein INTERVAC-Mitglied möchte gerne mit Ihnen in Kontakt treten."
+
+# --- Member Messages - message waiting
+# --- English text = {{member_number}}: You have {{count}} unread messages.
+# --- IMPORTANT: Do not translate the text inside {{member_number}} or {{count}} as these both will be replaced with the member id and the number of unread messages.
+msgid "waiting_messages.subject"
+msgstr "{{member_number}}: Sie haben {{count}} ungelesene Nachrichten"
+
+# --- English text = You have {{count}} unread messages waiting.
+# --- IMPORTANT: Do not translate the text inside {{count}} as it will be replaced with the number of messages a member has waiting for them
+msgid "waiting_messages.number"
+msgstr "Sie haben {{count}} ungelesene Nachrichten"
+
+# --- English text = Please login at <link>Intervac</link>, and go to the Member Messages area to read and answer messages from other members.
+msgid "waiting_messages.login"
+msgstr "Bitte einloggen bei <link>Intervac</link> gehen Sie zu \"Mitgliedernachrichten\", um Nachrichten von anderen Mitgliedern zu lesen und zu beantworten."
+
+# --- English text = The most recent is
+msgid "waiting_messages.most_recent"
+msgstr "Das Neueste ist"
+
+# --- English text = You are receiving this email because there is information in your intervac.com listing which might be keeping you from receiving as many home exchange offers as possible.
+msgid "listing_reminders.reason"
+msgstr "Sie erhalten dieses mail, da Sie eine Nachricht von einem Tauschpartner bekommen haben! Bitte schauen Sie in Ihrem Angebot unter \"Sie haben ...neue Nachricht erhalten\" - beantworten Sie diese direkt in dieser Box, es könnten sonst  andere Angebote gestoppt werden!"
+
+# --- English text = Your Intervac listing is still invisible to other members!
+msgid "unfinished_listing.subject"
+msgstr "Ihr INTERVAC-Angebot ist für andere Mitglieder noch nicht sichtbar!"
+
+# --- English text = Your listing has been activated on {{activation_date}}, and your membership is running.  Until now, you have not yet finished filling in all the details necessary to complete your listing, so it remains invisible for other members.  Please login at <link>Intervac</link> as soon as possible and complete your listing, and your destinations wish list so that you can begin sending and receiving offers for your next holiday.
+msgid "unfinished_listing.body"
+msgstr "Ihr Angebot wurde am{{activation_date}} freigeschaltet und Ihre Mitgliedschaft damit  aktiviert. Ihr Angebot ist noch nicht mit allen Details ausgefüllt und ist daher für andere Mitglieder noch nicht sichtbar! Loggen Sie sich nochmals ein <link>Intervac</link> und Sie können Ihr Angebot komplett ausfüllen. Danach erhalten Sie Angebote \"aus aller Welt\"  und können Ihren nächsten Urlaub planen - selbstverständlich auch selbst Angebote per mail bekommen!"
+
+# --- English text = Your latest date for travel has past
+msgid "expired_travel_dates.subject"
+msgstr "Ihre Mitgliedschaft ist abgelaufen"
+
+# --- English text = Your listing is difficult for other members to find now because your desired dates of travel are in the past.  If you are actively looking for an exchange, please login at <link>Intervac</link> as soon as possible.  To adjust your desired dates of travel: in the "My Listing" box in the left hand column, follow the link to "Change my listing".  If you are not actively looking for an exchange, please make sure your availablity light is set to red (click once to toggle from green to red, click again to toggle it back to green).
+msgid "expired_travel_dates.body"
+msgstr "Ihr Angebot kann nicht gefunden werden, da Ihre  gewünschten Urlaubsdaten nicht \"up to date\" sind! Wenn Sie aktiv nach einem Haustausch suchen, bitte loggen Sie sich  ein</link> . Um Ihre gewünschten Urlaubsdaten auf den neuesten Stand zu bringen, gehen Sie  zu \"Meinem Angebot\" und folgen Sie dem link \"Ändern meines Angebotes\".  Wenn Sie nicht aktiv nach einem Tauschpartner suchen oder Sie haben bereits schon einen Tausch abgemacht, stellen Sie bitte Ihre Ampel auf \"rot\" klicken Sie dabei jeweils auf \"rot\") oder \"grün\" (belegt oder frei)!"
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.
+# --- English text = You are receiving this email because you have filled out our online application for a Intervac membership.
+msgid "signup_notification.reason"
+msgstr "Sie haben sich online  bei INTERVAC-Haustauch angemeldet - leider ist Ihr Mitgliedsbeitrag noch nicht eingegangen?"
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet. 
+# --- English text = Thank you for your interest in joining Intervac International.  You have created an account on our website which you can access at any time using the following credentials:
+msgid "signup_notification.intro_to_credentials"
+msgstr "Besten Dank für Ihr Interesse an INTERVAC INTERNATIONAL. Sie haben Ihr Angebot auf unserer website erstellt, auf das Sie jederzeit zurückgreifen können, wenn Sie den Anmeldeinformationen folgen:"
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet. 
+# --- English text = Please note that this is the only email you will receive from us with your password in it.  Immediately after this email was sent, your password was securely encrypted and stored in our database.  If you have trouble logging in, it is good to remember that passwords are case sensitive.  This means that "aq99tz", "AQ99tz" and "aQ99Tz" all qualify as different passwords.  If you should forget your password at some point in the future, it's easy to reset it by following the link on our login form.
+msgid "signup_notification.about_passwords"
+msgstr "Beachten Sie bitte -  Ihr Passwort wird Ihnen nur einmal zugesandt! Direkt im Anschluss  wird dieses in unserer Datenbank sicher gespeichert. Wenn Sie Schwierigkeiten beim Einloggen haben, denken Sie daran, dass die  Angaben  des Passwortes sehr empfindlich sind, z.B.: \"AQ99tz\" und \"aq99tz\" können sehr schnell verwechselt werden! Wenn Sie Ihr Passwort vergessen haben, können Sie dieses einfach ersetzen - folgen Sie dem link auf unserem login-Formular."
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.      
+# --- English text = If you prefer you may use the primary email address on your account as a login instead of the one above.  For the purposes of logging in, they are interchangable.
+msgid "signup_notification.use_email_login"
+msgstr "Sie können Ihre email Adresse als login verwenden, anstelle Ihres \"alten\" logins. Wenn Sie sich anmelden, können Sie Ihr login selbst auswählen!"
+
+# Signup Notification is sent to a potential member who has filled in the first page of the application, but has not necessarily paid yet.     
+# --- English text = We are looking forward to welcoming you as a full-fledged member of Intervac International and we have plenty of members looking to exchange homes with members in your area.  Your listing will remain invisible to them until you have completed the details section of your listing.  If you were not able to follow the application process all the way to the end today, you can return at any time and enter your email address on the registration page again.
+# --- (February 2012 - Edited text to remove reference to payment necessary.)
+#, fuzzy
+msgid "signup_notification.invisible_listing"
+msgstr "Wir freuen uns, Sie als aktives Mitglied bei INTERVAC International begrüßen zu dürfen! Sie können unter vielen Angeboten auswählen,  dabei finden Sie auch Tauschpartner, die sich für Ihre Umgebung interessieren. Solange Ihr Mitgliedsbeitrag noch nicht eingegangen ist, bleibt Ihr Angebot unsichtbar. Wenn Sie Ihr Formular noch nicht komplett ausgefüllt haben, geben Sie erneut Ihre email Adresse ein. Sie können damit nochmals  auf Ihr Angebot zurückgreifen und dieses vollends ausfüllen. "
+
+# --- English text = You are receiving this email because you requested that a copy be sent to the email address in your listing.
+msgid "email_message.reason"
+msgstr "Sie erhalten dieses mail, da Sie um eine Nachricht gebeten haben. Eine Kopie wird gleichzeitig an die mail-Adresse in Ihrem Angebot gesandt."
+
+# --- English text = Match Alert has found possible home exchange partners for you.
+msgid "matchalert.subject"
+msgstr "Match Alert hat interessante Tauschpartner für Sie gefunden!"
+
+# --- English text = You are receiving this email because you signed up for Intervac's Match Alert service.  To discontinue these mails, please login at http://intervac.com and set your Match Alert sending frequency to "never"
+msgid "matchalert.reason"
+msgstr "Sie erhalten dieses mail, da Sie sich bei INTERVAC Match Alert angemeldet haben. Damit Sie diese mails  beantworten können, melden Sie sich bitte bei \"www.intervac.com\"  an.  Stellen Sie die zu versendende Post bei Match Alert auf \"never\"."
+
+# --- English text = The following members at Intervac are either new, or have amended their listings recently.
+msgid "matchalert.intro_text"
+msgstr "Folgende Mitglieder sind weder neu noch haben sie Ihr Angebot  in den letzten Tagen geändert."
+
+# --- English text = The Match Alert service has sent you 10 consecutive emails and will stop automatically now. If you want to continue receiving Match Alert! emails, or start the service again at a later date, just login and adjust the settings in the Match Alert! area.
+msgid "matchalert.intro_text_last"
+msgstr "Match-Alert Service hat Ihnen 10 aufeinandergefolgende emails gesandt und wird danach automatisch gestoppt!  Wenn Sie weiterhin Match-Alert emails empfangen wollen  oder zu einem späteren Zeitpunkt  wieder einsteigen möchten, loggen Sie sich ein und passen Sie die Einstellungen bei \"Match Alert\" an."
+
+# --- English text = MatchAlert!
+msgid "matchalert.headline"
+msgstr "Match Alert!"
+
+# --- English text = Thank you for your application
+msgid "application.thanks_subject"
+msgstr "Besten Dank für Ihre Anmeldung."
+
+# --- English text = You have requested a password reset.
+msgid "forgotten_password.reset_subject"
+msgstr "Sie wollen Ihr Passwort ändern?"
+
+# --- English text = You are receiving this email because you requested a reset password link.
+msgid "reset_password.reason"
+msgstr "Dieses mail erhalten Sie, da Sie um eine Passwortänderung gebeten haben."
+
+# --- English text = Following is your login information along with the reset password link you have requested.  Clicking on it will take you to a page on our site where you can change your password.
+msgid "reset_password.introtext"
+msgstr "Hier Ihre login Information,  zusammen mit dem von  Ihnen gewünschten Passwort!  Klicken Sie hier -  Sie kommen auf die Seite, auf der Sie Ihr Passwort ändern können!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "
+
+# --- English text = Your login is
+msgid "reset_password.login_label"
+msgstr "Ihr login lautet"
+
+# --- English text = Reset your password
+msgid "reset_password.link_label"
+msgstr "Ersetzen Sie Ihr Passwort"
+
+# --- English text = Reset your password
+msgid "reset_password.link"
+msgstr "Ersetzen Sie Ihr Passwort"
+
+# --- English text = If you did not request a reset password link, or you have changed your mind and do not want to reset your password, please ignore this mail.
+msgid "reset_password.closing_text"
+msgstr "Wenn Sie nicht um eine Passwortänderung gebeten haben, bitte ignorieren Sie dieses mail."
+
+# --- English text = Your password has been reset.
+msgid "forgotten_password.reset_confirmation_subject"
+msgstr "Ihr Passwort wurde zurückgesetzt."
+
+# --- English text = An Intervac member has registered an upcoming exchange with you.
+msgid "exchange_agreement.reason"
+msgstr "Ein Intervac Mitglied hat einen Tausch mit Ihnen registriert."
+
+# --- English text = Your home exchange partner ( {{partner_id}} ) has left you an exchange agreement or they may have changed an agreement they made previously. To view this exchange agreement, please login at <link>Intervac</link> and click <em>My Exchange Agreements</em> in the <em>Useful Links</em> navigation. To confirm or respond to this agreement please enter your partner’s id number in the Create Agreement section of your home page.
+# --- IMPORTANT: Do not translate the text inside {{partner_id}} as it will be replaced with the member id of the exchange partner.
+# --- IMPORTANT: You can write whatever text you like in between the <link> </link> tags.  It will be linked automatically to the login page at intervac.com
+# --- IMPORTANT: The <em> </em> tags surrounding the text My Exchange Agreements and Useful Links will set these texts in italics.  You can remove them from around the page names if you don't want this.
+msgid "exchange_agreement.text"
+msgstr "Ihr Haustauschpartner ( {{partner_id}} ) hat Ihnen eine Tauschvereinbarung gesandt oder darin eine Änderung vorgenommen.  Um die Tauschvereinbarung zu sehen, loggen Sie bitte ein <link>Intervac</link> und klicken <em>\"Meine Tauschvereinbarung\"<em>unter der Ruprik<em>Nützliche links<em>. Um diese zu bestätigen oder darauf zu reagieren, geben Sie die Mitgliedsnummer Ihres Partners an, in der Sektion\" Tauschvereinbarung erstellen \"."
+
+# --- English text = Exchange Agreement Progress
+# --- Location = This headline comes after the text above and before the exchange agreemnt history as seen on My Exchange Agreements page.
+msgid "exchange_agreement.history_headline"
+msgstr "Verlauf Ihrer Tauschvereinbarung"
+
+# --- English text = Next Step:
+# --- Location = This label comes after the exchange agreement history and before the text that tells the member what the next step in the exchange agreement process is.
+msgid "exchange_agreement.next_step"
+msgstr "Nächster Schritt:"
+
+# --- English text = Agreement process is complete
+# --- Location = Shown when the agreement process is 100%
+msgid "exchange_agreement.process_complete"
+msgstr "Der Vorgang Ihrer Tauschvereinbarung ist abgeschlossen."
+
+# --- English text = MAKE DIRECT MEMBER CONTACT: 'REPLY TO ALL' AND WRITE ABOVE THIS LINE
+msgid "member_messages.reply_above_this_line"
+msgstr "Kontakten Sie Ihren Tauschpartner direkt, drücken Sie \"antworten auf Alle\" und schreiben Sie Ihre Nachricht hier."
+
+# --- English text = This mail has been sent to you through Intervac International's messaging system by:
+# --- Location: At the bottom of member-to-member emails. The sending-member's name and member Id are added automatically by the system.
+msgid "member_messages.footer.mail_sent_by"
+msgstr "Diese mail wurde gesandt vom Intervac International System:"
+
+# --- English text = Email address:
+# --- Location: At the bottom of member-to-member emails.  The sending-member's email address is added automatically by the system.
+msgid "member_messages.footer.sending_member_email_address"
+msgstr "Email Adresse:"
+
+# --- English text = You are receiving this email because you signed up for our newsletter.
+# --- Location = Confirmation of newsletter subscription mail
+# (June, 2011)
+msgid "newsletter.reason"
+msgstr "Sie erhalten unseren Newsletter, da Sie dafür unterzeichnet haben."
+
+# --- English text = Before we can begin sending you newsletters, you must confirm your newsletter subscription.  You can do this at any time in the next 72 hours by clicking on the link below:
+# --- Location = Confirmation of newsletter subscription mail
+# (June, 2011 - New)
+msgid "newsletter.confirm_link.introtext"
+msgstr "Bevor wir Ihnen unsere Newsletter senden können, sollten Sie dafür  die Bestellung bestätigen. Sie können dies jederzeit (in den nächsten 72 Stunden) tun, indem Sie den link unten klicken:"
+
+# --- English text = Yes, I want to receive your newsletter.
+# --- Location = Confirmation of newsletter subscription mail
+# (June, 2011 - New)
+msgid "newsletter.confirm_link.link_text"
+msgstr "Bitte senden Sie mir Ihren Newsletter."
+
+# --- English text = If you didn't request a subscription to our newsletter, you can safely ignore this mail.  The request will be removed from our database in a couple of days and you won't be hearing from us.
+# --- Location =
+# (June, 2011)
+msgid "newsletter.no_confirm_ignore"
+msgstr "Wenn Sie keinen Newsletter haben wollen, können Sie dieses mail ignorieren. Unsere Datenbank wird Ihre Bitte erfassen und Sie werden nichts mehr von uns hören!"
+
+# --- English text = Message from a trial member waiting
+# --- (December, 2011 - New Text)
+msgid "messages.subject.message_from_trial_waiting"
+msgstr "Sie haben eine Nachricht eines \"Schnuppermitglieds\"  erhalten."
+
+# --- English text = Message from a full member waiting
+# --- (December, 2011 - New Text)
+msgid "messages.subject.message_from_full_waiting"
+msgstr "Sie haben eine Nachricht eines Vollmitgliedes erhalten."
+
+# --- English text = Reply from a full member waiting
+# --- (December, 2011 - New Text)
+msgid "messages.subject.reply_from_full_waiting"
+msgstr "Sie haben eine Antwort eines Vollmitgliedes erhalten."
+
+# --- English text = You have been approached by trial member with listing {{member_id}} about an exchange. In order to ensure that your email address is only shared with other full Intervac members, messages from trial members are only available inside of the Intervac internal mail system. You can <link>click here</link> to see {{member_id}}'s listing and we ask that whether or not you are interested in their offer, please reply to their message when you have a minute.
+# --- IMPORTANT - Translating or removing the text {{member_id}} from your translation will result in a system error!
+# --- IMPORTANT - {{member_id}} will be replaced by the system with the member id of the trial member who has written to this full member.
+# --- (December 2011 - New Text)
+msgid "messages.text.trial_approaches_full"
+msgstr "Sie haben bezüglich eines Tausches von einem \"Schnuppermitglied\" {{member_id}} ein mail bekommen. Sie können dieses mail  erst lesen, wenn dieses \"Schmuppermitglied\" sich für eine Vollmitgliedschaft entschieden hat. Klicken Sie <link>hier</link> um die Nummer des Angebotes {{member_id}}'s zu sehen.Bitte geben Sie in jedem Falle eine Antwort -  ob Sie interessiert sind oder nicht - besten Dank im Voraus!"
+
+# --- English text = The owner of listing {{member_id}} has replied to your message. Our messaging service is available for full members to communicate with each other. You will be able to read this waiting reply as soon as you have paid for your membership.
+# --- IMPORTANT: Do not translate the text inside {{member_id}} as it will be replaced with the member id of the full member replying to a trial member.
+# --- (December 2011 - New Text)
+msgid "messages.text.full_replies_to_trial"
+msgstr "Das Miglied{{member_id} }hat  Ihre Nachricht beantwortet. Unser Nachrichten-Service ist für Vollmitglieder verfügbar, um mit allen anderen Vollmitgliedern zu kommunizieren.Sie können die Nachrichten der \"Schnuppermitglieder\" lesen, sobald sich diese als Vollmitgied angemeldet haben."
+
+# --- English text = A full member with the listing <link>{{member_id}}</link> has sent you a message. Trial members do not have full access to our messaging system, but you can read all of your received messages as soon as you pay for your membership.
+# --- (December 2011 - New Text)
+msgid "messages.text.full_approaches_trial"
+msgstr "Ein Vollmitglied mit der Nummer <link>{{member_id}}</link> hat Ihnen eine Nachricht gesandt. Als \"Schnupper-Mitglied\" haben Sie nicht den vollen Zugriff auf unser Nachrichtensystem!Sie können aber alle erhaltene Nachrichten lesen, sobald Sie Ihre Mitgliedschaft bezahlt haben."
+
+# --- English text = You have been approached by trial member with listing {{member_id}} about an exchange. As a trial member you are not able to read or reply to messages, but you will have full access our messaging system as soon as you have paid for a your membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "messages.text.trial_approaches_trial"
+msgstr "Sie wurden von einem \"Schnuppermitglied\"  mit der Nummer {{member_id}} bezüglich eines Tausches angeschrieben. Als \"Schnuppermitglied\" ist es Ihnen nicht möglich, die erhaltenen Nachrichten zu lesen oder diese zu beantworten, solange bis  Sie für Ihre Mitgliedschaft noch  nicht  bezahlt haben!"
+

@@ -1,0 +1,241 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Membership with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Lidmaatschap van Intervac"
+
+# --- English text = Free Trial Membership
+# (June, 2011 - New)
+msgid "trial_membership.headline"
+msgstr "Gratis Proeflidmaatschap"
+
+# --- English text = Are you new to home exchange?  We believe we have the best home exchangers in our community.  If you'd like to find out for yourself, join us today and choose our trial membership.  You will receive unlimited access to our site for {{number}} days to try out all the features listed below, browse our database and contact our members.  You can upgrade to a full membership any time.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+msgid "trial_membership.text"
+msgstr "Ben je niet vertrouwd met huisruil?  Wij hebben de beste huisruilers onder onze leden.  Wil je dit zelf uitzoeken, probeer dan ons proeflidmaatschap. Je krijgt ongelimiteerd toegang tot onze site gedurende {{number}} dagen, waarbij je alle mogelijkheden kan uitproberen, onze database kan bekijken en contact kan maken met onze leden.  Je kan ten allen tijde upgraden naar een volledig lidmaatschap van 1 jaar."
+
+# --- English text = Site Features at Intervac.com
+# (June 2011)
+msgid "site_features.headline"
+msgstr "Wat vind je terug op Intervac.com?"
+
+# --- English text = Your Listing
+# (June 2011)
+msgid "your_listing.headline"
+msgstr "Ja aanbieding"
+
+# --- English text = Your online entry allows you to record a great deal of information about your home and surroundings. To get the most from your membership it is essential to promote your home and its area, indicating where you are, how best to be reached and what's on offer. The more information you can give in the form of photos and text, the more it helps other members to decide that your offer is exactly what they are searching.
+# (June 2011)
+msgid "your_listing.text"
+msgstr "Je kan online heel wat informatie opgeven over je huis en de omgeving. Om je aanbod optimaal te laten renderen is het belangrijk om je huis en zijn omgeving aan te prijzen. Je moet aangeven wat je woonomgeving te bieden heeft en hoe je ze kan bereiken. Hoe meer informatie je kan bieden in de vorm van tekst en foto's hoe aantrekkelijker je aanbod zal zijn en hoe meer kans andere leden overtuigd zullen zijn dat jouw aanbod exact dat is wat ze zoeken."
+
+# --- English text = Photos and Descriptive Text
+# (June 2011)
+msgid "text_and_photos.headline"
+msgstr "Foto's en omschrijvende tekst"
+
+# --- English text = Intervac provides facilities for you to post up to twenty photos and write (unlimited!) descriptive text under the headings: your home, family, lifestyle and neighbourhood. Multi-lingual members often post descriptions in their various languages in order to improve the findability of their listing by keyword searches. It is all quite easy to do, there is lots of help text available on the site, and your local organiser is happy to help if you find you have questions that are not already answered.
+# (June 2011)
+msgid "text_and_photos.text"
+msgstr "Intervac voorziet de mogelijkheid om tot twintig extra foto's op te laden. Je kan (onbeperkt) beschrijvende tekst opnemen onder de hoofding: mijn woning, familie, lifestyle en omgeving. Meertalige leden plaatsen vaak omschrijvingen in verschillende talen om de slaagkansen te verhogen bij het zoeken op basis van trefwoorden. Op basis van de hulptekst op deze site is dit eenvoudig om te doen.  Bovendien zal je Intervac organisator je ook hierbij graag helpen."
+
+# --- English text = A Map of Your Surroundings
+# (June 2011)
+msgid "map.headline"
+msgstr "Een kaart van je omgeving"
+
+# --- English text = Every listing has an (optional) Google map so that prospective partners can get a good picture of the neighborhood where your home is located.  The marker is not by default placed precisely on your home.  If you like though, you can place it yourself using latitude and longitude.
+# (June 2011)
+msgid "map.text"
+msgstr "Elke aanbieding heeft een (optioneel) Google kaart zodat de potentiele ruilpartners een goed beeld kunnen krijgen van de omgeving waat je woont. De markeerder is zodanig ingesteld dat de plaats van je woning niet helemaal precies wordt weergegeven. Indien je dat wenst kan je de plaats wijzigen door gebruik te maken van lengte- en breedtegraad."
+
+# --- English text = Search Facilities
+# (June 2011)
+msgid "search_facilities.headline"
+msgstr "Zoekcriteria"
+
+# --- English text = The right combination search facility is important to your ease of finding the perfect partner.  Our online system supports searching by:
+# (June 2011)
+msgid "search_facilities.text"
+msgstr "De juiste combinatie van zoekcriteria is belangrijk om de geschikte ruilpartner te vinden.  Ons online systeem biedt je de volgende zoekcriteria aan:"
+
+# --- English text = Country
+# (June 2011)
+msgid "search_facilities_list.country"
+msgstr "Land"
+
+# --- English text = Region
+# (June 2011)
+msgid "search_facilities_list.region"
+msgstr "Regio"
+
+# --- English text = Exchange dates
+# (June 2011)
+msgid "search_facilities_list.exchange_dates"
+msgstr "Ruildata"
+
+# --- English text = Exchange types
+# (June 2011)
+msgid "search_facilities_list.exchange_types"
+msgstr "Type van ruil"
+
+# --- English text = Keyword (within the extra text in a listing)
+# (June 2011)
+msgid "search_facilities_list.keyword"
+msgstr "Trefwoorden ( in de extra tekst van een aanbieding)"
+
+# --- English text = Spoken language of exchange partner
+# (June 2011 )
+msgid "search_facilities_list.spoken_language"
+msgstr "De talen die de ruilpartner spreekt"
+
+# --- English text = Sleeping accommodations
+# (June 2011)
+msgid "search_facilities_list.sleeping_accomodation"
+msgstr "Slaapmogelijkheden"
+
+# --- English text = Family - number of adults, with or without kids
+# (June 2011)
+msgid "search_facilities_list.family"
+msgstr "Familie- aantal personen, met of zonder kinderen"
+
+# --- English text = Twenty-three important detail criteria
+# (June 2011)
+msgid "search_facilities_list.other_details"
+msgstr "Drieëntwintig belangrijke ruilcriteria"
+
+# --- English text = Or, any combination of the above.
+# (June 2011)
+msgid "search_facilities_list.combination"
+msgstr "Of een combinatie van "
+
+# --- English text = Want to make the same search in a week?  No problem, our system allows you to name and save your searches for reuse later.  Keep a search for Paris in the spring and Austria at Christmas time.  The number of searches you can keep is unlimited.
+# -- (Feb 2009) Hi Translators => This feature is not implemented yet, and Jens thinks he won't get to it before we launch the new system.  It is on his list of things to do though, so I've just hidden it on the page.  As soon as Jens has programmed the saved search feature, I'll un-hide this text.
+# -- (June 2011 - Not In Use)
+msgid "-x- search_facilities.named_search"
+msgstr "Wens je binnen een week opnieuw dezelfde zoekopdracht uit te voeren? Ons systeem laat toe om je zoekopdracht op te slaan en  later opnieuw te gebruiken. Bewaar bijvoorbeeld een zoekopdract voor Parijs in de herfst en Oostenrijk met Kertmis. Het aantal zoekcriteria dat je kan opslaan is onbeperkt."
+
+# --- English text = Reverse Search?
+# (June 2011)
+msgid "reverse_search.headline"
+msgstr "Kan ik de zoekwijze omdraaien?"
+
+# --- English text = We sure do, and it's the most comprehensive "reverse search" in the industry.  We encourage our members to fill in as many regions and cities as they like (it's unlimited, really!) so that you can find all members who are specifically interested in visiting your country, region or nearest city.  That's service!
+# (June 2011)
+msgid "reverse_search.text"
+msgstr "Dat kan inderdaad en het is een heel eenvoudige \"reverse search\".  Wij moedigen onze leden aan om zoveel landen of steden in te vullen dan ze wensen (het is onbeperkt!), zodat je alle leden kan vinden die specifiek geïnteresseerd zijn om jouw land of regio te bezoeken."
+
+# --- English text = What types of vacation does Intervac's online system support?
+# (June 2011)
+msgid "exchange_types.headline"
+msgstr "Welke types van vakantie biedt het  Intervac online systeem aan?"
+
+# --- English text = Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time.
+# (June 2011)
+msgid "exchange_types_list.home_exchange"
+msgstr "Huisruil is de meest voorkomende: 2 gezinnen die besluiten om voor een specifieke periode elkaars huis te bewonen."
+
+# --- English text = House Sitting: Looking after someone else's home, mail, pets while they are away.
+# (June 2011)
+msgid "exchange_types_list.house_sitting"
+msgstr "House Sitting: zorg dragen voor iemand's huis, post, huisdieren,... terwijl zij weg zijn."
+
+# --- English text = Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# (June 2011)
+msgid "exchange_types_list.double_exchange"
+msgstr "Een dubbele ruil: twee families (meestal wonen ze dicht bij elkaar) die wensen te ruilen met 2 andere families.  Populair bij buren of uitgebreide families die wensen te  ruilen."
+
+# --- English text = Hospitality Exchange: Members agree to exchange visits in each other’s homes.
+# (June 2011)
+msgid "exchange_types_list.hospitality_exchange"
+msgstr "Gastvrijheid: leden besluiten om niet-gelijktijdig elkaar gastvrijheid aan te bieden."
+
+# --- English text = Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies.
+# (June 2011)
+msgid "exchange_types_list.long_term_exchange"
+msgstr "Lange termijn ruilen: meestal tussen gepensioneerden, academisch staf of werknemers bij multinationals."
+
+# --- English text = Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# (June 2011)
+msgid "exchange_types_list.bed_and_breakfast"
+msgstr "Bed and Breakfast: de gekende formule maar dan tussen Intervacleden en op gratis basis."
+
+# --- English text = Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members.
+# (June 2011)
+msgid "exchange_types_list.rental"
+msgstr "Huur: soms bieden leden vakantiewoningen te huur aan, maar dan aan aanzienlijk lagere huurprijzen dan de marktprijzen. "
+
+# --- English text = Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# (June 2011)
+msgid "exchange_types_list.youth_exchange"
+msgstr "Jongerenruil: ruil van jongeren om andere talen of culturen te leren kennen"
+
+# --- English text = Youth Hospitality: Young people agree to visit each other.
+# (June 2011)
+msgid "exchange_types_list.youth_hospitality"
+msgstr "Gastvrijheid voor jongeren: jonge mensen die besluiten elkaar te bezoeken."
+
+# --- English text = Integrated Messaging System
+# (June 2011)
+msgid "messages.headline"
+msgstr "Geïntegreerd berichtensysteem"
+
+# --- English text = Email can get lost or sucked into a spam filter - but a an offer sent through our system is waiting for you when you login.
+msgid "messages.pullquote"
+msgstr "Een e-mail kan verloren gaan of tegengehouden worden door een spam filter- maar via ons systeem gaat geen enkele aanbieding verloren."
+
+# --- English text = Yes, that's right, we have an integrated messaging system that allows you to contact other members in rich text (with links!) and without ever leaving our system.  You can see that a message has been sent and when it was read.   Offers and answers to your messages be waiting for you to when you login and they are super easy to answer with templates in rich text - click a button.
+# (June 2011)
+msgid "messages.messages_text"
+msgstr "Inderdaad, we hebben een geïntergreerd berichtensysteem dat je toelaat contact te leggen met andere leden in 'rich text' formaat (met links!) en zonder dat het bericht ons systeem verlaat.  Je ziet wanneer een bericht is verzonden en wanneer het gelezen is.  Aanbiedingen en antwoorden op je berichten wachten op je wanneer je inlogged en zijn gemakkelijk te beantwoorden aan de hand van sjablonen - klik op de knop."
+
+# --- English text = Write unlimited templates for both sending and answering your messages.  For example: write a "send" template named "France - Spring Next Year" or an "answer" template "No thanks" in which you politely tell an enquiring member that their offer is not what you are looking for at the moment.  There is no limit to the number of templates you can write.  Compose more than one "No thanks" template: one for offers in which you are definitely not interested, and one for ones you might want to come back to at a later date. Or use different "send" templates to plan several holidays at once.
+# (June 2011)
+msgid "messages.templates_text"
+msgstr "Maak een onbeperkt aantal sjablonen voor het verzenden en ontvangen van aanbiedingen. Bijvoorbeeld:  maak een \"verzend\" sjabloon met de naam \"Frankrijk - Lente volgend jaar\" of een antwoord sjabloon \"Neen dank u\" in dewelke je beleefd een aanbieding afslaat omdat ze niet overeenstemt met wat jij zoekt.  Er staat geen limiet op het aantal sjablonen dat je kan maken. Maak meer dan één \"Neen dank u\" sjabloon:  een voor aanbiedingen waarin je geheel niet geïnteresseerd bent en een ander waarbij je het aanbod later wel in overweging wilt nemen.  Of gebruik verschillende \"verzend\" sjablonen om meerdere vakanties tegelijkertijd te plannen."
+
+# --- English text = Member Favorites
+# (June 2011)
+msgid "member_favorites.headline"
+msgstr "Favorieten leden"
+
+# --- English text = And speaking of coming back to an offer at a later date, that's where your Favorites list can help you keep track of your dream vacations.  With the click of a button, you can add a listing to your favorites.  Write notes in unlimited rich text in the notes section and keep track of your contacts.
+# (June 2011)
+msgid "member_favorites.text"
+msgstr "Wanneer je een aanbieding later in overweging wilt nemen, kan je ze bewaren in je favorietenlijst. Met een klik op de knop kan je een aanbieding aan je favorieten toevoegen.  Schrijf commentaar in de daartoe voorziene zone en hou op deze manier je contacten bij."
+
+# --- English text = Match Alert!
+# (June 2011)
+msgid "match_alert.headline"
+msgstr "Match Alert!"
+
+# --- English text = Here is a nifty tool designed with the frequent exchanger in mind.  Tell our system what sort of offers interest you, and how frequently you would like to be notified of potential matches and we'll send you an email with up to twenty potential exchange partners.  What is special about that?  The settings you put in your Match Alert profile can be completely different from those in your listing!  So, if you are trying to arrange two exchanges, one for Spring and one at Christmas, set your Christmas date preferences in your Match Alert profile, and we'll let you know about the hot prospects while you advertise in your listing for your Spring holiday dates.
+# (June 2011)
+msgid "match_alert.text"
+msgstr "Hier is een vernuftig instrument ontworpen voor de bedreven ruiler.  Geef in het systeem op welke aanbiedingen je interesseren en hoe frekwent je wilt verwittigd worden van aanbiedingen die overeenstemmen met je vraag. Wij zenden je dan een mail met maximum 20 potentiële huisruilpartners.  Wat is hier speciaal aan?  De instellingen van je Match Alert profiel kunnen volledig verschillend zijn van de gegevens in je aanbieding! Dus als je bijvoorbeeld twee ruilen wilt plannen, één in de lente en één met Kerstmis, kan je je voorkeuren voor Kerstmis in je Match Alert profiel opgeven, en wij laten je weten of er kandidaten zijn, terwijl je de data voor de vakantie in de lente in je aanbieding laat staan."
+
+# --- English text = Last Minute Listings
+# (June 2011)
+msgid "hotlist.headline"
+msgstr "Last Minute Aanbiedingen"
+
+# --- English text = This is a succinct list of members looking for a partner for an exchange within the next eight weeks.  Adding your listing to the Last Minute List is easy as clicking a button.  Your listing will appear on the Last Minute List for four days, after which you can click to add it again if you are still looking.
+# (June 2011)
+msgid "hotlist.text"
+msgstr "Dit is een lijst met leden die binnen de acht weken op vakantie willen gaan.  Je aanbieding toevoegen aan de Last Minute lijst gebeurt eenvoudig door op een knop te klikken.  Je aanbieding verschijnt dan gedurende 4 dagen in de Last Minute lijst, waarna je opnieuw kan verlengen wanneer je nog zoekende bent."
+

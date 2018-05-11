@@ -1,0 +1,633 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2011-11-20 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Your Contact Information
+msgid "contact_info.headline"
+msgstr "登録情報入力（必ずローマ字で書き込んでください）"
+
+# --- English text = Please note: All fields labeled with colored text are required and will return an error if not completed.
+msgid "required_fields"
+msgstr ".註：　オレンジ色で書かれた箇所は必ず書き入れてください。そうしないとエラーとなります。"
+
+# --- English Text = Full Name <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.name"
+msgstr "お名前（名前が先、姓はあと） <required>*</required>"
+
+# --- English text = First &amp; Last Name
+msgid "contact_info.name_reminder"
+msgstr "お名前（名前が先、姓はあと）"
+
+# --- English text = About your address
+msgid "contact_info.address"
+msgstr "住所"
+
+# --- English text = This is your primary (mailing) address.  The address where you are most likely to be should a member want to contact you.  This should not be the address of your holiday home.  If you are looking for a way to change the placement of the marker on the Google map so that it displays the location of your second home, you can go to:
+msgid "contact_info.help_address"
+msgstr "他の会員からのコンタクトを郵便で受け取る住所。セカンドハウスの住所ではない。グーグルマップ上のマーカーの場所をセカンドホーム変えたいと思っている場合は次のところへ："
+
+# --- English text = Street <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.street"
+msgstr "番地、町村名 <required>*</required>"
+
+# --- English text = City/Town <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.city"
+msgstr "市区、都道府県 <required>*</required>"
+
+# --- English text = Postal Code
+msgid "contact_info.postal"
+msgstr "郵便番号"
+
+# --- English text = State/Province
+msgid "contact_info.state"
+msgstr "国名"
+
+# --- English text = Telephone <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.telephone"
+msgstr "電話番号(+81 - 市外局番の（０）ゼロを抜く) <required>*</required>"
+
+# --- English text = Mobile Phone
+msgid "contact_info.mobile"
+msgstr "携帯番号"
+
+# --- English text = FAX
+msgid "contact_info.fax"
+msgstr "FAX番号"
+
+# --- English text = E-Mail <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "contact_info.email"
+msgstr "E-Mailアドレス <required>*</required>"
+
+# --- English text = Second E-Mail
+msgid "contact_info.second_email"
+msgstr "別のE-Mailアドレス"
+
+# --- English text = Your homepage
+# --- CHANGED FROM: Your homepage (if available) => TO: Your homepage (Dec. 2008)
+msgid "contact_info.homepage"
+msgstr "あなたのホームページ"
+
+# --- English text = Skype
+msgid "contact_info.skype"
+msgstr "スカイプの番号"
+
+# --- English text = About Your Home
+msgid "home.headline"
+msgstr "あなたの家について"
+
+# --- English text = Tell potential partners about the property that you are offering for exchange.
+msgid "home.property_intro_text"
+msgstr "あなたが交換しようと思っている家について関心を持ってくれそうな人への説明"
+
+# --- English text = Please choose the country in which your property is located if you are offering a home or apartment which is NOT in the same country as your residence.
+msgid "home.property_country_text"
+msgstr "交換しようと思う家やアパートが住んでいない国にある場合は、その建物がある国を選ぶ。"
+
+# --- English text = Country of your exchange home <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.country_of_exchange_home"
+msgstr "交換したい家のある国 <required>*</required>"
+
+# --- English text = Property Location
+msgid "home.property_country"
+msgstr "家の所在する場所"
+
+# --- English text = My property lies <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.location"
+msgstr "わたしの家の位置： <required>*</required>"
+
+# --- English text = Property is located
+msgid "home.envrionment"
+msgstr "建物の位置："
+
+# --- English text = Nearest Airport
+msgid "home.nearest_airport"
+msgstr "近くの空港"
+
+# --- English text = Type of home
+msgid "home.house_type"
+msgstr "家のタイプ"
+
+# --- English text = Floor number
+msgid "home.floor_number"
+msgstr "階"
+
+# --- English text = Sleeping capacity for
+msgid "home.persons_suitable"
+msgstr "泊まれる人数"
+
+# --- English text = people
+msgid "home.people"
+msgstr "人"
+
+# --- English text = Number of bedrooms
+msgid "home.bedrooms"
+msgstr "寝室の数"
+
+# --- English text = Number of bathrooms
+msgid "home.bathrooms"
+msgstr "風呂場の数"
+
+# --- English text = of
+msgid "home.location_of"
+msgstr ""
+
+# --- English text = Property setting
+msgid "home.environment"
+msgstr "家の環境"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "home.region"
+msgstr "地域"
+
+# --- English text = Region <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "show_listing.region"
+msgstr "地域"
+
+# --- English text = About Your Family
+msgid "family.headline"
+msgstr "あなたの家族について"
+
+# --- English text = Number of Adults
+msgid "family.adults"
+msgstr "大人の数"
+
+# --- English text = Your occupation or profession <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "family.occupation"
+msgstr "あなたの職業 <required>*</required>"
+
+# --- English text = Your son(s) age
+msgid "family.boys_ages"
+msgstr "子供（男の子）の年齢"
+
+# --- English text = Your daughter(s) age
+msgid "family.girls_ages"
+msgstr "子供（女の子）の年齢"
+
+# --- English text = How many exchanges have you completed?
+msgid "family.exchanges_made"
+msgstr "現在までにした交換の回数"
+
+# --- English text = text characters
+# --- CHANGED FROM: "text characters" => TO: "text characters allowed"  (Dec. 2008)
+msgid "character_limit"
+msgstr "文字の制限"
+
+# --- English text = Your Travel Timing Preferences
+msgid "timing.headline"
+msgstr "希望する時期"
+
+# --- English text = Enhance the description of your timing preferences.
+msgid "timing.comment_headline"
+msgstr "希望する時期についての記述"
+
+# --- English text = Select the dates you are available for your next exchange.
+msgid "timing.intro_text"
+msgstr "次回の交換が可能な時期を選ぶ"
+
+# --- English text = Earliest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.earliest_date"
+msgstr "始まりの時期 <required>*</required>"
+
+# --- English text = Latest date <required>*</required>
+# --- Do not translate this part: <required>*</required> -- It is used to make a red star denoting a required field.
+msgid "timing.latest_date"
+msgstr "終わりの時期 <required>*</required>"
+
+# --- English text = Desired Length of Stay
+msgid "timing.vacation_length"
+msgstr "希望する滞在期間"
+
+# --- English text = days
+msgid "timing.days"
+msgstr "日間"
+
+# --- English text = weeks
+msgid "timing.weeks"
+msgstr "週間"
+
+# --- English text = months
+msgid "timing.months"
+msgstr "ヶ月間"
+
+# --- English text = Optional text description
+msgid "timing.comment"
+msgstr "追加説明"
+
+# --- English text = Your Exchange Preferences
+msgid "exchange_types.headline"
+msgstr "交換希望"
+
+# --- English text = Types of Exchanges
+msgid "exchange_types.exchanges"
+msgstr "交換の形態"
+
+# --- English text = Services Offered
+msgid "exchange_types.services"
+msgstr "提供できるサービス"
+
+# --- English text = Services Offered
+msgid "exchange_types.rental"
+msgstr "賃貸"
+
+# --- English text = Youth Exchange
+msgid "exchange_types.youth"
+msgstr "子供たちの交換"
+
+# --- English text = Persons under 18 travelling alone
+msgid "exchange_types.under_18"
+msgstr "18歳未満で一人旅"
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "他の詳細"
+
+# --- English text = Your Home Has
+msgid "other_details.home_headline"
+msgstr "あなたの家は"
+
+# --- English text = You Offer
+msgid "other_details.offer_headline"
+msgstr "あなたが提供する"
+
+# --- English text = Language for Correspondence
+msgid "contact_info.spoken_languages"
+msgstr "使用言語"
+
+# --- English text = Distances in km
+# --- Dec 2008 - New Text
+msgid "other_details.distances_headline"
+msgstr "距離（ｋｍ）"
+
+# --- English text = Your Region
+# --- Dec 2008 - New Text
+msgid "other_details.your_region_headline"
+msgstr "あなたの地域"
+
+# --- English text = Forest/Woods
+msgid "other_details.km_forest_woods"
+msgstr "森林／森"
+
+# --- English text = River
+msgid "other_details.km_river"
+msgstr "河"
+
+# --- English text = Boating/Sailing
+msgid "other_details.km_boating"
+msgstr "ボート/帆走"
+
+# --- English text = Ocean/Sea
+msgid "other_details.km_ocean_sea"
+msgstr "大洋/海"
+
+# --- English text = Shopping
+msgid "other_details.km_shopping"
+msgstr "ショッピング"
+
+# --- English text =  Beach / Surfing
+msgid "other_details.km_beach"
+msgstr "海岸/サーフィン"
+
+# --- English text = Mountains
+msgid "other_details.km_mountains"
+msgstr "山"
+
+# --- English text = Lake
+msgid "other_details.km_lake"
+msgstr "湖"
+
+# --- English text = Golfing
+msgid "other_details.km_golf"
+msgstr "ゴルフ"
+
+# --- English text = Descriptive Phrase
+# --- (Dec 2008) This is being phased out - it's a left-over from catalogues, and is replaced by unlimited extra text.
+msgid "Descriptive Phrase"
+msgstr "説明"
+
+# --- Help Text : Name ---
+# --- English text = Fill in your name as you would like it to appear online. Please use both upper and lowercase letters.
+msgid "contact_info.help_name"
+msgstr "大文字と小文字を使ってオンライン上で表示したい名前を入力する。"
+
+# --- Help Text : Street ---
+# --- English text = Please fill in your mailing address.
+msgid "contact_info.help_street"
+msgstr "メールアドレスを書く。"
+
+# --- Help Text : City ---
+# --- English text = The city where you live. Your mailing address
+msgid "contact_info.help_city"
+msgstr "郵便用の住所"
+
+# --- Help Text : Postal ---
+# --- English text = Your postal code.
+msgid "contact_info.help_postal"
+msgstr "郵便番号"
+
+# --- Help Text : State ---
+# --- English text = This field is not required! Please only use this if your mailing address requires the use of state or region.
+msgid "contact_info.help_state"
+msgstr "この欄は主たる住所で必要な時のみ。"
+
+# --- Help Text : Telephone ---
+# --- English text = The country code for your country is already filled in.  Give the rest for your phone number in the correct form for calling from outside of your country. <strong>Only one telephone number is allowed.</strong>
+msgid "contact_info.help_telephone"
+msgstr "国のコードはすでに書き込み済みです。国外からあなたの国に電話する場合の正確な電話番号を書き込んでください。<strong>電話番号は一つだけです.</strong>"
+
+# --- Help Text : Mobile Phone ---
+# --- English text = Enter your mobile phone number here if you wish to be contacted by other members that way.
+msgid "contact_info.help_mobile"
+msgstr "携帯番号に掛けて欲しい場合はここにあなたの携帯番号を記す。"
+
+# --- Help Text : Skype
+# --- English text = You can put your skype id in this field if you wish members to be able to contact you using this service.
+msgid "contact_info.help_skype"
+msgstr "スカイプを使用したい場合はここにあなたのスカイプ番号を記す。"
+
+# --- Help Text : Fax
+# --- English text = The country code for your country is already filled in.  Give the rest for your FAX number in the correct form for calling from outside of your country. <strong>Only one FAX number is allowed</strong>.
+msgid "contact_info.help_fax"
+msgstr "すでに書き込んだあなたの国の国番号。ファックスを利用したい場合はファックス番号を記す。"
+
+# --- Help Text : E-mail
+# --- English text = Please enter here an email address you check often and where you would like to receive exchange offers from other members. <strong>Only one email address is allowed.</strong>
+msgid "contact_info.help_email"
+msgstr "ここにはあなたがよく使うアドレスで他の会員からオファーの交換に使いたいと思うメールアドレスを一つ入力する。"
+
+# --- Help Text : Second E-mail
+# --- English text = If you would like to enter a second email address here you will receive all mails sent from the Intervac online system, as well as forwarded messages at both addresses.
+msgid "contact_info.help_second_email"
+msgstr "別のアドレスも使いたい場合はここに入力してください。その場合はインターバックのオンラインシステムから自動的送られるすべてのメールと転送されるメールは両方に送られます。"
+
+# --- Help Text : Homepage
+# --- English text = A homepage of your own is a good way to show prospective partners more about your family, home and region. If you do not have your own homepage, consider entering a webpage from your local tourist bureau.
+msgid "contact_info.help_homepage"
+msgstr "あなた自身のホームページは家族や家、地域を見込みのあるパートナーに紹介するのにとても良い方法です。もし持っていない場合はあなたの地域のツーリストオフィスのウェブページを紹介する事を考えるのも良いでしょう。"
+
+# --- Help Text : Region
+# --- English text = Please select the region where your exchange home is located. // Please fill in the official region where your exchange home is located.
+msgid "home.help_region"
+msgstr "あなたがエクスチェンジをしようとしている家の地域を選択してください。//あなたの家がある地域を埋めてください"
+
+# --- Help Text : Nearest City
+# --- English text = How many kilometres lie between your exchange home and the nearest major city?  Please fill in the distance, direction and choose/fill in the nearest city here.
+msgid "home.help_location"
+msgstr "あなたの交換する家と近くの大きな市との距離は何ｋｍありますか？距離、方角を書いて、市の名前を選ぶか記入してください。"
+
+# --- Help Text : Environment
+# --- English text = Choose urban if your exchange home is within the city limits of the nearest city you have chosen above.  Suburban is near to a major city, and rural is the correct choice if your exchange home is out in the country.
+msgid "home.help_environment"
+msgstr "あなたの家が上記で選択した近くの市の市内にあるならば都市とし、大きな市の近くなら郊外、田舎にある家ならば田舎を選択する。"
+
+# --- Help Text : House Type
+# --- English text = What sort of structure is the home you are offering for exchange?  If this is your second or vacation home please choose accordingly.
+msgid "home.help_house_type"
+msgstr ".交換しようとしている家はどのような構造ですか？もしそれがセカンドハウスや別荘の場合はそれに従って選択してください。"
+
+# --- Help Text : Floor
+# --- This choice is offered for single structures housing more than one family, buildings or large homes with more than one apartment inside.
+msgid "home.help_floor_number"
+msgstr "ここでの選択は１つ以上の家族が同じ階に住むか、内部に一つ以上のアパートがある建物（又は大きな家）である場合。"
+
+# --- Help Text : People
+# --- English text = This refers to the number of people who could comfortably sleep in your home, not the number of people in your family.
+msgid "home.help_persons_suitable"
+msgstr "ここはあなたの家で何人が快適に眠る事ができるかということをきいています。あなたの家族は何人かときいているのではありません。"
+
+# --- Help Text : Bedrooms
+# --- English text = How many bedrooms are there in your home or apartment?  A consideration slightly different than how many people can sleep comfortably in your home.
+msgid "home.help_bedrooms"
+msgstr "あなたの家やアパートには寝室はいくつありますか？何人の人があなたの家で快適に眠れるかとというのとはちょっと違った質問です。"
+
+# --- Help Text : Bathrooms
+# --- English text = How many bathrooms does your home or apartment have?
+msgid "home.help_bathrooms"
+msgstr "あなたの家やアパートには浴室はいくつありますか？"
+
+# --- Help Text : Number of Adults
+# --- English text = Choose 0 to indicate that you are looking for Youth Exchange only.
+msgid "family.help_adults"
+msgstr "子供達の交換だけを探している場合は０を選択してください。"
+
+# --- Help Text : Occupation
+# --- English text = Intervac started as home exchange between teachers.  What is your profession?
+msgid "family.help_occupation"
+msgstr "インターバックは先生同士で家の交換をすることから始まりました。あんたの職業は何ですか？"
+
+# --- Help Text : Ages of Sons
+# --- English text = Please use one dropdown to indicate the age of each of your sons.
+msgid "family.help_boys_ages"
+msgstr "あなたの息子の年齢をドロップダウンリストから選ぶ。"
+
+# --- Help Text : Ages of Daughters
+# --- English text = Please use one dropdown to indicate the age of each of your daughters.
+msgid "family.help_girls_ages"
+msgstr "あなたの娘の年齢をドロップダウンリストから選ぶ。"
+
+# --- Help Text : Number of past exchanges
+# --- English text = Are you an experienced exchanger, or new to the game? Please choose the number of exchanges has your family has made?
+msgid "family.help_exchanges_made"
+msgstr "ホームエクスチェンジは初めてですか、それとも経験がありますか？経験がある方はその回数を選んでください。"
+
+# --- Help Text : Earliest Date
+# --- English text = This is the earliest date you and your family are available to make an exchange.
+msgid "timing.help_earliest_date"
+msgstr "ここはあなたと家族が交換を始めることが出来る一番早い時期です。"
+
+# --- Help Text : Latest Date
+# --- English text = This is the latest date you and your family can be away from home.
+msgid "timing.help_latest_date"
+msgstr "ここはあなたと家族が家から離れる事が出来る最終の日付です。"
+
+# --- Help Text : Timing Comment
+# --- English text = Not July/August, or SH=School Holidays; ET=Easter; CT=Christmas holidays; x=Open to Other Periods
+msgid "timing.help_comment"
+msgstr "７月８月以外、又は、ＳＨ＝学校休み；　ＥＴ＝イースター；　ＣＴ＝クリスマス休暇；　ｘ＝他の期間"
+
+# --- Help Text : Home Exchange
+# --- English text = You are flexible and willing to consider any offer that comes your way.
+msgid "exchange_types.help_O"
+msgstr "あなたはフレキシブルでどのようなオファーも考慮できる。"
+
+# --- Help Text : Home Exchange
+# --- English text = The majority of our members prefer to exchange homes.  This is not only our most popular choice, but also the cornerstone of our success.
+msgid "exchange_types.help_X"
+msgstr "会員の大多数は家の交換を望んでいます。これはもっともポピュラーな選択というわけではなく、我々の成功の土台といえます。"
+
+# --- Help Text : Weekend Exchange
+# --- English text = Looking for a short get-away, then Weekend Exchange is a good choice.
+msgid "exchange_types.help_WE"
+msgstr "短期間の休暇、これには週末の交換を選択すると良いでしょう。"
+
+# --- Help Text : Double Exchange
+# --- English text = A double exchange consists of two families searching 2 separate homes which are situated near to one another.
+msgid "exchange_types.help_DX"
+msgstr "ダブルの交換とは２つの家族が２軒の家を探す事です。この場合の２軒はお互いに行き来が出来るよう近くにあることが必要です。"
+
+# --- Help Text : Hospitality Exchange
+# --- English text = Hospitality exchange means you invite a member to visit you in your home, and are invited to visit in return.
+msgid "exchange_types.help_XH"
+msgstr "ホームステイ交換とはあなたが会員を自宅に招待し、交換としてあなたが相手先に招待される事です。"
+
+# --- Help Text : Long Term Exchange
+# --- English text = Long-term exchanges are generally 3 months or more in length.
+msgid "exchange_types.help_LX"
+msgstr "長期の交換とは概して3ヶ月かそれ以上をいいます。"
+
+# --- English text : A non-simultaneuous exchange is when two parties make an exchange with two different dates.  This is comparable to an exchange of house-sitting services.  Let's say your family was attending a wedding away from home, and you will be staying with relatives.  Another family might be planning a weekend holiday, but were unable to find an exchange partner for a direct exchange.  You might agree to a non-simultaneous exchange whereby you stay in their home while they are away for the weekend, and they stay in your home while you are at the wedding.
+msgid "exchange_types.help_NX"
+msgstr " 同時期でないエクスチェンジ。２組が異なった時期に２回エクスチェンジをする事です。ハウスシッティングサービスの交換と似ています。例えば、あなたの家族が遠方での結婚式に出席していたとして、あなたは親戚と一緒に滞在するとします。会員である別の家族が週末の休暇を計画していたとしますがダイレクトなエクスチェンジの相手が見つからないとします。それで、あなたは彼達が週末に出かけている時に彼らの家を使用するという同時期でないエクスチェンジに同意して、あなたが結婚式に出席している間に彼らがあなたの家に滞在するといったアレンジです。"
+
+# --- Help Text : Youth Exchange
+# --- English text = Members who have checked this box are looking for a youth exchange.
+msgid "exchange_types.help_XY"
+msgstr "ここをチェックした会員は子供達の交換を求めています。"
+
+# --- Help Text : Youth Hospitality
+# --- English text = Check this box if you are willing to host young adults as guests in your home.
+msgid "exchange_types.help_OY"
+msgstr "若者をあなたの家にゲストとして受け入れる場合にここをチェックしてください。"
+
+# --- Help Text: Hospitality offered by a young person
+# --- English text = Check this box if you have a young adult in your family who would like to host visting youths.
+msgid "exchange_types.help_WY"
+msgstr "もしあなたの家族にヤングアダルトがいる場合で、ユースを迎えたい希望の場合はここをクリックする。"
+
+# --- Help Text: Hospitality
+# --- English text = Hospitality is offered by members who have checked this box.
+msgid "exchange_types.help_H"
+msgstr "このボックスをチェックした会員によってホスピタリティーがオファーされます。"
+
+# --- Help Text : Offer home for house-sitting
+# --- English text = These members are searching a housesitter.  This option does not generally involve any payment.  This is ideal for when you must be away from home for a period of time, and would like for someone to pick up the mail, and feed the cat.
+msgid "exchange_types.help_AH"
+msgstr "この会員はハウスシッターを求めています。支払いはしないのが一般的です。これはある一定期間家を留守にする場合に、郵便箱をチェックしたり猫の世話などをしてもらう事を求めています。"
+
+# --- Help Text : Want to House-sit
+# --- English text = Choosing this option indicates a willingness to look after a home while the owners are away.  This usually includes picking up the mail, feeding pets and watering plants.
+msgid "exchange_types.help_HS"
+msgstr "このオプションはオーナーが留守の期間に家の見守りを喜んでしてくれる人を探しています。これは郵便箱の管理やペットの世話、植木の水遣りといった事を求めています。"
+
+# --- Help Text : Hospitality Wanted
+# --- English text = Checking this box indicates that you are searching for a member willing to offer you hospitality.
+msgid "exchange_types.help_HW"
+msgstr "このボックスはあなたにホームステイを提供してくれる会員を探している場合にチェックします。"
+
+# --- Help Text : Long Term Rental
+# --- English text = The members who have checked this box are interested in a long term (usually 3 months or more) rental.
+msgid "exchange_types.help_LR"
+msgstr "このボックスをチェックした会員は長期間（大体３ヶ月かそれ以上）の賃貸に興味があります。"
+
+# --- Help Text : Home for rent only
+# --- English text = The members who have checked this box are only interested in renting thier homes.  These members are not able to contact members who have checked the No Rental Offers Accepted box.
+msgid "exchange_types.help_ER"
+msgstr "このボックスをチェックした会員は彼らの家を賃貸することだけに関心を持っています。これらの会員は賃貸することに興味をもっていないメンバーとコンタクトする事はできません。"
+
+# --- Help Text : Home for rent or exchange
+# --- English text = The members who have checked this box are interested in renting thier homes, but they are equally interested in exchange offers.
+msgid "exchange_types.help_RO"
+msgstr "ここにチェックを人は家を貸したいと思っている会員ですが、家のエクスチェンジ（交換）にも関心を持っています。"
+
+# --- Help Text : Rental Required
+# --- English text = These members require a rental property.
+msgid "exchange_types.help_RR"
+msgstr "この会員は賃貸を求めています。"
+
+# --- Help Text : Skype
+# --- English text = If you want other members to contact you via Skype, please add your Skype-id here.
+msgid "other_details.help_skype"
+msgstr "もしあなたにスカイプを使ってコンタクトを取ってほしい場合は、ここにスカイプＩＤを追加してください。"
+
+# --- ERROR TEXT ---
+# --- English text =  The latest date must be after the earliest date.
+msgid "errors.latest_date_must_be_after_earliest"
+msgstr "最後の日付は最初の日付の後であるべきです。"
+
+# --- English text = Save my profile details
+msgid "save_button"
+msgstr "私のプロファイル情報を保存する。"
+
+# --- HowTo: Change availiabilty status
+# --- English text = If you are not searching an exchange at this time, you can change your availability status by clicking once on the traffic light in the headline above.  When the light is green, other members know that you are actively searching an exchange partner.
+msgid "how_to_change_availability"
+msgstr "今回あなたが交換をしない場合は上記のヘッドラインの信号をクリックしてください。ライトがグリーンの時は他の会員はあなたが交換の相手を探しているのだとわかります。"
+
+# --- English text = My Listing Details
+msgid "headline"
+msgstr "リスト情報："
+
+# --- English text = Please do not forget to save your changes.
+msgid "dont_forget_to_save"
+msgstr "変更を保存するのを忘れないで下さい。"
+
+# --- NEW April 2008 :: English text = Text written above is visible to visitors.
+msgid "visible_for_visitors"
+msgstr "上記の書かれたテキストは訪問者が見ることが出来ます。"
+
+# English Text = Close Window
+msgid "close_button"
+msgstr "ウインドウの選択"
+
+# --- English text = Your personal data has been saved.
+# --- Location = This is the notice that confirms that changes to personal data have been saved to an invisible listing.
+msgid "error_messages.personal_data_saved"
+msgstr "あなたの個人情報は保存されました。"
+
+# --- English text = Your listing will remain in-visible until you have filled in the following fields.
+# --- Location = This notice confirms that the listing remains invisible until all the fields required to build a complete listing are filled in.
+msgid "error_messages.listing_remains_invisible"
+msgstr "あなたのリスティング（登録事項）は、下記の部分が書き込まれるまで他の会員からは見ることが出来ないようになっています。"
+
+# --- English text = Please select at least one language for correspondence
+# --- Location = Error text if Language for Correspondence is left blank
+# (June, 2011 - New)
+msgid "error.spoken_language"
+msgstr "使用言語を少なくとも１つ選択してください。"
+
+# --- English text = Please select at least one exchange preferences
+# --- Location = Error text if Exchange types are left blank
+# (June, 2011 - New)
+msgid "error.exchange_type"
+msgstr "少なくとも１つのエクスチェンジする地域を選んでください"
+
+# --- English text = Your listing remains invisible for other members until you have built your home exchange profile. Get started today!
+# --- Location =
+# (June, 2011)
+msgid "message.invisible_listing"
+msgstr "あなたのリスティングはまだ他の会員が見ることが出来ません。すべての情報を書き込みが終った時点で公開されます。きょうから始めましょう！"
+
+# --- English text = Before we can activate your trial membership, please upload a photo of your home.
+# --- Location = This is the success message that appears on the Main Photo page when an invisible member has filled out their listing details and been forwarded to the Main Photo page.
+# (Aug, 2011)
+msgid "message.invisible_listing_without_photo"
+msgstr "あなたのトライアル会員資格を立ち上げる前に、あなたの家の写真をアップロードしてください。"
+
+# --- English text = Time span 
+# --- Location = Nov. 2011 - mobile application only
+# (New: November, 2011)
+#, fuzzy
+msgid "availability.time_span"
+msgstr "Time span"
+

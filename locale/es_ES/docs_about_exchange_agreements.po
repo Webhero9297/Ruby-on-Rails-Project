@@ -1,0 +1,96 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-03-23 18:17+0100\n"
+"PO-Revision-Date: 2011-08-01 13:34+0100\n"
+"Last-Translator: Angels <intervac@grossi-sas.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = About Exchange Agreements
+msgid "page.headline"
+msgstr "Sobre los Acuerdos de Intercambio"
+
+# --- English text = Following are items which you could agree upon with your exchange partner.  Many of these are covered in our online Exchange Agreement which you should fill out for each exchange you make. 
+msgid "page.introtext"
+msgstr "A continuación están los temas que puede acordar con su compañero de intercambio.  Muchos de ellos están cubiertos online en el Acuerdo de Intercambio que deberá cumplimentar por cada intercambio que haga."
+
+# --- English text = How to Register an Exchange
+msgid "how_to_register.headline"
+msgstr "Cómo Registrar un Intercambio"
+
+# --- English text = Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system.
+msgid "how_to_register.getting_started"
+msgstr "Una vez se han comprometido a intercambiar, cada parte entra el número de suscriptor de su compañero de intercambio y cumplimenta nuestro formulario online.  Ambos formularios son guardados por el sistema."
+
+# --- English text = To begin the process scroll down to the bottom of the right-hand column of the member home page, and enter your exchange partner's member id into the box then click the button to begin customising your agreement.
+msgid "how_to_register.how_to_begin"
+msgstr "Para empezar el proceso vaya al final de su página personal e introduzca el número de socio de su compañero de intercambio en el recuadro, haga \"clic\" para empezar a cumplimentar el formulario."
+
+# --- English text = Suggestions for Discussion
+msgid "for_discussion.headline"
+msgstr "Sugerencias"
+
+# --- English text = The names and ages of adults and children staying in your partner's home. You should include any expected visitors on the agreement form.
+msgid "for_discussion.expected_people"
+msgstr "Nombres y edades de los adultos y niños que van a estar en casa de su compañero de intercambio.  Debe incluir en el formulario de acuerdo si espera algún huesped."
+
+# --- English text = The use of exchanged cars and their maintenance.
+msgid "for_discussion.cars"
+msgstr "El uso y mantenimiento de los coches intercambiados."
+
+# --- English text = Where are the keys located?  We recommend that you leave them with friends or neighbours who can also welcome your exchange guests.  It is a good idea to leave a second set of keys with your neighbors or friends in case of an emergency.
+msgid "for_discussion.keys"
+msgstr "¿Dónde están las llaves? Recomendamos que las deje con amigos o vecinos quienes pueden a sus compañeros de intercambio.  Es una buena idea dejar un segundo juego de llaves con sus vecinos o amigos para emergencias."
+
+# --- English text = Each home owner is usually responsible for the fuel bills in his/her own home, unless otherwise agreed.
+msgid "for_discussion.energy_costs"
+msgstr "El propietario de cada casa es, normalmente, responsable del pago de las facturas de gas, electricidad, etc.  "
+
+# --- English text = What linen (sheets, towels, etc.) will be available in your home, and who is responsible for laundering.
+msgid "for_discussion.linens"
+msgstr "Cuántas sábanas y toallas estarán disponibles en su casa, y quién es reponsable de lavarlas."
+
+# --- English text = Arrange for record keeping of long distance telephone calls and settlement of cost.  Usually a note pad next to the telephone and a cheque or cash left at the time of departure is the simplest method.
+msgid "for_discussion.telephone_costs"
+msgstr "Acuerde como proceder con las conferencias.  Normalmente un block al lado del teléfono para anotarlas y un cheque o dinero efectivo para pagarlas es el método más sencillo."
+
+# --- English text = Agree that if repairs are necessary that cost above, say €25, a telephone call to the home owner is necessary to ensure payment by the owners, otherwise cost is borne by the exchange guests.
+msgid "for_discussion.repairs"
+msgstr "Acuerde que si hay reparaciones necesarias que cuestan más de, por ejemplo €25, será necesario telefonear al propietario de la casa para asegurarse de que pagarán dicha factura, de lo contrario este coste deberá ser a cuenta del huésped."
+
+# --- English text = Documented Experience Badges
+msgid "ee_increased_headline"
+msgstr "Condecoraciones de Experiencia"
+
+# --- English text = After your exchange is completed both you and your partner will automatically have an additional registered exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can range from Ready-to-Go (for new members) to Gold (6+ exchanges) and beyond.
+msgid "ee_increased"
+msgstr "Una vez ha finalizado su intercambio ambos socios, usted y su compañero, automáticamente tendrán sumados un intercambio.Todo intercambio registrado activa un contador en su anuncio.  La experiencia va desde Ready-to-Go para (socios nuevos) a Platino."
+
+# --- English text = Things to Know
+msgid "things_to_know.headline"
+msgstr "Cosas a Saber"
+
+# --- English text = <highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side.
+##### --- (April 2011) This text is no longer correct.
+msgid "-x- things_to_know.my_perspective"
+msgstr "Cada formulario está cumplimentado en primera persona.  Debe escribir sus propios compromisos e información para mostrar su lado del acuerdo.  Su compañero hará lo mismo."
+
+# --- English text = <highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight>  
+msgid "things_to_know.notification"
+msgstr "Su compañero es avisado automáticamente por e-mail cuando usted le ha enviado un acuerdo de intercambio."
+
+# --- English text = <highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries.
+msgid "things_to_know.visibility"
+msgstr "Puede ver e imprimir sus acuerdos en la sección MIS ACUERDOS DE INTERCAMBIO de su página personal.  Para encontrar esta sección vaya a la zona gris a LINKS ÚTILES en la columna izquierda de su página personal.  Hasta que su compañero no haya cumplimentado el formulario usted sólo vera su número de suscriptor.  Después, el número del socio se convierte en un link que le lleva al formulario completado de su socio.  Sus formularios completados sólo son visibles para usted, su compañero y los representantes de Intervac de ambos países."
+
+# --- English text = <highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement.
+msgid "things_to_know.changes_allowed"
+msgstr "Puede cambiar su acuerdo de intercambio hasta la fecha de su viaje.  Asegúrese de tratar todos los puntos de su acuerdo con su compañero.  Él siempre será informado por e-mail si usted ha hecho algún cambio a su acuerdo."
+

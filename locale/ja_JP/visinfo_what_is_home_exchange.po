@@ -1,0 +1,37 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-02 18:17+0100\n"
+"PO-Revision-Date: 2011-12-07 22:37+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = What is Home Exchange?
+# --- Location = Main headline on the page
+# (June, 2011)
+msgid "page.headline"
+msgstr "ホームエクスチェンジとは何か？"
+
+# --- English text = ...home exchange is an act of international trust and cooperation at the individual level that one has to experience to really understand. It is important for me to move the exchange beyond a "free hotel/car" arrangement by careful preparation for receiving our exchange guests in our community ...including meeting friends, family or professionals with a common bond.
+# --- Location = Opening quote just underneath the headline
+# (June, 2011 - As Is => vtour_lifestyle.closing_quote )
+msgid "page.opening_quote"
+msgstr "・・・ホームエクスチェンジは本当に理解しあうという個人レベルでの経験から生じる信頼と協調の行為です。私にとってエクスチェンジとは、我々の共同体にエクスチェンジ・ゲストを向かいいれるために注意深く準備をしてアレンジをする \"無料のホテル・車\" を超えた動きとして重要です・・・これには友人とか家族、又は仕事仲間の間の共通のきずなを持つ人達も含みます。--- Location = Opening quote just underneath the headline"
+
+# --- English text = Home exchange simply means that you and your family agree with a family from a different area to live in each other's homes during your holiday. The length of the holiday exchange is entirely up to you.  Only have a free weekend?  Arrange a weekend exchange. No money changes hands between the exchangers so you can have free accommodation anywhere in the world.
+# (June, 2011 - As Is => vtour_faq.answer.what_exactly_is_home_exchange)
+msgid "page.what_is_home_exchange"
+msgstr "ホーム・エクスチェンジとは2組の家族が休暇ためにおのおのの家を交換して滞在する事です。その期間はお互いで話し合って決めます。週末だけの交換のアレンジもできます。代金の支払いは発生しませんので世界のあらゆる場所で無料の休暇が楽しめるというわけです。(June, 2011 - As Is => vtour_faq.answer.what_exactly_is_home_exchange)"
+
+# --- English text = An Intervac membership offers you the freedom to explore neighborhoods and lifestyles not available through travel guides.  When specifying your preferred exchange destinations be sure to choose <highlight>Open to All Offers</highlight>.  You may find youself vacationing in a Danish fishing port on the Baltic Sea, or a ranch in western Canada, a village in rural France or a barge moored in central Amsterdam. If you are flexible you can let serendipity take you to places you never dreamt of!
+# (June, 2011 - As Is => vtour_why_exchange.serendipity.text)
+msgid "page.serendipity_text"
+msgstr "インターバックの会員間では近隣やライフスタイルを探検する自由が提供されます。これらはガイド付きの旅行では経験できないものです。あなたの希望する行き先を具体的に探す時、単に<highlight>すべてのオファーにオープン</highlight>を選択してください。バルト海のデンマークの漁港とかカナダの西部の牧場、フランスの田舎、アムステルダムの中央に停泊している小船などで休暇を楽しんでいるあなたを想像できるでしょう。もしあなたの休暇が融通のきくものなら、今まで決して夢見た事のない土地での休暇を計画してみましょう！"
+

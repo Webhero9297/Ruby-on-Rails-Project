@@ -1,0 +1,66 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2011-06-22 12:17+0100\n"
+"PO-Revision-Date: 2011-07-30 02:05-0000\n"
+"Last-Translator: Sesselja Traustadóttir <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = What is home exchange?
+# (June, 2011 - New)
+msgid "step1.headline"
+msgstr "Hvað eru heimilaskipti?"
+
+# --- English text = Home Exchange is an great way to travel on a budget, experiencing foreign countries like an insider! Using a very simple <italic>you visit mine, and I'll visit yours</italic> arrangement, you exchange the use of your home with a family in the country you want to visit.   It's super easy - thanks to our welcoming community; very secure - your home is not empty while you are away; and incredible fun - you'll make new friends and see your vacation country in ways never before available to you.
+# (June, 2011 - New)
+# -- Please do not translate the <italic> or </italic> tags.
+msgid "step1.text"
+msgstr "Heimilaskipti eru frábær leið til þess að ferðast á hagkvæman hátt og kynnast framandi stöðum að hætti heimamanna! Með sérlega einföldu <italic>þú heimsækir mig á meðan ég heimsæki þig</italic> samkomulagi, skiptist þið á heimilum hvors annars. Þetta er ótrúlega einfalt og öruggt - heimili þitt er aldrei mannlaust á meðan þú ferðast. Þú kynnist áfangastaðnum á nýjan hátt og upplifir gestrisni heimamanna."
+
+# --- English text = Next step
+# (June, 2011 - New)
+msgid "next_step.button"
+msgstr "Næsta skref"
+
+# --- English text = Who is using Home Exchange?
+# (June, 2011 - New)
+msgid "step2.headline"
+msgstr "Hverjir eru virkir í heimilaskiptum?"
+
+# --- English text = Home Exchange is used by a wide audience, people of all ages and across all occupations. Home Exchange is not just for chasing cheap holidays, it is your opportunity for an authentic experience way beyond any guidebook or tourist trap.
+# (June, 2011 - New)
+msgid "step2.text"
+msgstr "Fjöldi fólks á öllum aldri og úr öllum stéttum hefur tileinkað sér heimilaskipti sem gistingarform á ferðum sínum sem það kýs umfram annað. Heimilaskipti eru hagkvæm fjárhagslega en snúast um mikil verðmæti; þetta er einstök leið til þess að upplifa heiminn á persónulegan hátt sem engin ferðahandbók fjallar um. "
+
+# --- English text = The role of Intervac
+# (June, 2011 - New)
+msgid "step3.headline"
+msgstr "Upphaf Intervac"
+
+# --- English text = The founders of Intervac actually invented the concept of home exchange back in 1953 and are today one of the largest and most secure Home Exchange organizations in the world. With over {{total_number_of_members}} homes waiting for exchange which cover 140 different countries we guarantee you will find a vacation home that fit your needs and preferences.
+# (June, 2011 - New)
+msgid "step3.text"
+msgstr "Upphafsmenn Intervac mótuðu hugmyndina um heimilaskipti og stofnuðu samtök um þau árið 1953. Í dag eru samtökin stærstu og tryggustu heimilaskiptasamtök heimsins. Yfir {{total_number_of_members}} heimili bjóða heimilaskipti í meira en 140 löndum heimsins. Eitt þeirra mun örugglega henta þér."
+
+# --- English text = Whats next?
+# (June, 2011 - New)
+msgid "last_step.headline"
+msgstr "Hvað næst?"
+
+# --- English text = We urge you to sign up for a free account and take our home exchange service out for a spin. No credit card is required and you can cancel you account at any time. Just click the sign up button below and you'll be browsing your next vacation home in no time!
+# (June, 2011 - New)
+msgid "last_step.text"
+msgstr "Við hvetjum þig til að skrá þig frítt inn og prófa þjónustu okkar. Þú þarft ekki að gefa upp greiðslukortanúmer og þú getur hætt við hvenær sem þú vilt. Smelltu á Prófaðu frítt hnappinn og þú getur leitað að næsta sumarleyfisstað innan skamms. "
+
+# --- English text = Sign up Now!
+# (June, 2011 - New)
+msgid "last_step.button"
+msgstr "Gakktu í Intervac!"
+

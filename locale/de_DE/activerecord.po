@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-01-13 16:00+0200\n"
+"PO-Revision-Date: 2009-01-13 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = is not included in the list
+msgid "errors.messages.inclusion"
+msgstr "ist kein gültiger Wert"
+
+# --- English text = is is reserved
+msgid "errors.messages.exclusion"
+msgstr "ist nicht verfügbar"
+
+# --- English text = is invalid
+msgid "errors.messages.invalid"
+msgstr "ist nicht gültig"
+
+# --- English text = doesn't match confirmation
+msgid "errors.messages.confirmation"
+msgstr "stimmt nicht mit der Bestätigung überein"
+
+# --- English text = must be accepted
+msgid "errors.messages.accepted"
+msgstr "muss akzeptiert werden"
+
+# --- English text = can't be empty
+msgid "errors.messages.empty"
+msgstr "muss ausgefüllt werden"
+
+# --- English text = can't be blank
+msgid "errors.messages.blank"
+msgstr "muss ausgefüllt werden"
+
+# --- English text = is too long (maximum is {{count}} characters
+msgid "errors.messages.too_long"
+msgstr "ist zu lang (nicht mehr als {{count}} Zeichen)"
+
+# --- English text = is too short (minimum is {{count}} characters)
+msgid "errors.messages.too_short"
+msgstr "ist zu kurz (nicht weniger als {{count}} Zeichen)"
+
+# --- English text = is the wrong length (should be {{count}} characters)
+msgid "errors.messages.wrong_length"
+msgstr "hat die falsche Länge (muss genau {{count}} Zeichen haben)"
+
+# --- English text = has already been taken
+msgid "errors.messages.taken"
+msgstr "ist bereits vergeben"
+
+# --- English text = is not a number
+msgid "errors.messages.not_a_number"
+msgstr "ist keine Zahl"
+
+# --- English text = must be greater than {{count}}
+msgid "errors.messages.greater_than"
+msgstr "muss größer als {{count}} sein"
+
+# --- English text = must be greater than or equal to {{count}}
+msgid "errors.messages.greater_than_or_equal_to"
+msgstr "muss größer oder gleich {{count}} sein"
+
+# --- English text = must be equal to {{count}}
+msgid "errors.messages.equal_to"
+msgstr "muss genau {{count}} sein"
+
+# --- English text = must be less than {{count}}
+msgid "errors.messages.less_than"
+msgstr "muss kleiner als {{count}} sein"
+
+# --- English text = must be less than or equal to {{count}}
+msgid "errors.messages.less_than_or_equal_to"
+msgstr "muss kleiner oder gleich {{count}} sein"
+
+# --- English text = must be odd
+# --- The word "odd" refers to a sequence of numbers: 1, 3, 5, 7...
+msgid "errors.messages.odd"
+msgstr "muss ungerade sein"
+
+# --- English text = must be even
+# --- The word "even" refers to a sequence of numbers: 2, 4, 6, 8...
+msgid "errors.messages.even"
+msgstr "muss gerade sein"
+
+# --- English text = Sorry, your form cannot be submitted just yet
+msgid "errors.template.header"
+msgstr "Sorry, your form cannot be submitted just yet."
+
+# --- English text = The following errors have been discovered.  Please correct the fields listed below before continuing.
+msgid "errors.template.header"
+msgstr "The following errors have been discovered.  Please correct the fields listed below before continuing."

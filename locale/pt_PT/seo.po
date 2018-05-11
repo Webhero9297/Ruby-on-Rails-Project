@@ -1,0 +1,116 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2011-06-24 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+### --- INDEX PAGE
+# Last Updated => Aug, 2010
+msgid "title.index"
+msgstr "Trocas de casa para férias com Intervac"
+
+# Last Updated => Aug, 2010
+msgid "description.index"
+msgstr "Primeira agência de troca de casas para férias, como funciona, férias de última hora, testemunhos, FAQs, fotos grátis e troca de casas nas notícias"
+
+# Last Updated => Aug, 2010
+msgid "keyword_set.index"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- VISITORS PAGES --- 
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.benefits_of_home_exchange"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.facts_about_intervac"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.home_exchange_with_intervac"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.membership_with_intervac"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.national_representatives"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.secure_exchanges"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.take_the_tour"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.thinking_about_home_exchange"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.what_is_home_exchange"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.what_to_think_about"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.exchange_tips"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.home_exchange_checklist"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- TESTIMONIALS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.testimonials"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- REGISTRATION FORM ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.registration"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- TEST OUR DATABASE ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.visitor_search"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- CONTACTS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.contacts"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- SITEMAP ---
+# Not in Use - June 2011
+msgid "-x- keyword_set.sitemap"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- TERMS AND CONDITIONS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.terms_and_conditions"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- PRIVACY POLICY ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.privacy_policy"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"
+
+### --- FACEBOOK COMPETITIONS - 60TH ANNIVERSARY ---
+# (New: June, 2012)
+msgid "keyword_set.facebook_competitions"
+msgstr "troca de casas, intervac, troca de home, feriados, hospitalidade, viagem, alojamento, Portugal, Portugu"

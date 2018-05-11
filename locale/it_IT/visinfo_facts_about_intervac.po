@@ -1,0 +1,118 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-11 18:17+0100\n"
+"PO-Revision-Date: 2012-04-23 11:20+0100\n"
+"Last-Translator: Gabriella Zanobetti <info@intervac.it>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Facts About Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "Fatti riguardanti Intervac"
+
+# --- English text = This is Intervac
+# (June, 2011 - New)
+msgid "page.subhead"
+msgstr "Noi siamo la più vecchia organizzazione di Scambio Casa"
+
+# --- English text = What a way to travel! Intervac isn't just a company - but a way of life that our founders discovered and pioneered.  Since 1953 we have been leading the way facilitating home exchange between families, singles and retired people.  Within the organization our national representatives work together and beyond country borders to make sure that you find the perfect exchange partner and that your holidays are stress-free and fun.
+# (June, 2011 - Reference - vtour_lifestyle.po => intervac_leads_the_way_text)
+msgid "page.introtext"
+msgstr "Viaggiare con Intervac non é soltanto questione di essere membri di una Associazione ma é un modo di vita che i nostri fondatori scoprirono e misero a punto. Fin dal 1953  abbiamo promosso e facilitato lo scambio di case  tra famiglie, persone in pensione e singles . I nostri rappresentanti nazionali lavorano con l'organizzazione  per assicurarsi che voi troviate lo scambio che più vi conviene e che le vostre vacanze siano divertenti e prive di stress."
+
+# --- English text = Culturally-enriching, environmentally friendly and economical.
+# (June, 2011 - Reference: vtour_lifestyle.po => intervac_leads_the_way_text)
+msgid "cultural.headline"
+msgstr "Arricchiscono culturalmente, rispettano l'ambiente  e sono economiche "
+
+# --- English text = INTERVAC was started in Europe in the early 1950's by a group of teachers with plenty of vacation time looking for economic means to travel internationally. After a few exchanges, they realized that living in each other's homes was great for cultivating international friendships.  Our concept has been growing ever since - primarily by referrals from satisfied home exchangers. Currently INTERVAC offers its services around the world and facilitates home exchanges for {{total_number_of_members}} families from all walks of life.
+# (June, 2011 - Reference - vtour_about_us.po => organization.history_text)
+# IMPORTANT - DO NOT TRANSLATE {{total_number_of_members}} - This is a placeholder that will be replaced by the sytem.
+msgid "intervac_history.text"
+msgstr "INTERVAC iniziò in Europa agli inizi degli anni '50 ad opera di un gruppo di insegnanti che avendo lunghe vacanze cercavano un modo economico per viaggiare . Dopo alcuni scambi essi realizzarono che vivere nelle reciproche case era eccezionale per coltivare amicizie internazionali. Da allora la nostra idea si é rafforzata anche attraverso le referenze offerte dai nostri scambisti.Attualmente  INTERVAC offre i suoi servizi in tutto il mondo e facilita lo scambio casa  per  {{total_number_of_members}} famiglie  con ogni tipo di esperienza."
+
+# --- English text = Even our online service is environmentally friendly.  In 2007 were again the first, and as far as we know we are still in 2011, the only home exchange organisation to host our servers in a high security server farm powered entirely by renewable hydro-electric power.  Intervac International is committed to keeping our planet healthy, without missing out on all the fun!
+# --- Location =
+# (June, 2011 - Reference - vtour_lifestyle.po => planet_friendly.green_power_text)
+msgid "green_power.text"
+msgstr "Anche il nostro servizio online rispetta l'ambiente. Nel 2007 eravamo di nuovo  i primi e da quello che  sappiamo siamo ancora nel 2011, la sola organizzazione di scambio casa che ha i suoi  server in un luogo ad alta sicurezza che usa soltanto energia idroelettrica rinnovabile. Intervac International si é impegnata a mantenere il nostro pianeta in salute, senza tuttavia perdereil lato divertente del nostro lavoro"
+
+# --- English text = We keep a low profile, taking care of our {{total_number_of_members}} members.  Our growth is fueled by referrals from satisfied members.  We have agents in {{number_of_agent_countries}} countries, we speak your language and live in your culture.  We are here to guide and advise you how to get the most out of your home exchange experiences.  If you have questions, we'd love to <link>hear from you</link>.
+# --- IMPORTANT - DO NOT TRANSLATE {{total_number_of_members}}, {{number_of_agent_countries}}, or <link>, </link>.  These are placeholders and will be replaced with information by the system.
+# (June, 2011 - Reference: vtour_lifestyle.po => intervac_around_the_world_longest_service_text)
+msgid "intervac_around_the_world.text"
+msgstr "Da quando operiamo in tutto il mondo manteniamo sempre il nostro nome semplice INTERVAC. Manteniamo un profilo basso prendendoci cura dei nostri {{total_number_of_members}} associati. La nostra crescita é dovuta alle referenze di membri soddisfatti dei loro scambi.  Abbiamo Agenti in  {{number_of_agent_countries}} paesi, che parlano la vostra lingua e vivono nel vostro ambiente  culturale.  Siamo qui per guidarvi e consigliarvi su come prendere il meglio dalle vostre esperienze di scambio Se avete delle domande ci farebbe piacere  <link>avere vostre notizie e ascoltarvi</link>."
+
+# --- English text = About our Members
+# (June, 2011 - As Is - vtour_about_us.po => members_headline)
+msgid "our_members.headline"
+msgstr "A proposito dei nostri Soci"
+
+# --- English text = Our members are relatively affluent, well educated and passionate about expanding their horizons. Typically they are home owners with one or two incomes from professional and executive occupations, small business owners, or self-employed. Their average age is between 35 and 60 and often there are children living at home.  We are also happy to call an adventurous group of retirees, busy seeing the world and enjoying the benefits of home exchange, our members as well.
+# (June, 2011 - As Is - vtour_about_us.po => our_members_are_text)
+msgid "our_members.text"
+msgstr "I nostri soci non sono particolarmente ricchi ma  sono ben educati e  amano molto espandere i loro orizzonti. In generale possiedono la casa dove abitano, hanno uno o due introiti per le loro occupazioni professionali, oppure sono piccoli commercianti o impiegati. L'età media dei nostri soci é fra i 35 e i 60 anni. Spesso ci sono famiglie con bambini. Ma siamo felici nel dire che c'é anche  un gruppo avventuroso di persone in pensione che gira il mondo e che approfitta dei vantaggi dello scambio casa"
+
+# --- English text = The name INTERVAC is made from words <italic>international</italic> and <italic>vacations</italic> and is registered as a trademark in most countries where INTERVAC operates. In countries where we are represented we simply call ourselves INTERVAC followed by the country name. For example: we are INTERVAC Austria in Austria and INTERVAC Canada in Canada. Our umbrella organisation - INTERVAC International - is a registered non-profit organisation in Sweden.
+# (June, 2011 - Reference: Taken from vtour_about_us.po => organization.nationally_owned_and_operated)
+msgid "intervac_history.name"
+msgstr "Il nome INTERVAC é formato dalle parole<italic> internazionale</italic>  e <italic>vacanze</italic> ed é registrato come marchio  nella maggior parte dei paesi in cui opera. Nei paesi dove siamo rappresentati ci chiamiamo semplicemente INTERVAC seguito dal nome del paese  .Per esempio siamo INTERVAC Austria in Austria e INTERVAC Canada in Canada.La nostra Organizzazione generale  - INTERVAC International -é una non profit  registrata in Svezia."
+
+# --- English text = What types of vacation does Intervac's online system support?
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types.headline"
+msgstr "Quali tipi di vacanze consente il sistema di Intervac online ?"
+
+# --- English text = Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.home_exchange"
+msgstr "Scambio Casa : il nostro obbiettivo. Due famiglie si accordare per vivere l'una nella casa dell'altra per uno specifico periodo di tempo"
+
+# --- English text = House Sitting: Looking after someone else's home, mail, pets while they are away.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.house_sitting"
+msgstr "House sitting significa sorvegliare la casa di altri soci, mentre essi sono assenti, prendere la posta e eventualmente accudire cani, gatti ecc"
+
+# --- English text = Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.double_exchange"
+msgstr "Doppio Scambio: due famiglie  (di solito abitano in case vicine) cercano di scambiare con due famiglie diverse. "
+
+# --- English text = Hospitality Exchange: Members agree to exchange visits in each other’s homes.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.hospitality_exchange"
+msgstr "Scambio di Ospitalità : i soci concordano di ospitarsi vicendevolmente"
+
+# --- English text = Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.long_term_exchange"
+msgstr "Scambi di lunga durata : si pratica di solito fra persone in pensione, docenti universitari, impiegati di compagnie multi-nazionali"
+
+# --- English text = Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.bed_and_breakfast"
+msgstr "Bed and Breakfast : é la stessa cosa del  servizio ormai ben noto ma la differenza é che questo avviene fra i soci e senza  che comporti una qualsiasi spesa, cioé é gratuito"
+
+# --- English text = Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.rental"
+msgstr "Affitti : talvolta i soci inseriscono la possibilità dell'affitto della casa, ma ad un prezzo drasticamente ridotto per gli altri soci di Intervac"
+
+# --- English text = Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.youth_exchange"
+msgstr "Scambio Giovani: una opportunità per gli adolescenti per imparare nuove culture senza che i loro genitori siano sempre attaccati a loro"
+
+# --- English text = Youth Hospitality: Young people agree to visit each other.
+# (June 2011 - As Is from vtour-site_features.po)
+msgid "exchange_types_list.youth_hospitality"
+msgstr "Ospitalità dei Giovani : i giovani si accordano per per ospitarsi a vicenda"
+

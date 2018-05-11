@@ -1,0 +1,47 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-03-23 18:17+0100\n"
+"PO-Revision-Date: 2010-08-18 00:53+0100\n"
+"Last-Translator: Leoni Günzler <info@haustausch.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Leaving Your Exchange Home
+msgid "page.headline"
+msgstr "Verlassen des Hauses/Wohunung Ihres Tauschpartners"
+
+# --- English text = Just before you go...
+msgid "page.introtext"
+msgstr "Vor Ihrer Abreise........"
+
+# --- English text = Replace basic foods (coffee, tea, sugar, salt...) and leave linens as arranged with your exchange partner in advance.
+msgid "list.replace_basic_foods"
+msgstr "Hinterlassen Sie ein paar Grundnahrungsmittel, z.B. Kaffee, Tee, Zucker, Salz.......usw.)"
+
+# --- English text = Clean up so as to return your partner's home to them to the same (or better!) condition as you found it. Obviously standards will differ, but aim high! Be sure to leave the linens as arranged with your exchange partner in advance.
+msgid "list.clean_up"
+msgstr "Hinterlassen Sie das Heim Ihres Tauschpartners am Besten so, wie Sie dieses  angetroffen haben. Beachten Sie dabei , daß  die Standards  in den verschiedenen Ländern sehr unterschiedlich sind! Denken Sie an die Dinge, die Sie mit Ihrem Tauschpartner vereinbart haben, z. B. Betten überziehen, Handtücher bereitstellen usw...."
+
+# --- English text = Leave cash for phone calls and any minor breakage.  Be sure to leave a note of any incidents or items replaced or broken.
+msgid "list.leave_cash"
+msgstr "Die Kosten für evtl. Telefonanrufe hinterlassen Sie am Besten in bar, ebenso für evtl. zu Bruch gegangene Dinge! Geben Sie hierzu eine kurze Anmerkung auf einem Zettel über die Einzelheiten!"
+
+# --- English text = If you depart early for any reason, make sure that your exchange partners and their neighbours are notified.
+msgid "list.leaving_early"
+msgstr "Sollten Sie frühzeitig abreisen, bitte benachrichtigen Sie unbedingt zuerst Ihren Tauschpartner und evtl. dann noch die Nachbarn!"
+
+# --- English text = Follow your partner's home security procedures prior to leaving, including returning keys to designated locations or people.
+msgid "list.security"
+msgstr "Beim Verlassen des Hauses folgen Sie unbedingt den Angaben Ihres Tauschpartners über die  speziellen Sicherheitsmaßnahmen und hinterlassen Sie  den Schlüssel unbedingt an dem angegebenen Ort! "
+
+# --- English text = A thank you note, and perhaps a small gift as a token of your appreciation is always a welcome homecoming.
+msgid "list.say_thank_you"
+msgstr "Ein paar Dankeszeilen und evtl. ein kleines Geschenk  - immer eine Anerkennung für Ihren Tauschpartner als Willkommensgruß bei deren Rückkehr!"
+

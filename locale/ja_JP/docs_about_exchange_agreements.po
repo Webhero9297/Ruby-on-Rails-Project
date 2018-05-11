@@ -1,0 +1,96 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-03-23 18:17+0100\n"
+"PO-Revision-Date: 2011-12-01 16:52+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = About Exchange Agreements
+msgid "page.headline"
+msgstr "エクスチェンジの同意について"
+
+# --- English text = Following are items which you could agree upon with your exchange partner.  Many of these are covered in our online Exchange Agreement which you should fill out for each exchange you make.
+msgid "page.introtext"
+msgstr "次の項目はあなたのエクスチェンジパートナーとの同意のためのものです。これらの多くは、あなたがする各々のエクスチェンジについてオンラインエクスチェンジ同意に書き込むことになります。"
+
+# --- English text = How to Register an Exchange
+msgid "how_to_register.headline"
+msgstr "エクスチェンジ登録の仕方"
+
+# --- English text = Upon committing to make an exchange, each party enters their exchange partner’s member ID and fills in our online form. Both forms are saved in our system.
+msgid "how_to_register.getting_started"
+msgstr "エクスチェンジが成立した後は、各々がパートナーについてその会員IDを入力し、我々のオンライン・フォームに書き込んでください。両方からのフォームは我々のシステムに保存されます。"
+
+# --- English text = To begin the process scroll down to the bottom of the right-hand column of the member home page, and enter your exchange partner's member id into the box then click the button to begin customising your agreement.
+msgid "how_to_register.how_to_begin"
+msgstr "プロセスの方法は、メンバーホームページの右手のコラムの下方にスクロールダウンして、ボックスにエクスチェンジパートナーの会員IDを入力してください。次にボタンをクリックしてあなたの同意についてカスタマイズを始めてください。"
+
+# --- English text = Suggestions for Discussion
+msgid "for_discussion.headline"
+msgstr "話し合いの提案"
+
+# --- English text = The names and ages of adults and children staying in your partner's home. You should include any expected visitors on the agreement form.
+msgid "for_discussion.expected_people"
+msgstr "あなたのパートナーの家に滞在する大人と子供の名前と年齢。誰かが訪問してくる可能性がある人がある場合は同意書にそれを含める必要があります。"
+
+# --- English text = The use of exchanged cars and their maintenance.
+msgid "for_discussion.cars"
+msgstr "交換する車の使用とその管理"
+
+# --- English text = Where are the keys located?  We recommend that you leave them with friends or neighbours who can also welcome your exchange guests.  It is a good idea to leave a second set of keys with your neighbors or friends in case of an emergency.
+msgid "for_discussion.keys"
+msgstr "家の鍵類はどこに置いておきますか？お勧めする方法としては、エクスチェンジするパートナーを出迎える事を頼める友人や隣人に預けるていく事です。緊急用として２セット目の鍵類をその友人や隣人に預かってもらうのも良い方法です。"
+
+# --- English text = Each home owner is usually responsible for the fuel bills in his/her own home, unless otherwise agreed.
+msgid "for_discussion.energy_costs"
+msgstr "通常は、各自の家の持ち主が自分の家の光熱費を支払います。これについてはお互いに特別の合意がある場合は例外です。"
+
+# --- English text = What linen (sheets, towels, etc.) will be available in your home, and who is responsible for laundering.
+msgid "for_discussion.linens"
+msgstr "リネン類（シーツ、タオルなど）は用意できますか？そしてどちらが洗濯することになっていますか？"
+
+# --- English text = Arrange for record keeping of long distance telephone calls and settlement of cost.  Usually a note pad next to the telephone and a cheque or cash left at the time of departure is the simplest method.
+msgid "for_discussion.telephone_costs"
+msgstr "長距離電話をしたときの料金や生活する上での出費などをどうするかについては先に打ち合わせしておきましょう。通常は電話機の横にメモ紙を置き、使った料金相当額を小切手や現金などで出発の時に残しておくのが簡単なやり方です。"
+
+# --- English text = Agree that if repairs are necessary that cost above, say €25, a telephone call to the home owner is necessary to ensure payment by the owners, otherwise cost is borne by the exchange guests.
+msgid "for_discussion.repairs"
+msgstr "修理代が必要になったような場合、例えば２５ユーロ以上かかるような時は、その家の持ち主に電話をして持ち主の方で負担するということを確認する必要があるということを双方で同意しておきましょう。そうしないと費用はエクスチェンジをしているゲストが払う事になります。"
+
+# --- English text = Documented Experience Badges
+msgid "ee_increased_headline"
+msgstr "経験によるバッジ区分"
+
+# --- English text = After your exchange is completed both you and your partner will automatically have an additional registered exchange added to the experience level exchange counter displayed on your listing. Range of documented experience can range from Ready-to-Go (for new members) to Gold (6+ exchanges) and beyond.
+msgid "ee_increased"
+msgstr "エクスチェンジが終った後には、あなたとパートナーはお互いのリスティング上のエクスチェンジ経験階級が一段階上がります。経験による階級は「レディーツウーゴウ」（初めて経験した会員）から「ゴールド」（６回以上）、それ以上の階級というような段階になっています。"
+
+# --- English text = Things to Know
+msgid "things_to_know.headline"
+msgstr "知っておく事柄"
+
+# --- English text = <highlight>Each form is filled in from the first person perspective.</highlight> You should write your own commitments and information to show your side of the agreement.  Your partner will do the same for their side.
+##### --- (April 2011) This text is no longer correct.
+msgid "-x- things_to_know.my_perspective"
+msgstr "各々のフォームは自分の側についてのみ書き込んでください。あなた自身のコメントや情報をあなたの側の同意として示してください。あなたのパートナーは同じ事をその人の側から書き込むでしょう。"
+
+# --- English text = <highlight>Your partner is automatically notified by email when you have submitted an exchange agreement.</highlight> 
+msgid "things_to_know.notification"
+msgstr "あなたがエクスチェンジに同意したとき、あなたのパートナーは自動的にメールにより知らされます。"
+
+# --- English text = <highlight>You can view and print your agreements at the MY EXCHANGE AGREEMENTS section of your Intervac member home page.</highlight>  To find this section look in the grey USEFUL LINKS box in the left-hand column of the member home page. Until your partner has completed thier form you will only see his/her member id.  Afterwards, the member id becomes a link to your partner's completed form.  Your completed forms are only visible to you and your exchange partner as well as the Intervac representatives from your countries.
+msgid "things_to_know.visibility"
+msgstr "同意書はあなたのインターバック会員ホームページの「私のエクスチェンジ同意書」のところで見ることが出来、又印刷できます。これがあるのは、会員ホームページの左手コラムの中のグレイの「役に立つリンクス」の中です。あなたのパートナーがフォームを完成するまでは、あなたは彼らの会員IDだけしか見ることができません。後になって、会員IDはパートナーの完成したフォームとリンクします。あなたの完成されたフォームはあなたとパートナーと共にあなたの国のインターバック担当者も見ることだ出来るようになります。"
+
+# --- English text = <highlight>You can edit/change your own exchange agreement form until the date of departure.</highlight> So be sure to discuss your agreement with your partner.  Your partner is always notified by email when you have made a change to your agreement.
+msgid "things_to_know.changes_allowed"
+msgstr "<highlight>あなたは出発の日までエクスチェンジの同意事項を修正/変更できる。</highlight> ですからパートナーと同意事項についてよく話し合っておくべきです。あなたが変更をしたときは、常にメールによって相手方に知らせられるでしょう。"
+

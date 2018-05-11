@@ -1,0 +1,134 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-05-30 12:19-0000\n"
+"Last-Translator: Sesselja Traustadóttir <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thank you for taking the time to submit comments about our site.  They have been sent to your local organiser.
+msgid "messages.thanks_comments_sent_to_organizer"
+msgstr "Takk fyrir að gefa þér tíma til þess að senda ábendingar um síðuna okkar. Þær verða sendar til umboðsmanns þíns."
+
+# --- English text = Suggestions for Improvement
+msgid "headline"
+msgstr "Tillögur til úrbóta"
+
+# --- English text = Thanks for taking the time to offer suggestions about our site.  We are always happy to hear from our members and our interested visitors.  Your suggestions and comments guide our further development, so please tell us what you like and how we can improve!
+msgid "introtext"
+msgstr "Takk fyrir að taka tíma í skrá athugasemdir um síðuna okkar. Við erum ævinlega þakklát fyrir að heyra frá meðlimum okkar og áhugasömum gestum. Tillögur þínar og athugasemdir eru okkur leiðarljós til frekari þróunar, svo vinsamlegast segðu okkur hvernig við getum gert betur!"
+
+# --- English text = My Suggestions
+msgid "visitor.suggestions_headline"
+msgstr "Tillaga mín"
+
+# --- English text = Where are you from?
+msgid "visitor.your_country"
+msgstr "Hvaðan ertu?"
+
+# --- English text = Your Full Name
+msgid "visitor.full_name"
+msgstr "Fullt nafn"
+
+# --- English text = Your Email Address
+msgid "visitor.email"
+msgstr "Netfangið þitt"
+
+# --- English text = Feedback Category
+# --- (Feb 2011) Changed per BD request to: Subject
+msgid "visitor.category"
+msgstr "Efnisflokkar"
+
+# --- English text = Bad Experience
+msgid "category.bad_experience"
+msgstr "Slæm reynsla"
+
+# --- English text = Broken Link
+msgid "category.broken_link"
+msgstr "ónýt slóð"
+
+# --- English text = Design and Content
+msgid "category.design_and_content"
+msgstr "Hönnun og útlit"
+
+# --- English text = Feature Request
+msgid "category.feature_request"
+msgstr "Fyrirspurn"
+
+# --- English text = Member Documents
+msgid "category.member_documents"
+msgstr "Skjöl meðlima"
+
+# --- English text = Payment
+msgid "category.payment"
+msgstr "Greiðsla"
+
+# --- English text = Registration
+msgid "category.registration"
+msgstr "Skráning"
+
+# --- English text = Usability
+msgid "category.usability"
+msgstr "Notkunarmöguleikar"
+
+# --- English text = Other
+msgid "category.other"
+msgstr "Annað"
+
+# --- English text = Help Text
+msgid "category.help_text"
+msgstr "Hjálpar texti"
+
+# --- English text = Page URL
+msgid "visitor.page_url"
+msgstr "Síðu URL"
+
+# --- English text = Your Comment
+msgid "comment"
+msgstr "Þitt álit"
+
+# --- English text = Submit Feedback
+msgid "submit_button"
+msgstr "Sendið svörin"
+
+# --- English text = In order for your feedback to reach the widest audience among our organizers, please leave your comments in English.
+msgid "write_in_english"
+msgstr "Til þess að svörin þín njóti sem mest vægis í starfi okkar, viltu þá vinsamlegast senda þau á ensku."
+
+# --- English text = ^ Please fill in your name.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.name_is_blank"
+msgstr "^ Vinsamlega skráðu nafn þitt."
+
+# --- English text = ^ Please choose the category that best fits your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_category"
+msgstr "^ Vinsamlegast veljið þann lið sem hentar best svari ykkar."
+
+# --- English text = ^ Please fill in your email address so that we can contact you if necessary regarding your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.email_address_required"
+msgstr "^ Vinsamlegast skráið netfangið þitt svo við getum haft samband ef nauðsyn ber til vegna athugasemdanna."
+
+# --- English text = ^ Help us send your feedback to the correct person by choosing the country where you live.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_country"
+msgstr "^ Hjálpaðu okkur að senda athugasemdir þínar á réttan aðila - með því að segja í hvaða landi þú býrð"
+
+# --- English text = ^ Leave your feedback in the field labeled \"Your Comment\".
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.comment_required"
+msgstr "^ Skráðu athugasemdir þínar í reitinn merktan \"Ábendingar þínar\"."
+
+# --- English text = ^ The code your typed in did not match the image.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.captcha_no_match"
+msgstr "^ Kódinn sem þú slóst inn, passar ekki við táknin."
+

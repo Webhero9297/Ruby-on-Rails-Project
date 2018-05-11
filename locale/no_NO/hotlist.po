@@ -1,0 +1,69 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-11-26 18:34+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Error Text
+# --- English text = Your earliest for travel is not within the next 8 weeks.
+msgid "errors.earliest_date"
+msgstr "Din tidligste dato for reise er ikke innen de neste 8 ukene."
+
+# --- Error Text
+# --- English text = Your offer is not available! Please change your availability status in your profile.
+msgid "errors.offer_not_available"
+msgstr "Din oppføring er ikke disponibel! Du kan endre dette i din annonse nå."
+
+# --- Error Text
+# --- English text = Your offer is already listed in the hotlist.
+msgid "errors.offer_already_listed"
+msgstr "Din oppføring er allerede registrert i hotlisten."
+
+# --- Error Text
+# --- English text = Sorry, your membership has expired.
+msgid "errors.expired_membership"
+msgstr "Beklager, ditt medlemskap har utløpt."
+
+# --- English text = Last Minute Travel Opportunities
+msgid "headline"
+msgstr "HotList"
+
+# --- Button Text
+# --- English text = Add my offer to the hotlist
+msgid "add_my_offer_button"
+msgstr "Legg min oppføring inn på hotlist."
+
+# --- English text = Added
+msgid "added"
+msgstr "Lagt til"
+
+# --- English text = Looking for a spontaneous exchange? The listings below belong to members actively searching an exchange partner and wanting to travel in the coming eight weeks. The last minute offer expires after three days and the listing is removed from the Last Minute list. Our members can renew their Last Minute list entries at any time.
+msgid "intro_text"
+msgstr "Ser du etter et spontant boligbytte? Oppføringene nedenfor tilhører medlemmer som aktivt søker en boligbyttepartner og som ønsker å reise innen de kommende åtte ukene. Dette siste minutt - tilbudet utløper etter tre dager, og tilbudet blir da også fjernet fra \"siste minutt -lista\". Våre medlemmer kan imidlertid når som helst fornye sine \"siste minutt - tilbud\"."
+
+# --- English text = Sorry, there are currently no hotlist entries available.
+msgid "messages.no_hotlist_entries"
+msgstr "Beklager, ingen hotliste er tilgjengelig nå."
+
+# --- English text = Sorry, your offer is still not complete. Please use "Edit Listing Details" to add necessary information.
+msgid "errors.listing_incomplete"
+msgstr "Beklager, men din oppføring er fremdeles ikke komplett. Vennligst bruk \"Edit Listing Details\" for å legge til nødvendig informasjon."
+
+# --- English text = At the moment, your listing is inelegible for our hotlist.  Please contact your local organiser for help.
+# --- (Edited - Mar, 2009)
+msgid "errors.listing_ineligible"
+msgstr "Din annonse er enten ikke blitt godkjent, eller er stanset av lederen for Intervac i ditt land av en eller annen grunn. I øyeblikket kan ikke annonsen brukes i vår hotlist.  Vennligst kontakt lederen for Intervac i ditt land for hjelp."
+
+# --- English text = Thanks! Your offer has been added to our hotlist.
+msgid "messages.success_add_to_hotlist"
+msgstr "Takk! Ditt tilbud er tatt med i vår hotlist."
+

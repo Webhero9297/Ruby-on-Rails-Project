@@ -1,0 +1,428 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-12-18 16:00+0200\n"
+"PO-Revision-Date: 2012-04-03 08:01+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# House types
+# --- English text = 1-story house
+msgid "house_types.A"
+msgstr "enebolig"
+
+# House types
+# --- English text = House
+msgid "house_types.B"
+msgstr "hus"
+
+# House types
+# --- English text = Flat
+msgid "house_types.C"
+msgstr "leilighet"
+
+# House types
+# --- English text = Mobile Home: Caravan
+msgid "house_types.CA"
+msgstr "campingvogn"
+
+# House types
+# --- English text = Holiday Home
+msgid "house_types.D"
+msgstr "fritidsbolig"
+
+# --- English text = Email
+msgid "labels.email"
+msgstr "E-post"
+
+# --- English text = Click here for help
+msgid "click_here_for_help"
+msgstr "Klikk her for hjelp"
+
+# --- English text = Click for information
+msgid "click_for_information"
+msgstr "klikk her for informasjon"
+
+# --- English text = -- Please select one --
+msgid "select_one"
+msgstr "-- Velg bare en --"
+
+# --- English text = -- Select from left --
+msgid "select_left"
+msgstr "-- Velg fra venstre --"
+
+# --- English text = No photo available
+msgid "no_photo"
+msgstr "Foto ikke tilgjengelig."
+
+# Environment
+# --- English text = In the country
+msgid "environment.r"
+msgstr "på landet"
+
+# Envrionment
+# --- English text = In the suburbs
+msgid "environment.s"
+msgstr "I utkanten av byen"
+
+# Environment
+# --- English text = In the city
+msgid "environment.u"
+msgstr "I byen"
+
+# Environment
+# --- English text = In a small town
+msgid "environment.st"
+msgstr "I en liten by"
+
+# Environment
+# --- English text = In the mountains
+msgid "environment.mn"
+msgstr "I fjellet"
+
+# Environment
+# --- English text = At the seaside
+msgid "environment.ss"
+msgstr "Ved sjøen"
+
+# --- English text = Baby
+msgid "baby"
+msgstr "Baby"
+
+# --- English text = User has been updated
+msgid "users.user_updated"
+msgstr "Bruker er blitt oppdatert"
+
+# --- English text = Sorry, the owners of listing number {{expr}} do not have an active membership with Intervac at this time.
+# --- IMPORTANT : the phrase "{{expr}}" will be replaced dynamically with the member number that was searched.
+msgid "users.not_active"
+msgstr "Beklager, eierne av annonse nr.{{expr}} har for tiden ikke et aktivt Intervac-medlemskap."
+
+# --- English text = Sorry, {{member_number}} does not belong to you.
+# --- IMPORTANT : Please do not translate the phrase "{{member_number}}" it will be replaced dynamically.
+msgid "users.not_your_member_id"
+msgstr "Beklager, {{member_number}} tilhører ikke deg."
+
+# --- English text = Sorry, we could not find any member for {{expr}}
+msgid "users.no_member_match"
+msgstr "Beklager, vi kunne ikke finne noe medlem for {{expr}}"
+
+# --- English text = Photo for listing
+msgid "photo_for_listing"
+msgstr "Foto til annonse"
+
+# Direction
+# --- English text = North
+msgid "directions.N"
+msgstr "nord"
+
+# Direction
+# --- English text = North-East
+msgid "directions.NE"
+msgstr "nordøst"
+
+# Direction
+# --- English text = East
+msgid "directions.E"
+msgstr "øst"
+
+# Direction
+# --- English text = South-East
+msgid "directions.SE"
+msgstr "sørøst"
+
+# Direction
+# --- English text = South
+msgid "directions.S"
+msgstr "sør"
+
+# Direction
+# --- English text = South-West
+msgid "directions.SW"
+msgstr "sørvest"
+
+# Direction
+# --- English text = West
+msgid "directions.W"
+msgstr "vest"
+
+# Direction
+# --- English text = North-West
+msgid "directions.NW"
+msgstr "nordvest"
+
+# Lengthofstay
+# --- English text = day(s)
+msgid "timing.dy"
+msgstr "dager"
+
+# --- English text = month
+msgid "timing.mo"
+msgstr "måned"
+
+# --- English text = week(s)
+msgid "timing.we"
+msgstr "uke(er)"
+
+# Timecomment
+# --- English text = Easter time
+msgid "timing.ET"
+msgstr "i påsken"
+
+# Timecomment
+# --- English text = Christmas time
+msgid "timing.CT"
+msgstr "i julen"
+
+# Timecomment
+# --- English text = School holidays
+msgid "timing.SH"
+msgstr "i skoleferien"
+
+# Timecomment
+# --- English text = The period is flexible
+msgid "timing.x"
+msgstr "fleksibel til perioden"
+
+# --- English text = Offer is available
+msgid "offer_available"
+msgstr "Tilbud er tilgjengelig"
+
+# --- English text = available
+# (June 2011) - Used on the summary/edit listing page in the member's area as part of a sentence.
+msgid "available"
+msgstr "tilgjengelig"
+
+# --- English text = Offer is not available
+msgid "offer_not_available"
+msgstr "Tilbud er ikke tilgjengelig"
+
+# --- English text = not available
+msgid "not_available"
+msgstr "ikke tilgjengelig"
+
+# --- English text = click here
+msgid "click_here"
+msgstr "klikk her"
+
+# --- English text = Mr.
+msgid "greeting.mr"
+msgstr "Hr."
+
+# --- English text = Mrs.
+# Mrs. => a married woman
+msgid "greeting.mrs"
+msgstr "Fru"
+
+# --- English text = Ms.
+# Ms. => a woman, without marital status (could be married or un-married)
+msgid "greeting.ms"
+msgstr "Fr."
+
+# --- English text = Miss
+# Miss => an un-married (usually young) woman.  Not often used these days.
+msgid "greeting.miss"
+msgstr "Frk."
+
+# --- English text = Close Help
+# --- (button text for all help windows)
+msgid "button.close_help"
+msgstr "Avslutt hjelp"
+
+# --- English text = System Information
+msgid "system_information.headline"
+msgstr "Systeminformasjon"
+
+# --- English text = No rental offers accepted
+msgid "no_rentals_accepted"
+msgstr "Ingen tilbud om leie godtas"
+
+# --- English text = or
+msgid "or"
+msgstr "eller"
+
+# --- English text = and
+msgid "and"
+msgstr "og"
+
+# --- English text = Date
+# --- This is used  when displaying a date that needs to be labeled, for instance a message.
+msgid "date"
+msgstr "Dato"
+
+# --- English text = View
+msgid "dashboard.view_link"
+msgstr "Utsikt"
+
+# --- English text = Country
+msgid "country"
+msgstr "Land"
+
+# --- English text = Countries
+# --- (June 2009) This label is hidden text
+msgid "countries"
+msgstr "Land"
+
+# --- English text = -- Please select a country --
+msgid "select_country"
+msgstr "-- Vennligst velg et land --"
+
+# --- English text = Add Country
+msgid "add_country_button"
+msgstr "Legg til land"
+
+# --- English text = Region
+msgid "region"
+msgstr "Område."
+
+# --- English text = -- Please select region --
+msgid "select_region"
+msgstr "-- Vennligst velg region --"
+
+# --- English text = Add Region
+msgid "add_region_button"
+msgstr "Legg til region"
+
+# --- English text = Nearest City
+msgid "nearest_city"
+msgstr "Nærmeste storby"
+
+# --- English text = -- Please select a city --
+msgid "select_city"
+msgstr "-- Vennligst velg storby --"
+
+# --- English text = Add City
+msgid "add_city_button"
+msgstr "Legg til storby"
+
+# --- English text = Sorry, we were unable to find any active members in our database to match your search request.
+msgid "users.no_match"
+msgstr "Beklager, men vi var ikke i stand til å finne aktive medlemmer i vår database som tilsvarer ditt ønske."
+
+# --- English text = Year
+msgid "year"
+msgstr "År"
+
+# --- English text = This member has 11+ documented exchanges.
+msgid "rating.platinum"
+msgstr "Dette medlemmet har 11+ dokumenterte boligtbytter."
+
+# --- English text = This member has 6-10 documented exchanges.
+msgid "rating.gold"
+msgstr "Dette medlemmet har 6 - 10 dokumenterte boligtbytter."
+
+# --- English text = This member has 3-5 documented exchanges.
+msgid "rating.silver"
+msgstr "Dette medlemmet har 3-5 dokumenterte boligbytter."
+
+# --- English text = This member has 1-2 documented exchanges.
+msgid "rating.bronze"
+msgstr "dette medlemmet har 1-2 dokumenterte boligbytter."
+
+# --- English text = This member has no documented exchanges.
+msgid "rating.ready"
+msgstr "Dette medlemmet har ingen dokumenterte boligbytter."
+
+# --- English text = Yes
+msgid "opinion.yes"
+msgstr "Ja"
+
+# --- English text = No
+msgid "opinion.no"
+msgstr "Nei"
+
+# --- English text = Undecided
+msgid "opinion.undecided"
+msgstr "Ubestemt"
+
+# --- English text = Many mobile devices do not support the use of rich text editors.  To make changes to this area, please use a desktop computer or laptop.
+# --- Location = Only shown to members using a mobile device (ipad, ipod, etc) on Additional Text and Photos page and on Message Templates page.
+msgid "mobile.rich_text_editors_not_supported"
+msgstr "Mange mobiltelefoner støtter ikke rik tekst. Dersom du ønsker endringer på dette feltet, vennligst bruk en PC eller en laptop."
+
+# --- English text = North America
+msgid "continents.north_america"
+msgstr "Nord Amerika"
+
+# --- English text = South America
+msgid "continents.south_america"
+msgstr "Sør Amerika"
+
+# --- English text = Asia
+msgid "continents.asia"
+msgstr "Asia"
+
+# --- English text = Africa
+msgid "continents.africa"
+msgstr "Afrika"
+
+# --- English text = Oceania
+msgid "continents.oceania"
+msgstr "Oceania"
+
+# --- English text = Europe
+msgid "continents.europe"
+msgstr "Europa"
+
+# --- WEB FEEDBACK ---
+# --- English Text = Web feedback form
+# --- Location => Footer and visitors info pages
+# (June 2011)
+msgid "feedback.link_text"
+msgstr "Tilbakemeldingsskjema"
+
+# --- English Text = We want to hear from you!
+# --- Location => visitors info pages
+# (June 2011)
+msgid "feedback.headline"
+msgstr "Vi vil gjerne høre fra deg!"
+
+# --- English Text = Fill out our web feedback form
+# --- Location => Footer and visitors info pages
+# => link titles are mouseover text
+# (June 2011)
+msgid "feedback.link_title"
+msgstr "Fyll ut vårt tilbakemeldingsskjema"
+
+# --- English text = {{number}} Day Trial Account
+# --- Location = This advertising box is in the right-hand column of the visitors information pages.
+# (Last updated: November, 2011)
+msgid "trial_account.headline"
+msgstr "{{number}} dagers Prøve medlemskap"
+
+# --- English text = Sign up
+# (New - November, 2011)
+msgid "application_button.sign_up"
+msgstr "Meld deg på"
+
+# --- English text = Expires after {{number}} days
+# (New - November, 2011)
+msgid "trial_membership.fine_print"
+msgstr "Utgår {{number}} dager"
+
+# --- English text = Renew your membership
+# --- Location =
+# (New: October, 2011)
+msgid "renew_box.headline"
+msgstr "Forny ditt medlemskap"
+
+# --- English text = <link>Click here to choose your membership options.</link>
+# --- IMPORTANT:  Do not remove or translate <link> and </link>.  The system will automatically turn the text in between these tags into a link to the "Choose Membership Options" page of the payment process.
+# --- (December 2011 - New Text)
+#, fuzzy
+msgid "trial_membership.link_to_membership_options"
+msgstr "<link>Click here to choose your membership options.</link>"
+
+# --- English text = Delete
+# --- Location = 
+# (New: November, 2011)
+#, fuzzy
+msgid "command.delete"
+msgstr "Delete"

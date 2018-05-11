@@ -1,0 +1,116 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2011-06-24 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+### --- INDEX PAGE
+# Last Updated => Aug, 2010
+msgid "title.index"
+msgstr "Home Exchange. Heimilaskipti Alþjóðleg - Intervac"
+
+# Last Updated => Aug, 2010
+msgid "description.index"
+msgstr "Fyrstu heimilaskiptin, hvernig virka heimilaskipti, skráning eigna, þjónusta í boði, lokaútkall, skiptisamningar, spurt og svarað, fríar myndir og heimilaskipti í fjölmiðlum"
+
+# Last Updated => Aug, 2010
+msgid "keyword_set.index"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- VISITORS PAGES --- 
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.benefits_of_home_exchange"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.facts_about_intervac"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.home_exchange_with_intervac"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.membership_with_intervac"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.national_representatives"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.secure_exchanges"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.take_the_tour"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.thinking_about_home_exchange"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.what_is_home_exchange"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.what_to_think_about"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.exchange_tips"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+# Last Updated => June, 2011
+msgid "keyword_set.visinfo.home_exchange_checklist"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- TESTIMONIALS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.testimonials"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- REGISTRATION FORM ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.registration"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- TEST OUR DATABASE ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.visitor_search"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- CONTACTS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.contacts"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- SITEMAP ---
+# Not in Use - June 2011
+msgid "-x- keyword_set.sitemap"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- TERMS AND CONDITIONS ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.terms_and_conditions"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- PRIVACY POLICY ---
+# Last Updated => Aug, 2010
+msgid "keyword_set.privacy_policy"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"
+
+### --- FACEBOOK COMPETITIONS - 60TH ANNIVERSARY ---
+# (New: June, 2012)
+msgid "keyword_set.facebook_competitions"
+msgstr "heimilaskiptin, húsaskipti, skifti um hús, intervac, home, exchange,  vacation, holidays"

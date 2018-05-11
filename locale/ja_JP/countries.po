@@ -1,0 +1,789 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-11-17 15:17+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ad"
+msgstr "アンドラ"
+
+msgid "ar"
+msgstr "アルゼンチン"
+
+msgid "au"
+msgstr "オーストラリア"
+
+msgid "at"
+msgstr "オーストリア"
+
+msgid "bz"
+msgstr "ベリーズ"
+
+msgid "be"
+msgstr "ベルギー"
+
+msgid "bm"
+msgstr "バミューダ諸島"
+
+msgid "vr"
+msgstr "ブラジル"
+
+msgid "ca"
+msgstr "カナダ"
+
+msgid "Caribbean"
+msgstr "カリブ諸島"
+
+msgid "ck"
+msgstr "クック諸島"
+
+msgid "cr"
+msgstr "コスタリカ"
+
+msgid "hr"
+msgstr "クロアチア"
+
+msgid "cy"
+msgstr "キプロス共和国"
+
+msgid "cz"
+msgstr "チェコ共和国"
+
+msgid "dk"
+msgstr "デンマーク"
+
+msgid "do"
+msgstr "ドミニカ共和国"
+
+msgid "eg"
+msgstr "エジプト"
+
+msgid "sv"
+msgstr "エル・サルバドル"
+
+msgid "fi"
+msgstr "フィンランド"
+
+msgid "fr"
+msgstr "フランス"
+
+msgid "de"
+msgstr "ドイツ"
+
+msgid "gb"
+msgstr "英国"
+
+msgid "gr"
+msgstr "ギリシャ"
+
+msgid "gt"
+msgstr "グアテマラ"
+
+msgid "hn"
+msgstr "ホンジュラス"
+
+msgid "hk"
+msgstr "香港"
+
+msgid "hu"
+msgstr "ハンガリー"
+
+msgid "in"
+msgstr "インド"
+
+msgid "id"
+msgstr "インドネシア"
+
+msgid "is"
+msgstr "アイスランド"
+
+msgid "ir"
+msgstr "イラン"
+
+msgid "ie"
+msgstr "アイルランド"
+
+msgid "il"
+msgstr "イスラエル"
+
+msgid "it"
+msgstr "イタリア"
+
+msgid "jp"
+msgstr "日本"
+
+msgid "li"
+msgstr "リヒテンシュタイン"
+
+msgid "lu"
+msgstr "ルクセンブルグ"
+
+msgid "my"
+msgstr "マレーシア"
+
+msgid "mt"
+msgstr "マルタ島"
+
+msgid "mu"
+msgstr "モーリシャス"
+
+msgid "mx"
+msgstr "メキシコ"
+
+msgid "mc"
+msgstr "モナコ"
+
+msgid "ma"
+msgstr "モロッコ"
+
+msgid "np"
+msgstr "ネパール"
+
+msgid "nl"
+msgstr "ｵﾗﾝﾀﾞ"
+
+msgid "nz"
+msgstr "ニュージーランド"
+
+msgid "no"
+msgstr "ノルウェ-"
+
+msgid "pl"
+msgstr "ポーランド"
+
+msgid "pt"
+msgstr "ポルトガル"
+
+msgid "ru"
+msgstr "ロシア"
+
+msgid "sg"
+msgstr "シンガポール"
+
+msgid "sk"
+msgstr "スロバキア"
+
+msgid "si"
+msgstr "スロベニア"
+
+msgid "za"
+msgstr "南アフリカ"
+
+msgid "es"
+msgstr "スペイン"
+
+msgid "lk"
+msgstr "スリランカ"
+
+msgid "se"
+msgstr "スウェーデン"
+
+msgid "ch"
+msgstr "スイス"
+
+msgid "th"
+msgstr "タイ"
+
+msgid "tn"
+msgstr "チュニジア"
+
+msgid "tr"
+msgstr "トルコ"
+
+msgid "ae"
+msgstr "アラブ首長国連邦"
+
+msgid "us"
+msgstr "合衆国"
+
+msgid "ve"
+msgstr "ベネズエラ"
+
+msgid "vn"
+msgstr "ベトナム"
+
+msgid "Open_for_all_countries"
+msgstr "全ての国へオープン"
+
+msgid "eu"
+msgstr "ヨーロッパ"
+
+msgid "usne"
+msgstr "合衆国北西"
+
+msgid "usnw"
+msgstr "合衆国北東"
+
+msgid "usse"
+msgstr "合衆国南東"
+
+msgid "ussw"
+msgstr "合衆国南西"
+
+msgid "oc"
+msgstr "全ての国"
+
+msgid "all_countries"
+msgstr "全ての国"
+
+msgid "af"
+msgstr "アフガニスタン"
+
+msgid "ax"
+msgstr "オーランド諸島"
+
+msgid "al"
+msgstr "アルバニア"
+
+msgid "dz"
+msgstr "アルジェリア"
+
+msgid "as"
+msgstr "サモア"
+
+msgid "ao"
+msgstr "アンゴラ"
+
+msgid "ai"
+msgstr "アンギラ"
+
+msgid "aq"
+msgstr "南極"
+
+msgid "ag"
+msgstr "アンティグア･バーブーダ"
+
+msgid "am"
+msgstr "アルメニア"
+
+msgid "aw"
+msgstr "アルバ"
+
+msgid "az"
+msgstr "アゼルバイジャン"
+
+msgid "bs"
+msgstr "バハマ"
+
+msgid "bh"
+msgstr "バーレーン"
+
+msgid "bd"
+msgstr "バングラデッシュ"
+
+msgid "bb"
+msgstr "バルバドス"
+
+msgid "by"
+msgstr "バラント"
+
+msgid "bj"
+msgstr "ベニン"
+
+msgid "bl"
+msgstr "サンパルテルミー島"
+
+msgid "bt"
+msgstr "ブータン"
+
+msgid "bo"
+msgstr "ボリビア"
+
+msgid "br"
+msgstr "ブラジル"
+
+msgid "ba"
+msgstr "ボスニア・ヘルツェゴビナ"
+
+msgid "bw"
+msgstr "ボツアナ"
+
+msgid "bv"
+msgstr "ブーベ島"
+
+msgid "bn"
+msgstr "ブルネイ"
+
+msgid "bg"
+msgstr "ブルガリア"
+
+msgid "bf"
+msgstr "ブルキナ・ファソ"
+
+msgid "bi"
+msgstr "ブルンジ"
+
+msgid "kh"
+msgstr "カンボジア"
+
+msgid "cm"
+msgstr "カメルーン"
+
+msgid "cf"
+msgstr "カーボベルデ"
+
+msgid "ky"
+msgstr "ケイマン諸島"
+
+msgid "cf"
+msgstr "中央アフリカ"
+
+msgid "td"
+msgstr "チャド"
+
+msgid "cl"
+msgstr "チリ"
+
+msgid "cn"
+msgstr "中国"
+
+msgid "cx"
+msgstr "クリスマス諸島"
+
+msgid "cc"
+msgstr "キーリング諸島"
+
+msgid "co"
+msgstr "コロンビア"
+
+msgid "km"
+msgstr "コモロ"
+
+msgid "cd"
+msgstr "コンゴ共和国（ザイール）"
+
+msgid "cg"
+msgstr "コンゴ"
+
+msgid "cu"
+msgstr "キューバ"
+
+msgid "cv"
+msgstr "ｶｰﾎﾞﾍﾞﾙﾃﾞ"
+
+msgid "dj"
+msgstr "ジブチ"
+
+msgid "dm"
+msgstr "ドミニカ"
+
+msgid "tl"
+msgstr "東テモア"
+
+msgid "ec"
+msgstr "エクアドル"
+
+msgid "gq"
+msgstr "赤道ギニア"
+
+msgid "er"
+msgstr "エリトリア"
+
+msgid "ee"
+msgstr "エストニア"
+
+msgid "et"
+msgstr "エチオピア"
+
+msgid "fk"
+msgstr "フォークランド諸島"
+
+msgid "fo"
+msgstr "フェロー諸島"
+
+msgid "fj"
+msgstr "フィジー"
+
+msgid "gf"
+msgstr "仏領ギアナ"
+
+msgid "ga"
+msgstr "ガボン"
+
+msgid "gm"
+msgstr "ガンビア"
+
+msgid "ge"
+msgstr "グルジア"
+
+msgid "gg"
+msgstr "ｶﾞｰﾝｼﾞｰ島"
+
+msgid "gs"
+msgstr "南ジョージア/サンドイッチ島"
+
+msgid "gh"
+msgstr "ガーナ"
+
+msgid "gi"
+msgstr "ジブラルタル"
+
+msgid "gl"
+msgstr "グリーンランド"
+
+msgid "gd"
+msgstr "グレナダ"
+
+msgid "gp"
+msgstr "グアドループ"
+
+msgid "gu"
+msgstr "グアム"
+
+msgid "gn"
+msgstr "ギニア"
+
+msgid "gw"
+msgstr "ギニアピサウ"
+
+msgid "gy"
+msgstr "ガイアナ"
+
+msgid "ht"
+msgstr "ハイチ"
+
+msgid "im"
+msgstr "マン島"
+
+msgid "io"
+msgstr "インド洋英国テリトリー"
+
+msgid "iq"
+msgstr "イラク"
+
+msgid "ci"
+msgstr "コート・ジボアール"
+
+msgid "jm"
+msgstr "ジャマイカ"
+
+msgid "je"
+msgstr "ジャージー島"
+
+msgid "jo"
+msgstr "ヨルダン"
+
+msgid "kz"
+msgstr "カザフスタン"
+
+msgid "ke"
+msgstr "ケニア"
+
+msgid "ki"
+msgstr "キリバス"
+
+msgid "kw"
+msgstr "クエート"
+
+msgid "kg"
+msgstr "キルギスﾞ共和国"
+
+msgid "kn"
+msgstr "セイントキッツ・アンド・ネビス"
+
+msgid "kp"
+msgstr "北朝鮮"
+
+msgid "la"
+msgstr "ラオス"
+
+msgid "lv"
+msgstr "ラトビア"
+
+msgid "lb"
+msgstr "レバノン"
+
+msgid "ls"
+msgstr "レソト"
+
+msgid "lr"
+msgstr "リベリア"
+
+msgid "ly"
+msgstr "リビア"
+
+msgid "lt"
+msgstr "リトアニア"
+
+msgid "mo"
+msgstr "マカオ"
+
+msgid "mk"
+msgstr "マケドニア"
+
+msgid "mg"
+msgstr "マダカスカル"
+
+msgid "mw"
+msgstr "マラウイ"
+
+msgid "mv"
+msgstr "モルディブ"
+
+msgid "ml"
+msgstr "マリ"
+
+msgid "mh"
+msgstr "マーシャル諸島"
+
+msgid "mq"
+msgstr "マルティニク"
+
+msgid "mr"
+msgstr "モーリタニア"
+
+msgid "yt"
+msgstr "マヨット"
+
+msgid "fm"
+msgstr "ミクロネシア"
+
+msgid "md"
+msgstr "モルドバ"
+
+msgid "mf"
+msgstr "セントマーチン"
+
+msgid "mn"
+msgstr "モンゴリア"
+
+msgid "ms"
+msgstr "モントセラット"
+
+msgid "mz"
+msgstr "モザンビーク"
+
+msgid "mm"
+msgstr "ミヤンマー"
+
+msgid "mp"
+msgstr "サイパン"
+
+msgid "na"
+msgstr "ナミビア"
+
+msgid "nr"
+msgstr "ナウル"
+
+msgid "an"
+msgstr "オランダ領アンティル諸島"
+
+msgid "nc"
+msgstr "ニューカレドニア"
+
+msgid "ni"
+msgstr "ニカラグア"
+
+msgid "ne"
+msgstr "ニジェール"
+
+msgid "ng"
+msgstr "ナイジェリア"
+
+msgid "nu"
+msgstr "ニウエ"
+
+msgid "nf"
+msgstr "ノーフォーク島"
+
+msgid "om"
+msgstr "オマーン"
+
+msgid "pk"
+msgstr "パキスタン"
+
+msgid "pw"
+msgstr "パラオ"
+
+msgid "pa"
+msgstr "パナマ"
+
+msgid "pm"
+msgstr "サンピエール・エ・ミクロン"
+
+msgid "pn"
+msgstr "ピットケーン島"
+
+msgid "ps"
+msgstr "パレスチナテリトリー"
+
+msgid "pg"
+msgstr "パプアニューギニア"
+
+msgid "py"
+msgstr "パラグアイ"
+
+msgid "pe"
+msgstr "ペルー"
+
+msgid "ph"
+msgstr "フィリピン"
+
+msgid "pf"
+msgstr "ポリネシア"
+
+msgid "pr"
+msgstr "プエルト・リコ"
+
+msgid "qa"
+msgstr "カタール"
+
+msgid "me"
+msgstr "モンテネグロ"
+
+msgid "rs"
+msgstr "セルビア"
+
+msgid "re"
+msgstr "レユニオン"
+
+msgid "ro"
+msgstr "ルーマニア"
+
+msgid "rw"
+msgstr "ルワンダ"
+
+msgid "sh"
+msgstr "セントヘレナ島"
+
+msgid "lc"
+msgstr "サントルシア"
+
+msgid "ws"
+msgstr "サモア"
+
+msgid "sm"
+msgstr "サンマリノ"
+
+msgid "sa"
+msgstr "サウジアラビア"
+
+msgid "sn"
+msgstr "セネガル"
+
+msgid "sc"
+msgstr "セイシェル"
+
+msgid "sl"
+msgstr "シエラレオネ"
+
+msgid "st"
+msgstr "サントメ・アンド・プリンシペ"
+
+msgid "sb"
+msgstr "ソロモン諸島"
+
+msgid "so"
+msgstr "ソマリア"
+
+msgid "kr"
+msgstr "韓国"
+
+msgid "sd"
+msgstr "スーダン"
+
+msgid "sr"
+msgstr "スリナム"
+
+msgid "sj"
+msgstr "スバールバルド・アンド・ジャンマエン諸島"
+
+msgid "sz"
+msgstr "スワジランド"
+
+msgid "sy"
+msgstr "シリア"
+
+msgid "tc"
+msgstr "タークス・アンド・ケイコス島"
+
+msgid "tf"
+msgstr "フランス南テリトリー"
+
+msgid "tj"
+msgstr "タデキスタン"
+
+msgid "tw"
+msgstr "台湾"
+
+msgid "tz"
+msgstr "タンザニア"
+
+msgid "tg"
+msgstr "トーゴ"
+
+msgid "tk"
+msgstr "トケラウ"
+
+msgid "to"
+msgstr "トンガ"
+
+msgid "tt"
+msgstr "トリニダード・トバゴ"
+
+msgid "tm"
+msgstr "トルクメニスタン"
+
+msgid "tv"
+msgstr "ツバル"
+
+msgid "ug"
+msgstr "ウガンダ"
+
+msgid "ua"
+msgstr "ウクライナ"
+
+msgid "um"
+msgstr "米国海外島"
+
+msgid "uy"
+msgstr "ウルグアイ"
+
+msgid "uz"
+msgstr "ウズベキスタン"
+
+msgid "va"
+msgstr "バチカン"
+
+msgid "vc"
+msgstr "セイントビンセント/グレナディン"
+
+msgid "vu"
+msgstr "バヌアツ"
+
+msgid "vg"
+msgstr "バージン諸島（英領）"
+
+msgid "vi"
+msgstr "バージン諸島（米領）"
+
+msgid "wf"
+msgstr "ワリス・エ・フツナ"
+
+msgid "eh"
+msgstr "西サハラ"
+
+msgid "ye"
+msgstr "イエーメン"
+
+msgid "-x- Zaire"
+msgstr "ザイール"
+
+msgid "zm"
+msgstr "ザンビア"
+
+msgid "zw"
+msgstr "ジンバブエ"
+
+msgid "o"
+msgstr "全ての国"
+

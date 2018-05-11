@@ -1,0 +1,97 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2011-07-26 18:52+0100\n"
+"Last-Translator: de cooman <decooman@intervac.be>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange Checklist
+# --- Location = This headline is only found in the visitors information - page: Home Exchange Checklist
+# (June, 2011 - New)
+msgid "visinfo_checklist.headline"
+msgstr "Checklist Huisruil"
+
+# --- English text = Prepare To Welcome Guests
+msgid "page.headline"
+msgstr "Voorbereidingen om gasten te verwelkomen."
+
+# --- English text = It is important to make your home as warm and inviting for your exchange guests as you would for any of your friends. Make sure that your house is clean and ready for their arrival. Remember that you expect the same from your exchange partners.
+msgid "page.introtext"
+msgstr "Het is zeer belangrijk om je huis even uitnodigend en gezellig te maken dan dat je dat zou doen voor je vrienden of familie. Zorg dat je huis volledig in orde is en helemaal schoongemaakt. Vergeet niet dat je hetzelfde verwacht van je ruilpartner."
+
+# --- English text = Some other ideas include:
+msgid "subhead.other_ideas"
+msgstr "Waar je verder zeker moet aan denken:"
+
+# --- English text = A bottle of wine and some flowers provide a special welcome.
+msgid "list.bottle_of_wine"
+msgstr "Een fles wijn en een boeketje bloemen op tafel zorgen voor een extra welkomsgevoel."
+
+# --- English text = Make up beds with fresh linens, and put clean towels in the bathrooms.
+msgid "list.beds_and_food"
+msgstr "Dek het bed op met fris linnen en zorg voor propere handdoeken in de badkamer."
+
+# --- English text = Make sure that staple foods such as sugar, tea, coffee and salt have not run out. Make it easy for your guests to get off to a comfortable start.
+msgid "list.staple_foods"
+msgstr "Zorg voor de nodige bevoorrading van suiker, thee en koffie, melk, zout en andere basisingrediënten in de keuken.  Kortom zorg dat je gasten op een aangename en comfortabele manier kunnen starten met de ruil."
+
+# --- English text = Leave your refrigerator clean and empty except for basic foods for the convenience of your guest.
+msgid "list.clean_refrigerator"
+msgstr "Laat je koelkast proper en leeg achter, op uitzondering van de basis producten zoals melk, boter, eieren,... Het is raadzaam dat wat je achterlaat in je koelkast voor de eerste behoeften van je gasten bij aankomst en dat niet noodzakelijk dient vervangen te worden bij het einde van de ruil. Laat verder geen overschotjes achter of open verpakkingen (bv. open flessen melk), tenzij deze een lange houdbaarheid hebben zoals mosterd, mayonaise en andere smaakmakers."
+
+# --- English text = Be sure you have paid any bills which come due during your holiday.
+# (June, 2011 - New)
+msgid "list.pay_your_bills"
+msgstr "Zorg ervoor dat al je rekeningen voor de duur van je vakantie betaald zijn."
+
+# --- English text = Leave instructions regarding how appliances work and where to locate the central heating/hot water, fuse box and other facilities. Ask a neighbor or friend to stop by and introduce themselves to make sure your guests are finding everything they need.
+msgid "list.appliance_instructions"
+msgstr "Zorg voor duidelijke info en instructies over het gebruik en de plaats van alle noodzakelijke voorzieningen: centrale verwarming, warm water, zekeringen, gas- en waterkranen. Vraag aan een buurman of vriend om even langs te komen en zijn hulp aan te bieden om te assisteren bij eventuele problemen."
+
+# --- English text = Leave any necessary instructions regarding the care of plants and pets.  Don't forget to include your veterinarian's name and telephone number.
+msgid "list.pets_and_plants"
+msgstr "Zorg voor noodzakelijke instructies in verband met het verzorgen van huisdieren en planten. Vergeet niet de naam en het nummer achter te laten van je dierenarts."
+
+# --- English text = Leave a list of important numbers next to the phone, including emergency numbers, operator, directory enquiries, doctor or hospital, friends for advice if a problem arises, and babysitters or vets, if applicable.
+msgid "list.emergency_phone_numbers"
+msgstr "Laat bij je telefoon een lijst achter met de belangrijkste nummers: noodnummer, politie, huisarts, ziekenhuis, antigifcentrum, verzekeringsagent, garage en andere technische diensten, vrienden die kunnen helpen bij problemen en indien nodig babysitters. "
+
+# --- English text = Provide any special instructions for leaving your house secure.
+msgid "list.security_instructions"
+msgstr "Laat instructies achter in verband met de beveiliging van je huis. Zorg voor een extra set huissleutels bij je buren of vrienden voor noodgevallen."
+
+# --- English text = Leave a note concerning milk/paper delivery, nearest petrol station/shops/supermarket
+msgid "list.local_life"
+msgstr "Zorg voor informatie over krant- of melkbedeling, meest nabije benzinestation, apotheek,  winkels en supermarkten,...."
+
+# --- English text = Store irreplaceable ornaments and special personal items, if there is worry about breakage. It is not necessary or desirable to remove all ornaments and furniture.
+msgid "list.store_breakables"
+msgstr "Berg onvervangbare of te persoonlijke spullen in veiligheid op. Bij vrees om iets stuk te maken kan je dit op deze manier beter voorkomen. Het is natuurlijk niet de bedoeling om alle meubilair of decoraties weg te halen! "
+
+# --- English text = Prepare adequate wardrobe and drawer space for guests to store their clothes and belongings.
+msgid "list.wardrobe_space"
+msgstr "Zorg voor voldoende ruimte in kleer- en bergkasten zodat je gasten hun persoonlijke spullen kwijt kunnen."
+
+# --- English text = If your guests are bringing their own laptop, be sure to leave them instructions for connecting to the internet through your router, wireless LAN, or modem.
+msgid "list.internet_access"
+msgstr "Indien je gasten hun eigen laptop meebrengen zorg dan voor instructies qua aansluiting op het internet via router,draadloos LAN of modem."
+
+# --- English text = Leave a notebook by the telephone for recording long-distance phone calls or messages.
+msgid "list.expense_notebook"
+msgstr "Laat bij je telefoon een notaboekje achter om boodschappen of lange afstands gesprekken te noteren."
+
+# --- English text = Indicate if any parts of your home are off limits or equipment is not to be used e.g. office rooms or a computer.
+msgid "list.off_limits"
+msgstr "Vermeld op een niet mis te verstane manier indien er beperkingen zijn in het gebruik van bepaalde ruimtes of voorzieningen, bijvoorbeeld kantoorruimte of computer."
+
+# --- English text = Don't forget to leave the information pack you collected on the table for your guest's use.
+msgid "list.info_pack"
+msgstr "Vergeet niet de informatie die je verzameld hebt achter te laten op een duidelijk zichtbare plaats."

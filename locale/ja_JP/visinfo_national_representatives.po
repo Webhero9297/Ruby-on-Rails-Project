@@ -1,0 +1,90 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-11 18:17+0100\n"
+"PO-Revision-Date: 2011-11-25 17:10+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = National Representatives
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "各国の担当者"
+
+# --- English text = Intervac International is administered by country representatives responsible for each national Intervac operation. Our organisers use standard procedures for dealing with member's requests and following up on your concerns.  They are also responsible for supporting you in your efforts to find a suitable exchange partner and for promoting the concept of home exchange within their country.  If we do not currently have an organizer in your country and you are interested, please <link>contact us</link>!
+# (June, 2011 - Reference:  This is a new text merged together out of: vtour_about_us.po => organization.nationally_owned_and_operated & organization.organizers_text)
+msgid "organizers.text"
+msgstr "インターバック・インターナショナルは各国のインターバック活動をささえる担当者によって構成されています。各国の担当者は会員の要望やもろもろに関する事柄を処理するなど一般的な管理を行っています。又、各担当者はあなたにふさわしいエクスチェンジのパートナーを見つけ出す努力をサポートしたり、その国内においてもホームエクスチェンジをするという考えを促進したりするための活動も行っています。もし現在あなたの国に担当者が居ない時は、どうぞ<link>我々にコンタクトを</link>取ってください。"
+
+# --- English text = The Intervac Board of Directors
+# (June, 2011 - New)
+msgid "bd.headline"
+msgstr "インターバックの理事会"
+
+# --- English text = Sitting on the Intervac Board of Directors is a challenging job for each of the four National Representatives elected to thier chairs.  They each serve at least one term of 2 years and as a group they are responsible for putting decisions made at the general meetings in action.
+# (June, 2011 - New)
+msgid "bd.introtext"
+msgstr "インターバック理事会の一員になるのは各国の担当者の中から4人が選ばれています。任期は少なくとも2年で、理事会として総会において様々な決定していく責任を負っています。"
+
+# --- English text = The current members of the Intervac Board of Directors are:
+# (June, 2011 - As Is - vtour_about_us.po => organization.current_bd_headline)
+msgid "current_board.headline"
+msgstr "インターバック・ボード・ディレクターの現在数："
+
+# --- English text = Our Mailing Address
+# (June, 2011 - As Is - vtour_about_us.po => organization.pullquote)
+msgid "mailing_address.headline"
+msgstr "郵送の住所"
+
+# --- English text = Annual General Meetings
+# (June, 2011 - As Is - vtour_about_us.po => agm.headline)
+msgid "agm.headline"
+msgstr "年総会："
+
+# --- English text = Organisers from participating countries meet at Annual General Meetings (AGMs) to set world-wide policies and procedures and to elect a Board of Directors, who then coordinate international activities of INTERVAC on a day-to-day basis. INTERVAC organisers take turns in hosting AGMs in their country. Following is the schedule of forthcoming AGMs:
+# (June, 2011 - As Is - vtour_about_us.po => agm.text)
+msgid "agm.introtext"
+msgstr "各国のオーガナイザーは年次総会 Annual General Meetings (AGMs)に出席し、世界的な方針や手続きを決め、ボード・ディレクター（ＢＤ）を決めます。ＢＤはインターバックの国際的な活動を現況にしたがって運営していきます。インターバック・オーガナイザーはＡＧＭｓを順番に自国で開催しています。次に続くのはこれからのＡＧＭｓのスケジュールです。"
+
+# --- English text = 2008 - Great Britain
+# (June, 2011 - As Is - vtour_about_us.po => agm.2008)
+msgid "agm.2008"
+msgstr "2008 - 英国"
+
+# --- English text = 2009 - Norway
+# (June, 2011 - As Is - vtour_about_us.po => agm.2009)
+msgid "agm.2009"
+msgstr "2009 - ノルウェー"
+
+# --- English text = 2010 - Portugal
+# (June, 2011 - As Is - vtour_about_us.po => agm.2010)
+msgid "agm.2010"
+msgstr "2010 - ポルトガル"
+
+# --- English text = 2011 - Belgium
+# (June, 2011 - As Is - vtour_about_us.po => agm.2011)
+msgid "agm.2011"
+msgstr "2011 - ベルギー"
+
+# --- English text = 2012 - Italy
+# (June, 2011 - As Is - vtour_about_us.po => agm.2012)
+msgid "agm.2012"
+msgstr "2012 - イタリア"
+
+# --- English text = 2013 - Germany
+# (June, 2011 - As Is - vtour_about_us.po => agm.2013)
+msgid "agm.2013"
+msgstr "2013 - ドイツ"
+
+# --- English text = 2014 - USA
+# (June, 2011 - As Is - vtour_about_us.po => agm.2014)
+msgid "agm.2014"
+msgstr "2014 - USA"
+

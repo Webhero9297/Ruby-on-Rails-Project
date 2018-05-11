@@ -1,0 +1,325 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-07-01 19:11+0100\n"
+"PO-Revision-Date: 2009-08-25 13:03+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Page Headline
+# --- English text = Terms of Use
+msgid "headline"
+msgstr "Όροι χρήσης"
+
+# --- English text = Intervac Trust Agreement
+msgid "subhead"
+msgstr "Συμφωνία Εμπιστοσύνης Intervac"
+
+# --- English text = Fundamental Principals
+msgid "fundamental_principals.headline"
+msgstr "Βασικές Αρχές"
+
+# --- Fundamental Principles
+# --- English text = Member must be fair and honest in all his dealings with Intervac and other Members and in particular and without prejudice to the generality of the preceding words;
+msgid "fundamental_principals.fair_and_honest"
+msgstr "Το μέλος πρέπει να είναι έντιμο και ειλικρινές στις συναλλαγές του με την Intervac και τα άλλα μέλη και πέραν όσων γενικά εδώ αναφέρονται."
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure that his home offered for exchange is fully and accurately described and illustrated on his listing;
+msgid "fundamental_principals.offer_is_accurate"
+msgstr "Το μέλος πρέπει να εξασφαλίζει ότι το σπίτι που προσφέρει για ανταλλαγή περιγράφεται πλήρως και λεπτομερώς στην καταχώρισή του."
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure any Negotiation with other Members is conducted in good faith with an intent of Home Exchange  and that he is open, truthful, fair and reasonable in all such Negotiations;
+msgid "fundamental_principals.negotiate_in_good_faith"
+msgstr "Το μέλος πρέπει να εξασφαλίζει ότι κάθε συνεννόηση με άλλα μέλη γίνεται με καλή πίστη και με πρόθεση ανταλλαγής σπιτιού και ότι είναι ανοικτό, ειλικρινές και λογικό στις συνεννοήσεις αυτές."
+
+# --- Fundamental Principles
+# --- English text = a Member must be courteous and hospitable in all his dealings with other Members and must be responsive to all reasonable requests.
+msgid "fundamental_principals.courteous_and_responsive"
+msgstr "Το μέλος πρέπει να είναι ευγενικό και φιλόξενο σε όλες τις συναλλαγές του με άλλα μέλη και πρέπει να απαντά σε όλες τις εύλογες αιτήσεις."
+
+# --- Fundamental Principles
+# --- English text = Member may not act in a manner that brings Intervac or Home Exchange into disrepute.
+msgid "fundamental_principals.protect_our_reputation"
+msgstr "Το μέλος δεν επιτρέπεται να ενεργεί με τρόπο που προσβάλλει την καλή φήμη της Intervac ή των Ανταλλαγών Σπιτιών. ------------------------------------------------------------------------------------------------- (κυλίστε την οθόνη προς τα κάτω για περισσότερα)"
+
+# --- Cancellation
+# --- English text = Cancellation
+msgid "cancellation.headline"
+msgstr "Ακυρώσεις"
+
+# --- Cancellation
+# --- English text = Member may not cancel a Home Exchange Agreement without a valid reason such as death, illness or other unforeseen circumstances beyond the Member's control.
+msgid "cancellation.not_without_valid_reason"
+msgstr "Το μέλος δεν επιτρέπεται να ακυρώνει τη Συμφωνία Ανταλλαγής Σπιτιού χωρίς καλό λόγο, όπως θάνατος, αρρώστεια ή άλλες απρόβλεπτες καταστάσεις εκτός του ελέγχου του μέλους."
+
+# --- Cancellation
+# --- English text = Member shall inform his National Representative before cancellation of a Home Exchange Agreement including the reasons for the cancellation.
+msgid "cancellation.must_inform_agent"
+msgstr "Το μέλος θα ενημερώνει τον εκπρόσωπο στη χώρα του πριν την ακύρωση μιας Συμφωνίας Ανταλλαγής Σπιτιού εκθέτοντας και τους λόγους ακύρωσης."
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Consequences of Invalid Cancellation
+msgid "consequences.headline"
+msgstr "Συνέπειες Αντικανονικής Ακύρωσης"
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Member shall be responsible for any costs incurred by another Member as a result of cancellation of a Home Exchange Agreement without a valid reason and, at the discretion of the National Representative and the Board, shall be subject to termination of his membership.
+msgid "consequences.member_responsibilities"
+msgstr "Το μέλος θα ευθύνεται για κάθε δαπάνη που θα υποστεί το άλλο μέλος ως συνέπεια της ακύρωσης Συμφωνίας Ανταλλαγής Σπιτιού χωρίς καλό λόγο και ο εθνικός εκπρόσωπος και το Διοικητικό Συμβούλιο της Intervac μπορούν να τερματίσουν τη συνδρομή. "
+
+# --- Complaints
+# --- English text = Complaints
+msgid "complaints.headline"
+msgstr "Παράπονα"
+
+# --- Complaints
+# --- English text = If two Complaints are made against a Member he shall be liable to termination of his membership at the discretion of the National Representative and the Board.
+msgid "complaints.liability_for_termination"
+msgstr "Αν δύο παράπονα γίνουν εναντίον του ίδιου μέλους, ο εθνικός εκπρόσωπος και το Διοικητικό Συμβούλιο της Intervac μπορούν να τερματίσουν τη συνδρομή. "
+
+# --- Member's Offer Home
+# --- English text = Member's Offer Home
+msgid "offered_home.headline"
+msgstr "Το σπίτι που προσφέρει το μέλος"
+
+# --- Member's Offer Home
+# --- English text = Member must ensure that his home offered for exchange
+msgid "offered_home.intro_text "
+msgstr "Το μέλος πρέπει να εξασφαλίζει ότι το σπίτι που προσφέρεται για ανταλλαγή"
+
+# --- Member's Offer Home
+# --- English text = is available for exchange;
+msgid "offered_home.is_available"
+msgstr "είναι διαθέσιμο για ανταλλαγή"
+
+# --- Member's Offer Home
+# --- English text = is fully insured for fire, theft, burglary and, so far as is possible, accidental damage;
+msgid "offered_home.is_insured"
+msgstr "είναι ασφαλισμένο πλήρως για φωτιά, διάρρηξη κλοπή και, αν είναι δυνατόν, τυχαίες ζημίες"
+
+# --- Member's Offer Home
+# --- English text = is clean; and
+msgid "offered_home.is_clean"
+msgstr "είναι καθαρό και"
+
+# --- Member's Offer Home
+# --- English text = contains all the facilities described in his listing.
+msgid "offered_home.is_same_as_listing"
+msgstr "περιέχει ό,τι περιγράφεται στην καταχώριση."
+
+# --- Motor Vehicles
+# --- English text = Motor Vehicles
+msgid "motor_vehicles.headline"
+msgstr "Οχήματα"
+
+# --- Motor Vehicles
+# --- English text = Member must ensure that any vehicle offered for exchange is in good working order, legally compliant and, except as is notified to and agreed with the exchanging Member, comprehensively insured.
+msgid "motor_vehicles.member_responsibilities"
+msgstr "Το μέλος πρέπει να εξασφαλίζει ότι κάιε όχημα που προσφέρεται για ανταλλαγή είναι σε καλή κατάσταση, κυκλοφορεί νόμιμα και, εκτός αν αλλιώς συμφωνηθεί με το άλλο μέλος, είναι ασφαλισμένο. "
+
+# --- Respect for Property
+# --- English text = Respect for Property
+msgid "respect_for_property.headline"
+msgstr "Σεβασμός της Ιδιοκτησίας"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they respect each others' Property at all times and in particular and without prejudice to the generality of the preceding words;
+msgid "respect_for_property.yes_you_must"
+msgstr "Τα μέλη πρέπει να εξασφαλίζουν ότι σέβονται την ιδιοκτησία ο ένας του άλλου πάντα και πέραν όσων γενικά εδώ αναφέρονται."
+
+# --- Respect for Property
+# --- English text = Members must ensure that they keep the Exchange Property reasonably secure at all times and comply with the terms of any applicable insurance policies both in this respect and in respect of any other insurance condition communicated to them by the owner;
+msgid "respect_for_property.keep_it_secure"
+msgstr "Τα μέλη πρέπει να εξασφαλίζουν ότι η ανταλλασσόμενη ιδιοκτησία παραμένει πάντα ασφαλής και σύμφωνα με τους όρους ενδεχόμενης ασφάλισης και σύμφωνα με κάθε όρο ασφάλισης που θα γνωστοποιήσει το άλλο μέλος."
+
+# --- Respect for Property
+# --- English text = Members must accept responsibility for any uninsured damage caused by them to the Exchanged Property.
+msgid "respect_for_property.accept_responsibility"
+msgstr "Τα μέλη πρέπει να δεχτούν την ευθύνη για κάθε ανασφάλιστη ζημία που θα προξενήσουν στην ανταλασσόμενη ιδιοκτησία."
+
+# --- Pets
+# --- English text = Pets
+msgid "pets.headline"
+msgstr "Κατοικίδια Ζώα"
+
+# --- Pets
+# --- English text = Members must ensure that any Pets are, so far as is possible, free of vermin including worms and fleas, vaccinated and otherwise free of health risk and clean. Members must also ensure that areas of the home to which pets have access are cleaned.
+msgid "pets.cleanliness"
+msgstr "Τα μέλη πρέπει να εξασφαλίζουν ότι τυχόν κατοικίδια ζώα είναι απαλλαγμένα ζιζανίων, περιλαμβανομένων σκουληκιών και ψύλλων, είναι εμβολιασμένα και γενικά απαλλαγμένα κινδύνων υγείας και καθαρά. Τα μέλη πρέπει επίσης να εξασφαλίζουν ότι οι περιοχές του σπιτιού στις οποίες έχουν πρόσβαση τα κατοικίδια ζώα είναι και παραμένουν καθαρές."
+
+# --- Pets
+# --- English text = Members must apply high standards of care to Pets.
+msgid "pets.standards"
+msgstr "Τα μέλη πρέπει να τηρούν υψηλά επίπεδα φροντίδας των κατοικίδιων ζώων."
+
+# --- Home Country
+# --- English text = Home Country
+msgid "home_country.headline"
+msgstr "Χώρα Εγγραφής"
+
+# --- Home Country
+# --- English text = Member must register on the Database under his Home Country. A Member may list a second home or holiday home situated outside his Home Country.
+msgid "home_country.required_on_registration"
+msgstr "Τα μέλη πρέπει να καταχωρούνται στη βάση δεδομένων της χώρας εγγραφής τους. Ένα μέλος μπορεί να καταχωρίσει δεύτερο σπίτι ή εξοχικό εκτός της χώρας εγγραφής του. "
+
+# --- Currency of Listing
+# --- English text = Currency of Listing
+msgid "listing_currency.headline"
+msgstr "Επικαιρότητα της Καταχώρισης"
+
+# --- Currency of Listing
+# --- English text = Member is responsible for ensuring that his listing is kept current and up to date.
+msgid "listing_currency.member_responsibilities"
+msgstr "Το μέλος ευθύνεται για την τήρηση της καταχώρισής του επίκαιρης και ενημερωμένης."
+
+# --- Use of Database
+# --- English text = Use of Database
+msgid "database.headline"
+msgstr "Χρήση Βάσης Δεδομένων"
+
+# --- Use of Database
+# --- English text = Member may use the Database for the purpose of negotiating Home Exchange and for no other purpose. A Member contravening this Rule is subject to immediate termination at the discretion of the National Representative and the Board.
+msgid "database.for_home_exchange_only."
+msgstr "Το μέλος επιτρέπεται να χρησιμοποιεί τη Βάση Δεδομένων για τους σκοπούς της συνεννόησης ανταλλαγής σπιτιού και για κανένα άλλο σκοπό. Σε μέλος που παραβαίνει τον κανόνα αυτό τερματίζεται αμέσως η συνδρομή με απόφαση του εθνικού εκπρόσωπου και του Διοικητικού Συμβουλίου της Intervac."
+
+# --- Confidentiality
+# --- English text = Confidentiality
+msgid "confidentiality.headline"
+msgstr "Εμπιστευτικότητα"
+
+# --- Confidentiality
+# --- English text = Member shall keep confidential at all times all information obtained on the Database and all other information obtained from Members.
+msgid "confidentiality.member_responsibilities"
+msgstr "Το μέλος πρέπει να τηρεί εμπιστευτικές πάντα όλες τις πληροφορίες που περιέχονται στη βάση δεδομένων και κάθε άλλη πληροφορία που θα του δώσει άλλο μέλος. "
+
+# --- Responsibility for negotiations
+# --- English text = Responsibility for negotiations
+msgid "negotiations.headline"
+msgstr "Ευθύνη για τις συνεννοήσεις"
+
+# --- Responsibility for negotiations
+# --- English text = Members accept that they are solely responsible for all negotiations for Home Exchange with other Members.
+msgid "negotiations.member_responsibilities"
+msgstr "Το μέλος αποδέχεται ότι είναι αποκλειστικά υπεύθυνο για κάθε συνεννόηση για την ανταλλαγή σπιτιού με άλλα μέλη."
+
+# --- Fees
+# --- English text = Fees
+msgid "fees.headline"
+msgstr "Συνδρομή"
+
+# --- Fees
+# --- English text = A Member must pay reasonable fees to a National Representative and upon such payment his listing will be activated by the Representative.
+msgid "fees.must_be_paid"
+msgstr "Το μέλος πρέπει να πληρώσει την εύλογη συνδρομή του στον εθνικό εκπρόσωπο και με την καταβολή αυτής η καταχώρισή του θα ενεργοποιείται από τον εκπρόσωπο."
+
+# --- Definitions
+# --- English text = Definitions
+msgid "definitions.headline"
+msgstr "Ορισμοί"
+
+# --- Definitions
+# --- English text = In these Rules unless the context otherwise implies:
+msgid "definitions.intro_text"
+msgstr "Στους κανόνες αυτούς, εκτός αν αλλιώς εξηγείται, οι όροι έχουν τις ακόλουθες σημασίες:"
+
+# --- Definitions
+# --- English text = "Board" means the Board of Directors of Intervac.
+msgid "definitions.board"
+msgstr "\"Διοικτηικό Συμβούλιο\" είναι το Διοικητικό Συμβούλιο της Διεθνούς Intervac."
+
+# --- Definitions
+# --- English text = "Complaint" means a complaint made by a Member to a Representative that is upheld by the Board to the effect that another Member's actions are in contravention of these Rules.
+msgid "definitions.complaint"
+msgstr "\"Παράπονο\" είναι παράπονο που διατυπώνεται από μέλος σε εκπρόσωπο και επιβεβαιώνεται από το Διοικητικό Συμβούλιο ως παράβαση των κανόνων της Intervac από μέλος."
+
+# --- Definitions
+# --- English text = "Database" means the Intervac international database operated at the domain names intervac.com and intervac-online.com and any other domains on which the Database may be maintained from time to time.
+msgid "definitions.database"
+msgstr "\"Βάση Δεδομένων\" είναι η βάση δεδομένων της Διεθνούς Intervac που λειτουργεί στους ιστοτόπους intervac.com και intervac-online.com και σε όποιο άλλο ιστοτόπο κατά καιρούς επιλέγει η Intervac."
+
+# --- Definitions
+# --- English text = "Exchanged Property" means any Property which Members have agreed to exchange and which is occupied or used during the exchange and in particular and without prejudice to the generality of these words Property that is the subject of a Home Exchange Agreement.
+msgid "definitions.exchanged_property"
+msgstr "\"Ανταλασσόμενη Ιδιοκτησία\" είναι κάθε ιδιοκτησία που τα μέλη συμφωνούν να ανταλλάξουν και χρησιμοποιείται κατά τη διάρκεια της ανταλλαγής και γενικά κάθε ιδιοκτησία που είναι αντικείμενο Συμφωνίας Ανταλλαγής Σπιτιού."
+
+# --- Definitions
+# --- English text = "Home Country" means the country of normal residence (at least six months per year) of a Member in which his principal home is situated.
+msgid "definitions.home_country"
+msgstr "\"Χώρα\" είναι η χώρα της συνήθους διαμονής (τουλάχιστο 6 μήνες το χρόνο) ενός μέλους όπου βρίσκεται η κύρια κατοικία του."
+
+# --- Definitions
+# --- English text = "Home Exchange" means the process of exchanging homes for vacation or holiday purposes or of providing rental, hospitality or other services facilitated from time to time on the Database.
+msgid "definitions.home_exchange"
+msgstr "\"Ανταλλαγή Σπιτιού\" είναι η διαδικασία ανταλλαγής σπιτιών για διακοπές ή για ενοικίαση, παροχής φιλοξενίας ή των άλλων υπηρεσιών που κατά καιρούς διατίθενται μέσω της βάσης δεδομένων."
+
+# --- Definitions
+# --- English text = "Home Exchange Agreement" means an agreement for Home Exchange in Standard Form entered into by Members and Notified to Intervac.
+msgid "definitions.home_exchange_agreement"
+msgstr "\"Συμφωνία Ανταλλαγής Σπιτιού\" είναι η συμφωνία για ανταλλαγή σπιτιού στην τυποποιημένη φόρμα που συμπληρώνουν τα μέλη και γνωστοποιούν στην Intervac."
+
+# --- Definitions
+# --- English text = "Intervac" means Intervac International and includes its Representatives.
+msgid "definitions.intervac"
+msgstr "\"Intervac\" είναι η Διεθνής Intervac και οι εθνικοί της εκπρόσωποι."
+
+# --- Definitions
+# --- English text = "Member" means a member of Intervac who has registered a listing on the Database.
+msgid "definitions.member"
+msgstr "\"Μέλος\" σημαίνει μέλος της Intervac που έχει καταχωριστεί στη βάση δεδομένων της."
+
+# --- Definitions
+# --- English text = "Negotiation" means any negotiation conducted orally, by email or in writing.
+msgid "definitions.negotiation"
+msgstr "\"Συνεννόηση\" είναι κάθε συνεννόηση ή διαπραγμάτευση που γίνεται προφορικά, γραπτά ή με ηλεκτρονικό ταχυδρομείο (email)."
+
+# --- Definitions
+# --- English text = "Notified" and "Notification" means in relation to a Home Exchange Agreement notification of such Agreement to Intervac or a Representative.
+msgid "definitions.notification"
+msgstr "\"Γνωστοποίηση\" εννοείται σε σχέση με την ενημέρωση της Intervac ή εκπροσώπου της για Συμφωνία Ανταλλαγής Σπιτιού."
+
+# --- Definitions
+# --- English text = "Pet" means a dog, cat or other pet and includes any animal or bird that might occupy a Member's property, garden or surroundings.
+msgid "definitions.pet"
+msgstr "\"Κατοικίδιο Ζώο\" εννοείται σκύλος, γάτα ή άλλο και περιλαμβάνει κάθε ζώο ή πτηνό που βρίσκεται στο σπίτι μέλους, τον κήπο ή τον περίγυρο."
+
+# --- Definitions
+# --- English text = "Property" includes homes, vehicles and all other forms of Members' property.
+msgid "definitions.property"
+msgstr "\"Ιδιοκτησία\" είναι σπίτια, οχήματα και ό,τι άλλο ανήκει στο μέλος."
+
+# --- Definitions
+# --- English text = Representative" and "National Representative" means an Agent or Local Organiser of Intervac.
+msgid "definitions.representative"
+msgstr "\"Εκπρόσωπος\" και \"Εθνικός Εκπρόσωπος\" είναι ο πράκτωρ ή τοπικός οργανωτής της Intervac."
+
+# --- Definitions
+# --- English text = "Rule" means a rule or clause of these terms of use and this agreement;
+msgid "definitions.rule"
+msgstr "\"Κανόνας\" είναι κανόνας ή όρος χρήσης του ιστοτόπου ή της συμφωνίας."
+
+# --- Definitions
+# --- English text = "Standard Form" means the standard form of Home Exchange Agreement provided by Intervac.
+msgid "definitions.standard_form"
+msgstr "\"Τυποποιημένη Φόρμα\" είναι η τυποποιημένη φόρμα Συμφωνίας Ανταλλαγής Σπιτιού που παρέχει η Intervac."
+
+# --- English text = References to the plural include references to the singular and vice versa.
+msgid "definitions.references_to_plural_singular"
+msgstr "Αναφορές στο πληθυντικό αριθμό ισχύουν και για τον ενικό και αντιστρόφως."
+
+# --- English text = References to any gender include references to all other genders.
+msgid "definitions.references_to_gender"
+msgstr "Αναφορές σε οποιοδήποτε φύλο ισχύουν και για το άλλο φύλο."
+
+# --- English text = Headings are for convenience only and do not affect the interpretation of any Rule.
+msgid "definitions.headings_are_convenience"
+msgstr "Οι επικεφαλίδες είναι για διευκόλυνση μόνο και δεν επιδρούν στην ερμηνεία των Κανόνων."
+

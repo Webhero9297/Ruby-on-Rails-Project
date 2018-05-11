@@ -1,0 +1,355 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-01-18 16:00+0200\n"
+"PO-Revision-Date: 2012-01-09 17:37+0100\n"
+"Last-Translator: Angels <intervac@grossi-sas.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Message Center
+msgid "submenu.headline"
+msgstr "Correos"
+
+# --- English text = Inbox
+msgid "submenu.inbox"
+msgstr "Correo entrante"
+
+# --- English text = Read waiting messages
+msgid "submenu.inbox_title"
+msgstr "Lea los mensajes recibidos"
+
+# --- English text = Send new message
+msgid "submenu.send_new"
+msgstr "Envíe un nuevo mensaje"
+
+# --- English text = Send a message to a member
+msgid "submenu.send_new_title"
+msgstr "Envíe un  mensaje a un socio."
+
+# --- English text = Sent Messages
+msgid "submenu.sent_messages"
+msgstr "Mande  Mensajes"
+
+# --- English text = Look at messages you have sent
+msgid "submenu.sent_messages_title"
+msgstr "Vea los  mensajes que ha enviado."
+
+# --- English text = Message Archive
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "submenu.archive"
+msgstr "Archivo de Mensajes"
+
+# --- English text = Look at messages in the archive
+msgid "submenu.archive_title"
+msgstr "Vea los mensajes archivados."
+
+# --- English text = Administer Templates
+msgid "submenu.templates"
+msgstr "Plantillas"
+
+# --- English text = Write and save message templates.
+msgid "submenu.templates_title"
+msgstr "Escriba y guarde mensajes en una plantilla"
+
+# --- English text = Create a Message Template
+msgid "templates.headline"
+msgstr "Cree una plantilla "
+
+# --- English text = Create a Message Template
+msgid "templates.use_headline"
+msgstr "Use una plantilla para mensajes"
+
+# --- English text = The type of template I want to write is
+msgid "templates.intro_text"
+msgstr "El tipo de plantilla que deseo escribir es"
+
+# --- English text = Reply
+msgid "templates.reply_label"
+msgstr "Contestación"
+
+# --- English text = Answer Template
+msgid "templates.answer_template"
+msgstr "Plantilla de contestación"
+
+# --- English text = Contact Template
+msgid "templates.contact_template"
+msgstr "Plantilla de Contacto"
+
+# --- English text = Load
+msgid "templates.load"
+msgstr "Cargar"
+
+# --- English text = Template Name
+msgid "templates.name"
+msgstr "Nombre de la plantilla"
+
+# --- English text = Message Subject
+msgid "templates.subject"
+msgstr "Asunto:"
+
+# --- English text = Save My Template
+msgid "templates.save_button"
+msgstr "Guardar mi Plantilla"
+
+# --- English text = Your template has been saved.
+msgid "templates.successful_save"
+msgstr "Hemos guardado su plantilla."
+
+# --- English text = Delete this template
+msgid "templates.delete_template"
+msgstr "Borrar mi plantilla"
+
+# --- English text = Are you sure you want to delete this template?
+msgid "templates.confirm_delete"
+msgstr "¿Está seguro de desear borrar esta plantilla?"
+
+# --- English text = Use a template
+msgid "templates.use_a_template"
+msgstr "Use una plantilla"
+
+# --- English text = Messages you have sent
+msgid "sent_messages.headline"
+msgstr "Mensajes que usted ha enviado"
+
+# --- English text = Write a new message
+msgid "new_message.headline"
+msgstr "Escriba un nuevo mensaje"
+
+# --- English text = This member speaks
+# --- Example: "This member speaks German, French, English"
+# --- The system fills in the languages of the receiving member for you.
+msgid "new_message.language"
+msgstr "Este socio habla"
+
+# --- English text = This member does not accept rental offers
+# --- This message appears if the sending member has RO in his listing, and the receiving member has "No Rental Offers Accepted" in thiers.
+msgid "new_message.no_rental_accepted"
+msgstr "Este socio no acepta ofertas de alquiler"
+
+# --- English text = Send Message
+msgid "new_message.send_button"
+msgstr "Mande un mensaje"
+
+# --- English text = From
+msgid "from"
+msgstr "De"
+
+# --- English text = To
+msgid "to"
+msgstr "Para"
+
+# --- English text = Subject
+msgid "subject"
+msgstr "Asunto"
+
+# --- English text = create new
+msgid "templates.create_new"
+msgstr "cree_nuevo"
+
+# --- English text = You read this message on
+# --- Example:  You read this message on: 13 July, 2009
+msgid "message_received.message_read_on"
+msgstr "Leyó este mensaje el"
+
+# --- English text = You have not read this message yet
+# --- For received messages
+msgid "message_received.message_not_read"
+msgstr "Todavía no ha leido este mensaje"
+
+# --- English text = Your message has not been read yet
+msgid "message_sent.not_read"
+msgstr "Su mensaje todavía  no ha sido leido"
+
+# --- English text = Sent on
+# --- Used to label a date when a message was sent.  Example: -- Sent on: 9 July, 2009
+msgid "sent_on"
+msgstr "Enviado el"
+
+# --- English text = Received on
+# --- Used to label a date when a message was sent.  Example: -- Received on: 9 July, 2009
+msgid "received_on"
+msgstr "Recibido el"
+
+# --- English text = This message has been answered on
+# --- Used to label a date when a message was answered.  Example: -- Ths message has been answered on: 9 July, 2009
+msgid "message_sent.answered_on"
+msgstr "Mensaje enviado el"
+
+# --- English text = Your message has been read on
+# --- Used to label a date when a message was read.  Example: -- Your message has been read on: 9 July, 2009
+msgid "message_sent.read_on"
+msgstr "Su mensaje ha sido leido el"
+
+# --- English text = Welcome to the Intervac In-House Messaging System.  Messages that you send here will never be lost in foreign spam filters again.  Because they are messages and not email you can login any time and from any internet connection to check for offers, or contact exchange partners.
+msgid "help_send_message.intro_text"
+msgstr "Bienvenido al Servicio interno de mensajes de Intervac.  Los mensajes que usted mande aquí no se perderán en filtros antivirus.  Porque son mensajes y no e-mails.  En cualquier momento usted puede conectarse y ver sus ofertas o contactar con sus compañeros de intercambio."
+
+# --- English text = It's easy to send a message
+msgid "help_send_message.howto_headline"
+msgstr "¡Mandar un mensaje es fácil!"
+
+# --- English text = Click on the search button in the orange navigation.
+msgid "help_send_message.howto_step_1"
+msgstr "Haga Click en el botón de busqueda en el navegador naranja."
+
+# --- English text = Do a search to find a possible exchange partner.
+msgid "help_send_message.howto_step_2"
+msgstr "Haga una búsqueda para encontrar compañeros de intercambio."
+
+# --- English text = While viewing the other member's listing click the button: Send Message.
+msgid "help_send_message.howto_step_3"
+msgstr "Mientras ve el anuncio del otro socio haga click en el botón:  Mandar Mensaje."
+
+# --- English text = Write a message to your prospective exchange partner.
+msgid "help_send_message.howto_step_4"
+msgstr "Escriba un mensaje al posible compañero de intercambio."
+
+# --- English text = Sorry, expired or invisible members can't use our messaging system.
+msgid "errors.expired_or_invisible"
+msgstr "Lo sentimos, los socios caducados o invisibles no pueden usar nuestro servicio de mensajes."
+
+# --- English text = You haven't sent any messages yet.
+msgid "info.no_messages_sent_yet"
+msgstr "Todavía no ha enviado ningún mensaje."
+
+# --- English text = You haven't answered any messages yet.
+msgid "info.no_messages_answered_yet"
+msgstr "Todavía no ha contestado ningún mensaje."
+
+# --- English text = Your message has been sent!
+msgid "info.message_sent"
+msgstr "¡Su mensaje ha sido enviado!"
+
+# --- English text = Please don't forget to include your answer.
+msgid "errors.forgotten_answer_text"
+msgstr "Por favor no olvide incluir su respuesta."
+
+# --- English text = Thank you, your answer has been sent.
+msgid "info.answer_sent"
+msgstr "Gracias, su respuesta ha sido enviada."
+
+# --- English text = Message Templates
+msgid "edit_template.headline"
+msgstr "Plantillas para mensajes"
+
+# --- English text = Edit an existing template
+msgid "edit_template.subhead"
+msgstr "Revise su plantilla"
+
+# --- English text = Choose a template to edit
+msgid "edit_template.choose_template"
+msgstr "Elija una plantilla"
+
+# --- English text = Do you really want to delete this message template?
+msgid "delete_template.confirm"
+msgstr "¿Desea borrar esta plantilla?"
+
+# --- English text = Answered Messages
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "answered_messages.headline"
+msgstr "Mensajes contestados"
+
+# --- English text = Do you want to send a copy of this message to your email address?
+msgid "send_as_email"
+msgstr "¿Desea enviar una copia de este mensaje a su dirección de correo electrónico?"
+
+# --- English text = Received Message
+msgid "received_message.headline"
+msgstr "Mensaje Recibido"
+
+# --- English text = Sent Message
+msgid "sent_message.headline"
+msgstr "Mensaje Enviado"
+
+# --- English text = Messages for
+msgid "dashboard.for_label"
+msgstr "Mensajes para"
+
+# --- English text = Listing
+msgid "dashboard.listing_label"
+msgstr "Anuncio"
+
+# --- English text = unanswered messages
+msgid "dashboard.unanswered_messages_label"
+msgstr "mensajes sin contestar"
+
+# --- English text = has <highlight>{{count}}</highlight> unread messages
+# --- IMPORTANT => the placeholder {{count}} will be replaced with the number of unread messages.
+# --- IMPORTANT => If you want to have the number of unread messages in bold text be sure not to remove or translate the <highlight> or </highlight> tags.
+msgid "dashboard.unread_messages"
+msgstr "Tiene <highlight>{{count}}</highlight> sin leer"
+
+# --- English text = This mail does not appear to have been answered. Are you sure you want to delete it?
+# --- Location = This message is shown to members when they want to delete an unanswered message.
+msgid "unanswered_messages.delete_warning"
+msgstr "Este e-mail no ha sido contestado.  ¿Está seguro de desear anularlo?"
+
+# --- English text = Are you sure you want to delete this message?
+# --- Location = This message is shown to members when they want to delete a message.
+msgid "answered_messages.delete_warning"
+msgstr "¿Está seguro de querer borrar este mensaje?"
+
+# --- English text = Delete Message
+msgid "delete_message.alt_tag"
+msgstr "Borrar este mensaje."
+
+# --- English text = Send a jpg, pdf, doc or docx as attachment
+# --- Location = Text at the add attachment box
+# (June, 2011 - New)
+msgid "new_message.attachment"
+msgstr "Envíe un documento adjunto en jpg, pdf"
+
+# --- English text = Sorry, this family has not yet decided to join Intervac as full members.  Until they do, contacting them is not possible.
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_to_trial_members"
+msgstr "Sorry, this family has not yet decided to join Intervac as full members.  Until they do, contacting them is not possible.Lo sentimos, esta familia todavía no se ha inscrito a Intervac.  Hasta que no lo haga no es posible contactarles."
+
+# --- English text = Sorry, trial members are not allowed to contact other members. If you are ready to contact a member about an exchange, you can <link>click here</link> to pay for your membership.
+# --- IMPORTANT: Do not translate the text <link> or </link> and do not leave them away.  They make a link to the payment page of the text in the middle.  
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_for_trial_members"
+msgstr "Sorry, trial members are not allowed to contact other members. If you are ready to contact a member about an exchange, you can <link>click here</link> to pay for your membership."
+
+# --- English Text = Sorry, only full members can read incoming messages.
+# --- (December, 2011 - New Text)
+msgid "errors.no_inbox_for_trial_members"
+msgstr "Lo sentimos sólo los socios de pleno derecho pueden leer los mensajes."
+
+# --- English text = Thank you, your message has been forwarded to our member with the listing {{member_id}}.  You will be able to access copies of your sent messages as well as read any replies you receive as soon as you have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_full"
+msgstr "Gracias, su mensaje se ha enviado al socio {{member_id}}.  Podrá tener acceso a las copias de los menajes que ha enviado y a los que ha recibido tan pronto como sea socio de pleno derecho. "
+
+# --- English text = Thank you for replying to trial member: {{member_id}}. Your message has been saved in your sent box and an email notification has been sent to {{member_id}} informing them of a waiting reply. Please be patient, trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.reply_to_trial"
+msgstr "Gracias por contestar al socio de prueba : {{member_id}}.  Su mensaje se ha guardado en su buzón y una notificación por e-mail le ha sido enviada al socio {{member_id}} informandole que espera una contestación. <p_break>Por favor, sea paciente, los socios de prueba no pueden leer mensajes hasta que han pagado su inscripción.</p_break>"
+
+# --- English text = Thank you, your message has been forwarded to the trial member with the listing {{member_id}}. Trial members can not read messages, but we have sent a notification email to let them know that they have a message from you waiting. The email includes a link to the public version of your listing. We appreciate your encouraging people experiencing Intervac for the first time with your offer of interest in an exchange with them.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- IMPORTANT: Do not translate the tags: <p_break> and </p_break>.  These give the illusion of three paragraphs instead of one for easier reading.
+# --- (December 2011 - New Text)
+msgid "message_sent.full_to_trial"
+msgstr "Gracias, su mensaje ha sido enviado al socio de prueba {{member_id}}. <p_break>Los socios de prueba no pueden leer mensajes, pero hemos enviado una notificación por e-mail para hacerles saber que tienen un mensaje de usted esperando.  El e-mail inluye un link a la versión pública de su anuncio </p_break> <p_break>Agradecemos que les anime a intercambiar por primera vez con su oferta.</p_break>"
+
+# --- English text = Thank you, your message has been stored in trial member {{member_id}}'s inbox. Please be patient for the reply, Intervac's messaging system is available for full members. Trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_trial"
+msgstr "Gracias, su mensaje ha sido guardado en el buzón del socio de prueba {{member_id}}. Por favor sea paciente con la respuesta, el servicio de mensajes de Intervac es para socios de pleno derecho y los socios de prueba no pueden leerlos hasta que han pagado el total de su inscripción."
+

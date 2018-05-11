@@ -1,0 +1,92 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-11-23 19:11+0100\n"
+"PO-Revision-Date: 2011-10-11 17:16+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Privacy Policy
+msgid "privacy_policy"
+msgstr "Πολτική Ιδιωτικότητας"
+
+# --- English text = Intervac may only be used for non commercial individual home exchange purposes. When a member joins Intervac and uses the database, he agrees not to contact other members of Intervac for any other purpose than to arrange a personal home exchange. Anyone who contacts Intervac members for any other purpose than to arrange a personal home exchange will be immediately barred from Intervac and face severe penalties starting at, but not limited to, $125 per member contacted.
+msgid "only_non-commercial"
+msgstr "H Intervac μπορεί να χρησιμοποιείται μόνο για σκοπούς μη εμπορικών προσωπικών ανταλλαγών σπιτιών. Όταν ένα μέλος εγγράφεται στην Intervac και χρησιμοποιεί τη βάση δεδομένων συμφωνεί να μην έρχεται σε επαφή με άλλα μέλη της Intervac για σκοπούς άλλους από την οργάνωση προσωπικής ανταλλαγής σπιτιών. Όποιος έρχεται σε επαφή με άλλα μέλη της Intervac για σκοπούς άλλους από την οργάνωση προσωπικής ανταλλαγής σπιτιών αμέσως θα αποκλείεται της συμμετοχής στην Intervac και θα αντιμετωπίζει αυστηρές ποινές που αρχίζουν, αλλά δεν περιορίζονται, σε Δολ. ΗΠΑ 125 ανά μέλος με το οποίο ήρθε σε επαφή."
+
+# --- English text = All listings posted on the Intervac web site may not under any circumstances be posted on another web site or in any other media for any purposes. Any offenders agree that by posting Intervac's listing information on another web site or in any other media for any purposes will be subject to severe penalties starting at, but not limited to, $125 per listing.
+msgid "cross-posting_not_allowed"
+msgstr "Όλες οι καταχωρίσεις που εμφανίζονται στον ιστοτόπο της Intervac δεν επιτρέπεται σε καμία περίπτωση να εμφανιστούν σε άλλο ιστοτόπο ή σε άλλο μέσο και για οποιοδήποτε λόγο. Οι παραβάτες συμφωνούν ότι εμφανίζοντας πληροφορίες καταχωρίσεων της Intervac σε άλλο ιστοτόπο ή σε άλλο μέσο και για οποιοδήποτε λόγο θα αντιμετωπίζουν αυστηρές ποινές που αρχίζουν, αλλά δεν περιορίζονται, σε Δολ. ΗΠΑ 125 ανά καταχώριση."
+
+# --- English text = By joining Intervac, you agree that any home exchange, hospitality offer or rental transaction you arrange is between you and the other party. You agree that neither Intervac nor any of its affiliates bear any responsibility for the arrangement and it's completely up to you to find the right partner.
+msgid "responsibility_lies_with_member"
+msgstr "Εγγραφόμενοι στην Intervac, συμφωνείτε ότι κάθε ανταλλαγή, προσφορά φιλοξενίας ή ενοικίαση που συμφωνείτε, είναι ανάμεσα σε σας και το άλλο μέλος. Αποδέχεστε ότι ούτε η Intervac ούτε κάποια συνδεδεμένη της οργάνωση φέρει οποιαδήποτε ευθύνη για τη συμφωνία και είναι αποκλειστικά δικό σας θέμα η εξέυρεση κατάλληλου μέλους για τη σύναψη της συμφωνίας."
+
+# --- English text = Protection of your Personal Information
+msgid "protection_headline"
+msgstr "Προστασία των Προσωπικών σας Πληροφοριών"
+
+# --- English text = Intervac International Home Exchange Holiday Service is committed to protecting your privacy. We provide this notice to explain our online information practices and the choices you can make about the way information is collected and used. We will only use the information we collect for the purposes of enhancing your Intervac International online service experience. At no time will we sell, trade, rent or disclose your personal information to third parties unless we have obtained consent to such use.
+msgid "intro_and_no_sell"
+msgstr "Η Intervac International είναι αποφασισμένη να προστατέψει την ιδιωτικότητά σας. Κάνουμε την παρούσα δήλωση για να σας εξηγήσουμε τις πρακτικές μας πληροφόρησης σε απυεθείας σύνδεση και τις επιλογές που έχετε για τον τρόπο που οι πληοφορίες συλλέγονται και χρησιμοποιούνται. Θα χρησιμοποιήσουμε τις πληροφορίες που συλλέγουμε μόνο για να βελτιώσουμε την εμπειρία σας με τις υπηρεσίες σε απευθείας σύνδεση της Intervac International. Ποτέ δεν πρόκειται να πωλήσουμε, εμπορευθούμε, εκμισθώσουμε ή αποκαλύψουμε τις προσωπικές σας πληροφορίες σε τρίτα πρόσωπα εκτός αν έχουμε λάβει συναίνεση για τη χρήση αυτή."
+
+# --- English text = Security of your Personal Information
+msgid "security_headline"
+msgstr "Ασφάλεια των Προσωπικών σας Πληροφοριών"
+
+# --- English text = Any personal information we collect will be stored in our secure database. The information published at the international database for each listing has been provided by members either directly online or through an Intervac national agent and can be modified by the member at any time, according to database procedure.
+msgid "stored_in_database"
+msgstr "Οι προσωπικές πληροφορίες που συλλέγουμε φυλάσσονται στην ασφαλή βάση δεδομένων μας. Οι πληροφορίες που δημοσιεύονται στη διεθνή βάση δεδομένων μας για κάθε καταχώριση παρέχονται από τα μέλη μας είτε αμέσως σε απευθείας σύνδεση είτε μέσω εθνικών αντιπροσώπων και μπορούν να τροποποιηθούν από το μέλος οποτεδήποτε, σύμφωνα με τις διαδικασίες της βάσης δεδομένων."
+
+# --- English text = As an Intervac International member, you may occasionally receive e-mail updates from us, including newsletters, special offers we think you will find valuable, important changes to the functionality of the Web site, and new Intervac International services. These e-mail communications may be sent or personalized based on information you provide on the Intervac International database. You may, at any time, decline to receive e-mail notifications by replying to any e-mail with 'REMOVE' in the subject line.
+msgid "receive_email_updates"
+msgstr "Ως μέλος της Intervac International, μπορεί κατά καιρούς να λαμβάνετε ενημερωτικά μηνύματα ηλεκτρονικού ταχυδρομείου από εμάς, περιλαμβανομένων ενημερωτικών δελτίων, ειδικών προσφορών που νομίζουμε ότι θα βρείτε χρήσιμα, σημαντικές αλλαγές στις λειτουργίες του ιστοτόπου μας και νέες υπηρεσίες της Intervac International. Αυτές οι επικοινωνίες με ηλεκτρονικό ταχυδρομείο μπορούν να σταλούν ή να εξατομικευτούν σύμφωνα με τις πληροφορίες που παρέχετε στη βάση δεδομένων της Intervac International database. Μπορείτε, οποτεδήποτε, να αρνηθείτε να λαμβάνετε ειδοποιήσεις με ηλεκτρονικό ταχυδρομείο, απαντώντας στο μήνυμα ηλεκτρονικού ταχυδρομείου και θέτοντας τη λέξη 'REMOVE' στην ένδειξη 'θέμα (subject)'."
+
+# --- English text = IP Addresses and Links
+msgid "ip_and_links_headline"
+msgstr "Διευθύνσεις IP και Σύνδεσμοι"
+
+# --- English text = IP addresses are not linked to personally identifiable information, and Intervac International does not use those for tracking purposes.
+msgid "ip_not_personal"
+msgstr "Οι διευθύνσεις IP δεν συνδέονται σε προσωποποιούμενες πληροφορίες και η Intervac International δεν τις χρησιμοποιεί για αναζητήσεις."
+
+# --- English text = Our Web site contains many links to other sites. Intervac International is not responsible for the privacy practices of such other sites. This privacy statement applies solely to information collected by this web site.
+msgid "outside_links_disclaimer"
+msgstr "Ο ιστοτόπος μας περιέχει πολλούςυνδέσμους σε άλλους ιστοτόπους. Η Intervac International δεν ευθύνεται για τις πρακτικές ιδιωτικότητας αυτών των άλλων ιστοτόπων. Η παρούσα δήλωση ιδιωτικότητας ισχύει μόνο για πληροφορίες που συλλέγονται από τον παρόντα ιστοτόπο."
+
+# --- English text = Cookies
+#, fuzzy
+msgid "cookies_headline"
+msgstr "Cookies"
+
+# --- English text = Personal information may also be collected by cookies, which are pieces of data stored by a web browser that contain information relating to use of Intervac International web site. A cookie can not read data off your hard disc or read cookie files created by other sites. Intervac does not use cookies to track personal information and uses them for internal management purposes only. Our web site requires that cookies be active to use member functions.
+msgid "cookies_text"
+msgstr "Προσωπικές πληροφορίες μπορούν να συλλέγονται επίσης με cookies, που είναι μικρά αρχεία που φυλάσσονται σε ένα φυλλομετρητή διαδικτύου και περιέχουν πληροφορίες  σχετικά με τη χρήση του ιστοτόπου της Intervac International. Ένα cookie δεν μπορεί να διαβάσει δεδομένα από το σκληρό δίσκο σας ή να διαβάσει αρχεία cookies που δημιουργούν άλλοι ιστοτόποι. Η Intervac δεν χρησιμοποιεί cookies για να παρακολουθεί προσωπικές πληροφορίες και τα χρησιμοποιεί μόνο για σκοπούς εσωτερικής διαχείρισης μόνο. Ο ιστοτόπος μας απαιτεί τα cookies είναι ενεργά για να μπορούν να χρησιμοποιηθούν οι λειτουργίες μελών."
+
+# --- English text = If you have any questions about the security at our Web site, please send an e-mail to security@intervac.org.
+msgid "security_questions"
+msgstr "Αν έχετε απορίες για την ασφάλεια στον ιστοτόπο μας, παρακαλούμε στείλτε ένα μήνυμα ηλεκτρονικού ταχυδρομείου στο security@intervac.org."
+
+# --- English text = Contacting Intervac International
+msgid "how_to_contact_headline"
+msgstr "Επικοινωνία με την Intervac International"
+
+# --- English text = If you have any questions about this privacy policy statement or the practices of this site, you can e-mail the-board@intervac.org, or call your National Intervac agent or send direct correspondence to Intervac International Home Exchange Holiday Service, PO Box 561, SE – 114 79 Stockholm, Sweden
+msgid "how_to_contact_text"
+msgstr "Αν έχετε ερωτήσεις για την παρούσα δήλωση πολιτικής ιδιωτικότητας ή τις πρακτικές του ιστοτόπου μας, μπορείτε να στείλετε μήνυμα ηλεκτρονικού ταχυδρομείου στο the-board@intervac.org, ή να καλέσετε  τον εθνικό εκπρόσωπο της Intervac στη χώρα σας ή να στείλετε επιστολή στην Intervac International Home Exchange Holiday Service, PO Box 561, SE - 114 79 Stockholm, Sweden"
+
+# --- English text = Changes to the Privacy Policy
+msgid "changes_headline"
+msgstr "Αλλαγές στην Πολιτική Ιδιωτικότητας"
+
+# --- English text = If we decide to change our privacy policy, we will post notice of a privacy policy update on our Home page so that our users may view our updated policy and be aware on an ongoing basis of what information we collect, how we use it, and under which circumstances, if any, we disclose it. 
+msgid "changes_text"
+msgstr "Αν αποφασίσουμε να αλλάξουμε την πολιτική μας ιδιωτικότητας, θα τοποθετήσουμε μια ειδοποίηση αλλαγής πολιτικής ιδιωτικότητας στην Αρχική σελίδα του ιστοτόπου μας, ώστε οι χρήστες μας να δούν την επικαιροποιημένη πολιτική μας και να είστε ενήμεροι διαρκώς για το τι πληροφορίες συλλέγουμε, πώς τις χρησιμοποιούμε και με ποιές προϋποθέσεις, αν υπάρχουν, τις αποκαλύπτουμε. "
+

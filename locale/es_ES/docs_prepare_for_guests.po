@@ -1,0 +1,98 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2011-08-10 12:28+0100\n"
+"Last-Translator: Angels <intervac@grossi-sas.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange Checklist
+# --- Location = This headline is only found in the visitors information - page: Home Exchange Checklist
+# (June, 2011 - New)
+msgid "visinfo_checklist.headline"
+msgstr "Lista para Intercambio de Casas"
+
+# --- English text = Prepare To Welcome Guests
+msgid "page.headline"
+msgstr "Prepárese para recibir a sus huéspedes"
+
+# --- English text = It is important to make your home as warm and inviting for your exchange guests as you would for any of your friends. Make sure that your house is clean and ready for their arrival. Remember that you expect the same from your exchange partners.
+msgid "page.introtext"
+msgstr "Es importante que prepare su casa para que resulte agradable a sus compañeros de intercambio como lo haría para cualquiera de sus amigos.  Asegúrese que su casa está limpia y a punto para su llegada.  Recuerde que usted espera lo mismo de sus compañeros de intercambio."
+
+# --- English text = Some other ideas include:
+msgid "subhead.other_ideas"
+msgstr "Otras ideas:"
+
+# --- English text = A bottle of wine and some flowers provide a special welcome.
+msgid "list.bottle_of_wine"
+msgstr "Una botella de vino y unas flores ofrecen un recibimiento especial."
+
+# --- English text = Make up beds with fresh linens, and put clean towels in the bathrooms.
+msgid "list.beds_and_food"
+msgstr "Deje las camas hechas, y deje toallas limpias en los baños."
+
+# --- English text = Make sure that staple foods such as sugar, tea, coffee and salt have not run out. Make it easy for your guests to get off to a comfortable start.
+msgid "list.staple_foods"
+msgstr "Asegúrese de que no se ha terminado algo tan básico como: azucar, te, café y sal."
+
+# --- English text = Leave your refrigerator clean and empty except for basic foods for the convenience of your guest.
+msgid "list.clean_refrigerator"
+msgstr "Deje su nevera limpia y vacía excepto comida básica.  Por ejemplo:  leche, ketchup, etc. Se comprende que la comida que se deja en la nevera es para uso de los huéspedes y que igual está o no cuando regresemos.  No debe dejar restos, ni botellas de leche abiertas, etc."
+
+# --- English text = Be sure you have paid any bills which come due during your holiday.
+# (June, 2011 - New)
+msgid "list.pay_your_bills"
+msgstr "Asegúrese de que ha pagado todas las facturas que pueden llegar mientras esté de vacaciones."
+
+# --- English text = Leave instructions regarding how appliances work and where to locate the central heating/hot water, fuse box and other facilities. Ask a neighbor or friend to stop by and introduce themselves to make sure your guests are finding everything they need.
+msgid "list.appliance_instructions"
+msgstr "Deje instrucciones con respecto a cómo funcionan los electrodomésticos y dónde se encuentra la calefacción central o calentador, fusibles, etc.  Pídale a un amigo o vecino que se pase y se presente para asegurarse de que sus huéspedes encuentran todo lo que necesitan."
+
+# --- English text = Leave any necessary instructions regarding the care of plants and pets.  Don't forget to include your veterinarian's name and telephone number.
+msgid "list.pets_and_plants"
+msgstr "Deje instrucciones respecto al cuidado de las plantas y animales domésticos.  No se olvide de incluir el nombre y teléfono de su veterinario."
+
+# --- English text = Leave a list of important numbers next to the phone, including emergency numbers, operator, directory enquiries, doctor or hospital, friends for advice if a problem arises, and babysitters or vets, if applicable.
+msgid "list.emergency_phone_numbers"
+msgstr "Deje una lista de teléfonos importantes cerca del teléfono, incluyendo números de emergencia, operadora, información, médicos o hospital, amigos a quién llamar si tienen algún problema, canguro, etc."
+
+# --- English text = Provide any special instructions for leaving your house secure.
+msgid "list.security_instructions"
+msgstr "Proporcione cualquier instrucción especial para que cuando salen su casa quede segura.  Deje otro juego de llaves con su vecino o amigo para emergencias. "
+
+# --- English text = Leave a note concerning milk/paper delivery, nearest petrol station/shops/supermarket
+msgid "list.local_life"
+msgstr "Deje un nota con la gasolinera más cercana, tiendas, supermercados, restaurantes, etc."
+
+# --- English text = Store irreplaceable ornaments and special personal items, if there is worry about breakage. It is not necessary or desirable to remove all ornaments and furniture.
+msgid "list.store_breakables"
+msgstr "Si tiene algún objeto de valor (económico o sentimental) es mejor que lo guarde, si le preocupa que se pueda romper, pero no es necesario que saque todos los adornos."
+
+# --- English text = Prepare adequate wardrobe and drawer space for guests to store their clothes and belongings.
+msgid "list.wardrobe_space"
+msgstr "Haga espacio en su armario y cajones para que sus huéspedes puedan guardar su pertenencias."
+
+# --- English text = If your guests are bringing their own laptop, be sure to leave them instructions for connecting to the internet through your router, wireless LAN, or modem.
+msgid "list.internet_access"
+msgstr "Si sus huéspedes traen su ordenador portátil, asegúrese de dejarles instrucciones para conectarse a internet a través de su router, modem, etc."
+
+# --- English text = Leave a notebook by the telephone for recording long-distance phone calls or messages.
+msgid "list.expense_notebook"
+msgstr "Deje un block de notas al lado de teléfono para anotar las conferencias o mensajes."
+
+# --- English text = Indicate if any parts of your home are off limits or equipment is not to be used e.g. office rooms or a computer.
+msgid "list.off_limits"
+msgstr "Indique si hay alguna zona de su casa que no deben usar, o algún aparato.  Por ejemplo despachos u ordenador."
+
+# --- English text = Don't forget to leave the information pack you collected on the table for your guest's use.
+msgid "list.info_pack"
+msgstr "No se olvide de dejar la carpeta de información encima de la mesa para que la puedan usar sus huéspedes."
+

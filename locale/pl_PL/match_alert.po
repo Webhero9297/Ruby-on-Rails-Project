@@ -1,0 +1,177 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-01-19 19:43+0100\n"
+"PO-Revision-Date: 2011-09-01 11:48+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Match Alert - For Busy Exchangers!
+msgid "headline"
+msgstr "Powiadomienia o nowych ofertach!"
+
+# --- English text = You decide what is right for you!
+msgid "slogan"
+msgstr "To Ty decydujesz co jest dla ciebie najlepsze!"
+
+# --- English text = We will send you a up to ten emails in total at the frequency you choose. Each email will contain up to twenty new and/or recently changed listings which correspond closely to the settings you select below.
+# --- (Jan, 2009)  Edited text... please compare.
+#, fuzzy
+msgid "intro_text"
+msgstr "Wyślemy Ci 10 powiadomień w wybranych przez Ciebie odstępach czasu. Każde powiadomienie będzie zawierać do 20 nowych i zaktualizowanych ofert, wybranych na podstawie podanych poniżej preferencji. Zaznacz \"nigdy\" w preferencjach częstotliwość otrzymywania powiadomień, aby przerwać ich wysyłanie . "
+
+# --- English text = Match alert emails left in this round
+msgid "number_left_to_send"
+msgstr "Match alert emails left in this round"
+
+# --- English text = Save My Settings
+msgid "save_button"
+msgstr "Zapisz moje preferencje"
+
+# --- English text = Mail Settings
+msgid "mail_settings.headline"
+msgstr "Ustawienia wiadomości"
+
+# --- English text = Frequency
+msgid "mail_settings.frequency"
+msgstr "Częstotliwość"
+
+# --- English text = Content
+msgid "content.headline"
+msgstr "Zawartość"
+
+# --- English text = Match Settings
+msgid "settings.headline"
+msgstr "Preferencje dotyczące ofert"
+
+# --- English text = Destinations
+msgid "settings.destinations"
+msgstr "Cele podróży"
+
+# --- English text = Destinations Available
+msgid "settings.destinations_available"
+msgstr "Destinations Available"
+
+# --- English text = Destinations Chosen
+msgid "settings.destinations_chosen"
+msgstr "Destinations Chosen"
+
+# --- English text = You can save any number of destinations in this section by clicking on the orange boxes to add desired destinations at (1) country level OR (2) country-region level OR (3) country-region-city level.
+# --- Location = Introductory text found underneath the headline "Destinations Wishlist"
+#, fuzzy
+msgid "destinations.introtext"
+msgstr "You can save any number of destinations in this section by clicking on the orange boxes to add desired destinations at (1) country level OR (2) country-region level OR (3) country-region-city level."
+
+# --- English text = Other Details
+msgid "other_details.headline"
+msgstr "Inne innformacje"
+
+# --- English text = Email language
+#, fuzzy
+msgid "mail_settings.language"
+msgstr "Email language"
+
+# --- English text = Include only new listings
+msgid "content.only_new"
+msgstr "Wysyłaj tylko nowe oferty"
+
+# --- English text = Send both new and changed listings
+msgid "content.new_and_changed"
+msgstr "Wysyłaj nowe i zaktualizowane oferty"
+
+# --- English text = None of the adjustments you make to these categories will change your profile.  They are used only for Match Alert!
+msgid "no_change_to_profile"
+msgstr "Ustawienia preferencji dla powiadomień nie mają wpływu na informacje zawarte w Twoim formularzu członkowski. Preferencje odnoszą się wyłącznie do powiadomień."
+
+# --- English text = Minimum number of adults
+msgid "settings.minimum_adults"
+msgstr "Minimalna ilość dorosłych"
+
+# --- English text = with children
+msgid "settings.with_children"
+msgstr "z dziećmi"
+
+# --- English text = without children
+msgid "settings.without_children"
+msgstr "bez dzieci"
+
+# --- English text = with or without children
+msgid "settings.with_or_without_children"
+msgstr "with or without children"
+
+# --- This label is hidden text.
+# --- English text = Children
+msgid "settings.children"
+msgstr "Dzieci"
+
+# --- English text = Success!  Your MatchAlert settings have been saved
+msgid "messages.settings_saved_successfully"
+msgstr "Success!  Your MatchAlert settings have been saved"
+
+# --- English text = There was an error!
+msgid "errors.undefined"
+msgstr "There was an error!"
+
+# --- English text = Thanks!  You are registered to receive 10 MatchAlert emails.  They will be sent to the email address(s) in your listing.
+msgid "messages.ok_send_to_address"
+msgstr "Thanks!  You are registered to receive 10 MatchAlert emails.  They will be sent to the email address(s) in your listing."
+
+# --- English text = Sleeping Accommodations
+msgid "settings.accommodations_headline"
+msgstr "Warunki wymiany"
+
+# --- English text = Exchange Family
+msgid "settings.exchange_family"
+msgstr "Rodzina"
+
+# --- Button Text
+# --- English text = Send 10 more emails
+msgid "send_another_round"
+msgstr "Proszę o wysłanie kolejnych 10 powiadomień"
+
+# --- English text = <strong>Stop!</strong> Set the frequency to \"never\" to stop the delivery of these Match Alert! Emails.
+#, fuzzy
+msgid "stop_the_mails"
+msgstr "<strong>Stop!</strong> Set the frequency to \"never\" to stop the delivery of these Match Alert! Emails."
+
+# --- English text = The number of Match Alert emails left is set out below. To begin another round please check the frequency, settings and destinations and click the button below that says: Send 10 more emails.
+# --- Text change/clarification requested by B. Hayes (Aug, 2010)
+msgid "stopped_start_again"
+msgstr "Zakończyliśmy wysyłanie powiadomień. Jeśli chcesz otrzymać kolejne powiadomienia określ ich częstotliwość oraz zaktualizuj pozostałe preferencje. Zapisz zmianę ustawień a następnie kliknij na poniższy przycisk."
+
+# --- English text = Listing Types
+# --- This is hidden text
+msgid "content.listing_types"
+msgstr "Rodzaje oferty"
+
+# Frequency
+# --- English text = once a week
+msgid "mail_settings.weekly"
+msgstr "raz w tygodniu"
+
+# Frequency
+# --- English text = every other week
+msgid "mail_settings.bi-weekly"
+msgstr "raz na dwa tygodnie"
+
+# Frequency
+# --- English text = once a month
+msgid "mail_settings.monthly"
+msgstr "raz w miesiącu"
+
+# Frequency
+# --- English text = never
+msgid "mail_settings.never"
+msgstr "nigdy"
+
+# --- English text = My Match Alert Status
+#, fuzzy
+msgid "my_status"
+msgstr "My Match Alert Status"

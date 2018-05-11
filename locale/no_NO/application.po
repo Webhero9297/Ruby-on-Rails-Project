@@ -1,0 +1,571 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: application\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-04-13 17:11+0100\n"
+"Last-Translator: Trude Hoel <truhoel@online.no>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Become a Member
+msgid "page1.headline"
+msgstr "Bli medlem!"
+
+# --- English text = Now, joining Intervac is easier than ever!  We offer a free trial membership for {{number}} days.  Sign up (no credit card required) and set up your listing.  Take some time and have a look around our online facilities.  We are improving them all the time.  If you're not satisfied that Intervac, <italic>the original home exchangers</italic> is the right service for you, no problem.  After {{number}} days your membership will expire.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June 2011 - New)
+msgid "page1.intro_text"
+msgstr "Nå er det lettere enn noen sinne å bli medlem i Intervac. Vi tilbyr gratis prøvemedlemskap i {{number}} dager. Meld deg inn nå, og lag din oppføring. Du trenger ikke kredittkort for å melde deg inn som prøvemedlem. Bruk litt tid og se rundt på det vi har tilgjengelig online. Vi forbedrer sidene hele tiden. Om du ikke er fornøyd med Intervac, <italic>de opprinnelige boligbytterne</italic> etter noen {{number}} dager, ikke noe problem, ditt medlemskap vil gå ut av seg selv. "
+
+# --- English text = <strong>Step #1:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_1"
+msgstr "<strong>Trinn #1:</strong> "
+
+# --- English text = Create your membership
+# (June 2011) Not In Use
+msgid "-x- page1.step_1_text"
+msgstr "Meld deg inn"
+
+# --- English text = <strong>Step #2:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_2"
+msgstr "<strong>Trinn #2:</strong> "
+
+# --- English text = Make your payment
+# (June 2011) Not In Use
+msgid "page1.step_2_text"
+msgstr "Betal medlemsavgift"
+
+# --- English text = <strong>Step #3:</strong>
+# (June 2011) still in use on text_and_photos
+msgid "page1.step_3"
+msgstr "<strong>Trinn #3:</strong> "
+
+# --- English text = Build your listing
+# (September 2011)
+msgid "last_step.breadcrumbs"
+msgstr "Lag din liste"
+
+# --- English text = Your Country of Residence
+msgid "page1.country_headline"
+msgstr "Ditt hjemland"
+
+# --- English text = Select the country where you live
+msgid "page1.select_country_text"
+msgstr "Velg landet der du bor:"
+
+# --- English text = To renew your expired membership, please <link>login here</link> and click the <italic>Renew Now</italic> button at the top of the page.
+# (June, 2011 - New)
+msgid "page1.how_to_renew"
+msgstr "For å fornye medlemsskapet i Intervac, vær snill <link>login here</link> og klikk <italic>Renew now</italic> på toppen av siden."
+
+# --- English text = Annual Membership
+# --- (Sept 2009) Edited to read: Membership Prices
+msgid "page1.prices_headline"
+msgstr "Medlemskap for ett år"
+
+# --- English text = Your membership details
+# --- (May 2009) EDITED - Please change to read : Your Contact Information
+msgid "page1.contact_information_headline"
+msgstr "Detaljene vedrørende ditt medlemskap."
+
+# --- English text = First Name <required>*</required>
+msgid "page1.first_name"
+msgstr "Fornavn <required>*</required>"
+
+# --- English text = Last Name <required>*</required>
+msgid "page1.last_name"
+msgstr "Etternavn <required>*</required>"
+
+# --- English text = Email Address <required>*</required>
+msgid "page1.email"
+msgstr "E-postadresse"
+
+# --- English text = Login and Password
+# (June, 2011 - New)
+msgid "page1.login_and_password"
+msgstr "Login og Passord"
+
+# --- English text = Choose Login <required>*</required>
+msgid "page1.choose_login"
+msgstr "Velg ditt brukernavn <required>*</required>"
+
+# --- English text = Choose Password <required>*</required>
+msgid "page1.choose_password"
+msgstr "Velg ditt passord <required>*</required>"
+
+# --- English text = Confirm Password <required>*</required>
+msgid "page1.confirm_password"
+msgstr "Bekreft passord <required>*</required>"
+
+# --- English text = I agree to the Intervac {TERMS_AND_CONDITIONS} and {PRIVACY_POLICY}
+msgid "page1.agree_terms_privacy"
+msgstr "Jeg sier meg enig i Intervacs {TERMS_AND_CONDITIONS} og {PRIVACY_POLICY}"
+
+# --- English text = Proceed to Payment
+# (June, 2011 - New)
+msgid "page1.proceed_to_payment_button"
+msgstr "Fortsett til betaling"
+
+# --- English text = Continue
+# (June, 2011 - New)
+msgid "page1.continue_button"
+msgstr "Fortsett"
+
+# --- English text = Try Intervac {{number}} Days Free
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+msgid "page1.trial_offer_button"
+msgstr "Prøv Intervac i {{number}} dager gratis"
+
+# --- English text = No country selected
+msgid "page1.default_no_country_selected"
+msgstr "Intet land er valgt"
+
+# --- English text = Please agree to Intervac Terms and Conditions and Privacy Policy
+msgid "page1.errors.agree_to_conditions"
+msgstr "Vennligst si deg enig i Intervacs betingelser og vilkår samt personvern"
+
+# --- English text = That email address is already in use in our database.  Please login to renew your membership.
+# --- (May 2009) Edited => Removed the suggestion to use another email address.
+msgid "page1.errors.email_taken"
+msgstr "Denne e-postadressen er allerede i bruk i vår database.  Vennligst sett inn din login for å fornye ditt medlemskap, eller bruk en annen e-postadresse."
+
+# --- English text = Sorry, your chosen login is already in use.  Please choose another one.
+msgid "page1.errors.login_taken"
+msgstr "Beklager, login du valgte er allerede i bruk.  Vennligst velg en annen login."
+
+# --- English text = Login and password cannot be blank.
+msgid "page1.errors.username_password_cannot_be_blank"
+msgstr "Brukernavn og passord må fylles inn."
+
+# --- English text = Choose Your Membership Options
+msgid "page2.headline"
+msgstr "Velg dine medlemsalternativer"
+
+# --- English text = Welcome back to Intervac, {{member_name}}. Thank you for renewing your membership {{membership_number}}.  (If this is not your name, or this is not the member id for the property you wish to renew, please contact your local agent who will be able to help you further.)
+# --- IMPORTANT:  Do not translate  {{member_name}} or {{membership_number} = These will be replaced automatically with the correct information.
+msgid "page2.renewal_welcome_text"
+msgstr "Velkommen tilbake til Intervac, {{member_name}}. Takk for at du fornyer ditt medlemskap {{membership_number}}."
+
+# --- English text = If this is not your name, or member id, please contact your local agent who will be able to help you further.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will  be linked automatically.
+msgid "page2.renewal_not_you"
+msgstr "Hvis dette ikke er ditt navn eller medlemsnummer<link>bes du vennligst ta kontakt med ditt lands leder av Intervac</link> som vil kunne hjelpe deg videre."
+
+# --- English text = Hello, {{member_name}}.  You already have an active membership with Intervac, but you have not finished filling in the details of your listing. Please <link>log-in here</link> and follow the link to Change you Listing.  After you have done this and saved, your listing will be visible to all our members and you will be able to begin your search for a home exchange in earnest.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will  be linked automatically.
+# --- IMPORTANT:  Do not translate the placeholder {{member_name}}.  The system will replace this with the member's name.
+msgid "page2.renewal_not_for_active_invisible"
+msgstr "Hei, {{member_name}}. Du har allerede et aktivt medlemskap i Intervac, men du er ikke ferdig å fylle inn dine detaljer. Vennligst <link> log-in her </ link> og følg linken for å forandre din oppføring. Etter at du har gjort dette og lagret, vil oppføringen din bli synlig for alle våre medlemmer, og du vil kunne starte søket etter et boligbytte."
+
+# --- English text = Hello, {{member_name}}.  You already have an active membership with Intervac which expires on {{expiration_date}}.  Please <link>click here</link> to continue and renew your listing for another year.  Or you can <link>login</link> here if you did not intend to renew.
+# --- IMPORTANT:  Do not translate  <link> or </link> = The text inside of these two tags will be linked automatically.
+# --- IMPORTANT:  Do not translate the placeholder {{member_name}}, or {{expiration_date}}.  The system will replace this with the member's name, and the date his currently active membership will expire.
+msgid "page2.renewal_active_invisible"
+msgstr "Hei, {{member_name}}.  Du har allerede et aktivt medlemskap i Intervac som ikke utløper før {{expiration_date}}.  Vennligst <link>klikk her</link> for å fortsette og fornye ditt medlemskap for et nytt år nå, eller du kan <link>login</link> her dersom du ønsker å vente med fornyelsen. 15 dager før forfallsdato vil du få et varsel om fornying av medlemskapet."
+
+# --- English text = Membership Options
+msgid "page2.membership_options_headline"
+msgstr "Alternativer for medlemskap"
+
+# --- English text = Additional Services
+msgid "page2.additional_services_headline"
+msgstr "Betaling til bankkonto."
+
+# --- English text = Total
+msgid "page2.total"
+msgstr "Totalt"
+
+# --- English text = Payment Options and Confirmation
+# --- (May 2009) EDITED Change to read : Continue to Payment
+msgid "page2.button_text"
+msgstr "Gå videre til betaling"
+
+# --- English text = Confirm your order
+msgid "page2.breadcrumbs"
+msgstr "Velg alternativer for medlemskap"
+
+# --- English text = Enter promotion code if available
+msgid "page2.promotion_code"
+msgstr "Sett inn verdikode hvis mulig"
+
+# --- English text = Confirm your order
+msgid "page3.breadcrumbs"
+msgstr "Bekreft din ordre"
+
+# --- English text = Order Confirmation and Payment Options
+msgid "page3.headline"
+msgstr "Be om bekreftelse samt en orientering om betalingsmåter"
+
+# --- English text = Order Summary
+msgid "page3.summary_headline"
+msgstr "Be om oversikt"
+
+# --- English text = Description
+msgid "page3.description"
+msgstr "Beskrivelse"
+
+# --- English text = Price
+msgid "page3.price"
+msgstr "Pris"
+
+# --- English text = Promotional discount
+msgid "page3.promotion_discount"
+msgstr "Kampanjetilbud"
+
+# --- English text = Total
+msgid "page3.total"
+msgstr "Sum"
+
+# --- English text = Change your membership options
+msgid "page3.change_options"
+msgstr "Endre dine alternativer vedrørende medlemskap"
+
+# --- English text = Payment Options
+msgid "page3.payment_options.headline"
+msgstr "Betalingsalternetiver"
+
+# --- Text for countries with local payment pages only.
+# --- English text = Your account has been created and your order has been stored in the Intervac International database.  Your listing is inactive and invisible to other members.  As soon as your local organiser has received your payment your listing will be activated.  You must also log-in and finish filling out your travel details before your offer can be viewed by other members.
+msgid "page3.payment_options.no_cc_important"
+msgstr "Ditt medlemskap er etablert og din innmelding er registrert i Intervacs internasjonale database. Men ditt medlemskap er foreløpig inaktivt og kan ikke ses av andre Intervac-medlemmer. Så snart Intervacs leder i ditt land har mottatt din innbetaling av årsavgiften, vil ditt medlemskap og din annonse på Intevacs web, bli aktivert. Husk at du også må logge deg inn og fullføre reisedetaljene når det gjelder ditt tilbud om boligbytte, før tilbudet ditt kan ses av andre Intervac-medlemmer."
+
+# --- Text for countries with local payment pages only.
+# --- English text = Activation can take up to 48 hours after receipt of payment.  Your organiser will set your membership dates to reflect that actual date of activation so that you receive the full length of your  membership.
+msgid "page3.payment_options.delayed_activation"
+msgstr "Det kan ta inntil 24 timer å aktivere ditt medlemskap etter at årsavgiften er mottatt.  Lederen av Intervac i ditt land vil aktivisere medlemskapet på innbetalingsdagen slik at medlemskapet gjelder for ett helt år."
+
+# --- Text for countries with local payment pages only.
+# --- English text = While you are waiting for activation, feel free to log-in to our system (using the login and password you chose on the first page), and finsh filling out your listing details.  You will be ready to begin contacting other members from the first day!
+msgid "page3.payment_options.while_you_wait"
+msgstr "Mens du venter på at ditt medlemskap skal aktiveres, har du full anledning til å logge deg inn på vårt system (bruk login og passord som du valgte på første side), og avslutt utfyllingen av detaljene i ditt tilbud om boligbyttes. Da vil du være i stand til å ta kontakt med andre Intervac-medlemmer over hele verden fra det øyeblikket du får melding om at ditt medlemskap er aktivert!"
+
+# --- English text = Continue
+msgid "page3.payment_options.continue_button"
+msgstr "Fortsett"
+
+# --- English text = Pay with Credit Card
+# --- Location = Only used by countries who take payments through PayPal
+# (New: November, 2011)
+msgid "page3.payment_options.paypal_headline"
+msgstr "Betal med kredittkort"
+
+# --- English text = The following credit cards are supported. Continue by clicking the \"Continue to payment\" button
+# --- Location = Only used by countries who take payments through PayPal
+# (New: November, 2011)
+msgid "page3.payment_options.paypal_text"
+msgstr "Følgende kredittkort støttes. Fortsett ved å klikke på \"Continue to payment\" knappen"
+
+# --- English text = Continue to payment
+msgid "page3.payment_options.paypal_button"
+msgstr "Fortsett til betaling"
+
+# --- English text = Pay with credit card
+msgid "page3.payment_options.pay_cc_button"
+msgstr "Betal med kredittkort"
+
+# --- English text = "Use your VISA card"
+msgid "page3.payment_options.visa_alt"
+msgstr "Betal ved å bruke VISA"
+
+# --- English text = "Use your American Express card"
+msgid "page3.payment_options.amex_alt"
+msgstr "Betal ved å bruke American Express"
+
+# --- English text = "Use your MasterCard"
+msgid "page3.payment_options.mastercard_alt"
+msgstr "Betal ved å bruke MasterCard"
+
+# --- English text = Pay by Invoice
+# --- Location: Page 3 of the application process - Headline.  Only shows for Agents who have allowed Payment by Invoice on thier Payment Settings page.
+msgid "page3.pay_by_invoice.headline"
+msgstr "Betal med faktura"
+
+# --- English text = (Immediate Activation)
+# --- Location: Page 3 of the application process - Payment choices.  Only shows for Agents who have allowed Payment by Invoice AND who have checked the Auto-Activation box in the Pay By Invoice section on thier Payment Settings page.
+msgid "page3.pay_by_invoice.immediate_activation"
+msgstr "(Umiddelbar aktivisering)"
+
+# --- English text = Pay by Invoice
+# --- Location: Page 3 of the application process - This is the button text.  Only shows for Agents who have allowed Payment by Invoice on thier Payment Settings page.
+msgid "page3.pay_by_invoice.button_text"
+msgstr "Betal med faktura"
+
+# --- English text = An error has occurred
+msgid "page3.errors.undefined"
+msgstr "Det har oppstått en feil"
+
+# --- English text = Thank you for choosing Intervac
+msgid "thanks.headline"
+msgstr "Takk for at du valgte Intervac"
+
+# --- English text = If you have paid with a credit card, your listing will be activated and you should receive an automatic email in a few minutes giving you more details about how to proceed.
+msgid "thanks.auto_activation"
+msgstr "Hvis du har betalt med kredittkort, vil ditt medlemskap bli aktivert omgående og du vil motta en automatisert e-post om noen minutter som vil gi deg opplysninger om hvordan du går videre."
+
+# --- English text = Your listing will be activated by your local organizer as soon as your payment has been received. You will receive a separate confirmation email at that time.
+msgid "thanks.organizer_activation"
+msgstr "Ditt medlemskap vil bli aktivert av lederen for Intervac i ditt land så snart som betalingen av årsavgiften er mottatt. Da vil du motta en bekreftende e-post."
+
+# --- English text = New Members
+msgid "thanks.new_members.headline"
+msgstr "Nye medlemmer"
+
+# --- English text = It is important that you complete your listing as soon as possible. It will not be visible to other members until you have filled in all the necessary information.
+msgid "thanks.new_members.invisible_listing_text"
+msgstr "Det er viktig at du fyller ut din oppføring så snart som mulig. Ditt tilbud vil ikke bli synlig for andre Intervac-medlemmer før du har fylt ut alle nødvendige opplysninger."
+
+# --- English text = If you want to get started right away, you can <link>login here</link>
+msgid "thanks.login"
+msgstr "Hvis du ønsker å komme i gang med det samme, kan du <link>login her</link>"
+
+# --- English text = We are always curious to to hear how you have found us. Please take a second to let us know. Thank you!
+msgid "thanks.how_did_you_find_intervac"
+msgstr "Vi vil alltid være interessert i å vite hvordan du fant frem til Intervac. Vennligst bruk et sekund for å fortelle oss dette. Hjertelig takk!"
+
+# --- English text = How did you hear of us?
+msgid "thanks.how_did_you_find_us_label"
+msgstr "Hvordan fikk du høre om Intervac?"
+
+# --- English text = Login Now
+msgid "payment_accepted_login_button"
+msgstr "Login nå"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Payment accepted
+msgid "payment_accepted_headline"
+msgstr "Innbetalingen er godkjent"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Thank you very much. Your payment has been accepted.
+msgid "payment_accepted_text"
+msgstr "Tusen takk. Din innbetaling er blitt godkjent."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = is a required field
+msgid "page1.errors.required_field"
+msgstr "er et ønsket felt"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Your payment has been declined
+msgid "payment_declined_headline"
+msgstr "Din innbetaling er ikke blitt godkjent"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = For some reason unknown to us, the credit card authorization has been declined for the credit card you entered.  Please contact your local agent for further assistance.
+msgid "payment_declined_text"
+msgstr "Av en eller annen grunn som vi ikke kjenner til, er det kredittkortet du brukte ikke blitt godkjent. Vennligst kontakt lederen av Intervac i ditt land for nærmere assistanse."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Credit Card Authorization Incomplete
+msgid "payment_exception_headline"
+msgstr "Godkjenningen av kredittkortet er ufullstendig"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = For some reason, the credit card authorization has returned an exception for the credit card you entered.  It could be that the authorizing server is overloaded or down for the moment. Please contact your local agent for further assistance.
+msgid "payment_exception_text"
+msgstr "Av en eller annen grunn har godkjenningen av det kredittkortet du brukte ikke vært vellykket. Dette kan skyldes at den godkjennende serveren er overbelastet for øyeblikket eller ute av drift. Vennligst ta kontakt med lederen for Intervac i ditt land for nærmere assistanse."
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = Cancelled Payment
+msgid "payment_cancelled_headline"
+msgstr "Kansellert innbetaling"
+
+# --- CREDIT CARD MESSAGE ---
+# --- English text = You have chosen to cancel your credit card payment at this time.
+msgid "payment_cancelled_text"
+msgstr "Du har nå valgt å kansellere din betaling med kredittkort."
+
+# --- English text = Your National Representative in {{country_name}} is:
+# --- Location =
+# (June, 2011)
+msgid "agent_info.headline"
+msgstr "Din lokale Intervac Agent i {{country_name}} er:"
+
+# --- English text = Trial Membership
+# --- Location = In the prices box
+# (June, 2011 - New)
+msgid "trial_membership.headline"
+msgstr "Prøvemedlemskap"
+
+# --- English text = FREE
+# --- Location = Price of trial membership
+# (June, 2011 - New)
+msgid "trial_membership.price"
+msgstr "GRATIS"
+
+# --- English text = {{number}} days full membership privileges
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# --- Location = Description of trial membership
+# (October 2011 - not in use)
+msgid "-x- trial_membership.description"
+msgstr "{{number}} dager medlemskap med fulle rettigheter"
+
+# --- English text = Save
+# --- Location = Payment Accepted - How did you hear about intervac?
+# (June, 2011 - New)
+msgid "thanks.how_did_you_find_us_button"
+msgstr "Lagre"
+
+# --- English text = Thank you for registering a FREE account. Please log-in now and begin building your profile.
+# --- Location =
+# (June, 2011)
+msgid "messages.thanks_free_account"
+msgstr "Takk for at du registrerer en GRATIS konto. Vær snill å logge inn nå og begynn å lage din oppføring. "
+
+# --- English text = Renew membership
+# (New: October, 2011)
+msgid "renew_button.text"
+msgstr "Forny Medlemskap"
+
+# --- English text = Sign up with Intervac - Experience the world
+# (New: October, 2011)
+msgid "plans_and_pricing.headline"
+msgstr "Meld deg inn i Intervac - Opplev verden"
+
+# --- English text = Step 1: Select your country
+# (New: October, 2011)
+msgid "plans_and_pricing.step_1"
+msgstr "Trinn 1: Velg ditt land"
+
+# --- English text = Step 2: Chose a price plan
+# (New: October, 2011)
+msgid "plans_and_pricing.step_2"
+msgstr "Trinn 2: Velg prisplan"
+
+# --- English text = Full membership
+# (New: October, 2011)
+msgid "full_membership.headline"
+msgstr "Fullt medlemskap"
+
+# --- English text = Billed annually as one payment of
+# --- The annual price for a membership in your country is shown after this text, so the full sentence reads: "Billed annually as one payment of €110."
+# (New: October, 2011)
+msgid "plans_and_pricing.full_membership.fine_print"
+msgstr "Fakturert årlig som en betaling av"
+
+# --- English text = Fill out your contact details
+# (New: October, 2011)
+msgid "sign_up.contact_details_instruction"
+msgstr "Fyll ut dine kontakt detaljer"
+
+# --- English text = You have chosen the following price plan
+# (New: October, 2011)
+msgid "sign_up.chosen_price_plan.headline"
+msgstr "Du har valgt følgende prisplan"
+
+# --- English text = Your trial membership will be valid for {{number}} days.  To be able to enjoy all the benefits of Intervac you need to pay for your membership. You can do that when ever you like by clicking on the button <em>Become A Full Member</em> at the top of the member homepage.
+# (Edited for correctness: January, 2012)
+msgid "sign_up.trial_membership.fine_print"
+msgstr "Ditt prøvemedlemskap vil være gyldig i {{number}} dager.  For å ta del i alle goder ved intervac må du betale for ordinært medlemskap. Du kan gjøre det ved å klikke bå knappen <em>Become A Full Member</em> øverst på hjemmesiden. "
+
+# --- English text = The annual fee for using Intervac Home Exchange in your region is {{annual_price}}.
+# (New: November, 2011)
+msgid "sign_up.trial_membership.price_for_full"
+msgstr "Den årlig avgiften for å benytte Intervac i Norge er {{annual_price}} Om du velger å betale for 2 eller 3 år, er det reduksjon i prisen."
+
+# --- English text = What is included in your membership?
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February 2012)
+msgid "price_comparison.text_headline"
+msgstr "Hva er inkludert i ditt medlemskap?"
+
+# --- English text = TRIAL {{number}} days
+# --- Location = Price comparison table on the Plans and Pricing page
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (New: February 2012)
+msgid "price_comparison.trial_headline"
+msgstr "PRØV UT {{number}} dager"
+
+# --- English text = FULL
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.full_headline"
+msgstr "FULLSTENDIG"
+
+# --- English text = Unlimited access to all listings
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.unlimited_access"
+msgstr "Ubegrenset tilgang til alle oppføringer"
+
+# --- English text = Your listing is visible to all members so you can receive proposals
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.visible_listing"
+msgstr "Din oppføring er synlig for alle medlemmer slik at du kan få tilbud"
+
+# --- English text = Your listing posted with photos and free extra text
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.includes_photos_and_text"
+msgstr "Din oppføring med bilder og ekstra tekst uten ekstra kostnader"
+
+# --- English text = Access to member contact information
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.access_to_contact_info"
+msgstr "Tilgang til medlemmers kontaktinformasjon"
+
+# --- English text = Save your favorite listings
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.save_favorites"
+msgstr "Lagre dine favorittoppføringer"
+
+# --- English text = Receive match alerts when listings meet your wishes
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.receive_match_alerts"
+msgstr "Motta \"match alert\" når oppføringer er tilgjengelig etter dine ønsker"
+
+# --- English text = Send proposals to individual/multiple members/recipients
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.able_to_send_proposals"
+msgstr "Send forslag til enkeltmedlemmer eller flere medlemmer"
+
+# --- English text = Personal assistance and service from your local Intervac representative
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.assistance_from_local_organizer"
+msgstr "Personlig assistanse og service fra din egne norske lokale representant"
+
+# --- English text = See your personal statistics of the top 5 individual countries whose members have visited your listing, how many times in a day your listing was displayed to other members over the last 21 days.
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.view_listing_statistics"
+msgstr "Se en personlig statistikk over de fem land der flest medlemmer har besøkt dine sider. Se også statistikk over hvor mange ganger per dag din side er besøkt de siste 21 dagene. "
+
+# --- English text = Notification about new messages
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.new_message_notification"
+msgstr "Beskjed om nye meldinger"
+
+# --- English text = Read your messages
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.read_messages"
+msgstr "Lese meldinger "
+
+# --- English text = Create unlimited exchange agreements
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.create_exchange_agreements"
+msgstr "Inngå ubegrensede bytteavtaler"
+
+# --- English text = Free newsletter
+# --- Location = Price comparison table on the Plans and Pricing page
+# (New: February, 2012)
+msgid "price_comparison.receive_newsletter"
+msgstr "Gratis nyhetsbrev"
+

@@ -1,0 +1,126 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-28 19:43+0100\n"
+"PO-Revision-Date: 2012-08-09 22:19+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member Login
+msgid "member_login.headline"
+msgstr "Kirjaudu sisään"
+
+# --- English text = Login to Intervac International
+msgid "headline"
+msgstr "Intervac International Kirjautuminen"
+
+# --- English text = Members Login Here
+msgid "here"
+msgstr "Jäsen kirjaudu täällä"
+
+# --- English text = Login
+msgid "login"
+msgstr "Tunnus"
+
+# --- English text = Password
+msgid "password"
+msgstr "Salasana"
+
+# --- English text = Remain logged in (on this computer)
+msgid "remember_me"
+msgstr "Muista minut tällä tietokoneella."
+
+# --- Button text
+# --- English text = Login Now
+msgid "button_text"
+msgstr "Kirjaudu nyt"
+
+# --- English text = Having trouble?
+# (Not in use - October, 2011)
+msgid "-x- help_headline"
+msgstr "Onko ongelmia?"
+
+# --- English text = HELP! I forgot my password.
+msgid "forgotten_password_title"
+msgstr "APUA! Unohdin salasanani"
+
+# --- English text = I have forgotten my password or can\'t login
+msgid "forgotten_password_link"
+msgstr "Olen unohtanut salasanani tai en onnistu kirjautumaan sisään"
+
+# --- English text = I would like to apply for membership
+msgid "apply_for_membership_link"
+msgstr "Haluan hakea jäsenyyttä"
+
+# --- English text = I'm not a member but I'd like to be!
+msgid "apply_for_membership_title"
+msgstr "En ole jäsen, mutta haluaisin liittyä!"
+
+# --- English text = Please be sure that your browser accepts cookies!
+msgid "errors.cookies"
+msgstr "Varmistathan, että selaimesi asetukset sallivat evästeet!"
+
+# --- English text = Could not log you in as {{login}}, your login or password is incorrect.
+# --- IMPORTANT - DO NOT TRANSLATE OR REMOVE "{{login}}"  The system will automatically replace this with the login name the user tried to use.
+msgid "errors.username_or_password_incorrect"
+msgstr "Kirjautuminen epäonnistui tunnuksella {{login}}, tunnuksesi tai salasasi on virheellinen."
+
+# --- English text = Login Help
+msgid "help.headline"
+msgstr "Kirjautumisohje"
+
+# --- English text = If you are seeing this message, you have tried at least twice to login without success.  Following are some tips to help you:
+# (Not in use - October, 2011)
+msgid "-x- help.introtext"
+msgstr "Jos tämä viesti tulee näkyviin, olet ainakin kaksi kertaan yrittänyt kirjautusmista siinä onnistumatta. Ohessa sinulle muutama neuvo kirjautumiseen:"
+
+# --- English text = If you are not sure of your login, you can use the email address in your listing in this field instead.
+# (Not in use - October, 2011)
+msgid "-x- help.login"
+msgstr "Jos et ole varma siitä, mikä kirjautumistunnuksesi on, voit sen sijaan käyttää kirjautumisessa myös listauksesi sähköpostiosoitetta."
+
+# --- English text = Passwords are case-sensitive.  To successfully login you must type your password using upper and lower case characters so that it matches the one you have saved in our database.
+# (Not in use - October, 2011)
+msgid "-x- help.password"
+msgstr "Tunnuksien kirjoitusasulla on merkitystä. Jotta kirjautumisesi onnistuu, sinun tulee antaa salasanasi oikein käyttämällä isoja ja pieniä kirjaimia siten, että merkit vastaavat tietokantaamme tallentamiasi merkkejä."
+
+# --- English text = Don't remember your login credentials? <link>Click here</link> to request a password reset link be sent to your email address.  The reset password email will tell you your login, and include a link you can click on to choose a new password.
+# (Not in use - October, 2011)
+msgid "-x- help.password_reset_link"
+msgstr "Et muista salasanasi kirjoitusasua? <link>Klikkaa tätä</link> pyytääksesi salasanan vaihtolinkin lähettämistä sähköpostiisi. Salasanan vaihtoa varten lähetettävä sähköpostiviesti kertoo sinulle käyttäjätunnuksesi ja sisältää linkin, jossa voi valita uuden salasanan."
+
+# --- English text = Try Again
+# (Not in use - October, 2011)
+msgid "-x- help.close_button"
+msgstr "Yritä uudelleen"
+
+# --- English text = You can login to Intervac using your Facebook account.
+# --- Location = Above the Facebook Connect button
+# (June, 2011)
+msgid "facebook.text"
+msgstr "Voit kirjautua Intervaciin käyttäen Facebook-tiliäsi."
+
+# --- English text = Apply for membership
+# --- Location =
+# (New: October, 2011)
+msgid "apply_for_membership_headline"
+msgstr "Hae jäseneksi"
+
+# --- English text = Renew membership
+# (New: October, 2011)
+msgid "renew_membership.headline"
+msgstr "Uusi jäsenyys"
+
+# --- English text = To renew any expired membership, please login and click the <em>Renew Now button</em> at the top of the page.
+# --- IMPORTANT = Do not translate or remove the tags <em> and </em>.  These are used to set the text in between them in italic type.
+# (New: October, 2011)
+msgid "renew_membership.text"
+msgstr "Uusiaksesi jo päättyneen jäsenyyden kirjaudu palveluun ja klikkaa <em>Uusi Nyt painiketta </em> sivun yläosassa."
+

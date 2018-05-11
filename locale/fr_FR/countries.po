@@ -1,0 +1,790 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-30 11:13+0100\n"
+"Last-Translator: kristina caillaud <info@intervac.fr>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ad"
+msgstr "Andorre"
+
+msgid "ar"
+msgstr "Argentine"
+
+msgid "au"
+msgstr "Australie"
+
+msgid "at"
+msgstr "Autriche"
+
+msgid "bz"
+msgstr "Belize"
+
+msgid "be"
+msgstr "Belgique"
+
+msgid "bm"
+msgstr "Bermude"
+
+msgid "vr"
+msgstr "Brésil"
+
+msgid "ca"
+msgstr "Canada"
+
+msgid "Caribbean"
+msgstr "Caraïbes"
+
+msgid "ck"
+msgstr "Îles Cook "
+
+msgid "cr"
+msgstr "Costa Rica"
+
+msgid "hr"
+msgstr "Croatie"
+
+msgid "cy"
+msgstr "Chypre"
+
+msgid "cz"
+msgstr "Tchéquie"
+
+msgid "dk"
+msgstr "Danemark"
+
+msgid "do"
+msgstr "République Dominicaine"
+
+msgid "eg"
+msgstr "Egypte"
+
+msgid "sv"
+msgstr "Salvador"
+
+msgid "fi"
+msgstr "Finlande"
+
+msgid "fr"
+msgstr "France"
+
+msgid "de"
+msgstr "Allemagne"
+
+msgid "gb"
+msgstr "Grande Bretagne"
+
+msgid "gr"
+msgstr "Grèce"
+
+msgid "gt"
+msgstr "Guatemala"
+
+msgid "hn"
+msgstr "Honduras"
+
+msgid "hk"
+msgstr "Hong Kong"
+
+msgid "hu"
+msgstr "Hongrie"
+
+msgid "in"
+msgstr "Inde"
+
+msgid "id"
+msgstr "Indonésie"
+
+msgid "is"
+msgstr "Islande"
+
+msgid "ir"
+msgstr "Iran"
+
+msgid "ie"
+msgstr "Irlande"
+
+msgid "il"
+msgstr "Israël"
+
+msgid "it"
+msgstr "Italie"
+
+msgid "jp"
+msgstr "Japon"
+
+msgid "li"
+msgstr "Liechtenstein"
+
+msgid "lu"
+msgstr "Luxembourg"
+
+msgid "my"
+msgstr "Malaisie"
+
+msgid "mt"
+msgstr "Malte"
+
+msgid "mu"
+msgstr "Île Maurice"
+
+msgid "mx"
+msgstr "Mexico"
+
+msgid "mc"
+msgstr "Monaco"
+
+msgid "ma"
+msgstr "Maroc"
+
+msgid "np"
+msgstr "Népal"
+
+msgid "nl"
+msgstr "Pays-Bas"
+
+msgid "nz"
+msgstr "Nouvelle Zélande"
+
+msgid "no"
+msgstr "Norvège"
+
+msgid "pl"
+msgstr "Pologne"
+
+msgid "pt"
+msgstr "Portugal"
+
+msgid "ru"
+msgstr "Russie"
+
+msgid "sg"
+msgstr "Singapour"
+
+msgid "sk"
+msgstr "Slovaquie"
+
+msgid "si"
+msgstr "Slovénie"
+
+msgid "za"
+msgstr "Afrique du Sud"
+
+msgid "es"
+msgstr "Espagne"
+
+msgid "lk"
+msgstr "Sri Lanka"
+
+msgid "se"
+msgstr "Suède"
+
+msgid "ch"
+msgstr "Suisse"
+
+msgid "th"
+msgstr "Thaïlande"
+
+msgid "tn"
+msgstr "Tunisie"
+
+msgid "tr"
+msgstr "Turquie"
+
+msgid "ae"
+msgstr "Emirats Arabes Unis"
+
+msgid "us"
+msgstr "Etats-Unis"
+
+msgid "ve"
+msgstr "Venezuela"
+
+msgid "vn"
+msgstr "Vietnam"
+
+msgid "Open_for_all_countries"
+msgstr "Ouvert à TOUS PAYS"
+
+msgid "eu"
+msgstr "Europe"
+
+msgid "usne"
+msgstr "USA Nord-Est"
+
+msgid "usnw"
+msgstr "USA Nord-Ouest"
+
+msgid "usse"
+msgstr "USA Sud-Est"
+
+msgid "ussw"
+msgstr "USA Sud-Ouest"
+
+msgid "oc"
+msgstr "AUTRES PAYS"
+
+msgid "all_countries"
+msgstr "Tous les pays"
+
+msgid "af"
+msgstr "Afghanistan"
+
+msgid "ax"
+msgstr "Îles Aland (FI)"
+
+msgid "al"
+msgstr "Albanie"
+
+msgid "dz"
+msgstr "Algérie"
+
+msgid "as"
+msgstr "Samoa Américaines"
+
+msgid "ao"
+msgstr "Angola"
+
+msgid "ai"
+msgstr "Île d'Anguilla (GB)"
+
+msgid "aq"
+msgstr "Antarctique"
+
+msgid "ag"
+msgstr "Îles d'Antigue et Barbude"
+
+msgid "am"
+msgstr "Arménie"
+
+msgid "aw"
+msgstr "Île d'Aruba (NL)"
+
+msgid "az"
+msgstr "Azerbaïdjan"
+
+msgid "bs"
+msgstr "Îles Bahamas"
+
+msgid "bh"
+msgstr "Bahreïn"
+
+msgid "bd"
+msgstr "Bangladesh"
+
+msgid "bb"
+msgstr "Île Barbade"
+
+msgid "by"
+msgstr "Biélorussie"
+
+msgid "bj"
+msgstr "Bénin"
+
+msgid "bl"
+msgstr "Saint-Barthélemy (France)"
+
+msgid "bt"
+msgstr "Bhoutan"
+
+msgid "bo"
+msgstr "Bolivie"
+
+msgid "br"
+msgstr "Brésil"
+
+msgid "ba"
+msgstr "Bosnie-Herzégovine"
+
+msgid "bw"
+msgstr "Botswana"
+
+msgid "bv"
+msgstr "Île Bouvet (NO)"
+
+msgid "bn"
+msgstr "Brunéi Darussalam"
+
+msgid "bg"
+msgstr "Bulgarie"
+
+msgid "bf"
+msgstr "Burkina Faso"
+
+msgid "bi"
+msgstr "Burundi"
+
+msgid "kh"
+msgstr "Cambodge"
+
+msgid "cm"
+msgstr "Cameroun"
+
+msgid "cf"
+msgstr "Cap-Vert"
+
+msgid "ky"
+msgstr "Îles Caïmans"
+
+msgid "cf"
+msgstr "Centre- Afrique"
+
+msgid "td"
+msgstr "Tchad"
+
+msgid "cl"
+msgstr "Chili"
+
+msgid "cn"
+msgstr "Chine"
+
+msgid "cx"
+msgstr "Îles Christmas (AU)"
+
+msgid "cc"
+msgstr "Îles Cocos (AU) "
+
+msgid "co"
+msgstr "Colombie"
+
+msgid "km"
+msgstr "Comores"
+
+msgid "cd"
+msgstr "Rép. Démocratique du Congo (Zaire)"
+
+#, fuzzy
+msgid "cg"
+msgstr "Congo"
+
+msgid "cu"
+msgstr "Cuba"
+
+msgid "cv"
+msgstr "Cap-Vert"
+
+msgid "dj"
+msgstr "Djibouti"
+
+msgid "dm"
+msgstr "Dominique"
+
+msgid "tl"
+msgstr "Timor oriental"
+
+msgid "ec"
+msgstr "Equateur"
+
+msgid "gq"
+msgstr "Guinée Equatoriale"
+
+msgid "er"
+msgstr "Erythrée"
+
+msgid "ee"
+msgstr "Estonie"
+
+msgid "et"
+msgstr "Ethiopie"
+
+msgid "fk"
+msgstr "Îles Malouines (Falklands)"
+
+msgid "fo"
+msgstr "Îles Féroé (DK)"
+
+msgid "fj"
+msgstr "Îles Fidji"
+
+msgid "gf"
+msgstr "Guyane Française (France)"
+
+msgid "ga"
+msgstr "Gabon"
+
+msgid "gm"
+msgstr "Gambie"
+
+msgid "ge"
+msgstr "Géorgie"
+
+msgid "gg"
+msgstr "Guernesey (GB)"
+
+msgid "gs"
+msgstr "Géorgie du Sud/Îles Sandwich"
+
+msgid "gh"
+msgstr "Ghana"
+
+msgid "gi"
+msgstr "Gibraltar (GB)"
+
+msgid "gl"
+msgstr "Groenland (DK)"
+
+msgid "gd"
+msgstr "Île Grenade "
+
+msgid "gp"
+msgstr "Guadeloupe (France)"
+
+msgid "gu"
+msgstr "Guam (USA)"
+
+msgid "gn"
+msgstr "Guinée"
+
+msgid "gw"
+msgstr "Guinée-Bissau"
+
+msgid "gy"
+msgstr "Guyana"
+
+msgid "ht"
+msgstr "Haïti"
+
+msgid "im"
+msgstr "Île de Man (GB)"
+
+msgid "io"
+msgstr "Inde Britannique"
+
+msgid "iq"
+msgstr "Irak"
+
+msgid "ci"
+msgstr "Côte d'Ivoire "
+
+msgid "jm"
+msgstr "Jamaïque"
+
+msgid "je"
+msgstr "Île Jersey"
+
+msgid "jo"
+msgstr "Jordanie"
+
+msgid "kz"
+msgstr "Kazakhstan"
+
+msgid "ke"
+msgstr "Kenya"
+
+msgid "ki"
+msgstr "Kiribati"
+
+msgid "kw"
+msgstr "Koweit"
+
+msgid "kg"
+msgstr "Kirghizistan "
+
+msgid "kn"
+msgstr "Saint-Kitts-et-Nevis"
+
+msgid "kp"
+msgstr "Corée du Nord"
+
+msgid "la"
+msgstr "Laos"
+
+msgid "lv"
+msgstr "Lettonie"
+
+msgid "lb"
+msgstr "Liban"
+
+msgid "ls"
+msgstr "Lesotho"
+
+msgid "lr"
+msgstr "Libéria"
+
+msgid "ly"
+msgstr "Lybie"
+
+msgid "lt"
+msgstr "Lituanie"
+
+msgid "mo"
+msgstr "Macao"
+
+msgid "mk"
+msgstr "Macédoine"
+
+msgid "mg"
+msgstr "Madagascar"
+
+msgid "mw"
+msgstr "Malawi"
+
+msgid "mv"
+msgstr "Maldives"
+
+msgid "ml"
+msgstr "Mali"
+
+msgid "mh"
+msgstr "Îles Marshall "
+
+msgid "mq"
+msgstr "Martinique (France)"
+
+msgid "mr"
+msgstr "Mauritanie"
+
+msgid "yt"
+msgstr "Mayotte"
+
+msgid "fm"
+msgstr "Micronésie"
+
+msgid "md"
+msgstr "Moldavie"
+
+msgid "mf"
+msgstr "Saint-Martin (France)"
+
+msgid "mn"
+msgstr "Mongolie"
+
+msgid "ms"
+msgstr "Montserrat (GB)"
+
+msgid "mz"
+msgstr "Mozambique"
+
+msgid "mm"
+msgstr "Birmanie (Myanmar)"
+
+msgid "mp"
+msgstr "Îles Mariannes du Nord"
+
+msgid "na"
+msgstr "Namibie"
+
+msgid "nr"
+msgstr "Nauru"
+
+msgid "an"
+msgstr "Antilles néerlandaises"
+
+msgid "nc"
+msgstr "Nouvelle Calédonie (France)"
+
+msgid "ni"
+msgstr "Nicaragua"
+
+msgid "ne"
+msgstr "Niger"
+
+msgid "ng"
+msgstr "Nigéria"
+
+msgid "nu"
+msgstr "Niué (Nioué)"
+
+msgid "nf"
+msgstr "Île Norfolk (AU)"
+
+msgid "om"
+msgstr "Oman"
+
+msgid "pk"
+msgstr "Pakistan"
+
+msgid "pw"
+msgstr "Palaos"
+
+msgid "pa"
+msgstr "Panama"
+
+msgid "pm"
+msgstr "Saint-Pierre et Miquelon (France)"
+
+msgid "pn"
+msgstr "Îles Pitcairn "
+
+msgid "ps"
+msgstr "Territoires Palestiniens"
+
+msgid "pg"
+msgstr "Papouasie Nouvelle Guinée"
+
+msgid "py"
+msgstr "Paraguay"
+
+msgid "pe"
+msgstr "Pérou"
+
+msgid "ph"
+msgstr "Philippines"
+
+msgid "pf"
+msgstr "Polynésie (France)"
+
+msgid "pr"
+msgstr "Porto Rico"
+
+msgid "qa"
+msgstr "Qatar"
+
+msgid "me"
+msgstr "Monténégro"
+
+msgid "rs"
+msgstr "Serbie"
+
+msgid "re"
+msgstr "Réunion (France)"
+
+msgid "ro"
+msgstr "Roumanie"
+
+msgid "rw"
+msgstr "Rwanda"
+
+msgid "sh"
+msgstr "Sainte Hélène (GB)"
+
+msgid "lc"
+msgstr "Sainte Lucie"
+
+msgid "ws"
+msgstr "Samoa"
+
+msgid "sm"
+msgstr "Saint Martin "
+
+msgid "sa"
+msgstr "Arabie Saoudite"
+
+msgid "sn"
+msgstr "Sénégal"
+
+msgid "sc"
+msgstr "Seychelles"
+
+msgid "sl"
+msgstr "Sierra Leone"
+
+msgid "st"
+msgstr "São Tomé et Principe"
+
+msgid "sb"
+msgstr "Îles Salomon"
+
+msgid "so"
+msgstr "Somalie"
+
+msgid "kr"
+msgstr "Corée du Sud"
+
+msgid "sd"
+msgstr "Soudan"
+
+msgid "sr"
+msgstr "Suriname"
+
+msgid "sj"
+msgstr "Svalbard & Île de Jan Mayen (NO)"
+
+msgid "sz"
+msgstr "Swaziland"
+
+msgid "sy"
+msgstr "Syrie"
+
+msgid "tc"
+msgstr "Îles Turques-et-Caïques"
+
+msgid "tf"
+msgstr "Terres Australes et Antartiques Françaises (TAAF)"
+
+msgid "tj"
+msgstr "Tadjikistan"
+
+msgid "tw"
+msgstr "Taïwan"
+
+msgid "tz"
+msgstr "Tanzanie"
+
+msgid "tg"
+msgstr "Togo"
+
+msgid "tk"
+msgstr "Tokelau (NZ)"
+
+msgid "to"
+msgstr "Tonga"
+
+msgid "tt"
+msgstr "Trinité-et-Tobago"
+
+msgid "tm"
+msgstr "Turkménistan"
+
+msgid "tv"
+msgstr "Tuvalu"
+
+msgid "ug"
+msgstr "Ouganda"
+
+msgid "ua"
+msgstr "Ukraine"
+
+msgid "um"
+msgstr "Îles US mineures éloignées"
+
+msgid "uy"
+msgstr "Uruguay"
+
+msgid "uz"
+msgstr "Ouzbékistan"
+
+msgid "va"
+msgstr "Etat de la cité du Vatican"
+
+msgid "vc"
+msgstr "Saint-Vincent-et-Grenadines"
+
+msgid "vu"
+msgstr "Vanuatu"
+
+msgid "vg"
+msgstr "Îles Vierges (GB)"
+
+msgid "vi"
+msgstr "Îles Vierges (US)"
+
+msgid "wf"
+msgstr "Wallis-et-Futuna (France)"
+
+msgid "eh"
+msgstr "Sahara Occidental"
+
+msgid "ye"
+msgstr "Yemen"
+
+msgid "-x- Zaire"
+msgstr "Zaïre"
+
+msgid "zm"
+msgstr "Zambie"
+
+msgid "zw"
+msgstr "Zimbabwe"
+
+msgid "o"
+msgstr "TOUS PAYS"
+

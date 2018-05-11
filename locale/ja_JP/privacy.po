@@ -1,0 +1,91 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-11-23 19:11+0100\n"
+"PO-Revision-Date: 2011-10-11 17:16+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Privacy Policy
+msgid "privacy_policy"
+msgstr "プライバシー条項"
+
+# --- English text = Intervac may only be used for non commercial individual home exchange purposes. When a member joins Intervac and uses the database, he agrees not to contact other members of Intervac for any other purpose than to arrange a personal home exchange. Anyone who contacts Intervac members for any other purpose than to arrange a personal home exchange will be immediately barred from Intervac and face severe penalties starting at, but not limited to, $125 per member contacted.
+msgid "only_non-commercial"
+msgstr "インターバックは商業目的ではない個人的なホームエクスチェンジ目的で使われます。会員が入会し、データベースを使用するときは、個人的なホームエクスチェンジのアレンジ以外の目的で他の会員に接触はしないということに同意しています。個人的なホームエクスチェンジのアレンジ以外の目的で他の会員にコンタクトする人は直ちに締め出され厳しいペナルティがかけられます。一回コンタクトするごとに最低１２５ドル以上の罰金が課されます。"
+
+# --- English text = All listings posted on the Intervac web site may not under any circumstances be posted on another web site or in any other media for any purposes. Any offenders agree that by posting Intervac's listing information on another web site or in any other media for any purposes will be subject to severe penalties starting at, but not limited to, $125 per listing.
+msgid "cross-posting_not_allowed"
+msgstr "インターバックのウエブ上に掲載されている全てのリスティングは別のウエブに掲載されたり、どんな目的におかれた他のどんなメディアにも載せられる事はありません。インターバックのリスティング情報を他のウェブサイト上に載せたり、他の目的のためのウェブサイトに使用することは犯罪者であり、少なくとも１２５ドルの違反金が一つ掲載されるごとに課されます。"
+
+# --- English text = By joining Intervac, you agree that any home exchange, hospitality offer or rental transaction you arrange is between you and the other party. You agree that neither Intervac nor any of its affiliates bear any responsibility for the arrangement and it's completely up to you to find the right partner.
+msgid "responsibility_lies_with_member"
+msgstr "インターバックに入会することによって、ホーム・エクスチェンジ、ホームステイのオファーや賃貸行為等のあなたがするどんなアレンジにおいても、あなたと相手方の間だけのものだということに同意します。インターバックに対しても、アレンジに関するいかなる責任も正しいパートナーを見つけるのは完全にあなた次第であるということです。"
+
+# --- English text = Protection of your Personal Information
+msgid "protection_headline"
+msgstr "あなたの個人情報の保護"
+
+# --- English text = Intervac International Home Exchange Holiday Service is committed to protecting your privacy. We provide this notice to explain our online information practices and the choices you can make about the way information is collected and used. We will only use the information we collect for the purposes of enhancing your Intervac International online service experience. At no time will we sell, trade, rent or disclose your personal information to third parties unless we have obtained consent to such use.
+msgid "intro_and_no_sell"
+msgstr "インターバック・インターナショナル・ホーム・エクスチェンジ・ホリデー・サービスはあなたのプライバシーを守る事を誓います。我々はオンライン情報の実施を説明するためにこの告示を規定します。そしてあなたが情報について作る選択は集められ、使用されます。我々はインターバック・インターナショナル・オンライン・サービスの経験を高める目的のために集めた情報だけを使用するでしょう。そのような使用の承諾なく、売ったり、取引に使ったり、賃貸又は第三者にあなたの個人情報を暴くことは絶対にいたしません。"
+
+# --- English text = Security of your Personal Information
+msgid "security_headline"
+msgstr "あなたの個人情報の安全性"
+
+# --- English text = Any personal information we collect will be stored in our secure database. The information published at the international database for each listing has been provided by members either directly online or through an Intervac national agent and can be modified by the member at any time, according to database procedure.
+msgid "stored_in_database"
+msgstr "我々が集めたいかなる個人情報も秘密を守るデーターベースに保管されています。各々のリスティングとしてインターナショナル・データーベースで公表される情報は、ダイレクト・オンラインか自国のインターバックの担当者を通して会員に提供され、データーベースの処理手続きによっていつでも会員の目的に合わせて使用されます。"
+
+# --- English text = As an Intervac International member, you may occasionally receive e-mail updates from us, including newsletters, special offers we think you will find valuable, important changes to the functionality of the Web site, and new Intervac International services. These e-mail communications may be sent or personalized based on information you provide on the Intervac International database. You may, at any time, decline to receive e-mail notifications by replying to any e-mail with 'REMOVE' in the subject line.
+msgid "receive_email_updates"
+msgstr "インターバック・インターナショナルの会員として、あなたは時折我々からウエブサイト上の重要な変更や新しいインターバック・インターナショナルなどについて、アップデートされたメール、会報や役に立つと思われる特別のオファー等も含む、を受け取るかもしれません。このように送られたり、又は個人に向けられたメールによるコミュニケーションはインターバック・インターナショナル・データーベース上にあなたが載せた情報がベースになっています。あなたは、いつでもラインにある'REMOVE' のメールによってこれらを拒否する事ができます。"
+
+# --- English text = IP Addresses and Links
+msgid "ip_and_links_headline"
+msgstr "ＩＰアドレスとリンク"
+
+# --- English text = IP addresses are not linked to personally identifiable information, and Intervac International does not use those for tracking purposes.
+msgid "ip_not_personal"
+msgstr "ＩＰアドレスは個人的な身元を確認できる情報とはリンクしていません。そしてインターバック・インターナショナルはそれらをトラッキング（跡をたどる）目的には用いません。"
+
+# --- English text = Our Web site contains many links to other sites. Intervac International is not responsible for the privacy practices of such other sites. This privacy statement applies solely to information collected by this web site.
+msgid "outside_links_disclaimer"
+msgstr "我々のウエブサイトは他のサイトとたくさんのリンクを持っています。インターバック・インターナショナルはこのようなサイトのプライバシー行為には責任を持ちません。このプライバシーステートメントはこのウエブサイトにより集められた情報だけに適用されます。"
+
+# --- English text = Cookies
+msgid "cookies_headline"
+msgstr "クッキー"
+
+# --- English text = Personal information may also be collected by cookies, which are pieces of data stored by a web browser that contain information relating to use of Intervac International web site. A cookie can not read data off your hard disc or read cookie files created by other sites. Intervac does not use cookies to track personal information and uses them for internal management purposes only. Our web site requires that cookies be active to use member functions.
+msgid "cookies_text"
+msgstr ".個人情報はクッキーによって集められる、それらはインターバック・インターナショナル・ウエブサイトの利用に関する情報を含むウェブ・ブラウザーによって保管されています。インターバックのクッキーはあなたのハードディスクのデーターや他のウェブサイトのクッキーを読めません。インターバックは個人情報をたどるためにクッキーを使うことはなく、内部の管理目的のためにだけ使用します。我々のウエブサイトは会員機能の使用のときにアクティブになるようになっています。"
+
+# --- English text = If you have any questions about the security at our Web site, please send an e-mail to security@intervac.org.
+msgid "security_questions"
+msgstr "もし我々のウエブサイトの安全性について質問がある場合 security@intervac.org. にメールしてください。"
+
+# --- English text = Contacting Intervac International
+msgid "how_to_contact_headline"
+msgstr "インターバック・インターナショナルへのコンタクト"
+
+# --- English text = If you have any questions about this privacy policy statement or the practices of this site, you can e-mail the-board@intervac.org, or call your National Intervac agent or send direct correspondence to Intervac International Home Exchange Holiday Service, PO Box 561, SE – 114 79 Stockholm, Sweden
+msgid "how_to_contact_text"
+msgstr "もしあなたがプライバシーポリシィについてや、このサイトのやり方について質問がある場合は、 the-oard@intervac.org,にメールをするか、自国の担当者に電話で問い合わせる、又はIntervac International Home Exchange Holiday Service, PO Box 561, SE - 114 79 Stockholm, Swedenへ直接手紙を送ってください。"
+
+# --- English text = Changes to the Privacy Policy
+msgid "changes_headline"
+msgstr "プライバシー条項の変更"
+
+# --- English text = If we decide to change our privacy policy, we will post notice of a privacy policy update on our Home page so that our users may view our updated policy and be aware on an ongoing basis of what information we collect, how we use it, and under which circumstances, if any, we disclose it. 
+msgid "changes_text"
+msgstr "もし、我々のプライバシー条項を変更する時は、我々のホームページ上で最新のプライバシー条項を公示します。そうすれば、ユーザーは一番新しい条項をみる事ができ、我々が集めた進行中の情報やどのような状況で開示するか（もし、あるなら）を知る事ができます。"
+

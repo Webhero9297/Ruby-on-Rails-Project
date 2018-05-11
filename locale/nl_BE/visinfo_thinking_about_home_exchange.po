@@ -1,0 +1,108 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2011-06-02 18:17+0100\n"
+"PO-Revision-Date: 2011-11-01 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thinking About Home Exchange
+# --- Location = Main headline
+# (June 2011)
+msgid "page.headline"
+msgstr "Overweeg Je Huisruil"
+
+# --- English text = So, if you've made it this far you are probably wondering what all you are going to need to think about before you make your first vacation swap.  At the beginning, it's a bunch of things, but once you've got them in place it'll be a lot easier the next time around.  Below we've gathered together a list of suggestions to help you feel secure in your decision.
+# --- Location = Introductory text
+# (June 2011)
+msgid "page.introtext"
+msgstr "Wanneer je zover bent, vraag je je waarschijnlijk af wat je allemaal nodig hebt om je eerste ruil te kunnen maken.  In het begin lijkt het veel, maar eenmaal als in orde, wordt het de volgende keer veel gemakkelijker.  Hieronder hebben we een lijst gemaakt met suggesties die je meer zekerheid verschaffen bij je beslissing. "
+
+# --- English text = How Do I Find The Perfect Exchange Partner?
+# (June 2011) 
+msgid "perfect_partner.headline"
+msgstr "Wat is de beste manier om een geschikte huisruilpartner te vinden?"
+
+# --- English text = First, it's important to know that it takes some initiative to make an exchange happen.  We try to make it as simple as possible though.  Our members contact each other directly using our integrated messaging system to start a dialog that could lead to an exchange.  It is not unusual to make and receive several offers  before you find just the right partner.  Our online system supports many different types of alternative holiday forms.
+# (June 2011)
+msgid "perfect_partner.text"
+msgstr "Vooreerst is het belangrijk om te weten dat je wat initiatief aan de dag moet leggen om een huisruil te doen slagen.  We proberen het echter zo simpel mogelijk te maken. Onze leden contacteren mekaar rechtstreeks door gebruik te maken van een in de site geintegreerd berichtensysteem.  Zo wordt een dialoog opgestart die kan uitmonden in een ruilovereenkomst.  Het niet ongebruikelijk dat je verschillende contacten hebt, vooraleer je de juiste ruilpartner vindt.  Ons online systeem ondersteunt verschillende types van alternatieve vakantieformules."
+
+# --- English text = How can I be sure that the exchange will be <italic>equal</italic>?
+# (June 2011)
+msgid "equal_exchange.headline"
+msgstr "Hoe ben ik zeker dat de ruil <italic>evenwaardig</italic> is?"
+
+# --- English text = Many exchangers with large homes would be happy to trade for an adequate apartment/condominium in central Paris, London, Rome or San Francisco.  Others are looking for a quiet getaway.  An exchange is "equal" when both parties are satisfied with their arrangements. 
+# (June 2011)
+msgid "equal_exchange.text"
+msgstr "Eigenaars van een ruime woning buiten de stad zijn vaak reeds tevreden met een klein, leukingericht appartement in het centrum van Parijs, London, Rome of San Francisco. Anderen zijn dan weer op zoek om plaats en ruimte te hebben om tot rust te komen.  Een huisruil is \"evenwaardig\" wanneer beide partijen tevreden zijn met het aanbod. "
+
+# --- English text = Who would ever want to come to my area?
+# (June 2011)
+msgid "visit_my_area.headline"
+msgstr "Wie is er geïnteresseerd om naar jouw regio te komen?"
+
+# --- English text = You'll be surprised!  Take some time writing extra text for your listing and tell potential exchange partners all about your neighborhood, why you love living there, what can they see and do in the region.  Don't forget, your partner will be on holiday and has time to explore.  Everyone lives near something interesting, because "interesting" is often nothing more than the unfamiliar.
+# (June 2011)
+msgid "visit_my_area.text"
+msgstr "Je zou nog verrast kunnen zijn! Misschien wordt niet spontaan gedacht aan een ruil met ons land of jouw regio. Het is echter zaak om deze  aan te prijzen in je aankondiging. Neem dus gerust wat tijd om  extra tekst op te nemen en argumenten te formuleren over de troeven van jouw regio en de centrale ligging ten opzichte van andere belangrijke centra. Wij hebben meer te bieden dan je ine eerste instantie zou denken. En vergeet niet dat je ruilparner op vakantie zal zijn en de tijd heeft om op ontdekkingstocht te gaan. Het \"aantrekkelijke\"  zit vaak in het onbekende."
+
+# --- English text = What about exchanging cars?
+# (June 2011)
+msgid "exchange_cars.headline"
+msgstr "Wat met het ruilen van auto's?"
+
+# --- English text = In many cases an exchange of cars is an important part of the exchange deal, but not always.  It's a good idea to think clearly about whether you are comfortable driving in New York City or London.
+# (June 2011)
+msgid "exchange_cars.text"
+msgstr "In vele gevallen is de autoruil een essentieel onderdeel van de ruil, maar niet altijd.  Het is belangrijk om te overwegen of rijden in New York City of Londen je een comfortabel gevoel geeft."
+
+# --- English text = As for insurance, often your car insurance policy will already cover guest drivers. If it doesn't you can supplement your regular policy with additional short-term specific coverage for the length of your exchange. It is important to discuss this with your insurance agent and your exchange partner and agree in advance how to handle the responsibilities and liabilities for the financial aspect.
+# (June 2011)
+msgid "exchange_cars.insurance_text"
+msgstr "Wat betreft de verzekering: dikwijls dekt de bestaande autoverzekering het gebruik van de wagen door derden. Indien niet, kan u wellicht een korte termijn dekking verkrijgen voor de duur van de ruil.  Het is ontzettend belangrijk om dit met uw verzekeringsagent te bespreken en op voorhand met uw ruilpartner tot een overeenkomst te komen over de verantwoordelijkheid en de financiële aansprakelijkheid."
+
+# --- English text = Speaking of insurance, what about my home insurance?
+# (June 2011)
+msgid "home_insurance.headline"
+msgstr "Over verzekering gesproken, wat met mijn woningverzekering?"
+
+# --- English text = Do check with your insurance provider and let them know that you will have guests while you are gone. Most companies will tell you that an unoccupied home is a bigger risk for theft and vandalism than an occupied one and they are happy to know that yours won't be sitting empty while you are away.  Ask if there are any special arrangements you need to make, and don't forget to let your exchange partner know about any insurance requirements for locking doors, activating alarm systems, etc.  This should be included in the information packet about your home that you will leave for them.
+# (June 2011)
+msgid "home_insurance.text"
+msgstr "Laat je verzekeringsagent weten dat je gasten in je huis hebt wanneer je op vakantie bent.  De meeste maatschappijen vinden immers een onbewoonde woning een groter risico voor diefstal en vandalisme.  Vraag of je speciale regelingen moet treffen en breng je ruilpartner op de hoogte van de verzekeringsvereisten, zoals het afsluiten van deuren en vensters, het inschakelen van het alarm, enz.  Dit kan je opnemen in het informatiepakket voor je ruilpartner over het gebruik van je huis."
+
+# --- English text = We have special needs, can we still arrange an exchange?
+# (June 2011)
+msgid "special_needs.headline"
+msgstr "Wij hebben specifieke noden, kunnen wij dan ook ruilen?"
+
+# --- English text = Intervac's listing codes cover many preferences related to home exchange.  From <italic>non-smoking</italic>, to <italic>handicapped accessible</italic>, from <italic>pet care</italic> to <italic>private swimming pool</italic>  You can add an unlimited amount of text to your listing.  Go ahead and detail your needs clearly so that the perfect exchange partner (who is searching for you too) can find you.
+# (June 2011)
+msgid "special_needs.text"
+msgstr "Intervac biedt vele keuzemogelijkheden om je aankondiging in te vullen. Van <italic>niet-rokers</italic> tot <italic>toegankelijk voor anders-validen</italic>, van <italic>zorg voor huisdieren</italic> tot <italic>privé zwembad</italic>.  Je kan bovendien een ongelimiteerde tekst toevoegen aan je aankondiging.  Specifiëer zo duidelijk mogelijk wat je zoekt, zodat de ideale ruilpartner, (die ook naar jou op zoek is) - je kan vinden."
+
+# --- English text = How Do I Get Started?
+# (June 2011)
+msgid "get_started.headline"
+msgstr "Hoe start ik?"
+
+# --- English text = It's easy, just fill out our short registration  and pay your membership fee or choose our free trial membership if you are not sure.  It's good for {{number}} days and gives you full access to our site. Then log in and begin building your listing right away. It will not be visible for other members until after you have filled in all the required fields.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (Last updated: November 2011)
+msgid "get_started.text"
+msgstr "Dit is gemakkelijk, vul de korte registratiepagina in en betaal je lidmaatschap of probeer het gratis proeflidmaatschap van {{number}} dagen dat je volledige toegang tot de site geeft. Log in en begin met het opbouwen van je aanbieding met foto's en tekst.  Je aanbieding zal pas zichtbaar zijn voor andere leden als je alle vereiste velden hebt ingevuld."
+
+# --- English text = INTERVAC listings are intended to convey a clear description of your residence, your family, and where and when you would like to travel. Personal preferences such as no smoking or no pets should also be noted in your listing.  So come on! <link>Join us today!</link>
+# (June 2011)
+msgid "get_started.about_listings"
+msgstr "INTERVAC listings of aanbiedingen zijn bedoeld om een duidelijke beschrijving te geven van je woning, je familie, en naar waar en wanneer je zou willen reizen.Persoonlijke voorkeuren zoals niet-rokers of geen huisdieren moeten in je aanbieding vermeld worden.  Aarzel niet <link>Word vandaag lid!</link>"
+

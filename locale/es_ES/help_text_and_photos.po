@@ -1,0 +1,60 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2011-01-08 19:52+0100\n"
+"PO-Revision-Date: 2011-02-15 17:31+0100\n"
+"Last-Translator: Angels <intervac@grossi-sas.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Making Your Extra Text Look Great
+# --- Location = Help Text for "Add Category Text"
+msgid "text_help.headline"
+msgstr "Haga que su Texto Extra sea Fantástico"
+
+# --- English text = Follow the steps below to remove any Word-specific styles from your text document.  This will prevent Microsoft specific styles from conflicting with styles at this site and causing your listing to look or act differently than you would expect.
+# --- Location = Help Text for "Add Category Text"
+msgid "text_help.introtext"
+msgstr "Siga los siguientes pasos para sacar cualquier estilo de Word-specific del documento de su texto.  Esto evitara que los estilos específicos de Microsoft interfieran con otros estilos en esta página web, ocasionando que su anuncio parezca o actue de otra manera a la  esperada por usted."
+
+# --- English text = How To Save Your Document as Filtered Web Page
+# --- Location = Help Text for "Add Category Text"
+msgid "text_help.ms_word.save_as_filtered.headline"
+msgstr "Cómo Guardar Su Documento como una Página Web Filtrada"
+
+# --- English text = First you should click the <highlight>Office</highlight> button.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_1"
+msgstr "Primero debe hacer click en el botón <highlight>Office</highlight>"
+
+# --- English text = Then select <hightlight>Save As</highlight> and <highlight>Other Formats</highlight> the <highlight>Save As</highlight> window will open.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_2"
+msgstr "Entonces seleccione  <hightlight>Guardar Como</highlight> y <highlight>Otros Formatos</highlight> Guardar Como</highlight> la ventana se abrirá"
+
+# --- English text = Next select <highlight>Web Page, Filtered</highlight> from the <highlight>Save as type</highlight> drop-down list.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_3"
+msgstr "A continuación <highlight>Página Web Filtrada</highlight> del <highlight>del tipo Guardar como</highlight> del menu."
+
+# --- English text = Name your file, add an <highlight>html</hightlight> file extension to it and click <highlight>Save.</highlight>
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_4"
+msgstr "De nombre a su archivo, añádale un <highlight>html</hightlight> extensión del archivo y haga click <highlight>Guardar.</highlight>"
+
+# --- English text = When you see a warning telling you that Office-specific tags will be removed when you save your file in this format, this is what you want to do, so just click <highlight>Yes</highlight>.
+# --- Location = Help Text for "Add Category Text"
+# --- Important => Please do not translate either "<hightlight>" or "</highlight>".  The system will place the text between them in bold type.
+msgid "text_help.ms_word.save_as_filtered.step_5"
+msgstr "Cuando vea un aviso diciendole que etiquetas específicas de Office desaparecerán cuando guarde su archivo en este formato, esto es justo lo que quiere, por tanto simplemente haga click<highlight> Si</highlight>."
+

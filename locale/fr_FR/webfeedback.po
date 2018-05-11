@@ -1,0 +1,136 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-02-23 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thank you for taking the time to submit comments about our site.  They have been sent to your local organiser.
+msgid "messages.thanks_comments_sent_to_organizer"
+msgstr "Nous vous remercions de votre commentaire laissé sur notre site et du temps que vous y avez consacré. Votre message est maintenant transmis à votre Représentant National."
+
+# --- English text = Suggestions for Improvement
+msgid "headline"
+msgstr "Contacter votre Représentant National"
+
+# --- English text = Thanks for taking the time to offer suggestions about our site.  We are always happy to hear from our members and our interested visitors.  Your suggestions and comments guide our further development, so please tell us what you like and how we can improve!
+msgid "introtext"
+msgstr "Merci de nous envoyer vos suggestions et commentaires sur notre site.  Nous sommes toujours heureux de recevoir vos remarques, que vous soyez membres ou visiteurs. Grâce à vos réactions, nous pouvons progresser et améliorer nos services !"
+
+# --- English text = My Suggestions
+msgid "visitor.suggestions_headline"
+msgstr "Écrire mon message"
+
+# --- English text = Where are you from?
+msgid "visitor.your_country"
+msgstr "D'où êtes-vous ?"
+
+# --- English text = Your Full Name
+msgid "visitor.full_name"
+msgstr "Votre nom complet"
+
+# --- English text = Your Email Address
+msgid "visitor.email"
+msgstr "Votre adresse e-mail"
+
+# --- English text = Feedback Category
+# --- (Feb 2011) Changed per BD request to: Subject
+#, fuzzy
+msgid "visitor.category"
+msgstr "Catégorie"
+
+# --- English text = Bad Experience
+#, fuzzy
+msgid "category.bad_experience"
+msgstr "Bad Experience"
+
+# --- English text = Broken Link
+msgid "category.broken_link"
+msgstr "Rupture de lien url"
+
+# --- English text = Design and Content
+msgid "category.design_and_content"
+msgstr "Design/Contenu"
+
+# --- English text = Feature Request
+msgid "category.feature_request"
+msgstr "Services en ligne"
+
+# --- English text = Member Documents
+msgid "category.member_documents"
+msgstr "Documentation réservée aux membres"
+
+# --- English text = Payment
+msgid "category.payment"
+msgstr "Paiement"
+
+# --- English text = Registration
+msgid "category.registration"
+msgstr "Inscription"
+
+# --- English text = Usability
+msgid "category.usability"
+msgstr "Facilité d'utilisation/Navigation"
+
+# --- English text = Other
+msgid "category.other"
+msgstr "Autre"
+
+# --- English text = Help Text
+msgid "category.help_text"
+msgstr "Aide"
+
+# --- English text = Page URL
+msgid "visitor.page_url"
+msgstr "URL de la page"
+
+# --- English text = Your Comment
+msgid "comment"
+msgstr "Votre message"
+
+# --- English text = Submit Feedback
+msgid "submit_button"
+msgstr "Envoyer votre message"
+
+# --- English text = In order for your feedback to reach the widest audience among our organizers, please leave your comments in English.
+msgid "write_in_english"
+msgstr "Pour une meilleure compréhension de la part de toute l'équipe Intervac, merci à l'avance d'écrire vos commentaires en langue anglaise. S'il s'agit d'une question directe à Intervac France, vous pouvez cependant écrire en français."
+
+# --- English text = ^ Please fill in your name.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.name_is_blank"
+msgstr "^ Veuillez indiquer votre nom SVP."
+
+# --- English text = ^ Please choose the category that best fits your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_category"
+msgstr "^ Indiquez-nous SVP la catégorie qui correspond à votre message."
+
+# --- English text = ^ Please fill in your email address so that we can contact you if necessary regarding your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.email_address_required"
+msgstr "^ Veuillez indiquer votre e-mail, afin que nous puissions vous répondre !"
+
+# --- English text = ^ Help us send your feedback to the correct person by choosing the country where you live.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_country"
+msgstr "^ Sélectionnez votre pays de manière à envoyer votre message à la bonne personne."
+
+# --- English text = ^ Leave your feedback in the field labeled \"Your Comment\".
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.comment_required"
+msgstr "^ Laissez votre commentaire dans la zone intitulée \"Votre message\"."
+
+# --- English text = ^ The code your typed in did not match the image.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.captcha_no_match"
+msgstr "^ Le code de sécurité ne correspond pas. Essayez à nouveau."
+

@@ -1,0 +1,262 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2001-10-12 16:00+0200\n"
+"PO-Revision-Date: 2011-10-12 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Air conditioning
+msgid "ac"
+msgstr "Ar condicionado"
+
+# --- English text = Use/Exchange of car
+msgid "ae"
+msgstr "Uso/troca de carro"
+
+# --- English text = Car necessary
+msgid "an"
+msgstr "É necessário carro"
+
+# --- English text = All appliances
+msgid "apl"
+msgstr "Todos os electrodomésticos"
+
+# --- English text = Balcony
+msgid "bc"
+msgstr "Varanda"
+
+# --- English text = Baby equipment
+msgid "be"
+msgstr "Equipamento para bebé disponível"
+
+# --- English text = Bicycle(s)
+msgid "bi"
+msgstr "Bicicleta(s)"
+
+# --- English text = Bicycle(s) available
+msgid "bi_ext"
+msgstr "Bicicleta(s) disponíveis"
+
+# --- English text = Use of caravan/camper
+msgid "ca"
+msgstr "Uso da caravana/roulotte"
+
+# --- English text = Central heating
+msgid "ch"
+msgstr "Aquecimento central"
+
+# --- English text = Tourist attractions
+msgid "cf"
+msgstr "Atracções turísticas"
+
+# --- English text = Computer available
+msgid "cp"
+msgstr "Computador disponível"
+
+# --- English text = Convenient shopping
+msgid "cs"
+msgstr "Lojas/supermercados próximos"
+
+# --- English text = Shower
+msgid "d"
+msgstr "Chuveiro"
+
+# --- English text = Clothes dryer
+msgid "dr"
+msgstr "Máquina de secar roupa"
+
+# --- English text = Free internet access
+msgid "fi"
+msgstr "Acesso à internet sem custos"
+
+# --- English text = Forest/Woods
+msgid "fo"
+msgstr "Floresta / Bosque"
+
+# --- English text = Fireplace
+msgid "fp"
+msgstr "Lareira"
+
+# --- English text = Garden
+msgid "gd"
+msgstr "Jardim"
+
+# --- English text = Garage
+msgid "gg"
+msgstr "Garagem"
+
+# --- English text = Golfing
+msgid "gp"
+msgstr "Golfe"
+
+# --- English text = Close to golfing
+msgid "gp_ext"
+msgstr "Próximo de um campo de golfe"
+
+# --- English text = Suitable for disabled people
+msgid "hp"
+msgstr "Adequado para pessoas deficientes"
+
+# --- English text = Use of second home
+msgid "hs"
+msgstr "Segunda casa disponível"
+
+# --- English text = Lake
+msgid "la"
+msgstr "Lago"
+
+# --- English text = Close to a lake
+msgid "la_ext"
+msgstr "Próximo de um lago"
+
+# --- English text = Lift/elevator
+msgid "li"
+msgstr "Elevador"
+
+# --- English text = Mountains
+msgid "mt"
+msgstr "Montanhas"
+
+# --- English text = Close to the mountains
+msgid "mt_ext"
+msgstr "Perto das montanhas"
+
+# --- English text = No (small) children
+msgid "nc"
+msgstr "Sem crianças (pequenas)"
+
+# --- English text = No pets
+msgid "np"
+msgstr "Sem animais"
+
+# --- English text = Non-smoking
+msgid "ns"
+msgstr "Não fumadores"
+
+# --- English text = Pet care wanted
+msgid "pc"
+msgstr "Procuro quem cuide do animal de estimação"
+
+# --- English text = Park/Playground
+msgid "pk"
+msgstr "Parque para crianças"
+
+# --- English text = Beach
+msgid "pl"
+msgstr "Praia"
+
+# --- English text = Close to the beach
+msgid "pl_ext"
+msgstr "Perto da praia"
+
+# --- English text = Seclusion/Privacy
+msgid "pv"
+msgstr "Privacidade"
+
+# --- English text = Quiet neighborhood
+msgid "ro"
+msgstr "Zona sossegada"
+
+# --- English text = River
+msgid "rv"
+msgstr "Rio"
+
+# --- English text = Close to the river
+msgid "rv_ext"
+msgstr "Perto do rio"
+
+# --- English text = Sauna (private)
+msgid "sa"
+msgstr "Sauna (Privada)"
+
+# --- English text = Private swimming pool
+msgid "sb"
+msgstr "Piscina (Privada)"
+
+# --- English text = Security/Doorman
+msgid "sc"
+msgstr "Segurança/Porteiro"
+
+# --- English text = Boating/Sailing/Surfing
+msgid "se"
+msgstr "Desportos aquáticos"
+
+# --- English text = Skiing
+msgid "sk"
+msgstr "Esqui"
+
+# --- English text = Swimming (public)
+msgid "sp"
+msgstr "Piscina (pública)"
+
+# --- English text = Good public transport
+msgid "t"
+msgstr "Bons transportes públicos"
+
+# --- English text = Tennis
+msgid "te"
+msgstr "Ténis"
+
+# --- English text = Theatre
+msgid "tr"
+msgstr "Teatro"
+
+# --- English text = Television
+msgid "tv"
+msgstr "Televisão"
+
+# --- English text = Use of boat
+msgid "ub"
+msgstr "Barco disponível"
+
+# --- English text = Video
+msgid "vr"
+msgstr "Vídeo"
+
+# --- English text = Hiking/walking
+msgid "wa"
+msgstr "Caminhadas"
+
+# --- English text = Homepage
+msgid "web"
+msgstr "Página pessoal"
+
+# --- English text = Washing machine
+msgid "wm"
+msgstr "Máquina de lavar roupa"
+
+# --- English text = Dishwasher
+msgid "wv"
+msgstr "Máquina de lavar louça"
+
+# --- English text = Sea
+msgid "z"
+msgstr "Mar"
+
+# --- English text = Close to the sea
+msgid "z_ext"
+msgstr "Perto do mar"
+
+# --- English text = Lake/Beach/Sea
+# --- A collection - used on MatchAlert!
+msgid "laplz"
+msgstr "Lago/Praia/Mar"
+
+# --- English text = Forest/Mountains
+# --- A collection - used on MatchAlert!
+msgid "fomt"
+msgstr "Floresta/Montanhas"
+
+# --- English text = DVD
+#, fuzzy
+msgid "dvd"
+msgstr "DVD"
+

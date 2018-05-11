@@ -1,0 +1,286 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2007-10-16 19:11+0100\n"
+"PO-Revision-Date: 2011-11-17 17:36+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# English text = Google Map Settings
+msgid "headline"
+msgstr "グーフルマップを設定する"
+
+# English text = This marker may not pinpoint the member\'s exact street address.
+msgid "marker_text"
+msgstr "この目印はメンバーの正確な住所を示せないかもしれない。"
+
+# --- English text = Disable the Google Map for my listing
+msgid "disable_map"
+msgstr "私のリスト上に地図を示さない"
+
+# --- English text = Change Marker Placement
+msgid "change_placement_headline"
+msgstr "目印の場所を変える"
+
+# English text = If the marker on the map in your listing is wrong you can correct it on this page.  Whether you are offering your second home for exchange, or want a more precise placement through the use of latitude and longitude please select your choice below.
+msgid "change_placement_text"
+msgstr "もしあなたのリストの地図の目印が間違っている場合はこのページで直せます。セカンドハウスを提供しての交換希望や緯度・経度を用いて正確な位置を知りたい場合は下記を選択してください。"
+
+# --- English text = Google will place the marker on your map using the following priority list
+msgid "marker_priority_text"
+msgstr "グーグルは次の優先リストを用いてあなたの地図上に目印をおきます。"
+
+# English text = Latitude &amp; Longitude (gps coordinates)
+msgid "li_latitude_longitude"
+msgstr "緯度・経度"
+
+# English text = Second home address
+msgid "li_second_home"
+msgstr "セカンドハウスの住所"
+
+# English text = Contact address in your listing
+msgid "li_contact_address"
+msgstr "あなたのリストのコンタクトする住所"
+
+# English text = What would you like to do?
+msgid "what_next.headline"
+msgstr "あなたは何をしたいですか？"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude"
+msgstr "自宅の緯度・経度を記す"
+
+# English text = Specify the latitude and longitude of my home
+msgid "what_next.latitude_longitude_title"
+msgstr "自宅の緯度・経度を記す"
+
+# English text = Latitude &amp; Longitude
+msgid "latitude_longitude.headline"
+msgstr "緯度・経度"
+
+# --- English text = If you already know the latitude and longitude of your home or neighborhood, you can enter them below.  If you need help in finding the correct coordinates for your location, click on the help icon.
+msgid "latitude_longitude.intro_text"
+msgstr "もしあなたの家や近隣の緯度・経度を知っている場合はこの下に入力してください。もし正しい位置がわからない場合はヘルプアイコンをクリックしてください。"
+
+# --- (Dec 2008) English text = Link opens in a new window
+msgid "link_opens_new_window"
+msgstr "新しいウインドウのリンクをオープンする"
+
+# --- English text = How to Find the Latitude &amp; Longitude of Your Home
+msgid "latitude_longitude.how_to_headline"
+msgstr "あなたの家の緯度・経度を知る方法"
+
+# English text = For an exact position of the google maps marker, you can enter the gps coordinates (latitude, longitude) of your home below.
+msgid "latitude_longitude.how_to_text_1"
+msgstr "グーグルマップのマーカーの位置を正しく表すために、下のあなたの家の gps 座標（緯度：経度）を入力してください。"
+
+# English text = You can get these coordinates from a hand-held GPS unit, or you might try the navigation system in your car.  There are also a number of free tools on the internet whereby you can find the latitude and longitude (GPS Co-ordinates) of your home. The best of them are
+msgid "latitude_longitude.how_to_text_2"
+msgstr "座標は携帯情報端末GPSユニッ トからか、あなたの車のナビゲーターシステムから探してください。又はインターネットを検索すれば緯度・経度(GPS Co-ordinates)をみつける たくさんののフリーソフトがあります。最高のものは"
+
+# English text = One Step Address Conversion
+msgid "latitude_longitude.onestep.headline"
+msgstr "One Step Address Conversion"
+
+# English text = Go To: One Step Address Conversion
+msgid "latitude_longitude.onestep.link"
+msgstr "「One Step Address Conversion」へ行く："
+
+# English text = Click here for instructions on how to use the One Step Address Conversion utility.
+msgid "latitude_longitude.onestep.help"
+msgstr "「One Step Address Conversion utility」を使用する方法はここをクリックする."
+
+# English text = Infosports
+msgid "latitude_longitude.infosports.headline"
+msgstr "インフォシーク"
+
+# English text = Go To: Infosports
+msgid "latitude_longitude.infosports.link"
+msgstr "インフォシークへ"
+
+# English text = GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.headline"
+msgstr "ＧＰＳビジュアリザー"
+
+# English text = Go To: GPS Visualizer
+msgid "latitude_longitude.gps_visualizer.link"
+msgstr "GPS Visualizerへ行く："
+
+# English text = It is not necessary to be too precise and remember that the map is visible to visitors as well as members.
+msgid "latitude_longitude.precision"
+msgstr "あまり正確でなくてもかまいません。地図は会員だけでなく他の人も見ることが出来るのだという事を忘れないで下さい。"
+
+# English text = Latitude
+msgid "latitude_longitude.latitude"
+msgstr "緯度"
+
+# English text = Longitude
+msgid "latitude_longitude.longitude"
+msgstr "経度"
+
+# -- ERROR TEXT --
+# English text = Please enter both latitude and longitude as decimal values (39.002844), and not degrees (39° 0’ 10.8 ).
+msgid "errors.decimal_values_only"
+msgstr "緯度と経度の両方を入力してください.。十進法で、度 (39° 0’ 10.8 )ではありません。"
+
+# -- ERROR TEXT --
+# English text = Sorry, both latitude and longitude must be set for this feature to work properly!
+msgid "errors.require_lat_and_long"
+msgstr "残念ですが、正確に機能させるためには経度と緯度の両方が設定されなくてはいけません！"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home"
+msgstr "エクスチェンジ（交換）しようとしている家の住所を入力する。"
+
+# English text = Enter the address of the home I am offering for exchange
+msgid "what_next.second_home_title"
+msgstr "エクスチェンジ（交換）しようとしている家の住所を入力する。"
+
+# English text = Exchange Home Address
+msgid "second_home.headline"
+msgstr "エクスチェンジ（交換）する家の住所"
+
+# English text = If the home you are offering for exchange is your second or holiday home, enter the address here. The map in your listing will use this address (if there is one) to place the marker before it uses your contact address.
+msgid "second_home.intro_text"
+msgstr "もし、あなたがエクスチェンジ（交換）希望のために提供するのがセカンドハウスや休暇用別荘の場合は、その住所をここに入力する。あなたのリスト上の地図にはあなたのコンタクトアドレスを使用する前にこの住所（もしあるのなら）をマーカーで示します。"
+
+# English text = Street
+msgid "second_home.street"
+msgstr "町名"
+
+# English text = Postal
+msgid "second_home.postal"
+msgstr "郵便番号"
+
+# English text = City
+msgid "second_home.city"
+msgstr "市・区"
+
+# English text = State
+msgid "second_home.state"
+msgstr "県"
+
+# English text = Country
+msgid "second_home.country"
+msgstr "国"
+
+# -- ERROR TEXT --
+# English text = Sorry, both city and postal code must be set for this feature to work properly!
+msgid "errors.require_city_and_postal"
+msgstr "残念ですが、市名と郵便番号を正確にいれないと機能しません！"
+
+# -- BUTTON TEXT --
+# English text = Save Settings
+msgid "save_button"
+msgstr "セッティングを保存する"
+
+# -- HELP TEXT --
+# English text = How to use One Step GPS coordinate search.
+msgid "latitude_longitude.onestep.how_to_use"
+msgstr "ワンステップGPS座標検索の使用方法"
+
+# -- HELP TEXT --
+# English text = Enter your address in the fields on the left hand side.
+msgid "latitude_longitude.onestep.step1"
+msgstr "左の側の分野にあなたの住所を入力する。"
+
+# -- HELP TEXT --
+# English text = Click the "Determine Latitude/Longitude" button
+msgid "latitude_longitude.onestep.step2"
+msgstr " \"緯度・経度確定\"ボタンをクリックする"
+
+# -- HELP TEXT --
+# English text = Please be patient.  This easy to use tool queries many separate GPS databases, and takes a few minutes to work.  Depending on where you live you will receive several sets of results.  For houses located in Great Britain, the results from "locatienet" have proven more accurate than those from Google when using the postal code.
+msgid "latitude_longitude.onestep.step3"
+msgstr "少しお待ちください。この使いやすいツールはいろいろなＧＰＳデーターベースを検索していて数分かかります。あなたの住んでる場所によっていくつかの結果を受け取るでしょう。英国に家がある場合は、郵便コードを使うとき、グーグルからより\"locatienet\"からの結果のほうがもっと詳しい結果を得られるでしょう。."
+
+# -- HELP TEXT --
+# English text = How to use Infosports GPS coordinate search.
+msgid "latitude_longitude.infosports.how_to_use"
+msgstr "インフォスポーツＧＰＳ座標検索の使い方"
+
+# -- HELP TEXT --
+# English text = Move the map by holding down the mouse button while moving the mouse.
+msgid "latitude_longitude.infosports.step1"
+msgstr "マウスボタンを押しながらマウスを動かして地図を動かす"
+
+# -- HELP TEXT --
+# English text = If you are not a resident of the US, zoom out by clicking on the grid lines (or the -) on the left until you have your country in the view.
+msgid "latitude_longitude.infosports.step2"
+msgstr "もし英国に住んでいない場合は、左にあるグリッドライン（又はマイナスサイン）をクリックしながらあなたの国がみえるまでズームアップする。"
+
+# -- HELP TEXT --
+# English text = Create a marker by clicking on a spot near your area, and then zoom in by clicking on the grid lines (or the + sign).  Repeat this step until you can place the marker satisfactorily.
+msgid "latitude_longitude.infosports.step3"
+msgstr "あなたの地域の近くをクリックしてマーカーを設定する。そしてグリッドライン（又はプラスサイン）をクリックしながらズームする。これをマーカーが満足できる場所を示すまで繰り返す。"
+
+# -- HELP TEXT --
+# English text = Click on the final marker to display the longitude and latitude.
+msgid "latitude_longitude.infosports.step4"
+msgstr "経度と緯度を示すように最後のマーカーをクリックする。"
+
+# -- HELP TEXT --
+# English text = Copy and paste the coordinates into the boxes below.
+msgid "latitude_longitude.infosports.step5"
+msgstr "下のボックスに座標をクリックアンドペーストする。"
+
+# -- HELP TEXT --
+# English text = How to use GPS Visualizer.
+msgid "latitude_longitude.gps_visualizer.how_to_use"
+msgstr "ビジュアライザーの使用方法。"
+
+# -- HELP TEXT --
+# English text = Type your address in the box and click the "Geocode it" button. Remember, if you live outside the USA to put, for example, “Boston, United Kingdom” rather than just “Boston”
+msgid "latitude_longitude.gps_visualizer.step1"
+msgstr "ボックスにあなたの住所を入力して \"Geocode it\" ボタンをクリックする。思い出して欲しいのは、例えばあなたが米国以外の国に住んでいるのなら、単に “Boston”と入力するのではなく“Boston, United Kingdom”とする。"
+
+# -- HELP TEXT --
+# English text = Enter (copy and paste) the coordinates in these boxes.
+msgid "latitude_longitude.gps_visualizer.step2."
+msgstr "これらのボックスに座標を（コピー・ペースト）する。"
+
+# -- HELP TEXT --
+# English text = Google does not presently support geocoding to a street address in many Intervac countries. If you are having trouble getting the marker to work correctly, try leaving this field blank.
+msgid "second_home.street_help"
+msgstr "グーグルは現在多くのインターバックの国々で街の住所などをサポートしていません。もし、マーカーがうまく働かない場合はこの分野をブランクにして使用しないで下さい。"
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+msgid "second_home.state_help"
+msgstr "もし、あなたの国で郵便番号に州が必要ない場合は、この部分はブランクにして使用しないで下さい。"
+
+# -- HELP TEXT --
+# English Text = If this is not the country where your exchange home is located, please contact your national organizer for assistance.
+msgid "second_home.country_help"
+msgstr "もしあなたが交換希望の家のあるところがこの国でない場合は、あなたの国の担当者にコンタクトをとって尋ねてください。"
+
+# --- English text = Thank you, we saved your changes in our database!
+msgid "messages.save_successful"
+msgstr "有難うございます。あなたの変更をデーターベースに保存しました！"
+
+# --- English text = Sorry, either Google Map couldn't find the address or you have disabled the map for your listing.
+msgid "errors.no_map_found"
+msgstr "残念ですが、グーグルマップが住所を見つけられないか、あなたのリストの地図が無効になったかのどちらかのようです。"
+
+# --- English text = An error has occurred and we were unable to save your changes.  Please make sure you have entered your latitude and longitude in degrees instead of coordinates, and contact your local organizer for assistance if you continue to have difficulty
+# --- (1 July, 2010) Edited to add a reminder to the member to use degrees instead of coordinates when entering Latitude and Longitude.
+#, fuzzy
+msgid "errors.general_fail"
+msgstr "エラーが発生してあなたの変更を保存できません。もう一度試すか、あなたの国の担当者にコンタクトしてください。"
+
+# --- English text = Map of the Region
+msgid "map_of_region"
+msgstr "地域の地図"
+
+# --- English text = Not supported in all countries
+# --- Location: This is a little warning underneath the "street" text box in the Exchange Home Address form.
+msgid "second_home.street_not_supported_in_all_countries"
+msgstr "すべての国をサポートしていません。"
+

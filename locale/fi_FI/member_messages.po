@@ -1,0 +1,355 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-01-18 16:00+0200\n"
+"PO-Revision-Date: 2012-08-09 22:31+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Message Center
+msgid "submenu.headline"
+msgstr "Viestikeskus"
+
+# --- English text = Inbox
+msgid "submenu.inbox"
+msgstr "Saapuneet"
+
+# --- English text = Read waiting messages
+msgid "submenu.inbox_title"
+msgstr "Lue odottavat viestit."
+
+# --- English text = Send new message
+msgid "submenu.send_new"
+msgstr "Lähetä uusi viesti"
+
+# --- English text = Send a message to a member
+msgid "submenu.send_new_title"
+msgstr "Lähetä viesti jäsenelle"
+
+# --- English text = Sent Messages
+msgid "submenu.sent_messages"
+msgstr "Lähetetyt"
+
+# --- English text = Look at messages you have sent
+msgid "submenu.sent_messages_title"
+msgstr "Selaa lähettämiäsi viestejä."
+
+# --- English text = Message Archive
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "submenu.archive"
+msgstr "Saapuneet viestit (arkisto)"
+
+# --- English text = Look at messages in the archive
+msgid "submenu.archive_title"
+msgstr "Selaa arkistoituja viestejä."
+
+# --- English text = Administer Templates
+msgid "submenu.templates"
+msgstr "Hallinnoi viestipohjia"
+
+# --- English text = Write and save message templates.
+msgid "submenu.templates_title"
+msgstr "Kirjoita ja tallenna viestipohjia."
+
+# --- English text = Create a Message Template
+msgid "templates.headline"
+msgstr "Luo viestipohja"
+
+# --- English text = Create a Message Template
+msgid "templates.use_headline"
+msgstr "Laadi viestipohja"
+
+# --- English text = The type of template I want to write is
+msgid "templates.intro_text"
+msgstr "Haluan kirjoittaa viestipohjan, joka on"
+
+# --- English text = Reply
+msgid "templates.reply_label"
+msgstr "Vastaus"
+
+# --- English text = Answer Template
+msgid "templates.answer_template"
+msgstr "Vastauspohja"
+
+# --- English text = Contact Template
+msgid "templates.contact_template"
+msgstr "Yhteydenotto"
+
+# --- English text = Load
+msgid "templates.load"
+msgstr "Lataa"
+
+# --- English text = Template Name
+msgid "templates.name"
+msgstr "Viestipohjan nimi"
+
+# --- English text = Message Subject
+msgid "templates.subject"
+msgstr "Viestin aihe"
+
+# --- English text = Save My Template
+msgid "templates.save_button"
+msgstr "Tallenna lomake"
+
+# --- English text = Your template has been saved.
+msgid "templates.successful_save"
+msgstr "Viestipohjasi on talletettu."
+
+# --- English text = Delete this template
+msgid "templates.delete_template"
+msgstr "Poista tämä lomake"
+
+# --- English text = Are you sure you want to delete this template?
+msgid "templates.confirm_delete"
+msgstr "Haluatko varmasti poistaa tämän lomakkeen?"
+
+# --- English text = Use a template
+msgid "templates.use_a_template"
+msgstr "Käytä lomaketta"
+
+# --- English text = Messages you have sent
+msgid "sent_messages.headline"
+msgstr "Lähettämäsi viestit"
+
+# --- English text = Write a new message
+msgid "new_message.headline"
+msgstr "Kirjoita uusi viesti"
+
+# --- English text = This member speaks
+# --- Example: "This member speaks German, French, English"
+# --- The system fills in the languages of the receiving member for you.
+msgid "new_message.language"
+msgstr "Tämä jäsen puhuu"
+
+# --- English text = This member does not accept rental offers
+# --- This message appears if the sending member has RO in his listing, and the receiving member has "No Rental Offers Accepted" in thiers.
+msgid "new_message.no_rental_accepted"
+msgstr "Tämä jäsen ei ota vastaan vuokralle tarjotaan viestejä"
+
+# --- English text = Send Message
+msgid "new_message.send_button"
+msgstr "Lähetä viesti"
+
+# --- English text = From
+msgid "from"
+msgstr "Keneltä"
+
+# --- English text = To
+msgid "to"
+msgstr "Kenelle"
+
+# --- English text = Subject
+msgid "subject"
+msgstr "Aihe"
+
+# --- English text = create new
+msgid "templates.create_new"
+msgstr "luo uusi"
+
+# --- English text = You read this message on
+# --- Example:  You read this message on: 13 July, 2009
+msgid "message_received.message_read_on"
+msgstr "Olet lukenut tämän viestin"
+
+# --- English text = You have not read this message yet
+# --- For received messages
+msgid "message_received.message_not_read"
+msgstr "Et ole vielä lukenut tätä viestiä"
+
+# --- English text = Your message has not been read yet
+msgid "message_sent.not_read"
+msgstr "Lähettämääsi viestiä ei ole vielä luettu"
+
+# --- English text = Sent on
+# --- Used to label a date when a message was sent.  Example: -- Sent on: 9 July, 2009
+msgid "sent_on"
+msgstr "Lähetetty"
+
+# --- English text = Received on
+# --- Used to label a date when a message was sent.  Example: -- Received on: 9 July, 2009
+msgid "received_on"
+msgstr "Vastaanotettu"
+
+# --- English text = This message has been answered on
+# --- Used to label a date when a message was answered.  Example: -- Ths message has been answered on: 9 July, 2009
+msgid "message_sent.answered_on"
+msgstr "Tähän viestiin on vastattu"
+
+# --- English text = Your message has been read on
+# --- Used to label a date when a message was read.  Example: -- Your message has been read on: 9 July, 2009
+msgid "message_sent.read_on"
+msgstr "Viestisi on luettu"
+
+# --- English text = Welcome to the Intervac In-House Messaging System.  Messages that you send here will never be lost in foreign spam filters again.  Because they are messages and not email you can login any time and from any internet connection to check for offers, or contact exchange partners.
+msgid "help_send_message.intro_text"
+msgstr "Tervetuloa Intervacin sisäiseen viestikeskukseen. Lähettämäsi viestit eivät enää koskaan päädy vieraisiin roskapostisuodattimiin. Koska kyseessä on viestipalvelu eikä sähköpostipalvelu voit kirjautua palveluun milloin vain ja miltä koneelta vain ja tarkistaa saamasi tarjoukset tai ottaa yhteyttä vaihtokumppaneihin."
+
+# --- English text = It's easy to send a message
+msgid "help_send_message.howto_headline"
+msgstr "Viestin lähettäminen on helppoa! "
+
+# --- English text = Click on the search button in the orange navigation.
+msgid "help_send_message.howto_step_1"
+msgstr "Paina hakupainiketta oranssissa palkissa."
+
+# --- English text = Do a search to find a possible exchange partner.
+msgid "help_send_message.howto_step_2"
+msgstr "Tee haku löytääksesi mahdollisen vaihtokumppanin."
+
+# --- English text = While viewing the other member's listing click the button: Send Message.
+msgid "help_send_message.howto_step_3"
+msgstr "Katsoessasi tämän jäsenen listausta paina näppäintä: Lähetä viesti."
+
+# --- English text = Write a message to your prospective exchange partner.
+msgid "help_send_message.howto_step_4"
+msgstr "Kirjoita viesti toivotulle vaihtokumppanillesi."
+
+# --- English text = Sorry, expired or invisible members can't use our messaging system.
+msgid "errors.expired_or_invisible"
+msgstr "Anteeksi, entiset tai piilotetut jäsenet eivät voi käyttää viestikeskusta."
+
+# --- English text = You haven't sent any messages yet.
+msgid "info.no_messages_sent_yet"
+msgstr "Et ole lähettänyt vielä yhtään viestiä."
+
+# --- English text = You haven't answered any messages yet.
+msgid "info.no_messages_answered_yet"
+msgstr "Et ole vastannut vielä yhteenkään viestiin."
+
+# --- English text = Your message has been sent!
+msgid "info.message_sent"
+msgstr "Viestisi on lähetetty!"
+
+# --- English text = Please don't forget to include your answer.
+msgid "errors.forgotten_answer_text"
+msgstr "Ethän unohda vastata saamaasi viestiin."
+
+# --- English text = Thank you, your answer has been sent.
+msgid "info.answer_sent"
+msgstr "Kiitos, vastauksesi on lähetetty."
+
+# --- English text = Message Templates
+msgid "edit_template.headline"
+msgstr "Viestipohjat"
+
+# --- English text = Edit an existing template
+msgid "edit_template.subhead"
+msgstr "Muokkaa viestipohjaa"
+
+# --- English text = Choose a template to edit
+msgid "edit_template.choose_template"
+msgstr "Valitse muokattava viestipohja"
+
+# --- English text = Do you really want to delete this message template?
+msgid "delete_template.confirm"
+msgstr "Haluatko todella poistaa tämän viestipohjan?"
+
+# --- English text = Answered Messages
+# --- (14. Sept. 09) Edited to read: Received Messages (Archive)
+msgid "answered_messages.headline"
+msgstr "Saadut viestit (arkisto)"
+
+# --- English text = Do you want to send a copy of this message to your email address?
+msgid "send_as_email"
+msgstr "Haluatko lähettää kopion tästä viestistä sähköpostiosoitteeseesi?"
+
+# --- English text = Received Message
+msgid "received_message.headline"
+msgstr "Vastaanotettu viesti"
+
+# --- English text = Sent Message
+msgid "sent_message.headline"
+msgstr "Lähetetyt viestit"
+
+# --- English text = Messages for
+msgid "dashboard.for_label"
+msgstr "Viesti vastaanottajalle"
+
+# --- English text = Listing
+msgid "dashboard.listing_label"
+msgstr "Ilmoitus"
+
+# --- English text = unanswered messages
+msgid "dashboard.unanswered_messages_label"
+msgstr "vastaamatonta viestiä"
+
+# --- English text = has <highlight>{{count}}</highlight> unread messages
+# --- IMPORTANT => the placeholder {{count}} will be replaced with the number of unread messages.
+# --- IMPORTANT => If you want to have the number of unread messages in bold text be sure not to remove or translate the <highlight> or </highlight> tags.
+msgid "dashboard.unread_messages"
+msgstr "Sinulla on <highlight>{{count}}</highlight> lukematonta viestiä"
+
+# --- English text = This mail does not appear to have been answered. Are you sure you want to delete it?
+# --- Location = This message is shown to members when they want to delete an unanswered message.
+msgid "unanswered_messages.delete_warning"
+msgstr "Et ole vastannus tähän viestiin. Haluatko varmasti poistaa tämän viestin?"
+
+# --- English text = Are you sure you want to delete this message?
+# --- Location = This message is shown to members when they want to delete a message.
+msgid "answered_messages.delete_warning"
+msgstr "Haluatko varmasti poistaa tämän viestin?"
+
+# --- English text = Delete Message
+msgid "delete_message.alt_tag"
+msgstr "Poista viesti."
+
+# --- English text = Send a jpg, pdf, doc or docx as attachment
+# --- Location = Text at the add attachment box
+# (June, 2011 - New)
+msgid "new_message.attachment"
+msgstr "Lähetä jpg, pdf, doc tai docx tiedosto liitteenä"
+
+# --- English text = Sorry, this family has not yet decided to join Intervac as full members.  Until they do, contacting them is not possible.
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_to_trial_members"
+msgstr "Pahoittelemme, mutta tämä perhe ei ole vielä päättänyt liittyä Intervacin täysjäseneksi.  Heihin ei voi olla yhteydessä ennen kuin he ovat jäseniämme."
+
+# --- English text = Sorry, trial members are not allowed to contact other members. If you are ready to contact a member about an exchange, you can <link>click here</link> to pay for your membership.
+# --- IMPORTANT: Do not translate the text <link> or </link> and do not leave them away.  They make a link to the payment page of the text in the middle.
+# --- (December 2011 - New Text - Temporary)
+# --- (December 2011 - No Longer In Use)
+msgid "-x- errors.no_contact_for_trial_members"
+msgstr "Anteeksi, mutta koejäsenet eivät voi olla yhteydessä toisiin jäseniin. Jos olet valmis ottamaan yhteyttä jäseneen kodinvaihdosta, voit <link>klikata tästä </link> jäsenmaksun maksamiseen."
+
+# --- English Text = Sorry, only full members can read incoming messages.
+# --- (December, 2011 - New Text)
+msgid "errors.no_inbox_for_trial_members"
+msgstr "Vain täysjäsenet voivat lukea saapuneita viestejä. Harmi."
+
+# --- English text = Thank you, your message has been forwarded to our member with the listing {{member_id}}.  You will be able to access copies of your sent messages as well as read any replies you receive as soon as you have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_full"
+msgstr "Kiitoksia, viestisi on välitetty jäsenelle, jonka jäsennumero on {{member_id}}.  Voit nähdä kopiot lähettämistäsi viesteistä ja lukea saamasi vastaukset maksettuasi täysjäsenen jäsenmaksun."
+
+# --- English text = Thank you for replying to trial member: {{member_id}}. Your message has been saved in your sent box and an email notification has been sent to {{member_id}} informing them of a waiting reply. Please be patient, trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.reply_to_trial"
+msgstr "Kiitämme vastauksestasi koejäsenelle: {{member_id}}. Viestisi on tallennettu lähteneisiin viesteihisi ja jäsenelle {{member_id}} on lähetetty ilmoitusviesti, jossa kerrotaan viestistä, joka odottaa vastausta. <p_break> Olethan kärsivällinen, koska koejäsenet eivät voi lukea saamiaan viestejä ennen kuin he ovat maksaneet täysjäsenen jäsenmaksun.</p_break>"
+
+# --- English text = Thank you, your message has been forwarded to the trial member with the listing {{member_id}}. Trial members can not read messages, but we have sent a notification email to let them know that they have a message from you waiting. The email includes a link to the public version of your listing. We appreciate your encouraging people experiencing Intervac for the first time with your offer of interest in an exchange with them.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- IMPORTANT: Do not translate the tags: <p_break> and </p_break>.  These give the illusion of three paragraphs instead of one for easier reading.
+# --- (December 2011 - New Text)
+msgid "message_sent.full_to_trial"
+msgstr "Kiitos, viestisi on välitetty koejäsenelle, jonka jäsennumero on  {{member_id}}. <p_break>Koejäsenet eivät voi lukea saamiaan viestejä, mutta lähetämme heille ilmoitusviestin, jossa kerrotaan että heille on odottamassa teiltä saapunut viesti. Viestissä on mukana linkki ilmoituksestanne, joka näkyy kaikille.</p_break> <p_break>Arvostamme suuresti, että rohkaisette uusia jäseniä kokeilemaan kodinvaihtoa Intervacissa ensimmäistä kertaa kertomalla heille olevanne kiinnostuneita vaihdosta heidän kanssaan.</p_break>"
+
+# --- English text = Thank you, your message has been stored in trial member {{member_id}}'s inbox. Please be patient for the reply, Intervac's messaging system is available for full members. Trial members are not able to read messages until they have paid for a full membership.
+# --- IMPORTANT: Translating the text inside of {{member_id}} will result in a system error!
+# --- The text {{member_id}} will be replaced with the member id of the contacted member.
+# --- (December 2011 - New Text)
+msgid "message_sent.trial_to_trial"
+msgstr "Kiitos, viestisi on taltioitu koejäsenen {{member_id}} saapuneisiin viesteihin. Toivomme sinulta kärsivällisyyttä vastauksen suhteen. Intervacin viestijärjestelmä on täysjäsenten käytössä ja koejäsenet eivät voi lukea saamiaan viestejä ennen kuin ovat maksaneet täysjäsenen jäsenmaksun."
+

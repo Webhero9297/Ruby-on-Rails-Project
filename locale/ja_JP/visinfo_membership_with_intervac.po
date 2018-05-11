@@ -1,0 +1,241 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Membership with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "インターバックの会員資格"
+
+# --- English text = Free Trial Membership
+# (June, 2011 - New)
+msgid "trial_membership.headline"
+msgstr "会員の無料体験"
+
+# --- English text = Are you new to home exchange?  We believe we have the best home exchangers in our community.  If you'd like to find out for yourself, join us today and choose our trial membership.  You will receive unlimited access to our site for {{number}} days to try out all the features listed below, browse our database and contact our members.  You can upgrade to a full membership any time.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+msgid "trial_membership.text"
+msgstr "あなたはホームエクスチェンジは始めてですか？あなたにとってのベストのパートナーが我々の会員の中にいることを願っています。もしそれをご自分で確かめたいと思われたら、今日入会して、無料の会員資格を選択してみてください。{{number}}日間の間、無制限に下記のリスティング、データーベース・ブラウズを試みて、我々の会員にコンタクトをとりアクセスしてみてください。あなたは本会員にいつでもアップグレイドすることができます。"
+
+# --- English text = Site Features at Intervac.com
+# (June 2011)
+msgid "site_features.headline"
+msgstr " Intervac.com　のサイト機能"
+
+# --- English text = Your Listing
+# (June 2011)
+msgid "your_listing.headline"
+msgstr "あなたのリスティング"
+
+# --- English text = Your online entry allows you to record a great deal of information about your home and surroundings. To get the most from your membership it is essential to promote your home and its area, indicating where you are, how best to be reached and what's on offer. The more information you can give in the form of photos and text, the more it helps other members to decide that your offer is exactly what they are searching.
+# (June 2011)
+msgid "your_listing.text"
+msgstr "オンライン登録では、あなたの家や環境等についての膨大な量の情報を記録できます。あなたの家や環境については、どこに住んでいるか、どのようにしてたどり着く事が出来るか、何をオファーするか等を書いてあなたのことを知らせていくことが必須条件です。それに写真や説明文をつければ、あなたのオファーが他の会員の探しているものとぴったり合うか等を決めやすくなるでしょう。"
+
+# --- English text = Photos and Descriptive Text
+# (June 2011)
+msgid "text_and_photos.headline"
+msgstr "写真と説明文"
+
+# --- English text = Intervac provides facilities for you to post up to twenty photos and write (unlimited!) descriptive text under the headings: your home, family, lifestyle and neighbourhood. Multi-lingual members often post descriptions in their various languages in order to improve the findability of their listing by keyword searches. It is all quite easy to do, there is lots of help text available on the site, and your local organiser is happy to help if you find you have questions that are not already answered.
+# (June 2011)
+msgid "text_and_photos.text"
+msgstr "インターバックでは２０枚の写真と制限のない説明文を見出しの下にを貼り付けられるようになっています：　家、家族、ライフスタイル、隣人達についてです。多言語を話せる会員は彼らのリスティングをキーボードで検索しやすいようにするために多様な言語で記述をしています。これらはすべて大変簡単に出来ます。サイトにはヘルプ機能がたくさんありますし、まだ答えていない問題が出てきた場合はあなたの国の担当者が喜んでお手伝いをいたします。"
+
+# --- English text = A Map of Your Surroundings
+# (June 2011)
+msgid "map.headline"
+msgstr "周辺地域の地図"
+
+# --- English text = Every listing has an (optional) Google map so that prospective partners can get a good picture of the neighborhood where your home is located.  The marker is not by default placed precisely on your home.  If you like though, you can place it yourself using latitude and longitude.
+# (June 2011)
+msgid "map.text"
+msgstr "すべてのリスティングにはグーグルマップ（オプション）がついています。それで未来のパートナーはあなたの家のある周辺地域の写真を得る事が出来ます。マーカーはあなたの家の正確な位置をの初期設定をしてありません。もし実行する場合は、緯度と経度を使ってあなた自身で設定してください。リスティング"
+
+# --- English text = Search Facilities
+# (June 2011)
+msgid "search_facilities.headline"
+msgstr "検索能力"
+
+# --- English text = The right combination search facility is important to your ease of finding the perfect partner.  Our online system supports searching by:
+# (June 2011)
+msgid "search_facilities.text"
+msgstr "正しいコンビネーション検索機能はぴったり合うパートナーを見つけやすくするために重要です。我々のオンラインシステムは検索をサポートします："
+
+# --- English text = Country
+# (June 2011)
+msgid "search_facilities_list.country"
+msgstr "国"
+
+# --- English text = Region
+# (June 2011)
+msgid "search_facilities_list.region"
+msgstr "地域"
+
+# --- English text = Exchange dates
+# (June 2011)
+msgid "search_facilities_list.exchange_dates"
+msgstr "エクスチェンジする日"
+
+# --- English text = Exchange types
+# (June 2011)
+msgid "search_facilities_list.exchange_types"
+msgstr "エクスチェンジのタイプ"
+
+# --- English text = Keyword (within the extra text in a listing)
+# (June 2011)
+msgid "search_facilities_list.keyword"
+msgstr "キーボード（リスティングの中の追加事項の中で）"
+
+# --- English text = Spoken language of exchange partner
+# (June 2011 )
+msgid "search_facilities_list.spoken_language"
+msgstr "エクスチェンジ相手方との使用言語"
+
+# --- English text = Sleeping accommodations
+# (June 2011)
+msgid "search_facilities_list.sleeping_accomodation"
+msgstr "宿泊施設"
+
+# --- English text = Family - number of adults, with or without kids
+# (June 2011)
+msgid "search_facilities_list.family"
+msgstr "家族ー　大人の数、子供あり・なし"
+
+# --- English text = Twenty-three important detail criteria
+# (June 2011)
+msgid "search_facilities_list.other_details"
+msgstr "２３の重要な詳細基準"
+
+# --- English text = Or, any combination of the above.
+# (June 2011)
+msgid "search_facilities_list.combination"
+msgstr "又は、上記の組み合わせ"
+
+# --- English text = Want to make the same search in a week?  No problem, our system allows you to name and save your searches for reuse later.  Keep a search for Paris in the spring and Austria at Christmas time.  The number of searches you can keep is unlimited.
+# -- (Feb 2009) Hi Translators => This feature is not implemented yet, and Jens thinks he won't get to it before we launch the new system.  It is on his list of things to do though, so I've just hidden it on the page.  As soon as Jens has programmed the saved search feature, I'll un-hide this text.
+# -- (June 2011 - Not In Use)
+msgid "-x- search_facilities.named_search"
+msgstr "１週間のうちに同じ検索をしたいですか？問題ありません。われわれのシステムではあなたの検索したものを後に又使うために、名前をつけて保存するようになっています。春にパリを、クリスマスにオーストリアと、検索したものを保存して置けます。検索したものは無制限に保存できます。"
+
+# --- English text = Reverse Search?
+# (June 2011)
+msgid "reverse_search.headline"
+msgstr "逆検索？"
+
+# --- English text = We sure do, and it's the most comprehensive "reverse search" in the industry.  We encourage our members to fill in as many regions and cities as they like (it's unlimited, really!) so that you can find all members who are specifically interested in visiting your country, region or nearest city.  That's service!
+# (June 2011)
+msgid "reverse_search.text"
+msgstr "勿論あります、この世界でもっとも包括的な「逆検索」です。私達は会員に出来るだけ多くの地域や市を書くように勧めています（制限なしです）、そうすれば、特にあなたの国、地域又は近くの市を訪ねたいと思うすべての会員を見つけやすくなるでしょう！"
+
+# --- English text = What types of vacation does Intervac's online system support?
+# (June 2011)
+msgid "exchange_types.headline"
+msgstr "どのようなタイプの休暇をインターバック・オンライン・システムはサポートしていますか？"
+
+# --- English text = Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time.
+# (June 2011)
+msgid "exchange_types_list.home_exchange"
+msgstr "ホーム・エクスチェンジ：　我々の活動のまと　- ２家族がお互いの家で特定の期間に住むことに同意する事です。"
+
+# --- English text = House Sitting: Looking after someone else's home, mail, pets while they are away.
+# (June 2011)
+msgid "exchange_types_list.house_sitting"
+msgstr "ハウスシッティング：　会員の家に滞在して、その家族の留守中に郵便やペットの世話をする"
+
+# --- English text = Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# (June 2011)
+msgid "exchange_types_list.double_exchange"
+msgstr "ダブルのエクスチェンジ：　２つの家族（彼らはお互いに近くに住んでいる場合が多い）が２つの家族とエクスチェンジするため探す。このタイプのエクスチェンジは休暇を同時にとりたいと思う隣人達や大家族に好まれています。"
+
+# --- English text = Hospitality Exchange: Members agree to exchange visits in each other’s homes.
+# (June 2011)
+msgid "exchange_types_list.hospitality_exchange"
+msgstr "ホームステイの交換：　会員がお互いの家を訪問しあうことに同意する事です"
+
+# --- English text = Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies.
+# (June 2011)
+msgid "exchange_types_list.long_term_exchange"
+msgstr "長期間のエクスチェンジ：　退職者や大学の教職員又は世界的な大規模会社のサラリーマンの間など。"
+
+# --- English text = Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# (June 2011)
+msgid "exchange_types_list.bed_and_breakfast"
+msgstr "ベッド・アンド・ブレックファースト：　一般的に良く知られているのと同じですが、会員間では支払いなしで行われます。"
+
+# --- English text = Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members.
+# (June 2011)
+msgid "exchange_types_list.rental"
+msgstr "賃貸：　会員が、時には自分の休暇用の家を思い切った格安で会員に貸し出すことです。"
+
+# --- English text = Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# (June 2011)
+msgid "exchange_types_list.youth_exchange"
+msgstr "若者のエクスチェンジ：　若者達が親の目のないところで新しい文化について学ぶ機会になります。"
+
+# --- English text = Youth Hospitality: Young people agree to visit each other.
+# (June 2011)
+msgid "exchange_types_list.youth_hospitality"
+msgstr "若者のホームステイ：　若者がお互いに滞在することに同意すること。"
+
+# --- English text = Integrated Messaging System
+# (June 2011)
+msgid "messages.headline"
+msgstr "メールによる統合通信システム"
+
+# --- English text = Email can get lost or sucked into a spam filter - but a an offer sent through our system is waiting for you when you login.
+msgid "messages.pullquote"
+msgstr "メールはなくなったり、迷惑メールフィルターに飲み込まれることがあります。しかし、我々のシステムではログインした時から待っています。"
+
+# --- English text = Yes, that's right, we have an integrated messaging system that allows you to contact other members in rich text (with links!) and without ever leaving our system.  You can see that a message has been sent and when it was read.   Offers and answers to your messages be waiting for you to when you login and they are super easy to answer with templates in rich text - click a button.
+# (June 2011)
+msgid "messages.messages_text"
+msgstr "そうです。我々にはリッチ（太字・カラーなど）なテクストで（リンクを含めて！）他の会員にコンタクトが出来て、決して我々のシステムから去ることのない統合通信システムがあります。メッセージが送られ、開封されたのを知る事ができます。あなたのメッセージに対するオファーと返事はログインした時点であなたを待っています。リッチ・テクストのテンプレートでできます - ボタンをクリックしてください。　　　　　"
+
+# --- English text = Write unlimited templates for both sending and answering your messages.  For example: write a "send" template named "France - Spring Next Year" or an "answer" template "No thanks" in which you politely tell an enquiring member that their offer is not what you are looking for at the moment.  There is no limit to the number of templates you can write.  Compose more than one "No thanks" template: one for offers in which you are definitely not interested, and one for ones you might want to come back to at a later date. Or use different "send" templates to plan several holidays at once.
+# (June 2011)
+msgid "messages.templates_text"
+msgstr "あなたのメッセージに答えたり、送ったりの両方に制限の無いテンプレートで書いてください。例えば： \"送る\"　テンプレートに、\"フランス - 来年の春 \"と名づける、又は  \"返事\" テンプレートに \"関心ありません\"と書くと、今の時点であなたが探しているものと彼らのオファーはマッチしないということを丁寧にお知らせする事になるわけです。テンプレートを使用するに当たり制限はありません。 \"関心ありません\"テンプレートは一つではなくもっと作成しましょう。一つは全く興味がないオファーに対して、もう一つは、もしかしたらあとになって興味を持つかもしれないものに対してです。又は、異なった\"送る\"テンプレートは一度にいくつかの休暇を計画するためにです。"
+
+# --- English text = Member Favorites
+# (June 2011)
+msgid "member_favorites.headline"
+msgstr "お気に入りの会員"
+
+# --- English text = And speaking of coming back to an offer at a later date, that's where your Favorites list can help you keep track of your dream vacations.  With the click of a button, you can add a listing to your favorites.  Write notes in unlimited rich text in the notes section and keep track of your contacts.
+# (June 2011)
+msgid "member_favorites.text"
+msgstr "そして、あとになって一つのオファーにも戻りたいとき、お気に入りのリストに入っていると大変便利で、あなたの夢の休暇への道は続いていきます。ボタンをクリックすれば、あなたのお気に入りにがリスティングに追加されます。制限の無いリッチテクストを使って覚書をしておいて、コンタクトを続けましょう。"
+
+# --- English text = Match Alert!
+# (June 2011)
+msgid "match_alert.headline"
+msgstr "マッチ・アラート！"
+
+# --- English text = Here is a nifty tool designed with the frequent exchanger in mind.  Tell our system what sort of offers interest you, and how frequently you would like to be notified of potential matches and we'll send you an email with up to twenty potential exchange partners.  What is special about that?  The settings you put in your Match Alert profile can be completely different from those in your listing!  So, if you are trying to arrange two exchanges, one for Spring and one at Christmas, set your Christmas date preferences in your Match Alert profile, and we'll let you know about the hot prospects while you advertise in your listing for your Spring holiday dates.
+# (June 2011)
+msgid "match_alert.text"
+msgstr "これは何回もエクスチェンジをする事を考えている人向けに考えられた気のきいた道具です。どのような種類のオファーに興味があるか、可能性のある機会を通知して欲しい等を我々のシステムに知らせると、２０件までの可能性のあるエクスチェンジ・パートナーをメールでお知らせします。どこが特別なのでしょう？あなたのマッチ・アラートに設定したセッティングはあなたのリスティングとは完全に異なっているかもしれません。だから、もし、あなたが２つのアレンジを考えている場合、一つは春に、もう一つはクリスマスに、あなたのクリスマス休暇の日付をマッチ・アラートに設定してください。そしてあなたが春の休暇をリスティングに載せている間に、クリスマス休暇の可能性をあなたにお知らせする事ができます。"
+
+# --- English text = Last Minute Listings
+# (June 2011)
+msgid "hotlist.headline"
+msgstr "ラスト・ミニッツリスティング"
+
+# --- English text = This is a succinct list of members looking for a partner for an exchange within the next eight weeks.  Adding your listing to the Last Minute List is easy as clicking a button.  Your listing will appear on the Last Minute List for four days, after which you can click to add it again if you are still looking.
+# (June 2011)
+msgid "hotlist.text"
+msgstr "これは、これから８週間以内でパートナーを探している会員のための簡潔なリストです。あなたのリスティングリストにラスト・ミニッツ・リストを追加するのはとても簡単で、ボタンをクリックするだけです。あなたのリスティングはラスト・ミニッツ・リストに4日間載ります。後に、まだ探している場合はそれをもう一度クリックしてください。"
+

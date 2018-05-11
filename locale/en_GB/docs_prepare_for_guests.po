@@ -1,0 +1,97 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2011-06-07 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Home Exchange Checklist
+# --- Location = This headline is only found in the visitors information - page: Home Exchange Checklist
+# (June, 2011 - New)
+msgid "visinfo_checklist.headline"
+msgstr "Home Exchange Checklist"
+
+# --- English text = Prepare To Welcome Guests
+msgid "page.headline"
+msgstr "Prepare To Welcome Guests"
+
+# --- English text = It is important to make your home as warm and inviting for your exchange guests as you would for any of your friends. Make sure that your house is clean and ready for their arrival. Remember that you expect the same from your exchange partners.
+msgid "page.introtext"
+msgstr "It is important to make your home as warm and inviting for your exchange guests as you would for any of your friends. Make sure that your house is clean and ready for their arrival. Remember that you expect the same from your exchange partners."
+
+# --- English text = Some other ideas include:
+msgid "subhead.other_ideas"
+msgstr "Some other ideas include:"
+
+# --- English text = A bottle of wine and some flowers provide a special welcome.
+msgid "list.bottle_of_wine"
+msgstr "A bottle of wine and some flowers provide a special welcome."
+
+# --- English text = Make up beds with fresh linens, and put clean towels in the bathrooms.
+msgid "list.beds_and_food"
+msgstr "Make up beds with fresh linens, and arrange clean towels in the bathrooms."
+
+# --- English text = Make sure that staple foods such as sugar, tea, coffee and salt have not run out. Make it easy for your guests to get off to a comfortable start.
+msgid "list.staple_foods"
+msgstr "Make sure that staple foods such as sugar, tea, coffee and salt have not run out. Make it easy for your guests to get off to a comfortable start."
+
+# --- English text = Leave your refrigerator clean and empty except for basic foods for the convenience of your guest.
+msgid "list.clean_refrigerator"
+msgstr "Leave your refrigerator clean and empty except for basic foods and staples.  Examples might include: milk, ketchup, or pickles.  It is understood that food left in the refrigerator is for your guests use, and may or may not still be there upon your return.  To be clear though, you should not leave leftovers, or partially used items (opened bottles of milk) unless the item is not intended to be used in full within a few days (ketchup, mustard, condiments)."
+
+# --- English text = Be sure you have paid any bills which come due during your holiday.
+# (June, 2011 - New)
+msgid "list.pay_your_bills"
+msgstr "Be sure you have paid any bills which come due during your holiday."
+
+# --- English text = Leave instructions regarding how appliances work and where to locate the central heating/hot water, fuse box and other facilities. Ask a neighbor or friend to stop by and introduce themselves to make sure your guests are finding everything they need.
+msgid "list.appliance_instructions"
+msgstr "Leave instructions regarding how appliances work and where to locate the central heating/hot water, fuse box and other facilities. Ask a neighbor or friend to stop by and introduce themselves to make sure your guests are finding everything they need."
+
+# --- English text = Leave any necessary instructions regarding the care of plants and pets.  Don't forget to include your veterinarian's name and telephone number.
+msgid "list.pets_and_plants"
+msgstr "Leave any necessary instructions regarding the care of plants and pets.  Don't forget to include your veterinarian's name and telephone number."
+
+# --- English text = Leave a list of important numbers next to the phone, including emergency numbers, operator, directory enquiries, doctor or hospital, friends for advice if a problem arises, and babysitters or vets, if applicable.
+msgid "list.emergency_phone_numbers"
+msgstr "Leave a list of important numbers next to the phone, including emergency numbers, operator, directory enquiries, doctor or hospital, friends to call for advice if a problem arises, and babysitters, if applicable."
+
+# --- English text = Provide any special instructions for leaving your house secure.
+msgid "list.security_instructions"
+msgstr "Provide any special instructions for leaving your house secure. Leave an extra set of keys with your neighbor or friend in case of emergencies."
+
+# --- English text = Leave a note concerning milk/paper delivery, nearest petrol station/shops/supermarket
+msgid "list.local_life"
+msgstr "Leave a note concerning milk/paper delivery, nearest petrol station/shops/supermarket"
+
+# --- English text = Store irreplaceable ornaments and special personal items, if there is worry about breakage. It is not necessary or desirable to remove all ornaments and furniture.
+msgid "list.store_breakables"
+msgstr "Store irreplaceable ornaments and special personal items, if there is worry about breakage. It is not necessary or desirable to remove all ornaments and furniture."
+
+# --- English text = Prepare adequate wardrobe and drawer space for guests to store their clothes and belongings.
+msgid "list.wardrobe_space"
+msgstr "Prepare adequate wardrobe and drawer space for guests to store their clothes and belongings."
+
+# --- English text = If your guests are bringing their own laptop, be sure to leave them instructions for connecting to the internet through your router, wireless LAN, or modem.
+msgid "list.internet_access"
+msgstr "If your guests are bringing their own laptop, be sure to leave them instructions for connecting to the internet through your router, wireless LAN, or modem."
+
+# --- English text = Leave a notebook by the telephone for recording long-distance phone calls or messages.
+msgid "list.expense_notebook"
+msgstr "Leave a notebook by the telephone for recording long-distance phone calls or messages."
+
+# --- English text = Indicate if any parts of your home are off limits or equipment is not to be used e.g. office rooms or a computer.
+msgid "list.off_limits"
+msgstr "Indicate if any parts of your home are off limits or equipment is not to be used e.g. office rooms or a computer."
+
+# --- English text = Don't forget to leave the information pack you collected on the table for your guest's use.
+msgid "list.info_pack"
+msgstr "Don't forget to leave the information pack you collected on the table for your guest's use."

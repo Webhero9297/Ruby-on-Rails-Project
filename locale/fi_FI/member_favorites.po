@@ -1,0 +1,84 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-02-22 10:33+0200\n"
+"Last-Translator: Mervi Luostarinen <luostarinen@a-lomat.fi>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Member favorites
+msgid "headline"
+msgstr "Suosikkini"
+
+# --- English text = Now you can keep track of listings that you want to visit here in your Member Favorites list.  It's easy to add an entry to your favorites.  When viewing a listing that interests you, just click on the link in the left-hand column.
+msgid "intro_text"
+msgstr "Nyt voit tallettaa Suosikkeihin listaukset, joita haluat seurata. Suosikkini listalle on helppo lisätä uusia tietoja. Kun avaat jäsenen listauksen, napsauta vasemman palstan linkkiä."
+
+# --- English text = Do you really want to delete this member favorite entry?
+msgid "delete_confirm"
+msgstr "Haluatko todella poistaa tämän Suosikeista?"
+
+# --- English text = Delete this member favorite entry
+msgid "alt_delete"
+msgstr "Poista tämä jäsen Suosikeistani."
+
+# --- English text = Edit this member favorite entry
+msgid "alt_edit"
+msgstr "Muokkaa tämän jäsenen tietoja Suosikeissa"
+
+# --- English text = Save my text
+msgid "save_button"
+msgstr "Tallenna teksti"
+
+# --- English text = You do not have any entries in your Favorites list.
+msgid "no_favorites_yet"
+msgstr "Suosikkilistasi on tyhjä."
+
+# --- English text = Photo for listing
+msgid "photo_for"
+msgstr "Listauksen kuva"
+
+# --- English text was = Added to My Favorites
+# --- (Mar 2009) - edited the text for length.  New English text = "Added"
+msgid "added"
+msgstr "Lisätty"
+
+# --- English text = Sort Favorites by
+msgid "sort_by.label"
+msgstr "Järjestä Suosikit"
+
+# --- English text = Date
+msgid "sort_by.date"
+msgstr "Päivä"
+
+# --- English text = Country
+msgid "sort_by.country"
+msgstr "Maa"
+
+# --- English text = Member id
+msgid "sort_by.member_id"
+msgstr "Jäsen n:o"
+
+# --- English text = Delete Checked Favorites
+msgid "delete_multiple.button_text"
+msgstr "Poista katsotut suosikit"
+
+# --- English text = Please wait ...
+msgid "delete_multiple.disable_text"
+msgstr "Odota ..."
+
+# --- English text = Do you really want to delete all checked favorites?
+msgid "delete_multiple.confirm_text"
+msgstr "Haluatko todella poistaa kaikki katsotut suosikit?"
+
+# --- English text = Delete multiple favorites
+msgid "delete_multiple.checkbox_title_tag"
+msgstr "Poista useita suosikkeja"
+

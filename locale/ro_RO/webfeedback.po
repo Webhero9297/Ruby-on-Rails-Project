@@ -1,0 +1,136 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-02-23 18:04+0100\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Thank you for taking the time to submit comments about our site.  They have been sent to your local organiser.
+msgid "messages.thanks_comments_sent_to_organizer"
+msgstr "Va multumim pentru timpul acordat si pentru comentariile dvs referitoare la site-ul nostru. Acestea au fost transmise reprezentantului dvs local.  "
+
+# --- English text = Suggestions for Improvement
+msgid "headline"
+msgstr "Sugestii pentru Imbunatatire"
+
+# --- English text = Thanks for taking the time to offer suggestions about our site.  We are always happy to hear from our members and our interested visitors.  Your suggestions and comments guide our further development, so please tell us what you like and how we can improve!
+msgid "introtext"
+msgstr "Va multumim pentru timpul acordat transmiterii comentariilor dvs referitoare la site-ul nostru.Parerile membrilor si vizitatorilor nostri sunt foarte importante pentru imbunatatirea activitatii noastre. Pentru a devenii mai buni si mai operativi avem nevoie de sfaturile dvs"
+
+# --- English text = My Suggestions
+msgid "visitor.suggestions_headline"
+msgstr "Sugestiile mele"
+
+# --- English text = Where are you from?
+msgid "visitor.your_country"
+msgstr "Tara dvs"
+
+# --- English text = Your Full Name
+msgid "visitor.full_name"
+msgstr "Numele si prenumele"
+
+# --- English text = Your Email Address
+msgid "visitor.email"
+msgstr "Adresa e-mail"
+
+# --- English text = Feedback Category
+# --- (Feb 2011) Changed per BD request to: Subject
+#, fuzzy
+msgid "visitor.category"
+msgstr "Tipul comentariului"
+
+# --- English text = Bad Experience
+#, fuzzy
+msgid "category.bad_experience"
+msgstr "Bad Experience"
+
+# --- English text = Broken Link
+msgid "category.broken_link"
+msgstr " Link"
+
+# --- English text = Design and Content
+msgid "category.design_and_content"
+msgstr "Continut"
+
+# --- English text = Feature Request
+msgid "category.feature_request"
+msgstr "Cerere"
+
+# --- English text = Member Documents
+msgid "category.member_documents"
+msgstr "Documentele Membrului"
+
+# --- English text = Payment
+msgid "category.payment"
+msgstr "Plata"
+
+# --- English text = Registration
+msgid "category.registration"
+msgstr "Inregistrare"
+
+# --- English text = Usability
+msgid "category.usability"
+msgstr "Facilitati de utilizare"
+
+# --- English text = Other
+msgid "category.other"
+msgstr "Altele"
+
+# --- English text = Help Text
+msgid "category.help_text"
+msgstr "Text ajutator"
+
+# --- English text = Page URL
+msgid "visitor.page_url"
+msgstr "Pagina URL"
+
+# --- English text = Your Comment
+msgid "comment"
+msgstr "Comentariul dvs"
+
+# --- English text = Submit Feedback
+msgid "submit_button"
+msgstr "Trimiteti -ne parerile dvs"
+
+# --- English text = In order for your feedback to reach the widest audience among our organizers, please leave your comments in English.
+msgid "write_in_english"
+msgstr "Pentru ca sugestiile dvs sa poata fi rapid finalizate , va rugam sa scrieti comentariul dvs in limba engleza. "
+
+# --- English text = ^ Please fill in your name.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.name_is_blank"
+msgstr " ^Va rugam , completati-va numele"
+
+# --- English text = ^ Please choose the category that best fits your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_category"
+msgstr "^ Va rugam , legeti categoria care se potriveste cerintelor dvs"
+
+# --- English text = ^ Please fill in your email address so that we can contact you if necessary regarding your feedback.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.email_address_required"
+msgstr "^Va rugam , completati adresa email , daca doriti sa va contactam in legatura cu cerintele dvs"
+
+# --- English text = ^ Help us send your feedback to the correct person by choosing the country where you live.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.choose_a_country"
+msgstr "^ Alegeti din lista , tara in care locuiti , pentru ca noi sa putem transmite comentariile si sugestiile dvs reprezentantului dvs local."
+
+# --- English text = ^ Leave your feedback in the field labeled \"Your Comment\".
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.comment_required"
+msgstr "^Scrieti-ne parerile dvs in spatiul \"Comentariul dvs \"."
+
+# --- English text = ^ The code your typed in did not match the image.
+# --- IMPORTANT - DO NOT DELETE THE "^" AT THE BEGINNING OF THIS TRANSLATION.  IF YOU REMOVE IT YOUR TRANSLATION WILL NOT WORK, AND YOUR MEMBERS WILL BE SHOWN AN ERROR PAGE!!!
+msgid "errors.captcha_no_match"
+msgstr "^ Codul pe care l-ati tastat nu este corect"
+

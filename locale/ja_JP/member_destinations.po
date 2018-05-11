@@ -1,0 +1,63 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-11-22 23:48+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Destinations Wishlist
+msgid "headline"
+msgstr "目的地の希望リスト"
+
+# --- English text = Add Destinations
+msgid "add_destination_headline"
+msgstr "目的地を追加する"
+
+# --- English text = No regions available
+msgid "message.country_without_regions"
+msgstr "可能な地域なし"
+
+# --- English text = No cities available
+msgid "message.country_without_cities"
+msgstr "可能な市なし"
+
+# --- English text = My Preferred Destinations
+msgid "preferred_destinations_headline"
+msgstr "希望している目的地"
+
+# --- English text = Delete entry
+msgid "delete_entry"
+msgstr "削除入力"
+
+# --- English text = 1st step: Choose a Country
+msgid "step_one.headline"
+msgstr "最初のステップ：　国を選ぶ"
+
+# --- English text = Now, click the Add Country button if you are generally interested in visiting this country.
+msgid "step_one.text"
+msgstr "では、あなたがこの国を訪問したいと思っているのなら追加の国のボタンをクリックする。"
+
+# --- English text = 2nd Step: Choose a Region
+msgid "step_two.add_region_headline"
+msgstr "2番目のステップ：　地域を選ぶ"
+
+# --- English text = and click the Add Region button if you are interested in visiting anywhere within this region.
+msgid "step_two.add_region_text"
+msgstr "この地域内のどこかに訪れたいという興味がある場合は追加の地域ボタンをクリックする。"
+
+# --- English text = Or Alternately: Choose a City
+msgid "step_two.add_city_headline"
+msgstr "又は　そのかわりに：　市の名前での選択"
+
+# --- English text = and click the Add City button if you are very specifically interested in exchanging with members who live near this city.
+msgid "step_two.add_city_text"
+msgstr "もしあなたがこの市の近くに住む会員と特にエクスチェンジをしたいと思うなら追加の市のボタンをクリックする"
+

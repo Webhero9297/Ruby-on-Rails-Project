@@ -1,0 +1,90 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2009-06-16 16:00+0200\n"
+"PO-Revision-Date: 2011-09-20 22:54+0100\n"
+"Last-Translator: Leoni Günzler <info@haustausch.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = About Member References
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "headline"
+msgstr "Über Mitglieder-Referenzen"
+
+# --- English text = References are a way to show other members that you are a good exchange party. When you agree to act as your exchange partner's reference, you are agreeing to vouch for them as reliable and responsible exchange partners.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "introtext"
+msgstr "Referenzen von Ihren Tauschpartnern in Ihrem Angebot, geben allen anderen Mitgliedern eine gute Info für einen Tausch mit Ihnen.  Wenn Sie zustimmen, Ihren Tauschpartner als Referenz in Ihrem Angebot aufzunehmen, bürgen Sie für ihn als  einen zuverlässigen und verantwortungsbewussten Tauschpartner!"
+
+# --- English text = Intervac has two different types of references: confirmed and unconfirmed.  A confirmed reference is of course the best as it states that both parties have confirmed thier good will.  The label confirmed reference is given when the reference giver has chosen <highlight>Yes</highlight> to the question: <highlight>Act as Reference?</highlight> and the reference receiver has chosen <highlight>Yes</highlight> to the question <highlight>Allow as Reference?</highlight>
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "confirmed_unconfirmed.introtext"
+msgstr "Es gibt 2 verschiedene Referenzmöglichkeiten: bestätigt und unbestätigt. Die bestätigte Referenz ist selbstverständlich die Bessere, denn beide Parteien erklären sich einverstanden. Für die Bestätigung der Referenz wählen Sie <highlight>Ja</highlight> auf die Frage:<highlight>mit Referenz einverstanden?</highlight> Der  Partner hat<highlight>Ja</highlight>gewählt  auf die Frage<highlight>Erlauben Sie eine Referenz</highlight>."
+
+# --- English text = Why are some references unconfirmed?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.headline"
+msgstr "Warum sind einige Referenzen unbestägtigt?"
+
+# --- English text = Unconfirmed references are usually because either the member's exchange partner has not yet specifically chosen <highlight>Yes</highlight> or <highlight>No</highlight> to the question <highlight>Act as Reference?</highlight>, or it relates to an older exchange and the other member does not currently have an active membership. This could be the case especially with exchanges before April, 2011 when we launched the expanded version of our Exchange Agreements and Member References modules.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "why_unconfirmed.introtext"
+msgstr "Unbestätigte  Referenzen erfolgen, wenn Ihr Partner nicht <highlight>Ja</highlight> oder<highlight>Nein</highlight>auf Ihre Frage gegeben hat <highlight>Auftreten als Referenz?</highlight> oder es bezieht sich auf einen früheren Tauschpartner, dessen Mitgliedschaft derzeit nicht aktiv ist.Dies könnte speziell der Fall sein mit Tauschpartnern vor April 2011,da wir danach erst mit der erweiterten Version unserer Tauschvereinbarung und der Mitgliederreferenz begonnen haben."
+
+# --- English text = After you return from your exchange it's a good idea to log in and choose whether or not you want to act as your partner's reference.
+# --- Location =
+msgid "after_return.text"
+msgstr "Wenn Sie von Ihrem Tauschurlaub zurückkommen, schauen Sie in Ihr Angebot und wählen aus, ob Sie Ihren Tauschpartner als Referenz angeben oder nicht!"
+
+# --- English text = Act as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.headline"
+msgstr "Auftreten als Referenz?"
+
+# --- English text = Were you satisfied with your exchange and your partner? Select <highlight>Yes</highlight> to add your member id to your partner's list of confirmed exchange references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "act_as_reference.satisfied"
+msgstr "Waren Sie mit Ihrem Tausch und Ihrem Tauschpartner zufrieden?Wählen Sie<highlight>Ja</highlight>, fügen Sie Ihre Mitgliedsnummer in die Liste Ihres Tauschpartners ein als bestätigte Austauschreferenz."
+
+# --- English text = Dissatisfied with your exchange or your partner? Choose <highlight>No</highlight> in this box to keep your id from being displayed as an unconfirmed reference.
+# --- Location =
+msgid "act_as_reference.dissatisfied"
+msgstr "Unbefriedigt mit Ihrem Tausch oder Tauschpartner? Wählen Sie <highlight>Nein</highlight>in diesem Feld, damit Ihre ID-Nummer nicht als unbestätigte Referenz angegeben wird."
+
+# --- English text = Allow as Reference?
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.headline"
+msgstr "Erlaubt als Referenz?"
+
+# --- English text = This control allows you the final say as to which of your exchange partners are displayed in your reference list.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.introtext"
+msgstr "Diese Regelung ermöglicht Ihnen, darüber zu entscheiden, welche Ihrer Tauschpartner in Ihrer Referenz-Liste angezeigt werden sollen."
+
+# --- English text = If you were satisfied, you don't need to do anything here, <highlight>Yes<highlight> is the default so as soon as your partner chooses <highlight>Yes<highlight> in his <highlight>Acts as Reference</highlight>, his member id will be added to your confirmed references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.satisfied"
+msgstr "Wenn Sie zufrieden waren, müssen Sie hier nichts tun<highlight>.Einverstanden<highlight>erscheint erst, wenn Ihr Tauschpartner auch einverstanden<highlight>gewählt hat. Einverstanden<higlight> heißt <highlight>als Referenz aufzutreten</highlight>die Mitglieds-Nummer Ihres Partners wird bestätigt und hinzugefügt."
+
+# --- English text = Dissatisfied? Choose <hightlight>No</highlight> here If you prefer that a former partner not be allowed to act as your reference.  This will over-ride any choice made by your partner and their member number will not be displayed in your references.
+# --- Location = Help Text: Behind the help icon on the exchange agreements overview page - past agreements
+msgid "allow_as_reference.dissatisfied"
+msgstr "Unbefriedigt? Wählen Sie hier <hightlight>Nein</highlight>. Wenn Sie einem früheren Tauschpartner nicht erlauben,  als Referenz aufzutreten, wird dieser nicht berücksichtigt. "
+
+# --- English text = Added as Reference
+# --- Location = Headline after all past agreements are listed
+msgid "added_as_reference.headline"
+msgstr "Als Referenz hinzugefügt"
+
+# --- English text = Why does it say Added as Reference instead of showing the icons?
+# --- Location =
+msgid "added_as_reference.question"
+msgstr "Warum wird angegeben - als Referenz hinzugefügt - anstelle von Darstellung der Symbole?"
+

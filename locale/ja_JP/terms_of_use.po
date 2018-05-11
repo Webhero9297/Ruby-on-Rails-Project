@@ -1,0 +1,325 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2008-07-01 19:11+0100\n"
+"PO-Revision-Date: 2010-08-31 19:47+0900\n"
+"Last-Translator: \n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- Page Headline
+# --- English text = Terms of Use
+msgid "headline"
+msgstr "使用する期間"
+
+# --- English text = Intervac Trust Agreement
+msgid "subhead"
+msgstr "インターバック信頼の契約"
+
+# --- English text = Fundamental Principals
+msgid "fundamental_principals.headline"
+msgstr "主要な原則"
+
+# --- Fundamental Principles
+# --- English text = Member must be fair and honest in all his dealings with Intervac and other Members and in particular and without prejudice to the generality of the preceding words;
+msgid "fundamental_principals.fair_and_honest"
+msgstr "会員はインターバックと他の会員との取引に関して公平で正直であらねばなりません。"
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure that his home offered for exchange is fully and accurately described and illustrated on his listing;
+msgid "fundamental_principals.offer_is_accurate"
+msgstr "会員はエクスチェンジに使う家について、すべてを正確に述べ、リスティングを明確に説明しなければなりません；"
+
+# --- Fundamental Principles
+# --- English text = a Member must ensure any Negotiation with other Members is conducted in good faith with an intent of Home Exchange  and that he is open, truthful, fair and reasonable in all such Negotiations;
+msgid "fundamental_principals.negotiate_in_good_faith"
+msgstr "会員は他の会員との交渉においては、ホームエクスチェンジの趣旨に真摯に向かい合い、オープンに正直に無理のないものでなくてはなりません。"
+
+# --- Fundamental Principles
+# --- English text = a Member must be courteous and hospitable in all his dealings with other Members and must be responsive to all reasonable requests.
+msgid "fundamental_principals.courteous_and_responsive"
+msgstr "会員は他の会員との取引において礼儀正しく親切であらねばなりません。そして無理のない要求に関しては対応できるようにしましょう。"
+
+# --- Fundamental Principles
+# --- English text = Member may not act in a manner that brings Intervac or Home Exchange into disrepute.
+msgid "fundamental_principals.protect_our_reputation"
+msgstr "会員はインターバックやホームエクスチェンジについて悪評を招くような行為はしてはなりません。"
+
+# --- Cancellation
+# --- English text = Cancellation
+msgid "cancellation.headline"
+msgstr "取り消し"
+
+# --- Cancellation
+# --- English text = Member may not cancel a Home Exchange Agreement without a valid reason such as death, illness or other unforeseen circumstances beyond the Member's control.
+msgid "cancellation.not_without_valid_reason"
+msgstr "会員はホームエクスチェンジの取り決めに関して、やむをえない理由－　死、病気又は会員の予期できない事情があるとき以外は取り消す事ができません。"
+
+# --- Cancellation
+# --- English text = Member shall inform his National Representative before cancellation of a Home Exchange Agreement including the reasons for the cancellation.
+msgid "cancellation.must_inform_agent"
+msgstr "会員はホームエクスチェンジ契約の契約を取り消す前に、その理由と共に自国のインターバックの担当者に報告をしてください。"
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Consequences of Invalid Cancellation
+msgid "consequences.headline"
+msgstr "正しい理由のない取り消しの結果"
+
+# --- Consequences of Invalid Cancellation
+# --- English text = Member shall be responsible for any costs incurred by another Member as a result of cancellation of a Home Exchange Agreement without a valid reason and, at the discretion of the National Representative and the Board, shall be subject to termination of his membership.
+msgid "consequences.member_responsibilities"
+msgstr "会員がやむをえない理由が無いにもかかわらずホームエクスチェンジ契約を取り消した場合は、会員は相手方の会員が負ったコストに対し責任を持たなくてはなりません。そしてＮＲＢ（the National Representative and the Board）の評議において、取り消しをした会員の資格を止めることが話し合われるでしょう。"
+
+# --- Complaints
+# --- English text = Complaints
+msgid "complaints.headline"
+msgstr "苦情"
+
+# --- Complaints
+# --- English text = If two Complaints are made against a Member he shall be liable to termination of his membership at the discretion of the National Representative and the Board.
+msgid "complaints.liability_for_termination"
+msgstr "会員に対して２度の苦情が申し立てられた場合は、ＮＲＢ（ the National Representative and the Board.）の判断で会員資格は剥奪されます。"
+
+# --- Member's Offer Home
+# --- English text = Member's Offer Home
+msgid "offered_home.headline"
+msgstr "会員のオファーされた家"
+
+# --- Member's Offer Home
+# --- English text = Member must ensure that his home offered for exchange
+msgid "offered_home.intro_text "
+msgstr "会員はエクスチェンジにオファーされた家について"
+
+# --- Member's Offer Home
+# --- English text = is available for exchange;
+msgid "offered_home.is_available"
+msgstr "エクスチェンジが可能にしておかなければなりません；"
+
+# --- Member's Offer Home
+# --- English text = is fully insured for fire, theft, burglary and, so far as is possible, accidental damage;
+msgid "offered_home.is_insured"
+msgstr "火事、窃盗やその他に起こる恐れのある損害に対し保険に入っておかなくてはなりません；"
+
+# --- Member's Offer Home
+# --- English text = is clean; and
+msgid "offered_home.is_clean"
+msgstr "清潔である："
+
+# --- Member's Offer Home
+# --- English text = contains all the facilities described in his listing.
+msgid "offered_home.is_same_as_listing"
+msgstr "リスティングに述べられたすべてのものを含む、"
+
+# --- Motor Vehicles
+# --- English text = Motor Vehicles
+msgid "motor_vehicles.headline"
+msgstr "自動車"
+
+# --- Motor Vehicles
+# --- English text = Member must ensure that any vehicle offered for exchange is in good working order, legally compliant and, except as is notified to and agreed with the exchanging Member, comprehensively insured.
+msgid "motor_vehicles.member_responsibilities"
+msgstr "会員はエクスチェンジに含む自動車は、使用上良い状態にしておかなければなりません。会員の間で同意している場合を除き、全てがカバーされている保険が求められます。"
+
+# --- Respect for Property
+# --- English text = Respect for Property
+msgid "respect_for_property.headline"
+msgstr "プロパティに対しての尊重"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they respect each others' Property at all times and in particular and without prejudice to the generality of the preceding words;
+msgid "respect_for_property.yes_you_must"
+msgstr "会員はお互いの所有物を常に尊重しなければなりません。"
+
+# --- Respect for Property
+# --- English text = Members must ensure that they keep the Exchange Property reasonably secure at all times and comply with the terms of any applicable insurance policies both in this respect and in respect of any other insurance condition communicated to them by the owner;
+msgid "respect_for_property.keep_it_secure"
+msgstr "会員はエクスチェンジのプロパティをいつも正しく扱わなければなりません。そして、保険に適用される条件と共に家の持ち主から告げられた条件等についても常に従わなくてはなりません。"
+
+# --- Respect for Property
+# --- English text = Members must accept responsibility for any uninsured damage caused by them to the Exchanged Property.
+msgid "respect_for_property.accept_responsibility"
+msgstr "会員はエクスチェンジしたプロパティに対し、彼らが原因となる保険が適用されない損害を生じた場合は責任を負わなければならない。"
+
+# --- Pets
+# --- English text = Pets
+msgid "pets.headline"
+msgstr "ペット類"
+
+# --- Pets
+# --- English text = Members must ensure that any Pets are, so far as is possible, free of vermin including worms and fleas, vaccinated and otherwise free of health risk and clean. Members must also ensure that areas of the home to which pets have access are cleaned.
+msgid "pets.cleanliness"
+msgstr "会員はペット類に関し、できる限り、虫やのみなどの寄生虫などがいないように努め、健康被害が生じないようワクチンのあるものは接種するようしなくてはならない。"
+
+# --- Pets
+# --- English text = Members must apply high standards of care to Pets.
+msgid "pets.standards"
+msgstr "会員はペット類に対し、高水準な世話を求めなくてはならない"
+
+# --- Home Country
+# --- English text = Home Country
+msgid "home_country.headline"
+msgstr "自国"
+
+# --- Home Country
+# --- English text = Member must register on the Database under his Home Country. A Member may list a second home or holiday home situated outside his Home Country.
+msgid "home_country.required_on_registration"
+msgstr "会員は自国のデーターベースに登録されなければならない。会員は自国以外に持っているセカンドホームや別荘を、その国のリストに載せる事はできるかもしれない。"
+
+# --- Currency of Listing
+# --- English text = Currency of Listing
+msgid "listing_currency.headline"
+msgstr "最新のリスティング"
+
+# --- Currency of Listing
+# --- English text = Member is responsible for ensuring that his listing is kept current and up to date.
+msgid "listing_currency.member_responsibilities"
+msgstr "会員は自分のリスティングをいつも最新のものとするよう努力しなければならない。"
+
+# --- Use of Database
+# --- English text = Use of Database
+msgid "database.headline"
+msgstr "データーベースの利用"
+
+# --- Use of Database
+# --- English text = Member may use the Database for the purpose of negotiating Home Exchange and for no other purpose. A Member contravening this Rule is subject to immediate termination at the discretion of the National Representative and the Board.
+msgid "database.for_home_exchange_only."
+msgstr "会員はデーターベースをホームエクスチェンジの交渉の目的で使用して、他の目的には使ってはいけない。この規則に反した会員はＮＲＢ（the National Representative and the Board）において会員資格が剥奪される。"
+
+# --- Confidentiality
+# --- English text = Confidentiality
+msgid "confidentiality.headline"
+msgstr "機密保持"
+
+# --- Confidentiality
+# --- English text = Member shall keep confidential at all times all information obtained on the Database and all other information obtained from Members.
+msgid "confidentiality.member_responsibilities"
+msgstr "会員はデーターベースから得たすべての情報や会員から得たすべての情報に関して機密を保持しなければならない。 "
+
+# --- Responsibility for negotiations
+# --- English text = Responsibility for negotiations
+msgid "negotiations.headline"
+msgstr "交渉にたいする責任"
+
+# --- Responsibility for negotiations
+# --- English text = Members accept that they are solely responsible for all negotiations for Home Exchange with other Members.
+msgid "negotiations.member_responsibilities"
+msgstr "会員は他の会員とのホームエクスチェンジに関する交渉に対し責任を持たなければならない。"
+
+# --- Fees
+# --- English text = Fees
+msgid "fees.headline"
+msgstr "会費"
+
+# --- Fees
+# --- English text = A Member must pay reasonable fees to a National Representative and upon such payment his listing will be activated by the Representative.
+msgid "fees.must_be_paid"
+msgstr "会員は自国の担当者に決められた会費を支払わなければならない、そして登録の支払金で担当者は運営を行います。"
+
+# --- Definitions
+# --- English text = Definitions
+msgid "definitions.headline"
+msgstr "定義"
+
+# --- Definitions
+# --- English text = In these Rules unless the context otherwise implies:
+msgid "definitions.intro_text"
+msgstr "定義されていないこれらの規則"
+
+# --- Definitions
+# --- English text = "Board" means the Board of Directors of Intervac.
+msgid "definitions.board"
+msgstr "\"ボード\"とは、the Board of Directors of Intervac.の意味です。"
+
+# --- Definitions
+# --- English text = "Complaint" means a complaint made by a Member to a Representative that is upheld by the Board to the effect that another Member's actions are in contravention of these Rules.
+msgid "definitions.complaint"
+msgstr "\"苦情\"とは、他の会員の行動が規則に違反しているという結果をthe Boardによって確認されて、会員から担当者に報告された苦情のことです。"
+
+# --- Definitions
+# --- English text = "Database" means the Intervac international database operated at the domain names intervac.com and intervac-online.com and any other domains on which the Database may be maintained from time to time.
+msgid "definitions.database"
+msgstr "\"データーベース\"とは、インターバックの名前下でのドメインとインターバック・オンラインコム、そして毎時間ごとに維持されているデーターベース上の他のドメインで運営されるインターバック・インターナショナル・データーベースの事です。"
+
+# --- Definitions
+# --- English text = "Exchanged Property" means any Property which Members have agreed to exchange and which is occupied or used during the exchange and in particular and without prejudice to the generality of these words Property that is the subject of a Home Exchange Agreement.
+msgid "definitions.exchanged_property"
+msgstr "エクスチェンジされたプロパティy\"とは、会員間でエクスチェンジをすると同意し、滞在中に使用したプロパティ（その家に属するもの）です。これはホームエクスチェンジ契約の主題となるものです。"
+
+# --- Definitions
+# --- English text = "Home Country" means the country of normal residence (at least six months per year) of a Member in which his principal home is situated.
+msgid "definitions.home_country"
+msgstr "\"自国\" とは、会員の家がある国で、少なくとも一年に６ヶ月は住んでいる、主たる家があるところを意味します。"
+
+# --- Definitions
+# --- English text = "Home Exchange" means the process of exchanging homes for vacation or holiday purposes or of providing rental, hospitality or other services facilitated from time to time on the Database.
+msgid "definitions.home_exchange"
+msgstr "\"ホーム・エクスチェンジ\"とは、休暇のための家をエクスチェンジすること、ホームステイ、その他データーベース上にある他のサービスなどを含めた意味を言います。"
+
+# --- Definitions
+# --- English text = "Home Exchange Agreement" means an agreement for Home Exchange in Standard Form entered into by Members and Notified to Intervac.
+msgid "definitions.home_exchange_agreement"
+msgstr "\"ホーム・エクスチェンジ契約\"とは、会員間で約束されたホームエクスチェンジの一般的な契約でインターバックに報告されたものを指します。"
+
+# --- Definitions
+# --- English text = "Intervac" means Intervac International and includes its Representatives.
+msgid "definitions.intervac"
+msgstr "\"インターバック\"とは、インターバック・インターナショナルとその担当者を含む意味です。"
+
+# --- Definitions
+# --- English text = "Member" means a member of Intervac who has registered a listing on the Database.
+msgid "definitions.member"
+msgstr "\"会員\"とは、インターバックの会員でデーターベースに登録してあるものを指します。"
+
+# --- Definitions
+# --- English text = "Negotiation" means any negotiation conducted orally, by email or in writing.
+msgid "definitions.negotiation"
+msgstr "\"交渉\"とは、言葉で、メールで、手紙でなされた交渉の意味です。"
+
+# --- Definitions
+# --- English text = "Notified" and "Notification" means in relation to a Home Exchange Agreement notification of such Agreement to Intervac or a Representative.
+msgid "definitions.notification"
+msgstr "\"通知された\" and \"通知\"とは、ホームエクスチェンジ契約のインターバックか自国の担当者への通知に関連する事をいいます。"
+
+# --- Definitions
+# --- English text = "Pet" means a dog, cat or other pet and includes any animal or bird that might occupy a Member's property, garden or surroundings.
+msgid "definitions.pet"
+msgstr "\"ペット\"とは、犬、猫や他のペットのことで、会員の家や庭や周りで飼っている動物や鳥なども含めます。"
+
+# --- Definitions
+# --- English text = "Property" includes homes, vehicles and all other forms of Members' property.
+msgid "definitions.property"
+msgstr "\"プロパティ\"とは、家や車、そしてその他の会員の所有物である全てのもののことです。"
+
+# --- Definitions
+# --- English text = Representative" and "National Representative" means an Agent or Local Organiser of Intervac.
+msgid "definitions.representative"
+msgstr "\"担当者\" そして \"その国の担当者\"とは、インターバックの各国にいる担当者の事です。"
+
+# --- Definitions
+# --- English text = "Rule" means a rule or clause of these terms of use and this agreement;
+msgid "definitions.rule"
+msgstr "\"規則\"とは、規則又は使用条件と約束の条項です。"
+
+# --- Definitions
+# --- English text = "Standard Form" means the standard form of Home Exchange Agreement provided by Intervac.
+msgid "definitions.standard_form"
+msgstr "\"規格様式\"とは、インターバックによってなされたホームエクスチェンジ契約の規格様式です。"
+
+# --- English text = References to the plural include references to the singular and vice versa.
+msgid "definitions.references_to_plural_singular"
+msgstr "言語の複数形と単数形はどちらも有効です。"
+
+# --- English text = References to any gender include references to all other genders.
+msgid "definitions.references_to_gender"
+msgstr "名詞・代名詞、その他の性を参照する"
+
+# --- English text = Headings are for convenience only and do not affect the interpretation of any Rule.
+msgid "definitions.headings_are_convenience"
+msgstr "表題は法的な規則とは無関係です。"
+

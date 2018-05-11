@@ -1,0 +1,96 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2009-12-16 23:59-0000\n"
+"Last-Translator: Sesselja  <sessy1203@gmail.com>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = New and Recently Updated Listings
+msgid "headline"
+msgstr "Nýtt og nýlegar breytingar á skráningu"
+
+# --- English text = Could your next exchange partner be here? Search our database for new listings or those with recent updates by selecting from the options below. This search will show you a list of new and updated member profiles.
+msgid "intro_text"
+msgstr "Gæti næsti skiptiaðili þinn verið hér? Leitaðu í grunni okkar að nýjum boðum og hjá þeim sem nýlega hafa breytt skráningu sinni með því að velja úr grunninum hér að neðan. Leitin mun sýna þér lista yfir nýja og endurnýjaðar óskir annarra í gagnagrunninum."
+
+# --- English text = Search Criteria
+msgid "search_criteria"
+msgstr "Leitarskilyrði"
+
+# --- English text = New or updated listings in the last
+msgid "updated_within"
+msgstr "Nýir og uppfærðir í grunni á síðustu "
+
+# --- English text = Your desired destination
+msgid "destination"
+msgstr "Þínar óskir um áfangastaði"
+
+# --- English text = Wanting to exchange with my country
+msgid "my_country"
+msgstr "Vilja skipta við landið mitt"
+
+# --- English text = Include listings with \"Open for all offers\".
+# --- (Jan 2009) - Edited to remove Europe.  Please change local versions.
+msgid "include_o"
+msgstr "... inniheldur \"Opinn fyrir öllum tilboðum\""
+
+# --- English text = Display selected listings
+msgid "sort_by"
+msgstr "Raðast eftir"
+
+# --- English text = by last update
+msgid "sort.last_update"
+msgstr "nýjustu uppfærslum"
+
+# --- English text = by country
+msgid "sort.country"
+msgstr "löndum"
+
+# --- English text = new listings first
+msgid "sort.new_listings"
+msgstr "ný tilboð efst"
+
+# --- English text = Search now
+msgid "search_button"
+msgstr "Leita núna"
+
+##### --- English text = All countries
+msgid "quick_search.all_countries"
+msgstr "Öll lönd"
+
+# --- English text = The listings are updated every hour.
+msgid "update_frequency"
+msgstr "Þessi listi eru uppfærður á klukkustundar fresti"
+
+# --- English text = Last updated
+msgid "last_updated"
+msgstr "Síðast uppfærður"
+
+# --- English text = Quick Search
+msgid "quick_search.headline"
+msgstr "Hraðleit"
+
+# --- English text = Show all new and changed listings within the last 24 hours.
+msgid "quick_search.24_hours_title"
+msgstr "Sýna alla nýja og endurnýjaða í gagnagrunni síðustu 24 tíma"
+
+# --- English text = Show all new and changed listings within the last 48 hours.
+msgid "quick_search.48_hours_title"
+msgstr "Sýna alla nýja og endurnýjaða í gagnagrunni síðustu 48 tíma"
+
+# --- English text = Show all new and changed listings within the last 4days.
+msgid "quick_search.4_days_title"
+msgstr "Sýna alla nýja og endurnýjaða í gagnagrunni síðustu 4 daga"
+
+# --- English text = Show all new and changed listings within the last 7 days.
+msgid "quick_search.7_days_title"
+msgstr "Sýna alla nýja og endurnýjaða í gagnagrunni síðustu 7 daga"
+

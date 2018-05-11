@@ -1,0 +1,98 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: Intervac\n"
+"POT-Creation-Date: 2002-02-25 19:11+0100\n"
+"PO-Revision-Date: 2011-09-01 17:46-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = My Primary Photo
+#, fuzzy
+msgid "headline"
+msgstr "My Primary Photo"
+
+# --- English  text = We will also use the photo you upload here in our colour catalogue.  We require a photo of a minimum size 480 pixels by 480 pixels (length and width). If you are scanning photos please scan them at 300 dpi. We can only accept photos in a .jpg format.
+#, fuzzy
+msgid "used_for_catalog"
+msgstr "We will also use the photo you upload here in our colour catalogue.  We require a photo of a minimum size 480 pixels by 480 pixels (length and width). If you are scanning photos please scan them at 300 dpi. We can only accept photos in a .jpg format. "
+
+# --- English text = Recommended size is larger than 1024 pixels x 768 pixels.
+#, fuzzy
+msgid "recommended_size"
+msgstr "Recommended size is larger than 1024 pixels x 768 pixels."
+
+# --- English text = The maximum file size is limited to 4MB.
+#, fuzzy
+msgid "max_file_size"
+msgstr "The maximum file size is limited to 4MB."
+
+# --- English text = Please note that your photo will be optimised for display online.
+#, fuzzy
+msgid "photo_will_be_optimised"
+msgstr "Please note that your photo will be optimised for display online."
+
+# --- English text = To continue, press "browse" to find your photo, then press upload and be patient until you get a response. A new upload will replace the main photo you may already have displayed.
+#, fuzzy
+msgid "to_continue_press_browse"
+msgstr "To continue, press \"browse\" to find your photo, then press upload and be patient until you get a response. A new upload will replace the main photo you may already have displayed."
+
+# --- English text = When returning to your profile, if your new photo does not appear, try pressing the reload button on your browser.
+#, fuzzy
+msgid "important_reload_browser"
+msgstr "When returning to your profile, if your new photo does not appear, try pressing the reload button on your browser."
+
+# --- English text = Find my picture on my computer
+#, fuzzy
+msgid "find_my_picture"
+msgstr "Find my picture on my computer"
+
+# --- English text = Upload a JPG-Image
+#, fuzzy
+msgid "upload_a_jpg-image"
+msgstr "Upload a JPG-Image"
+
+# --- English text = Depending on the size of your photo file and the speed of your internet connection your upload could take a few minutes.
+#, fuzzy
+msgid "depending_on_the_size"
+msgstr "Depending on the size of your photo file and the speed of your internet connection your upload could take a few minutes."
+
+# --- Button Text
+# --- English text = Upload Now!
+#, fuzzy
+msgid "upload_now"
+msgstr "Upload Now!"
+
+# --- Error Text
+# --- English text = Please upload JPG files only.
+msgid "jpg_only"
+msgstr "Please upload JPG files only."
+
+# --- English text = Please select a photo to upload before pressing the button.
+#, fuzzy
+msgid "error.forgot_to_choose_a_photo"
+msgstr "'Please select a photo to upload before pressing the button."
+
+# --- Error Text
+# --- English text = Image sucessfully uploaded!
+#, fuzzy
+msgid "messages.upload_successful"
+msgstr "Image sucessfully uploaded!"
+
+# --- Error Text
+# --- English text = The size of your uploaded picture exceeded 4 MByte.
+#, fuzzy
+msgid "file_size_too_large"
+msgstr "The size of your uploaded picture exceeded 4 MByte."
+
+# --- English text = Do you really want to delete your main photo?
+#, fuzzy
+msgid "confirm_delete"
+msgstr "Do you really want to delete your main photo?"
+

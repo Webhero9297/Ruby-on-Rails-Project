@@ -1,0 +1,241 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Membership with Intervac
+# (June, 2011 - New)
+msgid "page.headline"
+msgstr "L'inscription Intervac"
+
+# --- English text = Free Trial Membership
+# (June, 2011 - New)
+msgid "trial_membership.headline"
+msgstr "Inscription test gratuite"
+
+# --- English text = Are you new to home exchange?  We believe we have the best home exchangers in our community.  If you'd like to find out for yourself, join us today and choose our trial membership.  You will receive unlimited access to our site for {{number}} days to try out all the features listed below, browse our database and contact our members.  You can upgrade to a full membership any time.
+# --- IMPORTANT - Do not translate the placeholder {{number}}  This will be replaced with the current number of days for the trial membership
+# (June, 2011 - New)
+msgid "trial_membership.text"
+msgstr "Encore jamais échangé ? Vous trouverez chez Intervac la meilleure communauté d'échangeurs. Profitez de cette opportunité et essayez par vous-même : plus de 80% des personnes qui ont essayé, le refont. Avec l'inscription test gratuite, vous bénéficiez des mêmes services que tout autre membre adhérent pendant une durée limitée de {{number}} jours dès lors que vous avez publié votre offre/demande d'échange."
+
+# --- English text = Site Features at Intervac.com
+# (June 2011)
+msgid "site_features.headline"
+msgstr "Nos services en ligne"
+
+# --- English text = Your Listing
+# (June 2011)
+msgid "your_listing.headline"
+msgstr "Votre offre d'échange"
+
+# --- English text = Your online entry allows you to record a great deal of information about your home and surroundings. To get the most from your membership it is essential to promote your home and its area, indicating where you are, how best to be reached and what's on offer. The more information you can give in the form of photos and text, the more it helps other members to decide that your offer is exactly what they are searching.
+# (June 2011)
+msgid "your_listing.text"
+msgstr "Votre annonce constitue à la fois votre offre et votre demande d'échange. Vous avez la possibilité d'indiquer un maximum d'informations concernant votre maison et ses environs. Pour réussir vos transactions, il est essentiel de promouvoir votre offre, ce que vous proposez et ce que vous recherchez, de préciser où vous êtes exactement et comment vous joindre facilement. Plus vous développez le contenu de votre offre, plus vous obtenez des contacts fructueux car les propositions que vous recevez correspondent alors à vos attentes."
+
+# --- English text = Photos and Descriptive Text
+# (June 2011)
+msgid "text_and_photos.headline"
+msgstr "Photos et textes complémentaires"
+
+# --- English text = Intervac provides facilities for you to post up to twenty photos and write (unlimited!) descriptive text under the headings: your home, family, lifestyle and neighbourhood. Multi-lingual members often post descriptions in their various languages in order to improve the findability of their listing by keyword searches. It is all quite easy to do, there is lots of help text available on the site, and your local organiser is happy to help if you find you have questions that are not already answered.
+# (June 2011)
+msgid "text_and_photos.text"
+msgstr "En complément de votre offre, Intervac vous permet de publier autant d'images et de textes libres que vous voulez à classer selon différentes rubriques : votre maison, votre famille, votre style de vie, votre voisinage/environnement. Vous pouvez utiliser des mots-clé pour la rédaction de vos textes, ce qui augmente l'impact de votre offre sur le site. C'est facile à réaliser, le site vous proposant de multiples \"aides en ligne\" et votre représentant national se tient volontiers à votre disposition pour vous apporter conseil et assistance."
+
+# --- English text = A Map of Your Surroundings
+# (June 2011)
+msgid "map.headline"
+msgstr "La carte de votre région"
+
+# --- English text = Every listing has an (optional) Google map so that prospective partners can get a good picture of the neighborhood where your home is located.  The marker is not by default placed precisely on your home.  If you like though, you can place it yourself using latitude and longitude.
+# (June 2011)
+msgid "map.text"
+msgstr "Chaque offre d'échange est accompagnée d'une carte géographique obtenue via Google Map de manière à localiser effectivement le logement proposé à l'échange, son environnement, ses voies d'accès, etc... Il est possible de se déplacer dans la carte, laquelle permet un triple affichage. Une flèche rouge pointe précisemment sur l'endroit où se situe le logement proposé à l'échange. Il est possible de corriger facilement si cela est nécessairel, de même qu'il est possible de refuser l'affichage de la carte géographique."
+
+# --- English text = Search Facilities
+# (June 2011)
+msgid "search_facilities.headline"
+msgstr "Facilités de recherche"
+
+# --- English text = The right combination search facility is important to your ease of finding the perfect partner.  Our online system supports searching by:
+# (June 2011)
+msgid "search_facilities.text"
+msgstr "Notre moteur de recherche vous permet de combiner plusieurs critères de préférence pour vous aider à trouver vos correspondants d'échange. Vous pouvez consulter les offres classées selon : "
+
+# --- English text = Country
+# (June 2011)
+msgid "search_facilities_list.country"
+msgstr "Le pays"
+
+# --- English text = Region
+# (June 2011)
+msgid "search_facilities_list.region"
+msgstr "La région"
+
+# --- English text = Exchange dates
+# (June 2011)
+msgid "search_facilities_list.exchange_dates"
+msgstr "Les dates d'échange"
+
+# --- English text = Exchange types
+# (June 2011)
+msgid "search_facilities_list.exchange_types"
+msgstr "Les types de transactions"
+
+# --- English text = Keyword (within the extra text in a listing)
+# (June 2011)
+msgid "search_facilities_list.keyword"
+msgstr "Les mots-clé (contenus dans les textes libres des offres)"
+
+# --- English text = Spoken language of exchange partner
+# (June 2011 )
+msgid "search_facilities_list.spoken_language"
+msgstr "Les langues parlées"
+
+# --- English text = Sleeping accommodations
+# (June 2011)
+msgid "search_facilities_list.sleeping_accomodation"
+msgstr "La capacité d'hébergement"
+
+# --- English text = Family - number of adults, with or without kids
+# (June 2011)
+msgid "search_facilities_list.family"
+msgstr "La composition de la famille - nombre d'adultes, avec ou sans enfants"
+
+# --- English text = Twenty-three important detail criteria
+# (June 2011)
+msgid "search_facilities_list.other_details"
+msgstr "Vingt-trois autres détails spécifiques (ex. non-fumeur, échange de voiture, garde animaux domestiques...)"
+
+# --- English text = Or, any combination of the above.
+# (June 2011)
+msgid "search_facilities_list.combination"
+msgstr "ou toute combinaison possible entre les critères ci-dessus."
+
+# --- English text = Want to make the same search in a week?  No problem, our system allows you to name and save your searches for reuse later.  Keep a search for Paris in the spring and Austria at Christmas time.  The number of searches you can keep is unlimited.
+# -- (Feb 2009) Hi Translators => This feature is not implemented yet, and Jens thinks he won't get to it before we launch the new system.  It is on his list of things to do though, so I've just hidden it on the page.  As soon as Jens has programmed the saved search feature, I'll un-hide this text.
+# -- (June 2011 - Not In Use)
+msgid "-x- search_facilities.named_search"
+msgstr "Vous souhaitez effectuer plusieurs recherches en même temps ? Aucun problème, notre système vous permet d'enregistrer en nombre illimité les différents résultats obtenus au cours de vos recherches pour les retrouver ultérieurement lors d'une nouvelle consultation. Vous pouvez ainsi récupérer vos recherches réalisées simultanément sur différentes destinations et périodes : Amsterdam au printemps, l'Autriche pour Noël, par exemple."
+
+# --- English text = Reverse Search?
+# (June 2011)
+msgid "reverse_search.headline"
+msgstr "Recherche inversée ?"
+
+# --- English text = We sure do, and it's the most comprehensive "reverse search" in the industry.  We encourage our members to fill in as many regions and cities as they like (it's unlimited, really!) so that you can find all members who are specifically interested in visiting your country, region or nearest city.  That's service!
+# (June 2011)
+msgid "reverse_search.text"
+msgstr "Qui veut échanger avec vous, venir chez vous ? Intervac vous donne la réponse avec la recherche inversée : ce service est exclusif et nous vous encourageons à l'utiliser au maximum. Indiquez vos destinations, villes, régions ou pays où vous souhaitez voyager (nombre illimité !) de manière à retrouver les offres d'échange qui demandent précisemment un échange dans votre région ou dans votre ville."
+
+# --- English text = What types of vacation does Intervac's online system support?
+# (June 2011)
+msgid "exchange_types.headline"
+msgstr "Les différentes formules de vacances avec Intervac"
+
+# --- English text = Home Exchange: Our main focus - two families agree to live in each other's homes over a specified period of time.
+# (June 2011)
+msgid "exchange_types_list.home_exchange"
+msgstr "Échange de Maisons : Deux famille s'accordent pour s'échanger leur logement respectif pour une durée déterminée. C'est la transaction la plus courante."
+
+# --- English text = House Sitting: Looking after someone else's home, mail, pets while they are away.
+# (June 2011)
+msgid "exchange_types_list.house_sitting"
+msgstr "House-sitting : Occuper gratuitement la maison d'un autre pendant son absence et en échange de services : entretien des plantes, soin aux animaux domestiques, relève du courrier..."
+
+# --- English text = Double Exchange: Two families (often they live near each other) looking to exchange with two families.  This type of exchange is a favorite of neighbors who vacation together and extended families.
+# (June 2011)
+msgid "exchange_types_list.double_exchange"
+msgstr "Double échange : Deux familles (résidant en général proches l'une de l'autre) échangent leurs logements respectifs avec deux autres familles. Cette formule convient particulièrement aux grandes familles ou aux amis qui veulent voyager ensemble."
+
+# --- English text = Hospitality Exchange: Members agree to exchange visits in each other’s homes.
+# (June 2011)
+msgid "exchange_types_list.hospitality_exchange"
+msgstr "Échange d'hospitalité : Pour les personnes seules ou les familles qui recherchent un accueil-échange avec d'autres membres Intervac, à réaliser gratuitement à tour de rôle."
+
+# --- English text = Long Term Exchanges: between retired people, university staff, or employees of global multi-national companies.
+# (June 2011)
+msgid "exchange_types_list.long_term_exchange"
+msgstr "Échange longue durée : Pour les personnes qui ont du temps libre, ceux qui travaillent à l'étranger, pour les universitaires, les retraités..."
+
+# --- English text = Bed and Breakfast: This is the same as the well known public variety, but is offered between members, without the exchange of monies.
+# (June 2011)
+msgid "exchange_types_list.bed_and_breakfast"
+msgstr "Bed & Breakfast : Célèbre formule exempte de toute transaction financière, le gîte et le couvert étant généralement offerts gratuitement entre les membres Intervac."
+
+# --- English text = Rentals: Members sometimes list holiday homes which they usually rent out for a drastically reduced price to members.
+# (June 2011)
+msgid "exchange_types_list.rental"
+msgstr "Location amiable : Certains logements de vacances peuvent être exceptionnellement proposés en location amiable aux autres membres Intervac. Les tarifs sont en général modérés et doivent être inférieurs à ceux pratiqués habituellement pour les locations saisonnières."
+
+# --- English text = Youth Exchange:  A chance for young people to learn about new cultures without their own parents hanging around all the time.
+# (June 2011)
+msgid "exchange_types_list.youth_exchange"
+msgstr "Échange entre jeunes :  Opportunité pour les jeunes (-de 18 ans) de réaliser un échange linguistique entre eux, grâce à l'adhésion de leurs parents, membres d'Intervac."
+
+# --- English text = Youth Hospitality: Young people agree to visit each other.
+# (June 2011)
+msgid "exchange_types_list.youth_hospitality"
+msgstr "Hospitalité entre jeunes : Pour les jeunes (- de 18 ans) qui recherchent un accueil en famille chez d'autres jeunes, membres d'Intervac. Accueil à réaliser gratuitement."
+
+# --- English text = Integrated Messaging System
+# (June 2011)
+msgid "messages.headline"
+msgstr "Système de messagerie Intervac"
+
+# --- English text = Email can get lost or sucked into a spam filter - but a an offer sent through our system is waiting for you when you login.
+msgid "messages.pullquote"
+msgstr "Envoi et réception des messages Intervac garantis à 100%. Système exclusif de confidentialité de votre e-mail. Aucun risque de spam."
+
+# --- English text = Yes, that's right, we have an integrated messaging system that allows you to contact other members in rich text (with links!) and without ever leaving our system.  You can see that a message has been sent and when it was read.   Offers and answers to your messages be waiting for you to when you login and they are super easy to answer with templates in rich text - click a button.
+# (June 2011)
+msgid "messages.messages_text"
+msgstr "Les échanges de correspondance entre les membres Intervac sont sécurisés (les adresses e-mail sont protégées) et garantis par notre système de messagerie qui bénéficie d'une technologie avancée. Sans quitter le site, vous pouvez donc composer, envoyer et recevoir des messages en texte enrichi avec des liens url et avec des pièces jointes. Notre système vous garantit l'envoi de vos messages chez vos destinataires, et vous informe de leur date de lecture par vos destinataires. Enfin, le système détecte immédiatement toute adresse e-mail erronée ou obsolète."
+
+# --- English text = Write unlimited templates for both sending and answering your messages.  For example: write a "send" template named "France - Spring Next Year" or an "answer" template "No thanks" in which you politely tell an enquiring member that their offer is not what you are looking for at the moment.  There is no limit to the number of templates you can write.  Compose more than one "No thanks" template: one for offers in which you are definitely not interested, and one for ones you might want to come back to at a later date. Or use different "send" templates to plan several holidays at once.
+# (June 2011)
+msgid "messages.templates_text"
+msgstr "Vous disposez d'un libre espace pour gérer votre messagerie personnelle Intervac : écrire et envoyer vos messages, lire les messages reçus, archiver les messages envoyés, composer et enregistrer vos modèles de messages en nombre illimité afin de répondre aux demandes (modèle de réponse-type) et lancer vos propositions d'échanges (modèle de contact-type)."
+
+# --- English text = Member Favorites
+# (June 2011)
+msgid "member_favorites.headline"
+msgstr "Liste des favoris"
+
+# --- English text = And speaking of coming back to an offer at a later date, that's where your Favorites list can help you keep track of your dream vacations.  With the click of a button, you can add a listing to your favorites.  Write notes in unlimited rich text in the notes section and keep track of your contacts.
+# (June 2011)
+msgid "member_favorites.text"
+msgstr "Intervac vous permet d'enregistrer dans une liste personnelle les offres d'échange que vous préférez et avec lesquelles vous souhaitez engager une correspondance. Vous pouvez ajouter/supprimer dans cette liste autant d'offres que vous voulez et écrire/modifier pour chacune d'elles vos notes personnelles (espace illimité) pour gérer à votre convenance vos différents contacts."
+
+# --- English text = Match Alert!
+# (June 2011)
+msgid "match_alert.headline"
+msgstr "Alertes e-mail"
+
+# --- English text = Here is a nifty tool designed with the frequent exchanger in mind.  Tell our system what sort of offers interest you, and how frequently you would like to be notified of potential matches and we'll send you an email with up to twenty potential exchange partners.  What is special about that?  The settings you put in your Match Alert profile can be completely different from those in your listing!  So, if you are trying to arrange two exchanges, one for Spring and one at Christmas, set your Christmas date preferences in your Match Alert profile, and we'll let you know about the hot prospects while you advertise in your listing for your Spring holiday dates.
+# (June 2011)
+msgid "match_alert.text"
+msgstr "Profitez de l'ingéniosité des alertes e-mails pour faciliter vos recherches et conclure vos échanges ! Il vous suffit de renseigner le système (sans changer le contenu de votre offre) en indiquant les pays que vous recherchez et en précisant à quelle fréquence vous souhaitez être prévenus. Dès qu'une offre correspond à votre demande, vous recevez un message d'alerte, ce qui vous permet d'être les premiers à envoyer votre proposition d'échange. Demandez les alertes e-mails pour un échange pendant les vacances de Noël et rédigez votre offre pour conclure un échange au printemps ou en été prochain !"
+
+# --- English text = Last Minute Listings
+# (June 2011)
+msgid "hotlist.headline"
+msgstr "Liste dernière minute - \"Hot list\""
+
+# --- English text = This is a succinct list of members looking for a partner for an exchange within the next eight weeks.  Adding your listing to the Last Minute List is easy as clicking a button.  Your listing will appear on the Last Minute List for four days, after which you can click to add it again if you are still looking.
+# (June 2011)
+msgid "hotlist.text"
+msgstr "Si vous ne disposez que d'un court délai pour trouver un échange, vous pouvez utiliser ce service exclusif réservé aux échanges de dernière minute, à réaliser sous huit semaines. D'un simple clic, ajoutez votre offre à cette liste où elle apparaît pendant quatre jours. Vous pouvez y renouveler votre présence autant de fois que nécessaire."
+

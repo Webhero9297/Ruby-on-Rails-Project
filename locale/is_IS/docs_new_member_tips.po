@@ -1,0 +1,111 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: member_documents\n"
+"POT-Creation-Date: 2009-04-09 18:17+0100\n"
+"PO-Revision-Date: 2012-02-11 11:43-0000\n"
+"Last-Translator: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Tips for New Members
+msgid "page.headline"
+msgstr "Ráð fyrir nýja meðlimi"
+
+# --- English text = If you are an experienced exchanger and have suggestions for improving this text, please send us a web feedback and use the category: Member Documents.
+msgid "page.ee_suggestions"
+msgstr "Ef þú ert reyndur heimilaskiptafélagi og ert með tillögur sem gætu bætt þessar leiðbeiningar, biðjum við þig að senda okkur skilaboð vegna þessa - merkt: Skjöl meðlima."
+
+# --- English text = Setting Up Your Listing
+msgid "set_up_your_listing.headline"
+msgstr "Útbúðu skráningu þína"
+
+# --- English text = As soon as you have completed the registration process you can log-in to your intervac listing and begin setting it up.  It is important to repeat that until you have actually finished filling in your listing, it remains invisible to other members.  So, let's do that...
+msgid "set_up_your_listing.introtext"
+msgstr "Um leið og þú hefur skráð þig hjá Intervac, getur þú skráð þig inn á vefinn okkar og búið til þitt eigið heimasvæði. Það er mikilvægt að setja inn allar nauðsynlegar upplýsingar til þess að það verði sýnilegt öðrum. Svo það er næst...."
+
+# --- English text = After you have logged in, on the member home page, in the left-hand column just underneath the orange navigation box you will see a set of links titled \"My Listing\".  Begin by clicking on \"Edit My Listing\"
+msgid "set_up_your_listing.list_go_login"
+msgstr "Þegar þú hefur skráð þig inn á þitt heimasvæði, sérðu dálkinn\"Skráningin mín\" vinstra megin á síðunni neðan við appelsínugula kassann.  Byrjaðu á því að smella á \"Breyta eigin skráningu\""
+
+# --- English text = Fill in the form with your desired travel dates, information about your family, your home, and your surroundings.  Don't forget to save your changes by clicking the orange button at the top, or the bottom of the page.
+msgid "set_up_your_listing.list_edit_listing"
+msgstr "Fylltu í reitina eins og við á og ekki sleppa neinum stjörnumerktum reit. Settu inn óskir um ferðadagsetningar, upplýsingar um fjölskyldu og nágrenni þitt. Ekki gleyma að vista það sem þú skráir með því að smella á appelsínugula hnappinn efst eða neðst á síðunni. "
+
+# --- English text = Your Destinations Wishlist
+msgid "set_up_your_listing.destinations_wishlist_headline"
+msgstr "Óskalisti áfangastaða þinna"
+
+# --- English text = Using the "My Listing" navigation click on "Destinations Wishlist" to begin to alert other members to your wish to visit their area.  By default "Open for All Countries" is chosen, but you can enter as many countries, regions, and cities as you like.  The more you choose, the better your chances of getting offers from people in those places using the Reverse Search to find potential exchange partners.
+msgid "set_up_your_listing.list_destinations_wishlist"
+msgstr "Undir \"Skráningin mín\" geturðu smellt á \"Óskalisti áfangastaða\" til að kynna öðrum félagsmönnum hvert þú vilt fara. Með því að velja \"Opin fyrir öllum löndum\" er allt opið en auk þess getur þú skráð eins mörg lönd, héruð og borgir og þig lystir. Því fleiri staði sem þú velur þér, þeim mun líklegra er að þú komir fram í leit annarra þegar þeir leita frá sínu heimasvæði og merkja við Breytið leit."
+
+# --- English text = Place your Google Marker
+msgid "set_up_your_listing.google_marker_headline"
+msgstr "Merkið með Google merkinu"
+
+# --- English text = Using the "My Listing" navigation check the position of your Google Maps marker by clicking on the link "Place Google Marker".  If you are offering a second home, or want to use latitude and longitude to place the marker more exactly there are forms and instructions on this page for doing so.
+msgid "set_up_your_listing.list_gmap_marker"
+msgstr "Undir \"Skráningin mín\" er að finna hlekk til að skrá inn heimili þitt á  Google Maps; \"Merkið með Google merkinu\".  Þetta uppfærist sjálfkrafa en hægt að handstilla ef um er að ræða eign sem er ekki á sama stað og heimilisfangið þitt, eins og sumarbústaður þinn eða annað húsnæði."
+
+# --- English text = Additional Text and Photos
+msgid "set_up_your_listing.text_and_photos_headline"
+msgstr "Að setja inn texta og myndir"
+
+# --- English text = Take some time and look at other member's listings.  Then gather together photos of your home, your family and pets, your neighborhood, and your region.  Now you are ready to upload them and to write (unlimited) free text to fill in your listing. You can do both of these things by clicking on "Add Text and Photos" in the "My Listing" navigation.
+msgid "set_up_your_listing.list_additional_text_and_photos"
+msgstr "Það getur verið gott að líta yfir skráningar annarra. Safnaðu síðan saman myndum af heimili þínu, fjölskyldu og gæludýrum, nágrenni og umhverfi. Þú hleður þeim síðan inn á heimasvæðið þitt og skrifar inn aðlaðandi lýsingartexta eins og við á. Þú gerir það undir hlekknum \"Skráið texta og myndir\" undir \"Skráningin mín\"."
+
+# --- English text = Contacting Prospective Partners
+msgid "contact_partners.headline"
+msgstr "Samband við væntanlega skiptifélaga"
+
+# --- English text = Our messaging service allows you to send an inquiry by clicking on the "Send Email" link you will find on every listing.  You will automatically receive a copy of messages that you send through the Intervac online system.
+msgid "contact_partners.how_it_works"
+msgstr "Skilaboðaskjóðan okkar gerir þér kleift að senda fyrirspurnir með því að smella á \"Sendið skilaboð\" til hvers sem þú óskar, þegar þú ert innskráð/ur. Þú færð sjálfvirkt sent afrit af skilaboðunum í netpóstinn þinn."
+
+# --- English text = Logging in to answer your mail has advantages! You can compose unlimited templates for use and re-use when contacting new exchange partners, answering offers from other members, or during the agreement process.
+msgid "contact_partners.about_templates"
+msgstr "Skráðu þig inn til þess að svara þeim pósti sem þér hefur borist! Þú getur búið til ótakmarkaðan fjölda staðlaðra texta sem þú getur notað að vild."
+
+# --- English text = For each holiday you are planning, compose a contact template introducing you and your family to potential exchange partners.  Include interesting information about your home and neighbourhood, and be sure to include the dates you are available for an exchange.
+msgid "contact_partners.contact_templates"
+msgstr "Fyrir hver ný skipti sem þú hefur hug á að stofna til, skaltu búa til staðlað skeyti með kynningu á þér og fjölskyldu þinni handa mögulegum skiptifélögum þínum. Hafðu með áhugaverðar upplýsingar um heimili þitt og umhverfi og taktu fram þær dagsetningar sem þú ert með í huga. "
+
+# --- English text = Prepare a couple of answer templates for replying easily to offers you receive.  Write one for offers that you are not interested in, and another one for offers that interest you but for dates when you already have an exchange, or are not available.  When you have received a message from another member, you can easily load one of these templates into the response box and edit/personalise the text for that response before sending.
+msgid "contact_partners.answer_templates"
+msgstr "Hafðu tiltæk nokkur stöðluð svarskeyti til þess að bregðast fljótt við þeim fyrirspurnum sem þér berast. Eitt getur verið fyrir tilboð sem þú hefur engan áhuga á og annað fyrir tilboð sem freista þín en henta ekki að sinni en gætu komið til greina á öðrum tíma. Þegar þú færð fyrirspurn frá öðrum meðlimi er auðvelt að setja inn slíkan texta og breyta að vild eins og við á hverju sinni. "
+
+# --- English text = You could also prepare a contact template for use in the initial agreement phase.  More tips about the Exchange Agreement can be found in the document: Reaching an Agreement.
+msgid "contact_partners.tips_for_exchange_agreement"
+msgstr "Þú getur einnig útbúið staðlað skeyti til að nota á fyrstu stigum samskipta vegna væntanlegra heimilaskipta. Fleiri ráð vegna heimilaskiptasamninga finnur þú undir hlekknum \"Ábendingar og gátlisti\" undir Hagnýtar tengingar. "
+
+# --- English text = Gather Information For Your Exchange Partner
+msgid "gathering_information.headline"
+msgstr "Taktu saman upplýsingar fyrir skiptifélaga þinn "
+
+# --- English text = Visit your local Tourist Office and prepare an information pack with brochures from local museums, theatres and fun parks.  If your town doesn't have a tourist office, sometimes you can find these brochures in the lobby of a local hotel.
+msgid "gathering_information.information_pack"
+msgstr "Komdu við á upplýsingamiðstöð ferðamanna og búðu til upplýsingapakka með bæklingum frá söfnum, leikhúsum og öðru áhugaverðu efni. "
+
+# --- English text = Take some time to think about your community from a visitor's point of view.  Where is the local charm?  Collect a list of local restaurants, with information about the food and service. Add to that a list of grocery stores, and shopping centers.   One of the joys of home exchange is frequenting places that the locals do.
+msgid "gathering_information.local_charm"
+msgstr "Gefðu þér tíma til þess að hugsa nágrenni þitt út frá augum gestanna. Hvað er aðlaðandi við svæðið? Safnaðu saman lista yfir veitingastaði ásamt leiðbeiningum um veitingaframboð þeirra. Bættu við listann matvöruverslunum og verslunarmiðstöðvum. Hluti af ánægju heimilaskiptanna er fólgið í því að gera eins og heimamenn.  "
+
+# --- English text = Consider your home from your guest's point of view.  Are there simple improvements that could make it more comfortable?  Is everything in working order?
+msgid "gathering_information.consider_your_home"
+msgstr "Skoðaðu heimili þitt með augum gestsins. Eru einhver einföld atriði sem gætu verið til þæginda? Virkar allt eins og það á að gera?"
+
+# --- English text = Contact your insurance companies for household insurance and for your car (if you are swapping cars) to make sure everything is adequately covered.
+msgid "gathering_information.insurance"
+msgstr "Hafðu samband við tryggingarfélagið þitt vegna heimilistrygginga og vegna bílsins - ef þið skiptið honum líka - til að vera viss um að allt sé í lagi. "
+
+# --- English text = Browse the internet and bookmark the homepage of your local cinema so your guests can find out what is playing during their visit.
+msgid "gathering_information.cinema"
+msgstr "Gefðu gestunum upp heimasíður t.d. leikhúsa, kvikmyndahúsa o.þ.h. svo þeir geti áttað sig á dagskrá og opnunartímum á meðan dvöl þeirra stendur. "
+

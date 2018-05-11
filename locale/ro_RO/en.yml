@@ -1,0 +1,71 @@
+# version: ivac-ror
+# Do not change above "version:" without talking to Jens
+# This file is ok for uploading through the agent area
+# -- Nancy Carroll (January, 2009)
+msgid ""
+msgstr ""
+"Project-Id-Version: visitors_tour\n"
+"POT-Creation-Date: 2002-01-19 18:17+0100\n"
+"PO-Revision-Date: 2010-06-25 21:23+0200\n"
+"Last-Translator: carmen duta <info@intervac.ro>\n"
+"Language-Team: Nancy Carroll <nancy.carroll@carroll.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# --- English text = Why Choose Intervac?
+msgid "headline"
+msgstr "De ce sa alegeti Intervac?"
+
+# --- English text = Personal service
+msgid "personal_service.headline"
+msgstr "Serviciu personal"
+
+# --- English text = We have thirty five agents around the world. They will do everything to help you find a great exchange.  We are located in your country, and speak your language. Contact us.
+msgid "personal_service.text"
+msgstr "Avem 35 agenti in intreaga lume .Acestia fac totul pentru a va ajuta sa gasiti schimbul cel mai convenabil.  Ne aflam si in tara dvs si vorbim limba dvs."
+
+# --- English text = Contact us
+msgid "personal_service.contact_link"
+msgstr "Contactati-ne"
+
+# --- English text = Click here to find contact information for your local Intervac agent.
+msgid "personal_service.contact_link_title"
+msgstr "Faceti clic aici pentru a gasi informatii de contact despre agentul local Intervac."
+
+# --- English text = Database Mix
+msgid "database_mix.headline"
+msgstr "Baza de date"
+
+# --- English text = We have been around a long time (over 55 years!), and the healthy balance of experienced members we are proud to have in our database shows it.
+msgid "database_mix.text"
+msgstr "Existam de peste 55 ani si in baza noastra de date exista numai membrii cu care ne mandrim."
+
+# --- English text = Detailed guidelines
+msgid "detailed_guidelines.headline"
+msgstr "Ghiduri detaliate"
+
+# --- English text = We have detailed guidelines for home exchange that are updated regularly in light of our organisers and their members' experience.  Our online system is well documented with plenty of help text to give you a boost when find yourself stuck in the middle of the night.
+msgid "detailed_guidelines.text"
+msgstr "Va oferim ghiduri si informatii practice detaliate, actualizate, datorita experientelor prin care au trecut membrii nostri. In plus , site-ul nostru Internet va propune o documentare bogata insotita de texte explicative si de suport on-line"
+
+# --- English text = There are cheaper organisations out there.
+msgid "not_the_cheapest.headline"
+msgstr "Exista servicii mai ieftine"
+
+# --- English text = There is a difference between what we value, and free stuff we grab on a whim.
+msgid "not_the_cheapest.pullquote"
+msgstr "Exista o diferenta intre o societate valoroasa ca Intervac  si ofertele gratuite alese la repezeala ."
+
+# --- English text = It's true, there are.  It is good to remember that there is a difference between a database full of members who pay for and value membership and databases full of spontaneous listings where the homeowners are not fully convinced they want to exchange their homes for yours - even for a holiday.  They sign up thinking to themselves: "Oh, why not just try it and see what happens. it's free!".
+msgid "not_the_cheapest.spontanious_listings_text"
+msgstr "Da ! Este adevarat ca exista! Dar este de asemenea adevarat ca exista o diferenta de valoare intre un serviciu care ofera dovezi si garantii de reusita , cu membrii seriosi si motivati , si un nou site Internet , gratuit , unde se anunta diferite oferte de catre persoane care nu sunt pe deplin convinse de principiul schimbului de case. De cele mai multe ori , ei gandesc :\" De ce nu ? Sa incercam si sa vedem ce iese! E gratuit!\""
+
+# --- English text = Then not much happens because everyone is waiting around on everyone else, and they weren't sure they wanted to exchange anyway...
+msgid "not_the_cheapest.not_much_happens_text"
+msgstr "Atunci , nici nu se produce mare lucru , fiecare asteapta si este destul de dificil sa ajungi la un acord cand niciunul dintre parteneri nu este convins ca doreste sa schimbe casa"
+
+# --- English text = In contrast, Intervac has, over the last 55+ years, had the pleasure of hosting an international community of families and couples who love home exchange, and enjoy actively searching for a partner for their upcoming holidays. Our members are often experienced exchangers who have enjoyed the benefits of membership with Intervac for many years.
+msgid "not_the_cheapest.intervac_members_text"
+msgstr "Contrar acestor site-uri , Intervac are de 55 ani o comunitate de familii si cupluri pasionate de schimbul de case , care sunt interesati de \"jocul\" corespondentei pentru a-si afla noi parteneri de schimb pentru vacante.Membrii nostri au de cele mai multe ori o experienta bogata in schimburi prin Intervac , , caruia ii raman fideli si devin an de an mai entuziasmati si mai placut impresionati"
+
