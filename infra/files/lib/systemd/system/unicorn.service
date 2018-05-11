@@ -1,0 +1,16 @@
+[Unit]
+Description=Unicorn Server
+Requires=mongodb.service
+After=mongodb.service
+
+[Service]
+User=intervac
+WorkingDirectory=/var/www/intervac/current
+Environment=RAILS_ENV=production
+SyslogIdentifier=unicorn-intervac
+PIDFile=/var/www/intervac/current/tmp/pids/unicorn-systemd.pid
+
+ExecStart=/usr/local/bin/bundle exec "unicorn -D -c /var/www/intervac/current/config/unicorn.rb -E production"
+
+[Install]
+WantedBy=multi-user.target

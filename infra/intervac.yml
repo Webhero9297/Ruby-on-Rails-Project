@@ -1,0 +1,117 @@
+- hosts: '{{ target }}'
+  become: True
+  pre_tasks:
+    - raw: apt-get update -qq && apt-get install -y --no-install-recommends --force-yes python-simplejson
+  tasks:
+    # recommended by modondo document
+    # => apt-get update apt-get upgrade apt-get install build-essential apt-get install curl git-core ufw python-software-properties postgresql bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libcurl4-openssl-dev libopenssl-ruby bash-completion apache2 apache2-dev nodejs libyaml-dev libxslt-dev libxml2-dev imagemagick postgresql
+
+    - name: super-ugly hack to allow unauthenticated packages to install
+      copy: content='APT::Get::AllowUnauthenticated "true";' dest=/etc/apt/apt.conf.d/99temp owner=root group=root mode=0644
+
+    # users
+    - user: name=sysop shell=/bin/bash groups=sudo,www-data append=yes
+    - user: name=intervac shell=/bin/bash groups=www-data append=yes
+    - shell: usermod -p '*' intervac
+
+    # ssh access intervac
+    - file: dest=/home/intervac/.ssh state=directory owner=intervac group=intervac recurse=yes
+    - copy: src=files/home/intervac/.ssh/authorized_keys dest=/home/intervac/.ssh/authorized_keys owner=intervac group=intervac mode=644
+
+    # ssh access sysop
+    - file: dest=/home/sysop/.ssh state=directory owner=sysop group=sysop recurse=yes
+    - copy: src=files/home/sysop/.ssh/authorized_keys dest=/home/sysop/.ssh/authorized_keys owner=sysop group=sysop mode=644
+
+    # "Install main packages"
+    - apt: name=apt-utils update_cache=yes install_recommends=yes state=latest
+    - apt: name=software-properties-common state=latest
+    - apt: name=python-software-properties state=latest
+    - apt: name=build-essential state=latest
+    - apt: name=unzip state=latest
+    - apt: name=git state=latest
+    - apt: name=dh-autoreconf state=latest
+    - apt: name=curl state=latest
+
+    # "Install ruby2.2 from brightbox repositories"
+    - apt_repository: repo='deb http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu trusty main' state=present filename='brightbox'
+    - apt: name=ruby2.2 update_cache=yes state=latest
+    - apt: name=ruby2.2-dev state=latest
+    - apt_repository: repo='deb http://ppa.launchpad.net/brightbox/ruby-ng/ubuntu trusty main' state=absent filename='brightbox'
+
+    # "Install application specific dependencies"
+    - apt: name=libcurl3-dev update_cache=yes state=latest
+    - apt: name=libmysqlclient-dev state=latest
+    - apt: name=postgresql-common state=latest
+    - apt: name=libsqlite3-dev state=latest
+    - apt: name=libmagickwand-dev state=latest
+    - apt: name=imagemagick state=latest
+    - apt: name=libpq-dev state=latest
+    - apt: name=libsnappy-dev state=latest
+
+    # mongodb
+    - apt: name=mongodb state=latest
+    - apt: name=mongodb-clients state=latest
+    - copy: src=files/etc/mongodb.conf dest=/etc/mongodb.conf owner=root mode=644
+
+    - git: repo=https://github.com/spotify/sparkey.git dest=/tmp/sparkey
+    - shell: cd /tmp/sparkey && autoreconf --install && ./configure && make && make install && ldconfig
+
+    # "Fixes Rmagick problem with Magick-config"
+    - file: src=/usr/lib/x86_64-linux-gnu/ImageMagick-6.8.9/bin-Q16/Magick-config dest=/usr/bin/Magick-config state=link
+
+    # install gems needed for the project
+    # this step should be removed in the future as all gems will be vendorized in the deploy process
+    - file: dest=/tmp/intervac state=directory
+    - file: dest=/tmp/intervac/lib state=directory
+    - copy: src=../Gemfile dest=/tmp/intervac
+    - copy: src=../Gemfile.lock dest=/tmp/intervac
+    - copy: src=../lib/modondo_mailgun dest=/tmp/intervac/lib
+    - shell: gem install bundler --no-ri --no-rdoc
+    - shell: cd /tmp/intervac && bundle install
+
+    # directory for the application
+    - file: dest=/tmp/intervac state=absent
+    - file: dest=/var/www/intervac state=directory owner=intervac group=www-data mode=755 recurse=yes
+
+    # install and config nginx + passenger
+    # references: https://www.phusionpassenger.com/library/install/nginx/install/enterprise/xenial/ and https://www.phusionpassenger.com/orders/show
+    - apt: name=nginx-extras state=latest
+    - copy: src=files/etc/passenger-enterprise-license dest=/etc/passenger-enterprise-license
+    - apt_key: keyserver=hkp://keyserver.ubuntu.com:80 id=561F9B9CAC40B2F7
+    - apt: name=apt-transport-https update_cache=yes
+    - apt: name=ca-certificates state=latest
+    - copy: src=files/etc/apt/sources.list.d/passenger.list dest=/etc/apt/sources.list.d/passenger.list owner=root mode=600
+    - apt: update_cache=yes
+    - apt: name=passenger-enterprise state=latest
+
+    # setting up nginx and passenger
+    - copy: src=files/etc/nginx/nginx.conf dest=/etc/nginx/nginx.conf owner=root mode=600
+    - copy: src=files/etc/nginx/passenger.conf dest=/etc/nginx/passenger.conf owner=root mode=600
+    - copy: src=files/etc/nginx/sites-available/intervac dest=/etc/nginx/sites-available/intervac owner=root mode=600
+    - file: dest=/etc/nginx/ssl state=directory owner=root mode=755 recurse=yes
+    - copy: src=files/etc/nginx/ssl/intervac.crt dest=/etc/nginx/ssl/intervac.crt owner=root mode=600
+
+    # the certificate key is not included in the repository and must be added (but not committed) before running
+    - copy: src=files/etc/nginx/ssl/intervac.key dest=/etc/nginx/ssl/intervac.key owner=root mode=600
+
+    - file: src=/etc/nginx/sites-available/intervac dest=/etc/nginx/sites-enabled/intervac state=link
+    - service: state=restarted name=nginx
+
+    # ufw for firewall
+    - apt: name=ufw state=latest
+
+    # this is our SSH port
+    - shell: ufw allow 4195
+
+    - shell: ufw allow 443
+    - shell: ufw allow 80
+
+    # FIXME: 22 is still needed to make ansible to work via SFTP.
+    - shell: ufw allow 22
+    - shell: ufw enable
+
+    # sshd configuration
+    - copy: src=files/etc/ssh/sshd_config dest=/etc/ssh/sshd_config owner=root group=root mode=644
+
+    # fix permissions for the application directory
+    - file: path=/var/www/intervac state=directory mode=0755 recurse=yes group=www-data owner=intervac

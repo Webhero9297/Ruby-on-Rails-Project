@@ -1,0 +1,8 @@
+#!/bin/bash
+
+target=$1
+
+params="--verbose --ask-become-pass"
+ansible_user=${ansible_user:-sysop}
+
+ansible-playbook --private-key=/home/pothix/.ssh/id_rsa -u $ansible_user $params -i hosts.ini --extra-vars target=$target intervac.yml
